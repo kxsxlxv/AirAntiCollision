@@ -1,0 +1,244 @@
+{
+  "kind": "2D augmentation/cache replay, not real airborne validation",
+  "details": [
+    {
+      "condition": "identity",
+      "mode": "fixed",
+      "frames": 250,
+      "camera_valid_frames": 250,
+      "median_stabilization_error_px": 0.0,
+      "p95_stabilization_error_px": 0.0,
+      "counts": {
+        "approach": {
+          "total": 250,
+          "untracked": 52,
+          "detected": 179,
+          "uncertain": 163,
+          "reason_history": 51,
+          "reason_growth_unresolved": 60,
+          "reason_overlap": 43,
+          "reason_confirm_warning": 9,
+          "threat": 35,
+          "reason_bearing_growth": 35
+        },
+        "other": {
+          "total": 199,
+          "untracked": 30,
+          "detected": 137,
+          "uncertain": 89,
+          "reason_history": 24,
+          "reason_overlap": 6,
+          "reason_confirm_non_threat": 30,
+          "nonthreat": 80,
+          "reason_crossing": 80,
+          "reason_growth_unresolved": 29
+        }
+      }
+    },
+    {
+      "condition": "identity",
+      "mode": "auto",
+      "frames": 250,
+      "camera_valid_frames": 98,
+      "median_stabilization_error_px": 0.5626198076373954,
+      "p95_stabilization_error_px": 5.502425440561267,
+      "counts": {
+        "approach": {
+          "total": 250,
+          "untracked": 52,
+          "detected": 179,
+          "uncertain": 195,
+          "reason_camera": 104,
+          "reason_history": 78,
+          "reason_confirm_warning": 7,
+          "reason_overlap": 6,
+          "threat": 3,
+          "reason_bearing_growth": 3
+        },
+        "other": {
+          "total": 199,
+          "untracked": 30,
+          "detected": 137,
+          "uncertain": 169,
+          "reason_history": 60,
+          "reason_camera": 109
+        }
+      }
+    },
+    {
+      "condition": "pan",
+      "mode": "fixed",
+      "frames": 250,
+      "camera_valid_frames": 250,
+      "median_stabilization_error_px": 101.5724687107683,
+      "p95_stabilization_error_px": 193.3548199554384,
+      "counts": {
+        "approach": {
+          "total": 250,
+          "untracked": 52,
+          "detected": 179,
+          "uncertain": 198,
+          "reason_history": 51,
+          "reason_growth_unresolved": 60,
+          "reason_overlap": 74,
+          "reason_confirm_non_threat": 13
+        },
+        "other": {
+          "total": 199,
+          "untracked": 30,
+          "detected": 137,
+          "uncertain": 96,
+          "reason_history": 24,
+          "reason_overlap": 21,
+          "reason_confirm_non_threat": 22,
+          "reason_growth_unresolved": 29,
+          "nonthreat": 73,
+          "reason_crossing": 73
+        }
+      }
+    },
+    {
+      "condition": "pan",
+      "mode": "auto",
+      "frames": 250,
+      "camera_valid_frames": 87,
+      "median_stabilization_error_px": 0.8249000282780972,
+      "p95_stabilization_error_px": 6.5241947394294195,
+      "counts": {
+        "approach": {
+          "total": 250,
+          "untracked": 52,
+          "detected": 179,
+          "uncertain": 195,
+          "reason_camera": 116,
+          "reason_history": 68,
+          "reason_confirm_warning": 6,
+          "reason_overlap": 5,
+          "threat": 3,
+          "reason_bearing_growth": 3
+        },
+        "other": {
+          "total": 199,
+          "untracked": 30,
+          "detected": 137,
+          "uncertain": 169,
+          "reason_history": 51,
+          "reason_camera": 118
+        }
+      }
+    },
+    {
+      "condition": "zoom",
+      "mode": "fixed",
+      "frames": 250,
+      "camera_valid_frames": 250,
+      "median_stabilization_error_px": 45.52674818170085,
+      "p95_stabilization_error_px": 169.2934160208246,
+      "counts": {
+        "approach": {
+          "total": 143,
+          "untracked": 53,
+          "detected": 76,
+          "uncertain": 90,
+          "reason_history": 51,
+          "reason_growth_unresolved": 24,
+          "reason_overlap": 12,
+          "reason_confirm_non_threat": 3
+        },
+        "other": {
+          "total": 117,
+          "untracked": 40,
+          "detected": 62,
+          "uncertain": 48,
+          "reason_history": 24,
+          "reason_confirm_non_threat": 24,
+          "nonthreat": 29,
+          "reason_crossing": 29
+        }
+      }
+    },
+    {
+      "condition": "zoom",
+      "mode": "auto",
+      "frames": 250,
+      "camera_valid_frames": 47,
+      "median_stabilization_error_px": 0.0,
+      "p95_stabilization_error_px": 1.266794686283621,
+      "counts": {
+        "approach": {
+          "total": 143,
+          "untracked": 53,
+          "detected": 76,
+          "uncertain": 90,
+          "reason_camera": 61,
+          "reason_history": 29
+        },
+        "other": {
+          "total": 117,
+          "untracked": 40,
+          "detected": 62,
+          "uncertain": 77,
+          "reason_history": 28,
+          "reason_camera": 49
+        }
+      }
+    },
+    {
+      "condition": "roll",
+      "mode": "fixed",
+      "frames": 250,
+      "camera_valid_frames": 250,
+      "median_stabilization_error_px": 41.29696519648358,
+      "p95_stabilization_error_px": 152.52712326636833,
+      "counts": {
+        "approach": {
+          "total": 250,
+          "untracked": 52,
+          "detected": 179,
+          "uncertain": 198,
+          "reason_history": 51,
+          "reason_growth_unresolved": 53,
+          "reason_overlap": 94
+        },
+        "other": {
+          "total": 110,
+          "untracked": 36,
+          "detected": 60,
+          "uncertain": 71,
+          "reason_history": 24,
+          "reason_overlap": 14,
+          "reason_confirm_non_threat": 16,
+          "nonthreat": 3,
+          "reason_crossing": 3,
+          "reason_growth_unresolved": 17
+        }
+      }
+    },
+    {
+      "condition": "roll",
+      "mode": "auto",
+      "frames": 250,
+      "camera_valid_frames": 75,
+      "median_stabilization_error_px": 0.2473870238203974,
+      "p95_stabilization_error_px": 1.4058466121391282,
+      "counts": {
+        "approach": {
+          "total": 250,
+          "untracked": 52,
+          "detected": 179,
+          "uncertain": 198,
+          "reason_camera": 135,
+          "reason_history": 63
+        },
+        "other": {
+          "total": 110,
+          "untracked": 36,
+          "detected": 60,
+          "uncertain": 74,
+          "reason_history": 27,
+          "reason_camera": 47
+        }
+      }
+    }
+  ]
+}

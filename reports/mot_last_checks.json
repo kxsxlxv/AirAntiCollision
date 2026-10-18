@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "all_passed": true,
+  "runs": [
+    {
+      "name": "async_botsort",
+      "exit_code": 0,
+      "external_seconds": 55.880218300000706
+    },
+    {
+      "name": "async_ocsort",
+      "exit_code": 0,
+      "external_seconds": 33.7738210000025
+    },
+    {
+      "name": "async_diffmot",
+      "exit_code": 0,
+      "external_seconds": 50.61562320000667
+    },
+    {
+      "name": "async_trackssm",
+      "exit_code": 0,
+      "external_seconds": 55.82524140000169
+    },
+    {
+      "name": "summary",
+      "exit_code": 0,
+      "external_seconds": 0.9453457000054186
+    },
+    {
+      "name": "comparison_videos",
+      "exit_code": 0,
+      "external_seconds": 32.07030159999704
+    },
+    {
+      "name": "regression",
+      "exit_code": 0,
+      "external_seconds": 4.434276599997247
+    },
+    {
+      "name": "environment",
+      "exit_code": 0,
+      "external_seconds": 2.4046295000007376
+    }
+  ]
+}

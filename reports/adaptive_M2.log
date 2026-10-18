@@ -1,0 +1,106 @@
+100 frames, 35.56 FPS, {'uncertain': 206}
+200 frames, 35.71 FPS, {'uncertain': 369, 'nonthreat': 8}
+300 frames, 34.05 FPS, {'uncertain': 408, 'nonthreat': 8, 'threat': 82}
+400 frames, 33.56 FPS, {'uncertain': 429, 'nonthreat': 8, 'threat': 182}
+{
+  "timestamp_utc": "2026-10-17T22:34:15.752549+00:00",
+  "args": {
+    "video": "data/qut/M2.mp4",
+    "weights": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\yolo26m_local.engine",
+    "output": "artifacts/adaptive_dev/M2",
+    "conf": 0.18,
+    "stride": 2,
+    "max_frames": null,
+    "camera": "fixed",
+    "policy": "confirmed",
+    "geometry": "log",
+    "tiled": false,
+    "adaptive_tiles": true,
+    "no_render": true,
+    "detections": null,
+    "title": "RGB \u2022 \u0430\u043d\u0430\u043b\u0438\u0437 \u0441\u0431\u043b\u0438\u0436\u0435\u043d\u0438\u044f"
+  },
+  "config": {
+    "window": 4.0,
+    "min_span": 6.0,
+    "min_history": 2.0,
+    "min_samples": 10,
+    "threat_miss": 2.0,
+    "nonthreat_miss": 5.0,
+    "horizon": 60.0,
+    "max_log_residual": 0.16,
+    "growth_floor": 0.008
+  },
+  "policy_parameters": {
+    "warning_seconds": 0.24,
+    "nonthreat_seconds": 1.2
+  },
+  "source_hashes": {
+    "cli.py": "724e43ffd47645af19e1f5eb768bba9172ba4a9c900aaf04015d90e9c5260921",
+    "detector.py": "302e92e09bf89dbdc79ca2d74375189d3bf55c5a8ff26d341fc34694f10db5dd",
+    "geometry.py": "39086e1f6e3ce0177b9c8ea48277043c510aea8c524ce88e5619b24d259a4fe7",
+    "policy.py": "c57bc3ff5b7e0077fbb9b1a1060140666749c099c1d68f326988cbf794583d60",
+    "projective.py": "684f7fa766e9432818207756101a119a61addf645c9bcabbec137f510ba61d7e",
+    "render.py": "0e4b2aeeb4ff2d03956fcab7a06882b231f75ea8afdd476b9df4a52eb9a179d2",
+    "tracking.py": "b35ddbf8f57602e638570e9a78805a547342124e1eb5464c08de5133c4d0e88b",
+    "__init__.py": "4c2fe2d65d95a24fa3f28ace4a87f32fe8717d7eba6b67e9a97636e1270d8a50",
+    "__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3"
+  },
+  "frames": 438,
+  "elapsed_s": 12.896282700000029,
+  "processing_fps": 33.96327532429163,
+  "source_fps": 25.0,
+  "output_fps": 12.5,
+  "startup_and_warmup_s": 1.8374140999999327,
+  "states_track_frames": {
+    "uncertain": 445,
+    "nonthreat": 8,
+    "threat": 207
+  },
+  "stages": {
+    "detector_ms": {
+      "mean": 19.819703652969874,
+      "p50": 13.582749999841326,
+      "p95": 45.56322500002352
+    },
+    "network_calls": {
+      "mean": 3.089041095890411,
+      "p50": 2.0,
+      "p95": 7.0
+    },
+    "camera_ms": {
+      "mean": 4.603632191765843,
+      "p50": 4.891049999969255,
+      "p95": 6.1658350000243445
+    },
+    "tracker_ms": {
+      "mean": 0.12763926940546855,
+      "p50": 0.1175500001409091,
+      "p95": 0.2430900003446368
+    },
+    "threat_ms": {
+      "mean": 0.886828082193502,
+      "p50": 1.1330999998335756,
+      "p95": 1.5350050000506599
+    },
+    "decode_ms": {
+      "mean": 1.9154408675830252,
+      "p50": 1.8792999999277527,
+      "p95": 2.1115149999559435
+    }
+  },
+  "providers": [
+    "TensorRT 11.4.0.106"
+  ],
+  "hardware": "NVIDIA GeForce RTX 4060",
+  "cv2": "5.0.0",
+  "cv2_path": "C:\\Data\\DEV\\Libs\\opencv_cuda_5\\install\\python\\cv2\\__init__.py",
+  "cuda_devices": 1,
+  "resolution": [
+    1280,
+    720
+  ],
+  "batch": 1,
+  "weights_sha256": "89e5d441f97a1cc3731340460cfa584a1f401c2d08fad01f17b5aacff1c258d9",
+  "caveat": "offline throughput incl decode, stages, trace and encode flush; not certified streaming latency"
+}

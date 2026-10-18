@@ -1,0 +1,11 @@
+{
+  "name": "S2",
+  "output": "demo\\S2_final",
+  "frames": 438,
+  "processing_fps": 25.20079756727017,
+  "whole_run_fps": 21.98588544303727,
+  "states": {
+    "uncertain": 292,
+    "threat": 140
+  }
+}

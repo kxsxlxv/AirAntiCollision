@@ -1,0 +1,16 @@
+flight_id,date,start_frame,end_frame,total frames,video_start_frame,first_target_frame,notes,Other target frames
+S1,2020-06-23,7305,11728,4423,10200,10240,Flashing bright target aircraft in near-horizon clouds and haze.,
+S2,2020-06-23,16816,24549,7733,22560,22601,Target aircraft transitions between dim and bright in cloudy sky.,
+S3,2020-06-23,3435,9544,6109,7500,7696,Dim target aircraft in cloudy sky.,
+S4,2020-06-24,50391,51587,1196,50300,50400,Bright target aircraft in clear sky. ,
+S5,2020-06-24,57750,59426,1676,58200,58297,Bright target aircraft in clear sky. ,
+S6,2020-06-24,65460,67513,2053,66330,66406,Bright target aircraft in clear sky. ,
+S7,2020-06-24,94412,100067,5655,98700,98828,Bright target aircraft in clear sky. ,
+M1,2020-06-24,80746,83019,2273,81750,81840,"Bright target in clear sky, with second aircraft flashing in and out of view",81895-83019
+M2,2020-06-24,5900,9790,3890,8300,8388,"Bright target in clear sky, with second aircraft dim aircraft crossing",7800-9312
+M3,2020-06-24,22571,25044,2473,22800,22904,"Dim target in clear sky, second dim aircraft with flashing lights, third dim aircraft crossingarget fist appears as dim dot",22570-23649 & 24430-25044
+M4,2020-06-24,25040,27269,2229,25900,25904," Bright target aircraft in clear sky, second dim aircraft, third aircraft transitions from dim to bright, fourth dim aircraft.",24950-25039  & 24950-26319 & 26080-27269
+M5,2020-06-24,30423,35898,5475,34750,34840,"Bright target aircraft in clear sky, second aircraft transitions from dim to bright, third aircraft transitions from bright to dim, fourth dim aircraft.",30640-32699 & 32630-35339 & 35580-35898
+M6,2020-06-24,40220,43461,3241,42200,42349,"Bright target aircraft in clear sky, second bright aircraft.",41970-42959
+M7,2020-06-24,70061,75830,5769,74550,74695,"Bright target aircraft in clear sky, second aircraft transitions from bright to dim, third dim aircraft.",70760-72144 & 73450-75369
+M8,2020-06-24,90000,91326,1326,90000,90090," Bright target aircraft in clear sky, second aircraft both bright and dim components (close to camera).",90000-90174

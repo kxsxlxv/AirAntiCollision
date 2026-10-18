@@ -1,0 +1,2 @@
+crop2_clip1_hac1 {'approach': {'total': 4031, 'uncertain': 2064, 'untracked': 1166, 'threat': 801}, 'other': {'total': 3273, 'untracked': 1256, 'uncertain': 1866, 'nonthreat': 151}}
+crop2_clip1_hac1_window6 {'approach': {'total': 4031, 'uncertain': 2035, 'untracked': 1166, 'threat': 830}, 'other': {'total': 3273, 'untracked': 1256, 'uncertain': 1684, 'nonthreat': 330, 'threat': 3}}

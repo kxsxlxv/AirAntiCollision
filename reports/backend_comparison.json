@@ -1,0 +1,259 @@
+{
+  "frames": 18,
+  "fp32_onnx_detections": 14,
+  "trt_detections": 14,
+  "matched": 14,
+  "median_center_error_px": 0.14010417000899053,
+  "max_coordinate_error_px": 0.2324218749998863,
+  "max_confidence_error": 0.0019510388374328613,
+  "precision": "TRT built from supplied FP16 ONNX; engine I/O FP32; ONNX CPU from supplied FP32 model",
+  "caveat": "small development conversion spot check, not full accuracy equivalence or fair latency benchmark; other GPU workload may run",
+  "frames_detail": [
+    {
+      "sequence": "M1",
+      "frame": 0,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.03799328007443821,
+          "max_coordinate_error_px": 0.05207477916370351,
+          "confidence_error": 0.0008345246315002441
+        }
+      ],
+      "cpu_s": 0.315273800000341,
+      "trt_s": 0.09095010000010006
+    },
+    {
+      "sequence": "M1",
+      "frame": 100,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.14288388686722475,
+          "max_coordinate_error_px": 0.20123845880686986,
+          "confidence_error": 0.0019510388374328613
+        }
+      ],
+      "cpu_s": 0.2876538000000437,
+      "trt_s": 0.007220500000130414
+    },
+    {
+      "sequence": "M1",
+      "frame": 200,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.16406973442747508,
+          "max_coordinate_error_px": 0.2324218749998863,
+          "confidence_error": 0.0015091300010681152
+        }
+      ],
+      "cpu_s": 0.27930700000024444,
+      "trt_s": 0.006703000000015891
+    },
+    {
+      "sequence": "M1",
+      "frame": 300,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.225105875418205,
+          "max_coordinate_error_px": 0.22836581143474177,
+          "confidence_error": 0.001402437686920166
+        }
+      ],
+      "cpu_s": 0.2715584000002309,
+      "trt_s": 0.006512299999940296
+    },
+    {
+      "sequence": "M1",
+      "frame": 400,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.040767825069163224,
+          "max_coordinate_error_px": 0.22555819424724177,
+          "confidence_error": 0.0004298090934753418
+        }
+      ],
+      "cpu_s": 0.2670404000000417,
+      "trt_s": 0.006298400000105175
+    },
+    {
+      "sequence": "M1",
+      "frame": 500,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.05298637115134129,
+          "max_coordinate_error_px": 0.14192893288361574,
+          "confidence_error": 0.00043314695358276367
+        }
+      ],
+      "cpu_s": 0.2557846999998219,
+      "trt_s": 0.006996499999786465
+    },
+    {
+      "sequence": "M1",
+      "frame": 600,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.07266884065174051,
+          "max_coordinate_error_px": 0.18487548828125,
+          "confidence_error": 0.0016059279441833496
+        }
+      ],
+      "cpu_s": 0.2587386999998671,
+      "trt_s": 0.006708800000069459
+    },
+    {
+      "sequence": "M1",
+      "frame": 700,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.05858722215596249,
+          "max_coordinate_error_px": 0.2057939009233678,
+          "confidence_error": 0.0016442537307739258
+        }
+      ],
+      "cpu_s": 0.26093429999991713,
+      "trt_s": 0.006737899999734509
+    },
+    {
+      "sequence": "M1",
+      "frame": 800,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.14055353829369913,
+          "max_coordinate_error_px": 0.20421530983662706,
+          "confidence_error": 0.0008183717727661133
+        }
+      ],
+      "cpu_s": 0.25871280000001207,
+      "trt_s": 0.006905600000209233
+    },
+    {
+      "sequence": "M2",
+      "frame": 0,
+      "onnx_count": 0,
+      "trt_count": 0,
+      "matches": [],
+      "cpu_s": 0.2531801000000087,
+      "trt_s": 0.007234199999857083
+    },
+    {
+      "sequence": "M2",
+      "frame": 100,
+      "onnx_count": 0,
+      "trt_count": 0,
+      "matches": [],
+      "cpu_s": 0.2667653000003156,
+      "trt_s": 0.006566000000020722
+    },
+    {
+      "sequence": "M2",
+      "frame": 200,
+      "onnx_count": 0,
+      "trt_count": 0,
+      "matches": [],
+      "cpu_s": 0.28257339999981923,
+      "trt_s": 0.008989800000108517
+    },
+    {
+      "sequence": "M2",
+      "frame": 300,
+      "onnx_count": 0,
+      "trt_count": 0,
+      "matches": [],
+      "cpu_s": 0.278606000000309,
+      "trt_s": 0.008236099999976432
+    },
+    {
+      "sequence": "M2",
+      "frame": 400,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.14224850860938906,
+          "max_coordinate_error_px": 0.17205810546875,
+          "confidence_error": 0.0008370876312255859
+        }
+      ],
+      "cpu_s": 0.30285520000006727,
+      "trt_s": 0.007961799999975483
+    },
+    {
+      "sequence": "M2",
+      "frame": 500,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.13965480172428194,
+          "max_coordinate_error_px": 0.21502130681824383,
+          "confidence_error": 0.0011658668518066406
+        }
+      ],
+      "cpu_s": 0.28421049999997194,
+      "trt_s": 0.008038899999974092
+    },
+    {
+      "sequence": "M2",
+      "frame": 600,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.05376298533566078,
+          "max_coordinate_error_px": 0.18524724786925617,
+          "confidence_error": 0.0001760721206665039
+        }
+      ],
+      "cpu_s": 0.31907490000003236,
+      "trt_s": 0.010642300000199612
+    },
+    {
+      "sequence": "M2",
+      "frame": 700,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.14258963238195418,
+          "max_coordinate_error_px": 0.22069757634938014,
+          "confidence_error": 0.00046569108963012695
+        }
+      ],
+      "cpu_s": 0.2943783999999141,
+      "trt_s": 0.009730599999784317
+    },
+    {
+      "sequence": "M2",
+      "frame": 800,
+      "onnx_count": 1,
+      "trt_count": 1,
+      "matches": [
+        {
+          "center_error_px": 0.1985824408448762,
+          "max_coordinate_error_px": 0.2052168412642459,
+          "confidence_error": 0.0001322031021118164
+        }
+      ],
+      "cpu_s": 0.33723360000021785,
+      "trt_s": 0.00798659999964002
+    }
+  ]
+}

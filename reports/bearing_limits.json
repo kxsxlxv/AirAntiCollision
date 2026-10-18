@@ -1,0 +1,2407 @@
+{
+  "kind": "analytical 2D pinhole counterexample; no images or flight simulation",
+  "counts": {
+    "log_0deg": {
+      "close_threat": 5,
+      "borderline_uncertain": 3,
+      "far_uncertain": 3,
+      "far_nonthreat": 6,
+      "close_uncertain": 1
+    },
+    "projective_0deg": {
+      "close_threat": 6,
+      "borderline_uncertain": 3,
+      "far_nonthreat": 7,
+      "far_uncertain": 2
+    },
+    "log_30deg": {
+      "close_threat": 5,
+      "borderline_uncertain": 3,
+      "far_uncertain": 3,
+      "far_nonthreat": 6,
+      "close_uncertain": 1
+    },
+    "projective_30deg": {
+      "close_threat": 6,
+      "borderline_uncertain": 3,
+      "far_nonthreat": 7,
+      "far_uncertain": 2
+    },
+    "log_60deg": {
+      "close_threat": 5,
+      "borderline_uncertain": 6,
+      "far_nonthreat": 4,
+      "borderline_nonthreat": 2,
+      "close_uncertain": 1
+    },
+    "projective_60deg": {
+      "close_threat": 6,
+      "borderline_uncertain": 5,
+      "borderline_nonthreat": 3,
+      "far_nonthreat": 4
+    },
+    "log_75deg": {
+      "close_threat": 5,
+      "close_uncertain": 4,
+      "borderline_uncertain": 3,
+      "borderline_nonthreat": 5,
+      "far_nonthreat": 1
+    },
+    "projective_75deg": {
+      "close_threat": 6,
+      "close_uncertain": 3,
+      "borderline_nonthreat": 6,
+      "far_nonthreat": 1,
+      "borderline_uncertain": 2
+    },
+    "log_80deg": {
+      "close_threat": 5,
+      "close_uncertain": 7,
+      "borderline_nonthreat": 4,
+      "close_nonthreat": 2
+    },
+    "projective_80deg": {
+      "close_threat": 6,
+      "close_uncertain": 5,
+      "close_nonthreat": 3,
+      "borderline_nonthreat": 4
+    },
+    "log_85deg": {
+      "close_threat": 5,
+      "close_uncertain": 7,
+      "close_nonthreat": 5,
+      "borderline_nonthreat": 1
+    },
+    "projective_85deg": {
+      "close_threat": 6,
+      "close_uncertain": 5,
+      "close_nonthreat": 6,
+      "borderline_nonthreat": 1
+    }
+  },
+  "rows": [
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 15.0,
+      "state": "threat",
+      "estimated_plane_miss": 1.179548184902281e-13
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 15.0,
+      "state": "threat",
+      "estimated_plane_miss": 0.0
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.9977851578566089,
+      "true_2d_cpa_time_s": 14.93362831858407,
+      "state": "threat",
+      "estimated_plane_miss": 0.8597321240165595
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.9977851578566089,
+      "true_2d_cpa_time_s": 14.93362831858407,
+      "state": "threat",
+      "estimated_plane_miss": 1.0000000000000069
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 3.864939758404985,
+      "true_2d_cpa_time_s": 14.004149377593361,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.436870623717107
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 3.864939758404985,
+      "true_2d_cpa_time_s": 14.004149377593361,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.9999999999999685
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 5.570860145311556,
+      "true_2d_cpa_time_s": 12.93103448275862,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.1553059355758695
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 5.570860145311556,
+      "true_2d_cpa_time_s": 12.93103448275862,
+      "state": "nonthreat",
+      "estimated_plane_miss": 5.999999999999995
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 7.0588235294117645,
+      "true_2d_cpa_time_s": 11.678200692041521,
+      "state": "nonthreat",
+      "estimated_plane_miss": 6.8737412474344355
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 7.0588235294117645,
+      "true_2d_cpa_time_s": 11.678200692041521,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.999999999999995
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 10.943058062101276,
+      "true_2d_cpa_time_s": 7.016632016632016,
+      "state": "nonthreat",
+      "estimated_plane_miss": 13.747482494868922
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 10.943058062101276,
+      "true_2d_cpa_time_s": 7.016632016632016,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999986
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 25.0,
+      "state": "threat",
+      "estimated_plane_miss": 3.974934187951452e-13
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 25.0,
+      "state": "threat",
+      "estimated_plane_miss": 0.0
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.9992009587217895,
+      "true_2d_cpa_time_s": 24.960063897763575,
+      "state": "threat",
+      "estimated_plane_miss": 0.9182950429777019
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.9992009587217895,
+      "true_2d_cpa_time_s": 24.960063897763575,
+      "state": "threat",
+      "estimated_plane_miss": 1.0000000000000608
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 3.9497625276668216,
+      "true_2d_cpa_time_s": 24.37597503900156,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.6731801719113166
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 3.9497625276668216,
+      "true_2d_cpa_time_s": 24.37597503900156,
+      "state": "uncertain",
+      "estimated_plane_miss": 4.000000000000033
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 5.834323811883105,
+      "true_2d_cpa_time_s": 23.63842662632375,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.504925179622564
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 5.834323811883105,
+      "true_2d_cpa_time_s": 23.63842662632375,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.999999999999982
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 7.619393177594594,
+      "true_2d_cpa_time_s": 22.677793904208997,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.339900239495079
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 7.619393177594594,
+      "true_2d_cpa_time_s": 22.677793904208997,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.99999999999998
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 13.476342410584182,
+      "true_2d_cpa_time_s": 17.735527809307605,
+      "state": "nonthreat",
+      "estimated_plane_miss": 14.679800478990789
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 13.476342410584182,
+      "true_2d_cpa_time_s": 17.735527809307605,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999943
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 40.0,
+      "state": "threat",
+      "estimated_plane_miss": 1.1251202752498519e-12
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 40.0,
+      "state": "threat",
+      "estimated_plane_miss": 0.0
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.9996876464081228,
+      "true_2d_cpa_time_s": 39.97501561524047,
+      "state": "uncertain",
+      "estimated_plane_miss": 0.9493446821072078
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.9996876464081228,
+      "true_2d_cpa_time_s": 39.97501561524047,
+      "state": "threat",
+      "estimated_plane_miss": 0.9999999999999606
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 3.9801487608399566,
+      "true_2d_cpa_time_s": 39.603960396039604,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.7973787284311693
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 3.9801487608399566,
+      "true_2d_cpa_time_s": 39.603960396039604,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.9999999999999023
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 5.933618117209785,
+      "true_2d_cpa_time_s": 39.119804400978,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.696068092647765
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 5.933618117209785,
+      "true_2d_cpa_time_s": 39.119804400978,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.999999999999808
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 7.844645405527362,
+      "true_2d_cpa_time_s": 38.46153846153846,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.594757456865467
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 7.844645405527362,
+      "true_2d_cpa_time_s": 38.46153846153846,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.999999999999945
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 14.855627054164149,
+      "true_2d_cpa_time_s": 34.48275862068965,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.189514913729916
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 0,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 14.855627054164149,
+      "true_2d_cpa_time_s": 34.48275862068965,
+      "state": "nonthreat",
+      "estimated_plane_miss": 16.000000000000103
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 15.0,
+      "state": "threat",
+      "estimated_plane_miss": 1.58452336314535e-13
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 15.0,
+      "state": "threat",
+      "estimated_plane_miss": 0.0
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.8905889223791554,
+      "true_2d_cpa_time_s": 15.405047999022514,
+      "state": "threat",
+      "estimated_plane_miss": 0.8597321240166591
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.8905889223791554,
+      "true_2d_cpa_time_s": 15.405047999022514,
+      "state": "threat",
+      "estimated_plane_miss": 1.000000000000001
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 3.8198900355300127,
+      "true_2d_cpa_time_s": 16.133339597762035,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.436870623717512
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 3.8198900355300127,
+      "true_2d_cpa_time_s": 16.133339597762035,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.9999999999999796
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 5.9078097860055845,
+      "true_2d_cpa_time_s": 16.03165291430793,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.155305935575689
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 5.9078097860055845,
+      "true_2d_cpa_time_s": 16.03165291430793,
+      "state": "nonthreat",
+      "estimated_plane_miss": 5.999999999999974
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 7.992261280889309,
+      "true_2d_cpa_time_s": 15.351454546954464,
+      "state": "nonthreat",
+      "estimated_plane_miss": 6.873741247434384
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 7.992261280889309,
+      "true_2d_cpa_time_s": 15.351454546954464,
+      "state": "nonthreat",
+      "estimated_plane_miss": 8.000000000000023
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 14.371724608739143,
+      "true_2d_cpa_time_s": 8.683339140897823,
+      "state": "nonthreat",
+      "estimated_plane_miss": 13.747482494869189
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 14.371724608739143,
+      "true_2d_cpa_time_s": 8.683339140897823,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999996
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 3.972054645195637e-15,
+      "true_2d_cpa_time_s": 24.999999999999996,
+      "state": "threat",
+      "estimated_plane_miss": 5.339651375323893e-13
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 3.972054645195637e-15,
+      "true_2d_cpa_time_s": 24.999999999999996,
+      "state": "threat",
+      "estimated_plane_miss": 0.0
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.8808793938671949,
+      "true_2d_cpa_time_s": 25.416956138866468,
+      "state": "threat",
+      "estimated_plane_miss": 0.9182950429772483
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.8808793938671949,
+      "true_2d_cpa_time_s": 25.416956138866468,
+      "state": "threat",
+      "estimated_plane_miss": 1.0000000000000608
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 3.691411164004599,
+      "true_2d_cpa_time_s": 26.421757570008776,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.6731801719115706
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 3.691411164004599,
+      "true_2d_cpa_time_s": 26.421757570008776,
+      "state": "uncertain",
+      "estimated_plane_miss": 4.000000000000009
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 5.68521154132386,
+      "true_2d_cpa_time_s": 26.8172851120163,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.504925179621778
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 5.68521154132386,
+      "true_2d_cpa_time_s": 26.8172851120163,
+      "state": "uncertain",
+      "estimated_plane_miss": 6.00000000000001
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 7.747555729965189,
+      "true_2d_cpa_time_s": 26.930919007585324,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.339900239496598
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 7.747555729965189,
+      "true_2d_cpa_time_s": 26.930919007585324,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.9999999999999565
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 15.968692221758069,
+      "true_2d_cpa_time_s": 24.00152331680328,
+      "state": "nonthreat",
+      "estimated_plane_miss": 14.67980047899303
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 15.968692221758069,
+      "true_2d_cpa_time_s": 24.00152331680328,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999982
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 40.0,
+      "state": "threat",
+      "estimated_plane_miss": 1.5114086777469042e-12
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 40.0,
+      "state": "threat",
+      "estimated_plane_miss": 0.0
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.8753457602876451,
+      "true_2d_cpa_time_s": 40.4232274572608,
+      "state": "uncertain",
+      "estimated_plane_miss": 0.9493446821068214
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.8753457602876451,
+      "true_2d_cpa_time_s": 40.4232274572608,
+      "state": "threat",
+      "estimated_plane_miss": 0.9999999999999946
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 3.6098153350638293,
+      "true_2d_cpa_time_s": 41.55506000435421,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.7973787284308527
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 3.6098153350638293,
+      "true_2d_cpa_time_s": 41.55506000435421,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.9999999999999303
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 5.517306686235495,
+      "true_2d_cpa_time_s": 42.168138305128146,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.696068092647448
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 5.517306686235495,
+      "true_2d_cpa_time_s": 42.168138305128146,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.999999999999907
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 7.484834077923999,
+      "true_2d_cpa_time_s": 42.64252455784618,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.594757456865081
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 7.484834077923999,
+      "true_2d_cpa_time_s": 42.64252455784618,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.9999999999999245
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 15.754159429348226,
+      "true_2d_cpa_time_s": 42.75107443815449,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.189514913730635
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 30,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 15.754159429348226,
+      "true_2d_cpa_time_s": 42.75107443815449,
+      "state": "nonthreat",
+      "estimated_plane_miss": 16.000000000000295
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 15.0,
+      "state": "threat",
+      "estimated_plane_miss": 3.188832429789182e-13
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 15.0,
+      "state": "threat",
+      "estimated_plane_miss": 2.1633509282589502e-15
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.5147870026246105,
+      "true_2d_cpa_time_s": 15.44133622020118,
+      "state": "threat",
+      "estimated_plane_miss": 0.859732124016635
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.5147870026246105,
+      "true_2d_cpa_time_s": 15.44133622020118,
+      "state": "threat",
+      "estimated_plane_miss": 0.9999999999999997
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 2.254693037840563,
+      "true_2d_cpa_time_s": 16.86237161308302,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.4368706237173576
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 2.254693037840563,
+      "true_2d_cpa_time_s": 16.86237161308302,
+      "state": "uncertain",
+      "estimated_plane_miss": 4.000000000000016
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 3.6022171852590117,
+      "true_2d_cpa_time_s": 17.880774919820283,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.155305935576247
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 3.6022171852590117,
+      "true_2d_cpa_time_s": 17.880774919820283,
+      "state": "nonthreat",
+      "estimated_plane_miss": 6.000000000000012
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 5.124706899740727,
+      "true_2d_cpa_time_s": 18.93518281025894,
+      "state": "nonthreat",
+      "estimated_plane_miss": 6.8737412474345385
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 5.124706899740727,
+      "true_2d_cpa_time_s": 18.93518281025894,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.999999999999983
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 13.320684434394682,
+      "true_2d_cpa_time_s": 22.37913648016493,
+      "state": "nonthreat",
+      "estimated_plane_miss": 13.747482494869066
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 13.320684434394682,
+      "true_2d_cpa_time_s": 22.37913648016493,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999975
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 7.944109290391274e-15,
+      "true_2d_cpa_time_s": 24.999999999999996,
+      "state": "threat",
+      "estimated_plane_miss": 1.0745978169486485e-12
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 7.944109290391274e-15,
+      "true_2d_cpa_time_s": 24.999999999999996,
+      "state": "threat",
+      "estimated_plane_miss": 3.416784625266791e-14
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.5087865545814801,
+      "true_2d_cpa_time_s": 25.438010630982156,
+      "state": "threat",
+      "estimated_plane_miss": 0.9182950429767077
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.5087865545814801,
+      "true_2d_cpa_time_s": 25.438010630982156,
+      "state": "threat",
+      "estimated_plane_miss": 0.9999999999998823
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 2.1468968606364647,
+      "true_2d_cpa_time_s": 26.811460834304214,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.6731801719106634
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 2.1468968606364647,
+      "true_2d_cpa_time_s": 26.811460834304214,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.9999999999999014
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 3.3404467735586634,
+      "true_2d_cpa_time_s": 27.774862538974986,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.50492517962206
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 3.3404467735586634,
+      "true_2d_cpa_time_s": 27.774862538974986,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.999999999999957
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 4.623514773894348,
+      "true_2d_cpa_time_s": 28.773156648039173,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.339900239495982
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 4.623514773894348,
+      "true_2d_cpa_time_s": 28.773156648039173,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.999999999999945
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 10.805447486032643,
+      "true_2d_cpa_time_s": 32.96908347015077,
+      "state": "nonthreat",
+      "estimated_plane_miss": 14.679800478991702
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 10.805447486032643,
+      "true_2d_cpa_time_s": 32.96908347015077,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999993
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 1.5888218580782548e-14,
+      "true_2d_cpa_time_s": 40.00000000000001,
+      "state": "threat",
+      "estimated_plane_miss": 3.041690086977913e-12
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 1.5888218580782548e-14,
+      "true_2d_cpa_time_s": 40.00000000000001,
+      "state": "threat",
+      "estimated_plane_miss": 3.510374904682591e-15
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.5054618042979355,
+      "true_2d_cpa_time_s": 40.436137202885114,
+      "state": "uncertain",
+      "estimated_plane_miss": 0.9493446821082615
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.5054618042979355,
+      "true_2d_cpa_time_s": 40.436137202885114,
+      "state": "threat",
+      "estimated_plane_miss": 1.0000000000000864
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 2.0898088713273486,
+      "true_2d_cpa_time_s": 41.78191432940892,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.7973787284331904
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 2.0898088713273486,
+      "true_2d_cpa_time_s": 41.78191432940892,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.999999999999791
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 3.2058140326624387,
+      "true_2d_cpa_time_s": 42.70985359266185,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.696068092646815
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 3.2058140326624387,
+      "true_2d_cpa_time_s": 42.70985359266185,
+      "state": "uncertain",
+      "estimated_plane_miss": 6.000000000000099
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 4.372707969263016,
+      "true_2d_cpa_time_s": 43.661711543264694,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.594757456864447
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 4.372707969263016,
+      "true_2d_cpa_time_s": 43.661711543264694,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.99999999999994
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 9.605912494024027,
+      "true_2d_cpa_time_s": 47.68206645285408,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.189514913728068
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 60,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 9.605912494024027,
+      "true_2d_cpa_time_s": 47.68206645285408,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999948
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 15.0,
+      "state": "threat",
+      "estimated_plane_miss": 9.726946150142513e-14
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 15.0,
+      "state": "threat",
+      "estimated_plane_miss": 0.0
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.26320309426764327,
+      "true_2d_cpa_time_s": 15.253922670964263,
+      "state": "threat",
+      "estimated_plane_miss": 0.8597321240169596
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.26320309426764327,
+      "true_2d_cpa_time_s": 15.253922670964263,
+      "state": "threat",
+      "estimated_plane_miss": 1.0000000000000029
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 1.1090213747714743,
+      "true_2d_cpa_time_s": 16.06554360135487,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.4368706237174753
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 1.1090213747714743,
+      "true_2d_cpa_time_s": 16.06554360135487,
+      "state": "uncertain",
+      "estimated_plane_miss": 4.000000000000008
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.724696102032475,
+      "true_2d_cpa_time_s": 16.651906751672552,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.155305935576344
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.724696102032475,
+      "true_2d_cpa_time_s": 16.651906751672552,
+      "state": "nonthreat",
+      "estimated_plane_miss": 5.999999999999978
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 2.387071525480699,
+      "true_2d_cpa_time_s": 17.278330690418848,
+      "state": "nonthreat",
+      "estimated_plane_miss": 6.873741247434501
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 2.387071525480699,
+      "true_2d_cpa_time_s": 17.278330690418848,
+      "state": "nonthreat",
+      "estimated_plane_miss": 8.000000000000018
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 5.620344826482514,
+      "true_2d_cpa_time_s": 20.2621806128166,
+      "state": "nonthreat",
+      "estimated_plane_miss": 13.747482494868638
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 5.620344826482514,
+      "true_2d_cpa_time_s": 20.2621806128166,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999973
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 25.0,
+      "state": "threat",
+      "estimated_plane_miss": 3.2778627691048786e-13
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 25.0,
+      "state": "threat",
+      "estimated_plane_miss": 0.0
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.2614324213376652,
+      "true_2d_cpa_time_s": 25.252340267680932,
+      "state": "threat",
+      "estimated_plane_miss": 0.9182950429774792
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.2614324213376652,
+      "true_2d_cpa_time_s": 25.252340267680932,
+      "state": "threat",
+      "estimated_plane_miss": 0.9999999999999994
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 1.078345483665082,
+      "true_2d_cpa_time_s": 26.03842105118021,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.6731801719104102
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 1.078345483665082,
+      "true_2d_cpa_time_s": 26.03842105118021,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.9999999999999427
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.6517948863965315,
+      "true_2d_cpa_time_s": 26.58796723791263,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.504925179621372
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.6517948863965315,
+      "true_2d_cpa_time_s": 26.58796723791263,
+      "state": "uncertain",
+      "estimated_plane_miss": 6.000000000000016
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 2.2499897302837497,
+      "true_2d_cpa_time_s": 27.159168691263254,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.339900239494745
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 2.2499897302837497,
+      "true_2d_cpa_time_s": 27.159168691263254,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.999999999999925
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 4.923478229922757,
+      "true_2d_cpa_time_s": 29.684580245903554,
+      "state": "nonthreat",
+      "estimated_plane_miss": 14.679800478991275
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 4.923478229922757,
+      "true_2d_cpa_time_s": 29.684580245903554,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999872
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 40.0,
+      "state": "threat",
+      "estimated_plane_miss": 9.27811552751063e-13
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 40.0,
+      "state": "threat",
+      "estimated_plane_miss": 0.0
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.26044646801183524,
+      "true_2d_cpa_time_s": 40.251458014925745,
+      "state": "uncertain",
+      "estimated_plane_miss": 0.9493446821074749
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.26044646801183524,
+      "true_2d_cpa_time_s": 40.251458014925745,
+      "state": "threat",
+      "estimated_plane_miss": 0.999999999999998
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 1.0617966634479048,
+      "true_2d_cpa_time_s": 41.02370455656194,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.7973787284314366
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 1.0617966634479048,
+      "true_2d_cpa_time_s": 41.02370455656194,
+      "state": "uncertain",
+      "estimated_plane_miss": 4.000000000000101
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.6133295122072266,
+      "true_2d_cpa_time_s": 41.55391281322573,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.696068092646099
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.6133295122072266,
+      "true_2d_cpa_time_s": 41.55391281322573,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.999999999999881
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 2.179312097553201,
+      "true_2d_cpa_time_s": 42.09689080117737,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.594757456863731
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 2.179312097553201,
+      "true_2d_cpa_time_s": 42.09689080117737,
+      "state": "nonthreat",
+      "estimated_plane_miss": 8.000000000000028
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 4.599189605419935,
+      "true_2d_cpa_time_s": 44.4050846711268,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.189514913729287
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 75,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 4.599189605419935,
+      "true_2d_cpa_time_s": 44.4050846711268,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999948
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 1.432144669219779e-14,
+      "true_2d_cpa_time_s": 15.000000000000002,
+      "state": "threat",
+      "estimated_plane_miss": 1.4278987684723185e-13
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 1.432144669219779e-14,
+      "true_2d_cpa_time_s": 15.000000000000002,
+      "state": "threat",
+      "estimated_plane_miss": 3.0519304208621853e-15
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.17565035060135947,
+      "true_2d_cpa_time_s": 15.172919447256485,
+      "state": "threat",
+      "estimated_plane_miss": 0.8597321240167551
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.17565035060135947,
+      "true_2d_cpa_time_s": 15.172919447256485,
+      "state": "threat",
+      "estimated_plane_miss": 0.9999999999999761
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 0.727755672792654,
+      "true_2d_cpa_time_s": 15.715609309955722,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.436870623717165
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 0.727755672792654,
+      "true_2d_cpa_time_s": 15.715609309955722,
+      "state": "uncertain",
+      "estimated_plane_miss": 4.000000000000007
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.1182978290142191,
+      "true_2d_cpa_time_s": 16.098702085335233,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.155305935575881
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.1182978290142191,
+      "true_2d_cpa_time_s": 16.098702085335233,
+      "state": "nonthreat",
+      "estimated_plane_miss": 5.999999999999986
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.5283628665909395,
+      "true_2d_cpa_time_s": 16.500212271314044,
+      "state": "nonthreat",
+      "estimated_plane_miss": 6.873741247434073
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.5283628665909395,
+      "true_2d_cpa_time_s": 16.500212271314044,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.999999999999997
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 3.395621165743805,
+      "true_2d_cpa_time_s": 18.318270756325788,
+      "state": "nonthreat",
+      "estimated_plane_miss": 13.74748249486925
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 3.395621165743805,
+      "true_2d_cpa_time_s": 18.318270756325788,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999968
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 2.864289338439558e-14,
+      "true_2d_cpa_time_s": 25.000000000000004,
+      "state": "threat",
+      "estimated_plane_miss": 4.811845505238604e-13
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 2.864289338439558e-14,
+      "true_2d_cpa_time_s": 25.000000000000004,
+      "state": "threat",
+      "estimated_plane_miss": 4.812188226941626e-15
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.1748440533740485,
+      "true_2d_cpa_time_s": 25.172150779885055,
+      "state": "threat",
+      "estimated_plane_miss": 0.9182950429773257
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.1748440533740485,
+      "true_2d_cpa_time_s": 25.172150779885055,
+      "state": "threat",
+      "estimated_plane_miss": 0.9999999999999655
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 0.7141237420720709,
+      "true_2d_cpa_time_s": 25.702650843669044,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.673180171910915
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 0.7141237420720709,
+      "true_2d_cpa_time_s": 25.702650843669044,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.9999999999999623
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.086449930028524,
+      "true_2d_cpa_time_s": 26.068490143639544,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.504925179622406
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.086449930028524,
+      "true_2d_cpa_time_s": 26.068490143639544,
+      "state": "uncertain",
+      "estimated_plane_miss": 6.00000000000008
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.4695304961818567,
+      "true_2d_cpa_time_s": 26.44452493358893,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.3399002394954325
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.4695304961818567,
+      "true_2d_cpa_time_s": 26.44452493358893,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.999999999999985
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 3.1190922869608717,
+      "true_2d_cpa_time_s": 28.059251003705125,
+      "state": "nonthreat",
+      "estimated_plane_miss": 14.67980047899314
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 3.1190922869608717,
+      "true_2d_cpa_time_s": 28.059251003705125,
+      "state": "nonthreat",
+      "estimated_plane_miss": 16.00000000000003
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 2.929642751054232e-14,
+      "true_2d_cpa_time_s": 40.00000000000001,
+      "state": "threat",
+      "estimated_plane_miss": 1.3620112141036391e-12
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 2.929642751054232e-14,
+      "true_2d_cpa_time_s": 40.00000000000001,
+      "state": "threat",
+      "estimated_plane_miss": 1.8775350880418617e-13
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.17439370490143424,
+      "true_2d_cpa_time_s": 40.17172129671635,
+      "state": "uncertain",
+      "estimated_plane_miss": 0.9493446821071105
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.17439370490143424,
+      "true_2d_cpa_time_s": 40.17172129671635,
+      "state": "threat",
+      "estimated_plane_miss": 0.9999999999999319
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 0.706674284075028,
+      "true_2d_cpa_time_s": 40.6955585787119,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.797378728431969
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 0.706674284075028,
+      "true_2d_cpa_time_s": 40.6955585787119,
+      "state": "uncertain",
+      "estimated_plane_miss": 4.0000000000002744
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.0693071848984927,
+      "true_2d_cpa_time_s": 41.05218870312793,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.696068092646701
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.0693071848984927,
+      "true_2d_cpa_time_s": 41.05218870312793,
+      "state": "uncertain",
+      "estimated_plane_miss": 6.000000000000018
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.4383529057133941,
+      "true_2d_cpa_time_s": 41.414913884909176,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.594757456863366
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.4383529057133941,
+      "true_2d_cpa_time_s": 41.414913884909176,
+      "state": "nonthreat",
+      "estimated_plane_miss": 8.000000000000165
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 2.9821275440379194,
+      "true_2d_cpa_time_s": 42.929872227560615,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.189514913728713
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 2.9821275440379194,
+      "true_2d_cpa_time_s": 42.929872227560615,
+      "state": "nonthreat",
+      "estimated_plane_miss": 16.00000000000006
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 15.0,
+      "state": "threat",
+      "estimated_plane_miss": 3.893239439975599e-13
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 15.0,
+      "state": "threat",
+      "estimated_plane_miss": 2.5229235141863585e-14
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.0876631496478034,
+      "true_2d_cpa_time_s": 15.087325661908526,
+      "state": "threat",
+      "estimated_plane_miss": 0.859732124017134
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.0876631496478034,
+      "true_2d_cpa_time_s": 15.087325661908526,
+      "state": "threat",
+      "estimated_plane_miss": 1.0000000000000495
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 0.356885217132456,
+      "true_2d_cpa_time_s": 15.355461897026812,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.4368706237169997
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 0.356885217132456,
+      "true_2d_cpa_time_s": 15.355461897026812,
+      "state": "uncertain",
+      "estimated_plane_miss": 4.0000000000000275
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 0.5417465251376741,
+      "true_2d_cpa_time_s": 15.539533716951976,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.155305935575867
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 0.5417465251376741,
+      "true_2d_cpa_time_s": 15.539533716951976,
+      "state": "nonthreat",
+      "estimated_plane_miss": 5.999999999999978
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7310938133040071,
+      "true_2d_cpa_time_s": 15.728034535145492,
+      "state": "nonthreat",
+      "estimated_plane_miss": 6.873741247434076
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7310938133040071,
+      "true_2d_cpa_time_s": 15.728034535145492,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.999999999999999
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.5367591889412453,
+      "true_2d_cpa_time_s": 16.529654377087727,
+      "state": "nonthreat",
+      "estimated_plane_miss": 13.747482494869029
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.5367591889412453,
+      "true_2d_cpa_time_s": 16.529654377087727,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999998
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 25.0,
+      "state": "threat",
+      "estimated_plane_miss": 1.3119744279986346e-12
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 25.0,
+      "state": "threat",
+      "estimated_plane_miss": 2.189209732323298e-14
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.0874594822907726,
+      "true_2d_cpa_time_s": 25.087124344347114,
+      "state": "threat",
+      "estimated_plane_miss": 0.9182950429778121
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.0874594822907726,
+      "true_2d_cpa_time_s": 25.087124344347114,
+      "state": "threat",
+      "estimated_plane_miss": 1.0000000000000602
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 0.353533948270182,
+      "true_2d_cpa_time_s": 25.352150400924295,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.6731801719103525
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 0.353533948270182,
+      "true_2d_cpa_time_s": 25.352150400924295,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.999999999999798
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 0.5340622218906526,
+      "true_2d_cpa_time_s": 25.531942368347046,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.504925179623199
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 0.5340622218906526,
+      "true_2d_cpa_time_s": 25.531942368347046,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.999999999999925
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7171693878707875,
+      "true_2d_cpa_time_s": 25.714281831658457,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.339900239495384
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7171693878707875,
+      "true_2d_cpa_time_s": 25.714281831658457,
+      "state": "nonthreat",
+      "estimated_plane_miss": 8.000000000000028
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.4765198004184692,
+      "true_2d_cpa_time_s": 26.470219294106293,
+      "state": "nonthreat",
+      "estimated_plane_miss": 14.679800478992474
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.4765198004184692,
+      "true_2d_cpa_time_s": 26.470219294106293,
+      "state": "nonthreat",
+      "estimated_plane_miss": 16.00000000000001
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 40.0,
+      "state": "threat",
+      "estimated_plane_miss": 1.9192720694826764e-12
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 0.0,
+      "true_2d_cpa_spans": 0.0,
+      "true_2d_cpa_time_s": 40.0,
+      "state": "threat",
+      "estimated_plane_miss": 1.973009848930416e-13
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.08734533314335832,
+      "true_2d_cpa_time_s": 40.08701150739464,
+      "state": "uncertain",
+      "estimated_plane_miss": 0.9493446821055165
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 1.0,
+      "true_2d_cpa_spans": 0.08734533314335832,
+      "true_2d_cpa_time_s": 40.08701150739464,
+      "state": "threat",
+      "estimated_plane_miss": 0.9999999999998943
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 0.3516762657755144,
+      "true_2d_cpa_time_s": 40.350314442066185,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.7973787284314118
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 4.0,
+      "true_2d_cpa_spans": 0.3516762657755144,
+      "true_2d_cpa_time_s": 40.350314442066185,
+      "state": "uncertain",
+      "estimated_plane_miss": 3.9999999999996567
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 0.5298344672399706,
+      "true_2d_cpa_time_s": 40.52776462494151,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.696068092646143
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 0.5298344672399706,
+      "true_2d_cpa_time_s": 40.52776462494151,
+      "state": "uncertain",
+      "estimated_plane_miss": 5.999999999999878
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7095666034175293,
+      "true_2d_cpa_time_s": 40.70677003013269,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.594757456862809
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7095666034175293,
+      "true_2d_cpa_time_s": 40.70677003013269,
+      "state": "nonthreat",
+      "estimated_plane_miss": 8.00000000000039
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.4446574003671357,
+      "true_2d_cpa_time_s": 41.4387565785386,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.189514913730989
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.4446574003671357,
+      "true_2d_cpa_time_s": 41.4387565785386,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999641
+    }
+  ],
+  "false_safe_examples": [
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.1182978290142191,
+      "true_2d_cpa_time_s": 16.098702085335233,
+      "state": "nonthreat",
+      "estimated_plane_miss": 5.999999999999986
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.4695304961818567,
+      "true_2d_cpa_time_s": 26.44452493358893,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.3399002394954325
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.4695304961818567,
+      "true_2d_cpa_time_s": 26.44452493358893,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.999999999999985
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.4383529057133941,
+      "true_2d_cpa_time_s": 41.414913884909176,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.594757456863366
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.4383529057133941,
+      "true_2d_cpa_time_s": 41.414913884909176,
+      "state": "nonthreat",
+      "estimated_plane_miss": 8.000000000000165
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 0.5417465251376741,
+      "true_2d_cpa_time_s": 15.539533716951976,
+      "state": "nonthreat",
+      "estimated_plane_miss": 5.999999999999978
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7310938133040071,
+      "true_2d_cpa_time_s": 15.728034535145492,
+      "state": "nonthreat",
+      "estimated_plane_miss": 6.873741247434076
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7310938133040071,
+      "true_2d_cpa_time_s": 15.728034535145492,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.999999999999999
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7171693878707875,
+      "true_2d_cpa_time_s": 25.714281831658457,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.339900239495384
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7171693878707875,
+      "true_2d_cpa_time_s": 25.714281831658457,
+      "state": "nonthreat",
+      "estimated_plane_miss": 8.000000000000028
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.4765198004184692,
+      "true_2d_cpa_time_s": 26.470219294106293,
+      "state": "nonthreat",
+      "estimated_plane_miss": 14.679800478992474
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.4765198004184692,
+      "true_2d_cpa_time_s": 26.470219294106293,
+      "state": "nonthreat",
+      "estimated_plane_miss": 16.00000000000001
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7095666034175293,
+      "true_2d_cpa_time_s": 40.70677003013269,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.594757456862809
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7095666034175293,
+      "true_2d_cpa_time_s": 40.70677003013269,
+      "state": "nonthreat",
+      "estimated_plane_miss": 8.00000000000039
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.4446574003671357,
+      "true_2d_cpa_time_s": 41.4387565785386,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.189514913730989
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.4446574003671357,
+      "true_2d_cpa_time_s": 41.4387565785386,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999641
+    }
+  ],
+  "conclusion": "Depth-plane intercept can overestimate true closest approach at wide bearings / large lateral velocity. Unknown intrinsics prevent conversion to guaranteed CPA. Green remains conditional image-model evidence."
+}

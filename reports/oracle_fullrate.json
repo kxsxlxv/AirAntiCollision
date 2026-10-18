@@ -1,0 +1,487 @@
+{
+  "kind": "OFFLINE approximate GT centroid + identity, independent actual neural spans; NOT camera-only inference",
+  "config": {
+    "window_s": 4,
+    "min_history_s": 2,
+    "HAC_s": 1,
+    "source_edge_margin_px": 1,
+    "size_match_tolerance_px": 20
+  },
+  "complete": true,
+  "counts": {
+    "approach": {
+      "total": 20155,
+      "uncertain": 15639,
+      "reason_history": 851,
+      "matched_detector_size_now": 15519,
+      "source_clipped_now": 77,
+      "reason_aspect": 6462,
+      "reason_overlap": 1523,
+      "reason_growth_unresolved": 2467,
+      "reason_confirm_warning": 224,
+      "threat": 4516,
+      "reason_bearing_growth": 4516,
+      "reason_clipped": 77,
+      "reason_scale_history": 3893,
+      "reason_scale_stale": 67,
+      "reason_shrink_ambiguous": 75
+    },
+    "other": {
+      "total": 16361,
+      "uncertain": 15039,
+      "reason_history": 659,
+      "matched_detector_size_now": 12492,
+      "source_clipped_now": 122,
+      "reason_scale_history": 2742,
+      "reason_growth_unresolved": 5331,
+      "reason_scale_stale": 221,
+      "reason_aspect": 2800,
+      "reason_overlap": 1171,
+      "reason_shrink_ambiguous": 323,
+      "reason_clipped": 122,
+      "reason_confirm_non_threat": 1646,
+      "nonthreat": 1291,
+      "reason_crossing": 1156,
+      "reason_crossing_no_growth": 135,
+      "reason_tiny": 18,
+      "reason_confirm_warning": 6,
+      "threat": 31,
+      "reason_bearing_growth": 31
+    }
+  },
+  "runs": [
+    {
+      "sequence": "M1",
+      "counts": {
+        "approach": {
+          "total": 1180,
+          "uncertain": 894,
+          "reason_history": 51,
+          "matched_detector_size_now": 1157,
+          "source_clipped_now": 1,
+          "reason_aspect": 812,
+          "reason_overlap": 5,
+          "reason_growth_unresolved": 19,
+          "reason_confirm_warning": 6,
+          "threat": 286,
+          "reason_bearing_growth": 286,
+          "reason_clipped": 1
+        },
+        "other": {
+          "total": 1125,
+          "uncertain": 1125,
+          "reason_history": 50,
+          "matched_detector_size_now": 176,
+          "source_clipped_now": 0,
+          "reason_scale_history": 726,
+          "reason_growth_unresolved": 169,
+          "reason_scale_stale": 74,
+          "reason_aspect": 52,
+          "reason_overlap": 34,
+          "reason_shrink_ambiguous": 20
+        }
+      }
+    },
+    {
+      "sequence": "M2",
+      "counts": {
+        "other": {
+          "total": 1513,
+          "uncertain": 1197,
+          "reason_clipped": 16,
+          "matched_detector_size_now": 1487,
+          "source_clipped_now": 16,
+          "reason_history": 49,
+          "reason_scale_history": 51,
+          "reason_growth_unresolved": 507,
+          "reason_scale_stale": 3,
+          "reason_confirm_non_threat": 320,
+          "nonthreat": 316,
+          "reason_crossing": 213,
+          "reason_crossing_no_growth": 103,
+          "reason_shrink_ambiguous": 27,
+          "reason_aspect": 150,
+          "reason_overlap": 74
+        },
+        "approach": {
+          "total": 1403,
+          "uncertain": 1013,
+          "reason_history": 54,
+          "matched_detector_size_now": 1090,
+          "source_clipped_now": 3,
+          "reason_scale_history": 258,
+          "reason_aspect": 207,
+          "reason_scale_stale": 10,
+          "reason_growth_unresolved": 123,
+          "reason_confirm_warning": 38,
+          "threat": 390,
+          "reason_bearing_growth": 390,
+          "reason_overlap": 320,
+          "reason_clipped": 3
+        }
+      }
+    },
+    {
+      "sequence": "M3",
+      "counts": {
+        "other": {
+          "total": 1694,
+          "uncertain": 1628,
+          "reason_history": 104,
+          "matched_detector_size_now": 1187,
+          "source_clipped_now": 14,
+          "reason_growth_unresolved": 778,
+          "reason_confirm_non_threat": 161,
+          "reason_overlap": 178,
+          "nonthreat": 66,
+          "reason_crossing": 66,
+          "reason_clipped": 14,
+          "reason_scale_history": 365,
+          "reason_tiny": 1,
+          "reason_scale_stale": 27
+        },
+        "approach": {
+          "total": 2141,
+          "uncertain": 1784,
+          "reason_history": 57,
+          "matched_detector_size_now": 1868,
+          "source_clipped_now": 5,
+          "reason_scale_history": 256,
+          "reason_growth_unresolved": 883,
+          "reason_scale_stale": 4,
+          "reason_overlap": 549,
+          "reason_confirm_warning": 30,
+          "threat": 357,
+          "reason_bearing_growth": 357,
+          "reason_clipped": 5
+        }
+      }
+    },
+    {
+      "sequence": "M4",
+      "counts": {
+        "other": {
+          "total": 2470,
+          "uncertain": 2315,
+          "reason_history": 101,
+          "matched_detector_size_now": 2370,
+          "source_clipped_now": 10,
+          "reason_tiny": 7,
+          "reason_growth_unresolved": 1486,
+          "reason_aspect": 132,
+          "reason_overlap": 191,
+          "reason_confirm_non_threat": 330,
+          "reason_shrink_ambiguous": 32,
+          "nonthreat": 155,
+          "reason_crossing": 155,
+          "reason_scale_history": 26,
+          "reason_clipped": 10
+        },
+        "approach": {
+          "total": 1366,
+          "uncertain": 1083,
+          "reason_history": 52,
+          "matched_detector_size_now": 1002,
+          "source_clipped_now": 2,
+          "reason_scale_history": 246,
+          "reason_growth_unresolved": 293,
+          "reason_scale_stale": 23,
+          "reason_shrink_ambiguous": 30,
+          "reason_overlap": 103,
+          "reason_aspect": 311,
+          "reason_confirm_warning": 23,
+          "threat": 283,
+          "reason_bearing_growth": 283,
+          "reason_clipped": 2
+        }
+      }
+    },
+    {
+      "sequence": "M5",
+      "counts": {
+        "other": {
+          "total": 5089,
+          "uncertain": 4911,
+          "reason_history": 155,
+          "matched_detector_size_now": 3960,
+          "source_clipped_now": 34,
+          "reason_clipped": 34,
+          "reason_scale_history": 710,
+          "reason_aspect": 1516,
+          "reason_growth_unresolved": 1459,
+          "reason_confirm_non_threat": 415,
+          "reason_shrink_ambiguous": 119,
+          "reason_scale_stale": 88,
+          "reason_overlap": 405,
+          "nonthreat": 178,
+          "reason_crossing": 178,
+          "reason_tiny": 10
+        },
+        "approach": {
+          "total": 1059,
+          "uncertain": 794,
+          "reason_history": 55,
+          "matched_detector_size_now": 1027,
+          "source_clipped_now": 4,
+          "reason_growth_unresolved": 124,
+          "reason_overlap": 17,
+          "reason_aspect": 588,
+          "reason_confirm_warning": 6,
+          "threat": 265,
+          "reason_bearing_growth": 265,
+          "reason_clipped": 4
+        }
+      }
+    },
+    {
+      "sequence": "M6",
+      "counts": {
+        "other": {
+          "total": 990,
+          "uncertain": 943,
+          "reason_history": 50,
+          "matched_detector_size_now": 865,
+          "source_clipped_now": 7,
+          "reason_scale_history": 43,
+          "reason_growth_unresolved": 332,
+          "reason_aspect": 250,
+          "reason_confirm_non_threat": 135,
+          "reason_shrink_ambiguous": 19,
+          "reason_overlap": 101,
+          "reason_confirm_warning": 6,
+          "threat": 31,
+          "reason_bearing_growth": 31,
+          "nonthreat": 16,
+          "reason_crossing": 16,
+          "reason_clipped": 7
+        },
+        "approach": {
+          "total": 1113,
+          "uncertain": 790,
+          "reason_history": 50,
+          "matched_detector_size_now": 1063,
+          "source_clipped_now": 0,
+          "reason_growth_unresolved": 353,
+          "reason_overlap": 121,
+          "reason_shrink_ambiguous": 8,
+          "reason_aspect": 239,
+          "reason_confirm_warning": 18,
+          "threat": 323,
+          "reason_bearing_growth": 323,
+          "reason_scale_stale": 1
+        }
+      }
+    },
+    {
+      "sequence": "M7",
+      "counts": {
+        "other": {
+          "total": 3305,
+          "uncertain": 2783,
+          "reason_history": 100,
+          "matched_detector_size_now": 2272,
+          "source_clipped_now": 34,
+          "reason_scale_history": 821,
+          "reason_shrink_ambiguous": 106,
+          "reason_confirm_non_threat": 255,
+          "reason_growth_unresolved": 600,
+          "nonthreat": 522,
+          "reason_crossing_no_growth": 32,
+          "reason_aspect": 700,
+          "reason_overlap": 138,
+          "reason_crossing": 490,
+          "reason_clipped": 34,
+          "reason_scale_stale": 29
+        },
+        "approach": {
+          "total": 1136,
+          "uncertain": 755,
+          "reason_history": 50,
+          "matched_detector_size_now": 1104,
+          "source_clipped_now": 0,
+          "reason_scale_history": 4,
+          "reason_aspect": 569,
+          "reason_growth_unresolved": 79,
+          "reason_shrink_ambiguous": 20,
+          "reason_confirm_warning": 12,
+          "threat": 381,
+          "reason_bearing_growth": 381,
+          "reason_overlap": 21
+        }
+      }
+    },
+    {
+      "sequence": "M8",
+      "counts": {
+        "other": {
+          "total": 175,
+          "uncertain": 137,
+          "reason_history": 50,
+          "matched_detector_size_now": 175,
+          "source_clipped_now": 7,
+          "reason_overlap": 50,
+          "reason_confirm_non_threat": 30,
+          "nonthreat": 38,
+          "reason_crossing": 38,
+          "reason_clipped": 7
+        },
+        "approach": {
+          "total": 1237,
+          "uncertain": 937,
+          "reason_history": 51,
+          "matched_detector_size_now": 1194,
+          "source_clipped_now": 0,
+          "reason_growth_unresolved": 85,
+          "reason_aspect": 784,
+          "reason_overlap": 11,
+          "reason_confirm_warning": 6,
+          "threat": 300,
+          "reason_bearing_growth": 300
+        }
+      }
+    },
+    {
+      "sequence": "S1",
+      "counts": {
+        "approach": {
+          "total": 1057,
+          "uncertain": 939,
+          "reason_history": 114,
+          "matched_detector_size_now": 365,
+          "source_clipped_now": 54,
+          "reason_scale_history": 689,
+          "reason_confirm_warning": 24,
+          "threat": 118,
+          "reason_bearing_growth": 118,
+          "reason_growth_unresolved": 4,
+          "reason_overlap": 54,
+          "reason_clipped": 54
+        }
+      }
+    },
+    {
+      "sequence": "S2",
+      "counts": {
+        "approach": {
+          "total": 1948,
+          "uncertain": 1637,
+          "reason_history": 50,
+          "matched_detector_size_now": 494,
+          "source_clipped_now": 0,
+          "reason_scale_history": 1330,
+          "reason_overlap": 12,
+          "reason_growth_unresolved": 136,
+          "reason_scale_stale": 28,
+          "reason_confirm_warning": 12,
+          "threat": 311,
+          "reason_bearing_growth": 311,
+          "reason_aspect": 69
+        }
+      }
+    },
+    {
+      "sequence": "S3",
+      "counts": {
+        "approach": {
+          "total": 1849,
+          "uncertain": 1481,
+          "reason_history": 55,
+          "matched_detector_size_now": 722,
+          "source_clipped_now": 1,
+          "reason_scale_history": 1063,
+          "reason_growth_unresolved": 164,
+          "reason_overlap": 186,
+          "reason_confirm_warning": 12,
+          "threat": 368,
+          "reason_bearing_growth": 368,
+          "reason_clipped": 1
+        }
+      }
+    },
+    {
+      "sequence": "S4",
+      "counts": {
+        "approach": {
+          "total": 1188,
+          "uncertain": 904,
+          "reason_history": 50,
+          "matched_detector_size_now": 1142,
+          "source_clipped_now": 0,
+          "reason_aspect": 719,
+          "reason_overlap": 13,
+          "reason_growth_unresolved": 98,
+          "reason_shrink_ambiguous": 17,
+          "reason_confirm_warning": 7,
+          "threat": 284,
+          "reason_bearing_growth": 284
+        }
+      }
+    },
+    {
+      "sequence": "S5",
+      "counts": {
+        "approach": {
+          "total": 1130,
+          "uncertain": 827,
+          "reason_history": 57,
+          "matched_detector_size_now": 1074,
+          "source_clipped_now": 3,
+          "reason_scale_history": 19,
+          "reason_aspect": 705,
+          "reason_overlap": 37,
+          "reason_confirm_warning": 6,
+          "threat": 303,
+          "reason_bearing_growth": 303,
+          "reason_clipped": 3
+        }
+      }
+    },
+    {
+      "sequence": "S6",
+      "counts": {
+        "approach": {
+          "total": 1108,
+          "uncertain": 827,
+          "reason_history": 55,
+          "matched_detector_size_now": 1074,
+          "source_clipped_now": 4,
+          "reason_scale_history": 7,
+          "reason_growth_unresolved": 51,
+          "reason_overlap": 20,
+          "reason_aspect": 678,
+          "reason_confirm_warning": 12,
+          "threat": 281,
+          "reason_bearing_growth": 281,
+          "reason_clipped": 4
+        }
+      }
+    },
+    {
+      "sequence": "S7",
+      "counts": {
+        "approach": {
+          "total": 1240,
+          "uncertain": 974,
+          "reason_history": 50,
+          "matched_detector_size_now": 1143,
+          "source_clipped_now": 0,
+          "reason_scale_history": 21,
+          "reason_aspect": 781,
+          "reason_growth_unresolved": 55,
+          "reason_confirm_warning": 12,
+          "threat": 266,
+          "reason_bearing_growth": 266,
+          "reason_overlap": 54,
+          "reason_scale_stale": 1
+        }
+      }
+    }
+  ],
+  "limits": [
+    "GT identity/centroid deliberately available in this ablation only; zero untracked by construction",
+    "No object size is fabricated on a detector miss; only independent matched size samples enter its fit",
+    "Annotation coordinates are approximate/interpolated, not true bearings; intervals remain heuristic",
+    "Ranges and category labels are not passed to the estimator",
+    "No collision/CPA truth or calibrated upper-bound claim"
+  ]
+}

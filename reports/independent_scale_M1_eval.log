@@ -1,0 +1,91 @@
+{
+  "definition": "QUT encounter-category proxy, not physical collision ground truth",
+  "trace": "artifacts/independent_scale_dev/M1/decisions.jsonl",
+  "gt": "data/qut/M1.gt.json",
+  "centroid_tolerance_px": 20,
+  "warning_persistence_s": 0.8,
+  "frames": 438,
+  "counts": {
+    "approach": {
+      "total": 438,
+      "untracked": 13,
+      "detector_queried": 146,
+      "detected": 144,
+      "uncertain": 318,
+      "observed_by_detector": 124,
+      "reason_history": 32,
+      "observed_by_sot": 301,
+      "reason_scale_history": 28,
+      "reason_aspect": 253,
+      "reason_scale_stale": 2,
+      "reason_overlap": 2,
+      "reason_confirm_warning": 1,
+      "threat": 107,
+      "reason_bearing_growth": 107
+    },
+    "other": {
+      "total": 438,
+      "untracked": 303,
+      "detector_queried": 146,
+      "detected": 12,
+      "uncertain": 135,
+      "observed_by_detector": 8,
+      "reason_history": 19,
+      "observed_by_sot": 127,
+      "reason_scale_history": 116
+    }
+  },
+  "growth_only_baseline": {
+    "approach": {
+      "growth_only_untracked": 13,
+      "growth_only_uncertain": 317,
+      "growth_only_threat": 108
+    },
+    "other": {
+      "growth_only_untracked": 303,
+      "growth_only_uncertain": 135
+    }
+  },
+  "events": [
+    {
+      "id": "approach_M1_labels",
+      "kind": "approach",
+      "sampled_frames": 438,
+      "sustained_warning": true,
+      "first_warning_time_s": 29.759999999999998,
+      "max_warning_duration_s": 4.720000000000004,
+      "any_apparently_non_threat": false,
+      "associated_track_ids": [
+        2,
+        37
+      ],
+      "fragments": 2,
+      "growth_only_baseline_sustained_warning": true
+    },
+    {
+      "id": "other_M1_labels",
+      "kind": "other",
+      "sampled_frames": 438,
+      "sustained_warning": false,
+      "first_warning_time_s": null,
+      "max_warning_duration_s": 0,
+      "any_apparently_non_threat": false,
+      "associated_track_ids": [
+        39
+      ],
+      "fragments": 1,
+      "growth_only_baseline_sustained_warning": false
+    }
+  ],
+  "unmatched_track_frames": {
+    "uncertain": 82,
+    "threat": 25
+  },
+  "limitations": [
+    "centroids approximate/interpolated",
+    "no GT boxes or CPA",
+    "other objects not necessarily exhaustively labeled",
+    "unmatched warnings are not verified false alerts",
+    "missed warning and false-safe on approach are distinct"
+  ]
+}

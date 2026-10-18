@@ -1,0 +1,202 @@
+{
+  "kind": "Current crop-boundary-guarded actual neural S2 comparison, same source and stride2",
+  "rows": [
+    {
+      "method": "dense",
+      "directory": "demo\\S2_final",
+      "counts": {
+        "approach": {
+          "total": 438,
+          "untracked": 178,
+          "detector_queried": 438,
+          "detected": 241,
+          "uncertain": 124,
+          "observed_by_detector": 260,
+          "reason_history": 41,
+          "reason_growth_unresolved": 26,
+          "reason_overlap": 18,
+          "reason_confirm_warning": 6,
+          "reason_aspect": 33,
+          "threat": 136,
+          "reason_bearing_growth": 136
+        }
+      },
+      "events": [
+        {
+          "id": "approach_S2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 23.119999999999997,
+          "max_warning_duration_s": 10.88000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            8,
+            33
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": true
+        }
+      ],
+      "detection_sha256": "13f9551471026f776e0be7304d0e26018ece8a96bc2545d58ce3ffdc538bd265",
+      "decision_sha256": "c9f2fdd80fa47356a7e6697771611c9dbe4e0e723739870175a097ade7bb1a5c",
+      "processing_fps": 25.20079756727017,
+      "pipeline_whole_run_fps": 21.98588544303727,
+      "network_calls_mean": 7.0,
+      "proposal_calls_mean": null
+    },
+    {
+      "method": "zoom",
+      "directory": "demo\\S2_zoom_final",
+      "counts": {
+        "approach": {
+          "total": 438,
+          "untracked": 49,
+          "detector_queried": 438,
+          "detected": 279,
+          "uncertain": 242,
+          "observed_by_zoom": 125,
+          "reason_history": 28,
+          "reason_growth_unresolved": 40,
+          "observed_by_detector": 264,
+          "reason_overlap": 12,
+          "reason_confirm_warning": 6,
+          "threat": 147,
+          "reason_bearing_growth": 147,
+          "reason_aspect": 156
+        }
+      },
+      "events": [
+        {
+          "id": "approach_S2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 8.719999999999999,
+          "max_warning_duration_s": 10.88000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            1
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        }
+      ],
+      "detection_sha256": "9851563d065b200d335f325d0fa9a1248b4d20eb326f0a463f040c1b7b116120",
+      "decision_sha256": "624f03263cb5d2fe560bf1358b1beaf138f78fa71d2eeccd16fc760ccf1f1b46",
+      "processing_fps": 16.218399245179306,
+      "pipeline_whole_run_fps": 14.834390088318964,
+      "network_calls_mean": 9.41095890410959,
+      "proposal_calls_mean": 2.410958904109589
+    },
+    {
+      "method": "sky",
+      "directory": "demo\\S2_sky_current\\assessment",
+      "counts": {
+        "approach": {
+          "total": 438,
+          "untracked": 49,
+          "detector_queried": 438,
+          "detected": 279,
+          "uncertain": 242,
+          "observed_by_zoom": 125,
+          "reason_history": 28,
+          "reason_growth_unresolved": 40,
+          "observed_by_detector": 264,
+          "reason_overlap": 12,
+          "reason_confirm_warning": 6,
+          "threat": 147,
+          "reason_bearing_growth": 147,
+          "reason_aspect": 156
+        }
+      },
+      "events": [
+        {
+          "id": "approach_S2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 8.719999999999999,
+          "max_warning_duration_s": 10.88000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            1
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        }
+      ],
+      "detection_sha256": "9851563d065b200d335f325d0fa9a1248b4d20eb326f0a463f040c1b7b116120",
+      "decision_sha256": "624f03263cb5d2fe560bf1358b1beaf138f78fa71d2eeccd16fc760ccf1f1b46",
+      "processing_fps": 15.94224934007761,
+      "pipeline_whole_run_fps": 14.60418989340018,
+      "network_calls_mean": 9.41095890410959,
+      "proposal_calls_mean": 2.410958904109589
+    },
+    {
+      "method": "all_region_control",
+      "directory": "artifacts\\sky_control_current\\S2_all_region",
+      "counts": {
+        "approach": {
+          "total": 438,
+          "untracked": 49,
+          "detector_queried": 438,
+          "detected": 279,
+          "uncertain": 242,
+          "observed_by_zoom": 125,
+          "reason_history": 28,
+          "reason_growth_unresolved": 40,
+          "observed_by_detector": 264,
+          "reason_overlap": 12,
+          "reason_confirm_warning": 6,
+          "threat": 147,
+          "reason_bearing_growth": 147,
+          "reason_aspect": 156
+        }
+      },
+      "events": [
+        {
+          "id": "approach_S2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 8.719999999999999,
+          "max_warning_duration_s": 10.88000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            1
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        }
+      ],
+      "detection_sha256": "9851563d065b200d335f325d0fa9a1248b4d20eb326f0a463f040c1b7b116120",
+      "decision_sha256": "624f03263cb5d2fe560bf1358b1beaf138f78fa71d2eeccd16fc760ccf1f1b46",
+      "processing_fps": 18.642114746173768,
+      "pipeline_whole_run_fps": 17.06649177279183,
+      "network_calls_mean": 9.41095890410959,
+      "proposal_calls_mean": 2.410958904109589
+    }
+  ],
+  "mask_free_vs_all_region_exact_trace_equality": true,
+  "sky_workflow": {
+    "timestamp_utc": "2026-10-18T01:46:09.300106+00:00",
+    "kind": "complete offline two-pass workflow, no GT",
+    "video": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\data\\qut\\S2.mp4",
+    "input_sha256": "6802fe1a267b8a7587904ac6c10860def9999890566cf90882b67a1ba9e877e3",
+    "output": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\S2_sky_current\\assessment\\annotated.mp4",
+    "frames": 438,
+    "total_wall_s": 48.541476200000034,
+    "processed_frames_per_total_wall_s": 9.023211370732884,
+    "segmentation_load_infer_and_export_s": 15.413723800000298,
+    "assessment_load_infer_render_and_export_s": 30.848547800000233,
+    "assessment_processing_fps": 15.94224934007761,
+    "sky_checkpoint_sha256": "86bc739f7b6d700cc1ad7ef00bf1d27c22ec3644ce05f5e6764aa357f914a85d",
+    "caveat": "includes CFR preflight, hashing, both process startups and model/render/export work; batch4 offline, no streaming-latency claim"
+  },
+  "limits": [
+    "Single studied clip; no independent scene-wide sky or zoom benefit claim",
+    "No collision/CPA truth",
+    "Control has no rendering; its FPS is not comparable to rendered paths"
+  ]
+}

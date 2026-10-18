@@ -1,0 +1,93 @@
+100 frames, 13.75 FPS, {'uncertain': 250, 'nonthreat': 22}
+200 frames, 13.63 FPS, {'uncertain': 363, 'nonthreat': 111, 'threat': 9}
+300 frames, 14.32 FPS, {'uncertain': 434, 'nonthreat': 111, 'threat': 94}
+400 frames, 14.07 FPS, {'uncertain': 501, 'nonthreat': 111, 'threat': 194}
+{
+  "timestamp_utc": "2026-10-17T22:22:31.550425+00:00",
+  "args": {
+    "video": "data/qut/M2.mp4",
+    "weights": "artifacts/yolo26m_local.engine",
+    "output": "demo/M2_explained",
+    "conf": 0.18,
+    "stride": 2,
+    "max_frames": null,
+    "camera": "fixed",
+    "tiled": false,
+    "no_render": false,
+    "detections": "demo/M2_tiled_initial/detections.jsonl",
+    "title": "M2 \u2022 \u0441\u0431\u043b\u0438\u0436\u0435\u043d\u0438\u0435 \u0438 \u043f\u0440\u043e\u0445\u043e\u0434\u044f\u0449\u0438\u0439 \u0441\u0430\u043c\u043e\u043b\u0451\u0442"
+  },
+  "config": {
+    "window": 4.0,
+    "min_span": 6.0,
+    "min_history": 2.0,
+    "min_samples": 10,
+    "threat_miss": 2.0,
+    "nonthreat_miss": 5.0,
+    "horizon": 60.0,
+    "max_log_residual": 0.16,
+    "growth_floor": 0.008
+  },
+  "frames": 438,
+  "elapsed_s": 31.90827050000007,
+  "processing_fps": 13.726848655115889,
+  "source_fps": 25.0,
+  "output_fps": 12.5,
+  "startup_and_warmup_s": 0.004550299999664276,
+  "states_track_frames": {
+    "uncertain": 534,
+    "nonthreat": 111,
+    "threat": 219
+  },
+  "stages": {
+    "detector_ms": {
+      "mean": 0.008086529682608272,
+      "p50": 0.006600000233447645,
+      "p95": 0.014390000205821693
+    },
+    "camera_ms": {
+      "mean": 12.094126484025265,
+      "p50": 9.852600000158418,
+      "p95": 23.460804999831435
+    },
+    "tracker_ms": {
+      "mean": 0.25165662100438707,
+      "p50": 0.2095500001360051,
+      "p95": 0.5154250002760816
+    },
+    "threat_ms": {
+      "mean": 1.849049315060007,
+      "p50": 1.5894000000571396,
+      "p95": 3.7959099999625323
+    },
+    "render_ms": {
+      "mean": 43.20730639269288,
+      "p50": 42.49634999996488,
+      "p95": 56.47657500039713
+    },
+    "encode_write_ms": {
+      "mean": 4.759920776262678,
+      "p50": 4.494499999964319,
+      "p95": 6.897820000040156
+    },
+    "decode_ms": {
+      "mean": 4.365774657535481,
+      "p50": 4.2322000001604465,
+      "p95": 6.267114999968724
+    }
+  },
+  "providers": [
+    "cached model detections"
+  ],
+  "hardware": "NVIDIA GeForce RTX 4060",
+  "cv2": "5.0.0",
+  "cv2_path": "C:\\Data\\DEV\\Libs\\opencv_cuda_5\\install\\python\\cv2\\__init__.py",
+  "cuda_devices": 1,
+  "resolution": [
+    1280,
+    720
+  ],
+  "batch": 1,
+  "weights_sha256": null,
+  "caveat": "offline throughput incl decode, stages, trace and encode flush; not certified streaming latency"
+}

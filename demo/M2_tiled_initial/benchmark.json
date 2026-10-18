@@ -1,0 +1,79 @@
+{
+  "timestamp_utc": "2026-10-17T22:18:43.022235+00:00",
+  "args": {
+    "video": "data/qut/M2.mp4",
+    "weights": "artifacts/yolo26m_local.engine",
+    "output": "demo/M2_tiled_initial",
+    "conf": 0.18,
+    "stride": 2,
+    "max_frames": null,
+    "camera": "fixed",
+    "tiled": true,
+    "no_render": true,
+    "detections": null,
+    "title": "RGB \u2022 \u0430\u043d\u0430\u043b\u0438\u0437 \u0441\u0431\u043b\u0438\u0436\u0435\u043d\u0438\u044f"
+  },
+  "config": {
+    "window": 4.0,
+    "min_span": 6.0,
+    "min_history": 2.0,
+    "min_samples": 10,
+    "threat_miss": 2.0,
+    "nonthreat_miss": 5.0,
+    "horizon": 60.0,
+    "max_log_residual": 0.16,
+    "growth_floor": 0.008
+  },
+  "frames": 438,
+  "elapsed_s": 27.65255419999994,
+  "processing_fps": 15.839404809845773,
+  "source_fps": 25.0,
+  "output_fps": 12.5,
+  "startup_and_warmup_s": 2.2259712000000036,
+  "states_track_frames": {
+    "uncertain": 534,
+    "nonthreat": 111,
+    "threat": 219
+  },
+  "stages": {
+    "detector_ms": {
+      "mean": 51.02212374430519,
+      "p50": 48.57540000011795,
+      "p95": 65.3411300001153
+    },
+    "camera_ms": {
+      "mean": 5.542662100458684,
+      "p50": 5.72415000010551,
+      "p95": 7.948289999740153
+    },
+    "tracker_ms": {
+      "mean": 0.18947899544404723,
+      "p50": 0.16329999994013633,
+      "p95": 0.4014800002323681
+    },
+    "threat_ms": {
+      "mean": 1.5449684931333802,
+      "p50": 1.378049999857467,
+      "p95": 3.0692499999986462
+    },
+    "decode_ms": {
+      "mean": 2.33460182647371,
+      "p50": 2.1621500000037486,
+      "p95": 3.2108749999679254
+    }
+  },
+  "providers": [
+    "TensorRT 11.4.0.106"
+  ],
+  "hardware": "NVIDIA GeForce RTX 4060",
+  "cv2": "5.0.0",
+  "cv2_path": "C:\\Data\\DEV\\Libs\\opencv_cuda_5\\install\\python\\cv2\\__init__.py",
+  "cuda_devices": 1,
+  "resolution": [
+    1280,
+    720
+  ],
+  "batch": 1,
+  "weights_sha256": "89e5d441f97a1cc3731340460cfa584a1f401c2d08fad01f17b5aacff1c258d9",
+  "caveat": "offline throughput incl decode, stages, trace and encode flush; not certified streaming latency"
+}

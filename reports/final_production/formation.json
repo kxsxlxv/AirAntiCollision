@@ -1,0 +1,10 @@
+{
+  "name": "formation",
+  "output": "demo\\formation_final",
+  "frames": 300,
+  "processing_fps": 11.993595180301215,
+  "whole_run_fps": 10.793075473616447,
+  "states": {
+    "uncertain": 1309
+  }
+}

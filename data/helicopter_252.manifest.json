@@ -1,0 +1,10 @@
+{
+  "source": "X:\\DATASETS\\UAV\\TRACKING\\RGB\\UAV-Anti-UAV\\Test\\UAV-Anti-UAV_Test_000252\\UAV-Anti-UAV_Test_000252.mp4",
+  "source_sha256": "abe21c6b433395875d96c671f8bcb18c83cb36da6609affea6369b3df39c1b4d",
+  "source_repository": "https://github.com/983632847/Awesome-Multimodal-Object-Tracking/tree/main/UAV-Anti-UAV",
+  "selection": "first 14 seconds, preserve container FPS",
+  "kind": "real RGB tracking clip, language annotation identifies unmanned helicopter",
+  "collision_ground_truth": false,
+  "inference": "camera-only; no bounding-box GT or language used",
+  "license": "Academic Research Use Only; see author repository terms"
+}

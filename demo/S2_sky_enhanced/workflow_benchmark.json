@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-10-17T23:13:05.208581+00:00",
+  "kind": "complete offline two-pass workflow, no GT",
+  "video": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\data\\qut\\S2.mp4",
+  "output": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\S2_sky_enhanced\\assessment\\annotated.mp4",
+  "frames": 438,
+  "total_wall_s": 50.20502650000071,
+  "processed_frames_per_total_wall_s": 8.724226049357704,
+  "segmentation_load_infer_and_export_s": 15.354620899999645,
+  "assessment_load_infer_render_and_export_s": 34.84989620000033,
+  "assessment_processing_fps": 13.74472953168277,
+  "sky_checkpoint_sha256": "86bc739f7b6d700cc1ad7ef00bf1d27c22ec3644ce05f5e6764aa357f914a85d",
+  "caveat": "includes both process startups and all model/render/export work; batch4 segmentation is offline; no streaming-latency claim"
+}

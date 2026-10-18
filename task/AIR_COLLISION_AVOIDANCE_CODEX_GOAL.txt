@@ -1,0 +1,8 @@
+/goal Independently research, develop, implement, and rigorously validate a runnable monocular RGB air-collision-threat assessment system.
+The allocated project budget is 35% of my TOTAL weekly Codex subscription usage allowance, measured as additional consumption from the start of this mission. This is NOT a fixed wall-clock time limit.
+Use this budget productively and autonomously. Do not stop after achieving the first working implementation or meeting the minimum acceptance criteria. Continue investigating alternative hypotheses, improving threat-assessment accuracy, analyzing failures, conducting experiments, and refining the visual demonstration.
+Verify the system using real RGB encounter videos, meaningful per-target threat/non-threat/uncertainty assessments, reproducible measurements, and playable annotated videos that clearly explain the system's decisions, predicted trajectories, threat regions, and conditional avoidance recommendations.
+Follow AIR_COLLISION_AVOIDANCE_10H_AGENT_SPEC.md as the authoritative technical specification, except that all previous 10-hour restrictions are superseded by this 35% weekly usage budget.
+Preserve the existing CUDA-enabled OpenCV 5.0 environment. Do not use AOT or build a 3D simulation.
+Work autonomously without asking for user interaction. Track actual subscription consumption if reliable usage information is accessible; never fabricate quota measurements.
+Maximize the quality, reliability, scientific validity, and completeness of the final product within the allocated budget. Deliver the strongest experimentally verified result, including working code, real test videos, visual explanations, benchmarks, and documented limitations.

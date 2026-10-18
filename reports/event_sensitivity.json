@@ -1,0 +1,553 @@
+{
+  "meaning": "QUT encounter category proxy; offline GT range is not an online range estimate and last available frame is not impact time",
+  "campaigns": [
+    {
+      "campaign": "artifacts/full_campaign",
+      "events": [
+        {
+          "id": "approach_M1_labels",
+          "kind": "approach",
+          "labeled_opportunities": 236,
+          "warning_frames": 44,
+          "max_warning_pulse_s": 8.800000000000047,
+          "first_any_warning_s": 80.8,
+          "first_sustained_warning_s": 80.8,
+          "offline_GT_range_at_sustained_warning": 464.0,
+          "seconds_to_last_available_GT_frame": 10.0
+        },
+        {
+          "id": "other_M1_labels",
+          "kind": "other",
+          "labeled_opportunities": 225,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "other_M2_labels",
+          "kind": "other",
+          "labeled_opportunities": 303,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M2_labels",
+          "kind": "approach",
+          "labeled_opportunities": 281,
+          "warning_frames": 67,
+          "max_warning_pulse_s": 10.60000000000015,
+          "first_any_warning_s": 136.6,
+          "first_sustained_warning_s": 139.2,
+          "offline_GT_range_at_sustained_warning": 478.0,
+          "seconds_to_last_available_GT_frame": 16.400000000000006
+        },
+        {
+          "id": "other_M3_1_labels",
+          "kind": "other",
+          "labeled_opportunities": 216,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M3_labels",
+          "kind": "approach",
+          "labeled_opportunities": 428,
+          "warning_frames": 46,
+          "max_warning_pulse_s": 9.20000000000013,
+          "first_any_warning_s": 87.2,
+          "first_sustained_warning_s": 87.19999999999999,
+          "offline_GT_range_at_sustained_warning": 4571.0,
+          "seconds_to_last_available_GT_frame": 11.600000000000009
+        },
+        {
+          "id": "other_M3_2_labels",
+          "kind": "other",
+          "labeled_opportunities": 123,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "other_M4_2_labels",
+          "kind": "other",
+          "labeled_opportunities": 256,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M4_labels",
+          "kind": "approach",
+          "labeled_opportunities": 273,
+          "warning_frames": 58,
+          "max_warning_pulse_s": 9.200000000000049,
+          "first_any_warning_s": 66.8,
+          "first_sustained_warning_s": 66.8,
+          "offline_GT_range_at_sustained_warning": 1081.0,
+          "seconds_to_last_available_GT_frame": 22.200000000000003
+        },
+        {
+          "id": "other_M4_3_labels",
+          "kind": "other",
+          "labeled_opportunities": 238,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "other_M5_1_labels",
+          "kind": "other",
+          "labeled_opportunities": 412,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "other_M5_2_labels",
+          "kind": "other",
+          "labeled_opportunities": 542,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M5_labels",
+          "kind": "approach",
+          "labeled_opportunities": 212,
+          "warning_frames": 51,
+          "max_warning_pulse_s": 10.000000000000142,
+          "first_any_warning_s": 208.4,
+          "first_sustained_warning_s": 208.39999999999998,
+          "offline_GT_range_at_sustained_warning": 123.0,
+          "seconds_to_last_available_GT_frame": 10.600000000000023
+        },
+        {
+          "id": "other_M5_3_labels",
+          "kind": "other",
+          "labeled_opportunities": 64,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "other_M6_labels",
+          "kind": "other",
+          "labeled_opportunities": 198,
+          "warning_frames": 2,
+          "max_warning_pulse_s": 0.4000000000000057,
+          "first_any_warning_s": 96.2,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M6_labels",
+          "kind": "approach",
+          "labeled_opportunities": 223,
+          "warning_frames": 49,
+          "max_warning_pulse_s": 9.80000000000014,
+          "first_any_warning_s": 119.2,
+          "first_sustained_warning_s": 119.19999999999999,
+          "offline_GT_range_at_sustained_warning": 472.0,
+          "seconds_to_last_available_GT_frame": 10.400000000000006
+        },
+        {
+          "id": "other_M7_1_labels",
+          "kind": "other",
+          "labeled_opportunities": 277,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "other_M7_2_labels",
+          "kind": "other",
+          "labeled_opportunities": 384,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M7_labels",
+          "kind": "approach",
+          "labeled_opportunities": 227,
+          "warning_frames": 75,
+          "max_warning_pulse_s": 13.00000000000007,
+          "first_any_warning_s": 213.8,
+          "first_sustained_warning_s": 213.79999999999998,
+          "offline_GT_range_at_sustained_warning": 762.0,
+          "seconds_to_last_available_GT_frame": 16.80000000000001
+        },
+        {
+          "id": "other_M8_labels",
+          "kind": "other",
+          "labeled_opportunities": 35,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M8_labels",
+          "kind": "approach",
+          "labeled_opportunities": 248,
+          "warning_frames": 51,
+          "max_warning_pulse_s": 10.199999999999964,
+          "first_any_warning_s": 41.8,
+          "first_sustained_warning_s": 41.8,
+          "offline_GT_range_at_sustained_warning": 498.0,
+          "seconds_to_last_available_GT_frame": 11.200000000000003
+        }
+      ],
+      "persistence_sensitivity": {
+        "0.0": {
+          "approach_events": 8,
+          "approach_warned": 8,
+          "other_events": 13,
+          "other_warned": 1
+        },
+        "0.24": {
+          "approach_events": 8,
+          "approach_warned": 8,
+          "other_events": 13,
+          "other_warned": 1
+        },
+        "0.5": {
+          "approach_events": 8,
+          "approach_warned": 8,
+          "other_events": 13,
+          "other_warned": 0
+        },
+        "0.8": {
+          "approach_events": 8,
+          "approach_warned": 8,
+          "other_events": 13,
+          "other_warned": 0
+        },
+        "1.2": {
+          "approach_events": 8,
+          "approach_warned": 8,
+          "other_events": 13,
+          "other_warned": 0
+        },
+        "2.0": {
+          "approach_events": 8,
+          "approach_warned": 8,
+          "other_events": 13,
+          "other_warned": 0
+        }
+      }
+    },
+    {
+      "campaign": "artifacts/full_bridge_campaign",
+      "events": [
+        {
+          "id": "approach_M1_labels",
+          "kind": "approach",
+          "labeled_opportunities": 236,
+          "warning_frames": 40,
+          "max_warning_pulse_s": 8.000000000000043,
+          "first_any_warning_s": 82.4,
+          "first_sustained_warning_s": 82.39999999999999,
+          "offline_GT_range_at_sustained_warning": 393.0,
+          "seconds_to_last_available_GT_frame": 8.400000000000006
+        },
+        {
+          "id": "other_M1_labels",
+          "kind": "other",
+          "labeled_opportunities": 225,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "other_M2_labels",
+          "kind": "other",
+          "labeled_opportunities": 303,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M2_labels",
+          "kind": "approach",
+          "labeled_opportunities": 281,
+          "warning_frames": 60,
+          "max_warning_pulse_s": 10.60000000000015,
+          "first_any_warning_s": 139.6,
+          "first_sustained_warning_s": 139.59999999999997,
+          "offline_GT_range_at_sustained_warning": 462.0,
+          "seconds_to_last_available_GT_frame": 16.00000000000003
+        },
+        {
+          "id": "other_M3_1_labels",
+          "kind": "other",
+          "labeled_opportunities": 216,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M3_labels",
+          "kind": "approach",
+          "labeled_opportunities": 428,
+          "warning_frames": 66,
+          "max_warning_pulse_s": 11.800000000000168,
+          "first_any_warning_s": 84.0,
+          "first_sustained_warning_s": 83.99999999999999,
+          "offline_GT_range_at_sustained_warning": 4653.0,
+          "seconds_to_last_available_GT_frame": 14.800000000000011
+        },
+        {
+          "id": "other_M3_2_labels",
+          "kind": "other",
+          "labeled_opportunities": 123,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "other_M4_2_labels",
+          "kind": "other",
+          "labeled_opportunities": 256,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M4_labels",
+          "kind": "approach",
+          "labeled_opportunities": 273,
+          "warning_frames": 61,
+          "max_warning_pulse_s": 10.000000000000053,
+          "first_any_warning_s": 67.0,
+          "first_sustained_warning_s": 66.99999999999999,
+          "offline_GT_range_at_sustained_warning": 1072.0,
+          "seconds_to_last_available_GT_frame": 22.000000000000014
+        },
+        {
+          "id": "other_M4_3_labels",
+          "kind": "other",
+          "labeled_opportunities": 238,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "other_M5_1_labels",
+          "kind": "other",
+          "labeled_opportunities": 412,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "other_M5_2_labels",
+          "kind": "other",
+          "labeled_opportunities": 542,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M5_labels",
+          "kind": "approach",
+          "labeled_opportunities": 212,
+          "warning_frames": 64,
+          "max_warning_pulse_s": 10.800000000000153,
+          "first_any_warning_s": 205.4,
+          "first_sustained_warning_s": 205.39999999999998,
+          "offline_GT_range_at_sustained_warning": 268.0,
+          "seconds_to_last_available_GT_frame": 13.600000000000023
+        },
+        {
+          "id": "other_M5_3_labels",
+          "kind": "other",
+          "labeled_opportunities": 64,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "other_M6_labels",
+          "kind": "other",
+          "labeled_opportunities": 198,
+          "warning_frames": 3,
+          "max_warning_pulse_s": 0.6000000000000085,
+          "first_any_warning_s": 96.4,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M6_labels",
+          "kind": "approach",
+          "labeled_opportunities": 223,
+          "warning_frames": 49,
+          "max_warning_pulse_s": 9.600000000000136,
+          "first_any_warning_s": 112.6,
+          "first_sustained_warning_s": 119.39999999999999,
+          "offline_GT_range_at_sustained_warning": 463.0,
+          "seconds_to_last_available_GT_frame": 10.200000000000003
+        },
+        {
+          "id": "other_M7_1_labels",
+          "kind": "other",
+          "labeled_opportunities": 277,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "other_M7_2_labels",
+          "kind": "other",
+          "labeled_opportunities": 384,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M7_labels",
+          "kind": "approach",
+          "labeled_opportunities": 227,
+          "warning_frames": 66,
+          "max_warning_pulse_s": 13.20000000000007,
+          "first_any_warning_s": 216.8,
+          "first_sustained_warning_s": 216.79999999999998,
+          "offline_GT_range_at_sustained_warning": 624.0,
+          "seconds_to_last_available_GT_frame": 13.800000000000011
+        },
+        {
+          "id": "other_M8_labels",
+          "kind": "other",
+          "labeled_opportunities": 35,
+          "warning_frames": 0,
+          "max_warning_pulse_s": 0.0,
+          "first_any_warning_s": null,
+          "first_sustained_warning_s": null,
+          "offline_GT_range_at_sustained_warning": null,
+          "seconds_to_last_available_GT_frame": null
+        },
+        {
+          "id": "approach_M8_labels",
+          "kind": "approach",
+          "labeled_opportunities": 248,
+          "warning_frames": 22,
+          "max_warning_pulse_s": 2.5999999999999908,
+          "first_any_warning_s": 43.2,
+          "first_sustained_warning_s": 47.400000000000006,
+          "offline_GT_range_at_sustained_warning": 249.0,
+          "seconds_to_last_available_GT_frame": 5.599999999999994
+        }
+      ],
+      "persistence_sensitivity": {
+        "0.0": {
+          "approach_events": 8,
+          "approach_warned": 8,
+          "other_events": 13,
+          "other_warned": 1
+        },
+        "0.24": {
+          "approach_events": 8,
+          "approach_warned": 8,
+          "other_events": 13,
+          "other_warned": 1
+        },
+        "0.5": {
+          "approach_events": 8,
+          "approach_warned": 8,
+          "other_events": 13,
+          "other_warned": 1
+        },
+        "0.8": {
+          "approach_events": 8,
+          "approach_warned": 8,
+          "other_events": 13,
+          "other_warned": 0
+        },
+        "1.2": {
+          "approach_events": 8,
+          "approach_warned": 8,
+          "other_events": 13,
+          "other_warned": 0
+        },
+        "2.0": {
+          "approach_events": 8,
+          "approach_warned": 8,
+          "other_events": 13,
+          "other_warned": 0
+        }
+      }
+    }
+  ]
+}

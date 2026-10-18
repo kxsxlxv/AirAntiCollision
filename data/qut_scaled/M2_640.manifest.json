@@ -1,0 +1,13 @@
+{
+  "kind": "Derived real RGB resize, same studied encounter, not another independent event",
+  "source": "data/qut/M2.mp4",
+  "source_sha256": "9c44cecd3d818089f3d2b22c3f71bd139e5e720eae1935c664cc65a891ae0bb7",
+  "output_sha256": "5e0fc5fad40f2bbc9cf23c98cdf440904c8f8636f6d069eba984c8382a502751",
+  "scale": 0.5,
+  "resolution": [
+    640,
+    360
+  ],
+  "labels": "Original approximate centroids scaled by0.5; 10px tolerance corresponds to original20px",
+  "timing": "Source CFR presentation times retained; no temporal augmentation"
+}

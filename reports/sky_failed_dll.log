@@ -1,0 +1,64 @@
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|██████████| 211/211 [00:00<00:00, 10972.91it/s]
+Input: C:\Users\kisel\PycharmProjects\AirAntiCollision\data\qut\S2.mp4
+Video: 1280x720 @ 25.000 fps, 35.00 s
+Device: cuda; checkpoint epoch=7
+Checkpoint best_val_dice=0.9690907305389416; threshold=0.5
+video inference:   0%|          | 0/875 [00:00<?, ?frame/s]video inference:   0%|          | 0/875 [00:00<?, ?frame/s]
+Traceback (most recent call last):
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\segdino_v2\infer_video.py", line 363, in <module>
+    main()
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\segdino_v2\infer_video.py", line 331, in main
+    processed = create_mask_video(
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\segdino_v2\infer_video.py", line 170, in create_mask_video
+    logits = model(inputs)
+             ^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\segdino_v2\dpt.py", line 153, in forward
+    feats = self.backbone.get_intermediate_layers(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\segdino_v2\runtime.py", line 39, in get_intermediate_layers
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\transformers\utils\generic.py", line 911, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\transformers\models\dinov3_vit\modeling_dinov3_vit.py", line 536, in forward
+    hidden_states = self.embeddings(pixel_values, bool_masked_pos=bool_masked_pos)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\transformers\models\dinov3_vit\modeling_dinov3_vit.py", line 80, in forward
+    patch_embeddings = self.patch_embeddings(pixel_values.to(dtype=target_dtype))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\torch\nn\modules\conv.py", line 565, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\SkySegDINO\.venv\Lib\site-packages\torch\nn\modules\conv.py", line 560, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+RuntimeError: CUDNN_BACKEND_TENSOR_DESCRIPTOR cudnnFinalize failedptrDesc->finalize() cudnn_status: CUDNN_STATUS_SUBLIBRARY_VERSION_MISMATCH

@@ -1,0 +1,40 @@
+{
+  "kind": "Isolated encoder experiment on20 repeated previously annotated real frames; not neural/application FPS",
+  "source": "artifacts/async_trial/serial/annotated.mp4",
+  "results": [
+    {
+      "rgb_input": false,
+      "frames": 240,
+      "elapsed_s": 2.26336640000045,
+      "isolated_encoder_frames_per_s": 106.03674243814535,
+      "write_ms_mean": 9.152401249942463,
+      "write_ms_p95": 9.434514999884414,
+      "stream": {
+        "codec_name": "h264",
+        "pix_fmt": "yuv420p",
+        "duration": "19.200000",
+        "nb_frames": "240"
+      }
+    },
+    {
+      "rgb_input": true,
+      "frames": 240,
+      "elapsed_s": 2.2746237000010296,
+      "isolated_encoder_frames_per_s": 105.51195786797234,
+      "write_ms_mean": 9.32294791670453,
+      "write_ms_p95": 9.679094999319204,
+      "stream": {
+        "codec_name": "h264",
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt470bg",
+        "duration": "19.200000",
+        "nb_frames": "240"
+      }
+    }
+  ],
+  "between_modes_rgb_rmse": 1.1930944263944412,
+  "between_modes_rgb_psnr_db": 46.597307271077725,
+  "max_channel_difference": 58,
+  "limits": "Both use QP20 NVENC; RGB/YUV conversion can differ. Repeated frames are a codec microbenchmark, not a new encounter."
+}

@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "2026-10-17T23:15:23.238141+00:00",
+  "cv2": "5.0.0",
+  "cv2_path": "C:\\Data\\DEV\\Libs\\opencv_cuda_5\\install\\python\\cv2\\__init__.py",
+  "cuda_devices": 1,
+  "same_as_initial": true
+}

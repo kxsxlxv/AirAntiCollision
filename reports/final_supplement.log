@@ -1,0 +1,1 @@
+{"name": "S2_all_region", "output": "artifacts\\sky_control\\S2_all_region", "frames": 438, "processing_fps": 18.544674648353077, "whole_run_fps": 16.97412589423165, "states": {"uncertain": 455, "threat": 151}}

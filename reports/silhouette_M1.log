@@ -1,0 +1,30 @@
+{
+  "kind": "Experimental pixel-extent refinement with cached YOLO and cached neural DINO sky, not neural throughput",
+  "args": {
+    "sequence": "M1",
+    "base": "artifacts/crop_guard/M1/0/detections.jsonl",
+    "output": "artifacts/silhouette/M1"
+  },
+  "input_sha256": "2c0d9a82a2f80419382ee23bafc8e34ef94a032831160b56d642964b2da5163a",
+  "mask_sha256": "fab137c203672f7c7870be5d4485fcf209dfcf942f55f3c3b3fd534ddee36631",
+  "cache_identity": {
+    "status": "sha256_verified",
+    "input_sha256": "2c0d9a82a2f80419382ee23bafc8e34ef94a032831160b56d642964b2da5163a"
+  },
+  "source_fps": 25.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "frames": 438,
+  "counts": {
+    "pixel_component": 425,
+    "no_local_component": 208,
+    "tiny": 6,
+    "background_not_sky": 1
+  },
+  "total_s": 6.287997000001269,
+  "mean_refinement_ms": 7.565669634721117,
+  "no_gt_used": true,
+  "limitations": "Components can be clouds/partial shapes; original detector score is inherited, not refined-box confidence. Constant physical span remains unverified."
+}

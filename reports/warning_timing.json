@@ -1,0 +1,1299 @@
+{
+  "meaning": "Offline category proxy. Episode onset is known retrospectively after support accumulates; last annotation is not impact or CPA time.",
+  "sample_support": "Each processed decision is held until its next nominal sample; annotation gaps greater than1.5period reset episodes.",
+  "range": "Source-provided offline annotation field, never read by camera-only inference; M3 range semantics conflict with its category.",
+  "campaigns": [
+    {
+      "root": "artifacts/confidence_full/assessment/0.03",
+      "events": [
+        {
+          "sequence": "M1",
+          "id": "approach_M1_labels",
+          "category": "approach",
+          "sample_period_s": 0.20000000000000107,
+          "labeled_samples": 236,
+          "states": {
+            "uncertain": 185,
+            "threat": 49,
+            "untracked": 2
+          },
+          "first_labeled_s": 43.8,
+          "last_labeled_s": 90.8,
+          "warning_episodes": [
+            {
+              "onset_s": 80.8,
+              "last_time_s": 90.4,
+              "sample_count": 49,
+              "offline_range_at_onset": 464.0,
+              "sample_hold_duration_s": 9.80000000000001,
+              "qualification_support_end_s": 81.60000000000001
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 80.8,
+            "last_time_s": 90.4,
+            "sample_count": 49,
+            "offline_range_at_onset": 464.0,
+            "sample_hold_duration_s": 9.80000000000001,
+            "qualification_support_end_s": 81.60000000000001
+          },
+          "onset_to_last_label_s": 10.0,
+          "qualification_to_last_label_s": 9.199999999999989
+        },
+        {
+          "sequence": "M1",
+          "id": "other_M1_labels",
+          "category": "other",
+          "sample_period_s": 0.20000000000000107,
+          "labeled_samples": 225,
+          "states": {
+            "untracked": 206,
+            "uncertain": 19
+          },
+          "first_labeled_s": 46.0,
+          "last_labeled_s": 90.8,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M2",
+          "id": "other_M2_labels",
+          "category": "other",
+          "sample_period_s": 0.20000000000000284,
+          "labeled_samples": 303,
+          "states": {
+            "untracked": 7,
+            "uncertain": 260,
+            "nonthreat": 36
+          },
+          "first_labeled_s": 76.0,
+          "last_labeled_s": 136.4,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M2",
+          "id": "approach_M2_labels",
+          "category": "approach",
+          "sample_period_s": 0.20000000000000284,
+          "labeled_samples": 281,
+          "states": {
+            "untracked": 71,
+            "uncertain": 142,
+            "threat": 68
+          },
+          "first_labeled_s": 99.6,
+          "last_labeled_s": 155.6,
+          "warning_episodes": [
+            {
+              "onset_s": 136.6,
+              "last_time_s": 136.6,
+              "sample_count": 1,
+              "offline_range_at_onset": 585.0,
+              "sample_hold_duration_s": 0.20000000000000284,
+              "qualification_support_end_s": null
+            },
+            {
+              "onset_s": 138.2,
+              "last_time_s": 138.4,
+              "sample_count": 2,
+              "offline_range_at_onset": 520.0,
+              "sample_hold_duration_s": 0.4000000000000199,
+              "qualification_support_end_s": null
+            },
+            {
+              "onset_s": 139.2,
+              "last_time_s": 141.2,
+              "sample_count": 11,
+              "offline_range_at_onset": 478.0,
+              "sample_hold_duration_s": 2.200000000000003,
+              "qualification_support_end_s": 140.0
+            },
+            {
+              "onset_s": 144.2,
+              "last_time_s": 154.6,
+              "sample_count": 53,
+              "offline_range_at_onset": 266.0,
+              "sample_hold_duration_s": 10.600000000000009,
+              "qualification_support_end_s": 145.0
+            },
+            {
+              "onset_s": 155.0,
+              "last_time_s": 155.0,
+              "sample_count": 1,
+              "offline_range_at_onset": 228.0,
+              "sample_hold_duration_s": 0.20000000000000284,
+              "qualification_support_end_s": null
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 139.2,
+            "last_time_s": 141.2,
+            "sample_count": 11,
+            "offline_range_at_onset": 478.0,
+            "sample_hold_duration_s": 2.200000000000003,
+            "qualification_support_end_s": 140.0
+          },
+          "onset_to_last_label_s": 16.400000000000006,
+          "qualification_to_last_label_s": 15.599999999999994
+        },
+        {
+          "sequence": "M3",
+          "id": "other_M3_1_labels",
+          "category": "other",
+          "sample_period_s": 0.20000000000000284,
+          "labeled_samples": 216,
+          "states": {
+            "untracked": 2,
+            "uncertain": 201,
+            "nonthreat": 13
+          },
+          "first_labeled_s": 0.0,
+          "last_labeled_s": 43.0,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M3",
+          "id": "approach_M3_labels",
+          "category": "approach",
+          "sample_period_s": 0.20000000000000284,
+          "labeled_samples": 428,
+          "states": {
+            "untracked": 57,
+            "uncertain": 318,
+            "threat": 53
+          },
+          "first_labeled_s": 13.4,
+          "last_labeled_s": 98.8,
+          "warning_episodes": [
+            {
+              "onset_s": 87.2,
+              "last_time_s": 97.6,
+              "sample_count": 53,
+              "offline_range_at_onset": 4571.0,
+              "sample_hold_duration_s": 10.599999999999994,
+              "qualification_support_end_s": 88.0
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 87.2,
+            "last_time_s": 97.6,
+            "sample_count": 53,
+            "offline_range_at_onset": 4571.0,
+            "sample_hold_duration_s": 10.599999999999994,
+            "qualification_support_end_s": 88.0
+          },
+          "onset_to_last_label_s": 11.599999999999994,
+          "qualification_to_last_label_s": 10.799999999999997
+        },
+        {
+          "sequence": "M3",
+          "id": "other_M3_2_labels",
+          "category": "other",
+          "sample_period_s": 0.20000000000000284,
+          "labeled_samples": 123,
+          "states": {
+            "untracked": 101,
+            "uncertain": 22
+          },
+          "first_labeled_s": 74.4,
+          "last_labeled_s": 98.8,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M4",
+          "id": "other_M4_2_labels",
+          "category": "other",
+          "sample_period_s": 0.20000000000000107,
+          "labeled_samples": 256,
+          "states": {
+            "untracked": 2,
+            "uncertain": 235,
+            "nonthreat": 19
+          },
+          "first_labeled_s": 0.0,
+          "last_labeled_s": 51.0,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M4",
+          "id": "approach_M4_labels",
+          "category": "approach",
+          "sample_period_s": 0.20000000000000107,
+          "labeled_samples": 273,
+          "states": {
+            "untracked": 78,
+            "uncertain": 127,
+            "threat": 68
+          },
+          "first_labeled_s": 34.6,
+          "last_labeled_s": 89.0,
+          "warning_episodes": [
+            {
+              "onset_s": 66.8,
+              "last_time_s": 68.0,
+              "sample_count": 7,
+              "offline_range_at_onset": 1081.0,
+              "sample_hold_duration_s": 1.400000000000004,
+              "qualification_support_end_s": 67.60000000000001
+            },
+            {
+              "onset_s": 74.6,
+              "last_time_s": 75.0,
+              "sample_count": 3,
+              "offline_range_at_onset": 719.0,
+              "sample_hold_duration_s": 0.6000000000000068,
+              "qualification_support_end_s": null
+            },
+            {
+              "onset_s": 77.2,
+              "last_time_s": 88.2,
+              "sample_count": 56,
+              "offline_range_at_onset": 597.0,
+              "sample_hold_duration_s": 11.200000000000001,
+              "qualification_support_end_s": 78.0
+            },
+            {
+              "onset_s": 88.6,
+              "last_time_s": 88.8,
+              "sample_count": 2,
+              "offline_range_at_onset": 48.0,
+              "sample_hold_duration_s": 0.4000000000000039,
+              "qualification_support_end_s": null
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 66.8,
+            "last_time_s": 68.0,
+            "sample_count": 7,
+            "offline_range_at_onset": 1081.0,
+            "sample_hold_duration_s": 1.400000000000004,
+            "qualification_support_end_s": 67.60000000000001
+          },
+          "onset_to_last_label_s": 22.200000000000003,
+          "qualification_to_last_label_s": 21.39999999999999
+        },
+        {
+          "sequence": "M4",
+          "id": "other_M4_3_labels",
+          "category": "other",
+          "sample_period_s": 0.20000000000000107,
+          "labeled_samples": 238,
+          "states": {
+            "untracked": 16,
+            "uncertain": 222
+          },
+          "first_labeled_s": 41.6,
+          "last_labeled_s": 89.0,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M5",
+          "id": "other_M5_1_labels",
+          "category": "other",
+          "sample_period_s": 0.20000000000000284,
+          "labeled_samples": 412,
+          "states": {
+            "untracked": 63,
+            "uncertain": 349
+          },
+          "first_labeled_s": 8.8,
+          "last_labeled_s": 91.0,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M5",
+          "id": "other_M5_2_labels",
+          "category": "other",
+          "sample_period_s": 0.20000000000000284,
+          "labeled_samples": 542,
+          "states": {
+            "untracked": 93,
+            "uncertain": 439,
+            "nonthreat": 10
+          },
+          "first_labeled_s": 88.4,
+          "last_labeled_s": 196.6,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M5",
+          "id": "approach_M5_labels",
+          "category": "approach",
+          "sample_period_s": 0.20000000000000284,
+          "labeled_samples": 212,
+          "states": {
+            "uncertain": 157,
+            "untracked": 4,
+            "threat": 51
+          },
+          "first_labeled_s": 176.8,
+          "last_labeled_s": 219.0,
+          "warning_episodes": [
+            {
+              "onset_s": 208.4,
+              "last_time_s": 218.2,
+              "sample_count": 50,
+              "offline_range_at_onset": 123.0,
+              "sample_hold_duration_s": 9.999999999999986,
+              "qualification_support_end_s": 209.2
+            },
+            {
+              "onset_s": 218.6,
+              "last_time_s": 218.6,
+              "sample_count": 1,
+              "offline_range_at_onset": 388.0,
+              "sample_hold_duration_s": 0.20000000000000284,
+              "qualification_support_end_s": null
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 208.4,
+            "last_time_s": 218.2,
+            "sample_count": 50,
+            "offline_range_at_onset": 123.0,
+            "sample_hold_duration_s": 9.999999999999986,
+            "qualification_support_end_s": 209.2
+          },
+          "onset_to_last_label_s": 10.599999999999994,
+          "qualification_to_last_label_s": 9.800000000000011
+        },
+        {
+          "sequence": "M5",
+          "id": "other_M5_3_labels",
+          "category": "other",
+          "sample_period_s": 0.20000000000000284,
+          "labeled_samples": 64,
+          "states": {
+            "untracked": 59,
+            "uncertain": 5
+          },
+          "first_labeled_s": 206.4,
+          "last_labeled_s": 219.0,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M6",
+          "id": "other_M6_labels",
+          "category": "other",
+          "sample_period_s": 0.20000000000000284,
+          "labeled_samples": 198,
+          "states": {
+            "untracked": 23,
+            "uncertain": 175
+          },
+          "first_labeled_s": 70.0,
+          "last_labeled_s": 109.4,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M6",
+          "id": "approach_M6_labels",
+          "category": "approach",
+          "sample_period_s": 0.20000000000000284,
+          "labeled_samples": 223,
+          "states": {
+            "uncertain": 166,
+            "untracked": 8,
+            "threat": 49
+          },
+          "first_labeled_s": 85.2,
+          "last_labeled_s": 129.6,
+          "warning_episodes": [
+            {
+              "onset_s": 119.2,
+              "last_time_s": 128.8,
+              "sample_count": 49,
+              "offline_range_at_onset": 472.0,
+              "sample_hold_duration_s": 9.800000000000011,
+              "qualification_support_end_s": 120.0
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 119.2,
+            "last_time_s": 128.8,
+            "sample_count": 49,
+            "offline_range_at_onset": 472.0,
+            "sample_hold_duration_s": 9.800000000000011,
+            "qualification_support_end_s": 120.0
+          },
+          "onset_to_last_label_s": 10.399999999999991,
+          "qualification_to_last_label_s": 9.599999999999994
+        },
+        {
+          "sequence": "M7",
+          "id": "other_M7_1_labels",
+          "category": "other",
+          "sample_period_s": 0.20000000000000107,
+          "labeled_samples": 277,
+          "states": {
+            "untracked": 60,
+            "uncertain": 189,
+            "nonthreat": 28
+          },
+          "first_labeled_s": 28.0,
+          "last_labeled_s": 83.2,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M7",
+          "id": "other_M7_2_labels",
+          "category": "other",
+          "sample_period_s": 0.20000000000000107,
+          "labeled_samples": 384,
+          "states": {
+            "untracked": 138,
+            "uncertain": 201,
+            "nonthreat": 45
+          },
+          "first_labeled_s": 135.6,
+          "last_labeled_s": 212.2,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M7",
+          "id": "approach_M7_labels",
+          "category": "approach",
+          "sample_period_s": 0.20000000000000107,
+          "labeled_samples": 227,
+          "states": {
+            "untracked": 6,
+            "uncertain": 153,
+            "threat": 68
+          },
+          "first_labeled_s": 185.4,
+          "last_labeled_s": 230.6,
+          "warning_episodes": [
+            {
+              "onset_s": 214.4,
+              "last_time_s": 215.2,
+              "sample_count": 5,
+              "offline_range_at_onset": 735.0,
+              "sample_hold_duration_s": 0.999999999999984,
+              "qualification_support_end_s": 215.2
+            },
+            {
+              "onset_s": 217.4,
+              "last_time_s": 229.8,
+              "sample_count": 63,
+              "offline_range_at_onset": 598.0,
+              "sample_hold_duration_s": 12.600000000000007,
+              "qualification_support_end_s": 218.2
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 214.4,
+            "last_time_s": 215.2,
+            "sample_count": 5,
+            "offline_range_at_onset": 735.0,
+            "sample_hold_duration_s": 0.999999999999984,
+            "qualification_support_end_s": 215.2
+          },
+          "onset_to_last_label_s": 16.19999999999999,
+          "qualification_to_last_label_s": 15.400000000000006
+        },
+        {
+          "sequence": "M8",
+          "id": "other_M8_labels",
+          "category": "other",
+          "sample_period_s": 0.1999999999999993,
+          "labeled_samples": 35,
+          "states": {
+            "untracked": 2,
+            "uncertain": 28,
+            "nonthreat": 5
+          },
+          "first_labeled_s": 0.0,
+          "last_labeled_s": 6.8,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M8",
+          "id": "approach_M8_labels",
+          "category": "approach",
+          "sample_period_s": 0.1999999999999993,
+          "labeled_samples": 248,
+          "states": {
+            "uncertain": 190,
+            "untracked": 7,
+            "threat": 51
+          },
+          "first_labeled_s": 3.6,
+          "last_labeled_s": 53.0,
+          "warning_episodes": [
+            {
+              "onset_s": 42.0,
+              "last_time_s": 52.0,
+              "sample_count": 51,
+              "offline_range_at_onset": 489.0,
+              "sample_hold_duration_s": 10.2,
+              "qualification_support_end_s": 42.8
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 42.0,
+            "last_time_s": 52.0,
+            "sample_count": 51,
+            "offline_range_at_onset": 489.0,
+            "sample_hold_duration_s": 10.2,
+            "qualification_support_end_s": 42.8
+          },
+          "onset_to_last_label_s": 11.0,
+          "qualification_to_last_label_s": 10.200000000000003
+        },
+        {
+          "sequence": "S1",
+          "id": "approach_S1_labels",
+          "category": "approach",
+          "sample_period_s": 0.20000000000000284,
+          "labeled_samples": 211,
+          "states": {
+            "untracked": 140,
+            "uncertain": 53,
+            "threat": 18
+          },
+          "first_labeled_s": 134.8,
+          "last_labeled_s": 176.8,
+          "warning_episodes": [
+            {
+              "onset_s": 168.0,
+              "last_time_s": 168.4,
+              "sample_count": 3,
+              "offline_range_at_onset": 324.0,
+              "sample_hold_duration_s": 0.6000000000000085,
+              "qualification_support_end_s": null
+            },
+            {
+              "onset_s": 173.4,
+              "last_time_s": 176.2,
+              "sample_count": 15,
+              "offline_range_at_onset": 128.0,
+              "sample_hold_duration_s": 2.999999999999986,
+              "qualification_support_end_s": 174.2
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 173.4,
+            "last_time_s": 176.2,
+            "sample_count": 15,
+            "offline_range_at_onset": 128.0,
+            "sample_hold_duration_s": 2.999999999999986,
+            "qualification_support_end_s": 174.2
+          },
+          "onset_to_last_label_s": 3.4000000000000057,
+          "qualification_to_last_label_s": 2.6000000000000227
+        },
+        {
+          "sequence": "S2",
+          "id": "approach_S2_labels",
+          "category": "approach",
+          "sample_period_s": 0.1999999999999993,
+          "labeled_samples": 390,
+          "states": {
+            "untracked": 294,
+            "uncertain": 43,
+            "threat": 53
+          },
+          "first_labeled_s": 231.4,
+          "last_labeled_s": 309.2,
+          "warning_episodes": [
+            {
+              "onset_s": 297.8,
+              "last_time_s": 308.2,
+              "sample_count": 53,
+              "offline_range_at_onset": 428.20000000000005,
+              "sample_hold_duration_s": 10.599999999999977,
+              "qualification_support_end_s": 298.59999999999997
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 297.8,
+            "last_time_s": 308.2,
+            "sample_count": 53,
+            "offline_range_at_onset": 428.20000000000005,
+            "sample_hold_duration_s": 10.599999999999977,
+            "qualification_support_end_s": 298.59999999999997
+          },
+          "onset_to_last_label_s": 11.399999999999977,
+          "qualification_to_last_label_s": 10.600000000000023
+        },
+        {
+          "sequence": "S3",
+          "id": "approach_S3_labels",
+          "category": "approach",
+          "sample_period_s": 0.20000000000000107,
+          "labeled_samples": 369,
+          "states": {
+            "untracked": 220,
+            "uncertain": 80,
+            "threat": 69
+          },
+          "first_labeled_s": 170.6,
+          "last_labeled_s": 244.2,
+          "warning_episodes": [
+            {
+              "onset_s": 229.8,
+              "last_time_s": 243.4,
+              "sample_count": 69,
+              "offline_range_at_onset": 556.0,
+              "sample_hold_duration_s": 13.799999999999995,
+              "qualification_support_end_s": 230.6
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 229.8,
+            "last_time_s": 243.4,
+            "sample_count": 69,
+            "offline_range_at_onset": 556.0,
+            "sample_hold_duration_s": 13.799999999999995,
+            "qualification_support_end_s": 230.6
+          },
+          "onset_to_last_label_s": 14.399999999999977,
+          "qualification_to_last_label_s": 13.599999999999994
+        },
+        {
+          "sequence": "S4",
+          "id": "approach_S4_labels",
+          "category": "approach",
+          "sample_period_s": 0.1999999999999993,
+          "labeled_samples": 238,
+          "states": {
+            "uncertain": 177,
+            "untracked": 8,
+            "threat": 53
+          },
+          "first_labeled_s": 0.4,
+          "last_labeled_s": 47.8,
+          "warning_episodes": [
+            {
+              "onset_s": 36.0,
+              "last_time_s": 46.4,
+              "sample_count": 53,
+              "offline_range_at_onset": 521.0,
+              "sample_hold_duration_s": 10.599999999999998,
+              "qualification_support_end_s": 36.8
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 36.0,
+            "last_time_s": 46.4,
+            "sample_count": 53,
+            "offline_range_at_onset": 521.0,
+            "sample_hold_duration_s": 10.599999999999998,
+            "qualification_support_end_s": 36.8
+          },
+          "onset_to_last_label_s": 11.799999999999997,
+          "qualification_to_last_label_s": 11.0
+        },
+        {
+          "sequence": "S5",
+          "id": "approach_S5_labels",
+          "category": "approach",
+          "sample_period_s": 0.19999999999999996,
+          "labeled_samples": 226,
+          "states": {
+            "untracked": 14,
+            "uncertain": 154,
+            "threat": 58
+          },
+          "first_labeled_s": 22.0,
+          "last_labeled_s": 67.0,
+          "warning_episodes": [
+            {
+              "onset_s": 55.2,
+              "last_time_s": 66.2,
+              "sample_count": 56,
+              "offline_range_at_onset": 580.0,
+              "sample_hold_duration_s": 11.2,
+              "qualification_support_end_s": 56.0
+            },
+            {
+              "onset_s": 66.8,
+              "last_time_s": 67.0,
+              "sample_count": 2,
+              "offline_range_at_onset": 37.0,
+              "sample_hold_duration_s": 0.4000000000000028,
+              "qualification_support_end_s": null
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 55.2,
+            "last_time_s": 66.2,
+            "sample_count": 56,
+            "offline_range_at_onset": 580.0,
+            "sample_hold_duration_s": 11.2,
+            "qualification_support_end_s": 56.0
+          },
+          "onset_to_last_label_s": 11.799999999999997,
+          "qualification_to_last_label_s": 11.0
+        },
+        {
+          "sequence": "S6",
+          "id": "approach_S6_labels",
+          "category": "approach",
+          "sample_period_s": 0.20000000000000018,
+          "labeled_samples": 221,
+          "states": {
+            "untracked": 7,
+            "uncertain": 167,
+            "threat": 47
+          },
+          "first_labeled_s": 38.0,
+          "last_labeled_s": 82.0,
+          "warning_episodes": [
+            {
+              "onset_s": 72.0,
+              "last_time_s": 81.2,
+              "sample_count": 47,
+              "offline_range_at_onset": 478.0,
+              "sample_hold_duration_s": 9.400000000000002,
+              "qualification_support_end_s": 72.8
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 72.0,
+            "last_time_s": 81.2,
+            "sample_count": 47,
+            "offline_range_at_onset": 478.0,
+            "sample_hold_duration_s": 9.400000000000002,
+            "qualification_support_end_s": 72.8
+          },
+          "onset_to_last_label_s": 10.0,
+          "qualification_to_last_label_s": 9.200000000000003
+        },
+        {
+          "sequence": "S7",
+          "id": "approach_S7_labels",
+          "category": "approach",
+          "sample_period_s": 0.20000000000000107,
+          "labeled_samples": 248,
+          "states": {
+            "uncertain": 188,
+            "untracked": 13,
+            "threat": 47
+          },
+          "first_labeled_s": 176.8,
+          "last_labeled_s": 226.2,
+          "warning_episodes": [
+            {
+              "onset_s": 212.8,
+              "last_time_s": 213.2,
+              "sample_count": 3,
+              "offline_range_at_onset": 642.0,
+              "sample_hold_duration_s": 0.5999999999999783,
+              "qualification_support_end_s": null
+            },
+            {
+              "onset_s": 216.2,
+              "last_time_s": 224.8,
+              "sample_count": 44,
+              "offline_range_at_onset": 481.0,
+              "sample_hold_duration_s": 8.800000000000024,
+              "qualification_support_end_s": 217.0
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 216.2,
+            "last_time_s": 224.8,
+            "sample_count": 44,
+            "offline_range_at_onset": 481.0,
+            "sample_hold_duration_s": 8.800000000000024,
+            "qualification_support_end_s": 217.0
+          },
+          "onset_to_last_label_s": 10.0,
+          "qualification_to_last_label_s": 9.199999999999989
+        }
+      ],
+      "persistence_sensitivity_s": {
+        "0.24": {
+          "approach_events": 15,
+          "approach_warned": 15,
+          "other_events": 13,
+          "other_warned": 0
+        },
+        "0.5": {
+          "approach_events": 15,
+          "approach_warned": 15,
+          "other_events": 13,
+          "other_warned": 0
+        },
+        "0.8": {
+          "approach_events": 15,
+          "approach_warned": 15,
+          "other_events": 13,
+          "other_warned": 0
+        },
+        "1.2": {
+          "approach_events": 15,
+          "approach_warned": 15,
+          "other_events": 13,
+          "other_warned": 0
+        },
+        "2.0": {
+          "approach_events": 15,
+          "approach_warned": 15,
+          "other_events": 13,
+          "other_warned": 0
+        },
+        "4.0": {
+          "approach_events": 15,
+          "approach_warned": 14,
+          "other_events": 13,
+          "other_warned": 0
+        }
+      }
+    },
+    {
+      "root": "artifacts/cadence_fullrate",
+      "events": [
+        {
+          "sequence": "M1",
+          "id": "approach_M1_labels",
+          "category": "approach",
+          "sample_period_s": 0.03999999999999915,
+          "labeled_samples": 1180,
+          "states": {
+            "uncertain": 894,
+            "threat": 277,
+            "untracked": 9
+          },
+          "first_labeled_s": 43.76,
+          "last_labeled_s": 90.92,
+          "warning_episodes": [
+            {
+              "onset_s": 79.44,
+              "last_time_s": 90.4,
+              "sample_count": 275,
+              "offline_range_at_onset": 525.0,
+              "sample_hold_duration_s": 11.000000000000007,
+              "qualification_support_end_s": 80.24000000000001
+            },
+            {
+              "onset_s": 90.48,
+              "last_time_s": 90.48,
+              "sample_count": 1,
+              "offline_range_at_onset": 26.0,
+              "sample_hold_duration_s": 0.03999999999999915,
+              "qualification_support_end_s": null
+            },
+            {
+              "onset_s": 90.64,
+              "last_time_s": 90.64,
+              "sample_count": 1,
+              "offline_range_at_onset": 20.0,
+              "sample_hold_duration_s": 0.03999999999999915,
+              "qualification_support_end_s": null
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 79.44,
+            "last_time_s": 90.4,
+            "sample_count": 275,
+            "offline_range_at_onset": 525.0,
+            "sample_hold_duration_s": 11.000000000000007,
+            "qualification_support_end_s": 80.24000000000001
+          },
+          "onset_to_last_label_s": 11.480000000000004,
+          "qualification_to_last_label_s": 10.679999999999993
+        },
+        {
+          "sequence": "M1",
+          "id": "other_M1_labels",
+          "category": "other",
+          "sample_period_s": 0.03999999999999915,
+          "labeled_samples": 1125,
+          "states": {
+            "untracked": 763,
+            "uncertain": 362
+          },
+          "first_labeled_s": 45.96,
+          "last_labeled_s": 90.92,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M2",
+          "id": "other_M2_labels",
+          "category": "other",
+          "sample_period_s": 0.03999999999999915,
+          "labeled_samples": 1513,
+          "states": {
+            "untracked": 20,
+            "uncertain": 1207,
+            "nonthreat": 286
+          },
+          "first_labeled_s": 76.0,
+          "last_labeled_s": 136.48,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M2",
+          "id": "approach_M2_labels",
+          "category": "approach",
+          "sample_period_s": 0.03999999999999915,
+          "labeled_samples": 1403,
+          "states": {
+            "uncertain": 824,
+            "untracked": 232,
+            "threat": 347
+          },
+          "first_labeled_s": 99.52,
+          "last_labeled_s": 155.6,
+          "warning_episodes": [
+            {
+              "onset_s": 119.4,
+              "last_time_s": 120.2,
+              "sample_count": 21,
+              "offline_range_at_onset": 1299.0,
+              "sample_hold_duration_s": 0.8399999999999963,
+              "qualification_support_end_s": 120.19999999999999
+            },
+            {
+              "onset_s": 136.4,
+              "last_time_s": 136.44,
+              "sample_count": 2,
+              "offline_range_at_onset": 593.0,
+              "sample_hold_duration_s": 0.07999999999999119,
+              "qualification_support_end_s": null
+            },
+            {
+              "onset_s": 137.96,
+              "last_time_s": 139.72,
+              "sample_count": 45,
+              "offline_range_at_onset": 530.0,
+              "sample_hold_duration_s": 1.79999999999999,
+              "qualification_support_end_s": 138.76
+            },
+            {
+              "onset_s": 143.64,
+              "last_time_s": 154.64,
+              "sample_count": 276,
+              "offline_range_at_onset": 290.0,
+              "sample_hold_duration_s": 11.04,
+              "qualification_support_end_s": 144.44
+            },
+            {
+              "onset_s": 154.96,
+              "last_time_s": 155.04,
+              "sample_count": 3,
+              "offline_range_at_onset": 226.0,
+              "sample_hold_duration_s": 0.11999999999998323,
+              "qualification_support_end_s": null
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 119.4,
+            "last_time_s": 120.2,
+            "sample_count": 21,
+            "offline_range_at_onset": 1299.0,
+            "sample_hold_duration_s": 0.8399999999999963,
+            "qualification_support_end_s": 120.19999999999999
+          },
+          "onset_to_last_label_s": 36.19999999999999,
+          "qualification_to_last_label_s": 35.400000000000006
+        },
+        {
+          "sequence": "M4",
+          "id": "other_M4_2_labels",
+          "category": "other",
+          "sample_period_s": 0.03999999999999915,
+          "labeled_samples": 1280,
+          "states": {
+            "untracked": 2,
+            "uncertain": 1153,
+            "nonthreat": 125
+          },
+          "first_labeled_s": 0.0,
+          "last_labeled_s": 51.16,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M4",
+          "id": "approach_M4_labels",
+          "category": "approach",
+          "sample_period_s": 0.03999999999999915,
+          "labeled_samples": 1366,
+          "states": {
+            "untracked": 269,
+            "uncertain": 830,
+            "threat": 267
+          },
+          "first_labeled_s": 34.56,
+          "last_labeled_s": 89.16,
+          "warning_episodes": [
+            {
+              "onset_s": 66.52,
+              "last_time_s": 67.96,
+              "sample_count": 37,
+              "offline_range_at_onset": 1093.0,
+              "sample_hold_duration_s": 1.4799999999999969,
+              "qualification_support_end_s": 67.32
+            },
+            {
+              "onset_s": 79.4,
+              "last_time_s": 88.28,
+              "sample_count": 223,
+              "offline_range_at_onset": 492.0,
+              "sample_hold_duration_s": 8.919999999999995,
+              "qualification_support_end_s": 80.19999999999999
+            },
+            {
+              "onset_s": 88.52,
+              "last_time_s": 88.68,
+              "sample_count": 5,
+              "offline_range_at_onset": 50.0,
+              "sample_hold_duration_s": 0.20000000000000995,
+              "qualification_support_end_s": null
+            },
+            {
+              "onset_s": 88.8,
+              "last_time_s": 88.84,
+              "sample_count": 2,
+              "offline_range_at_onset": 38.0,
+              "sample_hold_duration_s": 0.0800000000000054,
+              "qualification_support_end_s": null
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 66.52,
+            "last_time_s": 67.96,
+            "sample_count": 37,
+            "offline_range_at_onset": 1093.0,
+            "sample_hold_duration_s": 1.4799999999999969,
+            "qualification_support_end_s": 67.32
+          },
+          "onset_to_last_label_s": 22.64,
+          "qualification_to_last_label_s": 21.840000000000003
+        },
+        {
+          "sequence": "M4",
+          "id": "other_M4_3_labels",
+          "category": "other",
+          "sample_period_s": 0.03999999999999915,
+          "labeled_samples": 1190,
+          "states": {
+            "untracked": 37,
+            "uncertain": 1133,
+            "nonthreat": 20
+          },
+          "first_labeled_s": 41.6,
+          "last_labeled_s": 89.16,
+          "warning_episodes": [],
+          "first_qualified_episode": null,
+          "onset_to_last_label_s": null,
+          "qualification_to_last_label_s": null
+        },
+        {
+          "sequence": "M6",
+          "id": "other_M6_labels",
+          "category": "other",
+          "sample_period_s": 0.03999999999999915,
+          "labeled_samples": 990,
+          "states": {
+            "untracked": 40,
+            "uncertain": 921,
+            "threat": 26,
+            "nonthreat": 3
+          },
+          "first_labeled_s": 70.0,
+          "last_labeled_s": 109.56,
+          "warning_episodes": [
+            {
+              "onset_s": 96.16,
+              "last_time_s": 97.16,
+              "sample_count": 26,
+              "offline_range_at_onset": null,
+              "sample_hold_duration_s": 1.0399999999999991,
+              "qualification_support_end_s": 96.96000000000001
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 96.16,
+            "last_time_s": 97.16,
+            "sample_count": 26,
+            "offline_range_at_onset": null,
+            "sample_hold_duration_s": 1.0399999999999991,
+            "qualification_support_end_s": 96.96000000000001
+          },
+          "onset_to_last_label_s": 13.400000000000006,
+          "qualification_to_last_label_s": 12.599999999999994
+        },
+        {
+          "sequence": "M6",
+          "id": "approach_M6_labels",
+          "category": "approach",
+          "sample_period_s": 0.03999999999999915,
+          "labeled_samples": 1113,
+          "states": {
+            "uncertain": 789,
+            "threat": 303,
+            "untracked": 21
+          },
+          "first_labeled_s": 85.16,
+          "last_labeled_s": 129.64,
+          "warning_episodes": [
+            {
+              "onset_s": 115.32,
+              "last_time_s": 115.4,
+              "sample_count": 3,
+              "offline_range_at_onset": 644.0,
+              "sample_hold_duration_s": 0.12000000000001165,
+              "qualification_support_end_s": null
+            },
+            {
+              "onset_s": 116.4,
+              "last_time_s": 117.16,
+              "sample_count": 20,
+              "offline_range_at_onset": 597.0,
+              "sample_hold_duration_s": 0.79999999999999,
+              "qualification_support_end_s": 117.19999999999999
+            },
+            {
+              "onset_s": 117.64,
+              "last_time_s": 128.8,
+              "sample_count": 280,
+              "offline_range_at_onset": 542.0,
+              "sample_hold_duration_s": 11.20000000000001,
+              "qualification_support_end_s": 118.44
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 116.4,
+            "last_time_s": 117.16,
+            "sample_count": 20,
+            "offline_range_at_onset": 597.0,
+            "sample_hold_duration_s": 0.79999999999999,
+            "qualification_support_end_s": 117.19999999999999
+          },
+          "onset_to_last_label_s": 13.23999999999998,
+          "qualification_to_last_label_s": 12.439999999999998
+        },
+        {
+          "sequence": "S2",
+          "id": "approach_S2_labels",
+          "category": "approach",
+          "sample_period_s": 0.03999999999999915,
+          "labeled_samples": 1948,
+          "states": {
+            "untracked": 1385,
+            "uncertain": 270,
+            "threat": 293
+          },
+          "first_labeled_s": 231.4,
+          "last_labeled_s": 309.28,
+          "warning_episodes": [
+            {
+              "onset_s": 292.76,
+              "last_time_s": 293.72,
+              "sample_count": 25,
+              "offline_range_at_onset": 625.1,
+              "sample_hold_duration_s": 1.0000000000000355,
+              "qualification_support_end_s": 293.56
+            },
+            {
+              "onset_s": 297.6,
+              "last_time_s": 308.28,
+              "sample_count": 268,
+              "offline_range_at_onset": 436.53333333333336,
+              "sample_hold_duration_s": 10.71999999999995,
+              "qualification_support_end_s": 298.40000000000003
+            }
+          ],
+          "first_qualified_episode": {
+            "onset_s": 292.76,
+            "last_time_s": 293.72,
+            "sample_count": 25,
+            "offline_range_at_onset": 625.1,
+            "sample_hold_duration_s": 1.0000000000000355,
+            "qualification_support_end_s": 293.56
+          },
+          "onset_to_last_label_s": 16.519999999999982,
+          "qualification_to_last_label_s": 15.71999999999997
+        }
+      ],
+      "persistence_sensitivity_s": {
+        "0.24": {
+          "approach_events": 5,
+          "approach_warned": 5,
+          "other_events": 5,
+          "other_warned": 1
+        },
+        "0.5": {
+          "approach_events": 5,
+          "approach_warned": 5,
+          "other_events": 5,
+          "other_warned": 1
+        },
+        "0.8": {
+          "approach_events": 5,
+          "approach_warned": 5,
+          "other_events": 5,
+          "other_warned": 1
+        },
+        "1.2": {
+          "approach_events": 5,
+          "approach_warned": 5,
+          "other_events": 5,
+          "other_warned": 0
+        },
+        "2.0": {
+          "approach_events": 5,
+          "approach_warned": 5,
+          "other_events": 5,
+          "other_warned": 0
+        },
+        "4.0": {
+          "approach_events": 5,
+          "approach_warned": 5,
+          "other_events": 5,
+          "other_warned": 0
+        }
+      }
+    }
+  ]
+}

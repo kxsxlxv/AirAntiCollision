@@ -1,0 +1,45 @@
+# Local environments and editor state
+.venv/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded third-party repositories, dependencies, and model binaries.
+# Pinned MOT sources, patches, dependency versions and weight hashes are recorded
+# in reports/mot_provenance.json; see MOT_RESULTS.md for reproduction details.
+/external/
+/artifacts/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.plan
+
+# Source footage, dataset image payloads, and generated video exports.
+# Keep dataset manifests, annotations, reports, gallery HTML and preview images.
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+/data/**/*.jpg
+/data/**/*.jpeg
+/data/**/*.png
+
+# Temporary files
+*.tmp
+*.temp
+*.partial
+*.part
+Thumbs.db
+.DS_Store

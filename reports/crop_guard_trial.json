@@ -1,0 +1,474 @@
+{
+  "kind": "Actual neural crop-edge rejection ablation, development data, no GT online",
+  "results": [
+    {
+      "sequence": "M1",
+      "margin_px": 0,
+      "frames": 438,
+      "raw_detections": 640,
+      "track_states": {
+        "uncertain": 631,
+        "threat": 120
+      },
+      "track_ids": 17,
+      "path": "artifacts\\crop_guard\\M1\\0",
+      "counts": {
+        "approach": {
+          "total": 438,
+          "untracked": 9,
+          "detector_queried": 438,
+          "detected": 431,
+          "uncertain": 312,
+          "observed_by_detector": 429,
+          "reason_history": 23,
+          "reason_aspect": 276,
+          "reason_confirm_warning": 3,
+          "threat": 117,
+          "reason_bearing_growth": 117,
+          "reason_association": 10
+        },
+        "other": {
+          "total": 438,
+          "untracked": 403,
+          "detector_queried": 438,
+          "detected": 30,
+          "uncertain": 35,
+          "observed_by_detector": 35,
+          "reason_history": 25,
+          "reason_growth_unresolved": 10
+        }
+      },
+      "events": [
+        {
+          "id": "approach_M1_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 24.32,
+          "max_warning_duration_s": 9.360000000000008,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            2
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "id": "other_M1_labels",
+          "kind": "other",
+          "sampled_frames": 438,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            35,
+            41
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": false
+        }
+      ]
+    },
+    {
+      "sequence": "M1",
+      "margin_px": 2,
+      "frames": 438,
+      "raw_detections": 583,
+      "track_states": {
+        "uncertain": 524,
+        "threat": 134
+      },
+      "track_ids": 12,
+      "path": "artifacts\\crop_guard\\M1\\2",
+      "counts": {
+        "approach": {
+          "total": 438,
+          "untracked": 9,
+          "detector_queried": 438,
+          "detected": 431,
+          "uncertain": 302,
+          "observed_by_detector": 429,
+          "reason_history": 23,
+          "reason_aspect": 276,
+          "reason_confirm_warning": 3,
+          "threat": 127,
+          "reason_bearing_growth": 127
+        },
+        "other": {
+          "total": 438,
+          "untracked": 403,
+          "detector_queried": 438,
+          "detected": 30,
+          "uncertain": 35,
+          "observed_by_detector": 35,
+          "reason_history": 25,
+          "reason_growth_unresolved": 10
+        }
+      },
+      "events": [
+        {
+          "id": "approach_M1_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 24.32,
+          "max_warning_duration_s": 10.160000000000009,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            2
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "id": "other_M1_labels",
+          "kind": "other",
+          "sampled_frames": 438,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            35,
+            36
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": false
+        }
+      ]
+    },
+    {
+      "sequence": "M1",
+      "margin_px": 8,
+      "frames": 438,
+      "raw_detections": 583,
+      "track_states": {
+        "uncertain": 524,
+        "threat": 134
+      },
+      "track_ids": 12,
+      "path": "artifacts\\crop_guard\\M1\\8",
+      "counts": {
+        "approach": {
+          "total": 438,
+          "untracked": 9,
+          "detector_queried": 438,
+          "detected": 431,
+          "uncertain": 302,
+          "observed_by_detector": 429,
+          "reason_history": 23,
+          "reason_aspect": 276,
+          "reason_confirm_warning": 3,
+          "threat": 127,
+          "reason_bearing_growth": 127
+        },
+        "other": {
+          "total": 438,
+          "untracked": 403,
+          "detector_queried": 438,
+          "detected": 30,
+          "uncertain": 35,
+          "observed_by_detector": 35,
+          "reason_history": 25,
+          "reason_growth_unresolved": 10
+        }
+      },
+      "events": [
+        {
+          "id": "approach_M1_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 24.32,
+          "max_warning_duration_s": 10.160000000000009,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            2
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "id": "other_M1_labels",
+          "kind": "other",
+          "sampled_frames": 438,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            35,
+            36
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": false
+        }
+      ]
+    },
+    {
+      "sequence": "M2",
+      "margin_px": 0,
+      "frames": 438,
+      "raw_detections": 746,
+      "track_states": {
+        "uncertain": 576,
+        "nonthreat": 79,
+        "threat": 209
+      },
+      "track_ids": 20,
+      "path": "artifacts\\crop_guard\\M2\\0",
+      "counts": {
+        "approach": {
+          "total": 438,
+          "untracked": 61,
+          "detector_queried": 438,
+          "detected": 358,
+          "uncertain": 168,
+          "observed_by_detector": 377,
+          "reason_history": 51,
+          "reason_growth_unresolved": 60,
+          "reason_overlap": 44,
+          "reason_confirm_warning": 9,
+          "threat": 209,
+          "reason_bearing_growth": 209,
+          "reason_association": 4
+        },
+        "other": {
+          "total": 199,
+          "untracked": 30,
+          "detector_queried": 199,
+          "detected": 137,
+          "uncertain": 91,
+          "observed_by_detector": 169,
+          "reason_history": 24,
+          "reason_overlap": 6,
+          "reason_confirm_non_threat": 30,
+          "nonthreat": 78,
+          "reason_crossing": 78,
+          "reason_growth_unresolved": 31
+        }
+      },
+      "events": [
+        {
+          "id": "approach_M2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 17.92,
+          "max_warning_duration_s": 16.080000000000013,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            1,
+            40,
+            46,
+            113
+          ],
+          "fragments": 4,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "id": "other_M2_labels",
+          "kind": "other",
+          "sampled_frames": 199,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": true,
+          "associated_track_ids": [
+            5,
+            34
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": true
+        }
+      ]
+    },
+    {
+      "sequence": "M2",
+      "margin_px": 2,
+      "frames": 438,
+      "raw_detections": 727,
+      "track_states": {
+        "uncertain": 530,
+        "nonthreat": 79,
+        "threat": 222
+      },
+      "track_ids": 17,
+      "path": "artifacts\\crop_guard\\M2\\2",
+      "counts": {
+        "approach": {
+          "total": 438,
+          "untracked": 61,
+          "detector_queried": 438,
+          "detected": 360,
+          "uncertain": 164,
+          "observed_by_detector": 377,
+          "reason_history": 51,
+          "reason_growth_unresolved": 60,
+          "reason_overlap": 44,
+          "reason_confirm_warning": 9,
+          "threat": 213,
+          "reason_bearing_growth": 213
+        },
+        "other": {
+          "total": 199,
+          "untracked": 30,
+          "detector_queried": 199,
+          "detected": 137,
+          "uncertain": 91,
+          "observed_by_detector": 169,
+          "reason_history": 24,
+          "reason_overlap": 6,
+          "reason_confirm_non_threat": 30,
+          "nonthreat": 78,
+          "reason_crossing": 78,
+          "reason_growth_unresolved": 31
+        }
+      },
+      "events": [
+        {
+          "id": "approach_M2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 17.92,
+          "max_warning_duration_s": 16.16000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            1,
+            40,
+            46
+          ],
+          "fragments": 3,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "id": "other_M2_labels",
+          "kind": "other",
+          "sampled_frames": 199,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": true,
+          "associated_track_ids": [
+            5,
+            34
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": true
+        }
+      ]
+    },
+    {
+      "sequence": "M2",
+      "margin_px": 8,
+      "frames": 438,
+      "raw_detections": 726,
+      "track_states": {
+        "uncertain": 519,
+        "nonthreat": 79,
+        "threat": 222
+      },
+      "track_ids": 16,
+      "path": "artifacts\\crop_guard\\M2\\8",
+      "counts": {
+        "approach": {
+          "total": 438,
+          "untracked": 61,
+          "detector_queried": 438,
+          "detected": 360,
+          "uncertain": 164,
+          "observed_by_detector": 377,
+          "reason_history": 51,
+          "reason_growth_unresolved": 60,
+          "reason_overlap": 44,
+          "reason_confirm_warning": 9,
+          "threat": 213,
+          "reason_bearing_growth": 213
+        },
+        "other": {
+          "total": 199,
+          "untracked": 30,
+          "detector_queried": 199,
+          "detected": 137,
+          "uncertain": 91,
+          "observed_by_detector": 169,
+          "reason_history": 24,
+          "reason_overlap": 6,
+          "reason_confirm_non_threat": 30,
+          "nonthreat": 78,
+          "reason_crossing": 78,
+          "reason_growth_unresolved": 31
+        }
+      },
+      "events": [
+        {
+          "id": "approach_M2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 17.92,
+          "max_warning_duration_s": 16.16000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            1,
+            40,
+            46
+          ],
+          "fragments": 3,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "id": "other_M2_labels",
+          "kind": "other",
+          "sampled_frames": 199,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": true,
+          "associated_track_ids": [
+            5,
+            34
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": true
+        }
+      ]
+    },
+    {
+      "sequence": "formation_native",
+      "margin_px": 0,
+      "frames": 200,
+      "raw_detections": 436,
+      "track_states": {
+        "uncertain": 581
+      },
+      "track_ids": 33,
+      "path": "artifacts\\crop_guard\\formation_native\\0"
+    },
+    {
+      "sequence": "formation_native",
+      "margin_px": 2,
+      "frames": 200,
+      "raw_detections": 289,
+      "track_states": {
+        "uncertain": 322
+      },
+      "track_ids": 13,
+      "path": "artifacts\\crop_guard\\formation_native\\2"
+    },
+    {
+      "sequence": "formation_native",
+      "margin_px": 8,
+      "frames": 200,
+      "raw_detections": 287,
+      "track_states": {
+        "uncertain": 316
+      },
+      "track_ids": 12,
+      "path": "artifacts\\crop_guard\\formation_native\\8"
+    }
+  ],
+  "limits": "Formation has no exhaustive per-frame boxes or threat labels. Fewer IDs/detections alone do not prove improved precision. Runtime during exploratory work is not the clean benchmark."
+}

@@ -1,0 +1,61 @@
+{
+  "kind": "Geometry-only fixed-camera reassessment of cached observations, not neural/decode/render throughput",
+  "source_run": "artifacts\\full_gpu_default\\M6",
+  "source_benchmark_sha256": "ded4910ada2facf6e9509c06c0bfd7b8ee6d43f0dbdfaf55b575d222be57b958",
+  "source_observation_sha256": "23cb312de9e9b29a0ff9ff9facb5508dd11ee6077023448d31c3cf6987ac24f5",
+  "input_sha256": "e98eae3f45fcfe3cdb0af0f8f470b94d7c1706730da4dd346cc89b992814d54e",
+  "source_fps": 25.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "frames": 649,
+  "config": {
+    "window": 4.0,
+    "min_span": 6.0,
+    "min_history": 2.0,
+    "min_samples": 10,
+    "threat_miss": 2.0,
+    "nonthreat_miss": 5.0,
+    "horizon": 60.0,
+    "max_log_residual": 0.16,
+    "growth_floor": 0.008,
+    "allow_recession_clearance": false,
+    "correlation_seconds": 0.5,
+    "bounded_pixel_error": 2.0,
+    "bounded_span_fraction": 0.1
+  },
+  "image_edge_margin": 1.0,
+  "policy_parameters": {
+    "warning_seconds": 0.24,
+    "nonthreat_seconds": 1.2
+  },
+  "states_track_frames": {
+    "uncertain": 403,
+    "threat": 57
+  },
+  "reassessment_s": 0.4503141000004689,
+  "source_decision_verification_requested": false,
+  "source_decision_mismatch_frames": 0,
+  "first_mismatches": [],
+  "no_gt_used": true,
+  "source_hashes": {
+    "appearance.py": "7536007347fc20a6a6d8baf38dff430a23f2c1eb981899a0893d2e61830dc096",
+    "bounded.py": "65320f1874b2a533b18e929c812c18164ae482d8efcdafb235447ef1c424d9be",
+    "calibrated.py": "fa0ea19e1e28b67aa12fea8e269b601d156885b01059fff0a6505916a2599286",
+    "cli.py": "2f64263c671591799238cfaf3595afdddcb6401500d1b236b260e006244ce756",
+    "detector.py": "b6b451886277904d68996468cc17948e6d2ae578c4171fc84960705b844ce9da",
+    "geometry.py": "58077f02c6dc4dcabf09d8e7b38e8a187e74dee00e8c2202adb24ca3b44c36b3",
+    "gpu.py": "59dad3aeaeecee710f13ae9189bdf0e08576b108975d4ba2907fab909cd82482",
+    "lifecycle.py": "f57d4da705aa004cf47ac7875041b168bed8ce2841451c9a816b8df62803e4fe",
+    "media.py": "b1ebda0f43a3077ddf8fe5f8791e3800fdf8a4c9b75a27dc02598764a1b088c1",
+    "policy.py": "c57bc3ff5b7e0077fbb9b1a1060140666749c099c1d68f326988cbf794583d60",
+    "projective.py": "35366a5eaa4ed55089724c6c84e0f394558c93aa7b62ee491ec5e2790290343d",
+    "proposals.py": "e7f0a5dfbfd3e05c23d9be17910bee4e76917a42b022c4b0ba2f85d365db3cbd",
+    "provenance.py": "922f2495bd399ede8c9cb005b07541581993bed29126689c44486e3ba1b0f529",
+    "render.py": "2fa753f232cd51625e19b6681c8385a952779900ad16d7534388f6ffbc48179b",
+    "tracking.py": "e1497052fc633395fa0ff0cdfc74fcea9e00ef0430bd604ae4e4303ded255ff8",
+    "__init__.py": "4c2fe2d65d95a24fa3f28ace4a87f32fe8717d7eba6b67e9a97636e1270d8a50",
+    "__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3"
+  }
+}

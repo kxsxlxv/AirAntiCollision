@@ -1,0 +1,38 @@
+{
+  "scope": "Raw post-NMS fixed YOLO26m boxes, all classes pooled; not a tracker upper bound because filters can change localization",
+  "runs": [
+    {
+      "sequence": "sw02",
+      "gt_boxes": 2983,
+      "detections": 400,
+      "tp_iou50": 1,
+      "recall_iou50": 0.00033523298692591353,
+      "precision_iou50": 0.0025,
+      "median_gt_span": 16.0
+    },
+    {
+      "sequence": "sw06",
+      "gt_boxes": 760,
+      "detections": 619,
+      "tp_iou50": 465,
+      "recall_iou50": 0.6118421052631579,
+      "precision_iou50": 0.7512116316639742,
+      "median_gt_span": 27.0
+    },
+    {
+      "sequence": "sw28",
+      "gt_boxes": 873,
+      "detections": 464,
+      "tp_iou50": 196,
+      "recall_iou50": 0.22451317296678122,
+      "precision_iou50": 0.4224137931034483,
+      "median_gt_span": 19.0
+    }
+  ],
+  "combined": {
+    "gt_boxes": 4616,
+    "detections": 1483,
+    "tp_iou50": 662,
+    "recall_iou50": 0.14341421143847488
+  }
+}

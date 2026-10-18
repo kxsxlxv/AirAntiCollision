@@ -1,0 +1,18 @@
+{"name": "M1", "output": "demo\\M1_final", "frames": 438, "processing_fps": 24.24087660986965, "whole_run_fps": 20.989837209626373, "states": {"uncertain": 809, "threat": 130}}
+{"name": "M2", "output": "demo\\M2_final", "frames": 438, "processing_fps": 21.805145545387354, "whole_run_fps": 19.32940375969521, "states": {"uncertain": 992, "nonthreat": 81, "threat": 165}}
+{"name": "S2", "output": "demo\\S2_final", "frames": 438, "processing_fps": 25.20079756727017, "whole_run_fps": 21.98588544303727, "states": {"uncertain": 292, "threat": 140}}
+{"name": "formation", "output": "demo\\formation_final", "frames": 300, "processing_fps": 11.993595180301215, "whole_run_fps": 10.793075473616447, "states": {"uncertain": 1309}}
+{"name": "helicopter", "output": "demo\\helicopter_final", "frames": 210, "processing_fps": 27.7049237230016, "whole_run_fps": 20.768958011188314, "states": {"uncertain": 293}}
+{"name": "M2_repeat2", "output": "artifacts\\final_benchmark\\M2_repeat2", "frames": 438, "processing_fps": 22.698188376742465, "whole_run_fps": 20.056811881280776, "states": {"uncertain": 992, "nonthreat": 81, "threat": 165}}
+{"name": "M2_repeat3", "output": "artifacts\\final_benchmark\\M2_repeat3", "frames": 438, "processing_fps": 23.433064795937405, "whole_run_fps": 20.462624432495318, "states": {"uncertain": 992, "nonthreat": 81, "threat": 165}}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\kisel\PycharmProjects\AirAntiCollision\scripts\final_production.py", line 67, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\kisel\PycharmProjects\AirAntiCollision\scripts\final_production.py", line 43, in main
+    subprocess.run(cmd,stdout=log,stderr=subprocess.STDOUT,check=True)
+  File "C:\Users\kisel\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe', '-m', 'scripts.run_sky_demo', 'data/qut/S2.mp4', '--camera', 'fixed', '--stride', '2', '--encoder', 'h264_nvenc', '--render-process', '--output', 'demo\\S2_sky_final']' returned non-zero exit status 1.

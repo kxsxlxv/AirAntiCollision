@@ -1,0 +1,11 @@
+{
+  "name": "M1",
+  "output": "demo\\M1_final",
+  "frames": 438,
+  "processing_fps": 24.24087660986965,
+  "whole_run_fps": 20.989837209626373,
+  "states": {
+    "uncertain": 809,
+    "threat": 130
+  }
+}

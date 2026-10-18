@@ -1,0 +1,22 @@
+{
+  "kind": "extra actual neural RGB crop experiment; baseline and DINO masks precomputed",
+  "sequence": "S2",
+  "frames": 438,
+  "counts": {
+    "proposal_frames": 88,
+    "proposals": 1056,
+    "zoom_detections_before_suppression": 52
+  },
+  "added_proposal_frame_mean_s": 0.20901323977265787,
+  "total_added_experiment_s": 18.42925809999997,
+  "settings": {
+    "sequence": "S2",
+    "mask": "artifacts/sky/S2_sky_mask.mkv",
+    "base": "artifacts/heldout_confirmed/S2/detections.jsonl",
+    "output": "artifacts/sky_proposals/S2",
+    "topk": 12,
+    "crop_size": 96
+  },
+  "no_gt_used": true,
+  "original_pixel_sizes_preserved": true
+}

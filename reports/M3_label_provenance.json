@@ -1,0 +1,6 @@
+{
+  "remote_sha256": "315e79b94d3af98a8981e8e6bd2790b657ed39b61fe1c4674e303b7c20c44ee6",
+  "local_sha256": "315e79b94d3af98a8981e8e6bd2790b657ed39b61fe1c4674e303b7c20c44ee6",
+  "identical": true,
+  "source": "https://huggingface.co/datasets/jasminmartin/vision_based_aircraft_detection_dataset/resolve/main/Target%20Labels/target-aircarft-labels/M3_labels.csv"
+}

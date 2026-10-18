@@ -1,0 +1,11 @@
+{"timestamp_utc": "2026-10-17T22:24:16.777242+00:00", "limit": "codex", "window_minutes": 10080, "baseline_used_percent": 0, "observed_used_percent": 2, "additional_percentage_points": 2, "quota_precision": "integer percent from account tool; shared account usage"}
+{"timestamp_utc": "2026-10-17T22:33:00.147565+00:00", "baseline_used_percent": 0, "observed_used_percent": 3, "additional_percentage_points": 3, "quota_precision": "integer account usage tool reading"}
+{"timestamp_utc": "2026-10-17T22:56:38.674225+00:00", "observed_used_percent": 6, "baseline_used_percent": 0, "additional_percentage_points": 6}
+{"timestamp_utc": "2026-10-17T23:15:23.257263+00:00", "observed_used_percent": 9, "baseline_used_percent": 0, "additional_percentage_points": 9}
+{"timestamp_utc": "2026-10-17T23:35:39.359360+00:00", "observed_used_percent": 12, "baseline_used_percent": 0, "additional_percentage_points": 12}
+{"timestamp_utc": "2026-10-17T23:56:48.634830+00:00", "observed_used_percent": 14, "baseline_used_percent": 0, "additional_percentage_points": 14}
+{"recorded_at_utc": "2026-10-18T00:34:54.479095+00:00", "measurement_at_utc": "2026-10-18T00:22:16Z", "observed_used_percent": 18, "baseline_used_percent": 0, "additional_percentage_points": 18}
+{"measurement_at_utc": "2026-10-18T00:58:28Z", "recorded_at_utc": "2026-10-18T01:08:56.619410+00:00", "observed_used_percent": 22, "baseline_used_percent": 0, "additional_percentage_points": 22}
+{"measurement_at_utc":"2026-10-18T01:30:30Z","observed_used_percent":26,"baseline_used_percent":0,"additional_percentage_points":26,"precision":"Integer account-wide tool reading; not an isolated thread meter"}
+{"measurement_at_utc":"2026-10-18T01:59:43Z","observed_used_percent":30,"baseline_used_percent":0,"additional_percentage_points":30,"precision":"Integer shared account tool reading","phase":"Algorithms frozen; final validation and delivery"}
+{"measurement_utc":"2026-10-18 02:23:13 UTC","observed_used_percent":34,"baseline_used_percent":0,"cap_additional_percentage_points":35,"window_minutes":10080,"precision":"Integer shared account reading; not an isolated chat meter"}

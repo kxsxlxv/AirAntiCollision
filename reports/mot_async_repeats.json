@@ -1,0 +1,1031 @@
+{
+  "complete": true,
+  "runs": [
+    {
+      "method": "tracktrack",
+      "repetition": 1,
+      "exit_code": 0,
+      "external_seconds": 50.96814830000221,
+      "runs": [
+        {
+          "sequence": "M2",
+          "frames": 300,
+          "source_size": [
+            1280,
+            720
+          ],
+          "source_fps": 25.0,
+          "start_frame": 3016,
+          "processed_source_frame_step": 1.0,
+          "update_rate_hz": 25.000000000004974,
+          "processing_seconds": 16.906633599995985,
+          "processing_fps": 17.744514200631357,
+          "frame_ms_p50": 52.283799999713665,
+          "frame_ms_p95": 58.55127499598894,
+          "input_sha256": "60b4d46eddd25ce16c73f887c1ec244b716995edd638573693977cbb1f421268",
+          "detection_cache_sha256": null,
+          "metrics": [
+            {
+              "gate_px": 5,
+              "total_label_samples": 600,
+              "matched": 503,
+              "coverage": 0.8383333333333334,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 2,
+              "dominant_identity_coverage": 0.8383333333333334,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 298,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 0,
+                  "ids": {
+                    "1": 298
+                  },
+                  "dominant_id_samples": 298,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 205,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 2,
+                  "ids": {
+                    "2": 205
+                  },
+                  "dominant_id_samples": 205,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.5144830331688077
+            },
+            {
+              "gate_px": 10,
+              "total_label_samples": 600,
+              "matched": 592,
+              "coverage": 0.9866666666666667,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 4,
+              "dominant_identity_coverage": 0.9866666666666667,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 298,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 0,
+                  "ids": {
+                    "1": 298
+                  },
+                  "dominant_id_samples": 298,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 294,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 4,
+                  "ids": {
+                    "2": 294
+                  },
+                  "dominant_id_samples": 294,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.632233023952253
+            },
+            {
+              "gate_px": 20,
+              "total_label_samples": 600,
+              "matched": 593,
+              "coverage": 0.9883333333333333,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 3,
+              "dominant_identity_coverage": 0.9883333333333333,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 298,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 0,
+                  "ids": {
+                    "1": 298
+                  },
+                  "dominant_id_samples": 298,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 295,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 3,
+                  "ids": {
+                    "2": 295
+                  },
+                  "dominant_id_samples": 295,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.633007645889441
+            }
+          ]
+        },
+        {
+          "sequence": "formation",
+          "frames": 300,
+          "source_size": [
+            1920,
+            1080
+          ],
+          "source_fps": 29.97002997002997,
+          "start_frame": 0,
+          "processed_source_frame_step": 2.0,
+          "update_rate_hz": 14.98501498501494,
+          "processing_seconds": 28.349421900005837,
+          "processing_fps": 10.582226369841363,
+          "frame_ms_p50": 94.11035000084667,
+          "frame_ms_p95": 98.17501999896194,
+          "input_sha256": "972913f804870bfe8fea5b0190e2402106815e62e14a69fa37b2369b4863472f",
+          "detection_cache_sha256": null,
+          "metrics": null
+        }
+      ],
+      "trace_exact": {
+        "M2": true,
+        "formation": true
+      }
+    },
+    {
+      "method": "tracktrack",
+      "repetition": 2,
+      "exit_code": 0,
+      "external_seconds": 50.903135399996245,
+      "runs": [
+        {
+          "sequence": "M2",
+          "frames": 300,
+          "source_size": [
+            1280,
+            720
+          ],
+          "source_fps": 25.0,
+          "start_frame": 3016,
+          "processed_source_frame_step": 1.0,
+          "update_rate_hz": 25.000000000004974,
+          "processing_seconds": 16.778957799993805,
+          "processing_fps": 17.879537190331973,
+          "frame_ms_p50": 52.250850003474625,
+          "frame_ms_p95": 55.626519996803836,
+          "input_sha256": "60b4d46eddd25ce16c73f887c1ec244b716995edd638573693977cbb1f421268",
+          "detection_cache_sha256": null,
+          "metrics": [
+            {
+              "gate_px": 5,
+              "total_label_samples": 600,
+              "matched": 503,
+              "coverage": 0.8383333333333334,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 2,
+              "dominant_identity_coverage": 0.8383333333333334,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 298,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 0,
+                  "ids": {
+                    "1": 298
+                  },
+                  "dominant_id_samples": 298,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 205,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 2,
+                  "ids": {
+                    "2": 205
+                  },
+                  "dominant_id_samples": 205,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.5144830331688077
+            },
+            {
+              "gate_px": 10,
+              "total_label_samples": 600,
+              "matched": 592,
+              "coverage": 0.9866666666666667,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 4,
+              "dominant_identity_coverage": 0.9866666666666667,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 298,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 0,
+                  "ids": {
+                    "1": 298
+                  },
+                  "dominant_id_samples": 298,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 294,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 4,
+                  "ids": {
+                    "2": 294
+                  },
+                  "dominant_id_samples": 294,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.632233023952253
+            },
+            {
+              "gate_px": 20,
+              "total_label_samples": 600,
+              "matched": 593,
+              "coverage": 0.9883333333333333,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 3,
+              "dominant_identity_coverage": 0.9883333333333333,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 298,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 0,
+                  "ids": {
+                    "1": 298
+                  },
+                  "dominant_id_samples": 298,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 295,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 3,
+                  "ids": {
+                    "2": 295
+                  },
+                  "dominant_id_samples": 295,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.633007645889441
+            }
+          ]
+        },
+        {
+          "sequence": "formation",
+          "frames": 300,
+          "source_size": [
+            1920,
+            1080
+          ],
+          "source_fps": 29.97002997002997,
+          "start_frame": 0,
+          "processed_source_frame_step": 2.0,
+          "update_rate_hz": 14.98501498501494,
+          "processing_seconds": 28.49259929999971,
+          "processing_fps": 10.529049906654288,
+          "frame_ms_p50": 94.28725000179838,
+          "frame_ms_p95": 99.55090000621568,
+          "input_sha256": "972913f804870bfe8fea5b0190e2402106815e62e14a69fa37b2369b4863472f",
+          "detection_cache_sha256": null,
+          "metrics": null
+        }
+      ],
+      "trace_exact": {
+        "M2": true,
+        "formation": true
+      }
+    },
+    {
+      "method": "tracktrack",
+      "repetition": 3,
+      "exit_code": 0,
+      "external_seconds": 51.00627920000261,
+      "runs": [
+        {
+          "sequence": "M2",
+          "frames": 300,
+          "source_size": [
+            1280,
+            720
+          ],
+          "source_fps": 25.0,
+          "start_frame": 3016,
+          "processed_source_frame_step": 1.0,
+          "update_rate_hz": 25.000000000004974,
+          "processing_seconds": 16.83422419999988,
+          "processing_fps": 17.820839050011116,
+          "frame_ms_p50": 52.44779999702587,
+          "frame_ms_p95": 56.104639998375205,
+          "input_sha256": "60b4d46eddd25ce16c73f887c1ec244b716995edd638573693977cbb1f421268",
+          "detection_cache_sha256": null,
+          "metrics": [
+            {
+              "gate_px": 5,
+              "total_label_samples": 600,
+              "matched": 503,
+              "coverage": 0.8383333333333334,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 2,
+              "dominant_identity_coverage": 0.8383333333333334,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 298,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 0,
+                  "ids": {
+                    "1": 298
+                  },
+                  "dominant_id_samples": 298,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 205,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 2,
+                  "ids": {
+                    "2": 205
+                  },
+                  "dominant_id_samples": 205,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.5144830331688077
+            },
+            {
+              "gate_px": 10,
+              "total_label_samples": 600,
+              "matched": 592,
+              "coverage": 0.9866666666666667,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 4,
+              "dominant_identity_coverage": 0.9866666666666667,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 298,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 0,
+                  "ids": {
+                    "1": 298
+                  },
+                  "dominant_id_samples": 298,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 294,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 4,
+                  "ids": {
+                    "2": 294
+                  },
+                  "dominant_id_samples": 294,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.632233023952253
+            },
+            {
+              "gate_px": 20,
+              "total_label_samples": 600,
+              "matched": 593,
+              "coverage": 0.9883333333333333,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 3,
+              "dominant_identity_coverage": 0.9883333333333333,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 298,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 0,
+                  "ids": {
+                    "1": 298
+                  },
+                  "dominant_id_samples": 298,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 295,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 3,
+                  "ids": {
+                    "2": 295
+                  },
+                  "dominant_id_samples": 295,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.633007645889441
+            }
+          ]
+        },
+        {
+          "sequence": "formation",
+          "frames": 300,
+          "source_size": [
+            1920,
+            1080
+          ],
+          "source_fps": 29.97002997002997,
+          "start_frame": 0,
+          "processed_source_frame_step": 2.0,
+          "update_rate_hz": 14.98501498501494,
+          "processing_seconds": 28.431810800000676,
+          "processing_fps": 10.551561492523469,
+          "frame_ms_p50": 94.45994999987306,
+          "frame_ms_p95": 98.49858499765107,
+          "input_sha256": "972913f804870bfe8fea5b0190e2402106815e62e14a69fa37b2369b4863472f",
+          "detection_cache_sha256": null,
+          "metrics": null
+        }
+      ],
+      "trace_exact": {
+        "M2": true,
+        "formation": true
+      }
+    },
+    {
+      "method": "putr",
+      "repetition": 1,
+      "exit_code": 0,
+      "external_seconds": 48.168651800006046,
+      "runs": [
+        {
+          "sequence": "M2",
+          "frames": 300,
+          "source_size": [
+            1280,
+            720
+          ],
+          "source_fps": 25.0,
+          "start_frame": 3016,
+          "processed_source_frame_step": 1.0,
+          "update_rate_hz": 25.000000000004974,
+          "processing_seconds": 15.076303200003167,
+          "processing_fps": 19.89877730768488,
+          "frame_ms_p50": 48.550399998930516,
+          "frame_ms_p95": 51.488480000625714,
+          "input_sha256": "60b4d46eddd25ce16c73f887c1ec244b716995edd638573693977cbb1f421268",
+          "detection_cache_sha256": null,
+          "metrics": [
+            {
+              "gate_px": 5,
+              "total_label_samples": 600,
+              "matched": 498,
+              "coverage": 0.83,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 5,
+              "dominant_identity_coverage": 0.83,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 295,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 2,
+                  "ids": {
+                    "1": 295
+                  },
+                  "dominant_id_samples": 295,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 203,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 3,
+                  "ids": {
+                    "2": 203
+                  },
+                  "dominant_id_samples": 203,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.5461646096066226
+            },
+            {
+              "gate_px": 10,
+              "total_label_samples": 600,
+              "matched": 588,
+              "coverage": 0.98,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 6,
+              "dominant_identity_coverage": 0.98,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 295,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 2,
+                  "ids": {
+                    "1": 295
+                  },
+                  "dominant_id_samples": 295,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 293,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 4,
+                  "ids": {
+                    "2": 293
+                  },
+                  "dominant_id_samples": 293,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.6770509831248424
+            },
+            {
+              "gate_px": 20,
+              "total_label_samples": 600,
+              "matched": 589,
+              "coverage": 0.9816666666666667,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 5,
+              "dominant_identity_coverage": 0.9816666666666667,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 295,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 2,
+                  "ids": {
+                    "1": 295
+                  },
+                  "dominant_id_samples": 295,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 294,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 3,
+                  "ids": {
+                    "2": 294
+                  },
+                  "dominant_id_samples": 294,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.6770509831248424
+            }
+          ]
+        },
+        {
+          "sequence": "formation",
+          "frames": 300,
+          "source_size": [
+            1920,
+            1080
+          ],
+          "source_fps": 29.97002997002997,
+          "start_frame": 0,
+          "processed_source_frame_step": 2.0,
+          "update_rate_hz": 14.98501498501494,
+          "processing_seconds": 28.684875599996303,
+          "processing_fps": 10.4584731055985,
+          "frame_ms_p50": 94.7498000023188,
+          "frame_ms_p95": 99.25632500417123,
+          "input_sha256": "972913f804870bfe8fea5b0190e2402106815e62e14a69fa37b2369b4863472f",
+          "detection_cache_sha256": null,
+          "metrics": null
+        }
+      ],
+      "trace_exact": {
+        "M2": true,
+        "formation": true
+      }
+    },
+    {
+      "method": "putr",
+      "repetition": 2,
+      "exit_code": 0,
+      "external_seconds": 48.052299900002254,
+      "runs": [
+        {
+          "sequence": "M2",
+          "frames": 300,
+          "source_size": [
+            1280,
+            720
+          ],
+          "source_fps": 25.0,
+          "start_frame": 3016,
+          "processed_source_frame_step": 1.0,
+          "update_rate_hz": 25.000000000004974,
+          "processing_seconds": 15.153195300001244,
+          "processing_fps": 19.797804625403025,
+          "frame_ms_p50": 48.68530000385363,
+          "frame_ms_p95": 52.36130999546731,
+          "input_sha256": "60b4d46eddd25ce16c73f887c1ec244b716995edd638573693977cbb1f421268",
+          "detection_cache_sha256": null,
+          "metrics": [
+            {
+              "gate_px": 5,
+              "total_label_samples": 600,
+              "matched": 498,
+              "coverage": 0.83,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 5,
+              "dominant_identity_coverage": 0.83,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 295,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 2,
+                  "ids": {
+                    "1": 295
+                  },
+                  "dominant_id_samples": 295,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 203,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 3,
+                  "ids": {
+                    "2": 203
+                  },
+                  "dominant_id_samples": 203,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.5461646096066226
+            },
+            {
+              "gate_px": 10,
+              "total_label_samples": 600,
+              "matched": 588,
+              "coverage": 0.98,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 6,
+              "dominant_identity_coverage": 0.98,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 295,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 2,
+                  "ids": {
+                    "1": 295
+                  },
+                  "dominant_id_samples": 295,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 293,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 4,
+                  "ids": {
+                    "2": 293
+                  },
+                  "dominant_id_samples": 293,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.6770509831248424
+            },
+            {
+              "gate_px": 20,
+              "total_label_samples": 600,
+              "matched": 589,
+              "coverage": 0.9816666666666667,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 5,
+              "dominant_identity_coverage": 0.9816666666666667,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 295,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 2,
+                  "ids": {
+                    "1": 295
+                  },
+                  "dominant_id_samples": 295,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 294,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 3,
+                  "ids": {
+                    "2": 294
+                  },
+                  "dominant_id_samples": 294,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.6770509831248424
+            }
+          ]
+        },
+        {
+          "sequence": "formation",
+          "frames": 300,
+          "source_size": [
+            1920,
+            1080
+          ],
+          "source_fps": 29.97002997002997,
+          "start_frame": 0,
+          "processed_source_frame_step": 2.0,
+          "update_rate_hz": 14.98501498501494,
+          "processing_seconds": 28.504920000006678,
+          "processing_fps": 10.524498928603544,
+          "frame_ms_p50": 94.55590000288794,
+          "frame_ms_p95": 98.1334300013259,
+          "input_sha256": "972913f804870bfe8fea5b0190e2402106815e62e14a69fa37b2369b4863472f",
+          "detection_cache_sha256": null,
+          "metrics": null
+        }
+      ],
+      "trace_exact": {
+        "M2": true,
+        "formation": true
+      }
+    },
+    {
+      "method": "putr",
+      "repetition": 3,
+      "exit_code": 0,
+      "external_seconds": 48.05041869999695,
+      "runs": [
+        {
+          "sequence": "M2",
+          "frames": 300,
+          "source_size": [
+            1280,
+            720
+          ],
+          "source_fps": 25.0,
+          "start_frame": 3016,
+          "processed_source_frame_step": 1.0,
+          "update_rate_hz": 25.000000000004974,
+          "processing_seconds": 15.06650410000293,
+          "processing_fps": 19.9117192687016,
+          "frame_ms_p50": 48.5099999968952,
+          "frame_ms_p95": 51.613305000137196,
+          "input_sha256": "60b4d46eddd25ce16c73f887c1ec244b716995edd638573693977cbb1f421268",
+          "detection_cache_sha256": null,
+          "metrics": [
+            {
+              "gate_px": 5,
+              "total_label_samples": 600,
+              "matched": 498,
+              "coverage": 0.83,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 5,
+              "dominant_identity_coverage": 0.83,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 295,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 2,
+                  "ids": {
+                    "1": 295
+                  },
+                  "dominant_id_samples": 295,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 203,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 3,
+                  "ids": {
+                    "2": 203
+                  },
+                  "dominant_id_samples": 203,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.5461646096066226
+            },
+            {
+              "gate_px": 10,
+              "total_label_samples": 600,
+              "matched": 588,
+              "coverage": 0.98,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 6,
+              "dominant_identity_coverage": 0.98,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 295,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 2,
+                  "ids": {
+                    "1": 295
+                  },
+                  "dominant_id_samples": 295,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 293,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 4,
+                  "ids": {
+                    "2": 293
+                  },
+                  "dominant_id_samples": 293,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.6770509831248424
+            },
+            {
+              "gate_px": 20,
+              "total_label_samples": 600,
+              "matched": 589,
+              "coverage": 0.9816666666666667,
+              "switches_consecutive": 0,
+              "switches_including_reacquisition": 0,
+              "fragments": 5,
+              "dominant_identity_coverage": 0.9816666666666667,
+              "track_ids_matching_multiple_gt": 0,
+              "targets": [
+                {
+                  "id": "approach_M2_labels",
+                  "total": 300,
+                  "matched": 295,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 2,
+                  "ids": {
+                    "1": 295
+                  },
+                  "dominant_id_samples": 295,
+                  "distinct_ids": 1
+                },
+                {
+                  "id": "other_M2_labels",
+                  "total": 300,
+                  "matched": 294,
+                  "switches_consecutive": 0,
+                  "switches_including_reacquisition": 0,
+                  "fragments": 3,
+                  "ids": {
+                    "2": 294
+                  },
+                  "dominant_id_samples": 294,
+                  "distinct_ids": 1
+                }
+              ],
+              "median_center_error": 1.6770509831248424
+            }
+          ]
+        },
+        {
+          "sequence": "formation",
+          "frames": 300,
+          "source_size": [
+            1920,
+            1080
+          ],
+          "source_fps": 29.97002997002997,
+          "start_frame": 0,
+          "processed_source_frame_step": 2.0,
+          "update_rate_hz": 14.98501498501494,
+          "processing_seconds": 28.584455800002615,
+          "processing_fps": 10.495214675382154,
+          "frame_ms_p50": 94.74795000278391,
+          "frame_ms_p95": 97.87601000389259,
+          "input_sha256": "972913f804870bfe8fea5b0190e2402106815e62e14a69fa37b2369b4863472f",
+          "detection_cache_sha256": null,
+          "metrics": null
+        }
+      ],
+      "trace_exact": {
+        "M2": true,
+        "formation": true
+      }
+    }
+  ]
+}

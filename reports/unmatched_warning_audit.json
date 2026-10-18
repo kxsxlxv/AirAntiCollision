@@ -1,0 +1,879 @@
+{
+  "kind": "Qualitative offline review, not verified false-alert ground truth",
+  "root": "artifacts\\full_campaign",
+  "centroid_tolerance_px": 20,
+  "selection": "Longest track-warning episodes, at most3 per sequence, at most12 total",
+  "episodes": [
+    {
+      "sequence": "M1",
+      "track_id": 136,
+      "samples": [
+        {
+          "frame": 2190,
+          "time": 87.6,
+          "box": [
+            639.5,
+            481.25,
+            704.0,
+            548.25
+          ],
+          "confidence": 0.2294921875,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 34.865814202453386,
+          "nearest_offline_label": {
+            "frame": 2190,
+            "source_frame": 82936,
+            "id": "approach_M1_labels",
+            "kind": "approach",
+            "u": 704.0,
+            "v": 528.0,
+            "range_offline_only": 158.0
+          }
+        },
+        {
+          "frame": 2195,
+          "time": 87.8,
+          "box": [
+            631.0,
+            496.625,
+            703.5,
+            539.125
+          ],
+          "confidence": 0.74169921875,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 37.256920498076596,
+          "nearest_offline_label": {
+            "frame": 2195,
+            "source_frame": 82941,
+            "id": "approach_M1_labels",
+            "kind": "approach",
+            "u": 704.0,
+            "v": 524.0,
+            "range_offline_only": 148.0
+          }
+        },
+        {
+          "frame": 2200,
+          "time": 88.0,
+          "box": [
+            623.0,
+            465.375,
+            704.0,
+            539.0
+          ],
+          "confidence": 0.22607421875,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 44.24404091230818,
+          "nearest_offline_label": {
+            "frame": 2200,
+            "source_frame": 82946,
+            "id": "approach_M1_labels",
+            "kind": "approach",
+            "u": 704.0,
+            "v": 520.0,
+            "range_offline_only": 140.0
+          }
+        },
+        {
+          "frame": 2205,
+          "time": 88.2,
+          "box": [
+            619.0,
+            469.25,
+            703.5,
+            533.0
+          ],
+          "confidence": 0.2193603515625,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 44.646703405738705,
+          "nearest_offline_label": {
+            "frame": 2205,
+            "source_frame": 82951,
+            "id": "approach_M1_labels",
+            "kind": "approach",
+            "u": 704.0,
+            "v": 514.0,
+            "range_offline_only": 130.0
+          }
+        },
+        {
+          "frame": 2210,
+          "time": 88.4,
+          "box": [
+            619.0,
+            469.25,
+            703.5,
+            533.0
+          ],
+          "confidence": 0.2193603515625,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 42.92526208423194,
+          "nearest_offline_label": {
+            "frame": 2210,
+            "source_frame": 82956,
+            "id": "approach_M1_labels",
+            "kind": "approach",
+            "u": 704.0,
+            "v": 505.0,
+            "range_offline_only": 121.0
+          }
+        }
+      ],
+      "sample_period_s": 0.20000000000000107,
+      "duration_s": 1.0000000000000053
+    },
+    {
+      "sequence": "M5",
+      "track_id": 324,
+      "samples": [
+        {
+          "frame": 5460,
+          "time": 218.4,
+          "box": [
+            595.25,
+            117.75,
+            993.5,
+            212.375
+          ],
+          "confidence": 0.9453125,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 30.176887368481196,
+          "nearest_offline_label": {
+            "frame": 5460,
+            "source_frame": 35883,
+            "id": "approach_M5_labels",
+            "kind": "approach",
+            "u": 797.0,
+            "v": 135.0,
+            "range_offline_only": 379.0
+          }
+        }
+      ],
+      "sample_period_s": 0.20000000000000284,
+      "duration_s": 0.20000000000000284
+    },
+    {
+      "sequence": "M6",
+      "track_id": 52,
+      "samples": [
+        {
+          "frame": 3110,
+          "time": 124.4,
+          "box": [
+            662.5,
+            536.375,
+            704.0,
+            560.5
+          ],
+          "confidence": 0.59619140625,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 24.75639122024856,
+          "nearest_offline_label": {
+            "frame": 3110,
+            "source_frame": 43330,
+            "id": "approach_M6_labels",
+            "kind": "approach",
+            "u": 708.0,
+            "v": 549.0,
+            "range_offline_only": 239.0
+          }
+        },
+        {
+          "frame": 3115,
+          "time": 124.6,
+          "box": [
+            660.5,
+            531.5,
+            704.0,
+            558.5
+          ],
+          "confidence": 0.48046875,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 25.924168260524773,
+          "nearest_offline_label": {
+            "frame": 3115,
+            "source_frame": 43335,
+            "id": "approach_M6_labels",
+            "kind": "approach",
+            "u": 708.0,
+            "v": 548.0,
+            "range_offline_only": 230.0
+          }
+        },
+        {
+          "frame": 3120,
+          "time": 124.8,
+          "box": [
+            656.0,
+            532.0,
+            704.0,
+            558.5
+          ],
+          "confidence": 0.393310546875,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 27.056653525519376,
+          "nearest_offline_label": {
+            "frame": 3120,
+            "source_frame": 43340,
+            "id": "approach_M6_labels",
+            "kind": "approach",
+            "u": 707.0,
+            "v": 547.0,
+            "range_offline_only": 221.0
+          }
+        },
+        {
+          "frame": 3125,
+          "time": 125.0,
+          "box": [
+            653.5,
+            527.5,
+            704.0,
+            558.0
+          ],
+          "confidence": 0.21533203125,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 28.436332393612226,
+          "nearest_offline_label": {
+            "frame": 3125,
+            "source_frame": 43345,
+            "id": "approach_M6_labels",
+            "kind": "approach",
+            "u": 707.0,
+            "v": 546.0,
+            "range_offline_only": 212.0
+          }
+        },
+        {
+          "frame": 3130,
+          "time": 125.2,
+          "box": [
+            653.0,
+            528.375,
+            704.0,
+            555.75
+          ],
+          "confidence": 0.4921875,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 27.656444208357662,
+          "nearest_offline_label": {
+            "frame": 3130,
+            "source_frame": 43350,
+            "id": "approach_M6_labels",
+            "kind": "approach",
+            "u": 706.0,
+            "v": 545.0,
+            "range_offline_only": 204.0
+          }
+        },
+        {
+          "frame": 3135,
+          "time": 125.4,
+          "box": [
+            653.0,
+            528.375,
+            704.0,
+            555.75
+          ],
+          "confidence": 0.4921875,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 27.51597547335002,
+          "nearest_offline_label": {
+            "frame": 3135,
+            "source_frame": 43355,
+            "id": "approach_M6_labels",
+            "kind": "approach",
+            "u": 706.0,
+            "v": 543.0,
+            "range_offline_only": 195.0
+          }
+        }
+      ],
+      "sample_period_s": 0.20000000000000284,
+      "duration_s": 1.200000000000017
+    },
+    {
+      "sequence": "M7",
+      "track_id": 553,
+      "samples": [
+        {
+          "frame": 5750,
+          "time": 230.0,
+          "box": [
+            495.5,
+            302.0,
+            992.0,
+            416.0
+          ],
+          "confidence": 0.9453125,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 28.4000440140504,
+          "nearest_offline_label": {
+            "frame": 5750,
+            "source_frame": 75811,
+            "id": "approach_M7_labels",
+            "kind": "approach",
+            "u": 769.0,
+            "v": 346.0,
+            "range_offline_only": 41.0
+          }
+        },
+        {
+          "frame": 5755,
+          "time": 230.2,
+          "box": [
+            441.1363525390625,
+            211.7045440673828,
+            1114.54541015625,
+            375.9090881347656
+          ],
+          "confidence": 0.9541015625,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 33.209993796426154,
+          "nearest_offline_label": {
+            "frame": 5755,
+            "source_frame": 75816,
+            "id": "approach_M7_labels",
+            "kind": "approach",
+            "u": 783.0,
+            "v": 261.0,
+            "range_offline_only": 32.0
+          }
+        },
+        {
+          "frame": 5760,
+          "time": 230.4,
+          "box": [
+            344.31817626953125,
+            62.5,
+            1230.9090576171875,
+            292.0454406738281
+          ],
+          "confidence": 0.96044921875,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 35.50347030706053,
+          "nearest_offline_label": {
+            "frame": 5760,
+            "source_frame": 75821,
+            "id": "approach_M7_labels",
+            "kind": "approach",
+            "u": 800.0,
+            "v": 144.0,
+            "range_offline_only": 24.0
+          }
+        }
+      ],
+      "sample_period_s": 0.20000000000000107,
+      "duration_s": 0.6000000000000032
+    },
+    {
+      "sequence": "M8",
+      "track_id": 8,
+      "samples": [
+        {
+          "frame": 1165,
+          "time": 46.6,
+          "box": [
+            678.5,
+            558.625,
+            704.0,
+            584.0
+          ],
+          "confidence": 0.2958984375,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 26.751825288192954,
+          "nearest_offline_label": {
+            "frame": 1165,
+            "source_frame": 91165,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 718.0,
+            "v": 571.0,
+            "range_offline_only": 285.0
+          }
+        }
+      ],
+      "sample_period_s": 0.1999999999999993,
+      "duration_s": 0.1999999999999993
+    },
+    {
+      "sequence": "M8",
+      "track_id": 8,
+      "samples": [
+        {
+          "frame": 1205,
+          "time": 48.2,
+          "box": [
+            668.0,
+            545.75,
+            704.0,
+            573.0
+          ],
+          "confidence": 0.19677734375,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 34.192698416474826,
+          "nearest_offline_label": {
+            "frame": 1205,
+            "source_frame": 91205,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 720.0,
+            "v": 563.0,
+            "range_offline_only": 214.0
+          }
+        },
+        {
+          "frame": 1210,
+          "time": 48.4,
+          "box": [
+            666.5,
+            545.625,
+            704.0,
+            571.0
+          ],
+          "confidence": 0.3310546875,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 35.850873856155864,
+          "nearest_offline_label": {
+            "frame": 1210,
+            "source_frame": 91210,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 721.0,
+            "v": 561.0,
+            "range_offline_only": 205.0
+          }
+        },
+        {
+          "frame": 1215,
+          "time": 48.6,
+          "box": [
+            665.5,
+            542.625,
+            704.0,
+            570.75
+          ],
+          "confidence": 0.282958984375,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 37.321711593253596,
+          "nearest_offline_label": {
+            "frame": 1215,
+            "source_frame": 91215,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 722.0,
+            "v": 559.0,
+            "range_offline_only": 196.0
+          }
+        },
+        {
+          "frame": 1220,
+          "time": 48.8,
+          "box": [
+            662.5,
+            541.125,
+            704.0,
+            568.5
+          ],
+          "confidence": 0.19677734375,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 39.96995942267142,
+          "nearest_offline_label": {
+            "frame": 1220,
+            "source_frame": 91220,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 723.0,
+            "v": 559.0,
+            "range_offline_only": 188.0
+          }
+        },
+        {
+          "frame": 1225,
+          "time": 49.0,
+          "box": [
+            662.5,
+            541.125,
+            704.0,
+            568.5
+          ],
+          "confidence": 0.19677734375,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 40.87447438499974,
+          "nearest_offline_label": {
+            "frame": 1225,
+            "source_frame": 91225,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 724.0,
+            "v": 558.0,
+            "range_offline_only": 179.0
+          }
+        },
+        {
+          "frame": 1230,
+          "time": 49.2,
+          "box": [
+            660.5,
+            541.875,
+            704.0,
+            567.0
+          ],
+          "confidence": 0.289306640625,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 43.82498039075431,
+          "nearest_offline_label": {
+            "frame": 1230,
+            "source_frame": 91230,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 726.0,
+            "v": 557.0,
+            "range_offline_only": 170.0
+          }
+        },
+        {
+          "frame": 1235,
+          "time": 49.4,
+          "box": [
+            660.5,
+            541.875,
+            704.0,
+            567.0
+          ],
+          "confidence": 0.289306640625,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 44.75353512573057,
+          "nearest_offline_label": {
+            "frame": 1235,
+            "source_frame": 91235,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 727.0,
+            "v": 555.0,
+            "range_offline_only": 161.0
+          }
+        },
+        {
+          "frame": 1240,
+          "time": 49.6,
+          "box": [
+            655.0,
+            537.75,
+            704.0,
+            561.75
+          ],
+          "confidence": 0.25244140625,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 48.608769784885524,
+          "nearest_offline_label": {
+            "frame": 1240,
+            "source_frame": 91240,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 728.0,
+            "v": 553.0,
+            "range_offline_only": 152.0
+          }
+        },
+        {
+          "frame": 1245,
+          "time": 49.8,
+          "box": [
+            655.0,
+            537.75,
+            704.0,
+            561.75
+          ],
+          "confidence": 0.25244140625,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 49.50568149212775,
+          "nearest_offline_label": {
+            "frame": 1245,
+            "source_frame": 91245,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 729.0,
+            "v": 549.0,
+            "range_offline_only": 144.0
+          }
+        },
+        {
+          "frame": 1250,
+          "time": 50.0,
+          "box": [
+            647.0,
+            519.75,
+            704.0,
+            561.25
+          ],
+          "confidence": 0.185302734375,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 54.77681991499689,
+          "nearest_offline_label": {
+            "frame": 1250,
+            "source_frame": 91250,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 730.0,
+            "v": 546.0,
+            "range_offline_only": 135.0
+          }
+        },
+        {
+          "frame": 1255,
+          "time": 50.2,
+          "box": [
+            647.0,
+            519.75,
+            704.0,
+            561.25
+          ],
+          "confidence": 0.185302734375,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 55.502252206554644,
+          "nearest_offline_label": {
+            "frame": 1255,
+            "source_frame": 91255,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 731.0,
+            "v": 540.0,
+            "range_offline_only": 126.0
+          }
+        }
+      ],
+      "sample_period_s": 0.1999999999999993,
+      "duration_s": 2.199999999999992
+    },
+    {
+      "sequence": "M8",
+      "track_id": 8,
+      "samples": [
+        {
+          "frame": 1280,
+          "time": 51.2,
+          "box": [
+            602.5,
+            465.875,
+            704.0,
+            531.125
+          ],
+          "confidence": 0.2239990234375,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 79.76410533567088,
+          "nearest_offline_label": {
+            "frame": 1280,
+            "source_frame": 91280,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 733.0,
+            "v": 497.0,
+            "range_offline_only": 83.0
+          }
+        },
+        {
+          "frame": 1285,
+          "time": 51.4,
+          "box": [
+            585.5,
+            455.5,
+            703.5,
+            525.0
+          ],
+          "confidence": 0.513671875,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 87.88806801836071,
+          "nearest_offline_label": {
+            "frame": 1285,
+            "source_frame": 91285,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 732.0,
+            "v": 482.0,
+            "range_offline_only": 74.0
+          }
+        },
+        {
+          "frame": 1290,
+          "time": 51.6,
+          "box": [
+            572.0,
+            426.4375,
+            703.5,
+            503.75
+          ],
+          "confidence": 0.85986328125,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 94.25004662631473,
+          "nearest_offline_label": {
+            "frame": 1290,
+            "source_frame": 91290,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 732.0,
+            "v": 465.0,
+            "range_offline_only": 66.0
+          }
+        },
+        {
+          "frame": 1295,
+          "time": 51.8,
+          "box": [
+            549.0,
+            408.0,
+            704.0,
+            483.875
+          ],
+          "confidence": 0.83740234375,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 104.80102054011688,
+          "nearest_offline_label": {
+            "frame": 1295,
+            "source_frame": 91295,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 731.0,
+            "v": 438.0,
+            "range_offline_only": 57.0
+          }
+        },
+        {
+          "frame": 1300,
+          "time": 52.0,
+          "box": [
+            519.5,
+            361.65625,
+            704.0,
+            461.25
+          ],
+          "confidence": 0.693359375,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 117.2508755714243,
+          "nearest_offline_label": {
+            "frame": 1300,
+            "source_frame": 91300,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 729.0,
+            "v": 411.0,
+            "range_offline_only": 48.0
+          }
+        },
+        {
+          "frame": 1305,
+          "time": 52.2,
+          "box": [
+            479.5,
+            331.3125,
+            703.5,
+            430.8125
+          ],
+          "confidence": 0.859375,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 138.11545498694198,
+          "nearest_offline_label": {
+            "frame": 1305,
+            "source_frame": 91305,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 728.0,
+            "v": 360.0,
+            "range_offline_only": 40.0
+          }
+        },
+        {
+          "frame": 1310,
+          "time": 52.4,
+          "box": [
+            541.0,
+            304.0,
+            704.0,
+            393.25
+          ],
+          "confidence": 0.367431640625,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 117.45590928088718,
+          "nearest_offline_label": {
+            "frame": 1310,
+            "source_frame": 91310,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 727.0,
+            "v": 295.0,
+            "range_offline_only": 31.0
+          }
+        },
+        {
+          "frame": 1315,
+          "time": 52.6,
+          "box": [
+            541.0,
+            304.0,
+            704.0,
+            393.25
+          ],
+          "confidence": 0.367431640625,
+          "reason": "bearing_growth",
+          "nearest_label_distance_px": 167.80313055780576,
+          "nearest_offline_label": {
+            "frame": 1315,
+            "source_frame": 91315,
+            "id": "approach_M8_labels",
+            "kind": "approach",
+            "u": 724.0,
+            "v": 215.0,
+            "range_offline_only": 23.0
+          }
+        }
+      ],
+      "sample_period_s": 0.1999999999999993,
+      "duration_s": 1.5999999999999943
+    }
+  ],
+  "selected": [
+    {
+      "sequence": "M8",
+      "track_id": 8,
+      "sample_period_s": 0.1999999999999993,
+      "duration_s": 2.199999999999992
+    },
+    {
+      "sequence": "M8",
+      "track_id": 8,
+      "sample_period_s": 0.1999999999999993,
+      "duration_s": 1.5999999999999943
+    },
+    {
+      "sequence": "M6",
+      "track_id": 52,
+      "sample_period_s": 0.20000000000000284,
+      "duration_s": 1.200000000000017
+    },
+    {
+      "sequence": "M1",
+      "track_id": 136,
+      "sample_period_s": 0.20000000000000107,
+      "duration_s": 1.0000000000000053
+    },
+    {
+      "sequence": "M7",
+      "track_id": 553,
+      "sample_period_s": 0.20000000000000107,
+      "duration_s": 0.6000000000000032
+    },
+    {
+      "sequence": "M5",
+      "track_id": 324,
+      "sample_period_s": 0.20000000000000284,
+      "duration_s": 0.20000000000000284
+    },
+    {
+      "sequence": "M8",
+      "track_id": 8,
+      "sample_period_s": 0.1999999999999993,
+      "duration_s": 0.1999999999999993
+    }
+  ],
+  "limits": "IDs are track IDs, not guaranteed physical encounter identities. Labels approximate/interpolated/incomplete. Images do not establish CPA."
+}

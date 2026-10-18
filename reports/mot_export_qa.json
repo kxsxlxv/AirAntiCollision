@@ -1,0 +1,629 @@
+{
+  "complete": true,
+  "videos": 32,
+  "decoded_frames": 9600,
+  "runs": [
+    {
+      "directory": "artifacts\\mot\\async_live\\botsort",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\botsort",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\diffmot",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\diffmot",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\ocsort",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\ocsort",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\putr_1",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\putr_1",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\putr_2",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\putr_2",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\putr_3",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\putr_3",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\trackssm",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\trackssm",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\tracktrack_1",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\tracktrack_1",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\tracktrack_2",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\tracktrack_2",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\tracktrack_3",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\tracktrack_3",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\render_live\\botsort",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\render_live\\botsort",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\render_live\\diffmot",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\render_live\\diffmot",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\render_live\\ocsort",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\render_live\\ocsort",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\render_live\\putr",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\render_live\\putr",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\render_live\\trackssm",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\render_live\\trackssm",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    },
+    {
+      "directory": "artifacts\\mot\\render_live\\tracktrack",
+      "sequence": "M2",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1280,
+        720
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 12.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "directory": "artifacts\\mot\\render_live\\tracktrack",
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "size": [
+        1920,
+        1080
+      ],
+      "formats": [
+        "yuv420p"
+      ],
+      "duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    }
+  ],
+  "serial_async_equivalence": [
+    {
+      "directory": "artifacts\\mot\\async_live\\botsort",
+      "sequence": "M2",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\botsort",
+      "sequence": "formation",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\diffmot",
+      "sequence": "M2",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\diffmot",
+      "sequence": "formation",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\ocsort",
+      "sequence": "M2",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\ocsort",
+      "sequence": "formation",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\putr_1",
+      "sequence": "M2",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\putr_1",
+      "sequence": "formation",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\putr_2",
+      "sequence": "M2",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\putr_2",
+      "sequence": "formation",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\putr_3",
+      "sequence": "M2",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\putr_3",
+      "sequence": "formation",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\trackssm",
+      "sequence": "M2",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\trackssm",
+      "sequence": "formation",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\tracktrack_1",
+      "sequence": "M2",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\tracktrack_1",
+      "sequence": "formation",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\tracktrack_2",
+      "sequence": "M2",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\tracktrack_2",
+      "sequence": "formation",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\tracktrack_3",
+      "sequence": "M2",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "directory": "artifacts\\mot\\async_live\\tracktrack_3",
+      "sequence": "formation",
+      "serial_vs_async_trace_exact": true,
+      "same_identity_outputs": true,
+      "max_numeric_difference": 0.0
+    }
+  ]
+}

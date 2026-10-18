@@ -1,0 +1,17 @@
+{
+  "kind": "Actual OpenCV KLT/RANSAC on a synthetic2D planar texture plus analytical target boxes; no detector/real-video claim",
+  "seed": 81821,
+  "samples": 63,
+  "true_analytical_cpa_spans": 0.0,
+  "true_collision_time_s": 20.0,
+  "valid_background_fits": 62,
+  "old_confirmed_states": {
+    "uncertain": 41,
+    "nonthreat": 22
+  },
+  "guarded_confirmed_states": {
+    "uncertain": 63
+  },
+  "raw_unstabilized_final_state": "threat",
+  "limits": "Adversarial controlled observability test, not physical flight prevalence or a calibrated safety validation. Withholding passes fixes this indication by abstention, not by recovering missing motion."
+}

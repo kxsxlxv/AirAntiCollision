@@ -1,0 +1,29 @@
+{
+  "kind": "Experimental pixel-extent refinement with cached YOLO and cached neural DINO sky, not neural throughput",
+  "args": {
+    "sequence": "S2",
+    "base": "demo/S2_difficult/detections.jsonl",
+    "output": "artifacts/silhouette/S2"
+  },
+  "input_sha256": "6802fe1a267b8a7587904ac6c10860def9999890566cf90882b67a1ba9e877e3",
+  "mask_sha256": "d85b3bea30b200429662eeb20e3a96745c795cd679312490dd182a9e127dcfe0",
+  "cache_identity": {
+    "status": "unverified_legacy_cache",
+    "reason": "Legacy benchmark has no source digest; matching name/resolution/FPS cannot prove content identity"
+  },
+  "source_fps": 25.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "frames": 438,
+  "counts": {
+    "no_local_component": 14,
+    "pixel_component": 186,
+    "background_not_sky": 4
+  },
+  "total_s": 25.721339499999885,
+  "mean_refinement_ms": 49.43662853883196,
+  "no_gt_used": true,
+  "limitations": "Components can be clouds/partial shapes; original detector score is inherited, not refined-box confidence. Constant physical span remains unverified."
+}

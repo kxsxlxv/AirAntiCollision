@@ -1,0 +1,321 @@
+{
+  "status": "complete",
+  "videos": [
+    {
+      "directory": "demo\\M1_final",
+      "kind": "Live neural assessment",
+      "video_sha256": "3ea208e815bde36504af7af17521c3fd9753c0b4d7a7345cd8ec0bcbcc11fe70",
+      "source_sha256": "2c0d9a82a2f80419382ee23bafc8e34ef94a032831160b56d642964b2da5163a",
+      "trace_sha256": "af39b47a5f7248e43e666134dfb7087626706f2109af73b19820319c9c41fbbb",
+      "frames_decoded": 438,
+      "max_pts_error_s": 0.0,
+      "media": {
+        "codec_name": "h264",
+        "width": 1800,
+        "height": 1140,
+        "pix_fmt": "yuv420p",
+        "duration": "35.000000",
+        "nb_frames": "438"
+      },
+      "decoded_pixels_sha256": "9dfffbdcbefc25a53e6ec8a277f3bb2d0cf5180d1052cbebe800e37540729220",
+      "rendered_sample_checks": [
+        {
+          "output_frame": 0,
+          "source_frame": 0,
+          "source_time_s": 0.0,
+          "decoded_vs_uncompressed_expected_rmse": 2.7171576023101807
+        },
+        {
+          "output_frame": 219,
+          "source_frame": 438,
+          "source_time_s": 17.52,
+          "decoded_vs_uncompressed_expected_rmse": 3.3668839931488037
+        },
+        {
+          "output_frame": 437,
+          "source_frame": 874,
+          "source_time_s": 34.96,
+          "decoded_vs_uncompressed_expected_rmse": 4.055495262145996
+        }
+      ],
+      "interpretation": "Lossy H264 is compared with the corresponding source/recorded-state rendering, not with collision ground truth"
+    },
+    {
+      "directory": "demo\\M2_final",
+      "kind": "Live neural assessment",
+      "video_sha256": "5a0fdc811d6d590f1c20ecbc5e95209fe64b83eac1919fca235b503054e4f2b4",
+      "source_sha256": "9c44cecd3d818089f3d2b22c3f71bd139e5e720eae1935c664cc65a891ae0bb7",
+      "trace_sha256": "82c53090c54869b46fd077c37eed0b2f9869a3e4eb6789e8847560a59e3105fc",
+      "frames_decoded": 438,
+      "max_pts_error_s": 0.0,
+      "media": {
+        "codec_name": "h264",
+        "width": 1800,
+        "height": 1140,
+        "pix_fmt": "yuv420p",
+        "duration": "35.000000",
+        "nb_frames": "438"
+      },
+      "decoded_pixels_sha256": "08d04ef78e54089a223275dc9b7996bb95a049ec6eca2dff57e3cce176ecf9fa",
+      "rendered_sample_checks": [
+        {
+          "output_frame": 0,
+          "source_frame": 0,
+          "source_time_s": 0.0,
+          "decoded_vs_uncompressed_expected_rmse": 2.7134575843811035
+        },
+        {
+          "output_frame": 219,
+          "source_frame": 438,
+          "source_time_s": 17.52,
+          "decoded_vs_uncompressed_expected_rmse": 3.379378080368042
+        },
+        {
+          "output_frame": 437,
+          "source_frame": 874,
+          "source_time_s": 34.96,
+          "decoded_vs_uncompressed_expected_rmse": 3.884573459625244
+        }
+      ],
+      "interpretation": "Lossy H264 is compared with the corresponding source/recorded-state rendering, not with collision ground truth"
+    },
+    {
+      "directory": "demo\\S2_final",
+      "kind": "Live neural assessment",
+      "video_sha256": "4c8aa23969ab8f3a3cfb4b43156ca575ed1d12845842583200e2e7b365fcca18",
+      "source_sha256": "6802fe1a267b8a7587904ac6c10860def9999890566cf90882b67a1ba9e877e3",
+      "trace_sha256": "67b3dd04f929dcd1bb613cb4133cb0602ba768886b08749eda5f698e19c3f26b",
+      "frames_decoded": 438,
+      "max_pts_error_s": 0.0,
+      "media": {
+        "codec_name": "h264",
+        "width": 1800,
+        "height": 1140,
+        "pix_fmt": "yuv420p",
+        "duration": "35.000000",
+        "nb_frames": "438"
+      },
+      "decoded_pixels_sha256": "016773a89e2e48a74af2159dfcc1b83b2515e7ef5f0a50e68dccbda4ee5fbc22",
+      "rendered_sample_checks": [
+        {
+          "output_frame": 0,
+          "source_frame": 0,
+          "source_time_s": 0.0,
+          "decoded_vs_uncompressed_expected_rmse": 2.734039306640625
+        },
+        {
+          "output_frame": 219,
+          "source_frame": 438,
+          "source_time_s": 17.52,
+          "decoded_vs_uncompressed_expected_rmse": 3.126004695892334
+        },
+        {
+          "output_frame": 437,
+          "source_frame": 874,
+          "source_time_s": 34.96,
+          "decoded_vs_uncompressed_expected_rmse": 3.9385461807250977
+        }
+      ],
+      "interpretation": "Lossy H264 is compared with the corresponding source/recorded-state rendering, not with collision ground truth"
+    },
+    {
+      "directory": "demo\\S2_zoom_final",
+      "kind": "Live neural assessment",
+      "video_sha256": "c9bb97969de921dcabe337960fb9e485485fbc5147a54fc0fad27742ac3f01aa",
+      "source_sha256": "6802fe1a267b8a7587904ac6c10860def9999890566cf90882b67a1ba9e877e3",
+      "trace_sha256": "3c958531b3740ef84bd3c2bc07268bdc19d281100ccba2fb34c2ac2144976a43",
+      "frames_decoded": 438,
+      "max_pts_error_s": 0.0,
+      "media": {
+        "codec_name": "h264",
+        "width": 1800,
+        "height": 1140,
+        "pix_fmt": "yuv420p",
+        "duration": "35.000000",
+        "nb_frames": "438"
+      },
+      "decoded_pixels_sha256": "12db5036cf9a1f2ed3c5a818170fe8bc6e2ea171e43da3a390e2af6cfc9e5e7f",
+      "rendered_sample_checks": [
+        {
+          "output_frame": 0,
+          "source_frame": 0,
+          "source_time_s": 0.0,
+          "decoded_vs_uncompressed_expected_rmse": 2.732656955718994
+        },
+        {
+          "output_frame": 219,
+          "source_frame": 438,
+          "source_time_s": 17.52,
+          "decoded_vs_uncompressed_expected_rmse": 3.09548020362854
+        },
+        {
+          "output_frame": 437,
+          "source_frame": 874,
+          "source_time_s": 34.96,
+          "decoded_vs_uncompressed_expected_rmse": 3.9383275508880615
+        }
+      ],
+      "interpretation": "Lossy H264 is compared with the corresponding source/recorded-state rendering, not with collision ground truth"
+    },
+    {
+      "directory": "demo\\formation_final",
+      "kind": "Live neural assessment",
+      "video_sha256": "8dd640442419bb28d51c02c9ef658cf4ca4a48042e93c56eceb49de6fe53ae06",
+      "source_sha256": "972913f804870bfe8fea5b0190e2402106815e62e14a69fa37b2369b4863472f",
+      "trace_sha256": "91ba7654cb98a668b4492d5b055f6dca9a73b2cd08601a175a38c4452af1bfc8",
+      "frames_decoded": 300,
+      "max_pts_error_s": 3.552713678800501e-15,
+      "media": {
+        "codec_name": "h264",
+        "width": 1800,
+        "height": 1140,
+        "pix_fmt": "yuv420p",
+        "duration": "20.020000",
+        "nb_frames": "300"
+      },
+      "decoded_pixels_sha256": "d0c2b332a99d9861a2718d82f24628711a5fbb47e416bdaaf54f7a79c0f20e71",
+      "rendered_sample_checks": [
+        {
+          "output_frame": 0,
+          "source_frame": 0,
+          "source_time_s": 0.0,
+          "decoded_vs_uncompressed_expected_rmse": 2.837714672088623
+        },
+        {
+          "output_frame": 150,
+          "source_frame": 300,
+          "source_time_s": 10.01,
+          "decoded_vs_uncompressed_expected_rmse": 3.73280668258667
+        },
+        {
+          "output_frame": 299,
+          "source_frame": 598,
+          "source_time_s": 19.953266666666668,
+          "decoded_vs_uncompressed_expected_rmse": 3.9419896602630615
+        }
+      ],
+      "interpretation": "Lossy H264 is compared with the corresponding source/recorded-state rendering, not with collision ground truth"
+    },
+    {
+      "directory": "demo\\helicopter_final",
+      "kind": "Live neural assessment",
+      "video_sha256": "7be308e5f4dd4cd068bb676ac1145b077bc8a97fecf8805e394ac7c1b6978ab1",
+      "source_sha256": "6d9a92d47f9c5edfa6b4766e32b121f502e534036ae0e6f39b9c1a995c78c0a5",
+      "trace_sha256": "5758c8929e62eacfaffe84458b523263ae9b2a399677ca0116b342edeea6eaf7",
+      "frames_decoded": 210,
+      "max_pts_error_s": 0.0,
+      "media": {
+        "codec_name": "h264",
+        "width": 1800,
+        "height": 1140,
+        "pix_fmt": "yuv420p",
+        "duration": "14.000000",
+        "nb_frames": "210"
+      },
+      "decoded_pixels_sha256": "03e2dfffe175c5b40daf941766090df0b24f904a76ec44d2e33acf246c0bebd4",
+      "rendered_sample_checks": [
+        {
+          "output_frame": 0,
+          "source_frame": 0,
+          "source_time_s": 0.0,
+          "decoded_vs_uncompressed_expected_rmse": 2.8630588054656982
+        },
+        {
+          "output_frame": 105,
+          "source_frame": 210,
+          "source_time_s": 7.0,
+          "decoded_vs_uncompressed_expected_rmse": 3.381864309310913
+        },
+        {
+          "output_frame": 209,
+          "source_frame": 418,
+          "source_time_s": 13.933333333333334,
+          "decoded_vs_uncompressed_expected_rmse": 3.662421464920044
+        }
+      ],
+      "interpretation": "Lossy H264 is compared with the corresponding source/recorded-state rendering, not with collision ground truth"
+    },
+    {
+      "directory": "demo\\M6_failure",
+      "kind": "Recorded-decision video excerpt; no neural inference or throughput measurement",
+      "video_sha256": "c1ad85fe6a6272a09cf12b02101227545fc13f93a08e5d6a304062273d2497b2",
+      "source_sha256": "e98eae3f45fcfe3cdb0af0f8f470b94d7c1706730da4dd346cc89b992814d54e",
+      "trace_sha256": "0ea37131614fbae19049d1ee904b2c8bccef867dca867c67e30fce667e8b711e",
+      "frames_decoded": 300,
+      "max_pts_error_s": 7.105427357601002e-15,
+      "media": {
+        "codec_name": "h264",
+        "width": 1800,
+        "height": 1140,
+        "pix_fmt": "yuv420p",
+        "duration": "12.000000",
+        "nb_frames": "300"
+      },
+      "decoded_pixels_sha256": "60acc52b4af49de09e9e0a1370180f6efccfd862f14020db34803033c5797eaa",
+      "rendered_sample_checks": [
+        {
+          "output_frame": 0,
+          "source_frame": 2250,
+          "source_time_s": 90.0,
+          "decoded_vs_uncompressed_expected_rmse": 3.3980026245117188
+        },
+        {
+          "output_frame": 150,
+          "source_frame": 2400,
+          "source_time_s": 96.0,
+          "decoded_vs_uncompressed_expected_rmse": 3.37481951713562
+        },
+        {
+          "output_frame": 299,
+          "source_frame": 2549,
+          "source_time_s": 101.96,
+          "decoded_vs_uncompressed_expected_rmse": 3.7328720092773438
+        }
+      ],
+      "interpretation": "Lossy H264 is compared with the corresponding source/recorded-state rendering, not with collision ground truth"
+    },
+    {
+      "directory": "demo\\S2_sky_current\\assessment",
+      "kind": "Live neural assessment",
+      "video_sha256": "ef0d945fe18b3bd534c6442c664a796c418ec6aca4af35d7afe50a697bcf503e",
+      "source_sha256": "6802fe1a267b8a7587904ac6c10860def9999890566cf90882b67a1ba9e877e3",
+      "trace_sha256": "3c958531b3740ef84bd3c2bc07268bdc19d281100ccba2fb34c2ac2144976a43",
+      "frames_decoded": 438,
+      "max_pts_error_s": 0.0,
+      "media": {
+        "codec_name": "h264",
+        "width": 1800,
+        "height": 1140,
+        "pix_fmt": "yuv420p",
+        "duration": "35.000000",
+        "nb_frames": "438"
+      },
+      "decoded_pixels_sha256": "a6d7dfe10a9338ed9086a50c4e1d9de599042d51b27ebe4cb9973bd2e969ac2e",
+      "rendered_sample_checks": [
+        {
+          "output_frame": 0,
+          "source_frame": 0,
+          "source_time_s": 0.0,
+          "decoded_vs_uncompressed_expected_rmse": 2.7336978912353516
+        },
+        {
+          "output_frame": 219,
+          "source_frame": 438,
+          "source_time_s": 17.52,
+          "decoded_vs_uncompressed_expected_rmse": 3.0952999591827393
+        },
+        {
+          "output_frame": 437,
+          "source_frame": 874,
+          "source_time_s": 34.96,
+          "decoded_vs_uncompressed_expected_rmse": 3.938185930252075
+        }
+      ],
+      "interpretation": "Lossy H264 is compared with the corresponding source/recorded-state rendering, not with collision ground truth"
+    }
+  ],
+  "limitations": [
+    "Three sampled frames per video compare source-to-overlay alignment; all frames decode and all PTS are checked",
+    "Rendered-frame agreement verifies export consistency, not scientific validity or physical threat truth"
+  ]
+}

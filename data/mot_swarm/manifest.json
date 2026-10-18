@@ -1,0 +1,2226 @@
+{
+  "repository": "https://github.com/UAVSwarm/UAVSwarm-dataset",
+  "commit": "163ec46f662078ab912f2387f04af41a91060fe5",
+  "selection": [
+    "02",
+    "06",
+    "28"
+  ],
+  "files": [
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\gt\\gt.txt",
+      "git_blob": "916c0c14ff654b3001a178badf22d71d9e9634a7",
+      "sha256": "532e6853ed883e6804b12f0fc23be4affd3cd586340b34fe53f9fd63149fbcb9",
+      "bytes": 76565
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000001.jpg",
+      "git_blob": "338c8fb9b1566cf85b3aaf3e8cec76695b2828b5",
+      "sha256": "4041ad438287db50b14563d20633179664c96e1ac25da332d2fb661701bde5de",
+      "bytes": 361059
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000002.jpg",
+      "git_blob": "dff12f384d4a42fd1183a6095fdba13cfe4ee519",
+      "sha256": "2c1fa3e0c3c825dba8fcb2aef9b5d6e931cb6b1caa8d921ae9c8a62662f0e1ac",
+      "bytes": 374634
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000003.jpg",
+      "git_blob": "e3db51d28b50c3672b64dfd177fd0d608ccc2422",
+      "sha256": "981dde87792570fe87e5f342a57b7c6fe71414c42d388f436e88bed04f216e89",
+      "bytes": 375351
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000004.jpg",
+      "git_blob": "6499624f24de77a0dc2cc1424b437536cefcb38d",
+      "sha256": "9e2b9da603cdcd6babb6d5bf1069bf09b4a623559add0294bca5e7eac9066436",
+      "bytes": 375367
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000005.jpg",
+      "git_blob": "73788a043c082b5d911ff871e2feda209fd59042",
+      "sha256": "fd5fe75264a31a4602a085a0e5079aa3fd354a44d5fa842c632892cb270b1cff",
+      "bytes": 378853
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000006.jpg",
+      "git_blob": "9398989871999ed9e3d174eb487ca95baa7d3c4a",
+      "sha256": "7f37d38b3414da4de0ba1e40a0df7ac8452a6dcdf19321c2cdbcb790ccfe3de9",
+      "bytes": 379350
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000007.jpg",
+      "git_blob": "50507408404f7835642768da9ea91aff5cb5fe29",
+      "sha256": "582f60d5166d0d68049ed5328f412b7379de82c7c4b6e696a069ec301f6af6f7",
+      "bytes": 383434
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000008.jpg",
+      "git_blob": "53ab9852fcde0f2c6c751a442c23732d6fa42697",
+      "sha256": "dfdf4b276f48cbdcdfcf18f2a75a27b8122e00f6c000bcf341006b1925357339",
+      "bytes": 385911
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000009.jpg",
+      "git_blob": "5a9bfc3494c886cc0f1fdfa081fa867eb22ecb41",
+      "sha256": "7b549c111e76d63f99d21bfca6c340788fe2f30f88a047cb18d11a7a9f8ecf91",
+      "bytes": 386271
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000010.jpg",
+      "git_blob": "e623b3089f604514001035539659ddbeebbf39a6",
+      "sha256": "02a22f82e55c9526eea21aa2bb4f5a37417be92e298816aeeab2ad2ce852b55c",
+      "bytes": 389182
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000011.jpg",
+      "git_blob": "4693fe4c0357975af3e1ddbac194b61a9e04e375",
+      "sha256": "6e72a1b63d7d84ca85ae351f27c0d9ba84ae52c341e3cb176f21cfdea7c6c6a3",
+      "bytes": 395857
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000012.jpg",
+      "git_blob": "9641eb64651645ffc3611ecda5cd5ce33cac6d58",
+      "sha256": "9b872603c6f53aa82798eef1ce3b6d08fc5eef90a552fc6703a07da69a8f7496",
+      "bytes": 397745
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000013.jpg",
+      "git_blob": "ebdc3746db830e5e50c0616dd6ae10a4f26a6c16",
+      "sha256": "59d940b52a8ff6baf12308452fcf1a2ddb8aad1a8622261d74cc81ad31a23841",
+      "bytes": 400467
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000014.jpg",
+      "git_blob": "6345b418d72e9e50ef6a8b09d9cace5604031b17",
+      "sha256": "bb045e1edae026fb3c85bb17b97fb2961ee256e4411cc4449943d02ffd8eba43",
+      "bytes": 400838
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000015.jpg",
+      "git_blob": "e413de484d2f7a725cef7951e308795343e61c59",
+      "sha256": "5f3b72a3f9e1ba0c91182443941fe1d0a33a3dbf961297a0bc66bb2b1b4bd327",
+      "bytes": 401746
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000016.jpg",
+      "git_blob": "83b79df6fa2116bc97cdfe18661aecae305f04b4",
+      "sha256": "e902561774b751365fba5f0114e080b72e1a85c1cffb8bd9bd4cebb437bc04ba",
+      "bytes": 404281
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000017.jpg",
+      "git_blob": "1319319f511db5bc1ae56281b6e7745c20af159a",
+      "sha256": "4617ac2a2b6777abfce32eb5df2c75c64c2238736b1526c365e17b49c35956a0",
+      "bytes": 405885
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000018.jpg",
+      "git_blob": "126e2dddf8dcfe0de8774332fd717f994c0e50a7",
+      "sha256": "0ff73dda738cf21e0a80ba43ff7faf30a81f7ac97ae944f4f685452907b2cee6",
+      "bytes": 406555
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000019.jpg",
+      "git_blob": "5a84477db9843115e9f184de72dec6fdb9f3078b",
+      "sha256": "7b7efb1c68dbb75e8adb064bce43c22bcb3fe49d8db5f82c5b149a615ab8a6ea",
+      "bytes": 406579
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000020.jpg",
+      "git_blob": "7eaab83c06628aa0af20aa9c9dba86d081675591",
+      "sha256": "5697db3ff53591b3a2c13a162637e4334f99fb0cfe97e1adbf89aea56171f9ef",
+      "bytes": 406792
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000021.jpg",
+      "git_blob": "6a7889ae22bae07aecee3e9facb1fbff9402e912",
+      "sha256": "ccd2b9df510b610f1944741b0a17f560b16f8a5eadd9edd0e420ffd7818a5c7b",
+      "bytes": 407471
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000022.jpg",
+      "git_blob": "1f9c3adea4a0ffc61a925352a4638e650e456a25",
+      "sha256": "454506daf4f408a74601f57e5690f2862339e334465e446572f114f606cea2bd",
+      "bytes": 407123
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000023.jpg",
+      "git_blob": "d09ab8642b0d39ee51ded46a20d9cb203b6b5cfb",
+      "sha256": "184382fba4b6ac22f10520e60c8a2b4b061b96b93cff0d69a5b4ffe92ba22986",
+      "bytes": 407614
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000024.jpg",
+      "git_blob": "d09ab8642b0d39ee51ded46a20d9cb203b6b5cfb",
+      "sha256": "184382fba4b6ac22f10520e60c8a2b4b061b96b93cff0d69a5b4ffe92ba22986",
+      "bytes": 407614
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000025.jpg",
+      "git_blob": "9224fbb05ca49372ab5c847d475800cba75eba6f",
+      "sha256": "b4049fe0a089246d4d639b90625695753279beded1659949b525f49ef8ce7cd8",
+      "bytes": 408554
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000026.jpg",
+      "git_blob": "32d6bd894e50f1cce2bcad703ac15a17673b3ae3",
+      "sha256": "f5fbd9c6c3cc2b53543f4bf1efd248a2281ab18b691c133404123eb97f5eb4e4",
+      "bytes": 408934
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000027.jpg",
+      "git_blob": "82ef330842f925f621243e8eacbb3216dceb06cd",
+      "sha256": "3a955075e4f6cf0fa345b9c0eb99089f073c91b46d8c048db42204be25de5bd5",
+      "bytes": 408193
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000028.jpg",
+      "git_blob": "e4f4e7aac00fe4741db518447b38f95a54a98899",
+      "sha256": "6e00a6f8da3f83aebf25ec73208ebd9f460189a7a1d9871b575221883f87cc3e",
+      "bytes": 408223
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000029.jpg",
+      "git_blob": "745200308a2b6c2715c2599aab9dad0b9261d374",
+      "sha256": "83ddd55af058db8023b4291ad03970588f139fffe5344240645be6d8b296c520",
+      "bytes": 408225
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000030.jpg",
+      "git_blob": "d72bcac8be6e06e4accfc1796fd7c0c12db440bf",
+      "sha256": "7eb3e4b4344be7d0bab6a7b7136eb2145dd6e67f3a940c273d5eebd619d4bcbe",
+      "bytes": 408085
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000031.jpg",
+      "git_blob": "2389d000a8d86de3843cba182ca1048f85415d10",
+      "sha256": "5016c7578a83f1e223860514e635eaddb88ab029e671935639998a344d50a842",
+      "bytes": 410488
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000032.jpg",
+      "git_blob": "05547911d2402304defc65f48b6241387d263648",
+      "sha256": "1eac34edab05c0f6b0f2c53184394f4dc2cac3a58f47d12c84af18a631cecad4",
+      "bytes": 412857
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000033.jpg",
+      "git_blob": "afa74a3b01ef51ae6714fd7380a2ef1280d1afb8",
+      "sha256": "4b251bdf76b4843cf884ebde6e9027db15170efb972b099d8f3908dcb134f86c",
+      "bytes": 414098
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000034.jpg",
+      "git_blob": "47d3dcd1a7d7afa48491aab2bc1a0dae1fd985cf",
+      "sha256": "efbfa250697a4b69c749205832fb492b6415f9d992dac9deb724ae8d758d6c2f",
+      "bytes": 414054
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000035.jpg",
+      "git_blob": "3fc8625484cbf2df09a1cbd7ef344492f3c701ea",
+      "sha256": "a0a9295478f843f6f233dfcc7e69f6399a2285de2572ebb628844c756989101d",
+      "bytes": 415433
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000036.jpg",
+      "git_blob": "b9f8c2d302fe20de6968c089cf72ac99e7a1a01a",
+      "sha256": "b949b22101a563918e80aa00546d31b8aed28c07368df5851853a064d65a2488",
+      "bytes": 415481
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000037.jpg",
+      "git_blob": "4ebda0c71fb07cf1cce78af0e1525ff296e3225d",
+      "sha256": "67de9e3f020a41f6bd454f59ddfc32366f0476e63c42b46afee6d741926a7c06",
+      "bytes": 415613
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000038.jpg",
+      "git_blob": "41655a39d4f6affebe4232a41dadd439e70d2e54",
+      "sha256": "c5dd1621a373ac460bce4ea6370e705bad5c6b1993f4606e596d39278448b94d",
+      "bytes": 415124
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000039.jpg",
+      "git_blob": "cf8583babbeedf6ec6e74024278252035ba86b5b",
+      "sha256": "1dab21b289d6617282060dbf7c23fe6e580a976547d91d0801db2a772316bd4f",
+      "bytes": 415268
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000040.jpg",
+      "git_blob": "aeafdcf9bf2e4f4be35b5c33a57b96bb59212d54",
+      "sha256": "d0ed6108524c56e63c6ffd1881df4e46ec7b41714183537d0bb93838726dfd93",
+      "bytes": 416425
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000041.jpg",
+      "git_blob": "02ea2e679ac4f7d4a0ca9b9643df5ed6bf4efec6",
+      "sha256": "249b3ba81035757c9b6f8735acf9dc60cb67e76dbbfa0db938fc30e3490c8080",
+      "bytes": 416475
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000042.jpg",
+      "git_blob": "87d8dea4a0d4b39b89f2e8b17721584471e7548a",
+      "sha256": "6189c42fd64ba888c65d28916ca0ba51e2731f8ee5f73f730dba8fa7dfe7df8a",
+      "bytes": 417281
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000043.jpg",
+      "git_blob": "f304de7e9399dc68207071dfc5268d02732b4a54",
+      "sha256": "3bb40ac1ba603488426a476bc9be8a9963814b56dd583e84a5b2a874fc32682a",
+      "bytes": 417791
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000044.jpg",
+      "git_blob": "53b7e0ed8bca49718275c1dada7d82454991f766",
+      "sha256": "ba6a20ffb1a87c7d0dd4c2b10a6c7634401e2325ddc7db8a8c2be83d593e038e",
+      "bytes": 417903
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000045.jpg",
+      "git_blob": "acc039544662de677e32db0afea775e33b4ef74d",
+      "sha256": "aff24b91d6f02c5886d958a12f12394e1c0db81ffbe5d506165a77ce933ba707",
+      "bytes": 418893
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000046.jpg",
+      "git_blob": "1f630d6ee1b0190f597eac39557934959d949d43",
+      "sha256": "e08997a06c7d3104c36123cc75130337af48d10b2990dbed3cb8fc4c4392cee8",
+      "bytes": 418887
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000047.jpg",
+      "git_blob": "9db71433d13779ddc3e2980df82935858fcadcd5",
+      "sha256": "343c9a99b2329a433559d7e876f2af3a38c552a7b772e2d8999a4d6fcf4c486c",
+      "bytes": 418535
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000048.jpg",
+      "git_blob": "1fc4e24ca8e441f5458894db7acd83b138254a47",
+      "sha256": "857348ccdfc2bb171a15c4fbb06a1639eacfe64e0ecc2fc298a47862d4d33bd6",
+      "bytes": 419115
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000049.jpg",
+      "git_blob": "95c51e465779b05f22aaa636a7c47a47b8117a9a",
+      "sha256": "0d451c4a8a8547b9f9ab5b36b7d5d80ab2817ba93183b29849dbdf99c8878012",
+      "bytes": 419130
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000050.jpg",
+      "git_blob": "229de4e52b565d5335c9692495687d8b8f479314",
+      "sha256": "599d73c128c6f5cbb4fbd002b90d654300e4315958561ec667cccb7220dfac35",
+      "bytes": 419290
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000051.jpg",
+      "git_blob": "95e8698b19b3529616216d92ab376491c4750107",
+      "sha256": "cf09a90575782fdfe4a68d6450631d5f85d1b3e52d8078efaa33e7e05d0522ad",
+      "bytes": 419861
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000052.jpg",
+      "git_blob": "6c533a3931c2dabd775cc5e483c24adbcda59870",
+      "sha256": "b49dbca075c93b3b9576a6bc88fcb42a5fa2abf00c01d8eea2c43007c8ec1ae0",
+      "bytes": 420048
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000053.jpg",
+      "git_blob": "107126b226b1a307692c1c78f9489a1ebe8716a6",
+      "sha256": "c61573da1245af8db7b13cc4ac042220e6a07e47305d423f0cea364029f8d100",
+      "bytes": 420259
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000054.jpg",
+      "git_blob": "d44566715ea348910ad6b6a93ce9ab72b6031280",
+      "sha256": "eb2ff9baea6bc609528e41b5fc2c6576cce07a07567635407b67fb8e28500ce0",
+      "bytes": 420158
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000055.jpg",
+      "git_blob": "b014fb375d56e465e8fd07a17d3307845f8f9adb",
+      "sha256": "f7cd54a16bd1895bc16fe08887dad5c43fbd68af74d5b491d6d402aeaa7bddb9",
+      "bytes": 420289
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000056.jpg",
+      "git_blob": "5def7ca28c19eada4c616865f48f310405747861",
+      "sha256": "ae1434b8f9a52b7ec01db69ebf045ae9f535fccfabf15538721ba27da38a08a1",
+      "bytes": 420274
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000057.jpg",
+      "git_blob": "c79f88142b718d80b9b81d31312485d7fcbeeb9d",
+      "sha256": "486a7fd5c1112c7018f9e3cd461cde5c64884c7b43f96c609d39e28048dff4b9",
+      "bytes": 420122
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000058.jpg",
+      "git_blob": "86b0ea57ce83c8cbd8cfabccd69bde85f70fb619",
+      "sha256": "ef64e13b5289d6d4fdb129935c88aa96f7d44f42a214918dbc475f3185cbc51e",
+      "bytes": 420461
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000059.jpg",
+      "git_blob": "c727eace2036783e94d60ab25e0e879577f19527",
+      "sha256": "5ee4bda9f7f6f0f94230bb8c55a92640db817ba7b9b67ca366f0c55a309bdaf4",
+      "bytes": 420505
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000060.jpg",
+      "git_blob": "2aa428b08ddd0fb9790f180387a37230eb982480",
+      "sha256": "d556e7e51b7d71a55400f8036a885e781f93e82fe6e4343facd358942727825e",
+      "bytes": 421424
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000061.jpg",
+      "git_blob": "e7286ce74758534ede41b0bc67f5d9552c5393f0",
+      "sha256": "ccc5e8bc2e92630e11d60fb0ab6907506eb973fabcbfbc0f691218ac22e78679",
+      "bytes": 422677
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000062.jpg",
+      "git_blob": "26afde12670655e1acf6b31a3b8a14e0653d8c6b",
+      "sha256": "49438276abd153b530e345cf92c81b7e8b70aea706ea5edcd3b0eadf6cd01fff",
+      "bytes": 423527
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000063.jpg",
+      "git_blob": "8ce7f09f59fe55fdb3ac1dd58d24b13406e77a9f",
+      "sha256": "710fbe3afb49d10f605118367527441cea7e0e447bce26b6ef12391636de219f",
+      "bytes": 423871
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000064.jpg",
+      "git_blob": "9b5c7b88e0d0d66b95bc670a9e2739f4aaa46f90",
+      "sha256": "7b408292f46e937b107ea534af7710a4f2e46f313cdd77b0392b8045b2873d85",
+      "bytes": 423831
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000065.jpg",
+      "git_blob": "b999c089519fecc31a9119a5ac061d1a344b9218",
+      "sha256": "8feca79ca4a340b37f842ea8af5273ae20979c18706e02665dc124bb56969152",
+      "bytes": 423663
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000066.jpg",
+      "git_blob": "af0ed74148846e803b396685a70bf27b278f97f0",
+      "sha256": "ec17483a24ed3fb97cc070c66a19b360b17f774c3ce8ad3c160d210e2b7f7ef6",
+      "bytes": 424322
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000067.jpg",
+      "git_blob": "81284ed40e7e145df9665397a23a7f7b9f607a03",
+      "sha256": "437fd3b7e9cf1946b82ada88970a0c1abe57e91e26a2bdbc7a77f1f3c8f8937f",
+      "bytes": 422994
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000068.jpg",
+      "git_blob": "be7699fa96182342118253b59b48ce5e3a75d985",
+      "sha256": "8dc684f96dbd4cd3f4a08106842b301c8c10546886e7256e33d6c9de11f1ae60",
+      "bytes": 422638
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000069.jpg",
+      "git_blob": "e8be92bf1146afa2d8047d29dacaa203d9e0bb61",
+      "sha256": "a30b16cae607f8b4c4cc8bd356d03fa76884fb9594087218a7dc597ed76b6f9a",
+      "bytes": 422895
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000070.jpg",
+      "git_blob": "4c4e546b938c5ee63b8e9cf857d2ab0d76d04da2",
+      "sha256": "eb56e21994e0c4b2d84eb980b675eac58b1faf457138e2132c9c3cda4d28cdee",
+      "bytes": 422519
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000071.jpg",
+      "git_blob": "489a402b38c51c241a98ed808c727bbd555444fe",
+      "sha256": "9ab2413d6f61ea7f497774ac3c49fa91a5ab53ffe715a37911dee02a7d351bb2",
+      "bytes": 422802
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000072.jpg",
+      "git_blob": "8a1781a130fe7187b46bfcd64adba2a9d0700301",
+      "sha256": "65bef35f00d4dcc4b7e5f512299aff27bd703f3f9dee648fc345cec006f0ba59",
+      "bytes": 423502
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000073.jpg",
+      "git_blob": "95c2e8cb5bd9e684de04381cc25e1c4270d705b8",
+      "sha256": "08376e26698c6dec2e76d8443f6ff81aa69063cf17e15e9c1f22571c630d945c",
+      "bytes": 424322
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000074.jpg",
+      "git_blob": "acecb988b2588645b3c6faeab5ab9563c3a3ec38",
+      "sha256": "1b4e62d68393592b1c8b235f58d41e9308a535a0e56cde67fd8e4e6ce43b39a3",
+      "bytes": 424391
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000075.jpg",
+      "git_blob": "571928860db7d3ac5b6db9de8f5949e91942193f",
+      "sha256": "0df0b2f8e715966756cf035d44c4f847389a83d2fb94d3453a272740a42a39f4",
+      "bytes": 424614
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000076.jpg",
+      "git_blob": "31e71acee4dd107c5f03acc5ae41841787639122",
+      "sha256": "c8a3b8db46f4a415e997c046e29ae311bdf8751e7a3fafa3bef7eea2528884fc",
+      "bytes": 424854
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000077.jpg",
+      "git_blob": "b0f81e3bc6ad9c49a3ebc3bf075a57ae7874d32d",
+      "sha256": "7f66f7237b277899f8f80fb1375be837aca5cbcf37d466f13a5b460b9f8e0bd7",
+      "bytes": 424747
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000078.jpg",
+      "git_blob": "c141dfa92f8cd05cbc05d188facacab6ba0951f4",
+      "sha256": "eae303e58cf1f383ce199684dc25eced44224c7c8fe98418c1f98534787e4c96",
+      "bytes": 425488
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000079.jpg",
+      "git_blob": "714e4b0b1ae1cb0fdb26d935e56354224768acfe",
+      "sha256": "01ea746f754f9d7326e0807a15174a54eea81e43e1a3afa5f1a17af86ad62602",
+      "bytes": 425443
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000080.jpg",
+      "git_blob": "c2c683315fce1a2720a6ba195ccd79d030d42028",
+      "sha256": "aec67d16cf01f7f82c1245acca8a73c6b1cb656dea3d3f5c6feda145a9842b70",
+      "bytes": 424754
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000081.jpg",
+      "git_blob": "63fb2848a47345cbc4a32d602eac2bf82f20f054",
+      "sha256": "d9d13e8462b4065a9ade179eaaa4380f2ba6807c5e12053d17ae2b02dc03a76f",
+      "bytes": 424239
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000082.jpg",
+      "git_blob": "1593e5f0ef6c976e24d00fd69cba5969f05dad5c",
+      "sha256": "fb4a7bfabcbc8c9e69acbc352fc44b7f1796fa1d089caf848bcdac49af34a05b",
+      "bytes": 424319
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000083.jpg",
+      "git_blob": "16037882c91c93ad30c29fb17f815a7a743c3e4f",
+      "sha256": "ce67fed0112a067c52070b69c69c11a0e8214cf4f0d20c31f11b306a626c86cc",
+      "bytes": 424091
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000084.jpg",
+      "git_blob": "c488e9a165dcb20518199337a861a9d20532676f",
+      "sha256": "7b6f38710777dd2d6ce409f522346ba6c5a48b43c0dfd0af870e7d9cb67ea77d",
+      "bytes": 424088
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000085.jpg",
+      "git_blob": "b1bf759c13d1c9594279400201864766e7163ae1",
+      "sha256": "ebda4e6e34d65cccfd225b2489c0111dd429c63c83d41e7d8a885a508efc4f34",
+      "bytes": 424116
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000086.jpg",
+      "git_blob": "9fe8785df610f2780e1bc3ac4baab98e1653d6b1",
+      "sha256": "c9587de6ca68a68ff0bb50c4364f86d1fac79b4ab0a5a69e466775e5c1c75f7d",
+      "bytes": 424187
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000087.jpg",
+      "git_blob": "fa2df7c3695702eadd33561c7f7fdf521c75f262",
+      "sha256": "56012e5dc26a164b3179cf0668a1be747142a9489140984728704fe406152f89",
+      "bytes": 423862
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000088.jpg",
+      "git_blob": "28ffd53a95d3e26eb673316e876a75738b8d7c6a",
+      "sha256": "eb26db3afe888d4aeded3a15b940033460a0fff5f6f4682f0313e0ee803145d5",
+      "bytes": 424132
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000089.jpg",
+      "git_blob": "9a27bb9ac6410d047fa53693ff816d41dfc03018",
+      "sha256": "592e64914560e7f739d02af749ded02f0ab94b08bb3cf0bd13daa0d9b99af2fa",
+      "bytes": 424223
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000090.jpg",
+      "git_blob": "146ff10c6dd8322ea0eab7d19e8841b91a682ee7",
+      "sha256": "7410f4c074722e93c6b559668dc1ac88332adf5f38e9d764aa93d044dc89ba99",
+      "bytes": 424604
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000091.jpg",
+      "git_blob": "06c2430b663c66575c43f1ec79362623d3535954",
+      "sha256": "5da088e7550acfaa0b930931906d547b46e5f46c32aed9388e441fb01330febf",
+      "bytes": 425133
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000092.jpg",
+      "git_blob": "ae1a741863188f4738ebedd344b35370a923a02d",
+      "sha256": "35eafeee268cdaa3c2c25ae0d29ef2e9bad40f038ccf69548de4befccdcd6665",
+      "bytes": 425716
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000093.jpg",
+      "git_blob": "f14e62c94315172284d152b9e97eaeb6fe806039",
+      "sha256": "9c0e38c7d90c2bb51de9ebb4890b60400a14d7cc17dc42d2969b58dff9323483",
+      "bytes": 425886
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000094.jpg",
+      "git_blob": "82f0d84cea61e0a1def72bd56afb90dc1a10c8f6",
+      "sha256": "42d2cf464256836f2cbd08cca6cd74741a05a799c1af999713771d8759072593",
+      "bytes": 425850
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000095.jpg",
+      "git_blob": "8727e85fe4d1e6307305143433710181511e27b3",
+      "sha256": "d7bdd11a696e0bc67334f1a972d445be498fd74c7372ba739199286f201be85d",
+      "bytes": 426025
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000096.jpg",
+      "git_blob": "3f3cb66b4f40e59cc833e6027ab6f553948d6e6c",
+      "sha256": "4fa4b62be7bed20ffe82fd5270f894988b7272a855166cded1e38fc9c1c1cba2",
+      "bytes": 426474
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000097.jpg",
+      "git_blob": "f4e60346ce3a1a05ce82187058a7e43480d5fc88",
+      "sha256": "cccee1ad8370c90ae3147e357fb9467301bb6da07469cc1fc6d8638317240caf",
+      "bytes": 425478
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000098.jpg",
+      "git_blob": "e29d708c982b46a2174d107e385937c08aa0808a",
+      "sha256": "7e13de507f7842b87bcbd394d21d73ef9d0a8926031c72a212478f6fb96f827d",
+      "bytes": 425899
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000099.jpg",
+      "git_blob": "41d386b3e13d73cb5cb35e4c1f39106ca8008384",
+      "sha256": "109611806152e3227114c82e94d3642ca327c9d8f87ce8c1cc228ab886720292",
+      "bytes": 425988
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000100.jpg",
+      "git_blob": "23568e48f1a62e2aa1c5bdedfff8ac28200e0812",
+      "sha256": "7cb6f923338783b83ad4156a697f343122276b3370ce56dd08d769ad10c2c1d3",
+      "bytes": 425951
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000101.jpg",
+      "git_blob": "c44f6fef68435e7ddb8fa30d722c709a2c594f12",
+      "sha256": "21a02bf8acc599d2bef5546e683bbcd902f06bab842593bcc1e066508587a1f7",
+      "bytes": 426067
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000102.jpg",
+      "git_blob": "71a921f5270eeb7067e604593229a596a25503d0",
+      "sha256": "5db4bd58ba283abe7e5ac88d27252539c35dfa49fa0ed79f25985eb6c4821052",
+      "bytes": 426456
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000103.jpg",
+      "git_blob": "22705bd2f226d8f97858d9825435002758653104",
+      "sha256": "5b547a1c37f8fb349ee70dac7c47839f7406a430841f491043df081bd30be2cc",
+      "bytes": 426597
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000104.jpg",
+      "git_blob": "c68e3dfa23f38ce1fe2baebbeaa347ebb9564904",
+      "sha256": "5349e975ba5ca283fd136495b4779c4a77487dddf036bac65b6fcbf6490423cb",
+      "bytes": 426646
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000105.jpg",
+      "git_blob": "3c6b1844eceae372e28217a3f2da7d3d95aab8a9",
+      "sha256": "8ee580e6afb57200f3cb1c7c6b13209e4f353cac65ec59b25af964a49a4ca468",
+      "bytes": 426611
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000106.jpg",
+      "git_blob": "eb175cb74ec3730875dd4375822acd749a386aef",
+      "sha256": "574ac9cd53ad1c4e4711503255a3bcca02460a88099f62cd38bb8b3f0926724d",
+      "bytes": 405195
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000107.jpg",
+      "git_blob": "d2b6f2abd1a68d1c1dbafaf073718c8c3abe9d73",
+      "sha256": "a0fb11892a360837445679fb348dd28a90d73f0774ea8602976234737f58f18f",
+      "bytes": 411910
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000108.jpg",
+      "git_blob": "be6dd0663951037e5bd729c0366b25cc5957f6fc",
+      "sha256": "f03f3624318920f2dae265eed6f7b137b63a310f4e2ad0e47c92e81c6c0f87a3",
+      "bytes": 412231
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000109.jpg",
+      "git_blob": "3a39d8d605a8571cb7b40eb39817d01062c2717e",
+      "sha256": "f958bdb80771cc6f96d698ae20dab4fbda1a9a914e3cc317e9a5024513522938",
+      "bytes": 412274
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000110.jpg",
+      "git_blob": "b19c9225c4e508b9fa7aae399cd9835d9bbb59f3",
+      "sha256": "e1a59f9f7ede56c9f1ce14a77469a978b321c50c71d876d0eafcca7e4eebfce5",
+      "bytes": 412389
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000111.jpg",
+      "git_blob": "a353a125a1a871de9b6f8ae8dd8c0d150c5109b3",
+      "sha256": "feb664fa8b5242c5fd6afc7eaabdd9d7ab9d3035b95f970f79609fd31d4f4b9a",
+      "bytes": 413532
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000112.jpg",
+      "git_blob": "5851fe6ee7e30dd32adc70653aaf147694a25f61",
+      "sha256": "b828b85f4a20369560a515936f89d7446690eabe36b7e79b2c490ff39e47c149",
+      "bytes": 413321
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000113.jpg",
+      "git_blob": "2868a89c27971cb420abaea660df168ce8a4807d",
+      "sha256": "a38e0c537cd30e78d6e8c39ee8a88412166ea12868cf19276e7cc2d91cec4aae",
+      "bytes": 414409
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000114.jpg",
+      "git_blob": "e9951f7b1764d318a32878a67d9f87eb9bc74fcf",
+      "sha256": "57af932acf1f24672600c6af2878d982759eee3a53decad5d102df96ad0681e0",
+      "bytes": 414547
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000115.jpg",
+      "git_blob": "d429f218800d738c37abc3917d42fbebcfb1a9d1",
+      "sha256": "06e40cf77dfadc338abf1112dea735f948805faef23e4d62dbcc6352674d4c57",
+      "bytes": 414488
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000116.jpg",
+      "git_blob": "281cefac0939fb84fd24892aa6d5596c02c615e5",
+      "sha256": "43f76af7e5da8ce8785ab648f81cf0622f93d9665fc88d23ec274aa4b0b9e931",
+      "bytes": 414436
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000117.jpg",
+      "git_blob": "427f0386f6846a701f4bbf980fbfb37953c37eff",
+      "sha256": "18522874ad835dcd2fdc6b63cc56559b92d71adc288a64cf9626d8f5687404af",
+      "bytes": 414489
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000118.jpg",
+      "git_blob": "22b180f2d771a6885dc533af62344ed9866d9764",
+      "sha256": "278d83c3ba4277c70f2253430d40fc7b7a48497927ab0820ed59bbcd587214db",
+      "bytes": 414466
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000119.jpg",
+      "git_blob": "22b180f2d771a6885dc533af62344ed9866d9764",
+      "sha256": "278d83c3ba4277c70f2253430d40fc7b7a48497927ab0820ed59bbcd587214db",
+      "bytes": 414466
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000120.jpg",
+      "git_blob": "cfccfbb86cb1a4c7f4537fc97ec98ecfa7ba19b9",
+      "sha256": "ea3264665b9752711c231a9189aafa3ae049ee6a4d1ff15db45f21923c683175",
+      "bytes": 414683
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000121.jpg",
+      "git_blob": "407f01f3332979617bf0c4af5f3b3a7ef3f05ba6",
+      "sha256": "acef43e17d0a9eefeda9195d499b5b4bfd5c6ff05f99e70e8655d9b457e0407c",
+      "bytes": 414263
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000122.jpg",
+      "git_blob": "dd182e4f78660fb2c3437fe02f3a66ebad7248ab",
+      "sha256": "c62c16afa066741e7612f709a094a0293aa367bc5a2b633e1930098b95a19eb3",
+      "bytes": 415590
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000123.jpg",
+      "git_blob": "0b49c7de36c25382ecd3cafbfaf4d5b976525b9c",
+      "sha256": "fd2d5c267b04dcda317af2d36acb4e487bb4d6b3cc1bd4bfe27d701dfcf345ef",
+      "bytes": 415330
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000124.jpg",
+      "git_blob": "7ccbb9f5a4bfb1139f8563a32c8bac60789a7d83",
+      "sha256": "bd96954edf17f7d1dceba0fc0a43b6d7c63e336594de5c2731bc719f50331ade",
+      "bytes": 415573
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000125.jpg",
+      "git_blob": "1f670023d03c15aaf1dffb22ba1dac9007193b70",
+      "sha256": "74ececfc072c8b72738dd79560a9a0c6aababa951367b99a69bddb46e6eb3bb1",
+      "bytes": 415743
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000126.jpg",
+      "git_blob": "e8588437d25859d0019769cee3b927180e3fa958",
+      "sha256": "9beb3cdfba774e63a38ed72072cb9782416459d6be7b081d0aa5f92a9bac5562",
+      "bytes": 416316
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000127.jpg",
+      "git_blob": "912e39e4b8f48a1069d8bcb89aa1c0f9632d3775",
+      "sha256": "939f046a2d74f447b350e38361200bf98da74b810cdb3234e8ffb9b200a077c3",
+      "bytes": 415744
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000128.jpg",
+      "git_blob": "2d19ebdf71587a75f4ffd4edc3b37091aac83b84",
+      "sha256": "fcad6c26eb8e20a08cafa537ad5e1de5e33e96ac35dbd4dbf770e1a3a49415f9",
+      "bytes": 415731
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000129.jpg",
+      "git_blob": "2d19ebdf71587a75f4ffd4edc3b37091aac83b84",
+      "sha256": "fcad6c26eb8e20a08cafa537ad5e1de5e33e96ac35dbd4dbf770e1a3a49415f9",
+      "bytes": 415731
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000130.jpg",
+      "git_blob": "e35e6ddefffa7174ba548bcc32e18d105710171b",
+      "sha256": "6845da252f6e361334350c27e6d4ffe36ea09e0f7d7124a115bf7ade5713cf36",
+      "bytes": 415798
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000131.jpg",
+      "git_blob": "06a4c86328c79d12a615b4870ec026bf62b3f6ff",
+      "sha256": "39afa51f778a1a76ddba38f7039c328795204dcdefc932fc7fc3b9a518ba56c1",
+      "bytes": 416581
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000132.jpg",
+      "git_blob": "09a0f04cadbd71871e258fa93ffd24fb2ece4721",
+      "sha256": "caf99755b8addc1fa26ad712914ad038b745df38a436430c8c1de8a946879565",
+      "bytes": 416561
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000133.jpg",
+      "git_blob": "593c792156bf89d8a58ff3fa3a2472f9a8369dee",
+      "sha256": "df80cb45e7e82ddac240fc70ed177afa99519484c7f40cf622b0b800b497c1c5",
+      "bytes": 421369
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000134.jpg",
+      "git_blob": "a5fc076a707fb0c999fcdb534eec7c594eef81cd",
+      "sha256": "7672bbdced01e912a822e66a70f54a11a8eae73d670e562821fee5fd6f26e444",
+      "bytes": 422798
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000135.jpg",
+      "git_blob": "ee5acb14f05b2670c748230a4fbf88eb3f71a002",
+      "sha256": "e77ba0029382977c43747c3726c2ab7801aebe19a68d29d91b8b77c2b377d0a7",
+      "bytes": 422999
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000136.jpg",
+      "git_blob": "4e4ce0c37e306d00ad3a212842abfd8a6756bb89",
+      "sha256": "03b00a8ecdd358813d96448f9beabca163be117a704ef89031b4a0daa3dde5a6",
+      "bytes": 423091
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000137.jpg",
+      "git_blob": "44c93efdba46b0f8144fa081498765748ddba36c",
+      "sha256": "be77c0b50724e8e65b8b5e85787b89e4924ecceb6f2171a4e49b27d86f93fd83",
+      "bytes": 422820
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000138.jpg",
+      "git_blob": "0f78035f85895c7b7c33fd7fb65729912cc7edd8",
+      "sha256": "779faf319854fa61a272d4c8280288f4454071d2db864b57a7c7ef26c547d30e",
+      "bytes": 422839
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000139.jpg",
+      "git_blob": "0f78035f85895c7b7c33fd7fb65729912cc7edd8",
+      "sha256": "779faf319854fa61a272d4c8280288f4454071d2db864b57a7c7ef26c547d30e",
+      "bytes": 422839
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000140.jpg",
+      "git_blob": "b2590605301f9c6e96f8aed2d32d6b4071596c12",
+      "sha256": "dfa70465a844eaa9db240918e5a76cdfb5e308688d61f4c3f3be499e395ebdff",
+      "bytes": 422904
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000141.jpg",
+      "git_blob": "974e6d82722d9a530324cb65889f82ac8aa80d1f",
+      "sha256": "712f4f1920af586f1cae290887c0072e53aa93491f07f0c5fd21f5096244c6e5",
+      "bytes": 422939
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000142.jpg",
+      "git_blob": "e7b013ff1dea5dd8e85855cf649c01b138fde69c",
+      "sha256": "a1dc8acf92802d61d878f395c7d2013f98e1c5b78d05e52a73c8fcc36d1b7cd2",
+      "bytes": 423414
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000143.jpg",
+      "git_blob": "1f49ee2b57b2233ffd193c24450f1f95b7bf80ce",
+      "sha256": "ccf15cef614083ae1f32497fcdf3599b5502e67edebded30843a97a1754a9755",
+      "bytes": 423930
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000144.jpg",
+      "git_blob": "6be71480fbc68eaabe914610da4d2999e9f96c57",
+      "sha256": "d6926f826e93506b4b18e1d153d743a4f468c355f2446b213db151d7d418aeeb",
+      "bytes": 423953
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000145.jpg",
+      "git_blob": "8b246047c92031b3aa71b50148fffcfdd97a8f71",
+      "sha256": "8ac5667bd93b9a8a552145835f46c5d66f80676fc77dc5bb8220c3e8b0a6ab13",
+      "bytes": 423365
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000146.jpg",
+      "git_blob": "cbad6b3b445083c4862292e2a330ffd6ce2fa0f1",
+      "sha256": "20cf661be99ff91040175b77b2cbf14fb9c14308843cb626e588cba7ae012241",
+      "bytes": 423568
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000147.jpg",
+      "git_blob": "7b2849d3eb45e1f53c3ce920b00e43d6fce81c68",
+      "sha256": "32c77c5a0c915ccae749074ff09be2af13f8b3787a3fd73c7060d2b740eaa7cd",
+      "bytes": 423409
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000148.jpg",
+      "git_blob": "1d1bbcc23ca03c588cc38d72bab49dfb17d32e02",
+      "sha256": "9cbf31970d0f98d69b0883e89f922188f31be440bb1363d5cdc31c8ba77bd488",
+      "bytes": 423025
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000149.jpg",
+      "git_blob": "7e964729aa595d6072714569afc045b815c582a2",
+      "sha256": "a5e4d8edba7898ebc95ec53ea404e9f0772fb7c77548db94514a5d817d740491",
+      "bytes": 422965
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000150.jpg",
+      "git_blob": "c4d8671479df2758f443e672d534b701e798df2b",
+      "sha256": "4ebf96097223503d2bb82c839204efadf952a507f28c45c8e7f2c192fc04c6de",
+      "bytes": 421756
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000151.jpg",
+      "git_blob": "b4cd50edefdd898478c9cc22588d45335638f08f",
+      "sha256": "4e9ac7f5c52e4aacd37392b2dc5388abd52ad33bc890d3e061cc5fd96fbd1d42",
+      "bytes": 373869
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000152.jpg",
+      "git_blob": "315ad4a7924bf2f465f7cb9e8de0a5b52ca03d9a",
+      "sha256": "be15dad3cad4c2a6354f434faa7956cdab25bf4cd5ec366a2d960439f7d72bcd",
+      "bytes": 389561
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000153.jpg",
+      "git_blob": "52571c3c7430a693c6ff1cefbde239c04bec3cfd",
+      "sha256": "8030bb0c40f5dab9f91af4394222886f2b585ac1caca6402debf80ddfc722785",
+      "bytes": 389536
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000154.jpg",
+      "git_blob": "aabc7e33c02e0ae35be62e3b080aa72787541edd",
+      "sha256": "fd039acba84ca409de9f7e4bd9109a69b86ae7c7f1059993990a913d2e3ebba5",
+      "bytes": 389611
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000155.jpg",
+      "git_blob": "c542f8c843de26cde1f7c620114ddda4122a18a2",
+      "sha256": "666803aa4a88f5b13f2ae54e924159e35dca6ca8c1cc13d9f83aa7f80d5d9a2c",
+      "bytes": 389601
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\img1\\000156.jpg",
+      "git_blob": "a137f7762652c327e0e850fe53a0ef7daee78dd6",
+      "sha256": "30d2a36cd0119338969338444ef855f284df5533e42326e9806fbda75f39a3ef",
+      "bytes": 380973
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-02\\seqinfo.ini",
+      "git_blob": "15328c7bcd8c108444b9ad70ac56aaef8070b07f",
+      "sha256": "dfa880b3b22ec348a9cd5a41bad49e151e71b0771c96572f1ca1ce4e34be5976",
+      "bytes": 102
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\gt\\gt.txt",
+      "git_blob": "4681d39f4fc72bd50d1175d3e57fc98b8b107fad",
+      "sha256": "83d3595a2a9f62605c5002d0c5b7c10fb19ac73da5b30c95864633f59826ce12",
+      "bytes": 18951
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000001.jpg",
+      "git_blob": "78f9e06e45221ae2ad69bab33e5c115b711c3941",
+      "sha256": "bd01d70589b10bb8a28853c096313e7538ff52dd89b22939ab8718dcf1b8ad17",
+      "bytes": 8414
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000002.jpg",
+      "git_blob": "c3a6acbda39aadb1a1a7a1b85530069f282b932a",
+      "sha256": "158b1b9daeb8f75cab9c80cade2aeb2475f1566e7873a1a75abfdc0574fdb246",
+      "bytes": 8300
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000003.jpg",
+      "git_blob": "037d3638ff2548f97de7b86a84d8dbfaad3657d8",
+      "sha256": "ee4ce1b82d8248bfa6f72ebe7d49bd856fd491fee8ff648ef293aae4e3adf2ef",
+      "bytes": 8252
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000004.jpg",
+      "git_blob": "f32f8a729bbcac3da486b97ecbdce2980785b311",
+      "sha256": "96d0580a64d386d618007e2b1cc5f47659ebd86095afc72d19663105b6c23eb1",
+      "bytes": 8399
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000005.jpg",
+      "git_blob": "f930d019ce5fd0a9f27e6ab501a5b51d8a04f30b",
+      "sha256": "e8371f401120a4149aaf77a42c54af852ccd9b77067550c1d857995906f682a0",
+      "bytes": 8227
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000006.jpg",
+      "git_blob": "25a36df1b52d6166b7ee27ce7ce56fd9fc376abe",
+      "sha256": "241f179224b14830e6027114cc89e03c1d8fdad7504104128f71b08b0288c2c4",
+      "bytes": 8268
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000007.jpg",
+      "git_blob": "6c080d79b044a36254c77a1c397d737d92ae1151",
+      "sha256": "6218d14c9032467dbe5f5cf2a03d69e83329b9f98822eafc0d40c942cfbcc217",
+      "bytes": 8313
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000008.jpg",
+      "git_blob": "85086ef58e1d80c71e75ef1987dc0a4514f27c4c",
+      "sha256": "4033ac36acd0c05cb02d5ba98e354546a7376672515b8ff5d888e3be7dfbda9e",
+      "bytes": 8297
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000009.jpg",
+      "git_blob": "b6e1dde83f244a08a4e06c2a553c0a4b890abb38",
+      "sha256": "ae4ef2d627e0a57331959b6fc85d92af079f68baaf70bfe202e517bf8409edf2",
+      "bytes": 8282
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000010.jpg",
+      "git_blob": "3ebd1c436d8a122b28169079568a01ce0d2e827f",
+      "sha256": "bb87682bf42f17c8debcd1cc809fd0b3a824decc7bebe8cd69496eef18fcf503",
+      "bytes": 8419
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000011.jpg",
+      "git_blob": "f8c260503de747579ba079e8a0dd8e2b679e44ea",
+      "sha256": "17443befd1a907ff4aaec0d16141ac13b37b4822e3991003fd3ed47d50a80c40",
+      "bytes": 8354
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000012.jpg",
+      "git_blob": "e54898ef66c421725fc8a55e944cf21d8768a1ef",
+      "sha256": "8eb0fcabfcddf60d2f5fe92237096be22477555f98a55cc6a596cb17c7d753d6",
+      "bytes": 8681
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000013.jpg",
+      "git_blob": "ded955f9d8d22ee49837501a724464c535b688d5",
+      "sha256": "9150d37a08d0004f1edd794d21402ef14387194272d6188135468ed010a5b141",
+      "bytes": 8820
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000014.jpg",
+      "git_blob": "490575aaddd9f63b4d55f94e6a7bac705f813f8a",
+      "sha256": "947144b39e0c22e0ace8d450d638f1220b6d1e7bc467570ab41ef450b93e7975",
+      "bytes": 8853
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000015.jpg",
+      "git_blob": "ffe3f8e2b6b1277e67ec07b7c77d0f9b93041af5",
+      "sha256": "511ae69c0bb267b6e2349d1494b19f3b0d8add2ee4fcb05ce224cc8673e8569e",
+      "bytes": 8935
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000016.jpg",
+      "git_blob": "1c047f04a7de885ee2c005d3bbc34f9c2c0d7c54",
+      "sha256": "9e876581513f3b56086197032c85fa083d80bebfb1919f05e6cc5d8ddc9aacb0",
+      "bytes": 9348
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000017.jpg",
+      "git_blob": "ccf12f5393e9eb5c582fb8c4d92a3d0727e9ee65",
+      "sha256": "a99d7216a0a623a0e5bcecb5f44b7dd533c2a179028613bf0e9f6f9148156c10",
+      "bytes": 9092
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000018.jpg",
+      "git_blob": "790c36623a704f64cdfd61e9a4375930c440b7ad",
+      "sha256": "72d5e90933f0bbc48ce1a306ebebede24892bb05be3c452bf6a1d5fd36af164a",
+      "bytes": 9083
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000019.jpg",
+      "git_blob": "ba122700f22fd730a8dee8343de1955fa2784421",
+      "sha256": "9bc761281d668f9d0e04228fa9f70126fe79a0ec03ddcd4377fd7417e84b2cec",
+      "bytes": 9193
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000020.jpg",
+      "git_blob": "a96eb90a230450111f5f6f335eb411b01ec42f19",
+      "sha256": "f160ec677998bcaf5b555f76a11e364ed545551c1b95583868fe6311578a3c3f",
+      "bytes": 9109
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000021.jpg",
+      "git_blob": "9fc0741f95684e5094ee611d535d91bf2a35fd7c",
+      "sha256": "65bd6c4612f07a3d4189e22fab9ee40fff6fc6ad4531b0ca922acf63d31e6c0a",
+      "bytes": 9076
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000022.jpg",
+      "git_blob": "8ab01f1efd62bf37b48cb34f2a356b695aadcb12",
+      "sha256": "8f6b0ee889a640a5e0db42bf71b9187c48313be21a1543e20b6391654585af57",
+      "bytes": 9368
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000023.jpg",
+      "git_blob": "57e86f6725f179af1dded838b1d551115ffa9274",
+      "sha256": "2a8ecc68f301253d13574410c9b6e7355ba12ef514168c90374c3d49dc948237",
+      "bytes": 9198
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000024.jpg",
+      "git_blob": "41fadd68ff5d47091eac891b6e22ce7ad4fb3dad",
+      "sha256": "6f1e9d3ac6a92fb8c61df52ea54d66476a2f9d13b3d4030d8cf295e91effa1c6",
+      "bytes": 9270
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000025.jpg",
+      "git_blob": "3e1c4b70fee3f14a6e726101de590ef94d17436f",
+      "sha256": "7af23e9e31803dd70223a1a9aa9fed476f5af371fd73902adf52e385a1d26849",
+      "bytes": 9341
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000026.jpg",
+      "git_blob": "b17adc16856e01a5a4aec559d81aed6077c1683d",
+      "sha256": "0130628bc505d5936659b91848eb3499af95421501360837f21e753c54682a98",
+      "bytes": 9235
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000027.jpg",
+      "git_blob": "2422ed06f10b59ef5f70f2cacde0b631a33f42d7",
+      "sha256": "e40dd3c1048cf237df745fc1e383c741246f7eea28661f1eb16925b4f6efc137",
+      "bytes": 9211
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000028.jpg",
+      "git_blob": "487bba67acaff3a7a3cad3a4969871c47941c7dd",
+      "sha256": "6eeebb7624f75d379d0535fa55020f060a2b638b3725d058370620a0db1ca519",
+      "bytes": 9280
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000029.jpg",
+      "git_blob": "a826f526f1dd13181ff90a783c052852a62d3635",
+      "sha256": "2aea65b7adbd99509a2e895e22693511638a7346534ea56ce5ab18de55fc03f6",
+      "bytes": 9167
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000030.jpg",
+      "git_blob": "6c4a94acce1929fb4365adc400145ba768876894",
+      "sha256": "c570e385abd901add3422bdced84b75fdd7403d59dcfe4521d228903d816ef51",
+      "bytes": 9243
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000031.jpg",
+      "git_blob": "8b2080e3dfb6356f0dbdda542f0c6898eeb314c2",
+      "sha256": "cec279019a8d6b2fb7c780f1bca7cc637e9f51fe428e7e224b3f2a78ffcf0f20",
+      "bytes": 9710
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000032.jpg",
+      "git_blob": "16fdf0b0b148ceda816aed2ef008114985c4d463",
+      "sha256": "65600bdcfcc17f6af9d982fb67edbfadfbe2f7ece7874f6d9c3e584900894c47",
+      "bytes": 9614
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000033.jpg",
+      "git_blob": "a3cd1f020f2f58958b85ab2794008ee16cc97d46",
+      "sha256": "7604157efb791f8cbd61a6ef007e2ff8148f48939d9188daeb0a54b980a5d0ce",
+      "bytes": 9746
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000034.jpg",
+      "git_blob": "81f6646b190a290906f6178eca693078ced8ca66",
+      "sha256": "ae322a6123e435ab46655bca9729af325a2e5f284b15899af014ce8defeb6ebe",
+      "bytes": 9821
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000035.jpg",
+      "git_blob": "d6a8f88b34bf6d38b239f8a40223df786784bf16",
+      "sha256": "d8cdb24a93a0d4893138241ad7205ecee462e9f549bf83a76ed5bb8c1a30f189",
+      "bytes": 9656
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000036.jpg",
+      "git_blob": "07c9051ca3ae7f6eccf37c6c3205f735cb61abdc",
+      "sha256": "e7434f7e1a26590028a2d1adcdace2e2143a5dcabc86c4a6ff85510e15dceb4e",
+      "bytes": 9678
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000037.jpg",
+      "git_blob": "b6eb623966f94a1587d7d79651491855310e821f",
+      "sha256": "cd845eb2be0287a9693612aaeb48cf41f1057470703aabbd10c58f3c244d3d19",
+      "bytes": 9903
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000038.jpg",
+      "git_blob": "d2284d32d31237ef6d7a94499e2b8ebcbc8b213b",
+      "sha256": "3affda0ab5a637a755a29abd0c41b248d067e8c0a2e7b6d8c5e5bbf7c5a6b94d",
+      "bytes": 9684
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000039.jpg",
+      "git_blob": "cad0a4bfab9e22b3a623e54de53e4972ac17c822",
+      "sha256": "ddfe819ec7df629cf130b8832d4542aee731f45a3d70d236de63ee4d21ea062a",
+      "bytes": 9774
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000040.jpg",
+      "git_blob": "088e0c9bf27655e2744497cd90243673c49d53ea",
+      "sha256": "60676c0295d1b942ddd744b08c1abb20b749394eb48282985372e33a15adb20e",
+      "bytes": 10018
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000041.jpg",
+      "git_blob": "5195cf985c9430671f6dcb3757ec98d7e1e58b58",
+      "sha256": "057e5c50a2814d63d745519af3a185e35f434c79fdee997c61b06f6c70382dd1",
+      "bytes": 9874
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000042.jpg",
+      "git_blob": "3d08fe44fb714d379d80f7916c3aacf643114579",
+      "sha256": "47b9950d4158c839c2f70da10efd0d511fb6d53b77bb3eddff147013a4a8fd5a",
+      "bytes": 9892
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000043.jpg",
+      "git_blob": "2b1176416fef4cc14592f7751f53a4c55f9f7154",
+      "sha256": "380c0dd8ff2f8c76ad74af47f12cebbd1374b43ea3a66685c2e8332012373789",
+      "bytes": 10150
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000044.jpg",
+      "git_blob": "f7b06e8862fc1cd2b3f5a74794288cdf1f725a90",
+      "sha256": "4c821a4a41553f874d6b2bd24146983593b64dcd6fc4a6516788244d42af3747",
+      "bytes": 9939
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000045.jpg",
+      "git_blob": "41194484b6a8faafcae9bd7f6ef29b654d7e722c",
+      "sha256": "5afbe85bf804b9efedbe41144010ffaa34b59f8cad7fd1f80a720a5ce3a6ccd4",
+      "bytes": 10113
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000046.jpg",
+      "git_blob": "26aed063efa1ecc3d5980ee1d618ffc1660cd1da",
+      "sha256": "44c45978c5815f05245ee56171f47f88c0c4567fdf3b5457a6b99a1c6c2ab8d6",
+      "bytes": 9966
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000047.jpg",
+      "git_blob": "9739b753b1e3eec0adda31ff17c3fb8839f3f13d",
+      "sha256": "7148c6c6f6e61a0f40e408f4837f4ac88ea25e75c0d8789ca0d017b2dae5f806",
+      "bytes": 9928
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000048.jpg",
+      "git_blob": "ac944b2c927818d5bb95be6f0f6a42a4f1a3cb51",
+      "sha256": "a452691bbb57d3e8badeca49cdd4b5e422aa51ac8038e0b8be16319ceecd1ee9",
+      "bytes": 9936
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000049.jpg",
+      "git_blob": "0591296b71fd0df4d07d5159f1c7c01254419490",
+      "sha256": "f4b36d3ebbf1695adf6d288c25198ae052e26017ddfa589af7edb1dee54390f8",
+      "bytes": 10143
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000050.jpg",
+      "git_blob": "5260b4dc2ee4f898e5d46bca14322342f22b2f1f",
+      "sha256": "70fe427a67f500a160b5bd579d2dbedc3d55bf58099f982e93bb94344b3c1585",
+      "bytes": 9900
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000051.jpg",
+      "git_blob": "a13006501be45edcf7549f07c40af0b59c32c787",
+      "sha256": "7e7094f8b2553cdd4901fc9ab89a58633a9254f7b32a9298cad694224ec6e88f",
+      "bytes": 10028
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000052.jpg",
+      "git_blob": "ec436d5f3aad3aaad3ecca34305a17d846de1075",
+      "sha256": "790fbdabcca21c934039d60b491a28842fbaf23e29f35d8a80b8ffe98bc277e6",
+      "bytes": 10041
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000053.jpg",
+      "git_blob": "cba90f786f720c9844c01964bec882c809423fc7",
+      "sha256": "bb50aa92cdcb29c31edc088fc223fbe280daa3b63c90dd748e628167dea00fa0",
+      "bytes": 10024
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000054.jpg",
+      "git_blob": "3a0024b80f4560d132332127af30df1d42b9acac",
+      "sha256": "6286416ddb5481cfa7fc889f419ebc396239f4c4ccd37207c11e9bada7fbb833",
+      "bytes": 10033
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000055.jpg",
+      "git_blob": "b7869a8a9db095e63089f28817e694371b2247fc",
+      "sha256": "95ca579a53c595dc9db58c00fb7d173310ca080484a3e5073448a48472bb8f56",
+      "bytes": 10204
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000056.jpg",
+      "git_blob": "88be7890044e8f31979e507414f583de3fea3fec",
+      "sha256": "384de2b98685034d9faa957eeec048a9917c79f75741773d88516932d58f4351",
+      "bytes": 9984
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000057.jpg",
+      "git_blob": "817d0d9a626714a68c2e76a7d05bf49f3e7f55af",
+      "sha256": "00d170c2f64a7edab2521e5274d8e6a9b49fbf1c35eabf699041c5b65ea68af5",
+      "bytes": 10138
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000058.jpg",
+      "git_blob": "44ccdf90efe76bfe029175f25ce4429ca7d46371",
+      "sha256": "bd31e9e793a7185a9d159a7982bd9863accbdf480c9581da2b9ef867f183b93f",
+      "bytes": 10217
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000059.jpg",
+      "git_blob": "726c5d46959b17274b08be226e90878dabdf69f2",
+      "sha256": "dc296df08650f91b4be31cefbe4218a7e29ab7b37d16f3292b7e38c4823e3b51",
+      "bytes": 10155
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000060.jpg",
+      "git_blob": "c64c323481ed59c487a1340dfdde7b12c771049a",
+      "sha256": "80e3ecf9757166441eacc6c627d18f5aff3fc248905483cc131b193d38ca11a3",
+      "bytes": 10172
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000061.jpg",
+      "git_blob": "28a14e041f2949ac022bc893fa2f7960ace682c4",
+      "sha256": "9a419fd1d3f123a7f0474909f6ad4eca106a790d73b46376255a55de1fce4f43",
+      "bytes": 10458
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000062.jpg",
+      "git_blob": "9b94979fd5fa606b8767173464e4ad050e636cab",
+      "sha256": "c7e31afe6f52fe5ec64c687b0b129da018daf93fad7d755964ef35cdcb3143d6",
+      "bytes": 10356
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000063.jpg",
+      "git_blob": "ee72ea4bf0a6430a5c8c2e269860196530639927",
+      "sha256": "e088889a75273ac3bef72e779d592569ca70cb4d6739d3cb07f23710e7bb819a",
+      "bytes": 10510
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000064.jpg",
+      "git_blob": "28054aeea8dddc43bfcf6d1c32465e196171fbc0",
+      "sha256": "a6a490916900639ba2069b409f53cd895a1b8f29db7956d743f054fb8e59f8ed",
+      "bytes": 10582
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000065.jpg",
+      "git_blob": "8e647a03270a5b8a009762004deb452ff124d1dd",
+      "sha256": "56f28df50fb4b4db715e531d06e40c2388ad46315816b3d5077da1863b948a47",
+      "bytes": 10557
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000066.jpg",
+      "git_blob": "e21a64ff2e95e743e495d87b08de425d31fa7ae5",
+      "sha256": "148087598ca6ef779feede0de1474ab8883ec8a32e4ff1ede00037d8235e992f",
+      "bytes": 10438
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000067.jpg",
+      "git_blob": "c0c944043ef0dd218ae128e398ad661421c9c00e",
+      "sha256": "6f854fec6c1d6631acb8ea14e0890aa5bc9f63f2aeb6da668a69f160a426797a",
+      "bytes": 10548
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000068.jpg",
+      "git_blob": "2e53ac86e533fa9059f58582bfa3b6c509a939c9",
+      "sha256": "7c5a9e05e242fb9f25d5ac1b220e2a43c7a57b9c9a9c15dd36fb07ac584eb83a",
+      "bytes": 10532
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000069.jpg",
+      "git_blob": "c065c62e2b586675ed86c19cc113f62499fa6477",
+      "sha256": "869507686561b68889ba1a361d91f6af538d9f2e0bac2db159369b9e05fe455f",
+      "bytes": 10657
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000070.jpg",
+      "git_blob": "b54be18a2598e516a4cbab0da30e37543f7536a7",
+      "sha256": "802cbd4b47bc274f4ddcecabf8010d14005dd4c022ed5f6ac9641088cfbd1d5c",
+      "bytes": 10628
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000071.jpg",
+      "git_blob": "2ca46a0d8a7aa0b6ad5c304ab624136b0721823a",
+      "sha256": "f4fda740f12ea16711e6ab7c82e7cb53297370ec7e630ec7d2c3cff9c751a7b2",
+      "bytes": 10614
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000072.jpg",
+      "git_blob": "0f77dd414674b6288dfd421bb0850e0ecdec9e29",
+      "sha256": "711fe5cd22b2568261721e6a0d205e4a0175900a57843678c51716553880ce77",
+      "bytes": 10617
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000073.jpg",
+      "git_blob": "9341f52de643234e0d6d4e04f0798e8abdb888e5",
+      "sha256": "2df581db553ada9f126d123b2f633d77cb417ce5d050167dd473ba4113ad1144",
+      "bytes": 10759
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000074.jpg",
+      "git_blob": "b7f75b8973709227bed0b35d688fd136e5e932bc",
+      "sha256": "9d27c088febbe1d3abcceaefede63fb4b141c438d550f54c684cb4adc8037e49",
+      "bytes": 10612
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000075.jpg",
+      "git_blob": "dfb15924c418df86a2ea6c0fba44bb6f5ccece3c",
+      "sha256": "51580aad3a74a4ed4a92dcf93dd05a7ed6c10b27503f4ace67433a4ae4eb1f24",
+      "bytes": 10801
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\img1\\000076.jpg",
+      "git_blob": "1018a5cba5b5ec1da92d07ceee1482053ce97df5",
+      "sha256": "f2ba92a6cf0b54f71bf7e6b73c4ebcb1f8fdab228f2b4163034324516adb10ac",
+      "bytes": 10894
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-06\\seqinfo.ini",
+      "git_blob": "b262b6d7123662f33d2d250152c7db91532dde5f",
+      "sha256": "2ccb5e4b80f77e5015c8edcf2b955ca1174871924426ad6b3ebeec38ebeac67d",
+      "bytes": 101
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\gt\\gt.txt",
+      "git_blob": "ca01b7d8f02ed9c1f11e9ab0387c1c54ba5f92bc",
+      "sha256": "4b9d5e4a2da87fbcf525552c1fcff3889af9771d69a49c5dc322ccad6966e051",
+      "bytes": 21915
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000001.jpg",
+      "git_blob": "85ce57b76f57d48af0e1f33bfc77cd5891702986",
+      "sha256": "9f10bacc7e1a36b9588d61e8b53acdcf5692d9fdbe53e37b7db5d302ad6287f8",
+      "bytes": 70175
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000002.jpg",
+      "git_blob": "6439311d7d343ab3f965f582bc8aec973bc69453",
+      "sha256": "2a81174f6cda277a35b342b84fa4bd0cfc0b189f7ae50fdadbbd019167242066",
+      "bytes": 68696
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000003.jpg",
+      "git_blob": "f82d7014662b99f9d81ad45f893c886bcd5cef32",
+      "sha256": "8800edaa312c6bbd617bff80812888e802c93b23afacceaf8e711458b237b333",
+      "bytes": 67980
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000004.jpg",
+      "git_blob": "c51e5bafccbb65928b0a6cefbcc8d0fb5f76aa05",
+      "sha256": "8b41239f962863e790a8fa2d80acec5152b2f02347efb20ac5c02f265a3ff42d",
+      "bytes": 68357
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000005.jpg",
+      "git_blob": "ed60c847262b028aceca8c4a4201cc8714b999cb",
+      "sha256": "f559da0693dbe56b4f6214f761b1e43d11ee59d48bce2369c8af39fc4ed089e1",
+      "bytes": 68201
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000006.jpg",
+      "git_blob": "374cacabf144e4dd328af0fba5ca509763909e17",
+      "sha256": "a2ea1a1a534dae8561121716a5533f5172a6362afabc4112e2406d1754420771",
+      "bytes": 68249
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000007.jpg",
+      "git_blob": "c18da526de7dc05bb743340cd0dc262dc9a5b157",
+      "sha256": "1ade32184ee3da5ba6c4afb3ab0c1cc7ef500890270f94fb3fe693eed1f95819",
+      "bytes": 69163
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000008.jpg",
+      "git_blob": "74c0a6a176a3e649e34963b2ebf247063e525693",
+      "sha256": "ea831f1f5244409b88d29eac7db8bf9c74630517dbbad50d52ebc2ca94ff86e3",
+      "bytes": 67453
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000009.jpg",
+      "git_blob": "7d53083b90b1f72f5c111f0a55350ab4dd271dc2",
+      "sha256": "a7483cfde2054c030773e01666440620cae1838cab5ef535b21ab0a37b34c75a",
+      "bytes": 67190
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000010.jpg",
+      "git_blob": "a898fbd1bf9b8f2847f870fafbc4f3681909559f",
+      "sha256": "86f87d3791ffca5f8ebd74fe273b7cceb31aa140babbbdf9fa7f0b07eb4adead",
+      "bytes": 68086
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000011.jpg",
+      "git_blob": "bcf0fe43da00f15e67b272ed830c591bd326e2be",
+      "sha256": "09c97f591c7bc18a676b22280d30a858b57e6ec3e257d606bf84355cd57b24d2",
+      "bytes": 67212
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000012.jpg",
+      "git_blob": "0246e11e4556fc53c2c3e14fe3e3a2f6625b1ee5",
+      "sha256": "484e7ef44fa7d5c25fda777f5bc387bb271866d5ce34ccd4a8bdd5388a5d8a3f",
+      "bytes": 67230
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000013.jpg",
+      "git_blob": "24b264e18a421b09fdc5f7d0c9f574afd46dcadc",
+      "sha256": "9a401c834ce3e6c79add1992d6d0489a3ae5434dca7fe41d44e2b3b35665a158",
+      "bytes": 68969
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000014.jpg",
+      "git_blob": "bd1207c4a43e66574d7b474fb8a2c917fce0c642",
+      "sha256": "ef90569bd77dbeaadaa6235a72c8ec312731c968d096588e1f06a3c66ad75dc1",
+      "bytes": 67398
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000015.jpg",
+      "git_blob": "6470f7d102391b141d168fd99dc9df45968756a3",
+      "sha256": "68d05dfcf0f31fbd4748bdd0f6d6a20d11a5bbb298ef7b137bb59fe7df190db5",
+      "bytes": 67904
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000016.jpg",
+      "git_blob": "9cc5327e05989f0e97bf69905e2209b699e07210",
+      "sha256": "3a8907036295ccbc4261583b8a50486a1b24b052013d966d691cbc98a374e202",
+      "bytes": 68054
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000017.jpg",
+      "git_blob": "1c68632a9ac95d26832a3c94c1509916a966afe3",
+      "sha256": "103795bcfdb7fa07bc40c324e95c3619746218ffc7484576ad69abc47275bcb4",
+      "bytes": 67219
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000018.jpg",
+      "git_blob": "ba4cbdba09402a001088628f186b9f3d7d5430ed",
+      "sha256": "0a047c64569d4699bbd7a5358c248bee00e6186fdf6d9f6bf529146c7e47fced",
+      "bytes": 68240
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000019.jpg",
+      "git_blob": "e86531f485e3d548db93c12c1b197ac0722d2018",
+      "sha256": "3a67704de1f9ca83471c5cbd26237c57835e5b9c36d9033989ad10e193dd3e33",
+      "bytes": 67518
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000020.jpg",
+      "git_blob": "e16124bbc65d367fd531a096b9fac4debfe7a5ac",
+      "sha256": "485aaf255f858ec3b248f009d22f06086c9012c27a8a2901d5c3061670b8315f",
+      "bytes": 67521
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000021.jpg",
+      "git_blob": "4595f2c207ee248b825d6694db01da191b2c3600",
+      "sha256": "2ed37c2e4660d70e3daa99b57bc223eedcfb563a22f28913088b8f9c91cf8d6b",
+      "bytes": 67791
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000022.jpg",
+      "git_blob": "f53738e2af44933dd4e448283f076480f02f65ae",
+      "sha256": "2b9605373c3662c29d71efa7e8675ef27d0fb6fcdde4a8e26e196fff96287adb",
+      "bytes": 67726
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000023.jpg",
+      "git_blob": "c4e910deeafaf5715da2cabe62a9d2e10dc26a96",
+      "sha256": "d2075424e2a1e5621833e07bf6fe26ea2592531e862467198229486653463ac3",
+      "bytes": 67337
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000024.jpg",
+      "git_blob": "196ca264f843dc6af278185488d2f3ba091cc75b",
+      "sha256": "4b2f08da7e81676394d4c3e81b61e63873ab5fde28b534ee9eb1c4360ba59e82",
+      "bytes": 68132
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000025.jpg",
+      "git_blob": "9c275350cb0098faac8878424df390cd3de7f18c",
+      "sha256": "d3f852269d8b40266cc59bdd745f67f3486ad61e16fcefa3d6df1825071e312e",
+      "bytes": 67691
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000026.jpg",
+      "git_blob": "fa62cc24fc06db204fbcd358ac5d14079a0c14de",
+      "sha256": "1ec077fdd7f7873001f1a110975d3d7c68f8b287c0a1bd7dddea5b52b6d6b0ab",
+      "bytes": 66677
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000027.jpg",
+      "git_blob": "ffb4d7a0ec04aaa776ba61b6f7ba9e6eeea9ed87",
+      "sha256": "8c027d6c4bebfa21db114623f40be212ef5aa038a8aecfa481f1117224fbaeb9",
+      "bytes": 66459
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000028.jpg",
+      "git_blob": "e99d787b67db78ab0000584a847e59115ada5055",
+      "sha256": "a76666bbe4f36ae83e8c639e4c00d735b7d2a47df5b9629756889dd91a2f7e91",
+      "bytes": 66916
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000029.jpg",
+      "git_blob": "28083be46078cb6fa8059a855d30f8a61e54096a",
+      "sha256": "0512a17b5a11316615004362007d1bcb15fedfe68e14499be4fc6f2adabb3d85",
+      "bytes": 67798
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000030.jpg",
+      "git_blob": "5df458a3c94a7025b76e8d7ac97ea36dc7261a38",
+      "sha256": "e714b30c75319d9cdc46da2345cdec70ab4460ece57a5272aa595ba6add2bdab",
+      "bytes": 66017
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000031.jpg",
+      "git_blob": "c4f53512444c405e0813bca2b64fd7be19fc5d20",
+      "sha256": "57e8beba136ec0970efe393598bc28484214865c32f8a6c77c86355dbd6eaa07",
+      "bytes": 66229
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000032.jpg",
+      "git_blob": "0575a7307dec34e96437a1e4b78dcd17211072ba",
+      "sha256": "9b7ddd8b0995a40fc74e515738bc5142fdf84e7cf12afbe4f1f8a71605619228",
+      "bytes": 65940
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000033.jpg",
+      "git_blob": "54677153a5f37ed5e68006ce6ca5c56592425aa2",
+      "sha256": "2731d80c35c5102fbda85a29e7cc993afab5c52d476291e83b81d7830c1e86fe",
+      "bytes": 65733
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000034.jpg",
+      "git_blob": "6bb3cfe924870deb6c98a360aa0a2d1792bd6940",
+      "sha256": "a8158e161812fcb8c0cdb2e76ab3cdd895828d81ecfdf70f77683994704e175b",
+      "bytes": 66617
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000035.jpg",
+      "git_blob": "28f603764a386d53bd4180160affc78a8c2a44bf",
+      "sha256": "803319c7b95d2d69b2bfff387d54da4f34247b32631df723e8a537bba618b38f",
+      "bytes": 65120
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000036.jpg",
+      "git_blob": "a6cdb35f0a216d44565a87568e14fb07043adde3",
+      "sha256": "656745a66d643fbb88ea54e4c8cb9e1829f2beeb5d28d7dd1068cfb4dea50aad",
+      "bytes": 65336
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000037.jpg",
+      "git_blob": "c1b57717dc64af9d0ce94ae9d923f8f556494948",
+      "sha256": "a5078485a27dcb42c785caf81e213a72a501c44aefab0dc47eb35961b00548db",
+      "bytes": 64110
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000038.jpg",
+      "git_blob": "4e54a68b5bc6be4706bbdd32445f03e19a088383",
+      "sha256": "af2e5e60e3eaf5cfc6ec9e5f616036ee48c7ddc0205171102081c3e01cab191c",
+      "bytes": 64951
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000039.jpg",
+      "git_blob": "c00184ed2b1000d75026df1d66aa916950618222",
+      "sha256": "a70dbb4bf332cccb46b08390d686f26d8d13b19a8aba7e54191e692fe96437b6",
+      "bytes": 63605
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000040.jpg",
+      "git_blob": "b5e53560686e12257302fea2839f758d6766d383",
+      "sha256": "a6433330bc17f9467fb9a4636cd12d85e409daa56497ac79a8e19aba41df40a9",
+      "bytes": 63446
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000041.jpg",
+      "git_blob": "b83a0ab0986b15c296dcb8e5e4a58b75c584d46b",
+      "sha256": "124e9042984504f96200bb12e4741f99b81ef241dc57723aa43a8502b1b7fb23",
+      "bytes": 64066
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000042.jpg",
+      "git_blob": "5fc2c302c9437f55cff3fd693aa8cb693a9c2f39",
+      "sha256": "30c7620b9babd2cfb1504bcad1933db73d1717c0e019bc8d391cf5dd56aed8ea",
+      "bytes": 63864
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000043.jpg",
+      "git_blob": "3ad19baed5b19eb65c5d6549cd494db6ac786162",
+      "sha256": "64c1adf9a7e87b6d136fbcacc3296d078f566be440d8ee98f474e5aaa59d9fce",
+      "bytes": 64509
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000044.jpg",
+      "git_blob": "3e8d1049dd666f81a641496cac8bbf19f42ed6e1",
+      "sha256": "24c3deede40b04a03baa1dbd22afe8bf68f8b5811a43b27e6cf93433b5c4df04",
+      "bytes": 65859
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000045.jpg",
+      "git_blob": "2cd38bb1a41aeae7c776cf6030f692c60871c5e0",
+      "sha256": "5c547f517faf31410617681d717e4194e518cd4c521f90b168811294ca34facd",
+      "bytes": 65377
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000046.jpg",
+      "git_blob": "84f2b99f5fcaf997e6068c72bca9ddfe5b81f8bd",
+      "sha256": "53988e50027eec8093ef472d037bb53dcc7912faa29e1a29f40bf5ca3e0c38af",
+      "bytes": 64837
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000047.jpg",
+      "git_blob": "40b4a710d5dcb4a922c3d11dc29b6d80b06b1564",
+      "sha256": "71ae13f56982f63ad251ad068d704215850318f0de4999cf9fd6d944281946a2",
+      "bytes": 64848
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000048.jpg",
+      "git_blob": "52ec297d3c63c845e6a0afd05978a26058018ed6",
+      "sha256": "f21cfe8cfabd61db725f140243e73ed13848ff85fad7073c919b2b6ef0172a40",
+      "bytes": 63807
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000049.jpg",
+      "git_blob": "73257541ba1c501e2ba17f65ed386453a0b80089",
+      "sha256": "87268d22a1d64fd6e60b26a701d0306842b9f375b5c44398e2a4840671c43b4b",
+      "bytes": 63427
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000050.jpg",
+      "git_blob": "0cba0a3e5494bf1cc923650f979f0eb46d56ac11",
+      "sha256": "922461b05c175e6e72e20843a873e564ee4bc192529867f0fa1d25fb8196030b",
+      "bytes": 64399
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000051.jpg",
+      "git_blob": "b3374553e6324732280e934d4813141f8b43e17e",
+      "sha256": "09d201def43099dd1416de07db5b609254c11ba117553a985cc0e7d4ac22e861",
+      "bytes": 62049
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000052.jpg",
+      "git_blob": "8a6e92ac18a26df5daf816c752367285709ec25a",
+      "sha256": "6b4eed70b00d46fa3f5cffc0ca1dd1f2883d114c68e280ba5076cd12ffff588c",
+      "bytes": 62039
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000053.jpg",
+      "git_blob": "2c3068b3a62c951d1b515823f18f9fc99ea096ab",
+      "sha256": "d36b5a38095d47c02416cfa347bdb33a3ea4b12454d12f15ce9073d13737aefd",
+      "bytes": 61804
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000054.jpg",
+      "git_blob": "b45721475f997a54e88b04643e72db4c162b4630",
+      "sha256": "cbf2de3544a162f20c36a9602cbc772c6d85f377f981cfc65e95c137708dda15",
+      "bytes": 60331
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000055.jpg",
+      "git_blob": "5bfc16bda54d77c2d583aa3eaf40750a8e9bd442",
+      "sha256": "f370cd1d2e48eb23f882213aeac5b50cc631681e0269b8194514c48d436c96d9",
+      "bytes": 59140
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000056.jpg",
+      "git_blob": "b966625e1e962018fd1011e67f8b3c7df5abeca3",
+      "sha256": "ca5510d855e8d41c56f6426ff77a97eb684d98d097dac347bb3a075aa31b72cb",
+      "bytes": 59164
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000057.jpg",
+      "git_blob": "7b26ff65a5dea62f8c091b315cdae35b690a96e8",
+      "sha256": "6e68a5ee026360daaa0a852a69ca6df95b3d5f23618efc8c4449f30aa9f2e727",
+      "bytes": 57580
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000058.jpg",
+      "git_blob": "ac1a8bda0b38ebcf998e82d6d7b549ea1a848914",
+      "sha256": "fb9bce5050a9bd5d0d53c89984ec20d44b3740347c58227262bcaa695a32bb27",
+      "bytes": 57197
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000059.jpg",
+      "git_blob": "6be222249e85724acdfb2f0a74e9482d30673e3e",
+      "sha256": "ec9592e607411eadec022c16b631f2338e16816e71366ffd9de383a2a30fd796",
+      "bytes": 57734
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000060.jpg",
+      "git_blob": "5ae977a3cfd4f72a29d2976a8ed207c6aa3dcb22",
+      "sha256": "cbe046f6b490b2119b02b4d8aed3239c3ac66923e9dfec411897f3ce172bdca7",
+      "bytes": 56988
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000061.jpg",
+      "git_blob": "da98d5d264fcfc1d0267e3d71e45e3b80c1918b4",
+      "sha256": "9908f9c6caab845349b46f37e9be5e2ffcc7c7315c7ef240a1f285d5a6788d28",
+      "bytes": 57006
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000062.jpg",
+      "git_blob": "82155a6d07c12a0a89ceab6a02fd8ef85f99d277",
+      "sha256": "4dd22b8615234c9597183306985da5de72d9022187ba64f1f64f6bca3a5cf108",
+      "bytes": 56886
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000063.jpg",
+      "git_blob": "ae48b5b8204744e4f0c8ea1aa2b1c195bbfe7874",
+      "sha256": "e265185803e046bc1abf86ef0cdcd6de68988c574c229dfcab06ffacc64d2980",
+      "bytes": 58390
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000064.jpg",
+      "git_blob": "2dd5443f2c0d33ab0a6812df950ac226bcbb4d11",
+      "sha256": "4baa38ecd94e47cafa5cbaf07a6acb78fdd71dc0eb733a62db520dee47122fdf",
+      "bytes": 57202
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000065.jpg",
+      "git_blob": "a141648baf1ac5bf7394283c39575f920c9b314a",
+      "sha256": "0813edfee32ea035f0ea42876b08a5ced645374609caaefc020883a51886cd35",
+      "bytes": 57630
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000066.jpg",
+      "git_blob": "5368bfb89d7c10082044a2dc83f9620f8117e64f",
+      "sha256": "131924af51c95099b50c0c98ececcac7182707404da6c859bd05065bb9f542af",
+      "bytes": 57962
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000067.jpg",
+      "git_blob": "1721d1224287ae8243086d1fac93aa8f3be5e657",
+      "sha256": "4bde607ff2a88ff343fa0b10eb3e66629a614118e1217383c2f7ef4931375061",
+      "bytes": 58576
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000068.jpg",
+      "git_blob": "c693658b071012c0fefd40d3d4efffe072afbe2c",
+      "sha256": "15481e4891c76416489e3579964d3019b38e794c735142165de76be280f61425",
+      "bytes": 59387
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000069.jpg",
+      "git_blob": "2662e570528209e462282c7f8cc33223ed2c82c0",
+      "sha256": "1e36127507bcedfe8f15e035f3e3e1faedd84cf4747bda785f38f8990f346b96",
+      "bytes": 57451
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000070.jpg",
+      "git_blob": "d61b1bd26c186eae8a7479975c19d781c5114265",
+      "sha256": "c8964b693b443f87bf45eafb7e437732860d3193ffa2157e511386209eb35a92",
+      "bytes": 58607
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000071.jpg",
+      "git_blob": "cadbeb2d7428fbf352269f9ebb0101d2e95c6fb5",
+      "sha256": "886bc5acf33dc5b013e01262102aa43587856ea3f3382b6aab2cd582e27aabd9",
+      "bytes": 57672
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000072.jpg",
+      "git_blob": "639ea19d8a3d2376a074435c144e732645c0d273",
+      "sha256": "cc74fb9540afd04dc0442d657defd65319ed999d65a649a0b0905bd773afe17e",
+      "bytes": 58965
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000073.jpg",
+      "git_blob": "1894993555f480404b113c53b16e7cbc0cd1e148",
+      "sha256": "7760ae0729d0e426488bf7512793c134fefa59d0286bc4901be008bac3aaea60",
+      "bytes": 57798
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000074.jpg",
+      "git_blob": "8bd14faac99c5b3e6a3e095c33d8350ed1e8bbdc",
+      "sha256": "8c66f7ff590ab0381706dcbbaedcf96c6a71d864b2f128eb7a0536fee0b2e724",
+      "bytes": 57663
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000075.jpg",
+      "git_blob": "b5e9f771ede4772f20aab9b1598b86de5a45b0d3",
+      "sha256": "e9d5501f25a444c5acf02bf5d401385e3aacf0479699376dec614c8537c5e9b3",
+      "bytes": 58028
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000076.jpg",
+      "git_blob": "8e6542fcf6f57ee0aa52431c338d7fd91be88f7e",
+      "sha256": "3b0bf58903edfc8faa19780c8f8c46037052dd61b2b35f0dd55584d3a26928cf",
+      "bytes": 57435
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000077.jpg",
+      "git_blob": "a2d1f2510141315e7311056d6758e3666aa40464",
+      "sha256": "12190cce1c5ccf0223ee05a85e27eb02976f95132a33fe2ea663ac64acefec11",
+      "bytes": 57413
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000078.jpg",
+      "git_blob": "5c8b6ef32402fc936f598b5256d089dc0d64c36e",
+      "sha256": "7332ca612cb4fc0725bc9da9284502e9f8e770974f46e402521efc80d67ce663",
+      "bytes": 58145
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000079.jpg",
+      "git_blob": "67e681b0acf5a132521efbae8affb453ae84bdc9",
+      "sha256": "88ff8b65ed38f54b243343ebd1fb9937e9c11a7706aa6a2dd5b20db0e8782b4c",
+      "bytes": 57032
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000080.jpg",
+      "git_blob": "a6564e8d93a7f3ac6ed4a22adae467529b8d8f8e",
+      "sha256": "750e34745aba99e73f5d05575a30823b879a3c750a927ed18b2c7ae967ba17ae",
+      "bytes": 57607
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000081.jpg",
+      "git_blob": "07179f9433b312387cc45e7ca89383cdcf268c85",
+      "sha256": "911b07a38556b55e8f0b0d26c2103457bf2219d0bbb75038ca8a51e961882c99",
+      "bytes": 57028
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000082.jpg",
+      "git_blob": "47667120c27fe1fd219aefe8d005b4492d484c78",
+      "sha256": "b57990b04b8bde27eb62a1ae300b34e7054ccbf511db54ae6aea5b0198ee093b",
+      "bytes": 58131
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000083.jpg",
+      "git_blob": "b3183236183ee6c7c12e415e50fcf11a273101b5",
+      "sha256": "421334f83e2727a1f2ef20e920284275e6acb36620608fb35065c211932d90a1",
+      "bytes": 56921
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000084.jpg",
+      "git_blob": "ad48bc32224ab3920601a1aa1de2621028080af6",
+      "sha256": "cb2ddf32980da68935c4517eb7113542502e0d8d703c69bc29847abec31b7791",
+      "bytes": 56799
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000085.jpg",
+      "git_blob": "b60cc42c8195374df4e574b272abd9ed7dca3e3f",
+      "sha256": "0ad2131c7ab68e333fd22d8b52ab828cd7f2ee99c5e5add873332b7061db73ba",
+      "bytes": 57118
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000086.jpg",
+      "git_blob": "c1a9ea1b0a1e567e135cd797009e03cd81779691",
+      "sha256": "abf1649156a72feeced529ffb9412fd34b87110d14692c508de164ac1e893375",
+      "bytes": 56323
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000087.jpg",
+      "git_blob": "6932015bff1cf1a13959232fecdeba98ef481c25",
+      "sha256": "972e06316f522f8f75333c9232a616467502b8e182137bef40ffcc77876f9d60",
+      "bytes": 56624
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000088.jpg",
+      "git_blob": "b75c1bf9e6c7d048451c942bbdd526f14e11a752",
+      "sha256": "19389e626104c16a7a74ee7a5e1f2661edd8276da7250162d072b947efc40c39",
+      "bytes": 57645
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000089.jpg",
+      "git_blob": "9dd067fe804bd5a4dc3abf847468805f1f0d231f",
+      "sha256": "7d0adaf6be8ba0c7df5ac7dba875678911337bf9bd526a90cf0b3853a06390d3",
+      "bytes": 56815
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000090.jpg",
+      "git_blob": "3da877a4820e40e242f2988c28c4ee6c1960f4a4",
+      "sha256": "359561016c5a71fe0a0376a58afdb84bc512ff9932fc970735eb410800169955",
+      "bytes": 56768
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000091.jpg",
+      "git_blob": "504a0220faf1ed908153ae609b15f6cf95c38b54",
+      "sha256": "d86077accb827992b7594f5d2e67ccd1d124bc2069df4afcd0446737f75f54c8",
+      "bytes": 57199
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000092.jpg",
+      "git_blob": "035c83e214777256abef39e2c73d7d95c0773351",
+      "sha256": "8bda4b4ad6799ccd5b19c89ffaff5d9f8611e88ac6ac38ec1a155464a1e13987",
+      "bytes": 56757
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000093.jpg",
+      "git_blob": "2300343d6e4002b48195a4171249e8b634f08dfa",
+      "sha256": "3862ab7243080920aef55e140269ef2ca4c70fcda6113175f5f224c6f229b44c",
+      "bytes": 56726
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000094.jpg",
+      "git_blob": "cf64744cd279c1567886324167c74e2b43b63438",
+      "sha256": "95e948a2d0cb96b90179efc50f5219d44005f73785da377866c28b8088fe0244",
+      "bytes": 57795
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000095.jpg",
+      "git_blob": "25a39f98c4feb138fc288e2a67a8feb93f018ec3",
+      "sha256": "cdf42b14ca3d61553b5bbdfdbb19138f4808bf131933fec236977b3f665e7e24",
+      "bytes": 55947
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000096.jpg",
+      "git_blob": "592378595323771908d66da5c23d5bb3e9d38d9a",
+      "sha256": "e0827d0e0277aee364acf8734aadf803f41b5fc98d88ee1b467df487bfa40445",
+      "bytes": 56330
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000097.jpg",
+      "git_blob": "d9a4655f1a112267174813db392c2269fb897dc7",
+      "sha256": "fbb4b27c591e64e37b9e7a1ef89f570b35d0346e9e56e1c54f3548bf69d800be",
+      "bytes": 55478
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000098.jpg",
+      "git_blob": "069d37fd849f3baa2955dc87b4ee83c982078f24",
+      "sha256": "40eeee7024058b975b3d8727d06c2538c373bccdcba3048c56007b2c488d73ae",
+      "bytes": 56318
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000099.jpg",
+      "git_blob": "3851565325b921b4b3da7ab1209385809f613c77",
+      "sha256": "776b62365ed03f240062c8fd4abed299f7a3814a3f0b694b7336820665ae2870",
+      "bytes": 55149
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000100.jpg",
+      "git_blob": "d810531f13c279c65656b659226ab400724a0575",
+      "sha256": "2ba52572f6da3da2fb373f34887b5c37517e12f46aedaeb86fe35243dbcb3ca9",
+      "bytes": 55988
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000101.jpg",
+      "git_blob": "2f335f8273c8f2c809c7f9c688fe61debd45c7b5",
+      "sha256": "6c119c8f0c9dbb200a00be10e7f2395b02b0f47ec6ab9af9c6f6b9fcce626b45",
+      "bytes": 54633
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000102.jpg",
+      "git_blob": "05dcb5a99ebe7585d9a58d486bf115d23eb9f162",
+      "sha256": "45ea8e773d760a663657e48e5d04875661ad23f9d8ce37dd8be5ea9ab7d85aa2",
+      "bytes": 55314
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000103.jpg",
+      "git_blob": "4e912d7400da382f1c5c20ea0521a0742ef4667c",
+      "sha256": "2e0bc1bf126728859705b4d8a9b52a0b8ae80c308b39c6ec4bce17c3a2d5308c",
+      "bytes": 55473
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000104.jpg",
+      "git_blob": "7fb174dc7cc5074848e239087ef71fd093d1248e",
+      "sha256": "9839f8453f513330c814c2bbc16652cb3cfd104cd4332ae28ad9352dfe10a282",
+      "bytes": 55972
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000105.jpg",
+      "git_blob": "f6317f122bc196ab64cc616aaed82af32e6b1645",
+      "sha256": "0cae5a5ca44cbb1fdcfbd28d6b3d878a3d9e908b19d7d6b356813f82a3f0d4ff",
+      "bytes": 54880
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000106.jpg",
+      "git_blob": "d7d25bf7071853a52c08d533add6e7b7cdc29b84",
+      "sha256": "6476be08a2912d519fc4602ed778176596d8630be77c9e984432b640700351ef",
+      "bytes": 55743
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000107.jpg",
+      "git_blob": "586eb2bd5ecb3930181bb340852b45e008bd3536",
+      "sha256": "287ba32a9901a6dbe9b91389d6905928ae13cd4a8d94b7a444e37e476f659843",
+      "bytes": 54917
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000108.jpg",
+      "git_blob": "a58452ca32f448751921019eb72e1fd08ff7132e",
+      "sha256": "5ab3ae32c3ee58bbc7b04b470cbb1ee6415d642fed02bed41340ec44bfdeb86e",
+      "bytes": 56150
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000109.jpg",
+      "git_blob": "38f30a1ff947f2a6e8cfbbc888c05722b6a46fb3",
+      "sha256": "ecaa12de5bb637281ed6e783395046a23df0925a658375c90f173b8c3a971312",
+      "bytes": 56473
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000110.jpg",
+      "git_blob": "e956d8eb45783958bb1fb4134367312954f511b5",
+      "sha256": "96a3fa3af24caa317282e92ba4a21a4d3bcec1797ad4553652287f37db0f7f4d",
+      "bytes": 55540
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000111.jpg",
+      "git_blob": "8a81bb2eb893fdec0d2baa111a1734afb2e4b6f1",
+      "sha256": "75415954f8cca06952afcfc3c7dd7a1cabe8263e09f8a58082bb9d7addfe5f0f",
+      "bytes": 56843
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000112.jpg",
+      "git_blob": "852c3b61a1a690fbc50c696e8a51fb4da7e9cd8a",
+      "sha256": "ed776074f52cff151fca740c76d63e0cbb37ba6e9c73d9f464a1c2b098e0cfe8",
+      "bytes": 55660
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000113.jpg",
+      "git_blob": "502d7fd10e6f1d7018ff3390ce1fecaa6a7ca3d9",
+      "sha256": "64af3de1628e7c14de4ea0f7a03bc1bbe49c74814009f0dfcc72a082fc93a576",
+      "bytes": 55501
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000114.jpg",
+      "git_blob": "1137da3b47b182bf9e0f5d0bd3d4fd99dfc24c63",
+      "sha256": "8d98aa2162cca43b6443c6ab05fd7f964c43d904fb858643dcee43eb914b2ce6",
+      "bytes": 56100
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000115.jpg",
+      "git_blob": "0b9e6336f39d1e2ea392b509504e89cf905966eb",
+      "sha256": "20989e8432d1c2ec3c877fd285a61c16f8ff9a4cc3ff05ddebaadbc5ce6700b4",
+      "bytes": 56937
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000116.jpg",
+      "git_blob": "be985bb2ce6eb4ae35deadf1c1fffe1eb339e882",
+      "sha256": "d01cd6a86067e7ffe50c3daa968ad4cc012c70f9d107c3bc093493533c36ee86",
+      "bytes": 56178
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000117.jpg",
+      "git_blob": "30c471f393e61ef7247bea78821b1fa227004b95",
+      "sha256": "fbec6af47e79f604533cdb76d01cee19d1d8569461b0c23c72ec4452b5dc7016",
+      "bytes": 56599
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000118.jpg",
+      "git_blob": "7cc1911c7cf186c7a2e16af6217746faa7e79edc",
+      "sha256": "884a65aeba5d0d37cabd2cc19f090053ac759a16bc5f3df8e8cfdfe735bbf41b",
+      "bytes": 57681
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000119.jpg",
+      "git_blob": "9f98a92036ec13054992917f83452c039a3af9ab",
+      "sha256": "9c1de93edc59832d718d1ea30650a68916abaa025d3d7c1a523b27236dce2517",
+      "bytes": 57742
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000120.jpg",
+      "git_blob": "5c08276b748f02a7411c3e618908a118059c838b",
+      "sha256": "75b8b68c44e8d4a715b776529e8088f28ef1a7bcdde68505ffd885fe2d20a092",
+      "bytes": 57377
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000121.jpg",
+      "git_blob": "f5971d965bfe69943401facbc854fee1ff379886",
+      "sha256": "0b300fb1f3facec8a27ea9be66aa4dc120beaf11814dacf910d8b133d4e202a5",
+      "bytes": 58085
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000122.jpg",
+      "git_blob": "581ebc170e01a39d22d83146aae9eb73e5b4a77c",
+      "sha256": "1c7d49bde3584fb3f683e6e7f1ed7e6a058b12b12cb14f0051d7be86a7cc3685",
+      "bytes": 57913
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000123.jpg",
+      "git_blob": "90723fe2da65950db90f5fea68eb5806ecbde97c",
+      "sha256": "8c85b79c1a5baa456136bc2c7c0a12c9af6b9d449ffd35cfeb899557317c295f",
+      "bytes": 59248
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000124.jpg",
+      "git_blob": "7d0d825a604cb66a156e656417ee9bb5ac4cfc6d",
+      "sha256": "e59d60c63bd36d374d1c08c71ea329b75812f5798433582717f8af9b8e744b72",
+      "bytes": 58586
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000125.jpg",
+      "git_blob": "ad288c54152f7c8e3dbe3967ea63eab68b30f762",
+      "sha256": "89428aea5a51cb916a633adc98c46f5bfac60e32f4766ab29ba5189ceea54442",
+      "bytes": 58945
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000126.jpg",
+      "git_blob": "2c41ce8f2465b5b15b3fa77056b96c49197aed09",
+      "sha256": "5fd50ddf95744dccd66ffdd9c2df1089ea703b1c4ee17110054298620050783a",
+      "bytes": 58156
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000127.jpg",
+      "git_blob": "daf2aac42e87e6a8a8801f6b7aa0d5ef41af32c8",
+      "sha256": "b3dfdb1ca8ea617bcd69c1aa8c190e20e507966784eb9d52f34ffd0c3cc61940",
+      "bytes": 58696
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000128.jpg",
+      "git_blob": "69e50d4b26b82ea4fa5aa1cfb8c6c73a23196b75",
+      "sha256": "3e8172ad2ec2e2855d8b7265e48794b70eb4977b8724f32cfaa9a1853d4f0f70",
+      "bytes": 59793
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000129.jpg",
+      "git_blob": "03e1236096d0282a9115bae76b078a3809f22cd1",
+      "sha256": "9c6c5d7ad28418632adeef48f57b963d2a86bd1f6a1749dbc69b7c57f8b30eff",
+      "bytes": 59464
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000130.jpg",
+      "git_blob": "d142f33811b35b53862c1f8d36c219afb44801e1",
+      "sha256": "c027f67e17cd28a902986b3e2866502ca029a1f8661533dc2bbb72d4c07eee6f",
+      "bytes": 59101
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\img1\\000131.jpg",
+      "git_blob": "e2da82f73f8fdbd8d3ea354a7367abf818c73737",
+      "sha256": "ac37d413c5df17c7d20e1cd8aa6416260dca5bc47fe1bd63482bd006e4ae95dc",
+      "bytes": 60367
+    },
+    {
+      "path": "data\\mot_swarm\\UAVSwarm-28\\seqinfo.ini",
+      "git_blob": "9c11504180879b39aa301b198ab5f0d858ff9968",
+      "sha256": "b4df2845bccddab25ec427457658a1e6ccceacfcae51993fe87326e1bf44fe3d",
+      "bytes": 102
+    }
+  ],
+  "selection_reason": "First test sequence and two paper-illustrated tracking failure sequences; selected before any model results"
+}

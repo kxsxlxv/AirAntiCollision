@@ -1,0 +1,47 @@
+{
+  "counts": {
+    "log_hac1_within_similarity_gates": {
+      "raw_threat": 297,
+      "stabilized_uncertain": 132,
+      "conservative_scope_uncertain": 228,
+      "stabilized_threat": 69,
+      "conservative_scope_threat": 69,
+      "stabilized_nonthreat": 96
+    },
+    "projective_within_similarity_gates": {
+      "raw_threat": 297,
+      "stabilized_uncertain": 132,
+      "conservative_scope_uncertain": 210,
+      "stabilized_threat": 87,
+      "conservative_scope_threat": 87,
+      "stabilized_nonthreat": 78
+    },
+    "bounded_within_similarity_gates": {
+      "raw_threat": 96,
+      "stabilized_uncertain": 264,
+      "conservative_scope_uncertain": 270,
+      "stabilized_threat": 27,
+      "conservative_scope_threat": 27,
+      "stabilized_nonthreat": 6,
+      "raw_uncertain": 201
+    },
+    "log_hac1_outside_similarity_gates": {
+      "raw_threat": 27,
+      "stabilized_uncertain": 21,
+      "conservative_scope_uncertain": 27,
+      "stabilized_nonthreat": 6
+    },
+    "projective_outside_similarity_gates": {
+      "raw_threat": 27,
+      "stabilized_uncertain": 27,
+      "conservative_scope_uncertain": 27
+    },
+    "bounded_outside_similarity_gates": {
+      "raw_threat": 12,
+      "stabilized_uncertain": 27,
+      "conservative_scope_uncertain": 27,
+      "raw_uncertain": 15
+    }
+  },
+  "false_clear_cases_within_similarity_gates": 180
+}

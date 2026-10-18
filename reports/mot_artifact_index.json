@@ -1,0 +1,1780 @@
+{
+  "complete": true,
+  "created_utc": "2026-10-18T08:24:14.134247+00:00",
+  "detector_unchanged": true,
+  "actual_model_names": [
+    "TrackTrack",
+    "BoT-SORT",
+    "OC-SORT",
+    "DiffMOT",
+    "PuTR",
+    "TrackSSM (repaired/reference)"
+  ],
+  "files": [
+    {
+      "path": "artifacts/mot/async_live/botsort/formation.jsonl",
+      "bytes": 72409,
+      "sha256": "eed7f836ecc7231606d35d5e99cad114e645f74028ec37f65d32a7bb31e78b4c"
+    },
+    {
+      "path": "artifacts/mot/async_live/botsort/formation.mp4",
+      "bytes": 14607670,
+      "sha256": "ec274713d54e120fecba805309ee90dbcc2d8bde4e3ff30cef4b11d734e6d50b"
+    },
+    {
+      "path": "artifacts/mot/async_live/botsort/M2.jsonl",
+      "bytes": 96441,
+      "sha256": "c453f23afb1484248a26d8fb1c1696a7e4e6d004ab82f36509231a60b0d75080"
+    },
+    {
+      "path": "artifacts/mot/async_live/botsort/M2.mp4",
+      "bytes": 695772,
+      "sha256": "8898628e24de8a36bc777508b3046b113bedc0c86af510134a9f9abb648ba34c"
+    },
+    {
+      "path": "artifacts/mot/async_live/botsort/report.json",
+      "bytes": 6935,
+      "sha256": "973c676fd25081e60e0b9b5484808aaea6c90acf4b80ae4ace8f6a0137d00c20"
+    },
+    {
+      "path": "artifacts/mot/async_live/botsort/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/async_live/diffmot/formation.jsonl",
+      "bytes": 36974,
+      "sha256": "50afa38235f09a081fe7af401318cca527d7aa18845ba2cb8a77cf7535c3112e"
+    },
+    {
+      "path": "artifacts/mot/async_live/diffmot/formation.mp4",
+      "bytes": 14432463,
+      "sha256": "e4323ffabbfbb56feeb76a3893fccfca3289571e136d30798fcd07f25cc943e9"
+    },
+    {
+      "path": "artifacts/mot/async_live/diffmot/M2.jsonl",
+      "bytes": 44297,
+      "sha256": "b97ad21d40fdade71feb370bc1b25e86a64a323e68d1240cea08d4f03162e880"
+    },
+    {
+      "path": "artifacts/mot/async_live/diffmot/M2.mp4",
+      "bytes": 550315,
+      "sha256": "c5aa1b0a39fe5504980d200d41331951ba96996f64fab005cb475d24d03aad81"
+    },
+    {
+      "path": "artifacts/mot/async_live/diffmot/report.json",
+      "bytes": 5763,
+      "sha256": "970cba777db3cf9cc7cea210026ba4e94e611844bf3553755504235ff322c338"
+    },
+    {
+      "path": "artifacts/mot/async_live/diffmot/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/async_live/ocsort/formation.jsonl",
+      "bytes": 34689,
+      "sha256": "74644d896d5e5dec388fb0012d1770af0cabf1d3a8aa8eab24f134c71beb6e0f"
+    },
+    {
+      "path": "artifacts/mot/async_live/ocsort/formation.mp4",
+      "bytes": 14373340,
+      "sha256": "edb93421868f5500a880dcbed083b75cf86e62a64aec05a5297b2ca76f749aa6"
+    },
+    {
+      "path": "artifacts/mot/async_live/ocsort/M2.jsonl",
+      "bytes": 46436,
+      "sha256": "c4d49ecfdebb6b1826d9ef774f9eef5d94035c5540aeb3f5c0b2092d10b5fbdd"
+    },
+    {
+      "path": "artifacts/mot/async_live/ocsort/M2.mp4",
+      "bytes": 554641,
+      "sha256": "4f50d61064583099072a00bfe9cba5cf2dbef598b3e1873b4cce8ba328a1f51d"
+    },
+    {
+      "path": "artifacts/mot/async_live/ocsort/report.json",
+      "bytes": 5762,
+      "sha256": "48036009db610380b36bc8a2e63258036e83ca6c423d5be2d416816330ab216a"
+    },
+    {
+      "path": "artifacts/mot/async_live/ocsort/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_1/formation.jsonl",
+      "bytes": 27192,
+      "sha256": "2c38350e4fc83625cfeef85eeb73d6e7a97b8c166ca8263e9e3903615b53161f"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_1/formation.mp4",
+      "bytes": 14317370,
+      "sha256": "6837cc0aa17cd741bc35bed6b9b7244050a477164a805569d14a7e61ec2ac9a9"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_1/M2.jsonl",
+      "bytes": 37320,
+      "sha256": "7b6047e886cf55ed24361e6556f5bcbc6034bd610e08f41270e336b59d7fc0cd"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_1/M2.mp4",
+      "bytes": 534684,
+      "sha256": "d25f17abbf340cee517a0e126dbfebddc8cb659a1eb298cf873c77b573c2ac87"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_1/report.json",
+      "bytes": 5785,
+      "sha256": "992857ac20a0d15c91fdb0368df19bfc5111e5e1c55e3edb0636544a7fb56c60"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_1/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_2/formation.jsonl",
+      "bytes": 27192,
+      "sha256": "2c38350e4fc83625cfeef85eeb73d6e7a97b8c166ca8263e9e3903615b53161f"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_2/formation.mp4",
+      "bytes": 14317370,
+      "sha256": "6837cc0aa17cd741bc35bed6b9b7244050a477164a805569d14a7e61ec2ac9a9"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_2/M2.jsonl",
+      "bytes": 37320,
+      "sha256": "7b6047e886cf55ed24361e6556f5bcbc6034bd610e08f41270e336b59d7fc0cd"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_2/M2.mp4",
+      "bytes": 534684,
+      "sha256": "d25f17abbf340cee517a0e126dbfebddc8cb659a1eb298cf873c77b573c2ac87"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_2/report.json",
+      "bytes": 5786,
+      "sha256": "c02c3b36ac7506895ecfd9cb9098fec20f9f271f9d730874f19c5b49fd026c27"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_2/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_3/formation.jsonl",
+      "bytes": 27192,
+      "sha256": "2c38350e4fc83625cfeef85eeb73d6e7a97b8c166ca8263e9e3903615b53161f"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_3/formation.mp4",
+      "bytes": 14317370,
+      "sha256": "6837cc0aa17cd741bc35bed6b9b7244050a477164a805569d14a7e61ec2ac9a9"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_3/M2.jsonl",
+      "bytes": 37320,
+      "sha256": "7b6047e886cf55ed24361e6556f5bcbc6034bd610e08f41270e336b59d7fc0cd"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_3/M2.mp4",
+      "bytes": 534684,
+      "sha256": "d25f17abbf340cee517a0e126dbfebddc8cb659a1eb298cf873c77b573c2ac87"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_3/report.json",
+      "bytes": 5785,
+      "sha256": "304c53cdfb920ab77ec9fddb7a941528659c81e2d05492d489818502018f6ff1"
+    },
+    {
+      "path": "artifacts/mot/async_live/putr_3/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/async_live/trackssm/formation.jsonl",
+      "bytes": 36754,
+      "sha256": "a58156ed94a454ad2f814115ac11c58f0eb7c71b3bdbe7afc89e565383feea21"
+    },
+    {
+      "path": "artifacts/mot/async_live/trackssm/formation.mp4",
+      "bytes": 14449003,
+      "sha256": "cb76a45c403bd1399de8e0d8d9e536e9a8537559f51f1a116e58070912ca6d4a"
+    },
+    {
+      "path": "artifacts/mot/async_live/trackssm/M2.jsonl",
+      "bytes": 27705,
+      "sha256": "9f42fd8ebb80dd0db06506ac0b920a7b3c45884eefdd5599e3163b1159d5b9b1"
+    },
+    {
+      "path": "artifacts/mot/async_live/trackssm/M2.mp4",
+      "bytes": 600550,
+      "sha256": "f40af0eda28f957c37f88d85d7d2b0950542fedec47c0b05c87db039c4419434"
+    },
+    {
+      "path": "artifacts/mot/async_live/trackssm/report.json",
+      "bytes": 28594,
+      "sha256": "8c4a5f934d53056630592f1fe10dd8cb8d35cb89992410ea721f49131c3e3ca7"
+    },
+    {
+      "path": "artifacts/mot/async_live/trackssm/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_1/formation.jsonl",
+      "bytes": 46213,
+      "sha256": "7bba124c7f78dc6b343f379db55f175648ce56c10e0335f653203806ce609c53"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_1/formation.mp4",
+      "bytes": 14374122,
+      "sha256": "8c6d63ffc270ae48b5b850015384260c006843668a15b91e70878b37d49f18a3"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_1/M2.jsonl",
+      "bytes": 87015,
+      "sha256": "8fab9ad58e2bf4f183ffdb1f3114337b40b618c0d7b3b7fd8ce43f2a0bd60740"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_1/M2.mp4",
+      "bytes": 555700,
+      "sha256": "9ac4fd0b5cfa1f82bd4fd898cb7ee99b95a65dc8ac69724d9067b9d7267bda13"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_1/report.json",
+      "bytes": 5853,
+      "sha256": "be2b67777b824aa17f8df1b8c3b029584e4996def60b69794a3caaa5a4350562"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_1/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_2/formation.jsonl",
+      "bytes": 46213,
+      "sha256": "7bba124c7f78dc6b343f379db55f175648ce56c10e0335f653203806ce609c53"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_2/formation.mp4",
+      "bytes": 14374122,
+      "sha256": "8c6d63ffc270ae48b5b850015384260c006843668a15b91e70878b37d49f18a3"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_2/M2.jsonl",
+      "bytes": 87015,
+      "sha256": "8fab9ad58e2bf4f183ffdb1f3114337b40b618c0d7b3b7fd8ce43f2a0bd60740"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_2/M2.mp4",
+      "bytes": 555700,
+      "sha256": "9ac4fd0b5cfa1f82bd4fd898cb7ee99b95a65dc8ac69724d9067b9d7267bda13"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_2/report.json",
+      "bytes": 5854,
+      "sha256": "26d213a500bdc52e19769970d26a6e30212ee6e459821864e6e855ddf984b540"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_2/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_3/formation.jsonl",
+      "bytes": 46213,
+      "sha256": "7bba124c7f78dc6b343f379db55f175648ce56c10e0335f653203806ce609c53"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_3/formation.mp4",
+      "bytes": 14374122,
+      "sha256": "8c6d63ffc270ae48b5b850015384260c006843668a15b91e70878b37d49f18a3"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_3/M2.jsonl",
+      "bytes": 87015,
+      "sha256": "8fab9ad58e2bf4f183ffdb1f3114337b40b618c0d7b3b7fd8ce43f2a0bd60740"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_3/M2.mp4",
+      "bytes": 555700,
+      "sha256": "9ac4fd0b5cfa1f82bd4fd898cb7ee99b95a65dc8ac69724d9067b9d7267bda13"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_3/report.json",
+      "bytes": 5854,
+      "sha256": "ac0a606b9597d1579f534a0203726d7a4e24be27286ec8e2643e217abf29d238"
+    },
+    {
+      "path": "artifacts/mot/async_live/tracktrack_3/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/campaign/botsort/M1.jsonl",
+      "bytes": 141741,
+      "sha256": "434f000e878a67aa60a92adb6206052a48c0f24efecb685ff4f33f51e549be7f"
+    },
+    {
+      "path": "artifacts/mot/campaign/botsort/M2.jsonl",
+      "bytes": 198843,
+      "sha256": "cb8efa6aa62b51068c276c6c134bfdc936883923d43c03e65ea5f84361444953"
+    },
+    {
+      "path": "artifacts/mot/campaign/botsort/M6.jsonl",
+      "bytes": 146830,
+      "sha256": "eb8a7aa6577b9313d8cdf7af825f95806bb073f129e925310f146c47c3d9cd50"
+    },
+    {
+      "path": "artifacts/mot/campaign/botsort/M7.jsonl",
+      "bytes": 150963,
+      "sha256": "93417ead712851544e70d8a30e78129c6bb661d29341ceb75ca403c9b7828142"
+    },
+    {
+      "path": "artifacts/mot/campaign/botsort/report.json",
+      "bytes": 30380,
+      "sha256": "6494562f87f7fc5d3ba89e4384a4f3862215792a99f7904493c11a043729dad1"
+    },
+    {
+      "path": "artifacts/mot/campaign/botsort/S1.jsonl",
+      "bytes": 111437,
+      "sha256": "795e939bfc9a7247b2f08e04114de626cb3031698b905405866031d133beff09"
+    },
+    {
+      "path": "artifacts/mot/campaign/botsort/S2.jsonl",
+      "bytes": 102728,
+      "sha256": "c8e1691b18fc9d875f8f68a138242c49ced393b1ac241b249e0b96fd940f5c70"
+    },
+    {
+      "path": "artifacts/mot/campaign/botsort/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/campaign/custom/M1.jsonl",
+      "bytes": 100465,
+      "sha256": "aca8a1d2f7a417c3bdac2f73a86d755327f160d5a88cfcb9c80c3c53e90eae53"
+    },
+    {
+      "path": "artifacts/mot/campaign/custom/M2.jsonl",
+      "bytes": 143653,
+      "sha256": "7b52e4aabb4ff44d158f12c500e98c0682ae0c824ecd002d6a336303d4e2b06d"
+    },
+    {
+      "path": "artifacts/mot/campaign/custom/M6.jsonl",
+      "bytes": 97972,
+      "sha256": "e27c3c95dcec7ba91e1b6e1ab6651d3d4e295834288d187a41c165d38ae5aee7"
+    },
+    {
+      "path": "artifacts/mot/campaign/custom/M7.jsonl",
+      "bytes": 96634,
+      "sha256": "812e65cf7f1860483e2fb512429f90fe343b71693231e2d22fa6f1e0cfe4d10e"
+    },
+    {
+      "path": "artifacts/mot/campaign/custom/report.json",
+      "bytes": 26552,
+      "sha256": "56a3da989f17e8d478de3bb658fe42f7707d9bffe59bea7bb124ac12b13b8d6b"
+    },
+    {
+      "path": "artifacts/mot/campaign/custom/S1.jsonl",
+      "bytes": 77841,
+      "sha256": "36378da6417fc5e28e67cff858474eef675e192445387b25920e08d2bc26ccb9"
+    },
+    {
+      "path": "artifacts/mot/campaign/custom/S2.jsonl",
+      "bytes": 74284,
+      "sha256": "2d76c46acbc09bc864136728482e130efed21630f5ca24c78b10f0fed16aecce"
+    },
+    {
+      "path": "artifacts/mot/campaign/custom/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/campaign/diffmot/M1.jsonl",
+      "bytes": 87706,
+      "sha256": "65a2e47c04fb7b6402150b255806c972f0938ac2dcc3f9433e7d66573c862786"
+    },
+    {
+      "path": "artifacts/mot/campaign/diffmot/M2.jsonl",
+      "bytes": 107168,
+      "sha256": "c1041a8cae366680f968d2b9165f0b463140279c69d1e63f82503fdda98b5277"
+    },
+    {
+      "path": "artifacts/mot/campaign/diffmot/M6.jsonl",
+      "bytes": 99426,
+      "sha256": "ae74c4858250887ee096eb877cfc078edf9e21b352b300d1edfb3f4efb16c68f"
+    },
+    {
+      "path": "artifacts/mot/campaign/diffmot/M7.jsonl",
+      "bytes": 97775,
+      "sha256": "7ec51cad8932176046f1b7958af0d3044da1ad28fb61c4c7e278389d8aa9ed90"
+    },
+    {
+      "path": "artifacts/mot/campaign/diffmot/report.json",
+      "bytes": 26854,
+      "sha256": "277f2a6720690df6ee01bb66ecc5f136d4dff488a84ae90deff276a2211fa2ca"
+    },
+    {
+      "path": "artifacts/mot/campaign/diffmot/S1.jsonl",
+      "bytes": 73880,
+      "sha256": "77cbfcf03e01fe2325f15a1af549190ae5126e5c1e1cf4e061b588b5dbbf9d12"
+    },
+    {
+      "path": "artifacts/mot/campaign/diffmot/S2.jsonl",
+      "bytes": 70629,
+      "sha256": "0adeca7c3948a98fc6e618ec054e53eabcb46e7e7da8b966d02ed21e08a5541d"
+    },
+    {
+      "path": "artifacts/mot/campaign/diffmot/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/campaign/ocsort/M1.jsonl",
+      "bytes": 85858,
+      "sha256": "7c4ba61f39e6b40fb7698f12821fc5024331ef643d18ed93cdbb0d0e06a4945f"
+    },
+    {
+      "path": "artifacts/mot/campaign/ocsort/M2.jsonl",
+      "bytes": 106182,
+      "sha256": "2ac631df2382a72e116fe73a944803418f90ae89646b1ff37c94389871dd1073"
+    },
+    {
+      "path": "artifacts/mot/campaign/ocsort/M6.jsonl",
+      "bytes": 94977,
+      "sha256": "929810a7f1f9c87db265b26bd5abfade346f5efc0ddf512d77ef89d749f7aec9"
+    },
+    {
+      "path": "artifacts/mot/campaign/ocsort/M7.jsonl",
+      "bytes": 93628,
+      "sha256": "771911211f4c05adb47515294f8f567594918d7286c7d2bb9b66b7ae7876ddf3"
+    },
+    {
+      "path": "artifacts/mot/campaign/ocsort/report.json",
+      "bytes": 25461,
+      "sha256": "e8c5d582e8a55203ce8c2dbd06b434598e3083790bcb670f75f0ca6f98bfbde8"
+    },
+    {
+      "path": "artifacts/mot/campaign/ocsort/S1.jsonl",
+      "bytes": 66291,
+      "sha256": "0cbd97f6b5e37923acb55bbdffb6164df23f182efd112b039dc957beef910ca4"
+    },
+    {
+      "path": "artifacts/mot/campaign/ocsort/S2.jsonl",
+      "bytes": 64482,
+      "sha256": "1111d3ae8c3f3517698ac1d37612d5efa2935bc3fc269f196a045bb2c1ff9c2c"
+    },
+    {
+      "path": "artifacts/mot/campaign/ocsort/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/campaign/putr/M1.jsonl",
+      "bytes": 79529,
+      "sha256": "1b3c1e2ea7387fa9615211bcf9a6bd810e012ec171ef8c5d8621793c1204e37c"
+    },
+    {
+      "path": "artifacts/mot/campaign/putr/M2.jsonl",
+      "bytes": 92860,
+      "sha256": "7ac811ce7d99e136c2df6e20dc135255566bb1b3898cfb1ae3e1446cd4909abe"
+    },
+    {
+      "path": "artifacts/mot/campaign/putr/M6.jsonl",
+      "bytes": 94699,
+      "sha256": "9f0d5104dd6dea45d8f8fd7c0af71cbb848ac4799f71f50b1ba6091044604c6d"
+    },
+    {
+      "path": "artifacts/mot/campaign/putr/M7.jsonl",
+      "bytes": 92607,
+      "sha256": "fc41fbe493a6586602fd07a0352200c0a135d9a3a305f371e9951b7815b5a7c1"
+    },
+    {
+      "path": "artifacts/mot/campaign/putr/report.json",
+      "bytes": 25131,
+      "sha256": "07a3d1d5fc056668282a962058544d62204293fd175645ef16b20a7871e64ca3"
+    },
+    {
+      "path": "artifacts/mot/campaign/putr/S1.jsonl",
+      "bytes": 70425,
+      "sha256": "bd5877f4eac8ebf3dc3e8a6d7358df1e2e84c4bcadb7dac33a0362fecf2041ec"
+    },
+    {
+      "path": "artifacts/mot/campaign/putr/S2.jsonl",
+      "bytes": 66979,
+      "sha256": "faceb5493d7f9991c2b5e45624e814e02f186e18a3f376cfe891695f39834579"
+    },
+    {
+      "path": "artifacts/mot/campaign/putr/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/campaign/trackssm/M1.jsonl",
+      "bytes": 75417,
+      "sha256": "daec04f58a99c94b7f5a6756b4e542a54e526934a2c8e1a55b4c37396bd12446"
+    },
+    {
+      "path": "artifacts/mot/campaign/trackssm/M2.jsonl",
+      "bytes": 79172,
+      "sha256": "645e3d5b6249773367503afb5d59eb7774169eb7992c8690bfc90f265a7bfe0d"
+    },
+    {
+      "path": "artifacts/mot/campaign/trackssm/M6.jsonl",
+      "bytes": 83462,
+      "sha256": "e14057cccbd1eceb683ec77b9ef86511e1b3651b49123296c7af1e2ecefad5a9"
+    },
+    {
+      "path": "artifacts/mot/campaign/trackssm/M7.jsonl",
+      "bytes": 82719,
+      "sha256": "9ddd96643ca0512f98cf39fb76b96e6e4ee85e95fa0718b93293d019696437b4"
+    },
+    {
+      "path": "artifacts/mot/campaign/trackssm/report.json",
+      "bytes": 158108,
+      "sha256": "24f41adb394052a402a4a53f4c1338b8815ad3a5f258fe4fe5eab7644d152093"
+    },
+    {
+      "path": "artifacts/mot/campaign/trackssm/S1.jsonl",
+      "bytes": 62589,
+      "sha256": "a4a377a5d4c762e8767870b1de4c9e09a54ac5bb63d62b9719575e8d2be53d35"
+    },
+    {
+      "path": "artifacts/mot/campaign/trackssm/S2.jsonl",
+      "bytes": 63523,
+      "sha256": "d2c791688b635ec863397fe784eae650ffb5df540efaa755cf57d240dc6e11c8"
+    },
+    {
+      "path": "artifacts/mot/campaign/trackssm/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/campaign/tracktrack/M1.jsonl",
+      "bytes": 137960,
+      "sha256": "f18481b252214dc70138f123aed501d325ae5c36907cfe594db65d0f5a7070d2"
+    },
+    {
+      "path": "artifacts/mot/campaign/tracktrack/M2.jsonl",
+      "bytes": 179349,
+      "sha256": "5bf9bdf38d71c56f9c013652c5876266d3615976c937c955dc647b3c8ffe87cb"
+    },
+    {
+      "path": "artifacts/mot/campaign/tracktrack/M6.jsonl",
+      "bytes": 143900,
+      "sha256": "122b0ad68074aac7ac4e2f7fbb8d8a680886afb43dc4d783dd4f1cb70cdf41b3"
+    },
+    {
+      "path": "artifacts/mot/campaign/tracktrack/M7.jsonl",
+      "bytes": 148301,
+      "sha256": "3adcd773687bd2b0601f7a010aac88b68152206df0e3d45b893850e0ca2e5599"
+    },
+    {
+      "path": "artifacts/mot/campaign/tracktrack/report.json",
+      "bytes": 25165,
+      "sha256": "98f06698e443a32cb06394c432ad59ee14be287aec013abfabd4e0d446d89e81"
+    },
+    {
+      "path": "artifacts/mot/campaign/tracktrack/S1.jsonl",
+      "bytes": 103113,
+      "sha256": "11a2c6412ab61c035400ea83a721518e8cd47fa1b7eed0a4fc951db030ff760b"
+    },
+    {
+      "path": "artifacts/mot/campaign/tracktrack/S2.jsonl",
+      "bytes": 95941,
+      "sha256": "70df91f2516fc09f7c181d95ad14291ae4e9f710fcee15040cc6cae9acb57272"
+    },
+    {
+      "path": "artifacts/mot/campaign/tracktrack/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/confidence03/diffmot/M2.jsonl",
+      "bytes": 104553,
+      "sha256": "582a9141b2dc183e96631556507c4ad6c028c30dc0aa6284022eaadd208261ae"
+    },
+    {
+      "path": "artifacts/mot/confidence03/diffmot/mot_metrics.json",
+      "bytes": 6295,
+      "sha256": "926c86765a06b73097c54b357c6d37bfa3bbd07444711d0413f1a7dfb9ed9fbc"
+    },
+    {
+      "path": "artifacts/mot/confidence03/diffmot/report.json",
+      "bytes": 11088,
+      "sha256": "121b5a83f05553cd092b3933623d636b3e4220e346037300667d1ea18a89ce78"
+    },
+    {
+      "path": "artifacts/mot/confidence03/diffmot/S2.jsonl",
+      "bytes": 69954,
+      "sha256": "34e5b7f2076fde962c0a273087cb5ed48382e8348cba355dbb393ced7301a5e1"
+    },
+    {
+      "path": "artifacts/mot/confidence03/diffmot/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/confidence03/diffmot/sw02.jsonl",
+      "bytes": 23743,
+      "sha256": "95a23285e0420d1a1a9266065bed32d77b70962958abe8b03b127e96308ec876"
+    },
+    {
+      "path": "artifacts/mot/confidence03/diffmot/sw06.jsonl",
+      "bytes": 57131,
+      "sha256": "3e8361604c38dc6660e0f3c5fa6e941a3756fde04fe364645559dd5b490158a2"
+    },
+    {
+      "path": "artifacts/mot/confidence03/diffmot/sw28.jsonl",
+      "bytes": 18749,
+      "sha256": "21c4f37c644c67490f91717592112b3e0323fb33c0d6c5bc06b642c8d452149b"
+    },
+    {
+      "path": "artifacts/mot/confidence18/botsort/M2.jsonl",
+      "bytes": 152046,
+      "sha256": "222264765f10a70a464923a4d8f8d4df4790edee32685b719df1b9efd3d85d08"
+    },
+    {
+      "path": "artifacts/mot/confidence18/botsort/mot_metrics.json",
+      "bytes": 6149,
+      "sha256": "9337510c3860ef10bf4866210c8e0a0739a50039e7143ca398a6179d90728044"
+    },
+    {
+      "path": "artifacts/mot/confidence18/botsort/report.json",
+      "bytes": 12742,
+      "sha256": "20ba7753e8609a08a2a1eddec95da4c82674a1010efc660a3d9340b5b2f2dfb0"
+    },
+    {
+      "path": "artifacts/mot/confidence18/botsort/S2.jsonl",
+      "bytes": 76232,
+      "sha256": "f52c92ffc180902b82d74fa6f518376d303cc206531226ff80003d4436e23434"
+    },
+    {
+      "path": "artifacts/mot/confidence18/botsort/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/confidence18/botsort/sw02.jsonl",
+      "bytes": 19181,
+      "sha256": "ccd5cf9bf7433fa585db8350ee6f18b9efeff8e4ce6452185ab25abc2768378a"
+    },
+    {
+      "path": "artifacts/mot/confidence18/botsort/sw06.jsonl",
+      "bytes": 47993,
+      "sha256": "ffe1c80d8afbae3675795af7ad9aa80839e02594eb789000e3d65f95054d40c8"
+    },
+    {
+      "path": "artifacts/mot/confidence18/botsort/sw28.jsonl",
+      "bytes": 38284,
+      "sha256": "93de94469b3bfce03786df46c2321b55ad352d78c500e4e7beb9a539c0b4c2dc"
+    },
+    {
+      "path": "artifacts/mot/confidence18/diffmot/M2.jsonl",
+      "bytes": 91600,
+      "sha256": "0454e296002e33b5c6a57bc2549cdb9b6d9f73cc3724072372373cde9c9e831c"
+    },
+    {
+      "path": "artifacts/mot/confidence18/diffmot/mot_metrics.json",
+      "bytes": 6156,
+      "sha256": "0068e1182ec8b048b5bcc7703ca125dfe5233ed845bf299b77497ef5fc19c249"
+    },
+    {
+      "path": "artifacts/mot/confidence18/diffmot/report.json",
+      "bytes": 10928,
+      "sha256": "f563b81c13fc1c2f4a63c20fe35377eb3d35ee7f94f1ee000616d6ecc2a02f45"
+    },
+    {
+      "path": "artifacts/mot/confidence18/diffmot/S2.jsonl",
+      "bytes": 59900,
+      "sha256": "6ae4066fecfddb5c24d8fefeb7c65b5556e1843ca73b086015bbdb5e21c0e34a"
+    },
+    {
+      "path": "artifacts/mot/confidence18/diffmot/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/confidence18/diffmot/sw02.jsonl",
+      "bytes": 13398,
+      "sha256": "551b2826dc5da8159550769e7f1dffb1fb43cfd914679fa430140694a326552c"
+    },
+    {
+      "path": "artifacts/mot/confidence18/diffmot/sw06.jsonl",
+      "bytes": 47368,
+      "sha256": "2bc543f238f35a3fc12d34a9de0141fdb1fc14450dcf1950e9349599ee1a598a"
+    },
+    {
+      "path": "artifacts/mot/confidence18/diffmot/sw28.jsonl",
+      "bytes": 16105,
+      "sha256": "d9df40a4d09362d67b2cafa028cccb1f84a816083b9173140dac20553a74ebc2"
+    },
+    {
+      "path": "artifacts/mot/confidence18/ocsort/M2.jsonl",
+      "bytes": 90176,
+      "sha256": "dabd7a143d1c7bc818d75352ba343837c5d8e1b533de248c430b885cf84de49c"
+    },
+    {
+      "path": "artifacts/mot/confidence18/ocsort/mot_metrics.json",
+      "bytes": 6150,
+      "sha256": "542306f427a38878939438a6b02f9dfd0ae8d410fb8d5b530d80ad0c49b2c67b"
+    },
+    {
+      "path": "artifacts/mot/confidence18/ocsort/report.json",
+      "bytes": 10659,
+      "sha256": "11c8dd09aa72447805c2b3742976e7725b061d301ad0e9c1ccf358b3adf91123"
+    },
+    {
+      "path": "artifacts/mot/confidence18/ocsort/S2.jsonl",
+      "bytes": 57445,
+      "sha256": "5f265473a59a550de084b1b7ade6f5b8460426e29531c093ca3754a3f8d5f1dd"
+    },
+    {
+      "path": "artifacts/mot/confidence18/ocsort/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/confidence18/ocsort/sw02.jsonl",
+      "bytes": 10548,
+      "sha256": "402a34321f59025b0fac054839f13e91e04d401a1c4cf97dbc05025944790b60"
+    },
+    {
+      "path": "artifacts/mot/confidence18/ocsort/sw06.jsonl",
+      "bytes": 40548,
+      "sha256": "370eff4d3e36fb8e1ef59e4e7fb6ef0d8f7d7654c3ce1f29071b539aae319747"
+    },
+    {
+      "path": "artifacts/mot/confidence18/ocsort/sw28.jsonl",
+      "bytes": 14999,
+      "sha256": "4ae95caff7a584152649c096057bf72a388d90442499cce3068986d675a71411"
+    },
+    {
+      "path": "artifacts/mot/confidence18/putr/M2.jsonl",
+      "bytes": 92304,
+      "sha256": "7747c875aaad55f1748aeb5c0563a3059c3c0aaa56e4bc5d8b740678f940ee16"
+    },
+    {
+      "path": "artifacts/mot/confidence18/putr/mot_metrics.json",
+      "bytes": 6117,
+      "sha256": "970424b03569527499bd2a80e299ddea8341f7aae2473a900a92627ed160a9ee"
+    },
+    {
+      "path": "artifacts/mot/confidence18/putr/report.json",
+      "bytes": 10579,
+      "sha256": "caa47153041b965bd44c162c8d844a4776360666607df9c10f3da03f18aa3706"
+    },
+    {
+      "path": "artifacts/mot/confidence18/putr/S2.jsonl",
+      "bytes": 63711,
+      "sha256": "3c5c5b1341b9eeecbafa1f8af19df95f5dc2d813db01db33124b1c1240cb5c5e"
+    },
+    {
+      "path": "artifacts/mot/confidence18/putr/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/confidence18/putr/sw02.jsonl",
+      "bytes": 14157,
+      "sha256": "53666da68b36d882cebf54dde65129ceca5a8affa537bb78cc31d975628ff31b"
+    },
+    {
+      "path": "artifacts/mot/confidence18/putr/sw06.jsonl",
+      "bytes": 48843,
+      "sha256": "530f2b4ad8143c8d58a3c76dc0bcf6000b3c2447648e6c2760dfb820c53568d3"
+    },
+    {
+      "path": "artifacts/mot/confidence18/putr/sw28.jsonl",
+      "bytes": 10336,
+      "sha256": "4709d777246f22cc401ff1fd8bc314f2ba43953938c1333d820ca226cb37c7ec"
+    },
+    {
+      "path": "artifacts/mot/confidence18/trackssm/M2.jsonl",
+      "bytes": 69699,
+      "sha256": "d0505de9afe634ea43da2519a7e1847312b1cfbcf0ca4238dba9c0c51527ff75"
+    },
+    {
+      "path": "artifacts/mot/confidence18/trackssm/mot_metrics.json",
+      "bytes": 6159,
+      "sha256": "0582ace8f022564f14cb633002f1b8ef74aa00341c8918d91614fc266b1c9908"
+    },
+    {
+      "path": "artifacts/mot/confidence18/trackssm/report.json",
+      "bytes": 41641,
+      "sha256": "09b2b809daeb60daa6c2be49553bd33fb93718299560f8fbdf2de5da36d31cb9"
+    },
+    {
+      "path": "artifacts/mot/confidence18/trackssm/S2.jsonl",
+      "bytes": 55923,
+      "sha256": "4af5b07ec00919b5e5ada3227685db16445a327fa5d744594faa1d2c7156a832"
+    },
+    {
+      "path": "artifacts/mot/confidence18/trackssm/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/confidence18/trackssm/sw02.jsonl",
+      "bytes": 9009,
+      "sha256": "9066b2d40bed129779d70ae463c3a7ddda67d1a005cd6ae7fe73f86b926dac29"
+    },
+    {
+      "path": "artifacts/mot/confidence18/trackssm/sw06.jsonl",
+      "bytes": 43994,
+      "sha256": "f4b52c77b17d1227b3592dd40e3a7d5fcb77ebde7ff431bfdfe529e4b2258732"
+    },
+    {
+      "path": "artifacts/mot/confidence18/trackssm/sw28.jsonl",
+      "bytes": 14115,
+      "sha256": "d6430f584e88b7be6037222b91dbe54670106802448939af9655bc61dfe92591"
+    },
+    {
+      "path": "artifacts/mot/confidence18/tracktrack/M2.jsonl",
+      "bytes": 156674,
+      "sha256": "410d9266aa942ad30550e9b6f4cecdb72f0f1e112c64991f4de22c5325c213ba"
+    },
+    {
+      "path": "artifacts/mot/confidence18/tracktrack/mot_metrics.json",
+      "bytes": 6089,
+      "sha256": "3d6a8198c93aaa90577417d74ea888238448bc33cffe4647d7de28885268d530"
+    },
+    {
+      "path": "artifacts/mot/confidence18/tracktrack/report.json",
+      "bytes": 10638,
+      "sha256": "627ede42798df8787436c5abd61bb0424c655f072f1a180b387733f912d0a369"
+    },
+    {
+      "path": "artifacts/mot/confidence18/tracktrack/S2.jsonl",
+      "bytes": 78463,
+      "sha256": "c2b807ceb62dbecd28b7795d3b3fabbeeda24e5571357b8a1b27ca67cc0e6c0c"
+    },
+    {
+      "path": "artifacts/mot/confidence18/tracktrack/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/confidence18/tracktrack/sw02.jsonl",
+      "bytes": 25971,
+      "sha256": "054d736f5af8e63dfd048849e3f7d0b80d87a32155a52cb8cc2449449a78f082"
+    },
+    {
+      "path": "artifacts/mot/confidence18/tracktrack/sw06.jsonl",
+      "bytes": 45078,
+      "sha256": "657baa6758e084c55d7fe555138f98f47a97943488183512b02769cac9c61cd9"
+    },
+    {
+      "path": "artifacts/mot/confidence18/tracktrack/sw28.jsonl",
+      "bytes": 29531,
+      "sha256": "4dbfbc126e8fc9fc18486f57d4aabb0714ff223121ca3a336e2e0fb51a1e72db"
+    },
+    {
+      "path": "artifacts/mot/live/botsort/formation.jsonl",
+      "bytes": 72409,
+      "sha256": "eed7f836ecc7231606d35d5e99cad114e645f74028ec37f65d32a7bb31e78b4c"
+    },
+    {
+      "path": "artifacts/mot/live/botsort/M2.jsonl",
+      "bytes": 96441,
+      "sha256": "c453f23afb1484248a26d8fb1c1696a7e4e6d004ab82f36509231a60b0d75080"
+    },
+    {
+      "path": "artifacts/mot/live/botsort/report.json",
+      "bytes": 6716,
+      "sha256": "2359622229f72b554b1cfa85dc3708ae5cb98f8f39d72b91d36f7ff07654608b"
+    },
+    {
+      "path": "artifacts/mot/live/botsort/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/live/custom/formation.jsonl",
+      "bytes": 56232,
+      "sha256": "30e9c6e5a91b44495cff7bed86d5ba3cf51bf1fb9693e017ef426626389502f4"
+    },
+    {
+      "path": "artifacts/mot/live/custom/M2.jsonl",
+      "bytes": 69011,
+      "sha256": "e35d813ec02bc729cada96500f21f318c6f36802b42380519a66e4e5ba593ef1"
+    },
+    {
+      "path": "artifacts/mot/live/custom/report.json",
+      "bytes": 5544,
+      "sha256": "d0bc170f9fda515e610b80e47456227c83d0c9214612fdddb75c479423bce406"
+    },
+    {
+      "path": "artifacts/mot/live/custom/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/live/diffmot/formation.jsonl",
+      "bytes": 36974,
+      "sha256": "50afa38235f09a081fe7af401318cca527d7aa18845ba2cb8a77cf7535c3112e"
+    },
+    {
+      "path": "artifacts/mot/live/diffmot/M2.jsonl",
+      "bytes": 44297,
+      "sha256": "b97ad21d40fdade71feb370bc1b25e86a64a323e68d1240cea08d4f03162e880"
+    },
+    {
+      "path": "artifacts/mot/live/diffmot/report.json",
+      "bytes": 5544,
+      "sha256": "2226b98915b196e67497c8759f56917b3c02df2260d1cd387eba938c708028ee"
+    },
+    {
+      "path": "artifacts/mot/live/diffmot/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/live/ocsort/formation.jsonl",
+      "bytes": 34689,
+      "sha256": "74644d896d5e5dec388fb0012d1770af0cabf1d3a8aa8eab24f134c71beb6e0f"
+    },
+    {
+      "path": "artifacts/mot/live/ocsort/M2.jsonl",
+      "bytes": 46436,
+      "sha256": "c4d49ecfdebb6b1826d9ef774f9eef5d94035c5540aeb3f5c0b2092d10b5fbdd"
+    },
+    {
+      "path": "artifacts/mot/live/ocsort/report.json",
+      "bytes": 5540,
+      "sha256": "a33b620b6b913948ba8bc3c16d145ea38e7f778dfacfd5614917a4bea01d3adc"
+    },
+    {
+      "path": "artifacts/mot/live/ocsort/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/live/putr/formation.jsonl",
+      "bytes": 27192,
+      "sha256": "2c38350e4fc83625cfeef85eeb73d6e7a97b8c166ca8263e9e3903615b53161f"
+    },
+    {
+      "path": "artifacts/mot/live/putr/M2.jsonl",
+      "bytes": 37320,
+      "sha256": "7b6047e886cf55ed24361e6556f5bcbc6034bd610e08f41270e336b59d7fc0cd"
+    },
+    {
+      "path": "artifacts/mot/live/putr/report.json",
+      "bytes": 5508,
+      "sha256": "1a6890d1df58a8d0841ad3f769ce15445b10eb7d9407aaadcc8cfc9bc58c1de5"
+    },
+    {
+      "path": "artifacts/mot/live/putr/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/live/trackssm/formation.jsonl",
+      "bytes": 36754,
+      "sha256": "a58156ed94a454ad2f814115ac11c58f0eb7c71b3bdbe7afc89e565383feea21"
+    },
+    {
+      "path": "artifacts/mot/live/trackssm/M2.jsonl",
+      "bytes": 27705,
+      "sha256": "9f42fd8ebb80dd0db06506ac0b920a7b3c45884eefdd5599e3163b1159d5b9b1"
+    },
+    {
+      "path": "artifacts/mot/live/trackssm/report.json",
+      "bytes": 28376,
+      "sha256": "5ac2cba7e6b091575a3ea7f5a1352a116a2416456b749a2a1d481aeae537bbf5"
+    },
+    {
+      "path": "artifacts/mot/live/trackssm/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/live/tracktrack/formation.jsonl",
+      "bytes": 46213,
+      "sha256": "7bba124c7f78dc6b343f379db55f175648ce56c10e0335f653203806ce609c53"
+    },
+    {
+      "path": "artifacts/mot/live/tracktrack/M2.jsonl",
+      "bytes": 87015,
+      "sha256": "8fab9ad58e2bf4f183ffdb1f3114337b40b618c0d7b3b7fd8ce43f2a0bd60740"
+    },
+    {
+      "path": "artifacts/mot/live/tracktrack/report.json",
+      "bytes": 5572,
+      "sha256": "39776121d7db5e40863dcc2e06c366f03c12ad725c2599a18a76a37bbea885d9"
+    },
+    {
+      "path": "artifacts/mot/live/tracktrack/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/motion_only/diffmot/mot_metrics.json",
+      "bytes": 6298,
+      "sha256": "3e32feeda6e38356a786c0add614b3052bbf817aa4a2a101de0d4508f86d0303"
+    },
+    {
+      "path": "artifacts/mot/motion_only/diffmot/report.json",
+      "bytes": 2735,
+      "sha256": "418faacc9e9705d69d4a55b45425ffa0089a19c94025cf195cadd7f1305a3e0e"
+    },
+    {
+      "path": "artifacts/mot/motion_only/diffmot/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/motion_only/diffmot/sw02.jsonl",
+      "bytes": 22829,
+      "sha256": "0d64a503e3b9ba4b9643e52d85815f95d8d3edd948cd71a34f244476ff083b31"
+    },
+    {
+      "path": "artifacts/mot/motion_only/diffmot/sw06.jsonl",
+      "bytes": 55895,
+      "sha256": "0b50b327e48baeca2b55669ecd6862a94799e764c44a7758c842ffb7f21fad99"
+    },
+    {
+      "path": "artifacts/mot/motion_only/diffmot/sw28.jsonl",
+      "bytes": 18427,
+      "sha256": "5899239163c68ef782065f75683ab536505248a5c8b633b5e9bc3638d4691f06"
+    },
+    {
+      "path": "artifacts/mot/motion_only/trackssm/mot_metrics.json",
+      "bytes": 6292,
+      "sha256": "c9382125e5f41fdb4f9664bb1fd4eb5bae69cbabfad85ccbdbfc1d8982fa1c8d"
+    },
+    {
+      "path": "artifacts/mot/motion_only/trackssm/report.json",
+      "bytes": 2735,
+      "sha256": "9a7d24f6aa77a89b048213693590113e07d044d3f4f896bf992f6e872d53e60e"
+    },
+    {
+      "path": "artifacts/mot/motion_only/trackssm/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/motion_only/trackssm/sw02.jsonl",
+      "bytes": 15424,
+      "sha256": "5be333625638423d5af998f76057cd50e22942faf12763ded7cf28a61b26faac"
+    },
+    {
+      "path": "artifacts/mot/motion_only/trackssm/sw06.jsonl",
+      "bytes": 55922,
+      "sha256": "a95f56675caa599bcefd61dc21725be919fef1486e4dbbb33468b67c3b39de19"
+    },
+    {
+      "path": "artifacts/mot/motion_only/trackssm/sw28.jsonl",
+      "bytes": 16741,
+      "sha256": "bb73b7a98750c476c109da8b771c82d1a46216ac9420eb091c9facfbe19ec410"
+    },
+    {
+      "path": "artifacts/mot/render_live/botsort/formation.jsonl",
+      "bytes": 72409,
+      "sha256": "eed7f836ecc7231606d35d5e99cad114e645f74028ec37f65d32a7bb31e78b4c"
+    },
+    {
+      "path": "artifacts/mot/render_live/botsort/formation.mp4",
+      "bytes": 14607670,
+      "sha256": "ec274713d54e120fecba805309ee90dbcc2d8bde4e3ff30cef4b11d734e6d50b"
+    },
+    {
+      "path": "artifacts/mot/render_live/botsort/M2.jsonl",
+      "bytes": 96441,
+      "sha256": "c453f23afb1484248a26d8fb1c1696a7e4e6d004ab82f36509231a60b0d75080"
+    },
+    {
+      "path": "artifacts/mot/render_live/botsort/M2.mp4",
+      "bytes": 695772,
+      "sha256": "8898628e24de8a36bc777508b3046b113bedc0c86af510134a9f9abb648ba34c"
+    },
+    {
+      "path": "artifacts/mot/render_live/botsort/report.json",
+      "bytes": 6904,
+      "sha256": "a6a1fee6f7836ffb87b9b214b9ce916dd47cb3418c1b980645a269b82c369e1d"
+    },
+    {
+      "path": "artifacts/mot/render_live/botsort/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/render_live/diffmot/formation.jsonl",
+      "bytes": 36974,
+      "sha256": "50afa38235f09a081fe7af401318cca527d7aa18845ba2cb8a77cf7535c3112e"
+    },
+    {
+      "path": "artifacts/mot/render_live/diffmot/formation.mp4",
+      "bytes": 14432463,
+      "sha256": "e4323ffabbfbb56feeb76a3893fccfca3289571e136d30798fcd07f25cc943e9"
+    },
+    {
+      "path": "artifacts/mot/render_live/diffmot/M2.jsonl",
+      "bytes": 44297,
+      "sha256": "b97ad21d40fdade71feb370bc1b25e86a64a323e68d1240cea08d4f03162e880"
+    },
+    {
+      "path": "artifacts/mot/render_live/diffmot/M2.mp4",
+      "bytes": 550315,
+      "sha256": "c5aa1b0a39fe5504980d200d41331951ba96996f64fab005cb475d24d03aad81"
+    },
+    {
+      "path": "artifacts/mot/render_live/diffmot/report.json",
+      "bytes": 5740,
+      "sha256": "8c31cf4e5d982ac2479ebd951be660be69346c962a69abd92252b40466c03732"
+    },
+    {
+      "path": "artifacts/mot/render_live/diffmot/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/render_live/ocsort/formation.jsonl",
+      "bytes": 34689,
+      "sha256": "74644d896d5e5dec388fb0012d1770af0cabf1d3a8aa8eab24f134c71beb6e0f"
+    },
+    {
+      "path": "artifacts/mot/render_live/ocsort/formation.mp4",
+      "bytes": 14373340,
+      "sha256": "edb93421868f5500a880dcbed083b75cf86e62a64aec05a5297b2ca76f749aa6"
+    },
+    {
+      "path": "artifacts/mot/render_live/ocsort/M2.jsonl",
+      "bytes": 46436,
+      "sha256": "c4d49ecfdebb6b1826d9ef774f9eef5d94035c5540aeb3f5c0b2092d10b5fbdd"
+    },
+    {
+      "path": "artifacts/mot/render_live/ocsort/M2.mp4",
+      "bytes": 554641,
+      "sha256": "4f50d61064583099072a00bfe9cba5cf2dbef598b3e1873b4cce8ba328a1f51d"
+    },
+    {
+      "path": "artifacts/mot/render_live/ocsort/report.json",
+      "bytes": 5736,
+      "sha256": "595694080f77973d3421ca481c0a1b880ea840e3f581e27eae91f701b4858d7f"
+    },
+    {
+      "path": "artifacts/mot/render_live/ocsort/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/render_live/putr/formation.jsonl",
+      "bytes": 27192,
+      "sha256": "2c38350e4fc83625cfeef85eeb73d6e7a97b8c166ca8263e9e3903615b53161f"
+    },
+    {
+      "path": "artifacts/mot/render_live/putr/formation.mp4",
+      "bytes": 14317370,
+      "sha256": "6837cc0aa17cd741bc35bed6b9b7244050a477164a805569d14a7e61ec2ac9a9"
+    },
+    {
+      "path": "artifacts/mot/render_live/putr/M2.jsonl",
+      "bytes": 37320,
+      "sha256": "7b6047e886cf55ed24361e6556f5bcbc6034bd610e08f41270e336b59d7fc0cd"
+    },
+    {
+      "path": "artifacts/mot/render_live/putr/M2.mp4",
+      "bytes": 534684,
+      "sha256": "d25f17abbf340cee517a0e126dbfebddc8cb659a1eb298cf873c77b573c2ac87"
+    },
+    {
+      "path": "artifacts/mot/render_live/putr/report.json",
+      "bytes": 5732,
+      "sha256": "3f645926c80b57f6473c5881f76d2addac99e4370d05f8146b7bc125312fa626"
+    },
+    {
+      "path": "artifacts/mot/render_live/putr/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/render_live/trackssm/formation.jsonl",
+      "bytes": 36754,
+      "sha256": "a58156ed94a454ad2f814115ac11c58f0eb7c71b3bdbe7afc89e565383feea21"
+    },
+    {
+      "path": "artifacts/mot/render_live/trackssm/formation.mp4",
+      "bytes": 14449003,
+      "sha256": "cb76a45c403bd1399de8e0d8d9e536e9a8537559f51f1a116e58070912ca6d4a"
+    },
+    {
+      "path": "artifacts/mot/render_live/trackssm/M2.jsonl",
+      "bytes": 27705,
+      "sha256": "9f42fd8ebb80dd0db06506ac0b920a7b3c45884eefdd5599e3163b1159d5b9b1"
+    },
+    {
+      "path": "artifacts/mot/render_live/trackssm/M2.mp4",
+      "bytes": 600550,
+      "sha256": "f40af0eda28f957c37f88d85d7d2b0950542fedec47c0b05c87db039c4419434"
+    },
+    {
+      "path": "artifacts/mot/render_live/trackssm/report.json",
+      "bytes": 28598,
+      "sha256": "bd1801e6ad3d99bf6c5718ad98fafb23be27c0559b6018df361ae64ff608bd0b"
+    },
+    {
+      "path": "artifacts/mot/render_live/trackssm/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/render_live/tracktrack/formation.jsonl",
+      "bytes": 46213,
+      "sha256": "7bba124c7f78dc6b343f379db55f175648ce56c10e0335f653203806ce609c53"
+    },
+    {
+      "path": "artifacts/mot/render_live/tracktrack/formation.mp4",
+      "bytes": 14374122,
+      "sha256": "8c6d63ffc270ae48b5b850015384260c006843668a15b91e70878b37d49f18a3"
+    },
+    {
+      "path": "artifacts/mot/render_live/tracktrack/M2.jsonl",
+      "bytes": 87015,
+      "sha256": "8fab9ad58e2bf4f183ffdb1f3114337b40b618c0d7b3b7fd8ce43f2a0bd60740"
+    },
+    {
+      "path": "artifacts/mot/render_live/tracktrack/M2.mp4",
+      "bytes": 555700,
+      "sha256": "9ac4fd0b5cfa1f82bd4fd898cb7ee99b95a65dc8ac69724d9067b9d7267bda13"
+    },
+    {
+      "path": "artifacts/mot/render_live/tracktrack/report.json",
+      "bytes": 5768,
+      "sha256": "51c84f81adf133c268d579cc9e40230b63301dc4154d9370737d0365ee6e9246"
+    },
+    {
+      "path": "artifacts/mot/render_live/tracktrack/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/swarm/botsort/mot_metrics.json",
+      "bytes": 6141,
+      "sha256": "4ce97ca451194f33100481fe5a6daa82d3aa60c514068fa35867ccad37325019"
+    },
+    {
+      "path": "artifacts/mot/swarm/botsort/report.json",
+      "bytes": 2437,
+      "sha256": "cd906c3e8f6cb05cbace4092dcb67b8327872ec19fa04afef6fb3242d0249258"
+    },
+    {
+      "path": "artifacts/mot/swarm/botsort/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/swarm/botsort/sw02.jsonl",
+      "bytes": 40682,
+      "sha256": "31109552653e757d9510992156fb7adf79346656d91b51ca293b974f161ce10c"
+    },
+    {
+      "path": "artifacts/mot/swarm/botsort/sw06.jsonl",
+      "bytes": 56756,
+      "sha256": "976a4285c6e8527908fb0825a769024168231ba898f152446014a4b1115d836c"
+    },
+    {
+      "path": "artifacts/mot/swarm/botsort/sw28.jsonl",
+      "bytes": 44696,
+      "sha256": "4e14efc64dff4a02363d62499de6e0521e43c8efa961c30d6c200ad691e832c1"
+    },
+    {
+      "path": "artifacts/mot/swarm/custom/mot_metrics.json",
+      "bytes": 6227,
+      "sha256": "876c3224ea26dcfe6e87e833ac90f8c89b80c1c3601147c422f23375f7b2f787"
+    },
+    {
+      "path": "artifacts/mot/swarm/custom/report.json",
+      "bytes": 2438,
+      "sha256": "a54e79dcbb3db1f2fc323fac67b79ca1849686c7e88d3dc4994675fe7bfc6e5d"
+    },
+    {
+      "path": "artifacts/mot/swarm/custom/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/swarm/custom/sw02.jsonl",
+      "bytes": 23909,
+      "sha256": "29c04139871a70f231f6077e31beecdee150faed6bfab8b24cb276ea8ee5645c"
+    },
+    {
+      "path": "artifacts/mot/swarm/custom/sw06.jsonl",
+      "bytes": 55394,
+      "sha256": "7343bd19fdde2c5100403d7b10629a122de78c7045b8888ae3f5aef7e48a755e"
+    },
+    {
+      "path": "artifacts/mot/swarm/custom/sw28.jsonl",
+      "bytes": 25172,
+      "sha256": "75f50baf1477c034048b127fb71188920806e614ed0daba8e0f786751606cfca"
+    },
+    {
+      "path": "artifacts/mot/swarm/diffmot/mot_metrics.json",
+      "bytes": 6295,
+      "sha256": "926c86765a06b73097c54b357c6d37bfa3bbd07444711d0413f1a7dfb9ed9fbc"
+    },
+    {
+      "path": "artifacts/mot/swarm/diffmot/report.json",
+      "bytes": 2437,
+      "sha256": "a1a8ed8f788387793a288bdff9b40400c678f83e065c54d2e08ef31194760278"
+    },
+    {
+      "path": "artifacts/mot/swarm/diffmot/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/swarm/diffmot/sw02.jsonl",
+      "bytes": 22829,
+      "sha256": "0d64a503e3b9ba4b9643e52d85815f95d8d3edd948cd71a34f244476ff083b31"
+    },
+    {
+      "path": "artifacts/mot/swarm/diffmot/sw06.jsonl",
+      "bytes": 55895,
+      "sha256": "0b50b327e48baeca2b55669ecd6862a94799e764c44a7758c842ffb7f21fad99"
+    },
+    {
+      "path": "artifacts/mot/swarm/diffmot/sw28.jsonl",
+      "bytes": 18271,
+      "sha256": "e1e869346f1d1796e4d81806da72b020297f491d8b91b832d1e4b180b6b3d5aa"
+    },
+    {
+      "path": "artifacts/mot/swarm/ocsort/mot_metrics.json",
+      "bytes": 6247,
+      "sha256": "7d6d6a27dfb52ec2030d4f7ac2442b64b796eaade43410ce94e8cfe90e6df79a"
+    },
+    {
+      "path": "artifacts/mot/swarm/ocsort/report.json",
+      "bytes": 2439,
+      "sha256": "cf0314948f422fd6f7751ccc71f6ac326be86ab8e60065400a8c14abb019c9d8"
+    },
+    {
+      "path": "artifacts/mot/swarm/ocsort/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/swarm/ocsort/sw02.jsonl",
+      "bytes": 19752,
+      "sha256": "edeb9491870e4730a84fbca233dc9a8bc98182d695b0f424c25d0567b32b4559"
+    },
+    {
+      "path": "artifacts/mot/swarm/ocsort/sw06.jsonl",
+      "bytes": 52697,
+      "sha256": "d5aa35944881326367197caa2c0cca731f91790490793ab2a0c55b8be93ad0e2"
+    },
+    {
+      "path": "artifacts/mot/swarm/ocsort/sw28.jsonl",
+      "bytes": 16596,
+      "sha256": "fb0b19d1c885a31b9330ae66980b9d61de4f11c170a82e3080f23d13cc0a950e"
+    },
+    {
+      "path": "artifacts/mot/swarm/putr/mot_metrics.json",
+      "bytes": 6287,
+      "sha256": "0dc95614af19ac500f8c7e5a92bc204d883b3524d8a6f24c27a5ec5b6db6cdfd"
+    },
+    {
+      "path": "artifacts/mot/swarm/putr/report.json",
+      "bytes": 2426,
+      "sha256": "865bbe2f42cc0c57e5427e9fd868f22b674d9f9dbd933d5161effef65ad10a0d"
+    },
+    {
+      "path": "artifacts/mot/swarm/putr/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/swarm/putr/sw02.jsonl",
+      "bytes": 19950,
+      "sha256": "256886dbe38a2ddc9e7b8e85fc181c7c4f31667c23a5b38b1a152c535b89f6dc"
+    },
+    {
+      "path": "artifacts/mot/swarm/putr/sw06.jsonl",
+      "bytes": 52782,
+      "sha256": "cf0bef1894d33a67f4bad2e4c9c1b6cc8b9fee0408a638182ec2249f0ae89349"
+    },
+    {
+      "path": "artifacts/mot/swarm/putr/sw28.jsonl",
+      "bytes": 10948,
+      "sha256": "c9ad0efc6ede419700ef30bc3ee2a531038155bebdec1ecd72a74367ebeadc29"
+    },
+    {
+      "path": "artifacts/mot/swarm/trackssm/mot_metrics.json",
+      "bytes": 6303,
+      "sha256": "c48fb3ea7663e07737c1083b40a5d6eb717e412e793aecc7db4f4ff3ec825d64"
+    },
+    {
+      "path": "artifacts/mot/swarm/trackssm/report.json",
+      "bytes": 2432,
+      "sha256": "3904b5b07d4add5e74e66a61587fd3dfca3a48c400c08021803e3fb13e991d80"
+    },
+    {
+      "path": "artifacts/mot/swarm/trackssm/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/swarm/trackssm/sw02.jsonl",
+      "bytes": 15424,
+      "sha256": "9607dbf64f0765ab8152a1ee1a66fbda9a426b8415a87cd5f66f414cca0e01be"
+    },
+    {
+      "path": "artifacts/mot/swarm/trackssm/sw06.jsonl",
+      "bytes": 55922,
+      "sha256": "a95f56675caa599bcefd61dc21725be919fef1486e4dbbb33468b67c3b39de19"
+    },
+    {
+      "path": "artifacts/mot/swarm/trackssm/sw28.jsonl",
+      "bytes": 16652,
+      "sha256": "837c7fdf84d84aafb1eaf882633d39a31d0dd72f4ae9cb47f9bc8ff0edc6a542"
+    },
+    {
+      "path": "artifacts/mot/swarm/tracktrack/mot_metrics.json",
+      "bytes": 6149,
+      "sha256": "f47a773903dda757546ade4f10b6233c7700536e32afa8fb5eca5304f89ba5cd"
+    },
+    {
+      "path": "artifacts/mot/swarm/tracktrack/report.json",
+      "bytes": 2442,
+      "sha256": "ef3c3c99b1e9b43cec6437579e66e72d1453079d3712f8eb4d284eb2e03928e6"
+    },
+    {
+      "path": "artifacts/mot/swarm/tracktrack/status.json",
+      "bytes": 21,
+      "sha256": "0fa7b86af0e54b8524c0ca92e49358415f6af42716a3a9bfe268e2bbbb0e3426"
+    },
+    {
+      "path": "artifacts/mot/swarm/tracktrack/sw02.jsonl",
+      "bytes": 37882,
+      "sha256": "71d46c895df8a73310061208923c384da3ef49d008185a63377b12415da52a50"
+    },
+    {
+      "path": "artifacts/mot/swarm/tracktrack/sw06.jsonl",
+      "bytes": 54953,
+      "sha256": "18394923f44e4d796803ac56dbd1e69ed104191f8a590646d23b0a959a45e600"
+    },
+    {
+      "path": "artifacts/mot/swarm/tracktrack/sw28.jsonl",
+      "bytes": 33222,
+      "sha256": "9637c97129002f548cd53216f505faab15125525d32f6880813e230038e04b2a"
+    },
+    {
+      "path": "artifacts/mot/swarm_detections/manifest.json",
+      "bytes": 275,
+      "sha256": "b21f2d84a8d1c070d4c6c7dd979d805cce912fe8bc30c534dae7454dc630c2bf"
+    },
+    {
+      "path": "artifacts/mot/swarm_detections/sw02.jsonl",
+      "bytes": 31381,
+      "sha256": "f55214c135e6bdd0831cde834445cdbfeac21a43bad193393cde4aa02eafd9e6"
+    },
+    {
+      "path": "artifacts/mot/swarm_detections/sw06.jsonl",
+      "bytes": 65213,
+      "sha256": "8357bcc32ba52e34be7ac17c6d5604334e05246bd6c8d6bb716f18b7325c065f"
+    },
+    {
+      "path": "artifacts/mot/swarm_detections/sw28.jsonl",
+      "bytes": 32568,
+      "sha256": "4f638a0587f47e68cf2748de40210ad425b5bc5b1c5e94a2093499edb0cf11ed"
+    },
+    {
+      "path": "data/mot_swarm/manifest.json",
+      "bytes": 92654,
+      "sha256": "04c479147ca03f2a4d2ec62f88eb8e82fccf3529a8254af695c7641903e08e1e"
+    },
+    {
+      "path": "demo/mot_comparison/formation.jpg",
+      "bytes": 149248,
+      "sha256": "698cea9904c6f7791cf88dab1cef5d03c39360e3e444ac4c62de4e2ac3763c81"
+    },
+    {
+      "path": "demo/mot_comparison/formation.mp4",
+      "bytes": 16852834,
+      "sha256": "0208e67f655b986d4551adb6daf637a27b077389edf860d64a70472abfc21d4f"
+    },
+    {
+      "path": "demo/mot_comparison/index.html",
+      "bytes": 1177,
+      "sha256": "82d85ead3acdd04630fcc08231b5d19fc26f47bf44829e726e70da5f73a50b94"
+    },
+    {
+      "path": "demo/mot_comparison/M2.jpg",
+      "bytes": 78484,
+      "sha256": "fda915a2258889b97e2d030aab72e63c8d06eb10c7918766530a33e2404a2a3a"
+    },
+    {
+      "path": "demo/mot_comparison/M2.mp4",
+      "bytes": 8049522,
+      "sha256": "f5f6ab6b55ff34d177758baf5b76b11f3d5db5c79cda0785616f3eb296952c0f"
+    },
+    {
+      "path": "demo/mot_comparison/sw02.jpg",
+      "bytes": 182474,
+      "sha256": "c7d6a6849b5dbb7ccf9f24b08c5aba4cada4d00ef5c89c4c720b4322d7a98857"
+    },
+    {
+      "path": "demo/mot_comparison/sw02.mp4",
+      "bytes": 3866902,
+      "sha256": "420b4645d10edbc1dbf1f2955b152ca67311fb673f346223ffe57921851c2776"
+    },
+    {
+      "path": "demo/mot_comparison/sw06.jpg",
+      "bytes": 97160,
+      "sha256": "59219f83667d0ff0845ed7c69f1069237d283d28b8ff4453da00e96b8809206a"
+    },
+    {
+      "path": "demo/mot_comparison/sw06.mp4",
+      "bytes": 1403306,
+      "sha256": "3bcd68dac4b12d55cbc5b3f0f16c51463037fe0f53bb8e8c3ee653b9b7fcca74"
+    },
+    {
+      "path": "demo/mot_comparison/sw28.jpg",
+      "bytes": 155622,
+      "sha256": "4eb29109074f0d9c4bf7d0da3a1fe0b514cd49c4a640fc80a82b7d766c4d3584"
+    },
+    {
+      "path": "demo/mot_comparison/sw28.mp4",
+      "bytes": 4095596,
+      "sha256": "04b7cd2a13d8ef16f84a5fad79c6fe215729e42757b45925e0f4e6453eb0a9b9"
+    },
+    {
+      "path": "MOT_RESEARCH.md",
+      "bytes": 11974,
+      "sha256": "7ce000cc744f1605f5d3a7090fe907ff81be39d3787b06173a0769d4ac0d95a5"
+    },
+    {
+      "path": "MOT_RESULTS.md",
+      "bytes": 11273,
+      "sha256": "4d95ea7c324456e1a7bfe82f5b1d2114a91114c4dfc5130674d950384dd4e8ab"
+    },
+    {
+      "path": "reports/mot_async_repeats.json",
+      "bytes": 35465,
+      "sha256": "3a8703d4cb4364b5eaae46e4b42bdc0c6cb19afc2eb1d1aefca98952e544da3a"
+    },
+    {
+      "path": "reports/mot_campaign_status.json",
+      "bytes": 1661,
+      "sha256": "b13fcc530f08212c397dc80267297b5058514923c8b4fab2c6f7e010a7efeba2"
+    },
+    {
+      "path": "reports/mot_comparison.csv",
+      "bytes": 2480,
+      "sha256": "b415687d30a51b59ab23c5fa504e9eab31524a00e6bd9d3b924cea141522f388"
+    },
+    {
+      "path": "reports/mot_comparison.json",
+      "bytes": 6654,
+      "sha256": "9621773d0dbfffc032767cf8cc496c29b9acf49c62f456c7b2b280f299c609e7"
+    },
+    {
+      "path": "reports/mot_comparison.png",
+      "bytes": 92609,
+      "sha256": "cfee5ebb26ae9ef919ab556348ec3c2407ce810b835c5a0d6d178d4d0e71d095"
+    },
+    {
+      "path": "reports/mot_confidence_diff_control.json",
+      "bytes": 110,
+      "sha256": "d6785f3334575ff9c6dd66512eb97eb648c905acc111b4917077619357148cc7"
+    },
+    {
+      "path": "reports/mot_confidence_sensitivity.json",
+      "bytes": 3712,
+      "sha256": "0ebe5b24565afc3695b97611495488c515aec7609f590ce63882f070c98eec01"
+    },
+    {
+      "path": "reports/mot_confidence_status.json",
+      "bytes": 894,
+      "sha256": "6ea31fb395ce7a627dba132e92e08615988abdc1ef70853b621a0914a0a2c7aa"
+    },
+    {
+      "path": "reports/mot_delivery_status.json",
+      "bytes": 104,
+      "sha256": "b8c5b0e49ebd21c610d758cb80fd6a7b10aeef337f104245d0980da110bde5d8"
+    },
+    {
+      "path": "reports/mot_detector_coverage.json",
+      "bytes": 987,
+      "sha256": "20289379ca527ce4bc7685c73a567b210165a80b8978190c32baffc6866c42da"
+    },
+    {
+      "path": "reports/mot_environment.json",
+      "bytes": 599,
+      "sha256": "189278380a07ebea42e3c931510852cb3a6f5a30c1e596ae5d7efb3c3cd1f9da"
+    },
+    {
+      "path": "reports/mot_export_qa.json",
+      "bytes": 15014,
+      "sha256": "c0c6a3767140caa71a0cb0587bd811c3179141cc4001d635b5ff4213b7a80f30"
+    },
+    {
+      "path": "reports/mot_finalize_status.json",
+      "bytes": 1506,
+      "sha256": "9848d840e3a865fee2a7a28d4eed8c7ba8055cf1bccb90bf23f96fbdc5a594b9"
+    },
+    {
+      "path": "reports/mot_followup_status.json",
+      "bytes": 2582,
+      "sha256": "8d26a7ff9051dea00ec08a35d6f799f0cc84d0ff14f25c2c957bcb1078033bd5"
+    },
+    {
+      "path": "reports/mot_last_checks.json",
+      "bytes": 980,
+      "sha256": "7cad23e7979a352d54e47f0e8b462d91edc36c0a57bece0cd6f0b180e8335bda"
+    },
+    {
+      "path": "reports/mot_motion/diffmot.json",
+      "bytes": 1402,
+      "sha256": "8556e4398f0c1ca1fe1f779fe272aa5d0ae48dfafb3839b7cc7b95d52a9a1808"
+    },
+    {
+      "path": "reports/mot_motion/hold.json",
+      "bytes": 1408,
+      "sha256": "61e8d61f1ff0dd94af5224d05840f3dc47951fd06e3162f5bc60a611c47271d9"
+    },
+    {
+      "path": "reports/mot_motion/linear.json",
+      "bytes": 1407,
+      "sha256": "1a52ec90f3bbc87437d99107304757bae3035d9a71124010072d795257260874"
+    },
+    {
+      "path": "reports/mot_motion/trackssm.json",
+      "bytes": 1404,
+      "sha256": "f4722574f6945336cc85d10be3276cb1f9bfcd0563f79a49bc9070bfaf4c76d9"
+    },
+    {
+      "path": "reports/mot_provenance.json",
+      "bytes": 4859,
+      "sha256": "c90a61351948c2cf517357c21434cd2519dae4734bdb0ab0d91f4eb0803d28e0"
+    },
+    {
+      "path": "reports/mot_summary_console.txt",
+      "bytes": 3696,
+      "sha256": "f483472261ace64d18c3ffd664c1c5e59125f7f9d3b308c5b584896eeabbe340"
+    },
+    {
+      "path": "reports/mot_swarm_preview.jpg",
+      "bytes": 151946,
+      "sha256": "17bb788e8855636d727a33a0ee6466c01d6000400083fbcfd2a63e33e49adbe8"
+    },
+    {
+      "path": "reports/mot_tests.log",
+      "bytes": 10615,
+      "sha256": "c8a7cb90325fd46dede1457f0d43a3987011cbc6e4f87de6055b88bed2e3b505"
+    },
+    {
+      "path": "reports/mot_video_qa.json",
+      "bytes": 1287,
+      "sha256": "750243fcbabd65ab68971a89607677fa2cacf8520462cbb854aa2a55c413819f"
+    },
+    {
+      "path": "scripts/index_mot_artifacts.py",
+      "bytes": 2142,
+      "sha256": "80796d18b675c397b9e4c98419bcdfcc299cded2765fd173b1173d6c09dda3ac"
+    },
+    {
+      "path": "scripts/mot_benchmark.py",
+      "bytes": 11474,
+      "sha256": "e2ddff6588e9429217db502c0dd0b977a6359489c792e18db8bd3e8be99f3edd"
+    },
+    {
+      "path": "scripts/mot_campaign.py",
+      "bytes": 983,
+      "sha256": "64a163a364159fb20175d6f3b2aeb9c38bc901214b9ac10e8bcf86b54d282c93"
+    },
+    {
+      "path": "scripts/mot_confidence_diff_control.py",
+      "bytes": 1058,
+      "sha256": "df342e1643eb93dbc13b7e074ccc5a36a4e19ab1292cc9afbd785b0e4e109c4c"
+    },
+    {
+      "path": "scripts/mot_confidence_sensitivity.py",
+      "bytes": 1582,
+      "sha256": "0720f7f0c5dc0aea8daa95de281ce1758cfa5183ce6304e625ed3b7398b40649"
+    },
+    {
+      "path": "scripts/mot_detector_coverage.py",
+      "bytes": 1518,
+      "sha256": "8fa9760ec0e91555918b177260ea30be125567cb007c34ab0c124acc99c902d8"
+    },
+    {
+      "path": "scripts/mot_export_qa.py",
+      "bytes": 2868,
+      "sha256": "09c2ecc65e4c59a66a1a00a68720050b9daf05e31e4c95dab784defee4c3ec88"
+    },
+    {
+      "path": "scripts/mot_finalize.py",
+      "bytes": 1651,
+      "sha256": "d7e677a362f9127ba0974a7d6f1ac98e2210010074b3f46a1ee7921220d3808e"
+    },
+    {
+      "path": "scripts/mot_finish_delivery.py",
+      "bytes": 992,
+      "sha256": "b02d471aa453aa405633b046277058da0100fac714ad5df03e348dc967e2ad17"
+    },
+    {
+      "path": "scripts/mot_followup.py",
+      "bytes": 1641,
+      "sha256": "ea19822f22a28c0f1741d46c6252e39509911f7530a13ad53be99d7f108185c5"
+    },
+    {
+      "path": "scripts/mot_last_checks.py",
+      "bytes": 2468,
+      "sha256": "a5fe8ee7d0ae577f644889cd6536c7bb41c107e88828992346fdbbb038521f46"
+    },
+    {
+      "path": "scripts/mot_metrics.py",
+      "bytes": 2884,
+      "sha256": "8f0497d6cdc5f192c6b04eda3dc06820bc4a9d5071f701c52e16b3480f7cc183"
+    },
+    {
+      "path": "scripts/mot_models.py",
+      "bytes": 13531,
+      "sha256": "50a76af9e435a7d9aaeba32531726bdeaaab8cf2521bb9171c5ed850f5cf244f"
+    },
+    {
+      "path": "scripts/mot_motion_probe.py",
+      "bytes": 3607,
+      "sha256": "ea0fb98648978d6884fc75d4368347260562e2d40a4427c5914e69f0e57c02ae"
+    },
+    {
+      "path": "scripts/mot_render_comparison.py",
+      "bytes": 5323,
+      "sha256": "a30005db9fd751c049c3bdd52752ad08f173a10bef92519ed045d5ea15d70fa5"
+    },
+    {
+      "path": "scripts/mot_repeat.py",
+      "bytes": 1744,
+      "sha256": "35159492131bec6c0674663abb3c73c03e740ce6105fe5422d2818532385c087"
+    },
+    {
+      "path": "scripts/mot_summary.py",
+      "bytes": 4785,
+      "sha256": "67e7aa0b7e5ff2650fd12f806bd5b5192bd21540a6f464f88f2d880f960f0d2a"
+    },
+    {
+      "path": "scripts/mot_swarm_detections.py",
+      "bytes": 1219,
+      "sha256": "9fd9b237904f0f2a2744939a3b83a25965c2a85c3abb39d2d15614fdcc8edfc2"
+    },
+    {
+      "path": "scripts/prepare_mot_swarm.py",
+      "bytes": 2022,
+      "sha256": "7b6486f9fe2705a35ba74910fca54ba90ae8491499e08f12e10ef20a43cae190"
+    },
+    {
+      "path": "scripts/write_mot_results.py",
+      "bytes": 13471,
+      "sha256": "184d0b0f19a6c26c7e82108be2ead91a8609ad312971e49b467005276d19ab68"
+    },
+    {
+      "path": "tests/test_mot_metrics.py",
+      "bytes": 1856,
+      "sha256": "c2fa7679780ec8beea39c6d3a7dc9c66daf1c9dc2d4fe8c911aa0488d8ff9e02"
+    }
+  ]
+}

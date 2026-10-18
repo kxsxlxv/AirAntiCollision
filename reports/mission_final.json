@@ -1,0 +1,80 @@
+{
+  "recorded_mission_start_utc": "2026-10-17T22:11Z",
+  "start_precision": "minute, from mission log",
+  "final_artifact_verification_utc": "2026-10-18T02:24:36.703321+00:00",
+  "budget_observation": {
+    "measurement_utc": "2026-10-18 02:23:13 UTC",
+    "observed_used_percent": 34,
+    "baseline_used_percent": 0,
+    "cap_additional_percentage_points": 35,
+    "window_minutes": 10080,
+    "precision": "Integer shared account reading; not an isolated chat meter"
+  },
+  "result": "Verified offline research prototype delivered; physical collision accuracy remains unverified",
+  "complete_sources": 15,
+  "actual_neural_timeline_frames": 55535,
+  "unique_QUT_duration_s": 2221.4,
+  "corrected_geometry_counts": {
+    "approach": {
+      "total": 20155,
+      "uncertain": 11877,
+      "detector_queried": 20155,
+      "detected": 15519,
+      "observed_by_detector": 16097,
+      "reason_history": 756,
+      "reason_association": 4634,
+      "reason_growth_unresolved": 1736,
+      "reason_aspect": 3328,
+      "reason_overlap": 1030,
+      "reason_confirm_warning": 187,
+      "threat": 4220,
+      "reason_bearing_growth": 4220,
+      "untracked": 4058,
+      "reason_clipped": 101,
+      "reason_shrink_ambiguous": 103,
+      "reason_tiny": 2
+    },
+    "other": {
+      "total": 16361,
+      "untracked": 2827,
+      "detector_queried": 16361,
+      "detected": 12492,
+      "uncertain": 12294,
+      "observed_by_detector": 13534,
+      "reason_history": 957,
+      "reason_association": 4303,
+      "reason_growth_unresolved": 3970,
+      "reason_shrink_ambiguous": 220,
+      "reason_overlap": 1008,
+      "reason_clipped": 124,
+      "reason_confirm_non_threat": 1237,
+      "nonthreat": 1200,
+      "reason_crossing_no_growth": 149,
+      "reason_crossing": 1051,
+      "reason_tiny": 1,
+      "reason_aspect": 462,
+      "reason_confirm_warning": 12,
+      "threat": 40,
+      "reason_bearing_growth": 40
+    }
+  },
+  "tests_passed": 76,
+  "videos_verified": 8,
+  "decoded_video_frames": 3000,
+  "cuda_opencv_preserved": true,
+  "no_flight_direction_recommended": true,
+  "no_AOT": true,
+  "no_simulator_operated": true,
+  "no_heavy_training": true,
+  "no_subagents_used": true,
+  "known_other_warning_samples": {
+    "M6": 26,
+    "M7": 14
+  },
+  "limitations": [
+    "Nominal encounter categories, no physical CPA/collision ground truth",
+    "Previously studied data, detector training overlap unknown",
+    "Uncalibrated shape/camera/error assumptions; misses and abstentions remain",
+    "No independent real threat evaluation for bird/balloon/parachute"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "TrackTrack": {
+    "commit": "ee7f1c5fcbdcac48ed8bfab38d52c0006bf304da",
+    "origin": "https://github.com/kamkyu94/TrackTrack.git",
+    "diff": ""
+  },
+  "BoTSORT": {
+    "commit": "251985436d6712aaf682aaaf5f71edb4987224bd",
+    "origin": "https://github.com/NirAharon/BoT-SORT.git",
+    "diff": "diff --git a/tracker/gmc.py b/tracker/gmc.py\nindex e7ec207..6c35255 100644\n--- a/tracker/gmc.py\n+++ b/tracker/gmc.py\n@@ -265,7 +265,16 @@ class GMC:\n             return H\n \n         # find correspondences\n+        # Portability/texture guard: a blank sky can have no previous corners.\n+        if self.prevKeyPoints is None or len(self.prevKeyPoints) < 4:\n+            self.prevFrame = frame.copy()\n+            self.prevKeyPoints = copy.copy(keypoints)\n+            return H\n         matchedKeypoints, status, err = cv2.calcOpticalFlowPyrLK(self.prevFrame, frame, self.prevKeyPoints, None)\n+        if matchedKeypoints is None or status is None:\n+            self.prevFrame = frame.copy()\n+            self.prevKeyPoints = copy.copy(keypoints)\n+            return H\n \n         # leave good correspondences only\n         prevPoints = []\n@@ -281,7 +290,9 @@ class GMC:\n \n         # Find rigid matrix\n         if (np.size(prevPoints, 0) > 4) and (np.size(prevPoints, 0) == np.size(prevPoints, 0)):\n-            H, inliesrs = cv2.estimateAffinePartial2D(prevPoints, currPoints, cv2.RANSAC)\n+            H, inliesrs = cv2.estimateAffinePartial2D(prevPoints, currPoints, method=cv2.RANSAC)\n+            if H is None:\n+                H = np.eye(2, 3)\n \n             # Handle downscale\n             if self.downscale > 1.0:\n@@ -313,4 +324,4 @@ class GMC:\n         H[1, 1] = float(tokens[5])\n         H[1, 2] = float(tokens[6])\n \n-        return H\n\\ No newline at end of file\n+        return H\n"
+  },
+  "OCSORT": {
+    "commit": "8462e7e729a93ccd3bd995c0a79a890336cb3a0b",
+    "origin": "https://github.com/noahcao/OC_SORT.git",
+    "diff": ""
+  },
+  "DiffMOT": {
+    "commit": "eada72e74e54c153b30674d277b97882edc568b8",
+    "origin": "https://github.com/ShuCvlab/DiffMOT.git",
+    "diff": ""
+  },
+  "PuTR": {
+    "commit": "a54cd4b9a0ce500539c798f53b1ff65e3c826d3d",
+    "origin": "https://github.com/chongweiliu/PuTR.git",
+    "diff": ""
+  },
+  "TrackSSM": {
+    "commit": "b7f3520932d8e73a4f6acb633bf6411b928d3215",
+    "origin": "https://github.com/Xavier-Lin/TrackSSM.git",
+    "diff": ""
+  },
+  "mamba_reference": {
+    "commit": "34076d664838588a3c97727b263478ab9f621a07",
+    "origin": "https://github.com/state-spaces/mamba.git",
+    "diff": ""
+  },
+  "weights": {
+    "dance_sbs_S50.pth": "004beb12f0dd9dcf355bc57f5b8cc66b6904fc6d5599fb41ee9403c4c659ab29",
+    "DiffMOT_DanceTrack.pt": "2eb5f1a61705796f03ee05aaefab13d25ffbb84e7d7e7da0133c133bdbd209f6",
+    "putr_dancetrack.pth": "303a35c12cb4e5d4e89bf4dc8e997f3448220e1768f87874b79c44822714e6c8",
+    "TrackSSM_DanceTrack.pt": "d7889f6b78f02497db7e0f97f4bbcdf3927135eb769af57b398ccd1e1705623d"
+  },
+  "isolated_dependencies": {
+    "beautifulsoup4": "4.15.0",
+    "certifi": "2022.12.7",
+    "charset-normalizer": "2.1.1",
+    "cloudpickle": "3.1.2",
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "cython_bbox": "0.1.5",
+    "einops": "0.8.2",
+    "filelock": "3.32.3",
+    "filterpy": "1.4.5",
+    "fonttools": "4.67.0",
+    "fvcore": "0.1.5.post20221221",
+    "gdown": "6.4.2",
+    "idna": "3.4",
+    "iopath": "0.1.9",
+    "kiwisolver": "1.5.1",
+    "lap": "0.5.13",
+    "loguru": "0.7.3",
+    "matplotlib": "3.11.2",
+    "packaging": "24.1",
+    "pillow": "12.3.0",
+    "pyparsing": "3.3.3",
+    "python-dateutil": "2.9.0.post0",
+    "PyYAML": "6.0.3",
+    "requests": "2.28.1",
+    "scipy": "1.18.1",
+    "six": "1.17.0",
+    "soupsieve": "3.0.3",
+    "tabulate": "0.10.0",
+    "termcolor": "3.3.0",
+    "tqdm": "4.66.5",
+    "typing_extensions": "4.16.0",
+    "urllib3": "1.26.13",
+    "yacs": "0.1.8"
+  },
+  "checkpoint_sources": {
+    "dance_sbs_S50.pth": "https://github.com/ShuCvlab/DiffMOT/releases/download/v1.0/dance_sbs_S50.pth",
+    "DiffMOT_DanceTrack.pt": "https://github.com/ShuCvlab/DiffMOT/releases/download/v1.0/DanceTrack_epoch800.pt",
+    "putr_dancetrack.pth": "https://www.dropbox.com/scl/fi/o4hke0vg0rj20fch4me8b/weights.zip?rlkey=05m7avkq7ilqttjzgchkbcsvo&st=him8jq78&dl=1",
+    "TrackSSM_DanceTrack.pt": "https://drive.google.com/file/d/1VvOjZNG3QPI4TPWl13ibUzuVvFyxCTa9/view"
+  },
+  "PuTR_archive_member": {
+    "name": "weights/dancetrack.pth",
+    "uncompressed_bytes": 350032717,
+    "crc32": "a6462e1e",
+    "archive_member_local_offset": 70,
+    "compressed_bytes": 320802281,
+    "extraction": "Verified deflate member from official archive prefix, central directory retrieved separately; checkpoint strict-load passed"
+  }
+}

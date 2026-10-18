@@ -1,0 +1,19 @@
+{
+  "sequence": "M5",
+  "source_root": "F:\\UAV_DATASETS\\jasminmartin(Aircraft Collision Course Dataset)",
+  "source_first": 30423,
+  "source_last": 35898,
+  "frames": 5476,
+  "actual_source_files": 5475,
+  "missing_source_ids_repeated_previous": [
+    31062
+  ],
+  "selection": "all_available",
+  "fps": 25,
+  "fps_source": "Martin et al 2022 section III",
+  "split": "held-out",
+  "kind": "real RGB / stationary ground camera",
+  "sha256": "ea14b5132a2796eb224a0fa17590506707efe8ef397a5c64a97083df5bf986a1",
+  "label_semantics": "approaching target vs other aircraft; no actual collision ground truth",
+  "gt_not_available_to_inference": true
+}

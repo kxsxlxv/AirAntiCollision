@@ -1,0 +1,61 @@
+{
+  "seed": 2026101804,
+  "kind": "Analytical pinhole identities and deliberate violations; not real-video accuracy or a 3D simulator",
+  "trials": 756,
+  "counts": {
+    "ideal": {
+      "close_threat": 10,
+      "borderline_uncertain": 27,
+      "far_nonthreat": 13,
+      "far_uncertain": 10,
+      "close_uncertain": 48
+    },
+    "focal_half": {
+      "close_threat": 22,
+      "borderline_uncertain": 26,
+      "far_uncertain": 14,
+      "far_nonthreat": 9,
+      "close_uncertain": 36,
+      "borderline_threat": 1
+    },
+    "focal_double": {
+      "close_threat": 8,
+      "borderline_uncertain": 27,
+      "far_nonthreat": 17,
+      "far_uncertain": 6,
+      "close_uncertain": 50
+    },
+    "span_under_half": {
+      "close_threat": 2,
+      "close_uncertain": 56,
+      "borderline_nonthreat": 4,
+      "far_nonthreat": 18,
+      "borderline_uncertain": 23,
+      "far_uncertain": 5
+    },
+    "aspect_growth": {
+      "close_threat": 38,
+      "borderline_threat": 10,
+      "far_uncertain": 18,
+      "far_nonthreat": 2,
+      "far_threat": 3,
+      "borderline_uncertain": 17,
+      "close_uncertain": 20
+    },
+    "aspect_shrink": {
+      "close_uncertain": 58,
+      "borderline_uncertain": 27,
+      "far_uncertain": 23
+    },
+    "correlated_noise": {
+      "close_threat": 12,
+      "borderline_uncertain": 27,
+      "far_uncertain": 9,
+      "far_nonthreat": 14,
+      "close_uncertain": 46
+    }
+  },
+  "ideal_max_cpa_error_spans": 3.3217872896784684e-13,
+  "limits": "Requires real camera calibration, constant transverse shape, straight relative motion and rectified fixed camera. Covariance excludes systematic calibration/shape bias. No real calibrated encounter test is claimed."
+}
+false clears: Counter()

@@ -1,0 +1,133 @@
+100 frames, 41.12 FPS, {'uncertain': 94}
+200 frames, 40.64 FPS, {'uncertain': 194}
+300 frames, 39.88 FPS, {'uncertain': 315}
+400 frames, 37.56 FPS, {'uncertain': 475, 'threat': 122}
+{
+  "timestamp_utc": "2026-10-17T22:50:19.158453+00:00",
+  "args": {
+    "video": "data/qut/M1.mp4",
+    "weights": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\yolo26m_local.engine",
+    "output": "artifacts/bridge_corrected_dev/M1",
+    "conf": 0.18,
+    "stride": 2,
+    "max_frames": null,
+    "camera": "fixed",
+    "policy": "confirmed",
+    "geometry": "log",
+    "tiled": false,
+    "adaptive_tiles": true,
+    "appearance_bridge": true,
+    "detect_every": 3,
+    "no_render": true,
+    "detections": null,
+    "title": "RGB \u2022 \u0430\u043d\u0430\u043b\u0438\u0437 \u0441\u0431\u043b\u0438\u0436\u0435\u043d\u0438\u044f"
+  },
+  "config": {
+    "window": 4.0,
+    "min_span": 6.0,
+    "min_history": 2.0,
+    "min_samples": 10,
+    "threat_miss": 2.0,
+    "nonthreat_miss": 5.0,
+    "horizon": 60.0,
+    "max_log_residual": 0.16,
+    "growth_floor": 0.008
+  },
+  "policy_parameters": {
+    "warning_seconds": 0.24,
+    "nonthreat_seconds": 1.2
+  },
+  "source_hashes": {
+    "appearance.py": "7536007347fc20a6a6d8baf38dff430a23f2c1eb981899a0893d2e61830dc096",
+    "cli.py": "005907527212189d53b886f382639917839732602a265cd88e4b5f26c6996b7f",
+    "detector.py": "deb1fb93bf68e06460dba0bb92ee626248736cc6f73786c4e68e43109d000fb4",
+    "geometry.py": "39086e1f6e3ce0177b9c8ea48277043c510aea8c524ce88e5619b24d259a4fe7",
+    "policy.py": "c57bc3ff5b7e0077fbb9b1a1060140666749c099c1d68f326988cbf794583d60",
+    "projective.py": "684f7fa766e9432818207756101a119a61addf645c9bcabbec137f510ba61d7e",
+    "render.py": "085281f953f3ec2b2e7d03d96331387eaacd16901ab290ab030161b3791c0734",
+    "tracking.py": "47f9dd540779bcaf1a605c163e5810a284bcefbf37bed89eb24fc86c64a2cc53",
+    "__init__.py": "4c2fe2d65d95a24fa3f28ace4a87f32fe8717d7eba6b67e9a97636e1270d8a50",
+    "__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3"
+  },
+  "frames": 438,
+  "elapsed_s": 11.631132900000011,
+  "processing_fps": 37.65755268775233,
+  "source_fps": 25.0,
+  "output_fps": 12.5,
+  "startup_and_warmup_s": 2.5209844000000885,
+  "states_track_frames": {
+    "uncertain": 513,
+    "threat": 160
+  },
+  "stages": {
+    "appearance_predict_ms": {
+      "mean": 5.303638356172211,
+      "p50": 3.8016500002413522,
+      "p95": 9.93610500026989
+    },
+    "appearance_network_calls": {
+      "mean": 1.5091324200913243,
+      "p50": 1.0,
+      "p95": 3.0
+    },
+    "detector_ms": {
+      "mean": 10.262838356146396,
+      "p50": 0.01810000003388268,
+      "p95": 41.951110000036344
+    },
+    "network_calls": {
+      "mean": 1.639269406392694,
+      "p50": 0.0,
+      "p95": 7.0
+    },
+    "camera_ms": {
+      "mean": 5.2991205479468935,
+      "p50": 5.2584999998543935,
+      "p95": 6.162100000256032
+    },
+    "tracker_ms": {
+      "mean": 0.11788926939387645,
+      "p50": 0.10279999969498022,
+      "p95": 0.18733500019152413
+    },
+    "appearance_correct_ms": {
+      "mean": 0.11435251141253532,
+      "p50": 0.007300000106624793,
+      "p95": 0.013699999726668466
+    },
+    "threat_ms": {
+      "mean": 1.6222671232853454,
+      "p50": 1.227299999754905,
+      "p95": 3.697104999855582
+    },
+    "decode_ms": {
+      "mean": 1.8089662100514756,
+      "p50": 1.7610999998396437,
+      "p95": 2.0452649999697314
+    }
+  },
+  "providers": [
+    "TensorRT 11.4.0.106"
+  ],
+  "hardware": "NVIDIA GeForce RTX 4060",
+  "cv2": "5.0.0",
+  "cv2_path": "C:\\Data\\DEV\\Libs\\opencv_cuda_5\\install\\python\\cv2\\__init__.py",
+  "cuda_devices": 1,
+  "resolution": [
+    1280,
+    720
+  ],
+  "batch": 1,
+  "weights_sha256": "89e5d441f97a1cc3731340460cfa584a1f401c2d08fad01f17b5aacff1c258d9",
+  "caveat": "offline throughput incl decode, stages, trace and encode flush; not certified streaming latency",
+  "appearance_metadata": {
+    "engine": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\lorat_local.engine",
+    "score_threshold": 0.5,
+    "max_targets": 3,
+    "engine_sha256": "f66d824131e929fab4098b61fa7da1565748a3bebfd610d4284b544e9e73a512",
+    "external_source_hashes": {
+      "lorat_trt.py": "284458f9d5eb93480704afdc6da1d0ba83c7dbdc2248d421cb529912f1e14d1e",
+      "trt_gpu.py": "aa1abcd63389bc2c251b80a969424677a5018fbf0d30ce95cda3f5579cda57ce"
+    }
+  }
+}

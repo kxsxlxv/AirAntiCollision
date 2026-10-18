@@ -1,0 +1,60 @@
+{
+  "definition": "QUT encounter-category proxy, not physical collision ground truth",
+  "trace": "artifacts/silhouette_assess/S2/decisions.jsonl",
+  "gt": "data/qut/S2.gt.json",
+  "centroid_tolerance_px": 20,
+  "warning_persistence_s": 0.8,
+  "frames": 438,
+  "counts": {
+    "approach": {
+      "total": 438,
+      "untracked": 263,
+      "detector_queried": 438,
+      "detected": 166,
+      "uncertain": 100,
+      "observed_by_pixel": 175,
+      "reason_history": 26,
+      "reason_growth_unresolved": 30,
+      "reason_overlap": 6,
+      "reason_confirm_warning": 6,
+      "threat": 75,
+      "reason_bearing_growth": 75,
+      "reason_aspect": 32
+    }
+  },
+  "growth_only_baseline": {
+    "approach": {
+      "growth_only_untracked": 263,
+      "growth_only_uncertain": 93,
+      "growth_only_threat": 82
+    }
+  },
+  "events": [
+    {
+      "id": "approach_S2_labels",
+      "kind": "approach",
+      "sampled_frames": 438,
+      "sustained_warning": true,
+      "first_warning_time_s": 23.36,
+      "max_warning_duration_s": 3.6800000000000033,
+      "any_apparently_non_threat": false,
+      "associated_track_ids": [
+        10,
+        11
+      ],
+      "fragments": 2,
+      "growth_only_baseline_sustained_warning": true
+    }
+  ],
+  "unmatched_track_frames": {
+    "threat": 10,
+    "uncertain": 23
+  },
+  "limitations": [
+    "centroids approximate/interpolated",
+    "no GT boxes or CPA",
+    "other objects not necessarily exhaustively labeled",
+    "unmatched warnings are not verified false alerts",
+    "missed warning and false-safe on approach are distinct"
+  ]
+}

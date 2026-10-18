@@ -1,0 +1,133 @@
+100 frames, 82.91 FPS, {'uncertain': 143}
+200 frames, 81.11 FPS, {'uncertain': 312}
+300 frames, 81.44 FPS, {'uncertain': 479}
+400 frames, 82.72 FPS, {'uncertain': 623, 'threat': 39}
+{
+  "timestamp_utc": "2026-10-17T23:30:36.441331+00:00",
+  "args": {
+    "video": "data/qut/M1.mp4",
+    "weights": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\yolo26m_local.engine",
+    "output": "artifacts/bounded_dev/M1",
+    "conf": 0.18,
+    "stride": 2,
+    "max_frames": null,
+    "camera": "fixed",
+    "policy": "confirmed",
+    "geometry": "bounded",
+    "bounded_pixel_error": 2.0,
+    "bounded_span_fraction": 0.1,
+    "allow_recession_clearance": false,
+    "correlation_seconds": 0.0,
+    "tiled": false,
+    "adaptive_tiles": false,
+    "gpu_preprocess": false,
+    "sky_mask": null,
+    "video_timing": "pts",
+    "appearance_bridge": false,
+    "detector_scale_only": false,
+    "detect_every": 1,
+    "no_render": true,
+    "detections": "demo/M1_tiled_initial/detections.jsonl",
+    "title": "RGB \u2022 \u0430\u043d\u0430\u043b\u0438\u0437 \u0441\u0431\u043b\u0438\u0436\u0435\u043d\u0438\u044f"
+  },
+  "config": {
+    "window": 4.0,
+    "min_span": 6.0,
+    "min_history": 2.0,
+    "min_samples": 10,
+    "threat_miss": 2.0,
+    "nonthreat_miss": 5.0,
+    "horizon": 60.0,
+    "max_log_residual": 0.16,
+    "growth_floor": 0.008,
+    "allow_recession_clearance": false,
+    "correlation_seconds": 0.0,
+    "bounded_pixel_error": 2.0,
+    "bounded_span_fraction": 0.1
+  },
+  "policy_parameters": {
+    "warning_seconds": 0.24,
+    "nonthreat_seconds": 1.2
+  },
+  "source_hashes": {
+    "appearance.py": "7536007347fc20a6a6d8baf38dff430a23f2c1eb981899a0893d2e61830dc096",
+    "bounded.py": "65320f1874b2a533b18e929c812c18164ae482d8efcdafb235447ef1c424d9be",
+    "cli.py": "cc573d8115cc078a546caaabcd2c8db3f72408a3e1cbf8b26b754127d6a97c88",
+    "detector.py": "02058ced9c57f9440e488396c044141452979749083361adfe15c2549e6abbff",
+    "geometry.py": "58077f02c6dc4dcabf09d8e7b38e8a187e74dee00e8c2202adb24ca3b44c36b3",
+    "gpu.py": "59dad3aeaeecee710f13ae9189bdf0e08576b108975d4ba2907fab909cd82482",
+    "media.py": "461149eaf8b960c63cf471ef171d872d1234b0610384f5a594621ca3567d5be3",
+    "policy.py": "c57bc3ff5b7e0077fbb9b1a1060140666749c099c1d68f326988cbf794583d60",
+    "projective.py": "35366a5eaa4ed55089724c6c84e0f394558c93aa7b62ee491ec5e2790290343d",
+    "proposals.py": "e7f0a5dfbfd3e05c23d9be17910bee4e76917a42b022c4b0ba2f85d365db3cbd",
+    "render.py": "9aa887941884fb3beffd64e3c2ec373d7893499a00e03ea4f80b7cf022938226",
+    "tracking.py": "f6c2357331298122956729a95f84971e8eff5757feb1615063aecf083f30a6ae",
+    "__init__.py": "4c2fe2d65d95a24fa3f28ace4a87f32fe8717d7eba6b67e9a97636e1270d8a50",
+    "__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3"
+  },
+  "frames": 438,
+  "elapsed_s": 5.234764099999666,
+  "processing_fps": 83.67139218365695,
+  "source_fps": 25.0,
+  "output_fps": 12.5,
+  "startup_and_warmup_s": 0.0019565000002330635,
+  "states_track_frames": {
+    "uncertain": 712,
+    "threat": 39
+  },
+  "stages": {
+    "detector_ms": {
+      "mean": 0.003364611876603284,
+      "p50": 0.0031999998100218363,
+      "p95": 0.004414999830260055
+    },
+    "camera_ms": {
+      "mean": 6.284138812777894,
+      "p50": 6.426750000173342,
+      "p95": 7.440004999625671
+    },
+    "tracker_ms": {
+      "mean": 0.11859589041547665,
+      "p50": 0.11409999979150598,
+      "p95": 0.20081500051674078
+    },
+    "threat_ms": {
+      "mean": 1.4207511415253111,
+      "p50": 1.4167500003168243,
+      "p95": 2.560034999987692
+    },
+    "decode_ms": {
+      "mean": 1.9443011415454723,
+      "p50": 1.913099999910628,
+      "p95": 2.2294600000805076
+    }
+  },
+  "providers": [
+    "cached model detections"
+  ],
+  "hardware": "NVIDIA GeForce RTX 4060",
+  "cv2": "5.0.0",
+  "cv2_path": "C:\\Data\\DEV\\Libs\\opencv_cuda_5\\install\\python\\cv2\\__init__.py",
+  "cuda_devices": 1,
+  "resolution": [
+    1280,
+    720
+  ],
+  "batch": 1,
+  "weights_sha256": null,
+  "caveat": "offline throughput incl decode, stages, trace and encode flush; not certified streaming latency",
+  "timestamp_mode": "presentation_timestamps",
+  "source_timestamp_origin_ms": 0.0,
+  "source_media_metadata": {
+    "r_frame_rate": "25/1",
+    "avg_frame_rate": "25/1",
+    "time_base": "1/12800",
+    "start_time": "0.000000",
+    "duration": "35.000000",
+    "nb_frames": "875",
+    "format_duration": "35.000000"
+  },
+  "source_duration_method": "tail_packet_presentation_end",
+  "output_end_time_s": 35.0,
+  "output_timestamp_quantization_s": null
+}

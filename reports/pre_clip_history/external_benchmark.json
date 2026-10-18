@@ -1,0 +1,747 @@
+{
+  "kind": "Actual neural rendered fresh-process comparison; parent timer includes Python process/import startup",
+  "results": [
+    {
+      "case": "M2",
+      "repeat": 1,
+      "start_utc": "2026-10-18T01:52:41.329311+00:00",
+      "output": "artifacts\\external_benchmark\\M2_repeat1",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "-m",
+        "airavoid",
+        "data/qut/M2.mp4",
+        "--camera",
+        "fixed",
+        "--stride",
+        "2",
+        "--encoder",
+        "h264_nvenc",
+        "--render-process",
+        "--output",
+        "artifacts\\external_benchmark\\M2_repeat1"
+      ],
+      "frames": 438,
+      "external_process_wall_s": 22.586690800000724,
+      "external_process_fps": 19.39195094484518,
+      "pipeline_processing_fps": 22.99366215400662,
+      "pipeline_whole_run_fps": 20.211516939502204,
+      "reference": "demo/M2_final",
+      "exact_trace_equality": {
+        "detections.jsonl": true,
+        "decisions.jsonl": true
+      },
+      "stages": {
+        "detector_ms": {
+          "mean": 24.799813698648418,
+          "p50": 24.56865000021935,
+          "p95": 26.568375000715605
+        },
+        "network_calls": {
+          "mean": 7.0,
+          "p50": 7.0,
+          "p95": 7.0
+        },
+        "camera_ms": {
+          "mean": 6.050397031989026,
+          "p50": 6.331049999971583,
+          "p95": 7.566844998746092
+        },
+        "tracker_ms": {
+          "mean": 0.2962221461492758,
+          "p50": 0.23675000011280645,
+          "p95": 0.6881749995045532
+        },
+        "threat_ms": {
+          "mean": 1.9250022831404014,
+          "p50": 1.5651500007152208,
+          "p95": 3.811760000735376
+        },
+        "decode_ms": {
+          "mean": 7.639557534221821,
+          "p50": 7.759950000945537,
+          "p95": 10.24307999987286
+        },
+        "render_queue_wait_ms": {
+          "mean": 1.0821121004067553,
+          "p50": 0.06304999897110974,
+          "p95": 4.064994999407641
+        },
+        "render_ms": {
+          "mean": 25.682413013662497,
+          "p50": 24.68074999978853,
+          "p95": 32.416725000075516
+        },
+        "encode_write_ms": {
+          "mean": 13.16859474884215,
+          "p50": 12.704750000921194,
+          "p95": 14.693944999089581
+        }
+      }
+    },
+    {
+      "case": "S2_zoom",
+      "repeat": 1,
+      "start_utc": "2026-10-18T01:53:03.920384+00:00",
+      "output": "artifacts\\external_benchmark\\S2_zoom_repeat1",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "-m",
+        "airavoid",
+        "data/qut/S2.mp4",
+        "--camera",
+        "fixed",
+        "--stride",
+        "2",
+        "--encoder",
+        "h264_nvenc",
+        "--render-process",
+        "--output",
+        "artifacts\\external_benchmark\\S2_zoom_repeat1",
+        "--zoom-proposals"
+      ],
+      "frames": 438,
+      "external_process_wall_s": 30.395346000001155,
+      "external_process_fps": 14.41010080951154,
+      "pipeline_processing_fps": 16.276144969943683,
+      "pipeline_whole_run_fps": 14.852177649174836,
+      "reference": "demo/S2_zoom_final",
+      "exact_trace_equality": {
+        "detections.jsonl": true,
+        "decisions.jsonl": true
+      },
+      "stages": {
+        "detector_ms": {
+          "mean": 24.057157077612366,
+          "p50": 24.012799999582057,
+          "p95": 25.611760001356743
+        },
+        "network_calls": {
+          "mean": 9.41095890410959,
+          "p50": 7.0,
+          "p95": 19.0
+        },
+        "sky_proposal_ms": {
+          "mean": 21.895121689481357,
+          "p50": 0.002599999788799323,
+          "p95": 109.80318500023714
+        },
+        "proposal_network_calls": {
+          "mean": 2.410958904109589,
+          "p50": 0.0,
+          "p95": 12.0
+        },
+        "camera_ms": {
+          "mean": 5.769163698601234,
+          "p50": 5.565599999499682,
+          "p95": 6.393834999471437
+        },
+        "tracker_ms": {
+          "mean": 0.10465136987992273,
+          "p50": 0.10585000018181745,
+          "p95": 0.19724999865502466
+        },
+        "threat_ms": {
+          "mean": 1.195616895035183,
+          "p50": 1.3272500000311993,
+          "p95": 1.6879900004823867
+        },
+        "decode_ms": {
+          "mean": 6.70462922371537,
+          "p50": 6.832549999671755,
+          "p95": 7.993865002299572
+        },
+        "render_queue_wait_ms": {
+          "mean": 0.38622009134548396,
+          "p50": 0.06515000040963059,
+          "p95": 0.09566000026097753
+        },
+        "render_ms": {
+          "mean": 24.16316164383147,
+          "p50": 21.37109999966924,
+          "p95": 37.69295499969303
+        },
+        "encode_write_ms": {
+          "mean": 13.109272374464483,
+          "p50": 12.33460000003106,
+          "p95": 14.52647499945669
+        }
+      }
+    },
+    {
+      "case": "formation",
+      "repeat": 1,
+      "start_utc": "2026-10-18T01:53:34.319513+00:00",
+      "output": "artifacts\\external_benchmark\\formation_repeat1",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "-m",
+        "airavoid",
+        "data/formation_native.mp4",
+        "--camera",
+        "auto",
+        "--stride",
+        "2",
+        "--encoder",
+        "h264_nvenc",
+        "--render-process",
+        "--output",
+        "artifacts\\external_benchmark\\formation_repeat1"
+      ],
+      "frames": 300,
+      "external_process_wall_s": 27.429223199998887,
+      "external_process_fps": 10.937240103832476,
+      "pipeline_processing_fps": 12.622690394255935,
+      "pipeline_whole_run_fps": 11.299803303946952,
+      "reference": "demo/formation_final",
+      "exact_trace_equality": {
+        "detections.jsonl": true,
+        "decisions.jsonl": true
+      },
+      "stages": {
+        "detector_ms": {
+          "mean": 56.736316999983195,
+          "p50": 56.57424999844807,
+          "p95": 58.67436000144153
+        },
+        "network_calls": {
+          "mean": 17.0,
+          "p50": 17.0,
+          "p95": 17.0
+        },
+        "camera_ms": {
+          "mean": 6.020466666686843,
+          "p50": 5.6680499992580735,
+          "p95": 6.399884999700589
+        },
+        "tracker_ms": {
+          "mean": 0.3126396666630171,
+          "p50": 0.27709999994840473,
+          "p95": 0.6274799998209347
+        },
+        "threat_ms": {
+          "mean": 0.06544399998650381,
+          "p50": 0.06135000057838624,
+          "p95": 0.09972500056392164
+        },
+        "decode_ms": {
+          "mean": 12.90844599997096,
+          "p50": 13.920800000050804,
+          "p95": 15.00836999830426
+        },
+        "render_queue_wait_ms": {
+          "mean": 0.13465400000616987,
+          "p50": 0.059449998843774665,
+          "p95": 0.0729000003047986
+        },
+        "render_ms": {
+          "mean": 25.728525333288417,
+          "p50": 22.284949999630044,
+          "p95": 57.48414999907254
+        },
+        "encode_write_ms": {
+          "mean": 12.866266999978203,
+          "p50": 12.219249999361637,
+          "p95": 14.090145001318888
+        }
+      }
+    },
+    {
+      "case": "M2",
+      "repeat": 2,
+      "start_utc": "2026-10-18T01:54:01.753530+00:00",
+      "output": "artifacts\\external_benchmark\\M2_repeat2",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "-m",
+        "airavoid",
+        "data/qut/M2.mp4",
+        "--camera",
+        "fixed",
+        "--stride",
+        "2",
+        "--encoder",
+        "h264_nvenc",
+        "--render-process",
+        "--output",
+        "artifacts\\external_benchmark\\M2_repeat2"
+      ],
+      "frames": 438,
+      "external_process_wall_s": 22.02715520000129,
+      "external_process_fps": 19.884546870581563,
+      "pipeline_processing_fps": 23.632592820246074,
+      "pipeline_whole_run_fps": 20.7467590341425,
+      "reference": "demo/M2_final",
+      "exact_trace_equality": {
+        "detections.jsonl": true,
+        "decisions.jsonl": true
+      },
+      "stages": {
+        "detector_ms": {
+          "mean": 24.2168194063903,
+          "p50": 24.167250000573404,
+          "p95": 25.257815000077244
+        },
+        "network_calls": {
+          "mean": 7.0,
+          "p50": 7.0,
+          "p95": 7.0
+        },
+        "camera_ms": {
+          "mean": 5.680632876759126,
+          "p50": 5.960350000350445,
+          "p95": 6.948455001111142
+        },
+        "tracker_ms": {
+          "mean": 0.2874856163876117,
+          "p50": 0.22175000049173832,
+          "p95": 0.6844650002676643
+        },
+        "threat_ms": {
+          "mean": 1.8648751141400062,
+          "p50": 1.472549999562034,
+          "p95": 3.7714800011599428
+        },
+        "decode_ms": {
+          "mean": 6.598687671188824,
+          "p50": 6.868800000120245,
+          "p95": 7.877280000138853
+        },
+        "render_queue_wait_ms": {
+          "mean": 2.272340639237508,
+          "p50": 0.0668500006213435,
+          "p95": 15.171864999228998
+        },
+        "render_ms": {
+          "mean": 25.17219223745872,
+          "p50": 23.521699999946577,
+          "p95": 40.21672500011846
+        },
+        "encode_write_ms": {
+          "mean": 12.288903196349565,
+          "p50": 11.908750000657164,
+          "p95": 13.685725000959792
+        }
+      }
+    },
+    {
+      "case": "S2_zoom",
+      "repeat": 2,
+      "start_utc": "2026-10-18T01:54:23.785165+00:00",
+      "output": "artifacts\\external_benchmark\\S2_zoom_repeat2",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "-m",
+        "airavoid",
+        "data/qut/S2.mp4",
+        "--camera",
+        "fixed",
+        "--stride",
+        "2",
+        "--encoder",
+        "h264_nvenc",
+        "--render-process",
+        "--output",
+        "artifacts\\external_benchmark\\S2_zoom_repeat2",
+        "--zoom-proposals"
+      ],
+      "frames": 438,
+      "external_process_wall_s": 30.34836720000021,
+      "external_process_fps": 14.432407421246602,
+      "pipeline_processing_fps": 16.299999662836413,
+      "pipeline_whole_run_fps": 14.872669928428826,
+      "reference": "demo/S2_zoom_final",
+      "exact_trace_equality": {
+        "detections.jsonl": true,
+        "decisions.jsonl": true
+      },
+      "stages": {
+        "detector_ms": {
+          "mean": 24.042702739728295,
+          "p50": 23.8909000008789,
+          "p95": 26.082810000934842
+        },
+        "network_calls": {
+          "mean": 9.41095890410959,
+          "p50": 7.0,
+          "p95": 19.0
+        },
+        "sky_proposal_ms": {
+          "mean": 22.02906963465296,
+          "p50": 0.002499999027349986,
+          "p95": 109.96837000002415
+        },
+        "proposal_network_calls": {
+          "mean": 2.410958904109589,
+          "p50": 0.0,
+          "p95": 12.0
+        },
+        "camera_ms": {
+          "mean": 5.698013470298385,
+          "p50": 5.636749999212043,
+          "p95": 6.518970000706759
+        },
+        "tracker_ms": {
+          "mean": 0.10203972597580964,
+          "p50": 0.10315000054106349,
+          "p95": 0.1878649994068837
+        },
+        "threat_ms": {
+          "mean": 1.1800958903858036,
+          "p50": 1.329299999270006,
+          "p95": 1.618494998638198
+        },
+        "decode_ms": {
+          "mean": 6.538295890448469,
+          "p50": 6.723750000674045,
+          "p95": 8.000525000170455
+        },
+        "render_queue_wait_ms": {
+          "mean": 0.4376299087169206,
+          "p50": 0.0641999995423248,
+          "p95": 0.08578000060879273
+        },
+        "render_ms": {
+          "mean": 23.823552968043597,
+          "p50": 21.452400000271155,
+          "p95": 36.76638500046465
+        },
+        "encode_write_ms": {
+          "mean": 12.88365456621582,
+          "p50": 12.344400000074529,
+          "p95": 14.364269998532105
+        }
+      }
+    },
+    {
+      "case": "formation",
+      "repeat": 2,
+      "start_utc": "2026-10-18T01:54:54.136759+00:00",
+      "output": "artifacts\\external_benchmark\\formation_repeat2",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "-m",
+        "airavoid",
+        "data/formation_native.mp4",
+        "--camera",
+        "auto",
+        "--stride",
+        "2",
+        "--encoder",
+        "h264_nvenc",
+        "--render-process",
+        "--output",
+        "artifacts\\external_benchmark\\formation_repeat2"
+      ],
+      "frames": 300,
+      "external_process_wall_s": 27.481056399999943,
+      "external_process_fps": 10.916610905831138,
+      "pipeline_processing_fps": 12.584058311069736,
+      "pipeline_whole_run_fps": 11.286386222867794,
+      "reference": "demo/formation_final",
+      "exact_trace_equality": {
+        "detections.jsonl": true,
+        "decisions.jsonl": true
+      },
+      "stages": {
+        "detector_ms": {
+          "mean": 56.93622766661065,
+          "p50": 56.57024999982241,
+          "p95": 59.58650000002308
+        },
+        "network_calls": {
+          "mean": 17.0,
+          "p50": 17.0,
+          "p95": 17.0
+        },
+        "camera_ms": {
+          "mean": 5.769765666579285,
+          "p50": 5.661449999024626,
+          "p95": 6.497285000568809
+        },
+        "tracker_ms": {
+          "mean": 0.3112373333472836,
+          "p50": 0.2735500002017943,
+          "p95": 0.5918299999393644
+        },
+        "threat_ms": {
+          "mean": 0.065977333366997,
+          "p50": 0.06190000021888409,
+          "p95": 0.09801000041989028
+        },
+        "decode_ms": {
+          "mean": 12.941110333425362,
+          "p50": 13.786850000542472,
+          "p95": 15.28096500060201
+        },
+        "render_queue_wait_ms": {
+          "mean": 0.43894433333359,
+          "p50": 0.058799999351322185,
+          "p95": 0.07611499922859366
+        },
+        "render_ms": {
+          "mean": 27.48056133337741,
+          "p50": 22.37425000021176,
+          "p95": 58.605545000864375
+        },
+        "encode_write_ms": {
+          "mean": 12.949885666621412,
+          "p50": 12.135850000049686,
+          "p95": 14.560759999221775
+        }
+      }
+    },
+    {
+      "case": "M2",
+      "repeat": 3,
+      "start_utc": "2026-10-18T01:55:21.622778+00:00",
+      "output": "artifacts\\external_benchmark\\M2_repeat3",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "-m",
+        "airavoid",
+        "data/qut/M2.mp4",
+        "--camera",
+        "fixed",
+        "--stride",
+        "2",
+        "--encoder",
+        "h264_nvenc",
+        "--render-process",
+        "--output",
+        "artifacts\\external_benchmark\\M2_repeat3"
+      ],
+      "frames": 438,
+      "external_process_wall_s": 21.482205899999826,
+      "external_process_fps": 20.388967596665832,
+      "pipeline_processing_fps": 24.218947647244843,
+      "pipeline_whole_run_fps": 21.259905799493158,
+      "reference": "demo/M2_final",
+      "exact_trace_equality": {
+        "detections.jsonl": true,
+        "decisions.jsonl": true
+      },
+      "stages": {
+        "detector_ms": {
+          "mean": 23.9895438355325,
+          "p50": 23.953800000526826,
+          "p95": 25.03389999992578
+        },
+        "network_calls": {
+          "mean": 7.0,
+          "p50": 7.0,
+          "p95": 7.0
+        },
+        "camera_ms": {
+          "mean": 5.751586073022666,
+          "p50": 6.034999999428692,
+          "p95": 7.076880000022356
+        },
+        "tracker_ms": {
+          "mean": 0.2894043378446814,
+          "p50": 0.22790000002714805,
+          "p95": 0.6805549999626234
+        },
+        "threat_ms": {
+          "mean": 1.8767719177970956,
+          "p50": 1.455649999115849,
+          "p95": 3.793684999345714
+        },
+        "decode_ms": {
+          "mean": 6.504359589141783,
+          "p50": 6.793849999667145,
+          "p95": 7.83795999986978
+        },
+        "render_queue_wait_ms": {
+          "mean": 1.4895136985627413,
+          "p50": 0.06509999911941122,
+          "p95": 7.9544850009369705
+        },
+        "render_ms": {
+          "mean": 24.24037876716861,
+          "p50": 23.334000001341337,
+          "p95": 34.49397499962288
+        },
+        "encode_write_ms": {
+          "mean": 12.324205936043098,
+          "p50": 11.891000000105123,
+          "p95": 13.412870000229304
+        }
+      }
+    },
+    {
+      "case": "S2_zoom",
+      "repeat": 3,
+      "start_utc": "2026-10-18T01:55:43.109136+00:00",
+      "output": "artifacts\\external_benchmark\\S2_zoom_repeat3",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "-m",
+        "airavoid",
+        "data/qut/S2.mp4",
+        "--camera",
+        "fixed",
+        "--stride",
+        "2",
+        "--encoder",
+        "h264_nvenc",
+        "--render-process",
+        "--output",
+        "artifacts\\external_benchmark\\S2_zoom_repeat3",
+        "--zoom-proposals"
+      ],
+      "frames": 438,
+      "external_process_wall_s": 29.99085770000056,
+      "external_process_fps": 14.604450608959803,
+      "pipeline_processing_fps": 16.477119600865482,
+      "pipeline_whole_run_fps": 15.040673173829216,
+      "reference": "demo/S2_zoom_final",
+      "exact_trace_equality": {
+        "detections.jsonl": true,
+        "decisions.jsonl": true
+      },
+      "stages": {
+        "detector_ms": {
+          "mean": 23.804997031934715,
+          "p50": 23.7409999999727,
+          "p95": 25.12324000008448
+        },
+        "network_calls": {
+          "mean": 9.41095890410959,
+          "p50": 7.0,
+          "p95": 19.0
+        },
+        "sky_proposal_ms": {
+          "mean": 21.912885616486214,
+          "p50": 0.0026999987312592566,
+          "p95": 109.91398500018477
+        },
+        "proposal_network_calls": {
+          "mean": 2.410958904109589,
+          "p50": 0.0,
+          "p95": 12.0
+        },
+        "camera_ms": {
+          "mean": 5.611239954359335,
+          "p50": 5.560600000535487,
+          "p95": 6.284814999708033
+        },
+        "tracker_ms": {
+          "mean": 0.10129589044726714,
+          "p50": 0.10335000024497276,
+          "p95": 0.18820500044967045
+        },
+        "threat_ms": {
+          "mean": 1.1576936073432071,
+          "p50": 1.3076000004730304,
+          "p95": 1.6455449995191884
+        },
+        "decode_ms": {
+          "mean": 6.394452968043094,
+          "p50": 6.5779999995356775,
+          "p95": 7.665019998603384
+        },
+        "render_queue_wait_ms": {
+          "mean": 0.4345787671630799,
+          "p50": 0.06434999977500411,
+          "p95": 0.093254999956116
+        },
+        "render_ms": {
+          "mean": 23.90513219173763,
+          "p50": 21.350200000597397,
+          "p95": 36.818134999521135
+        },
+        "encode_write_ms": {
+          "mean": 12.757515296832262,
+          "p50": 12.121900000238384,
+          "p95": 14.074900000196065
+        }
+      }
+    },
+    {
+      "case": "formation",
+      "repeat": 3,
+      "start_utc": "2026-10-18T01:56:13.103835+00:00",
+      "output": "artifacts\\external_benchmark\\formation_repeat3",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "-m",
+        "airavoid",
+        "data/formation_native.mp4",
+        "--camera",
+        "auto",
+        "--stride",
+        "2",
+        "--encoder",
+        "h264_nvenc",
+        "--render-process",
+        "--output",
+        "artifacts\\external_benchmark\\formation_repeat3"
+      ],
+      "frames": 300,
+      "external_process_wall_s": 27.47689899999932,
+      "external_process_fps": 10.918262646742175,
+      "pipeline_processing_fps": 12.59069787909071,
+      "pipeline_whole_run_fps": 11.28528850467627,
+      "reference": "demo/formation_final",
+      "exact_trace_equality": {
+        "detections.jsonl": true,
+        "decisions.jsonl": true
+      },
+      "stages": {
+        "detector_ms": {
+          "mean": 56.68817000005826,
+          "p50": 56.43839999993361,
+          "p95": 58.797334999690065
+        },
+        "network_calls": {
+          "mean": 17.0,
+          "p50": 17.0,
+          "p95": 17.0
+        },
+        "camera_ms": {
+          "mean": 5.975783333336342,
+          "p50": 5.690799999683804,
+          "p95": 6.604125000103523
+        },
+        "tracker_ms": {
+          "mean": 0.31367399999605067,
+          "p50": 0.27895000039279694,
+          "p95": 0.6317050008874503
+        },
+        "threat_ms": {
+          "mean": 0.06640499994925146,
+          "p50": 0.06269999994401587,
+          "p95": 0.10193500102104737
+        },
+        "decode_ms": {
+          "mean": 13.039081333414893,
+          "p50": 13.821100001223385,
+          "p95": 15.166070002032939
+        },
+        "render_queue_wait_ms": {
+          "mean": 0.2688833333619793,
+          "p50": 0.059100000726175494,
+          "p95": 0.07484000025215211
+        },
+        "render_ms": {
+          "mean": 27.874706666649825,
+          "p50": 23.367750000033993,
+          "p95": 58.65244999904462
+        },
+        "encode_write_ms": {
+          "mean": 13.053669999984171,
+          "p50": 12.186549999569252,
+          "p95": 14.71186000017042
+        }
+      }
+    }
+  ],
+  "environment": "RTX4060, sequential fresh Python processes, warm machine; no simultaneous project GPU jobs",
+  "limits": [
+    "Offline throughput, not streaming latency",
+    "OS/GPU/filesystem caches uncontrolled; not cold-boot timing",
+    "External wall timer excludes this launcher imports, includes child process imports, model startup and output completion",
+    "S2_zoom title differs from gallery; numeric traces compared, not encoded title pixels"
+  ]
+}

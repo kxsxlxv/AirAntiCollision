@@ -1,0 +1,26 @@
+[
+  {
+    "sequence": "M1",
+    "frames": 438,
+    "live_frames": 438,
+    "detection_mismatch_frames": 0,
+    "camera_validity_mismatch_frames": 0,
+    "state_reason_mismatch_frames": 0
+  },
+  {
+    "sequence": "M2",
+    "frames": 438,
+    "live_frames": 438,
+    "detection_mismatch_frames": 0,
+    "camera_validity_mismatch_frames": 0,
+    "state_reason_mismatch_frames": 0
+  },
+  {
+    "sequence": "S2",
+    "frames": 438,
+    "live_frames": 438,
+    "detection_mismatch_frames": 0,
+    "camera_validity_mismatch_frames": 0,
+    "state_reason_mismatch_frames": 0
+  }
+]

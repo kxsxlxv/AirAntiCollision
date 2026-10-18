@@ -1,0 +1,112 @@
+{
+  "kind": "Actual neural small-raster duplicate-input optimization, same 438 frames of derived real640x360RGB, no rendering",
+  "runs": [
+    {
+      "name": "before",
+      "processing_fps": 73.87682308140148,
+      "pipeline_whole_run_fps": 54.894145851415324,
+      "network_calls": {
+        "mean": 2.0,
+        "p50": 2.0,
+        "p95": 2.0
+      },
+      "states_track_frames": {
+        "uncertain": 415,
+        "nonthreat": 81,
+        "threat": 203
+      },
+      "counts": {
+        "approach": {
+          "total": 438,
+          "untracked": 105,
+          "detector_queried": 438,
+          "detected": 312,
+          "uncertain": 136,
+          "observed_by_detector": 333,
+          "reason_history": 31,
+          "reason_growth_unresolved": 38,
+          "reason_shrink_ambiguous": 9,
+          "reason_aspect": 9,
+          "reason_overlap": 36,
+          "reason_confirm_warning": 12,
+          "threat": 197,
+          "reason_bearing_growth": 197,
+          "reason_clipped": 1
+        },
+        "other": {
+          "total": 199,
+          "untracked": 25,
+          "detector_queried": 199,
+          "detected": 159,
+          "uncertain": 93,
+          "observed_by_detector": 174,
+          "reason_history": 29,
+          "reason_growth_unresolved": 29,
+          "reason_confirm_non_threat": 31,
+          "nonthreat": 81,
+          "reason_crossing": 81,
+          "reason_clipped": 4
+        }
+      },
+      "detections_sha256": "65a34b8505509a981c867e6283dea57cccfe612ac727e5a36f95d06e9cb112b8",
+      "decisions_sha256": "48679c8a55436b5c0615dbca5be83af7bf7e7558fb03189b7eaf18e5c42523b0"
+    },
+    {
+      "name": "after",
+      "processing_fps": 99.34208999833902,
+      "pipeline_whole_run_fps": 68.00412353405227,
+      "network_calls": {
+        "mean": 1.0,
+        "p50": 1.0,
+        "p95": 1.0
+      },
+      "states_track_frames": {
+        "uncertain": 415,
+        "nonthreat": 81,
+        "threat": 203
+      },
+      "counts": {
+        "approach": {
+          "total": 438,
+          "untracked": 105,
+          "detector_queried": 438,
+          "detected": 312,
+          "uncertain": 136,
+          "observed_by_detector": 333,
+          "reason_history": 31,
+          "reason_growth_unresolved": 38,
+          "reason_shrink_ambiguous": 9,
+          "reason_aspect": 9,
+          "reason_overlap": 36,
+          "reason_confirm_warning": 12,
+          "threat": 197,
+          "reason_bearing_growth": 197,
+          "reason_clipped": 1
+        },
+        "other": {
+          "total": 199,
+          "untracked": 25,
+          "detector_queried": 199,
+          "detected": 159,
+          "uncertain": 93,
+          "observed_by_detector": 174,
+          "reason_history": 29,
+          "reason_growth_unresolved": 29,
+          "reason_confirm_non_threat": 31,
+          "nonthreat": 81,
+          "reason_crossing": 81,
+          "reason_clipped": 4
+        }
+      },
+      "detections_sha256": "65a34b8505509a981c867e6283dea57cccfe612ac727e5a36f95d06e9cb112b8",
+      "decisions_sha256": "48679c8a55436b5c0615dbca5be83af7bf7e7558fb03189b7eaf18e5c42523b0"
+    }
+  ],
+  "exact_detection_trace_equality": true,
+  "exact_decision_trace_equality": true,
+  "limits": [
+    "Same resized studied encounter, not independent validation",
+    "No-render throughput, not annotated-video performance",
+    "Single paired run; source-scale quality differs from original1280RGB"
+  ]
+}

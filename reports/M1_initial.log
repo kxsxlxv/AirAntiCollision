@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\kisel\PycharmProjects\AirAntiCollision\airavoid\__main__.py", line 2, in <module>
+    main()
+  File "C:\Users\kisel\PycharmProjects\AirAntiCollision\airavoid\cli.py", line 48, in main
+    for _ in range(5):detector(first)
+                      ^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\AirAntiCollision\airavoid\detector.py", line 79, in __call__
+    boxes = [self._infer(image)]
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\AirAntiCollision\airavoid\detector.py", line 59, in _infer
+    x = np.ascontiguousarray(padded[:,:,::-1].transpose(2,0,1)[None], dtype=self.input_dtype)/self.input_dtype(255)
+                                                                                              ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'numpy.dtypes.Float32DType' object is not callable

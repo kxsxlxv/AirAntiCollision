@@ -1,0 +1,98 @@
+{
+  "definition": "QUT encounter-category proxy, not physical collision ground truth",
+  "trace": "artifacts/correlation_dev/M6/decisions.jsonl",
+  "gt": "data/qut_full/M6.gt.json",
+  "centroid_tolerance_px": 20,
+  "warning_persistence_s": 0.8,
+  "frames": 649,
+  "counts": {
+    "other": {
+      "total": 198,
+      "untracked": 46,
+      "detector_queried": 198,
+      "detected": 155,
+      "uncertain": 150,
+      "observed_by_detector": 152,
+      "reason_history": 11,
+      "reason_growth_unresolved": 88,
+      "reason_confirm_non_threat": 14,
+      "reason_overlap": 31,
+      "reason_confirm_warning": 2,
+      "threat": 2,
+      "reason_bearing_growth": 2,
+      "reason_aspect": 3,
+      "reason_clipped": 1
+    },
+    "approach": {
+      "total": 223,
+      "untracked": 15,
+      "detector_queried": 223,
+      "detected": 208,
+      "uncertain": 159,
+      "observed_by_detector": 208,
+      "reason_history": 16,
+      "reason_growth_unresolved": 74,
+      "reason_aspect": 46,
+      "reason_overlap": 10,
+      "reason_association": 10,
+      "reason_confirm_warning": 3,
+      "threat": 49,
+      "reason_bearing_growth": 49
+    }
+  },
+  "growth_only_baseline": {
+    "other": {
+      "growth_only_untracked": 46,
+      "growth_only_uncertain": 114,
+      "growth_only_threat": 38
+    },
+    "approach": {
+      "growth_only_untracked": 15,
+      "growth_only_uncertain": 152,
+      "growth_only_threat": 56
+    }
+  },
+  "events": [
+    {
+      "id": "other_M6_labels",
+      "kind": "other",
+      "sampled_frames": 198,
+      "sustained_warning": false,
+      "first_warning_time_s": null,
+      "max_warning_duration_s": 0.4000000000000057,
+      "any_apparently_non_threat": false,
+      "associated_track_ids": [
+        40,
+        42
+      ],
+      "fragments": 2,
+      "growth_only_baseline_sustained_warning": true
+    },
+    {
+      "id": "approach_M6_labels",
+      "kind": "approach",
+      "sampled_frames": 223,
+      "sustained_warning": true,
+      "first_warning_time_s": 119.19999999999999,
+      "max_warning_duration_s": 9.80000000000014,
+      "any_apparently_non_threat": false,
+      "associated_track_ids": [
+        43,
+        44
+      ],
+      "fragments": 2,
+      "growth_only_baseline_sustained_warning": true
+    }
+  ],
+  "unmatched_track_frames": {
+    "uncertain": 64,
+    "threat": 6
+  },
+  "limitations": [
+    "centroids approximate/interpolated",
+    "no GT boxes or CPA",
+    "other objects not necessarily exhaustively labeled",
+    "unmatched warnings are not verified false alerts",
+    "missed warning and false-safe on approach are distinct"
+  ]
+}

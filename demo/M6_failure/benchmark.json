@@ -1,0 +1,19 @@
+{
+  "kind": "Recorded-decision video excerpt; no neural inference or throughput measurement",
+  "input": "data/qut_full/M6.mp4",
+  "input_sha256": "e98eae3f45fcfe3cdb0af0f8f470b94d7c1706730da4dd346cc89b992814d54e",
+  "decision_trace": "artifacts/clip_history_audit/M6/decisions.jsonl",
+  "decision_trace_sha256": "0ea37131614fbae19049d1ee904b2c8bccef867dca867c67e30fce667e8b711e",
+  "source_time_interval_s": [
+    90.0,
+    102.0
+  ],
+  "frames": 300,
+  "states_track_frames": {
+    "uncertain": 616,
+    "threat": 26
+  },
+  "history": "Reconstructed from observed box centers for drawing only; recorded assessments and advisory unchanged",
+  "timestamp_meaning": "Video starts at0, on-video clock retains original source time",
+  "title": "M6 \u2022 \u043f\u0440\u0435\u0434\u0443\u043f\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u043f\u043e \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438 other: \u043e\u0444\u043b\u0430\u0439\u043d-\u0440\u0430\u0437\u0431\u043e\u0440"
+}

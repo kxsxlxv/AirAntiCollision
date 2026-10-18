@@ -1,0 +1,4138 @@
+{
+  "kind": "Existing rendered synthetic RGB, left camera, detection-only diagnostic",
+  "source": "https://github.com/micros-uav/micros_air2land",
+  "source_root": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash",
+  "license": "CC-BY as stated by authors",
+  "selection": "Four predetermined variant IDs000,012,024,035; all existing paired image/metadata frames",
+  "missing_color_images": [
+    "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000001-color.jpg"
+  ],
+  "rows": [
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000000-color.jpg",
+      "box_xywh": [
+        562.0,
+        342.0,
+        147.0,
+        49.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000000-meta.mat",
+      "image_sha256": "ee4c07915dae9735193277b83c250fbb8824da337751f9500a21db138731f1fc",
+      "metadata_sha256": "bcc628cbbc602bbef5b7a940b92e70941a0ef8e534c0ba3e2a58e5d3a170f90f"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000001-color.jpg",
+      "box_xywh": [
+        561.0,
+        342.0,
+        148.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000001-meta.mat",
+      "image_sha256": "f6b93f956c8ffd3dcaad892c049da40e99a0ac59fcc5912507a6131feae6267b",
+      "metadata_sha256": "0a0f79924aadf8e151afd20cb6b1e7f82a81c375ca37430f1d22e55c9ebfc681"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000002-color.jpg",
+      "box_xywh": [
+        561.0,
+        342.0,
+        149.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000002-meta.mat",
+      "image_sha256": "39a75d7a267fc2ef670ff193a9018fc3c46891e623e7a8e17cad0b715244437d",
+      "metadata_sha256": "c0ed1ac879aeef565634ae9cd59957a581a8caadd8da43cd2ef8574aa18da3ba"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000003-color.jpg",
+      "box_xywh": [
+        560.0,
+        343.0,
+        150.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000003-meta.mat",
+      "image_sha256": "99ea6a462e2a559baab2a217eafa55bfcd8a871d0873494dafedd66e0f651474",
+      "metadata_sha256": "615f0a5cabf6cebfe3fd49e19102896e2c9a870f858491b704c0747ecb7f1dbf"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000004-color.jpg",
+      "box_xywh": [
+        560.0,
+        341.0,
+        150.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000004-meta.mat",
+      "image_sha256": "4e9533c899a7f7639628f8d835c7a1fad54faa4eb3da508a6874e408fa09ec5d",
+      "metadata_sha256": "15a97fd36347eef86ddf1129d54814ac289450e03df59f5f4d27e8d78f95cd94"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000005-color.jpg",
+      "box_xywh": [
+        560.0,
+        341.0,
+        150.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000005-meta.mat",
+      "image_sha256": "ac70c86bae0d8c6140584b0bb24b9a7d8c92eecb1a16c50c30a4bfa06694057a",
+      "metadata_sha256": "1e635970a6de68133b19fcb292324ec42165475643fcb0e035c5f2947828e8d0"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000006-color.jpg",
+      "box_xywh": [
+        559.0,
+        341.0,
+        151.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000006-meta.mat",
+      "image_sha256": "fde29d18781e5e441d58ebce1b1b6cc46455c8a7a5e1afaf3cb7195b29ad5191",
+      "metadata_sha256": "e344ff091fa282e0e654eb745166b86636dfff8435ef258ce60dbf9cbcb3db89"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000007-color.jpg",
+      "box_xywh": [
+        559.0,
+        342.0,
+        151.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000007-meta.mat",
+      "image_sha256": "3c2044f33f20587d791aacac7263ae41cfe7f198f3ebd1f4a969edd3abbbb84c",
+      "metadata_sha256": "106168d6d6ecc683713f3a21bc7cc55c57c58e576ca95b4eabe45ce605ee4e56"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000008-color.jpg",
+      "box_xywh": [
+        564.0,
+        341.0,
+        152.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000008-meta.mat",
+      "image_sha256": "47f9770148d413dce19e670db3d24238d2675e58caeea3cacb4e40c91aa9eb9b",
+      "metadata_sha256": "da16d5b6fd2de971429be72166e6928cd15d5d5afd00a74f622ec2b99f6cb05a"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000009-color.jpg",
+      "box_xywh": [
+        558.0,
+        342.0,
+        152.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000009-meta.mat",
+      "image_sha256": "011e76c4f056acddb5e84e29a148714992b5c19aa071dfde896c23419af292b1",
+      "metadata_sha256": "27502cf8b2e51349b45adf9569c0bb4892b6083e3624063b9e2cbafe80c697dd"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000010-color.jpg",
+      "box_xywh": [
+        558.0,
+        342.0,
+        153.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000010-meta.mat",
+      "image_sha256": "204d948ec85dc2d9b2794a7329e9462d491ae854189700fd623840fe6369a920",
+      "metadata_sha256": "8bb4b65e17bd6e52aa0130cbcd156607241a445ccabae349d8ea5b2c2435f53e"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000011-color.jpg",
+      "box_xywh": [
+        557.0,
+        342.0,
+        154.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000011-meta.mat",
+      "image_sha256": "cee2b1a930594f7a0b332b2bb182d1dc08bb1fdee346a1f9db4b7f6231cd1821",
+      "metadata_sha256": "5aa2860b179705e6e6d771a30846899148e778cdc293f1915e4a52aabd454811"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000012-color.jpg",
+      "box_xywh": [
+        557.0,
+        342.0,
+        154.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000012-meta.mat",
+      "image_sha256": "ca1620be6928eae579401442478a4a589ac52f1b46c1103b6bdda7e7a73d9dcd",
+      "metadata_sha256": "4b8e49053775fcca2714e73a2b329f3f0a3b7392c76182ab6f575d8017b67299"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000013-color.jpg",
+      "box_xywh": [
+        557.0,
+        342.0,
+        154.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000013-meta.mat",
+      "image_sha256": "b96b7fec6abd7bf51b1563d8e9253c20976d7e98bc3cae0a4d3af0bad3c6addc",
+      "metadata_sha256": "5feb3e3b1c8fa5e0fd5bc5d37ec91dc670224ee37bda076cbb05015ea657fd4e"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000014-color.jpg",
+      "box_xywh": [
+        556.0,
+        342.0,
+        155.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000014-meta.mat",
+      "image_sha256": "014f292126b60fbfa24b03e96f959d02fe0cb7a8b344f991ed56da14d8b75898",
+      "metadata_sha256": "16c2f962c2b1e5758c28d72dd159c3a79a3f6b384896f4ce0b9c0e9bf5df57c7"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000015-color.jpg",
+      "box_xywh": [
+        556.0,
+        342.0,
+        155.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000015-meta.mat",
+      "image_sha256": "453ff883d7030178eae241dcc9baf6c5065731e710188ee7bab95272555f572b",
+      "metadata_sha256": "1f9f3127d9c372ba1c4ce1e8c57a4243faf9752e3e0a196f561fcb931ef5bb8b"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000016-color.jpg",
+      "box_xywh": [
+        555.0,
+        342.0,
+        157.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000016-meta.mat",
+      "image_sha256": "6004920ce4c8d14f94e2ec5b0b4608018470234344191aa3964a9923b57144a8",
+      "metadata_sha256": "8308abdbb37f1c814c7502663362b4743c0aec3607bd39d1b664760adee661bd"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000017-color.jpg",
+      "box_xywh": [
+        555.0,
+        342.0,
+        157.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000017-meta.mat",
+      "image_sha256": "69001fc979b58c5e2e2cee0c76f4b2c249e6062dca07d825bd7e1e64e04f8f01",
+      "metadata_sha256": "4e502dd06c9f926fe8397986df6cc07a72a5ca091af9609ff58fee49548dd4ae"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000018-color.jpg",
+      "box_xywh": [
+        554.0,
+        342.0,
+        158.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000018-meta.mat",
+      "image_sha256": "ab92064d68c0b7ed8b7dc5906e33be42a1cd07d106802e2671dd184a74888659",
+      "metadata_sha256": "20f373684cf311ce9711add1674ae68654c8d209deaa1e8d9d364fa755971d21"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000019-color.jpg",
+      "box_xywh": [
+        554.0,
+        342.0,
+        158.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000019-meta.mat",
+      "image_sha256": "b22fc13f94060a6f197f41737d56cf0b8beb9da2410a1afb89da934083154ff8",
+      "metadata_sha256": "f09b72468c586e12079dcccd3163a0d1efe7c856757db2cefb03c08fe65eb40b"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000020-color.jpg",
+      "box_xywh": [
+        554.0,
+        341.0,
+        159.0,
+        53.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000020-meta.mat",
+      "image_sha256": "e0db2d234d2208c70910887bddc72368ca91149ab4185e61a511cce06405f259",
+      "metadata_sha256": "513ade905d203dd1448aa8b36c3e38cd1c514b1455050ab7c9917832477930dd"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000021-color.jpg",
+      "box_xywh": [
+        555.0,
+        339.0,
+        157.0,
+        55.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000021-meta.mat",
+      "image_sha256": "632c04f73bba54ccdcc5fd5f254feb6bcc2196f40f3394e178986d1a22eb55ad",
+      "metadata_sha256": "3538c7fd8342ac06004fe7167084cb1cec44892a051d82c10eaea24f0417b3b2"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000022-color.jpg",
+      "box_xywh": [
+        558.0,
+        332.0,
+        152.0,
+        70.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000022-meta.mat",
+      "image_sha256": "fed7e74f420ab9f4b23205542e947f365118be69a5590d165401f449c30ab10b",
+      "metadata_sha256": "d8dcc720f3d10347ac58895aa196d5e7da92f47ac657dd0f2516e49c407a4e54"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000023-color.jpg",
+      "box_xywh": [
+        563.0,
+        321.0,
+        142.0,
+        92.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000023-meta.mat",
+      "image_sha256": "d112a7fa7a8f56a0e8ff56aecdabbc99057e1599f6f834fbe4b5056830211841",
+      "metadata_sha256": "28f6f39d96f5aca696028724cae4c13f3a1326ed21db3d755f838f564f14d9a1"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000024-color.jpg",
+      "box_xywh": [
+        568.0,
+        313.0,
+        131.0,
+        108.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000024-meta.mat",
+      "image_sha256": "32c54d2ab7ec0bd256b1af15810183f237bdcde94aa8b7a47d49e9ef4cdb4ec4",
+      "metadata_sha256": "06c430c7429354a265ff46434ae339c6f18266f9e5390df580853a545374d6f8"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000025-color.jpg",
+      "box_xywh": [
+        572.0,
+        307.0,
+        122.0,
+        120.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000025-meta.mat",
+      "image_sha256": "d2b2afeed7876933bdaa4954408dcb8fa36c392cf883d497fb5137acfd4823bd",
+      "metadata_sha256": "5d783b0982b38774e53c3a2325987c194ac0c100fbbd68d61dcbe5730cf2f369"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000026-color.jpg",
+      "box_xywh": [
+        575.0,
+        304.0,
+        114.0,
+        126.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000026-meta.mat",
+      "image_sha256": "9cebb009ffc4705a635f177434c2626ee22f8e01b1e12072e8dceec88ed7f529",
+      "metadata_sha256": "5a154fa5f59a363f7b3b64172b126366ee4855812f6dc93015e24cecea9162fe"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000027-color.jpg",
+      "box_xywh": [
+        578.0,
+        302.0,
+        105.0,
+        131.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000027-meta.mat",
+      "image_sha256": "c2d513ec64b5bd675c5e860fc5aec8d4b05132da16a1ee91d68348f3d48c6748",
+      "metadata_sha256": "502ce6ca90d62babb8e35320e2cdc1b3075836250beed9a33c3c4f7747008ead"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000028-color.jpg",
+      "box_xywh": [
+        581.0,
+        300.0,
+        96.0,
+        134.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000028-meta.mat",
+      "image_sha256": "e7024c86817452a8f717c08e32a6f3f9c1ed4989f1bd355b1caadb25453693da",
+      "metadata_sha256": "9f02430f94ad9a7c6994678fedcb107be82346d49c5df45d2574e411aa07447f"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000029-color.jpg",
+      "box_xywh": [
+        585.0,
+        299.0,
+        89.0,
+        135.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000029-meta.mat",
+      "image_sha256": "cc7903e52676cb0c05ba0750597cdb64dbf528429e874e1003b7c5e093630e2d",
+      "metadata_sha256": "b2d75799c727c800ccb6606c374774a58831d0cb94c233d1db4397d5a0230930"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000030-color.jpg",
+      "box_xywh": [
+        588.0,
+        298.0,
+        89.0,
+        136.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000030-meta.mat",
+      "image_sha256": "57845cfb023428cb48a88d2d16b69e09f4798e5296e734c80621dedd4523e568",
+      "metadata_sha256": "ee5363835273605bf22e2d9ba3d9e2ea0ae7b0d0b854c617098d0319280d9142"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000031-color.jpg",
+      "box_xywh": [
+        583.0,
+        297.0,
+        97.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000031-meta.mat",
+      "image_sha256": "de55771849fc589e1b886b319a598c2b1d2cdbff4f8bad15529aca569c5105e4",
+      "metadata_sha256": "8ee4f0990ec9e2378324c8e31a56287100f06b5e67562acadb1573252607ca48"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000032-color.jpg",
+      "box_xywh": [
+        579.0,
+        297.0,
+        104.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000032-meta.mat",
+      "image_sha256": "e727fae3a34b22c7eb640ed02bbcf5d1b313909c7ad7e907854e71c86abd26d6",
+      "metadata_sha256": "b6cd2768f2bfc854db7018e17c9e5e7a2a8886441017739d7d44c829a6a81a39"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000033-color.jpg",
+      "box_xywh": [
+        576.0,
+        297.0,
+        109.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000033-meta.mat",
+      "image_sha256": "b9f9192a21f03bfb9f3ee5ef09fa1a13d78ea27dfafb451ff6b55cc36c8303a0",
+      "metadata_sha256": "17f5b66e88b97dc0f61de5e4bbfda2d05a1a35c9fa4ccc7c71e38f0d7f0c434f"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000034-color.jpg",
+      "box_xywh": [
+        574.0,
+        296.0,
+        113.0,
+        138.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000034-meta.mat",
+      "image_sha256": "58e9b842459ec54b58c2a1219308d10482b9ae55712670a2f4ce3dc3a66146b4",
+      "metadata_sha256": "e148e3682fda8b65db5b11755c43f285554ac922cc3155f12ef15beeeb653b74"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000035-color.jpg",
+      "box_xywh": [
+        572.0,
+        296.0,
+        116.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000035-meta.mat",
+      "image_sha256": "4ff87b5f9bb4e6ce6d5225f3ad5a957870ddf7be4f654a52cd8d0a2ad8ef741f",
+      "metadata_sha256": "54b0ae7a3c4bbab4281a7f7f6de05777a386865b1addfdaf28eac3c948f841db"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000036-color.jpg",
+      "box_xywh": [
+        568.0,
+        297.0,
+        121.0,
+        135.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000036-meta.mat",
+      "image_sha256": "eff453f6679affa321011cb320fc31acfea1142d7193b64d2ca711a53cd995fd",
+      "metadata_sha256": "97397aabdb5f5033738dca178511d8f5e4c6e4d5fdf4957e922664315153cc8c"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000037-color.jpg",
+      "box_xywh": [
+        564.0,
+        299.0,
+        125.0,
+        131.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000037-meta.mat",
+      "image_sha256": "5b4c1407c8557dd8280f588ddbf0aa34bf34c2e5b3041d9ec10d929766e75110",
+      "metadata_sha256": "45d5d86b0b8d36d9a4a171c6fb72c62f2a7867a78a577aae3f51788064bfcff9"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000038-color.jpg",
+      "box_xywh": [
+        562.0,
+        301.0,
+        126.0,
+        127.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000038-meta.mat",
+      "image_sha256": "07c00761f5aec1cef183d8025c4e9ba0db775756b6ec2e427f19cfc61d012606",
+      "metadata_sha256": "549696ac9c30e96f53eccf234c6b5b06fb55556addb1700a7ad3ec6a50b32486"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000039-color.jpg",
+      "box_xywh": [
+        561.0,
+        303.0,
+        126.0,
+        122.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000039-meta.mat",
+      "image_sha256": "9cf8a81af1f9cdacbc8706602f6c743e69056c8b5dc4d441d8a115e99319c42e",
+      "metadata_sha256": "159f95a07d0704009cec1691462e7f7969b737ab6a750e9d5b77150eab1f7b56"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000040-color.jpg",
+      "box_xywh": [
+        562.0,
+        306.0,
+        122.0,
+        116.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000040-meta.mat",
+      "image_sha256": "2c4fb1c10aa93f69dea596ff94ba39cd26c2862c41d55168d32e21b511e594f6",
+      "metadata_sha256": "eab9c9bf25c34aabd021132520d42889962603c76e9b750ccd53e76abae23d08"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000041-color.jpg",
+      "box_xywh": [
+        563.0,
+        308.0,
+        119.0,
+        111.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000041-meta.mat",
+      "image_sha256": "46c12c5d40c9ec8fd9c98a6736782e195016872e141a15734f3d3b95144dfeb2",
+      "metadata_sha256": "5916f58629d66a6096cf228ea76d3acfa31d1b21a6a8740fb9633991de4b9248"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000042-color.jpg",
+      "box_xywh": [
+        565.0,
+        311.0,
+        114.0,
+        105.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000042-meta.mat",
+      "image_sha256": "d94b45c6f5e75259d863f2a0124596e1d827a64db843fddd2bc9dc938bd67367",
+      "metadata_sha256": "ee2a7914db2008941e2219d029f13947065c5a573af8558001210c9768174613"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000043-color.jpg",
+      "box_xywh": [
+        565.0,
+        313.0,
+        120.0,
+        101.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000043-meta.mat",
+      "image_sha256": "ced7665b5ead358a7d84c2cf507009b3df2086bc3a037ecd9b76a7d660598e76",
+      "metadata_sha256": "30cabe224264b932f2d4c98565017e5e383b814c968846e48812dd972e6c9afe"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000044-color.jpg",
+      "box_xywh": [
+        564.0,
+        316.0,
+        127.0,
+        95.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000044-meta.mat",
+      "image_sha256": "6a047ba5fb1d0a6e7fdd53b398e053c2e87f4974d268dfc8b6fbdeb929f0ed6e",
+      "metadata_sha256": "a1e9d224371e2400c8f58891df1053e8c065d121cd18eed66c96a090c88ac4e1"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000045-color.jpg",
+      "box_xywh": [
+        562.0,
+        317.0,
+        134.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000045-meta.mat",
+      "image_sha256": "05f238abbcd59d409e1623a8affd1c9f2392d01936e70abba93d6da1caa32449",
+      "metadata_sha256": "26c0e79ef3dfe4152543262e0ba096529c93d2d1b8af742d4b82c84d445b84ed"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000046-color.jpg",
+      "box_xywh": [
+        558.0,
+        320.0,
+        142.0,
+        82.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000046-meta.mat",
+      "image_sha256": "391bc7576997594b86ce2ffcb2ef72501d58a77df5ba14b0f4e4969edb35b7c4",
+      "metadata_sha256": "c3fd928751c1da730a67816cd2aef458386067aaadcab4917cd0249748cb1657"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000047-color.jpg",
+      "box_xywh": [
+        555.0,
+        322.0,
+        155.0,
+        81.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000047-meta.mat",
+      "image_sha256": "967bc319ef23c2080b4ea1c4ae9a4e038c7003ccaceeff03b83eb56196013ef3",
+      "metadata_sha256": "7b8de1ec9dd1687a5be6d7d841f7e8b845f82bafb0b204e78dd05d86f92cff9e"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000048-color.jpg",
+      "box_xywh": [
+        555.0,
+        323.0,
+        158.0,
+        80.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000048-meta.mat",
+      "image_sha256": "224d4f7247296c968a6c1f226c5eb0374bc66d277e8918d949b726366e4b707e",
+      "metadata_sha256": "2fa96e8012abe10671a13d7dd5c9476060a4660f06462e5b62a8c90cfc9a2d02"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000049-color.jpg",
+      "box_xywh": [
+        555.0,
+        324.0,
+        159.0,
+        79.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000049-meta.mat",
+      "image_sha256": "8ea5a0df09dea708b3efe3af4b7d6e34c85d6085e094e372a091c5cf0a9642a2",
+      "metadata_sha256": "45a09a9aff75f1c45e7244ada3fcb2f5e8f9f7ab212167c7b6d7a0aa08ad8f10"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000050-color.jpg",
+      "box_xywh": [
+        555.0,
+        325.0,
+        160.0,
+        78.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000050-meta.mat",
+      "image_sha256": "93efbfe1b932b3169f5920e117b7cf1be8c96c8579c05c5b589307cfa4f52ee2",
+      "metadata_sha256": "d971736c4e6c4566ed27028698cd11298850034ee7dd6b0cf6b93be6cd82bb88"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000051-color.jpg",
+      "box_xywh": [
+        555.0,
+        325.0,
+        159.0,
+        79.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000051-meta.mat",
+      "image_sha256": "ae82bedcbff2472622fbf2a3269a07309c990648f0870ee6ff8b375bdb6e1a5d",
+      "metadata_sha256": "f0de274f46339cac4fc45b6d6289021fc6658e39a44e9dec62dc5bafef681b2c"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000052-color.jpg",
+      "box_xywh": [
+        556.0,
+        325.0,
+        159.0,
+        79.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000052-meta.mat",
+      "image_sha256": "b724000d62c8e7e7bfc0387f7b3fa61edaf40dedd33d8297650483c14a74e079",
+      "metadata_sha256": "9d32694b6201f639a7e9551ad7bbd1df0c3ad354ad4a9198079e4b658172ec4b"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000053-color.jpg",
+      "box_xywh": [
+        557.0,
+        324.0,
+        158.0,
+        80.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000053-meta.mat",
+      "image_sha256": "b8516b028162bf8b7ebae47105e259ca0e89d081302e63f0240cf7e1a0458139",
+      "metadata_sha256": "450706c7ba39baa839fb6c901964c4542c1097ab985d1fa8460e7584906f4606"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000054-color.jpg",
+      "box_xywh": [
+        560.0,
+        321.0,
+        154.0,
+        83.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000054-meta.mat",
+      "image_sha256": "444b2f857d5cb18d99ca62b493b1868a86eae26bbdf6264048720763029089b9",
+      "metadata_sha256": "9a452d3696f589d1227391a632b406f823883a8ccc0633c9064e91ad218a0d39"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000055-color.jpg",
+      "box_xywh": [
+        564.0,
+        319.0,
+        148.0,
+        84.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000055-meta.mat",
+      "image_sha256": "8462f37a1d3620d5cdea941b4e1284c79f6cf3c31f626074f10facd7eab0a2e9",
+      "metadata_sha256": "a9b9da437226177220212f8eb9c6538ae6856e4f167d8f82e8252e8cea4b4728"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000056-color.jpg",
+      "box_xywh": [
+        568.0,
+        319.0,
+        141.0,
+        83.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000056-meta.mat",
+      "image_sha256": "1e74b47768d5050bfd3c1cfe2c9e965b2e2769c47c6a7dfd99098f9f23b923fa",
+      "metadata_sha256": "74a279d9585b36891d6e1e83a980212a716929b060de40af59672dc6b987a9c1"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000057-color.jpg",
+      "box_xywh": [
+        570.0,
+        318.0,
+        136.0,
+        86.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000057-meta.mat",
+      "image_sha256": "6e4a0d84b661979c4ccc1ed1d0091afb598a6061b63c778338083214c1a9d0ee",
+      "metadata_sha256": "8e5d1cb397d560612aebc396ee220f4754423f72342c34ddc7e994f373821aaa"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000058-color.jpg",
+      "box_xywh": [
+        572.0,
+        318.0,
+        131.0,
+        87.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000058-meta.mat",
+      "image_sha256": "2c6d08361e7f3e77af57c4efd367390acbc749d7e6d27e98e9c7117bf9659904",
+      "metadata_sha256": "0b7efd26c87a258e130c623001d9a3d8fd01ecab8d3690b706b83afa68819d13"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000059-color.jpg",
+      "box_xywh": [
+        572.0,
+        317.0,
+        127.0,
+        89.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000059-meta.mat",
+      "image_sha256": "d3b1b36359a768d10171310033a6e32c97882ee4b493e1f872eb27e5c7aceb97",
+      "metadata_sha256": "6358b046966912615a8aae8392eae88773892738d5081b8adb722517d9f576fd"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000060-color.jpg",
+      "box_xywh": [
+        576.0,
+        320.0,
+        122.0,
+        89.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000060-meta.mat",
+      "image_sha256": "1c57787c41d88bfe986872cbc97dd1282cd1b037bbb5e5ed7bed367d3c092d98",
+      "metadata_sha256": "b3f0601b2173c6773533d0a79bf7b3ba53367b9d6af22a7e8945a429673952f4"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000061-color.jpg",
+      "box_xywh": [
+        577.0,
+        316.0,
+        117.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000061-meta.mat",
+      "image_sha256": "3746d61900ea7307bfdcefef1a88e4ebac49c8f9a9b851d322fffbb76f0c460e",
+      "metadata_sha256": "c2727f8c620a022c822a6a5e374d9162c17948df755b423868a7d227095927af"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000062-color.jpg",
+      "box_xywh": [
+        578.0,
+        316.0,
+        112.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000062-meta.mat",
+      "image_sha256": "7f41cf9b5f5a705352d73c1b198e29c530d6dff20195c8dafab71a04a3a3e387",
+      "metadata_sha256": "0f4274953142da4c8e359d4f71e8bb9b6c6f1d52c69de7f0e0964ec90d6523c9"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000063-color.jpg",
+      "box_xywh": [
+        580.0,
+        316.0,
+        106.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000063-meta.mat",
+      "image_sha256": "8c7a5ec56e718d22626f49b18b5c4d0fba1d8bc00ceec1a116a5599a22349fb4",
+      "metadata_sha256": "a25d5bc0773dc396e71b46c9b160daa58866b2e2ebd0dcf625d32bf74164868e"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000064-color.jpg",
+      "box_xywh": [
+        583.0,
+        316.0,
+        99.0,
+        92.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000064-meta.mat",
+      "image_sha256": "9d330cc2d93aecd904ea10fbd0cc917854011e102d7dc8364e0b8fbea733d0b4",
+      "metadata_sha256": "4b81df014279ae8a6ada6a3cc7b929822b44dae7c158e8b2a26620a13dba4cea"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000065-color.jpg",
+      "box_xywh": [
+        585.0,
+        316.0,
+        92.0,
+        92.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000065-meta.mat",
+      "image_sha256": "db499884b690fe689e0731fbc716ae108d1305fcfd1dfb4d80f6dd8d2af0fc20",
+      "metadata_sha256": "c290b6fe9f2c997e1433b8d4973c070378c5458d6cb3bfcbc37ec9da4d61b204"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000066-color.jpg",
+      "box_xywh": [
+        588.0,
+        316.0,
+        84.0,
+        93.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000066-meta.mat",
+      "image_sha256": "8344fc43c1a2ebc5bf6b49070a3a178c7cbc67d3ee230976fdae3f5dd1d97061",
+      "metadata_sha256": "47e76186bd86f696c0a036af13ad0d9bbeffd6615952c86bb7ea9768e07ac493"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000067-color.jpg",
+      "box_xywh": [
+        590.0,
+        316.0,
+        83.0,
+        93.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000067-meta.mat",
+      "image_sha256": "e0ddc516be5ad66510000514af286f2fcec5efa13d7d19cd7e57b964e3cf31e2",
+      "metadata_sha256": "b147feffbeaec6a66ed17ff843fe5e9336c1ca5c2b4a1ed7888609b7d7a6ef37"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000068-color.jpg",
+      "box_xywh": [
+        591.0,
+        315.0,
+        85.0,
+        96.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000068-meta.mat",
+      "image_sha256": "b1d03bdf60ee414ee243c7a493011b3099a0bf8628c3aa61269d88940359f9dc",
+      "metadata_sha256": "2b39eeadd1ac8d85ce1823e94f6e6e76719b75bcd1c165b4f3c58f88cf46220b"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000069-color.jpg",
+      "box_xywh": [
+        589.0,
+        315.0,
+        89.0,
+        97.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000069-meta.mat",
+      "image_sha256": "b85098e0c6905853859ac04aae4cda0c5f31a0b02c6c9958b0bd58f898ff306d",
+      "metadata_sha256": "0d3452447f6b2cf4bbac79be2bdd5b8d5b60152bdd4c9a21130a6e2b5e3c037e"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000070-color.jpg",
+      "box_xywh": [
+        586.0,
+        314.0,
+        93.0,
+        99.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000070-meta.mat",
+      "image_sha256": "30c0ce1b23d0f70a94091c6b65ce671cc2dca2f9c007019f196d2ad711722194",
+      "metadata_sha256": "75ffb85a9bc7b2a1e1a5f92d2b98ddc09cba67e071c624658c198654f880fa0c"
+    },
+    {
+      "variant": "000",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000071-color.jpg",
+      "box_xywh": [
+        585.0,
+        313.0,
+        96.0,
+        101.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\000\\left\\000071-meta.mat",
+      "image_sha256": "d685135676d70f3e148666d4b694be0306f014075830edc2dd8d6c9c0826005a",
+      "metadata_sha256": "1ca463671e88caec766be6942dbd22d79e8052dc20d364095459a9bcd4162a33"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000000-color.jpg",
+      "box_xywh": [
+        562.0,
+        342.0,
+        147.0,
+        49.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000000-meta.mat",
+      "image_sha256": "7dd272c2b32e316a4ffdfb0fc75813fa8878b00070b566a2241b04855965de34",
+      "metadata_sha256": "83d7eeeb1bf40c016e5dfbbe56985a426887e86faa298081fcfcf1ec004bdfe4"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000001-color.jpg",
+      "box_xywh": [
+        561.0,
+        342.0,
+        149.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000001-meta.mat",
+      "image_sha256": "4ee48086523b84dfd046cfd2459e24ad7dd43f26d6e25732778a4f13dbc2ef90",
+      "metadata_sha256": "77a2c3464f91d6bf145842c6cc7d6280820bf168649ca1584b89346bfc5612cd"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000002-color.jpg",
+      "box_xywh": [
+        561.0,
+        342.0,
+        148.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000002-meta.mat",
+      "image_sha256": "657186e669907be12175c7bd6b59fe90c5d682709713a0f36b49c4989a20f175",
+      "metadata_sha256": "f0cf029c975f2d359c7984546562f8297317d5ceab362df5bbb566313c60ac26"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000003-color.jpg",
+      "box_xywh": [
+        560.0,
+        342.0,
+        150.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000003-meta.mat",
+      "image_sha256": "00d01981a2e33fe5e48dde61b54ddc58d26bca6ab0d653b92f805588bb1e6aac",
+      "metadata_sha256": "f8f48f3c3e67616b4c79be72b24cc7a9aac232274e2ea963433e5001f1a71f08"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000004-color.jpg",
+      "box_xywh": [
+        560.0,
+        341.0,
+        150.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000004-meta.mat",
+      "image_sha256": "8025acfe7d1971ad6cda8878e24e72d8b55ce1e3665313e099a65fb83da8eefa",
+      "metadata_sha256": "f6820013b006f898ce351ab10af3c843b85cc1f1013793be01cdc47e934a2c1e"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000005-color.jpg",
+      "box_xywh": [
+        560.0,
+        341.0,
+        150.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000005-meta.mat",
+      "image_sha256": "e960200a56be37a8c3e3b0ec1a657d07743e626c72a4575a3bc8c5c7f3c9e7d7",
+      "metadata_sha256": "da07d7e806e5098d779dedbfdb836252e2364f4bc2ac387dfb987fd2c1a84f38"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000006-color.jpg",
+      "box_xywh": [
+        559.0,
+        341.0,
+        151.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000006-meta.mat",
+      "image_sha256": "1902f71eb5c4fa7d7b0ffd8ca49b9c0b3464ac8caf6bd65414bf214e3e84043c",
+      "metadata_sha256": "244127628cc5793a9195925d080020f4eccb29ae3b5bfe890ff6a731065fadcf"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000007-color.jpg",
+      "box_xywh": [
+        559.0,
+        341.0,
+        151.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000007-meta.mat",
+      "image_sha256": "86ab9f602e1bff62e1a73712ba726b5db7a09bbcc2e3a278dbb457322b139910",
+      "metadata_sha256": "e9b305357bdfb1a43c69aa8eced4abab7e1e4b2f456f436b3d25ac57469b9c0e"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000008-color.jpg",
+      "box_xywh": [
+        559.0,
+        342.0,
+        151.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000008-meta.mat",
+      "image_sha256": "98d514812edee506378eba7b4ec80aa8b387f4340782568f2323ad7c59889b88",
+      "metadata_sha256": "209f774ed4aeeee4e0e731caae94844570c5f28af60c44523bd186a1783efd5d"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000009-color.jpg",
+      "box_xywh": [
+        558.0,
+        342.0,
+        152.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000009-meta.mat",
+      "image_sha256": "0468e90e9243fb2f5112cac376d68ca46d3ee3435fca1984895a293ff642741c",
+      "metadata_sha256": "94c2d80a0652ea09bd99680889f7d921be14f3784c8e3fb8249f5a27328ff9bd"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000010-color.jpg",
+      "box_xywh": [
+        558.0,
+        342.0,
+        152.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000010-meta.mat",
+      "image_sha256": "6b894876a073d173c2feb7889e497bda072d01f0e772b1bab5f5bb74dd9e1a2d",
+      "metadata_sha256": "0cd93edb97c49d2bf3cbd8595262676f94a62228579dcc7e2277f4f15ea533d6"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000011-color.jpg",
+      "box_xywh": [
+        558.0,
+        342.0,
+        153.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000011-meta.mat",
+      "image_sha256": "82268d26fedd53e58eff977fca88adc1154c7b3b49be3a184fb409fa07c0e05b",
+      "metadata_sha256": "a6c5c429d5855085fe165a823760ac937de36d33e5745609467285ed1bd5f3b5"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000012-color.jpg",
+      "box_xywh": [
+        557.0,
+        342.0,
+        154.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000012-meta.mat",
+      "image_sha256": "1b38f03ad3e31ec37eff157739504eee9170552c637fe94c9a7f5d9e4180ded0",
+      "metadata_sha256": "3e19f9fa29c74fd63dd66a995bad595e231dfeddc2b3df9fe73f88bf283f19a8"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000013-color.jpg",
+      "box_xywh": [
+        557.0,
+        342.0,
+        154.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000013-meta.mat",
+      "image_sha256": "0b4af61cf4d540eebe6f30031380cb7823861b881ec7fec5e4b113f8c58e361a",
+      "metadata_sha256": "5627a4f04509127413bf27346bfedeabf54ec4bfd07297462454320511c9e6e9"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000014-color.jpg",
+      "box_xywh": [
+        557.0,
+        342.0,
+        154.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000014-meta.mat",
+      "image_sha256": "e12b499e1e09a7f1cb714cafa7669701e320b21f59caa67d7fe5c7b3327a6af8",
+      "metadata_sha256": "2a0ec1427bcb5ca75d0855e91c37621387c12f66c4108e4052d74ce600f9571c"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000015-color.jpg",
+      "box_xywh": [
+        556.0,
+        342.0,
+        155.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000015-meta.mat",
+      "image_sha256": "f3aa6c6a768db86304f0679c3ea09aa80a35ddf64f4989041d3f6328337e2e6a",
+      "metadata_sha256": "6d60855e58f116070f5fd40f7f78cf4623f610e9579da83473e7326b9e37259d"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000016-color.jpg",
+      "box_xywh": [
+        556.0,
+        342.0,
+        155.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000016-meta.mat",
+      "image_sha256": "7eb0cb5ff11efebca5977ada5cc1a0987361cad356f3bad38f63cb285402c30f",
+      "metadata_sha256": "bf683fc73f033f1fff7263db3d16a21c8d43ef28ba178609eb2cd766d01018b2"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000017-color.jpg",
+      "box_xywh": [
+        555.0,
+        342.0,
+        157.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000017-meta.mat",
+      "image_sha256": "f4d2641bec2481ab4df0896cef3a6680930f420f37b6e784d341d19569c86ed7",
+      "metadata_sha256": "361aba9b70f5574f23f3b796bbc9b3e3a58b16c11f203e31ee5e235f92b8dcee"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000018-color.jpg",
+      "box_xywh": [
+        555.0,
+        342.0,
+        157.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000018-meta.mat",
+      "image_sha256": "d4ed0b3a78684c92a39840a6518c7dff4c859af84b4db6a08135d85960a04e4a",
+      "metadata_sha256": "7cfae8617613ab0c2f101e29c0f86c5b6d33bc1223a9f25d510cb770e294d034"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000019-color.jpg",
+      "box_xywh": [
+        554.0,
+        342.0,
+        158.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000019-meta.mat",
+      "image_sha256": "0c20455d8e6e799ad688a738c5a8493ae7455a90a27370b9c5aec9fb1a12e5db",
+      "metadata_sha256": "c1c44db56759213703005d1268fc87421524fc3235843acf4b7efd43541d4d85"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000020-color.jpg",
+      "box_xywh": [
+        554.0,
+        342.0,
+        158.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000020-meta.mat",
+      "image_sha256": "0d221b3000b7c58fbf28aafcd7f19ebe9917915573bc44aa43648b9678215bb0",
+      "metadata_sha256": "56586706012a400f0e140910eaa62c180b63bd24039dd9200c6810fadf23f5f1"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000021-color.jpg",
+      "box_xywh": [
+        554.0,
+        341.0,
+        159.0,
+        53.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000021-meta.mat",
+      "image_sha256": "a2b71b5c990f9058cd2ada51730250f6e2f667cd1b26dd0a5fd9954248115133",
+      "metadata_sha256": "f46f6a1f86beb57a1bfd26a5713ab8e1e799b83dfce8024b30cf9c00db2730ec"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000022-color.jpg",
+      "box_xywh": [
+        555.0,
+        339.0,
+        157.0,
+        55.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000022-meta.mat",
+      "image_sha256": "8f88d5c7eda67dacbb911f2cd78dc896accf6990be07c3c96eb90397aa27a2cf",
+      "metadata_sha256": "00900216d993ad636554eef88d9d44b53285a89d3b874c27dfd847a48759b29e"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000023-color.jpg",
+      "box_xywh": [
+        558.0,
+        333.0,
+        152.0,
+        68.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000023-meta.mat",
+      "image_sha256": "ead2537f771a5f4abeb418e347db06f1be9fcda28740a81544d428815d6fed2a",
+      "metadata_sha256": "5a4fb6c0dae36c633554d2a44ad915a07446ec745a05e0c8cb8e844129bffa73"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000024-color.jpg",
+      "box_xywh": [
+        562.0,
+        324.0,
+        144.0,
+        86.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000024-meta.mat",
+      "image_sha256": "d631bda79d05aa595da4baefb566c52541bafb1820e2dc6939be20cf1073f517",
+      "metadata_sha256": "3f7fddae40d0b7cb903a8b71ce8d8722c6bc824e6219e10d8c609960262d43b2"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000025-color.jpg",
+      "box_xywh": [
+        567.0,
+        315.0,
+        134.0,
+        105.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000025-meta.mat",
+      "image_sha256": "d9b58df51a5fd53aec47175b37179b02a9e422f6d39de029d5b10531f6ba0e10",
+      "metadata_sha256": "152ed0f0e967be67c242dfdfc1ce8803a601458303ece63a20a98820c3f7889b"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000026-color.jpg",
+      "box_xywh": [
+        570.0,
+        310.0,
+        126.0,
+        114.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000026-meta.mat",
+      "image_sha256": "f59f0f572b3d418eb578645da60bdbed3533a8f00af1b91a04bbf6ee6ac39cc8",
+      "metadata_sha256": "7b6900d7e355ed4a1d13b80cb70f7a5858a6d22d6d3e8b6cab9e826f96a52273"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000027-color.jpg",
+      "box_xywh": [
+        573.0,
+        306.0,
+        119.0,
+        122.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000027-meta.mat",
+      "image_sha256": "b67b4f2a7df6022dca4b4e099093ef459e1e64dce857a44c23c12878852780b4",
+      "metadata_sha256": "d7235142e1d2e4091707d93eadaf1f54840f4b57fd162fc6a2a717138973378d"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000028-color.jpg",
+      "box_xywh": [
+        577.0,
+        303.0,
+        109.0,
+        129.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000028-meta.mat",
+      "image_sha256": "9df5d2ca8989f20c3fdb0086d82c952b1ca581fda30a1c7ddf372d8daf3bc176",
+      "metadata_sha256": "f57221760417987fe87d0c7b31d80fd41e33edceefd976de5ff77da402881229"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000029-color.jpg",
+      "box_xywh": [
+        579.0,
+        301.0,
+        103.0,
+        132.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000029-meta.mat",
+      "image_sha256": "746f6e524d401109177b823bff83eccd93179ceae4e1de44696f3e18b6a834ef",
+      "metadata_sha256": "1487506b2ef27bf4ce4cd79e7d7532a819c533276322ae80c273a261633b46ff"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000030-color.jpg",
+      "box_xywh": [
+        582.0,
+        300.0,
+        94.0,
+        134.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000030-meta.mat",
+      "image_sha256": "740593ebcdf488a7bcf44a8d6a93af7e123feda2f4fce7c71a12b969c5c2fef8",
+      "metadata_sha256": "227e7bc33fea683da8035216b6d289b4fdb492057a8b3425be8cde055fc5ecc1"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000031-color.jpg",
+      "box_xywh": [
+        585.0,
+        299.0,
+        89.0,
+        135.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000031-meta.mat",
+      "image_sha256": "91b18e47e4072d174e1bf58ffe4aa271d472e7da0abf53ecaf1f8e57905733d0",
+      "metadata_sha256": "356117d1d19ab1c526576800abe687503eb85d6fbab26ded4f2b21d08cee964f"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000032-color.jpg",
+      "box_xywh": [
+        587.0,
+        298.0,
+        89.0,
+        136.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000032-meta.mat",
+      "image_sha256": "8903896c9e4d226dab70663273bc3a958f4ca395c75f0b9c310f734d6db28b41",
+      "metadata_sha256": "59a88e2d957bfbbe3d18079e2f2b433fc151290e975a4eaef06d5b71dad098a8"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000033-color.jpg",
+      "box_xywh": [
+        584.0,
+        297.0,
+        96.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000033-meta.mat",
+      "image_sha256": "c86594ba2c5b91f086a5939968f0fe3808507a44942366c1c57f4ce8259d418d",
+      "metadata_sha256": "2260b1d0453aaad65904ec1d7d75f5271e445d73fe8b30b2f0fe44559fb5a7f4"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000034-color.jpg",
+      "box_xywh": [
+        580.0,
+        297.0,
+        103.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000034-meta.mat",
+      "image_sha256": "31aa1db1e41814bf0f8d7cc464ad56203d1fb4d476235bc8590dc93794882a4d",
+      "metadata_sha256": "c556faa528738e4937f844fae3b29fb295f212eb0fba666c71c5227043c46f88"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000035-color.jpg",
+      "box_xywh": [
+        577.0,
+        297.0,
+        108.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000035-meta.mat",
+      "image_sha256": "f5ec3210b3de73b3a4fa9c74bb0800d3c91df0c688adfb98520db057ce4cef6c",
+      "metadata_sha256": "5b4b7c7403466c235e4fc644091a0e9fad37ef9944e49a9d7b2663308fa57c80"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000036-color.jpg",
+      "box_xywh": [
+        575.0,
+        296.0,
+        112.0,
+        138.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000036-meta.mat",
+      "image_sha256": "5891bb46dbd8cfe43d45f922008c482d7e2ddde03960a3fb7485a3b7227ee83a",
+      "metadata_sha256": "ab41436c6d3e3eb005bb4e48d2d5329561c0e7c1125ad7f702d57eda356178eb"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000037-color.jpg",
+      "box_xywh": [
+        573.0,
+        296.0,
+        115.0,
+        138.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000037-meta.mat",
+      "image_sha256": "7e696a3f78e76c313f65db4aa890d513503a3539261adc2dc5d63e687d7989ff",
+      "metadata_sha256": "072778e52df2ec8d62e7f59de07aa2e87ee74157328b90799c3996f43e9a2a71"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000038-color.jpg",
+      "box_xywh": [
+        570.0,
+        297.0,
+        119.0,
+        136.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000038-meta.mat",
+      "image_sha256": "10f1fac7dc6dd6a49518ac2af00db7a7a6fb77b69b356547103fe1d9beafa90a",
+      "metadata_sha256": "d2827793c6f73f148e2dd30795abee2eaa461ac6e13e52d401212f0c7bf2460b"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000039-color.jpg",
+      "box_xywh": [
+        566.0,
+        298.0,
+        123.0,
+        134.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000039-meta.mat",
+      "image_sha256": "17ea551626d961e7226ae94a1cbcd2a0dd4a9fbfabbc609fcfe1e6c2ebe57471",
+      "metadata_sha256": "1a2471bf372c536cd605c18cdc3f3286a001c61831573c66e301943d5c794480"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000040-color.jpg",
+      "box_xywh": [
+        563.0,
+        300.0,
+        126.0,
+        129.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000040-meta.mat",
+      "image_sha256": "16c205775cad2d3ad8ae61dd949aaa878208906d75a4581859faa230d7e14330",
+      "metadata_sha256": "e629be6ba6e191d90122e1cbc95d38e56a564938724365f0a2e1de3ed192faa5"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000041-color.jpg",
+      "box_xywh": [
+        562.0,
+        302.0,
+        126.0,
+        124.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000041-meta.mat",
+      "image_sha256": "a6031f280124d03dfd9f1c5ec4b1662d774484b291b48221f7628e05867b5361",
+      "metadata_sha256": "2b3b3bd52a13c86734df034636886432c4a374b8905c24f2ce012967f37e1e69"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000042-color.jpg",
+      "box_xywh": [
+        561.0,
+        304.0,
+        125.0,
+        120.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000042-meta.mat",
+      "image_sha256": "ed66583226b7ce9db664e6ff965e6d0d0a46f0950da5dd1d18ac1afdfd93a76f",
+      "metadata_sha256": "b88b27f46a2733dc02e50dff5241739d1589c704429f11d924ac31cb79feccdc"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000043-color.jpg",
+      "box_xywh": [
+        562.0,
+        307.0,
+        122.0,
+        114.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000043-meta.mat",
+      "image_sha256": "1444fcf8194f599deca2be6210eb9fc660547c2413a667c20bbcfb615370ac2b",
+      "metadata_sha256": "e3ecfe32064b16170d21a7abd0ec0b0e1332fbf73b965ddec3f0ea01191a9734"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000044-color.jpg",
+      "box_xywh": [
+        564.0,
+        309.0,
+        118.0,
+        109.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000044-meta.mat",
+      "image_sha256": "573119c5363bb969a9f102805cc22e89494b71a5d2831d772248559ba9e1a8a8",
+      "metadata_sha256": "5f5d9323aebf8dd63357280445d047a00e7ca3ad24b0c8e99cd1939bd5a0a707"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000045-color.jpg",
+      "box_xywh": [
+        565.0,
+        312.0,
+        115.0,
+        104.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000045-meta.mat",
+      "image_sha256": "69136c7f4ee5f0144fbba11f17747a12bedc6292172ee9045a2b6094751343fa",
+      "metadata_sha256": "6f7b7942e41d7760c077cec200c29a9e9a0f26990f9ebd4b5c471388f6f499e8"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000046-color.jpg",
+      "box_xywh": [
+        565.0,
+        314.0,
+        123.0,
+        99.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000046-meta.mat",
+      "image_sha256": "4bc4a312d755cd5202b7280f6cd2c3735b4aae57d0ab71b9000df315fad55d5f",
+      "metadata_sha256": "7b0aa3f60872ab4958830f3d24b85ea1addb99c3bae67ac55d67e08303af2e6f"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000047-color.jpg",
+      "box_xywh": [
+        563.0,
+        315.0,
+        126.0,
+        97.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000047-meta.mat",
+      "image_sha256": "3a719f4c392b119ad48906d7c78ca8d6bd87eff339716446de63c8aa16ff4f97",
+      "metadata_sha256": "161b936550fc4e4e0adb54c9e2d69d12648740c2df8edbdc3a635247f9fa9220"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000048-color.jpg",
+      "box_xywh": [
+        561.0,
+        317.0,
+        134.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000048-meta.mat",
+      "image_sha256": "5ec34796322b9d186b74f5cc1301f38ca24692fc40cb5535b913d4dc64089b6e",
+      "metadata_sha256": "f78312ac63f3112b352497b6e444cea421a27d9a3d82a488addfe0c6cdfd10e3"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000049-color.jpg",
+      "box_xywh": [
+        558.0,
+        320.0,
+        141.0,
+        82.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000049-meta.mat",
+      "image_sha256": "4939e5f16958e5e06a3bc0335dcc92d5a658feb1a441a2c834775e82651ca62b",
+      "metadata_sha256": "8560df992b1daa602b993419053017f32a400b1e31b02de73ab4fe923f96acad"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000050-color.jpg",
+      "box_xywh": [
+        555.0,
+        322.0,
+        154.0,
+        81.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000050-meta.mat",
+      "image_sha256": "fecadde84a75734b82d9daaf6d254b66d1339d55f0ecd4cd7d07ff88054c35b1",
+      "metadata_sha256": "c9cb2c48aec84789e6a706f06cd3fdb11761789fe57861d71fd77942e7abd188"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000051-color.jpg",
+      "box_xywh": [
+        554.0,
+        323.0,
+        157.0,
+        80.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000051-meta.mat",
+      "image_sha256": "31097bb67479fa51656ed83e04a5e56d59ddf661b9d3e6631bd1d97726423964",
+      "metadata_sha256": "91294e474e84894ab3eee52aaff134e92731f739178b51d31385e1a7f65f3a19"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000052-color.jpg",
+      "box_xywh": [
+        555.0,
+        324.0,
+        159.0,
+        79.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000052-meta.mat",
+      "image_sha256": "f011ea27af2aa1f294407bab083f6174a2bab7acb872cb2b2d01bd5b6837619a",
+      "metadata_sha256": "95b3e40c6e34bdbdaddbec5d1a11d9dc33dc7d55ad4ad1ab51c86215b6b603a9"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000053-color.jpg",
+      "box_xywh": [
+        554.0,
+        325.0,
+        160.0,
+        78.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000053-meta.mat",
+      "image_sha256": "f0de8c0377f7810aa341e750bb9cde0c85e6b20a37f79ae35c710891b2bc4a8f",
+      "metadata_sha256": "a21e6093c31538de532e61c28ec6641b6ea10d7043f3a9450fee31cf388f7b1b"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000054-color.jpg",
+      "box_xywh": [
+        555.0,
+        325.0,
+        160.0,
+        78.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000054-meta.mat",
+      "image_sha256": "f8efd7277d769bf2ec2d2b41f9bbdb8c1c26b6b4a53fea653a15e3d167067d63",
+      "metadata_sha256": "ad50979c5234f4949eea2f3dbf3536a618accf0b6102afed26f296933e47059a"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000055-color.jpg",
+      "box_xywh": [
+        556.0,
+        325.0,
+        159.0,
+        79.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000055-meta.mat",
+      "image_sha256": "d8988c72d7156c2648f5c41246fbba76fb2abc8b2c6f5dbdc40720bf92b355db",
+      "metadata_sha256": "1f4a046954b819a442065009e36ad9a57b86ee17598ff0778efdeb7066d4401a"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000056-color.jpg",
+      "box_xywh": [
+        557.0,
+        324.0,
+        158.0,
+        80.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000056-meta.mat",
+      "image_sha256": "9827c3f836cf27e3bc8bda934e0386b1d667fe0a56829c23d78c19d2b50c5fce",
+      "metadata_sha256": "12b51eb289b21f2817967ef933ee9707bc787862c23e89d3258dd5a077107557"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000057-color.jpg",
+      "box_xywh": [
+        558.0,
+        322.0,
+        156.0,
+        82.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000057-meta.mat",
+      "image_sha256": "c18c56aacbafd41eb062d73db2e3acd2541d6895ca38c38c8f240e3f7b469927",
+      "metadata_sha256": "60a3813fde1bb19e158d1495cea0c1cc87d4480a7b84859edfca0211121d08e2"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000058-color.jpg",
+      "box_xywh": [
+        562.0,
+        320.0,
+        151.0,
+        83.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000058-meta.mat",
+      "image_sha256": "88540b0d8084bf9718cb5a51d8c5876be4abda859fc8134d692f2f39059d9dbf",
+      "metadata_sha256": "58300b2a27c965a2ce3d8e397f8536c1c91bb60eab6051ec78367ccf49107eca"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000059-color.jpg",
+      "box_xywh": [
+        565.0,
+        319.0,
+        146.0,
+        83.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000059-meta.mat",
+      "image_sha256": "3dad5cd1cb2efe47f76b8500c111f774f83b764803581e91c3b0b9d00d475a4c",
+      "metadata_sha256": "94f76291d10abe59cbfc23223bb9cc2230e4da5da9718833db09143d5e44559f"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000060-color.jpg",
+      "box_xywh": [
+        569.0,
+        318.0,
+        139.0,
+        85.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000060-meta.mat",
+      "image_sha256": "a633c386893ce466fb5032d885a14d20905d4ea0a8a047adf1f710b4d2df5f06",
+      "metadata_sha256": "46689fd6bd9790e6c6735a2c2db574070bf5fd11217a9558df84ab7e6b0de5bf"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000061-color.jpg",
+      "box_xywh": [
+        571.0,
+        318.0,
+        134.0,
+        87.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000061-meta.mat",
+      "image_sha256": "398c0b4cfbaf54e27e75f298aa8ac95641ef950d3ab1f08e60a9518943bae5e4",
+      "metadata_sha256": "c35c84abff6cba52c1ecaf224c5481fb5d6f137716647a74e1201e02cf4e1704"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000062-color.jpg",
+      "box_xywh": [
+        573.0,
+        318.0,
+        129.0,
+        87.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000062-meta.mat",
+      "image_sha256": "1e7c1efba9b6872f046b8d5a0132228f2ba08944614b7ac721e01124b7aa4adf",
+      "metadata_sha256": "5e586a994787086617b255978a73ba537cd19814bcd5d761d814e10a4e9ad84a"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000063-color.jpg",
+      "box_xywh": [
+        574.0,
+        317.0,
+        125.0,
+        89.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000063-meta.mat",
+      "image_sha256": "ba6e4fa185d72d3e96f645a0682d2cb29df99c4df33fe68ec55ffa6b2e8d6b97",
+      "metadata_sha256": "e2259f8c7da62a10cbebe057f1a943c4dad45bdcb2fe81b7a9bd4ca2ab4f823a"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000064-color.jpg",
+      "box_xywh": [
+        576.0,
+        317.0,
+        120.0,
+        89.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000064-meta.mat",
+      "image_sha256": "57123eb9a9a4519c5bdc0e801a22c830207e0cc086228e308bc5efd80a8246e5",
+      "metadata_sha256": "5e0230863ecdef0a196fd43d9fecea5c070a48af84c5626fd9206fc7f0dfdf33"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000065-color.jpg",
+      "box_xywh": [
+        577.0,
+        316.0,
+        115.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000065-meta.mat",
+      "image_sha256": "4b41a4df47ec8eb5799757293221ea2503a7f94e45d241cd4994dd12f2c58f26",
+      "metadata_sha256": "41dd47b91d861b013b0807e9b523920e933e705c2d118dc031261cbbcf8731db"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000066-color.jpg",
+      "box_xywh": [
+        579.0,
+        316.0,
+        110.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000066-meta.mat",
+      "image_sha256": "27ac9ac91de6630a1c2552cf5fedd2d5c8a420b1b00e8729f57f7e909a7442da",
+      "metadata_sha256": "d2ef0825e76d590feb1c5d7a4381f3747717469cae94eb3690ca14aad8f3b667"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000067-color.jpg",
+      "box_xywh": [
+        581.0,
+        316.0,
+        105.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000067-meta.mat",
+      "image_sha256": "d2ad78f7e1765000c4283b976d95571f33017c1a539cbe1a244559143d75cb02",
+      "metadata_sha256": "9eb6296a051066bc7d53e0004773df77d1922d7ae4c110537f96e67a6c80a232"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000068-color.jpg",
+      "box_xywh": [
+        583.0,
+        316.0,
+        97.0,
+        92.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000068-meta.mat",
+      "image_sha256": "381f52dfb6c2c28a16647c8d7a536a398bab8d15d9041f0174aca6ae928b04a7",
+      "metadata_sha256": "ed341bd8a049cc4f6d027e826fcb02ac071bc9f72ab1a561c5918a3a7847e8a3"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000069-color.jpg",
+      "box_xywh": [
+        585.0,
+        316.0,
+        92.0,
+        92.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000069-meta.mat",
+      "image_sha256": "6c3e2e86c0b20ead29198a4d43bee19e486410f9ee10d7713aa1f5ab573a6ce9",
+      "metadata_sha256": "e9772b72fce31177f039b3696cd465c55928a4104fbfa1917ba6097e02410c04"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000070-color.jpg",
+      "box_xywh": [
+        589.0,
+        316.0,
+        83.0,
+        93.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000070-meta.mat",
+      "image_sha256": "7f3acf055c025b7717572b3869545ebcb0ce8b9ecca44c65cb2c7dbbc6ca9a95",
+      "metadata_sha256": "aff39f5c960a568b1dfdff931f61b54d020808747590cf3bddade4a4a2924cb1"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000071-color.jpg",
+      "box_xywh": [
+        592.0,
+        315.0,
+        82.0,
+        95.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000071-meta.mat",
+      "image_sha256": "093073d20176bd905f4b584b6d273948b50a912002e9e0a9a29ff21b77fce52e",
+      "metadata_sha256": "b7b409e76b73d1be2f6d98a4a461e62bd79888f3ee82204775ea73057af07ab5"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000072-color.jpg",
+      "box_xywh": [
+        591.0,
+        315.0,
+        85.0,
+        96.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000072-meta.mat",
+      "image_sha256": "bfc49669a4eaf365bcf72d821b25a9ab41e0adeadaf8e2bbb8b642b7a7de0df8",
+      "metadata_sha256": "c2d2135d17a2592b99300040530ad43bf78ea4ab68f7acc676fb35497fe751e1"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000073-color.jpg",
+      "box_xywh": [
+        589.0,
+        315.0,
+        89.0,
+        96.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000073-meta.mat",
+      "image_sha256": "0193e4ceb190724f2b12dade9a14698c2217c495cb0175213ba9ff5fa852ba75",
+      "metadata_sha256": "6e565bdbe2d17ea766364a478c9c3c676e7d99607e27a9f39efe5ec9bc022836"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000074-color.jpg",
+      "box_xywh": [
+        587.0,
+        314.0,
+        92.0,
+        98.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000074-meta.mat",
+      "image_sha256": "94096e97e68f9fdfe4c651fe7705fa2950febb199868f6132224481514d0ef6d",
+      "metadata_sha256": "18535fc4d7549edddf656d2a9f5e6b9894d273e0b13f5f037a2b0cbdd55a87dc"
+    },
+    {
+      "variant": "012",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000075-color.jpg",
+      "box_xywh": [
+        585.0,
+        313.0,
+        96.0,
+        101.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\012\\left\\000075-meta.mat",
+      "image_sha256": "cc0e1f76d435fbe5076a2a62e0c32ff1e0c9bbaed23fc9248a91dba2b5c0c5e3",
+      "metadata_sha256": "7a0a9f2fc028d1166b7df19af3f23734a99b6bd3e435769984621370261f6fd7"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000000-color.jpg",
+      "box_xywh": [
+        562.0,
+        342.0,
+        147.0,
+        49.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000000-meta.mat",
+      "image_sha256": "1d2971cd5708c63aa6ab1b448c24ffcbce087ed31082b39d0acb26e3724195ea",
+      "metadata_sha256": "3b2528ddc16cc610fbb0688444b5e59ec8c502da061e7e89ce9ddb339b5828b5"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000001-color.jpg",
+      "box_xywh": [
+        561.0,
+        342.0,
+        149.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000001-meta.mat",
+      "image_sha256": "fcbe65af4c443bf75b9df1615ed3c4e381e035eac3e9f11d27e6af5ca4cc3e39",
+      "metadata_sha256": "55a7900a3d1ab0513c6c99d6f8a0dc98a22322a1b9af95c26a5359db37838550"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000002-color.jpg",
+      "box_xywh": [
+        561.0,
+        342.0,
+        149.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000002-meta.mat",
+      "image_sha256": "0427a551efce0a77fb1b0f65c3424fff9b5b75da4305cf5809b663d2e930a4a5",
+      "metadata_sha256": "d0d14d0f4744bd111fa460fd4578e595e75300db51778beb858559d93be44df9"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000003-color.jpg",
+      "box_xywh": [
+        561.0,
+        342.0,
+        149.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000003-meta.mat",
+      "image_sha256": "c8132cf7a7beefde08f3d349f5a4e8908644daa97514ec4f0552ec4622951bae",
+      "metadata_sha256": "de3b4a962dce43d6c8132051398947d98b3a231093075125415ff1d73cdf9372"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000004-color.jpg",
+      "box_xywh": [
+        560.0,
+        342.0,
+        150.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000004-meta.mat",
+      "image_sha256": "402a9c10f50ce41f758041775beff95a83fc3db0096cde0dc314c3ca47f62daf",
+      "metadata_sha256": "ebd2abb3ab8604670ef56005da12ec681e9340ae4930765d42484dfb2a4fc99d"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000005-color.jpg",
+      "box_xywh": [
+        560.0,
+        341.0,
+        150.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000005-meta.mat",
+      "image_sha256": "4ac195fffa467fb3fffcd457974b2b2251d037d67832b80d46fef5ce1c20ee5c",
+      "metadata_sha256": "3b73970d637088ceca4332c2f29ec9be0d36094217583bc54770f87f445b70d6"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000006-color.jpg",
+      "box_xywh": [
+        559.0,
+        341.0,
+        151.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000006-meta.mat",
+      "image_sha256": "3df7dd619c4fffaeb0e9b504791382a29fec9fc825c71f2fc5007a8171a9ea98",
+      "metadata_sha256": "92f3b3703297f77eeea6cb676ca050d424dfed6313b061dc58a3502bbf7cba99"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000007-color.jpg",
+      "box_xywh": [
+        559.0,
+        341.0,
+        151.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000007-meta.mat",
+      "image_sha256": "4fef61bca0e340473b1135f7ad4d8068493625e08379f98dbe226efad152417d",
+      "metadata_sha256": "29764c1c868e851fb954152cdaa64b1d55ebbf90a9c4d2eb6721e6e3e954981d"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000008-color.jpg",
+      "box_xywh": [
+        559.0,
+        341.0,
+        151.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000008-meta.mat",
+      "image_sha256": "4d473993386584e87fa2d5dcc4e0007b6fc906e6be31c9bf6d12031cd9bcce76",
+      "metadata_sha256": "ea03a742ee9192739fef1b996190595ab4ee3081c1d44a2d857cbf3400820dd3"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000009-color.jpg",
+      "box_xywh": [
+        558.0,
+        342.0,
+        152.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000009-meta.mat",
+      "image_sha256": "be938b41133d18a407e51ab237a666a61b4561a12334b815baaf64d37b125259",
+      "metadata_sha256": "0ac6c71e949f2bb12d9e4e4a7b788a430bc74a501c490bab2ea8d5b4a848c134"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000010-color.jpg",
+      "box_xywh": [
+        558.0,
+        342.0,
+        152.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000010-meta.mat",
+      "image_sha256": "d3bb68d50c11b297e50a3dbcef9dc065fc499c28365429eced91ed075f2a3dcb",
+      "metadata_sha256": "fb0fe90f4500c196e2b99de9ec21f694602b8e9fd9d269192bbcac22472da056"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000011-color.jpg",
+      "box_xywh": [
+        558.0,
+        342.0,
+        153.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000011-meta.mat",
+      "image_sha256": "72f7a53e8f26458d8c2dc6679b439f2af8d8f374fd4eaf011523b559d2fd82aa",
+      "metadata_sha256": "5814b0f6d5ce6b0541dac8c406c91ed606d2fce12641a6922ff278d0e81b0034"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000012-color.jpg",
+      "box_xywh": [
+        557.0,
+        342.0,
+        154.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000012-meta.mat",
+      "image_sha256": "033a1a173c0095d293d7b3f6f1ed8ca95512ea1bffb467ccc06ffb78f95fb21e",
+      "metadata_sha256": "b7f253a8189abadc2d868f7f5d0645536dc6eb09e42da677e2feef01984d73b4"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000013-color.jpg",
+      "box_xywh": [
+        557.0,
+        342.0,
+        154.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000013-meta.mat",
+      "image_sha256": "f0e0c912e50072039ad8bcbff7970398c570e32b2c0e2ba2dd295de93ee58ce3",
+      "metadata_sha256": "7a3c997cb7cb29de0507cf0757fd54a9862b5675637a243719738ed7d8e5f177"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000014-color.jpg",
+      "box_xywh": [
+        557.0,
+        342.0,
+        154.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000014-meta.mat",
+      "image_sha256": "b07ef23a36585ed5bd5eaf7ff6303e9a2b3aa917d71e51d4d0583a3025ae5b6b",
+      "metadata_sha256": "ac4913181297c515e2d061bec02d8485c38c302253f4918495eb566b22d54158"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000015-color.jpg",
+      "box_xywh": [
+        556.0,
+        342.0,
+        155.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000015-meta.mat",
+      "image_sha256": "25e6f4acd53a7e08572a7295be9211998d74e2fdde342ea700101cd6f2a64036",
+      "metadata_sha256": "7dc3fea47b31ea1c9d88809cfb3dc8dcd1ae8d59071880f7cccc875d683d6e68"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000016-color.jpg",
+      "box_xywh": [
+        556.0,
+        342.0,
+        155.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000016-meta.mat",
+      "image_sha256": "61d57906ae1adea7228aa759ed294bc46aca1b685e177bcae46898517b145c1d",
+      "metadata_sha256": "8f055392e9e38b5e41625a262142710bf43e2bef279032bcc4a4e03f4897677e"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000017-color.jpg",
+      "box_xywh": [
+        556.0,
+        342.0,
+        155.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000017-meta.mat",
+      "image_sha256": "8627294e18c8f97216f536d233d293f0af5802ee7b9e74adb8e11727911407be",
+      "metadata_sha256": "09ed289120ae86250fdfecd195bd820e76e8ab429f7138266c75098f1047edf7"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000018-color.jpg",
+      "box_xywh": [
+        555.0,
+        342.0,
+        157.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000018-meta.mat",
+      "image_sha256": "c54728e91caa59982cc2bbbb20257305ad941de8087d98a0d28ebb191d42fa00",
+      "metadata_sha256": "d964c94ebcb0492f0a904b87afd1abbbdfae6f90dfd15708c81d2536d8fbb6bd"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000019-color.jpg",
+      "box_xywh": [
+        555.0,
+        342.0,
+        157.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000019-meta.mat",
+      "image_sha256": "43180fa1c3d8d499a3635bb2cafa2ba7abcc847869378bef2626e35d33e3e01b",
+      "metadata_sha256": "8da851f26b4beba294a0e241b74463044f5d4b25d6c400d213005a7a89f4203c"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000020-color.jpg",
+      "box_xywh": [
+        555.0,
+        342.0,
+        157.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000020-meta.mat",
+      "image_sha256": "a65651f25d1fe5fe3bf6a09e43d6c1f5401247e6105e39fde4f169f7fc8c849b",
+      "metadata_sha256": "92e8091a332fb26e6ad4971003bba61b66a9e6804e5785cbc5eef8d2ad8b5fc7"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000021-color.jpg",
+      "box_xywh": [
+        554.0,
+        342.0,
+        158.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000021-meta.mat",
+      "image_sha256": "2ac5d1f086beb6645add3ff151c78fef60da4088704713f91a119c8ce138b10f",
+      "metadata_sha256": "feb6fa6e62190c35c3239a73dde9c57d54d8aa1b32976f3dcfc96a5b028083ca"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000022-color.jpg",
+      "box_xywh": [
+        554.0,
+        342.0,
+        159.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000022-meta.mat",
+      "image_sha256": "a7afa990fd575d93eea2820ce4eeca8edc1b40ec829330c47398cd169e74d140",
+      "metadata_sha256": "6f2387670a0f0511381ad6a4e15ca51d809225a4d5ca00d71150cc0262bf0c38"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000023-color.jpg",
+      "box_xywh": [
+        555.0,
+        339.0,
+        157.0,
+        55.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000023-meta.mat",
+      "image_sha256": "8ebb072eae1043cd68aacd834b9c0577a110644c94bd33c8396591d59cd45313",
+      "metadata_sha256": "99fbeac1657e348349ae1ec6de65ff386d8a6d49192b8352f1e1a81600604190"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000024-color.jpg",
+      "box_xywh": [
+        556.0,
+        337.0,
+        155.0,
+        59.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000024-meta.mat",
+      "image_sha256": "ab1254445bfaff564b54a92fdd98e2564e2f8913feb948dbc0e707e1b2688c1e",
+      "metadata_sha256": "cd90281d48f49563f55ffaeb44c7f6d5c8434923ff5d56efe988a52537d02080"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000025-color.jpg",
+      "box_xywh": [
+        560.0,
+        328.0,
+        148.0,
+        78.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000025-meta.mat",
+      "image_sha256": "c5ea3433357e5f37edb0ff75fa0c0d9fa0b3f08f2ed3a36880ce8e3c87c68298",
+      "metadata_sha256": "43fb5f559ca67334480a0625b9d5b998031cb6998fbc053dabb31639a8305796"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000026-color.jpg",
+      "box_xywh": [
+        566.0,
+        316.0,
+        136.0,
+        102.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000026-meta.mat",
+      "image_sha256": "01e079f739afb3984167febda58beecb5ee45e0ede9accac2ad34a9986477f17",
+      "metadata_sha256": "69c3ca8130f33479e0a60c7f08bf551819a907412e93daa7b6594c946f79a760"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000027-color.jpg",
+      "box_xywh": [
+        570.0,
+        310.0,
+        127.0,
+        114.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000027-meta.mat",
+      "image_sha256": "bc0d631a5153edd7cabbb8428193bc6b96dd479155d664cabb185161fcafcb1f",
+      "metadata_sha256": "2d770f63108b34129d5485fdefccd9011e9cc368f55ebe44d219f0231947b6af"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000028-color.jpg",
+      "box_xywh": [
+        573.0,
+        307.0,
+        120.0,
+        120.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000028-meta.mat",
+      "image_sha256": "19b9b272f74f4c704d94c912309daafe41e25de7704bc395f3a827d3611fae0a",
+      "metadata_sha256": "232614bebd449b0576e0efd33ed910443defd7a63dab853bac16c88fefb3c1f2"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000029-color.jpg",
+      "box_xywh": [
+        576.0,
+        304.0,
+        111.0,
+        127.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000029-meta.mat",
+      "image_sha256": "5d1fb23e2b08e36e4a5256e3ba3a2aec735802f6ece3af46f8d3cc9dcda693f7",
+      "metadata_sha256": "4c38606a57c540cb33884900e7c72cbd5adf86104dc7facfd00438942c64c264"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000030-color.jpg",
+      "box_xywh": [
+        578.0,
+        302.0,
+        106.0,
+        130.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000030-meta.mat",
+      "image_sha256": "79ddb9e5eea162d0f007661d2878e6e855d32ce23ebc3f5d5146397176ce6f82",
+      "metadata_sha256": "eee7a162e8e7a1adb0bcdd7a91f6264a30c29c1c155a57806afe229920f501c2"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000031-color.jpg",
+      "box_xywh": [
+        580.0,
+        301.0,
+        99.0,
+        133.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000031-meta.mat",
+      "image_sha256": "95b0a329047cf84c8db49fcbf8299fe59e23efe7dda1436e62bf2d6e414fe282",
+      "metadata_sha256": "7b4065aa4042ec87c0808864eff0e513f05238e709aac81ff51d91002e4b0573"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000032-color.jpg",
+      "box_xywh": [
+        583.0,
+        299.0,
+        90.0,
+        135.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000032-meta.mat",
+      "image_sha256": "d03c52407343c043fda454f3a154b2962fa8c4b5db3c1af39c8065c94188e096",
+      "metadata_sha256": "e11f6854d68a4aaa6ae74060e38ec5317d2c1c2932a219ea03b1d12089bda0c4"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000033-color.jpg",
+      "box_xywh": [
+        586.0,
+        298.0,
+        89.0,
+        136.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000033-meta.mat",
+      "image_sha256": "7493f1255ec9da9ad09e212d281f3ca2834320b8bfcafeffb2e1416b060bf21a",
+      "metadata_sha256": "db264c0586cf8a1567245108c5ed9a31994ffb1a9437557a6cdc65c22564dcf4"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000034-color.jpg",
+      "box_xywh": [
+        591.0,
+        300.0,
+        91.0,
+        136.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000034-meta.mat",
+      "image_sha256": "99fd4eb94eb7b4f3fc6ae2e87d666de994cec0ef46016c71cc52de62129976b8",
+      "metadata_sha256": "5a4d70dd9c4c0ae786e8f2ff53a82905f18190122064d45597a387a6f4a29d42"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000035-color.jpg",
+      "box_xywh": [
+        584.0,
+        297.0,
+        96.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000035-meta.mat",
+      "image_sha256": "1e4d567530471c2ca4b2e5731383a6d2bf2b6ca419a6c1fe2ad266ca7b09e7b9",
+      "metadata_sha256": "cb9e1830650a1513cb46936ea05ada79b7e5385b01b1e1d1976af9071774fec7"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000036-color.jpg",
+      "box_xywh": [
+        580.0,
+        297.0,
+        103.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000036-meta.mat",
+      "image_sha256": "093edb73c69ef7756696acd7fc4f357d14447396f5af7cc307f7c64235699e4a",
+      "metadata_sha256": "2fb4ecbf1c62595b7aaa00e63faace875e329dc66d99fa538fb670ed88bb5921"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000037-color.jpg",
+      "box_xywh": [
+        577.0,
+        297.0,
+        108.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000037-meta.mat",
+      "image_sha256": "419d17b2851b62ef734017d010f278dcaa817e1027100a2a2875e6303b3ffe81",
+      "metadata_sha256": "20878e06d81bda548b0b88aa4bdcb9e24e880910a302b30b7c9fb2c9f290e27c"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000038-color.jpg",
+      "box_xywh": [
+        575.0,
+        296.0,
+        112.0,
+        138.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000038-meta.mat",
+      "image_sha256": "00a6b2451cba5afce4bb2f7e0e3ed28d5b1f56200b60709560680a4a63c0b1ad",
+      "metadata_sha256": "c11b0491409338afb5ca0ddf458ac67ddb2756f266ac9627be82dab71a567c49"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000039-color.jpg",
+      "box_xywh": [
+        573.0,
+        296.0,
+        115.0,
+        138.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000039-meta.mat",
+      "image_sha256": "dfe68c05b62bc2590553c744f123cbb7087f6f70ca8ffee0c48d5fb7cb74e3d6",
+      "metadata_sha256": "6cc29eba66ceca8f77812f6c7182d21447ff2bcd441584ae8878b97859bc48d2"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000040-color.jpg",
+      "box_xywh": [
+        570.0,
+        297.0,
+        119.0,
+        136.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000040-meta.mat",
+      "image_sha256": "f132e1c60ac85ee8cc20d06c6f39b861715089a83ce28b49c2f95f3be7a89867",
+      "metadata_sha256": "2e46bad7b79fe29f8b4bfc9e891bd39a0cd2e19c3c557a111bd301d70192032c"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000041-color.jpg",
+      "box_xywh": [
+        566.0,
+        298.0,
+        123.0,
+        134.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000041-meta.mat",
+      "image_sha256": "d24cd5f1d22a39354fd1428145bdc112967ca34cf043dae98c4c8c8806852254",
+      "metadata_sha256": "d8a2069495bcb29e057cf209ec9c272d8e7cd04bd7a97875192fe9f9bdf5062e"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000042-color.jpg",
+      "box_xywh": [
+        563.0,
+        299.0,
+        126.0,
+        130.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000042-meta.mat",
+      "image_sha256": "dffd4db1c1a30e8d6852b694ffdc6e2c873fb7a35e17b71beb2286b586f5cbae",
+      "metadata_sha256": "b493fc64c737b680d302d5ea0425f39b82a74303bd873b8c79f5f7b49596d31e"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000043-color.jpg",
+      "box_xywh": [
+        562.0,
+        302.0,
+        126.0,
+        125.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000043-meta.mat",
+      "image_sha256": "3d7f748eb173436e96e2f55b5878fd6cd6fb9f36bf701dd4d5eeda7088a0f77e",
+      "metadata_sha256": "90c1591f0082e7ee48346bbeb9f168937b1cbc4e9e72eeac72d4b1ea83025990"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000044-color.jpg",
+      "box_xywh": [
+        562.0,
+        302.0,
+        125.0,
+        123.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000044-meta.mat",
+      "image_sha256": "e5879d747b9a90dba2f003819e92df1b7c80c00878ea767a5ccdaa71c46f3b19",
+      "metadata_sha256": "9ede3c1c5e77e938f611ab4edbf924bed7b4aaf7c9e0b6b116804d95f36d3345"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000045-color.jpg",
+      "box_xywh": [
+        562.0,
+        305.0,
+        123.0,
+        117.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000045-meta.mat",
+      "image_sha256": "a387a2e1897f79ca3d485a394e2f4df51c5617216e4ce845e642f5e89b728164",
+      "metadata_sha256": "2861d2cd76092aa46e149a1d2bd9dcb801612e415a12f9954c075806bd803ac2"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000046-color.jpg",
+      "box_xywh": [
+        563.0,
+        308.0,
+        120.0,
+        112.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000046-meta.mat",
+      "image_sha256": "e2e487502a4315f13744abf8fff3d2c67d3b602e167b1ea743c5ccc55a8cc7be",
+      "metadata_sha256": "24c1b27c3c19d47df9563c759ce816b9336f1d0c46d53186ecf50d3fb8aa9bb8"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000047-color.jpg",
+      "box_xywh": [
+        566.0,
+        311.0,
+        115.0,
+        106.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000047-meta.mat",
+      "image_sha256": "80edf178a4e51a77f2a1beee0207b4896cf524d25d4e88561fffeb376ca0a9cb",
+      "metadata_sha256": "5cc186b2a90cca658ae4c95cf85cf2947313012416409a35ebd34634330468c5"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000048-color.jpg",
+      "box_xywh": [
+        566.0,
+        312.0,
+        115.0,
+        104.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000048-meta.mat",
+      "image_sha256": "7dfc2ae57850ae37eaf2f805f3e04aa62eef362a9f88707042a6396a5c372a62",
+      "metadata_sha256": "2f8c552f8314cdf8925c3a0743b9fc1cc320a27fb2ce38bdc01ff7a95b1ded4f"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000049-color.jpg",
+      "box_xywh": [
+        564.0,
+        314.0,
+        123.0,
+        99.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000049-meta.mat",
+      "image_sha256": "a6287ac7425e456692c98f0fb53c3076f6ed42d834a3a3188a6266b2ee40c0f3",
+      "metadata_sha256": "ded4962a0122165d39afbe6ce9cd342d43da3bbef9f19028a99c54f475dbf844"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000050-color.jpg",
+      "box_xywh": [
+        562.0,
+        316.0,
+        129.0,
+        95.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000050-meta.mat",
+      "image_sha256": "7449d5ace9812c49c6bac82861ab26b11b82d9b7d94f77c0225a7a7b03621b71",
+      "metadata_sha256": "0ac0b4a7cf6feae42cf78fef7100a93512ed6d8e819e4da439111e7ab14f6d18"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000051-color.jpg",
+      "box_xywh": [
+        561.0,
+        319.0,
+        137.0,
+        87.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000051-meta.mat",
+      "image_sha256": "19b3b3f717f984efd30557facf160101867c3edee63f377d08d16817598daf6d",
+      "metadata_sha256": "136b07975d478d396cfc3ef433545399712bef7a5b835b7e48581b10d64b51d9"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000052-color.jpg",
+      "box_xywh": [
+        558.0,
+        320.0,
+        141.0,
+        82.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000052-meta.mat",
+      "image_sha256": "6336fddd68e34788d666caea0f37d856626385907c08b22983da93553e8e165e",
+      "metadata_sha256": "658bc3e5be4712978df2f59c0de96f6c5b52e650ff145966af28f940d43e47af"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000053-color.jpg",
+      "box_xywh": [
+        555.0,
+        322.0,
+        154.0,
+        81.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000053-meta.mat",
+      "image_sha256": "1224f044f9a67826bddee193ae0c53d1bc0140fbe07e292d50df8dfad035d032",
+      "metadata_sha256": "8c6e3ab55fc1d384c4548a9aea1d317111ad7baa67752d2c062f2a7ba0190d8a"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000054-color.jpg",
+      "box_xywh": [
+        555.0,
+        323.0,
+        157.0,
+        80.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000054-meta.mat",
+      "image_sha256": "5f39bf119c8394356e1eae0e83e93369bbbab7a9b6bf7e4b313a36c58be9af97",
+      "metadata_sha256": "2a3f65286f26e1912b3346c2d3ef4d336ea74c70ec3872bc63b79933ad8ccab1"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000055-color.jpg",
+      "box_xywh": [
+        555.0,
+        324.0,
+        159.0,
+        79.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000055-meta.mat",
+      "image_sha256": "63bd12251d9f7917e651b5104564de16894491fa461426b38373e8645e91a5d1",
+      "metadata_sha256": "ab9fc9cdf8f940fba7c46827abdbf10eb9c3373f71ad7b144e3b8ef97b426296"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000056-color.jpg",
+      "box_xywh": [
+        555.0,
+        325.0,
+        160.0,
+        78.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000056-meta.mat",
+      "image_sha256": "f3f201980510eb30400c574b245a8e0f720b90aa8f76fd5e859de3502583a79f",
+      "metadata_sha256": "73531f160b851a877c8555cae8f848ab944fb666e99fb1ccbdfbb92e98c46650"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000057-color.jpg",
+      "box_xywh": [
+        555.0,
+        325.0,
+        160.0,
+        78.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000057-meta.mat",
+      "image_sha256": "13eb45b3792094ccfc0b4e67c2d4294f0130ef7564bd0a33b7a2812e3b73d242",
+      "metadata_sha256": "9b852cac132968ec70df0d66a5fed05f7f9ec41506bd05f1a1f9693b22acd6ad"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000058-color.jpg",
+      "box_xywh": [
+        555.0,
+        325.0,
+        159.0,
+        79.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000058-meta.mat",
+      "image_sha256": "822c0cf857f56d1cfb39cbd3addd63eacf52fc2b1c0cdd67e2cdc50d47c91085",
+      "metadata_sha256": "8d4cc2d384e4f912d2b1b489af1a863baed069630117764f31902cc37f779d9b"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000059-color.jpg",
+      "box_xywh": [
+        556.0,
+        325.0,
+        159.0,
+        79.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000059-meta.mat",
+      "image_sha256": "66872632233466c871954323c39068583ecde5ef835adaea6d2ec9f2b6dae0af",
+      "metadata_sha256": "5f31600b9a3a84944fb5eb5e7b88b368e31706bde0c85ac58233404415b4e7a6"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000060-color.jpg",
+      "box_xywh": [
+        557.0,
+        323.0,
+        158.0,
+        81.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000060-meta.mat",
+      "image_sha256": "c59c98a55459dd5377160d2c52ed30f8b484a1b71012138a767a386f6e9e2232",
+      "metadata_sha256": "900dc3f366f6f8c469e7941102caab175087caac91e2274f690e7d4d923fe15a"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000061-color.jpg",
+      "box_xywh": [
+        561.0,
+        320.0,
+        153.0,
+        83.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000061-meta.mat",
+      "image_sha256": "9bee109dc1a56c46f7056dc04f12af3864b0a53d373bd27a9e10b9907dca84ef",
+      "metadata_sha256": "353e688859bad1e10df4961d7091666c9eb51b7177a1a77d0354165458381993"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000062-color.jpg",
+      "box_xywh": [
+        564.0,
+        319.0,
+        148.0,
+        84.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000062-meta.mat",
+      "image_sha256": "1b0c9dc73ab1d51eeedf2b14e8b1c662c079beaa7a025bedcb64c46f94e4c69b",
+      "metadata_sha256": "364b9c484a92547b8cea448b26a6cfce4f18530232768d15f5d0c89f0d6ff01e"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000063-color.jpg",
+      "box_xywh": [
+        567.0,
+        319.0,
+        142.0,
+        83.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000063-meta.mat",
+      "image_sha256": "a963c9bfe13358d5d4cb2855a716ac944775991b24e5e754e2e243bcbed91723",
+      "metadata_sha256": "74815493fe57f171ce8fd02f9a2e8562d5f83a2afd935b8c7a0a0030e826bf47"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000064-color.jpg",
+      "box_xywh": [
+        570.0,
+        318.0,
+        137.0,
+        85.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000064-meta.mat",
+      "image_sha256": "f074c10efc325d0e7758ac22d5c69979f21210094879fe8106aab4eb518f63f6",
+      "metadata_sha256": "e2ad95dd354e17144d3c037b73fce2dbfecf9a9d6b7eedb60b5a8e850cc90712"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000065-color.jpg",
+      "box_xywh": [
+        572.0,
+        318.0,
+        132.0,
+        87.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000065-meta.mat",
+      "image_sha256": "7986aaa4c7d3ab5ea177ba880bf6982e26179a90ea94ccef1a2abcd94f0aed09",
+      "metadata_sha256": "e9d235aa35206f88c4bc6ac59a90accf6d0dd6e074ea704c3e6d03d84a5bab00"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000066-color.jpg",
+      "box_xywh": [
+        573.0,
+        317.0,
+        128.0,
+        89.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000066-meta.mat",
+      "image_sha256": "2b58e22f76eca02b33f53701f3d181a6e0df234a51d6ae9e76db03486f1b3a86",
+      "metadata_sha256": "71d617363785421d3e6c34f1da0c0512bd01b48f903ea3292ca9b833b047154a"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000067-color.jpg",
+      "box_xywh": [
+        575.0,
+        317.0,
+        123.0,
+        89.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000067-meta.mat",
+      "image_sha256": "fb7c02a4f1e0c53dcd11fcf159343247407c7b39c9574e3818177e7746888803",
+      "metadata_sha256": "66cf3e68d0395b286b646293bea9f2deee2b470c5e37b71167fd72300bc9b312"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000068-color.jpg",
+      "box_xywh": [
+        576.0,
+        317.0,
+        120.0,
+        89.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000068-meta.mat",
+      "image_sha256": "6821124fc5f74f15ed32172639e7d2e0d85885deb49fecc4e4bd973152e4b9a8",
+      "metadata_sha256": "5143e87166753004b252a113748c64714ab121a2d16db67cd4a7406900ab35be"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000069-color.jpg",
+      "box_xywh": [
+        577.0,
+        316.0,
+        115.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000069-meta.mat",
+      "image_sha256": "b519ed808e91876bd6472ca5810f43c2e9a703403a9253c1767805a92afdfe75",
+      "metadata_sha256": "ed80c61cc1b647e03945cd455a2cb32c16c39d8e7daf2bc68fe588b8727d05f6"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000070-color.jpg",
+      "box_xywh": [
+        579.0,
+        316.0,
+        110.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000070-meta.mat",
+      "image_sha256": "c9e441da614ae3ca6ae3a3982af655faaaaeb7dfc428e527a533e8d66d0e03f9",
+      "metadata_sha256": "f89bf2dc2664d52292349794c8052edf78d28d533e2fdc6f6c752cf90af4c3e8"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000071-color.jpg",
+      "box_xywh": [
+        581.0,
+        316.0,
+        104.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000071-meta.mat",
+      "image_sha256": "e821f511438b256e37aebabaa1f7d453021cb5ac08e5b011cd2ee4d093121632",
+      "metadata_sha256": "56adc60c2ea6e8c6548d122ac1c221f2f13e7f1dba692a2ab1e859475f0f0015"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000072-color.jpg",
+      "box_xywh": [
+        583.0,
+        316.0,
+        97.0,
+        92.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000072-meta.mat",
+      "image_sha256": "9f498d13875c030e6aa45bc3d545498ca133caff29ed78774c8647019dd93d01",
+      "metadata_sha256": "35f610217987e5189d540ce4d58a6c480cc6d76745308660956b89498494ab6e"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000073-color.jpg",
+      "box_xywh": [
+        586.0,
+        316.0,
+        90.0,
+        92.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000073-meta.mat",
+      "image_sha256": "bbe80b37346364dd7178b353b29d8a7ee4665dec96b12f12522474c7a8ce1509",
+      "metadata_sha256": "cc079f10610bb0d1225ed1f5f96704f1917b0c943efeedb6aa6cce23cc3fb084"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000074-color.jpg",
+      "box_xywh": [
+        589.0,
+        316.0,
+        83.0,
+        93.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000074-meta.mat",
+      "image_sha256": "20c03f69f7b2d077c1eb046439c1fc46635c8ee4a1149b9890362f709ac7440b",
+      "metadata_sha256": "5e4872250161d7397bb1cbff49af64fd155f8d84329ef7ea63e507a8e492b7da"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000075-color.jpg",
+      "box_xywh": [
+        592.0,
+        315.0,
+        82.0,
+        95.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000075-meta.mat",
+      "image_sha256": "c91b98b7dcc0485845a9ecd1419e082b0204d1ed3c46a0b5187a0366557894fa",
+      "metadata_sha256": "bb46efa8454f5ce6221bdbdf53b2375269443361a1053a505ee732e2e2f1b53a"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000076-color.jpg",
+      "box_xywh": [
+        591.0,
+        315.0,
+        85.0,
+        96.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000076-meta.mat",
+      "image_sha256": "b49484d48ab5f2835a1f772a94fd3fb45238011bf2666779fdce56906fc4105c",
+      "metadata_sha256": "699cc94030d95659c29ac4f7b30c90dcc26e656e30a095a532213286b2dd4568"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000077-color.jpg",
+      "box_xywh": [
+        589.0,
+        315.0,
+        89.0,
+        96.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000077-meta.mat",
+      "image_sha256": "cd02a6c208a587df399d6b5cf731a69134eab104d14f3aa0af96fceba7654d7b",
+      "metadata_sha256": "797b858dbfb1d4a53fcad89974f10c91055a6522c9ccf42d30a30f1b78882f28"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000078-color.jpg",
+      "box_xywh": [
+        587.0,
+        314.0,
+        92.0,
+        98.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000078-meta.mat",
+      "image_sha256": "f24c05136ee4509c3afc06d3ae2e2bbc465f656da9d16aaeb354357016c8edee",
+      "metadata_sha256": "e45b1f57f1d7ff905c0923d2caaced928db5fc38213bca3e16cf67f93b1e613c"
+    },
+    {
+      "variant": "024",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000079-color.jpg",
+      "box_xywh": [
+        585.0,
+        313.0,
+        96.0,
+        101.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\024\\left\\000079-meta.mat",
+      "image_sha256": "071e5843e617b4679cb5b30da82ce9293e257c51bdcc2a97b9a4cd4e3acd61ff",
+      "metadata_sha256": "0f45c5d7b016f9778bc6749d454d26b0a5c2a3213df71228e19ebc8e8c3674a0"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000002-color.jpg",
+      "box_xywh": [
+        561.0,
+        342.0,
+        148.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000002-meta.mat",
+      "image_sha256": "5fdfb287d0bb0d9a088235102a95a42a27d8872b274d408399735f6182255c9e",
+      "metadata_sha256": "c0c7f7b9910a2d865ee6f841efb5384b06120a540db4f8c884a2e69d5a2acfff"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000003-color.jpg",
+      "box_xywh": [
+        561.0,
+        342.0,
+        149.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000003-meta.mat",
+      "image_sha256": "c9a2f35cefb6baa7f17fd7e6afc22b8ffbddb3e18582e695a0444187359102ea",
+      "metadata_sha256": "bdd3ff0e9505656d9020545834cdede634cd2a5f31c019cfd8c91bc193ea18cb"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000004-color.jpg",
+      "box_xywh": [
+        560.0,
+        342.0,
+        150.0,
+        50.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000004-meta.mat",
+      "image_sha256": "8c570cb56dc2ae572e3b43cbd2744644b7afa228f3636eb7430a484cf2406c60",
+      "metadata_sha256": "145839aaa1a86a493aab15df84218eec4c7dd979ad160c09ae7d32dc2d8c2fc2"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000005-color.jpg",
+      "box_xywh": [
+        560.0,
+        341.0,
+        150.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000005-meta.mat",
+      "image_sha256": "ad1c2b5438cb9e7e8c8303cab6b34f9753ea9c35e742802f8682c0ea89136a13",
+      "metadata_sha256": "2522f0728e6e2b68682382d4f8594a87129848105f4d0f6f30315b02185cb4ea"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000006-color.jpg",
+      "box_xywh": [
+        560.0,
+        341.0,
+        150.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000006-meta.mat",
+      "image_sha256": "c467249e0cb5cbde0269444460203892ee05e67b460243b76d902a653627510d",
+      "metadata_sha256": "63f36afc1bc6b87ebf4f95c8284f3462a169e43402708cf50cdb01371c94c0ff"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000007-color.jpg",
+      "box_xywh": [
+        559.0,
+        341.0,
+        151.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000007-meta.mat",
+      "image_sha256": "0e221baeda1d55a2889e942bdbc34dd64a15671c89166a9bcbda848ed1abdb90",
+      "metadata_sha256": "83e0622368b5ae6f8ddaf04030fb128f5be1ec7d49f6815dc6bac2b418e760a1"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000008-color.jpg",
+      "box_xywh": [
+        559.0,
+        341.0,
+        151.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000008-meta.mat",
+      "image_sha256": "593ab45172556e54bc309d4ac635fb91c26cd19aaca33d96270895dedc1d33bd",
+      "metadata_sha256": "901dd0cc89faeb9a3658b1a3c862d8affddaf27b99236abb18aa45f2f0701dac"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000009-color.jpg",
+      "box_xywh": [
+        559.0,
+        341.0,
+        151.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000009-meta.mat",
+      "image_sha256": "28d37a4be1b49ab171cb39e2261edf73b72c98d3ac42a1e1d7028c607d885dbf",
+      "metadata_sha256": "8ef1e6efd737451db9623fb11318f47963c197e61afd43b2c1fbaf1cc845e7d6"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000010-color.jpg",
+      "box_xywh": [
+        559.0,
+        342.0,
+        151.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000010-meta.mat",
+      "image_sha256": "850c00739c6a8a8c90360635d6771934d140f788e7ea01e1f6eab5a3ab4b2dbe",
+      "metadata_sha256": "f72e3f7a883f8d90389a21e7ab16097319945f1fab3579031e18631b51939ff2"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000011-color.jpg",
+      "box_xywh": [
+        558.0,
+        342.0,
+        152.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000011-meta.mat",
+      "image_sha256": "2ac8b470d4f386af4ec28543c7e39b29b64c8e82fa8da405d59e3b2ae1ffb0e9",
+      "metadata_sha256": "52f9516b9018d3608fa6d1bd59af8143d05a80d3c1900a70e74f3ff04648c4ee"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000012-color.jpg",
+      "box_xywh": [
+        558.0,
+        342.0,
+        152.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000012-meta.mat",
+      "image_sha256": "f2c33a956b7e889d3c2afdb0f4e5ee99f24693277e260b5fbd31c0013e337928",
+      "metadata_sha256": "b671d6a6f4f3d90778171f9f64ca041775050bc76f53b7241d33b6dd51f235ec"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000013-color.jpg",
+      "box_xywh": [
+        558.0,
+        342.0,
+        153.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000013-meta.mat",
+      "image_sha256": "437c312beb0d135f5460fa59b6d9ca1b0f8cb461a593ca417ef82e17ac85fc2a",
+      "metadata_sha256": "861ca55d550648afc3b2f6ad7546881f5ceaae60ea298c68df4fba58a8776f47"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000014-color.jpg",
+      "box_xywh": [
+        557.0,
+        342.0,
+        154.0,
+        51.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000014-meta.mat",
+      "image_sha256": "035df2b8409e459b1229879a7a791b7d8dc6e7c77a5856515d8271bcee649829",
+      "metadata_sha256": "613be7f727cc650a44367948aef3726f5d391a0679f542cc88126236c498e89f"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000015-color.jpg",
+      "box_xywh": [
+        557.0,
+        342.0,
+        154.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000015-meta.mat",
+      "image_sha256": "72d89961073d72d604b822949dacc11b2d2f8bc48d7397b52c409aaabf8dc137",
+      "metadata_sha256": "9c7266fc5a0e04bfd9a65c3fd2813d1f333649a694ac58fdad97db9825c1e156"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000016-color.jpg",
+      "box_xywh": [
+        557.0,
+        342.0,
+        154.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000016-meta.mat",
+      "image_sha256": "004013dfd31f59f72ec7b0aaef6c8c6e10ed9d88792fd3ea4181286e64a6862d",
+      "metadata_sha256": "0e6da66e77f9e37b031c87cfae0659fcd67c4da4d2344f2c1fe128c4de910cfb"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000017-color.jpg",
+      "box_xywh": [
+        556.0,
+        342.0,
+        155.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000017-meta.mat",
+      "image_sha256": "96c2e25e98c9429e68adb859b17bf16c4ebd0d361b52e32d9de9202ac565b287",
+      "metadata_sha256": "748995a84f8c7e1cb5e0794db013e4736fd6eaa01990d29b13814d9f8080b9eb"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000018-color.jpg",
+      "box_xywh": [
+        556.0,
+        342.0,
+        155.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000018-meta.mat",
+      "image_sha256": "e454c0ddacfd87a4e0dc77b3f1cedb3084cb09543a33dca73aeb2cb5c9a64102",
+      "metadata_sha256": "f7492904536df40b3c40af56995d4b60bfa0b9ab127b154ee785d62e04308062"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000019-color.jpg",
+      "box_xywh": [
+        556.0,
+        342.0,
+        155.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000019-meta.mat",
+      "image_sha256": "638483da0e4af72a051c6a323179fbc2e0b49560f1b7b460a6ab56d336a59f8e",
+      "metadata_sha256": "28f6b20d64d319c339fdeab87f58701576cf6d68e78e5dad72cc4ce115371a00"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000020-color.jpg",
+      "box_xywh": [
+        556.0,
+        342.0,
+        155.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000020-meta.mat",
+      "image_sha256": "27c86f98756cd2c6ed99245519541253b6cbaa1876cd9f84c41c25d29681415c",
+      "metadata_sha256": "f11ebc06b79182bceb97373e43b4b9389461f964cd5a8a4eb63f7bf956df55aa"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000021-color.jpg",
+      "box_xywh": [
+        561.0,
+        342.0,
+        157.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000021-meta.mat",
+      "image_sha256": "c8086d345335bbdb1d2854a17ee931093ea00614da10b86e913ac63a795bc98a",
+      "metadata_sha256": "87bf035694c0c40502b8d06663b6ad1a0ee2a9d876de47462bdc6a2a6918f39f"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000022-color.jpg",
+      "box_xywh": [
+        555.0,
+        342.0,
+        157.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000022-meta.mat",
+      "image_sha256": "0ec03c2a193f1a793ad64f7f22191f67e13983510728c2616f2d62a76cd60b06",
+      "metadata_sha256": "55b627dbee8f497c67017e7125f95d9dbbf1939b205d4f75a4c35d35c0507a2c"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000023-color.jpg",
+      "box_xywh": [
+        555.0,
+        342.0,
+        157.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000023-meta.mat",
+      "image_sha256": "b3310417b8e8941b868e265f53a8d4ba5a1261fec19008961fd8154b45725b56",
+      "metadata_sha256": "ac4a184ef6aa543de551dbf854338d7fd4cd641484534d345e696856245091c9"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000024-color.jpg",
+      "box_xywh": [
+        554.0,
+        342.0,
+        158.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000024-meta.mat",
+      "image_sha256": "8d93508ff24e81c166977efcfd818ad2fce4b248fce0b4dda29d37bf165c7e67",
+      "metadata_sha256": "1fd6165f1576f9f4eb2f2d5ae7bf4a35180bfc49c3cb6d8ce73015b589f4310c"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000025-color.jpg",
+      "box_xywh": [
+        554.0,
+        342.0,
+        158.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000025-meta.mat",
+      "image_sha256": "08bfa7187e3041d1e88fd0eaaefc4144156cf4302b83c5cd16de21e60cbd4c62",
+      "metadata_sha256": "0c05b8606851fcfaa746bef242010a8a6860ac1c88b6171cfae6bb49b1bab953"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000026-color.jpg",
+      "box_xywh": [
+        554.0,
+        342.0,
+        158.0,
+        52.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000026-meta.mat",
+      "image_sha256": "a7cf25cb7f2090446ff0cc01c7a64dce0b43e5f87f3973d6a5ffa6dce00d7008",
+      "metadata_sha256": "d27a36258b40d077debbda515331db8e0a707be7a1d531ebbe91b1f3b3149cc6"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000027-color.jpg",
+      "box_xywh": [
+        555.0,
+        339.0,
+        157.0,
+        55.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000027-meta.mat",
+      "image_sha256": "a1fe9f580f5a873d14aa88e3e00f57ce9e38d4bfb707242ef2d90a2a969649ec",
+      "metadata_sha256": "fa6b7fb59920a0f7b6ec4bf168a16c59becb1e21704a33843452c7cd7b029753"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000028-color.jpg",
+      "box_xywh": [
+        557.0,
+        335.0,
+        154.0,
+        63.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000028-meta.mat",
+      "image_sha256": "2b9a561210dbf14c0b4a0beb7299f2f200c8f9344a802812b9add9d5d6040ac1",
+      "metadata_sha256": "baec67f62971db86946e22b422acff1b64e55c3708a5f2f06c61b3876f1f5eb8"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000029-color.jpg",
+      "box_xywh": [
+        559.0,
+        330.0,
+        150.0,
+        74.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000029-meta.mat",
+      "image_sha256": "4ffc824a08fd180e2e492e80c3e958e95a6e5d950513b4ebe06260491238b2a8",
+      "metadata_sha256": "bf524af0ae0980d45ca205d3632e76ec6b8cdb41af58f5ff26c8b7de1c45f74c"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000030-color.jpg",
+      "box_xywh": [
+        565.0,
+        318.0,
+        138.0,
+        98.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000030-meta.mat",
+      "image_sha256": "5fa83ee33ec74f7886fac72b92fa104b2fbe3ef66843d2d61d176a4fe38b0d5f",
+      "metadata_sha256": "7a109d47880f34d3d1ca553bc0d41b7e7005a34e7ceeea98dd84e49e82b2768b"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000031-color.jpg",
+      "box_xywh": [
+        567.0,
+        315.0,
+        134.0,
+        104.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000031-meta.mat",
+      "image_sha256": "5cc44493e6db7174d442343c10dab18b0185e9b33b44d5048dbd91b9d1133e10",
+      "metadata_sha256": "e6618bdd1e7ec0fb740915a04a954353a96ec18a0f0c20934612493b826dd2b7"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000032-color.jpg",
+      "box_xywh": [
+        571.0,
+        308.0,
+        124.0,
+        118.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000032-meta.mat",
+      "image_sha256": "909bb2e18130d1ff0ffed9a3d63eed786bffbb9f52cacbff8b62514e576a4008",
+      "metadata_sha256": "b5ee10be690a5d0326a636613532b0581ba9d84a5ba469dfe52524349e08150a"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000033-color.jpg",
+      "box_xywh": [
+        573.0,
+        307.0,
+        120.0,
+        120.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000033-meta.mat",
+      "image_sha256": "e2d8c34e6349833af144a829a6ba496c67ed95e9aea6175f50db1b1dd9e9a6f9",
+      "metadata_sha256": "b3e6993eab21ec75ece0148641bbfb97fe630d5595591626edada6ec5fcd35a3"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000034-color.jpg",
+      "box_xywh": [
+        576.0,
+        304.0,
+        111.0,
+        127.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000034-meta.mat",
+      "image_sha256": "71f3c1618837984b9d6eaa01ab6d75056f6a101465ffb02d98a5ec6a3a700178",
+      "metadata_sha256": "b7e28d808aac1e8a7723b938d2e8bdea98702de320756cc6b46f1e3980d239fa"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000035-color.jpg",
+      "box_xywh": [
+        578.0,
+        302.0,
+        105.0,
+        131.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000035-meta.mat",
+      "image_sha256": "c1165c2fbd3c0ad70b183b4b52ce5e493b737db53c135a555485eb707ca59008",
+      "metadata_sha256": "03b1136c5dd4a9c75b8604a6c4255ab9e5cff6eabad0e59191c28acb39ed0eac"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000036-color.jpg",
+      "box_xywh": [
+        580.0,
+        301.0,
+        100.0,
+        132.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000036-meta.mat",
+      "image_sha256": "560623bce6005115f965217d7194fd2d72732e9308210cbc490863e5b1ade029",
+      "metadata_sha256": "dec668a7f55da44d92da77fc9ed6ce0fd6f7d2755f3010c7d9f0c52943e92645"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000037-color.jpg",
+      "box_xywh": [
+        583.0,
+        299.0,
+        91.0,
+        135.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000037-meta.mat",
+      "image_sha256": "f2b71db97b68119d1d2f779a06cd58f7441c42a042ad7e842a5a50562cd01d38",
+      "metadata_sha256": "7631b799b1e471d1913ec266951fddc7d5267915a60fd80fb355b78f9a620792"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000038-color.jpg",
+      "box_xywh": [
+        584.0,
+        299.0,
+        89.0,
+        135.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000038-meta.mat",
+      "image_sha256": "0f53cf65b99841769a02fd36236cebc7d6e3cb20fb212438fd98cff9fe67486c",
+      "metadata_sha256": "1065d9949d8cd73f7178f3c88fcccaa10b8fcd0956997fef27dc7250fd4cc551"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000039-color.jpg",
+      "box_xywh": [
+        587.0,
+        298.0,
+        89.0,
+        136.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000039-meta.mat",
+      "image_sha256": "55a3ba7f26ce7f8eff2a1087835c14002aca70dfb45d341cb5bbcb076fbcfd64",
+      "metadata_sha256": "973c4c2c4d302e749f538d834c39cf70c33eb016599952ec7d6a62118191cd49"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000040-color.jpg",
+      "box_xywh": [
+        585.0,
+        298.0,
+        94.0,
+        136.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000040-meta.mat",
+      "image_sha256": "0c4ed2f4c7244a1afd4cf4f3dd9f89fbe84ba84c1ecbcf8c4dfbdcf6a80e4828",
+      "metadata_sha256": "565da9b6e5c099cf3d09ce35036ba7064726d877f82782b96adc53e788d2b365"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000041-color.jpg",
+      "box_xywh": [
+        582.0,
+        297.0,
+        99.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000041-meta.mat",
+      "image_sha256": "4b55fd566c1bd59242038c9a6da5386379044c014145a3aed98a3f8500c8a1f7",
+      "metadata_sha256": "077dfd83fbf9123afd706d2426d890c551c0eded932e9800db970e43dd60dc8c"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000042-color.jpg",
+      "box_xywh": [
+        579.0,
+        297.0,
+        104.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000042-meta.mat",
+      "image_sha256": "96f1c2c9fe34244d35c9094c4621bc2f67dc28ae8ec180b072ef8de262c26372",
+      "metadata_sha256": "ebdbe06d901b88f6112dd11fcb2f7804e4091f8ab0f18b7c80a0b30e54ba5988"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000043-color.jpg",
+      "box_xywh": [
+        577.0,
+        297.0,
+        108.0,
+        137.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000043-meta.mat",
+      "image_sha256": "7351410d73e16addf218a42f86786f3d3b9a2fc854b72444462299cae6c0c4e1",
+      "metadata_sha256": "04f49a8c15a3a06dd9a8094813d73465178704351085101dea7b4e2eb3697c0c"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000044-color.jpg",
+      "box_xywh": [
+        575.0,
+        296.0,
+        112.0,
+        138.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000044-meta.mat",
+      "image_sha256": "10db6e32c75b0f1cfd96b19e91fb5943ce4de29b3ecc035a75c8f36d6102302c",
+      "metadata_sha256": "43b2475644946d2758c2a1b8a81e1fbfe55ccfa5fbb5c1ba2ce510a7f1f53035"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000045-color.jpg",
+      "box_xywh": [
+        573.0,
+        296.0,
+        115.0,
+        138.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000045-meta.mat",
+      "image_sha256": "6b00bbe9c46ca50c835bb79439d74b34ace0caac83852627f9a4ef9eaef1ad09",
+      "metadata_sha256": "b5cd17b2afcc267e966a1bd899030b06a24ba59d5af7430253daa3c31281486e"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000046-color.jpg",
+      "box_xywh": [
+        570.0,
+        297.0,
+        119.0,
+        136.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000046-meta.mat",
+      "image_sha256": "b9da8c4921be5847c40a7d17831171146b628776542a2e65e2cd72ba8384a66f",
+      "metadata_sha256": "a6bcdc0bafd468f51746358ce9f06a4efc06b53d6196facf3920069ee0c70b6f"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000047-color.jpg",
+      "box_xywh": [
+        567.0,
+        297.0,
+        122.0,
+        135.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000047-meta.mat",
+      "image_sha256": "40216242a922b23750140a0ed74b0b431fbf2dbca478179c9e5f9a5f5b64ca69",
+      "metadata_sha256": "3d294bc2910bf1e31aeec646b1e6da5c7bf4a3e4d0aae79feb7ee84b3faea4ee"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000048-color.jpg",
+      "box_xywh": [
+        565.0,
+        298.0,
+        124.0,
+        133.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000048-meta.mat",
+      "image_sha256": "0f52209f7b6d696e29d77bb9b509f224ade3656b5a554b896d10df1c0f175b7a",
+      "metadata_sha256": "ef87c0ec670f7d0d6d6a58e393628ed54eb9fdb1fcc944bcbbe9ae20e92871ee"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000049-color.jpg",
+      "box_xywh": [
+        563.0,
+        300.0,
+        126.0,
+        129.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000049-meta.mat",
+      "image_sha256": "e025515fa18dd4b3468a6da9e5e76483da3a82ce828ec0956366e55777adbdce",
+      "metadata_sha256": "8c2d64d2b6382fc4836053eec60c92e51d53ec3e9549717f6c13ae820af36523"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000050-color.jpg",
+      "box_xywh": [
+        562.0,
+        301.0,
+        126.0,
+        126.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000050-meta.mat",
+      "image_sha256": "ff7ecdf58ea2e5553020cd890d5011c3c6f0bd6056814867bd681e6c483f1134",
+      "metadata_sha256": "a4affffa644a3fe06b8ad6f181fab3a25304dc03732ffadbd154058ead19448d"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000051-color.jpg",
+      "box_xywh": [
+        561.0,
+        304.0,
+        125.0,
+        120.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000051-meta.mat",
+      "image_sha256": "891704b0f930a1ecc871bf28b889d44c19379eb250b99e657a8ef2d66c39ea07",
+      "metadata_sha256": "1c81370b2ed55050cd3ce3ba72f68065eb66eef70defa93cf34e8ec0a7e19f01"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000052-color.jpg",
+      "box_xywh": [
+        561.0,
+        305.0,
+        124.0,
+        117.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000052-meta.mat",
+      "image_sha256": "b582932286ce5f53506a8fb0871b4ed811b8aa2e7c633e52a67c5c7bfa7006af",
+      "metadata_sha256": "742661c00ba8db9ba4dca43cd27ac96c45923e51a38d7f744620678459f322eb"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000053-color.jpg",
+      "box_xywh": [
+        563.0,
+        308.0,
+        119.0,
+        111.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000053-meta.mat",
+      "image_sha256": "7a02d25701f7dcb7e9a0479c32b37cda63b8b0bc6e6f119b9bbad3bcdeed154e",
+      "metadata_sha256": "df5666bed2f1fcc03a45430e020e520b5f1d0d328eb18c2eeaaeafb2681d3162"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000054-color.jpg",
+      "box_xywh": [
+        564.0,
+        310.0,
+        116.0,
+        107.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000054-meta.mat",
+      "image_sha256": "bdfeef2d2514f65c9977ba96fd14d8f1b5695414b9a5334ee4ad3fe691d6c0d4",
+      "metadata_sha256": "dca544cd9c1bd31b43cba723f05ccc8a815f4d8139b825f2f32fa3da1c1a50f1"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000055-color.jpg",
+      "box_xywh": [
+        566.0,
+        312.0,
+        116.0,
+        103.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000055-meta.mat",
+      "image_sha256": "5bd172a7a8232096f3199e91585b59c9014d47a1a10ca44017afb0581000adaf",
+      "metadata_sha256": "fd4e3ecf7e1e58d9caba6a38f7660fa36b9e5f63bc5a7b797f5e5841b00e6580"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000056-color.jpg",
+      "box_xywh": [
+        564.0,
+        314.0,
+        123.0,
+        99.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000056-meta.mat",
+      "image_sha256": "a681cdb8b7b8f0386dd878e964b5b97fe44dc6425b588ff0e95a77911242232f",
+      "metadata_sha256": "9cc096ecd620bf074458a232bee88b20cc1b55094f6d970017fe61879f6f8051"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000057-color.jpg",
+      "box_xywh": [
+        564.0,
+        316.0,
+        128.0,
+        95.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000057-meta.mat",
+      "image_sha256": "3f07d9590634b1be5d9013951f36ff6dce6a9e5f9cb711d2d6c373d4409c79de",
+      "metadata_sha256": "4b5286ff8a723e2f0100b8ebe2d53ef5d145289f2f82f75e161bf96e5ee2b44c"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000058-color.jpg",
+      "box_xywh": [
+        561.0,
+        317.0,
+        132.0,
+        93.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000058-meta.mat",
+      "image_sha256": "ff2a583c4766fdf0535bcc8cdd560a1b2e75ef382f93c3f8c9e72919a8cd3d20",
+      "metadata_sha256": "a450218cbe5661575ec2dd74a2a265c9e2b6ecb4b93fcd62037f450dc579b569"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000059-color.jpg",
+      "box_xywh": [
+        561.0,
+        319.0,
+        137.0,
+        87.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000059-meta.mat",
+      "image_sha256": "924971525b7716a4f2d0d32137c11800dd5098840d45dedf6392e471236fd5c6",
+      "metadata_sha256": "cac60b77296a8ef201ee9b0fa413580825140ed67032ad81d8ea2ad381c46eaf"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000060-color.jpg",
+      "box_xywh": [
+        556.0,
+        321.0,
+        148.0,
+        81.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000060-meta.mat",
+      "image_sha256": "a638db4b0f833db70ee52ca20bfffcbb76ee512e6e0cd09f7480eb0257657af4",
+      "metadata_sha256": "76a6dea6d828299035316bac72b55345688e4e913fe7854d1858b28004d373d0"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000061-color.jpg",
+      "box_xywh": [
+        555.0,
+        322.0,
+        156.0,
+        81.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000061-meta.mat",
+      "image_sha256": "f71a0eaf8981d73e6a6ceee4441a42d55316fbfbaf02d9b74d489c5a91b525a4",
+      "metadata_sha256": "1b4a6959a1b7ea0362bdb2195cbf8abed47f838727d9338203dc6829eac3a7c8"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000062-color.jpg",
+      "box_xywh": [
+        555.0,
+        323.0,
+        158.0,
+        80.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000062-meta.mat",
+      "image_sha256": "f3826d4521508b362ca3e2cd4ea877e51ed1219af8056b0bbfe2f2804c7f7105",
+      "metadata_sha256": "c7a84ea9ba153b87a8838f68ce7a352ca8bcf0e8473bf7d3f2513b3c6ab0b107"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000063-color.jpg",
+      "box_xywh": [
+        554.0,
+        324.0,
+        159.0,
+        79.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000063-meta.mat",
+      "image_sha256": "bd1d568a57863a9c082ea5f3dc722a6cfc8a15be5fb86c15df3081df8f712e02",
+      "metadata_sha256": "9961ecf3a242535a58a2ea1c38cf4420b5599967ce0db8704c01d2ddff54c414"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000064-color.jpg",
+      "box_xywh": [
+        555.0,
+        325.0,
+        160.0,
+        78.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000064-meta.mat",
+      "image_sha256": "62786be34d73b25c4c666b117f07c59ac099cd45b2cd4e59669be70b99d0b324",
+      "metadata_sha256": "bf5b62e1d9810b386a32f9faef7790845c843e3f533b7f2cb3e1228ca0216e8e"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000065-color.jpg",
+      "box_xywh": [
+        555.0,
+        325.0,
+        160.0,
+        78.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000065-meta.mat",
+      "image_sha256": "4b3b2501ed40ed0dcc6396dfbd39970b7edd82d45820952774d63d82506f0379",
+      "metadata_sha256": "010c969b2cf6fafeb026bc9327729defc5bfbf4462a1b0865512a116b359d27e"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000066-color.jpg",
+      "box_xywh": [
+        556.0,
+        325.0,
+        159.0,
+        79.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000066-meta.mat",
+      "image_sha256": "7dc92e8e1ccace3f9d520c9b173d29ecb8ca1b36b94d98ede0f5ad98d1e6a303",
+      "metadata_sha256": "a00de2a692ac7902be8300e04f6b3c79e40fb6a8c531eca81f515cbf6703be0f"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000067-color.jpg",
+      "box_xywh": [
+        556.0,
+        325.0,
+        159.0,
+        79.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000067-meta.mat",
+      "image_sha256": "49c4d0e87254681c70e76d70438740fc1e642ee9db7522bc009a3c9ad6511d85",
+      "metadata_sha256": "3882db9f9eaea836f96c541de53c6797be3f84cba58cb6b36cae15e9c91daaab"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000068-color.jpg",
+      "box_xywh": [
+        557.0,
+        325.0,
+        158.0,
+        79.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000068-meta.mat",
+      "image_sha256": "294a34ffe26746b60e8ad5f1112a8947949384309d6fd82d89864d2b27657837",
+      "metadata_sha256": "56075aca3bb7eae9b6fbfb152d44831cc5158b7d1b7b891dda995f8614974267"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000069-color.jpg",
+      "box_xywh": [
+        558.0,
+        322.0,
+        157.0,
+        82.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000069-meta.mat",
+      "image_sha256": "3390b68a91ff12eb0d7873e887a640033dfe332a41308fdd838cba825423678c",
+      "metadata_sha256": "68664a2e8670c99eede34c424fd111e032adec987de42029aca5c8341ac1e394"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000070-color.jpg",
+      "box_xywh": [
+        561.0,
+        320.0,
+        153.0,
+        83.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000070-meta.mat",
+      "image_sha256": "f1cbbfec322e9381595ac7e246b92fc35249f50a40ce0d5fddc7d6009e9a1986",
+      "metadata_sha256": "c1854af113c239b4f2bb68a8d873faf3851046f9fa3c44005af4141a6cf4a5f8"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000071-color.jpg",
+      "box_xywh": [
+        564.0,
+        319.0,
+        147.0,
+        84.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000071-meta.mat",
+      "image_sha256": "7bf7938fab7ad3a6dd06e87cedce01f956de4a43bc9bd15646105f4cfefbb9b4",
+      "metadata_sha256": "9e0f24d0d95fcc2926137247e9593bca7b70dafbfc6eca07bdf4328628043793"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000072-color.jpg",
+      "box_xywh": [
+        568.0,
+        319.0,
+        141.0,
+        83.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000072-meta.mat",
+      "image_sha256": "33cd12e81060e0b1176b587ab304cf045dd3d4d762532602190b6acb24c9d54d",
+      "metadata_sha256": "9e81e5b0ce71cb871b67775db323de577d26a57b761896aa8d41b8219ae66743"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000073-color.jpg",
+      "box_xywh": [
+        569.0,
+        318.0,
+        138.0,
+        85.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000073-meta.mat",
+      "image_sha256": "ba0f6d577b277cdb581f80e0a69fed3a16a4a45d68581aee3fb87be671fea6a2",
+      "metadata_sha256": "0e6c60c3d66898c720ac13b39ce0ec8a2415debc9cb24e76e3ecbc9c8b2175c0"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000074-color.jpg",
+      "box_xywh": [
+        571.0,
+        318.0,
+        133.0,
+        87.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000074-meta.mat",
+      "image_sha256": "92c22c76b8448c71a899d8112633d7faba37a60567a52aac6f214d1b01b86498",
+      "metadata_sha256": "d109a5f276c1e884638dfe89707b3c4645491a312e1d5f18cad706c81bfb6392"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000075-color.jpg",
+      "box_xywh": [
+        572.0,
+        318.0,
+        131.0,
+        87.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000075-meta.mat",
+      "image_sha256": "92ee1adef2d3e6e1c8fe21ceb46606995d8687a0caa799fe700073f543500583",
+      "metadata_sha256": "2f577334b526f75a5530abecb89352b82b71f994c9ee98a69b33e09aba5b2862"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000076-color.jpg",
+      "box_xywh": [
+        573.0,
+        317.0,
+        128.0,
+        89.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000076-meta.mat",
+      "image_sha256": "5a814f63a2e1490941eb1cf84b9a7b052c33d5f96c67be2e4927c64a1b4cb25d",
+      "metadata_sha256": "751620f3aa0927804a9969aa932aaea6ef3e3f319358116789a51a5621190caa"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000077-color.jpg",
+      "box_xywh": [
+        574.0,
+        317.0,
+        125.0,
+        89.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000077-meta.mat",
+      "image_sha256": "97eab380760c6f0755920ccc3036c87437fed38417a53c962ea8cd2d55fe9e78",
+      "metadata_sha256": "9ffecdd7052ca0dc97cd335071bad32e6bdc5ec39943fbf54298eb1bba0f1dc8"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000078-color.jpg",
+      "box_xywh": [
+        575.0,
+        317.0,
+        122.0,
+        89.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000078-meta.mat",
+      "image_sha256": "0b6143dc9901221f089629c3e0295b00056c6e6b1e4cf8530f05583cee0e90a2",
+      "metadata_sha256": "551f852b15d447b11111e6cc645b340cd0ff392090294b6b415355924388f0d7"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000079-color.jpg",
+      "box_xywh": [
+        577.0,
+        316.0,
+        116.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000079-meta.mat",
+      "image_sha256": "78ab9c97eba4d49b63c7e8d25c8b23f8a0f2872a43f035e724820f9cdcdc531f",
+      "metadata_sha256": "21193165f1538308c9423af9d06e89ffde1cb553be05c8c1e83b4f02a6b1a786"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000080-color.jpg",
+      "box_xywh": [
+        579.0,
+        316.0,
+        110.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000080-meta.mat",
+      "image_sha256": "aec9c3970982264d31571316c061d29f400aad8f6d0948bdb27efd7e79e694f6",
+      "metadata_sha256": "79970e21a57b3b44019c2420534fbbdbe50a30ce9de3dcb9f7aa4861a3b75093"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000081-color.jpg",
+      "box_xywh": [
+        580.0,
+        316.0,
+        106.0,
+        91.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000081-meta.mat",
+      "image_sha256": "45a5f316e411a752833f5d8999876ea71ac3833f01f2dbc65ac0cd9be63c94e6",
+      "metadata_sha256": "403f03936cbd980698694edde38bbec53c50dc629a1896db2029a33bda6c0bad"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000082-color.jpg",
+      "box_xywh": [
+        582.0,
+        316.0,
+        101.0,
+        92.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000082-meta.mat",
+      "image_sha256": "e48d913d05d1130c1facd477bd294b1fbe38bb3a0fced9c117ecef9bde7cf137",
+      "metadata_sha256": "b2b14eb2ff646bad3cd555937b62cf8c4c187de6bd3151400e5af27dbc452ef2"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000083-color.jpg",
+      "box_xywh": [
+        584.0,
+        316.0,
+        94.0,
+        92.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000083-meta.mat",
+      "image_sha256": "7dbe424a645cf480a8b751ac64a98e01e093a10ddb49a732273ec963eb0dc76e",
+      "metadata_sha256": "fa89289a9a650f947196f37dc3a19c0a6de5a9ad528e2697d98f1e11dc55eeaf"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000084-color.jpg",
+      "box_xywh": [
+        587.0,
+        316.0,
+        86.0,
+        93.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000084-meta.mat",
+      "image_sha256": "0c0a018f5967159affe11976813b58bda211777dcd5e1dc79da27871fb907a9b",
+      "metadata_sha256": "393f51f46b82a27a53a6be7c883539fc6697e1a27d51679ca978f921f9465e39"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000085-color.jpg",
+      "box_xywh": [
+        590.0,
+        316.0,
+        82.0,
+        93.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000085-meta.mat",
+      "image_sha256": "49187d43a4fc1875f9ea92a390ed52ef7123ffe68c0a928047d0cb84c8d252c2",
+      "metadata_sha256": "768066954a0a911867abeb14a793f8a0dd1b9dbad17d43cfcd859c760d3cc001"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000086-color.jpg",
+      "box_xywh": [
+        592.0,
+        315.0,
+        83.0,
+        95.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000086-meta.mat",
+      "image_sha256": "7466eb657aa7a62665c5206ded70b9e0d92b9fd2c6e8059c4cbf85f9b0f7b2b8",
+      "metadata_sha256": "d16699d8fb8bcc33bcddd44f02249a421d01f140fb653d06aba776675cf85345"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000087-color.jpg",
+      "box_xywh": [
+        590.0,
+        315.0,
+        86.0,
+        96.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000087-meta.mat",
+      "image_sha256": "e0a3876456ed1845c82945825bf89d061e0150617b5d9d841fbe0647ea5f9f01",
+      "metadata_sha256": "00b56e2b35623be607004894fe9f9d727b8e0fb4c29efeee9cc7f4fa140a8318"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000088-color.jpg",
+      "box_xywh": [
+        588.0,
+        314.0,
+        90.0,
+        98.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000088-meta.mat",
+      "image_sha256": "c473110b7baa9d874970da8a7921779d07b0aef6ddd4509a075531392f71afeb",
+      "metadata_sha256": "6bc63ab035f0db888a301e969b98ed4064a62d15a7828fde47ac07b2c9c41338"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000089-color.jpg",
+      "box_xywh": [
+        586.0,
+        314.0,
+        94.0,
+        99.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000089-meta.mat",
+      "image_sha256": "90602bb6f9ebb9151afc2503a83e05556d4891e3e0ae0a2ee6375c1ffafd0179",
+      "metadata_sha256": "9d317fc295109457f97ced738bf7a4db769478cc8007887ba5d21cd1e8d3a4fb"
+    },
+    {
+      "variant": "035",
+      "image": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000090-color.jpg",
+      "box_xywh": [
+        584.0,
+        313.0,
+        98.0,
+        101.0
+      ],
+      "metadata": "F:\\UAV_DATASETS\\AIR2LAND(Synt)\\airport2_crash\\airport2_crash\\035\\left\\000090-meta.mat",
+      "image_sha256": "a10189edafe293713887818d518e86a61c1b4570815fe1c25096ef2ef2cf815f",
+      "metadata_sha256": "1b7f38e5eb9fb2cd9b2d6a838cc948dc9afebbc7cc05b6c1fd76fea453f7ac2d"
+    }
+  ],
+  "limits": [
+    "Related landing-scenario variants; independence not established",
+    "No verified source FPS/intrinsics/unit conventions; do not invent temporal or metric threat scores",
+    "No simulator operated"
+  ]
+}

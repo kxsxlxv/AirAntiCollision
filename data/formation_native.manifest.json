@@ -1,0 +1,12 @@
+{
+  "source": "F:\\UAV_DATASETS\\auto_annotate\\Videos\\Cut\\2_Planes_Formation_[xfXn0j9gnLo].mp4",
+  "source_sha256": "a453535040cf356fd7ccc9a8e4873e604db1c9c68d3a5da4eed3f4d1682cae2b",
+  "requested_source_interval_s": [
+    45,
+    65
+  ],
+  "input_origin": "real FPV RGB, no telemetry or threat/CPA ground truth",
+  "transform": "ffmpeg accurate seek, native1920x1080,H264CRF18,yuv420p,no audio",
+  "output_sha256": "972913f804870bfe8fea5b0190e2402106815e62e14a69fa37b2369b4863472f",
+  "relation": "Same source interval as data/formation_45_65.mp4; not an independent encounter"
+}

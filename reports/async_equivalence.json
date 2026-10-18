@@ -1,0 +1,29 @@
+{
+  "kind": "Both runs execute actual TensorRT neural inference; rendering schedule is the controlled change",
+  "runs": [
+    "artifacts\\async_trial\\serial",
+    "artifacts\\async_trial\\async"
+  ],
+  "decision_trace_identical": true,
+  "neural_detections_identical": true,
+  "frame_counts": [
+    438,
+    438
+  ],
+  "max_pts_difference_s": 0.0,
+  "decoded_frame_pixel_mismatches": 0,
+  "streams": [
+    {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "duration": "35.000000",
+      "nb_frames": "438"
+    },
+    {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "duration": "35.000000",
+      "nb_frames": "438"
+    }
+  ]
+}

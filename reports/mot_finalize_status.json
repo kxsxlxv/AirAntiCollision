@@ -1,0 +1,65 @@
+{
+  "complete": true,
+  "runs": [
+    {
+      "name": "motion_diffmot",
+      "exit_code": 0,
+      "external_seconds": 4.987658099998953
+    },
+    {
+      "name": "motion_trackssm",
+      "exit_code": 0,
+      "external_seconds": 5.02595029999793
+    },
+    {
+      "name": "render_live_tracktrack",
+      "exit_code": 0,
+      "external_seconds": 54.902065800000855
+    },
+    {
+      "name": "render_live_botsort",
+      "exit_code": 0,
+      "external_seconds": 58.75396349999937
+    },
+    {
+      "name": "render_live_ocsort",
+      "exit_code": 0,
+      "external_seconds": 35.91888569999719
+    },
+    {
+      "name": "render_live_diffmot",
+      "exit_code": 0,
+      "external_seconds": 53.05559119999816
+    },
+    {
+      "name": "render_live_putr",
+      "exit_code": 0,
+      "external_seconds": 51.107125700000324
+    },
+    {
+      "name": "render_live_trackssm",
+      "exit_code": 0,
+      "external_seconds": 58.06873279999854
+    },
+    {
+      "name": "motion_only_diffmot",
+      "exit_code": 0,
+      "external_seconds": 9.185251000002609
+    },
+    {
+      "name": "motion_only_metrics_diffmot",
+      "exit_code": 0,
+      "external_seconds": 0.746997399997781
+    },
+    {
+      "name": "motion_only_trackssm",
+      "exit_code": 0,
+      "external_seconds": 11.945801499998197
+    },
+    {
+      "name": "motion_only_metrics_trackssm",
+      "exit_code": 0,
+      "external_seconds": 0.7558755999998539
+    }
+  ]
+}

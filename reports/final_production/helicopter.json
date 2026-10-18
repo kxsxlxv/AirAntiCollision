@@ -1,0 +1,10 @@
+{
+  "name": "helicopter",
+  "output": "demo\\helicopter_final",
+  "frames": 210,
+  "processing_fps": 27.7049237230016,
+  "whole_run_fps": 20.768958011188314,
+  "states": {
+    "uncertain": 293
+  }
+}

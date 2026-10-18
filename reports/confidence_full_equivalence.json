@@ -1,0 +1,92 @@
+[
+  {
+    "sequence": "M1",
+    "samples": 455,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "M2",
+    "samples": 779,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "M3",
+    "samples": 495,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "M4",
+    "samples": 446,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "M5",
+    "samples": 1096,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "M6",
+    "samples": 649,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "M7",
+    "samples": 1154,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "M8",
+    "samples": 266,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "S1",
+    "samples": 885,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "S2",
+    "samples": 1547,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "S3",
+    "samples": 1222,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "S4",
+    "samples": 240,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "S5",
+    "samples": 336,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "S6",
+    "samples": 411,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  },
+  {
+    "sequence": "S7",
+    "samples": 1132,
+    "raw_detection_difference_frames_after_filter_018": 0,
+    "camera_validity_difference_frames": 0
+  }
+]

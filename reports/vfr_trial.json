@@ -1,0 +1,18 @@
+{
+  "kind": "temporal stress derived from actual RGB, not a new physical encounter",
+  "source_frames": 70,
+  "output_frames": 70,
+  "source_intervals_s": [
+    0.08,
+    0.2
+  ],
+  "max_trace_pts_error_s": 8.881784197001252e-16,
+  "max_output_pts_error_s": 0.0,
+  "source_packet_presentation_end_s": 7.84,
+  "source_container_duration_metadata_s": 7.6,
+  "source_stream_duration_metadata_s": 7.6,
+  "output_duration_s": 7.84,
+  "codec": "h264",
+  "timestamp_mode": "presentation_timestamps",
+  "metadata_conflict_note": "Source duration metadata ends before its last displayed frame; output retains every presentation timestamp and the final packet duration."
+}

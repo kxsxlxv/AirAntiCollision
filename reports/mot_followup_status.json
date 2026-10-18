@@ -1,0 +1,115 @@
+{
+  "complete": true,
+  "runs": [
+    {
+      "name": "swarm_detector",
+      "exit_code": 0,
+      "external_seconds": 9.001408999996784
+    },
+    {
+      "name": "swarm_custom",
+      "exit_code": 0,
+      "external_seconds": 3.925566700003401
+    },
+    {
+      "name": "metrics_custom",
+      "exit_code": 0,
+      "external_seconds": 0.7610672000009799
+    },
+    {
+      "name": "swarm_ocsort",
+      "exit_code": 0,
+      "external_seconds": 4.621709900005953
+    },
+    {
+      "name": "metrics_ocsort",
+      "exit_code": 0,
+      "external_seconds": 0.7378304999947431
+    },
+    {
+      "name": "swarm_tracktrack",
+      "exit_code": 0,
+      "external_seconds": 17.07816360000288
+    },
+    {
+      "name": "metrics_tracktrack",
+      "exit_code": 0,
+      "external_seconds": 0.7474551000050269
+    },
+    {
+      "name": "swarm_botsort",
+      "exit_code": 0,
+      "external_seconds": 16.679772900002718
+    },
+    {
+      "name": "metrics_botsort",
+      "exit_code": 0,
+      "external_seconds": 0.767411799999536
+    },
+    {
+      "name": "swarm_diffmot",
+      "exit_code": 0,
+      "external_seconds": 17.90028059999895
+    },
+    {
+      "name": "metrics_diffmot",
+      "exit_code": 0,
+      "external_seconds": 0.8274666999932379
+    },
+    {
+      "name": "swarm_putr",
+      "exit_code": 0,
+      "external_seconds": 12.333943099998578
+    },
+    {
+      "name": "metrics_putr",
+      "exit_code": 0,
+      "external_seconds": 0.749695900005463
+    },
+    {
+      "name": "swarm_trackssm",
+      "exit_code": 0,
+      "external_seconds": 20.675411399999575
+    },
+    {
+      "name": "metrics_trackssm",
+      "exit_code": 0,
+      "external_seconds": 0.7694361000030767
+    },
+    {
+      "name": "live_custom",
+      "exit_code": 0,
+      "external_seconds": 30.211802999998326
+    },
+    {
+      "name": "live_ocsort",
+      "exit_code": 0,
+      "external_seconds": 30.89600590000191
+    },
+    {
+      "name": "live_tracktrack",
+      "exit_code": 0,
+      "external_seconds": 48.583220500004245
+    },
+    {
+      "name": "live_botsort",
+      "exit_code": 0,
+      "external_seconds": 53.216435499998624
+    },
+    {
+      "name": "live_diffmot",
+      "exit_code": 0,
+      "external_seconds": 48.2535785
+    },
+    {
+      "name": "live_putr",
+      "exit_code": 0,
+      "external_seconds": 45.312106099998346
+    },
+    {
+      "name": "live_trackssm",
+      "exit_code": 0,
+      "external_seconds": 53.20734529999754
+    }
+  ]
+}

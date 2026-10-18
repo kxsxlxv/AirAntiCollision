@@ -1,0 +1,75 @@
+{
+  "definition": "QUT encounter-category proxy, not physical collision ground truth",
+  "trace": "demo/M1_fullframe/decisions.jsonl",
+  "gt": "data/qut/M1.gt.json",
+  "centroid_tolerance_px": 20,
+  "warning_persistence_s": 0.8,
+  "frames": 438,
+  "counts": {
+    "approach": {
+      "total": 438,
+      "untracked": 44,
+      "detected": 379,
+      "uncertain": 271,
+      "reason_history": 26,
+      "reason_growth_unresolved": 67,
+      "reason_overlap": 12,
+      "reason_aspect": 166,
+      "threat": 123,
+      "reason_bearing_growth": 123
+    },
+    "other": {
+      "total": 438,
+      "untracked": 438,
+      "detected": 0
+    }
+  },
+  "growth_only_baseline": {
+    "approach": {
+      "growth_only_untracked": 44,
+      "growth_only_uncertain": 172,
+      "growth_only_threat": 222
+    },
+    "other": {
+      "growth_only_untracked": 438
+    }
+  },
+  "events": [
+    {
+      "id": "approach_M1_labels",
+      "kind": "approach",
+      "sampled_frames": 438,
+      "sustained_warning": true,
+      "first_warning_time_s": 24.64,
+      "max_warning_duration_s": 9.840000000000009,
+      "any_apparently_non_threat": false,
+      "associated_track_ids": [
+        9,
+        11
+      ],
+      "fragments": 2
+    },
+    {
+      "id": "other_M1_labels",
+      "kind": "other",
+      "sampled_frames": 438,
+      "sustained_warning": false,
+      "first_warning_time_s": null,
+      "max_warning_duration_s": 0,
+      "any_apparently_non_threat": false,
+      "associated_track_ids": [],
+      "fragments": 0
+    }
+  ],
+  "unmatched_track_frames": {
+    "uncertain": 17,
+    "threat": 7
+  },
+  "limitations": [
+    "centroids approximate/interpolated",
+    "no GT boxes or CPA",
+    "other objects not necessarily exhaustively labeled",
+    "unmatched warnings are not verified false alerts",
+    "missed warning and false-safe on approach are distinct"
+  ]
+}

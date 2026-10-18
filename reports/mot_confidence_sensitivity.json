@@ -1,0 +1,125 @@
+{
+  "scope": "Two QUT clips M2/S2 plus three UAVSwarm sequences; detector boxes unchanged; tracker strong/new-track threshold only",
+  "rows": [
+    {
+      "method": "tracktrack",
+      "high": 0.03,
+      "qut_label_samples": 2147,
+      "qut_coverage": 0.8062412668840242,
+      "qut_dominant_identity_coverage": 0.7918025151374011,
+      "qut_id_changes": 2,
+      "swarm_IDF1": 18.84994896223205,
+      "swarm_IDSW": 16.0
+    },
+    {
+      "method": "tracktrack",
+      "high": 0.18,
+      "qut_label_samples": 2147,
+      "qut_coverage": 0.7466231951560317,
+      "qut_dominant_identity_coverage": 0.7461574289706567,
+      "qut_id_changes": 1,
+      "swarm_IDF1": 17.455197132616487,
+      "swarm_IDSW": 15.0
+    },
+    {
+      "method": "botsort",
+      "high": 0.03,
+      "qut_label_samples": 2147,
+      "qut_coverage": 0.8141592920353983,
+      "qut_dominant_identity_coverage": 0.6516068933395436,
+      "qut_id_changes": 30,
+      "swarm_IDF1": 21.77406132152812,
+      "swarm_IDSW": 6.0
+    },
+    {
+      "method": "botsort",
+      "high": 0.18,
+      "qut_label_samples": 2147,
+      "qut_coverage": 0.6837447601304145,
+      "qut_dominant_identity_coverage": 0.5659059152305542,
+      "qut_id_changes": 32,
+      "swarm_IDF1": 20.817843866171003,
+      "swarm_IDSW": 2.0
+    },
+    {
+      "method": "ocsort",
+      "high": 0.03,
+      "qut_label_samples": 2147,
+      "qut_coverage": 0.7866790870982767,
+      "qut_dominant_identity_coverage": 0.6022356776897997,
+      "qut_id_changes": 5,
+      "swarm_IDF1": 18.76740947075209,
+      "swarm_IDSW": 10.0
+    },
+    {
+      "method": "ocsort",
+      "high": 0.18,
+      "qut_label_samples": 2147,
+      "qut_coverage": 0.6567303213786679,
+      "qut_dominant_identity_coverage": 0.6539357242664182,
+      "qut_id_changes": 1,
+      "swarm_IDF1": 15.494278746951792,
+      "swarm_IDSW": 10.0
+    },
+    {
+      "method": "diffmot",
+      "high": 0.03,
+      "qut_label_samples": 2147,
+      "qut_coverage": 0.8057755006986492,
+      "qut_dominant_identity_coverage": 0.7666511411271542,
+      "qut_id_changes": 6,
+      "swarm_IDF1": 19.05570652173913,
+      "swarm_IDSW": 12.0
+    },
+    {
+      "method": "diffmot",
+      "high": 0.18,
+      "qut_label_samples": 2147,
+      "qut_coverage": 0.6776897997205403,
+      "qut_dominant_identity_coverage": 0.6045645086166744,
+      "qut_id_changes": 4,
+      "swarm_IDF1": 17.502278942570648,
+      "swarm_IDSW": 12.0
+    },
+    {
+      "method": "putr",
+      "high": 0.03,
+      "qut_label_samples": 2147,
+      "qut_coverage": 0.8025151374010246,
+      "qut_dominant_identity_coverage": 0.7885421518397764,
+      "qut_id_changes": 3,
+      "swarm_IDF1": 18.048867487069735,
+      "swarm_IDSW": 4.0
+    },
+    {
+      "method": "putr",
+      "high": 0.18,
+      "qut_label_samples": 2147,
+      "qut_coverage": 0.7787610619469026,
+      "qut_dominant_identity_coverage": 0.7787610619469026,
+      "qut_id_changes": 0,
+      "swarm_IDF1": 17.72760917838638,
+      "swarm_IDSW": 3.0
+    },
+    {
+      "method": "trackssm",
+      "high": 0.03,
+      "qut_label_samples": 2147,
+      "qut_coverage": 0.5160689333954355,
+      "qut_dominant_identity_coverage": 0.2263623660922217,
+      "qut_id_changes": 615,
+      "swarm_IDF1": 20.27959653158733,
+      "swarm_IDSW": 23.0
+    },
+    {
+      "method": "trackssm",
+      "high": 0.18,
+      "qut_label_samples": 2147,
+      "qut_coverage": 0.4168607359105729,
+      "qut_dominant_identity_coverage": 0.22682813227759666,
+      "qut_id_changes": 402,
+      "swarm_IDF1": 16.6351606805293,
+      "swarm_IDSW": 20.0
+    }
+  ]
+}

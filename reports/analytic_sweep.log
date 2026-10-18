@@ -1,0 +1,47 @@
+{
+  "seed": 20261018,
+  "trials_per_condition": 200,
+  "total": 1200,
+  "kind": "analytical 2D controlled geometry, not RGB or flight simulation",
+  "truth": "true 2D constant-velocity CPA <1.5 spans close, >5 spans far, otherwise borderline",
+  "counts": {
+    "ideal": {
+      "far_uncertain": 117,
+      "borderline_uncertain": 32,
+      "far_nonthreat": 35,
+      "close_uncertain": 13,
+      "close_threat": 3
+    },
+    "centroid_noise": {
+      "borderline_uncertain": 44,
+      "close_threat": 3,
+      "far_uncertain": 101,
+      "close_uncertain": 27,
+      "far_nonthreat": 25
+    },
+    "aspect_change": {
+      "borderline_uncertain": 51,
+      "far_uncertain": 131,
+      "close_uncertain": 18
+    },
+    "low_pixels": {
+      "far_uncertain": 134,
+      "borderline_uncertain": 49,
+      "close_uncertain": 17
+    },
+    "dropouts": {
+      "far_uncertain": 107,
+      "far_nonthreat": 24,
+      "borderline_uncertain": 46,
+      "close_uncertain": 22,
+      "close_threat": 1
+    },
+    "camera_pan_unknown": {
+      "far_uncertain": 132,
+      "borderline_uncertain": 48,
+      "close_uncertain": 20
+    }
+  },
+  "false_safe_examples": [],
+  "limitations": "plane crossing miss proxy differs from true CPA; no physical aircraft dimensions, dynamics or real-video validity inferred"
+}

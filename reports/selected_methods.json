@@ -1,0 +1,1957 @@
+{
+  "kind": "Actual neural optional-method comparison under selected profile; no GT online",
+  "sources": {
+    "M1": "data/qut",
+    "M2": "data/qut",
+    "M4": "data/qut_full",
+    "S2": "data/qut"
+  },
+  "stride": 2,
+  "results": [
+    {
+      "method": "dense",
+      "counts": {
+        "approach": {
+          "total": 1997,
+          "untracked": 352,
+          "detector_queried": 1997,
+          "detected": 1604,
+          "uncertain": 1090,
+          "observed_by_detector": 1645,
+          "reason_history": 123,
+          "reason_aspect": 295,
+          "reason_association": 284,
+          "reason_confirm_warning": 27,
+          "threat": 555,
+          "reason_bearing_growth": 555,
+          "reason_growth_unresolved": 213,
+          "reason_overlap": 145,
+          "reason_clipped": 1,
+          "reason_shrink_ambiguous": 2
+        },
+        "other": {
+          "total": 1872,
+          "untracked": 367,
+          "detector_queried": 1872,
+          "detected": 1446,
+          "uncertain": 1367,
+          "observed_by_detector": 1505,
+          "reason_history": 102,
+          "reason_growth_unresolved": 712,
+          "reason_overlap": 94,
+          "reason_shrink_ambiguous": 13,
+          "reason_confirm_non_threat": 162,
+          "nonthreat": 138,
+          "reason_crossing": 138,
+          "reason_clipped": 10,
+          "reason_association": 252,
+          "reason_aspect": 22
+        }
+      },
+      "events": [
+        {
+          "sequence": "M1",
+          "id": "approach_M1_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 24.32,
+          "max_warning_duration_s": 10.160000000000009,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            2,
+            24,
+            34,
+            43,
+            51
+          ],
+          "fragments": 5,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M1",
+          "id": "other_M1_labels",
+          "kind": "other",
+          "sampled_frames": 438,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            23,
+            29,
+            65,
+            75,
+            80
+          ],
+          "fragments": 5,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M2",
+          "id": "approach_M2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 18.0,
+          "max_warning_duration_s": 11.12000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            1,
+            160
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M2",
+          "id": "other_M2_labels",
+          "kind": "other",
+          "sampled_frames": 199,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": true,
+          "associated_track_ids": [
+            2,
+            154
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M4",
+          "id": "other_M4_2_labels",
+          "kind": "other",
+          "sampled_frames": 640,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": true,
+          "associated_track_ids": [
+            1,
+            25,
+            64,
+            107
+          ],
+          "fragments": 4,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M4",
+          "id": "approach_M4_labels",
+          "kind": "approach",
+          "sampled_frames": 683,
+          "sustained_warning": true,
+          "first_warning_time_s": 66.56000000000002,
+          "max_warning_duration_s": 8.87999999999981,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            91,
+            97,
+            101,
+            133,
+            137
+          ],
+          "fragments": 5,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M4",
+          "id": "other_M4_3_labels",
+          "kind": "other",
+          "sampled_frames": 595,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            96
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "S2",
+          "id": "approach_S2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 23.119999999999997,
+          "max_warning_duration_s": 10.88000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            8,
+            33
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": true
+        }
+      ],
+      "runs": [
+        {
+          "sequence": "M1",
+          "data_root": "data/qut",
+          "frames": 438,
+          "processing_fps": 29.51532799043005,
+          "stages": {
+            "detector_ms": {
+              "mean": 22.837125570802186,
+              "p50": 22.792699999627075,
+              "p95": 23.62849000028291
+            },
+            "network_calls": {
+              "mean": 7.0,
+              "p50": 7.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 5.3394513698844275,
+              "p50": 5.324400000063179,
+              "p95": 6.021380000402132
+            },
+            "tracker_ms": {
+              "mean": 0.1361956620550625,
+              "p50": 0.12909999986732146,
+              "p95": 0.21979000111969071
+            },
+            "threat_ms": {
+              "mean": 0.9395248858484978,
+              "p50": 1.178349999463535,
+              "p95": 2.3166149986536766
+            },
+            "decode_ms": {
+              "mean": 4.428965525159135,
+              "p50": 4.370649998236331,
+              "p95": 5.006729998967785
+            }
+          },
+          "input_sha256": "2c0d9a82a2f80419382ee23bafc8e34ef94a032831160b56d642964b2da5163a",
+          "counts": {
+            "approach": {
+              "total": 438,
+              "untracked": 9,
+              "detector_queried": 438,
+              "detected": 431,
+              "uncertain": 302,
+              "observed_by_detector": 429,
+              "reason_history": 23,
+              "reason_aspect": 124,
+              "reason_association": 152,
+              "reason_confirm_warning": 3,
+              "threat": 127,
+              "reason_bearing_growth": 127
+            },
+            "other": {
+              "total": 438,
+              "untracked": 343,
+              "detector_queried": 438,
+              "detected": 67,
+              "uncertain": 95,
+              "observed_by_detector": 95,
+              "reason_history": 46,
+              "reason_growth_unresolved": 43,
+              "reason_overlap": 6
+            }
+          }
+        },
+        {
+          "sequence": "M2",
+          "data_root": "data/qut",
+          "frames": 438,
+          "processing_fps": 29.824583850193193,
+          "stages": {
+            "detector_ms": {
+              "mean": 22.792662785408762,
+              "p50": 22.696900000482856,
+              "p95": 23.408080000263
+            },
+            "network_calls": {
+              "mean": 7.0,
+              "p50": 7.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 5.010405022881163,
+              "p50": 5.272600000353123,
+              "p95": 6.033539999316417
+            },
+            "tracker_ms": {
+              "mean": 0.2637230594301985,
+              "p50": 0.20490000042627798,
+              "p95": 0.6207200000972078
+            },
+            "threat_ms": {
+              "mean": 1.7052723744000853,
+              "p50": 1.3415000003078603,
+              "p95": 3.5027949990762863
+            },
+            "decode_ms": {
+              "mean": 3.533118493146607,
+              "p50": 3.4573000002637855,
+              "p95": 3.842294999049045
+            }
+          },
+          "input_sha256": "9c44cecd3d818089f3d2b22c3f71bd139e5e720eae1935c664cc65a891ae0bb7",
+          "counts": {
+            "approach": {
+              "total": 438,
+              "untracked": 11,
+              "detector_queried": 438,
+              "detected": 431,
+              "uncertain": 268,
+              "observed_by_detector": 427,
+              "reason_history": 23,
+              "reason_growth_unresolved": 89,
+              "reason_overlap": 117,
+              "reason_confirm_warning": 12,
+              "threat": 159,
+              "reason_bearing_growth": 159,
+              "reason_association": 26,
+              "reason_clipped": 1
+            },
+            "other": {
+              "total": 199,
+              "untracked": 2,
+              "detector_queried": 199,
+              "detected": 196,
+              "uncertain": 116,
+              "observed_by_detector": 197,
+              "reason_history": 23,
+              "reason_growth_unresolved": 47,
+              "reason_shrink_ambiguous": 10,
+              "reason_confirm_non_threat": 31,
+              "nonthreat": 81,
+              "reason_crossing": 81,
+              "reason_clipped": 5
+            }
+          }
+        },
+        {
+          "sequence": "M4",
+          "data_root": "data/qut_full",
+          "frames": 1115,
+          "processing_fps": 29.945143558656472,
+          "stages": {
+            "detector_ms": {
+              "mean": 22.728661434957104,
+              "p50": 22.720700000718352,
+              "p95": 23.361490000388585
+            },
+            "network_calls": {
+              "mean": 7.0,
+              "p50": 7.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 5.228606547083342,
+              "p50": 5.198000000746106,
+              "p95": 5.859240000063437
+            },
+            "tracker_ms": {
+              "mean": 0.14890529147927198,
+              "p50": 0.13480000052368268,
+              "p95": 0.2676899999642046
+            },
+            "threat_ms": {
+              "mean": 1.561741883443113,
+              "p50": 1.363100000162376,
+              "p95": 2.57454000038706
+            },
+            "decode_ms": {
+              "mean": 3.535603856504869,
+              "p50": 3.484799999569077,
+              "p95": 3.914919999078847
+            }
+          },
+          "input_sha256": "d434c5283f6e4e5c1f806fa3253bfc72dd9177fb58b1eaeae86dd5774ac1c93e",
+          "counts": {
+            "other": {
+              "total": 1235,
+              "untracked": 22,
+              "detector_queried": 1235,
+              "detected": 1183,
+              "uncertain": 1156,
+              "observed_by_detector": 1213,
+              "reason_history": 33,
+              "reason_association": 252,
+              "reason_growth_unresolved": 622,
+              "reason_overlap": 88,
+              "reason_confirm_non_threat": 131,
+              "reason_aspect": 22,
+              "reason_shrink_ambiguous": 3,
+              "nonthreat": 57,
+              "reason_crossing": 57,
+              "reason_clipped": 5
+            },
+            "approach": {
+              "total": 683,
+              "untracked": 154,
+              "detector_queried": 683,
+              "detected": 501,
+              "uncertain": 396,
+              "observed_by_detector": 529,
+              "reason_history": 36,
+              "reason_growth_unresolved": 98,
+              "reason_shrink_ambiguous": 2,
+              "reason_aspect": 138,
+              "reason_overlap": 10,
+              "reason_association": 106,
+              "reason_confirm_warning": 6,
+              "threat": 133,
+              "reason_bearing_growth": 133
+            }
+          }
+        },
+        {
+          "sequence": "S2",
+          "data_root": "data/qut",
+          "frames": 438,
+          "processing_fps": 31.08794874389162,
+          "stages": {
+            "detector_ms": {
+              "mean": 22.740171917845878,
+              "p50": 22.700499999700696,
+              "p95": 23.45662499892569
+            },
+            "network_calls": {
+              "mean": 7.0,
+              "p50": 7.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 4.938477168925352,
+              "p50": 4.88244999996823,
+              "p95": 5.290899999909016
+            },
+            "tracker_ms": {
+              "mean": 0.0764150684529976,
+              "p50": 0.08724999952391954,
+              "p95": 0.14338999990286538
+            },
+            "threat_ms": {
+              "mean": 0.6786121005017245,
+              "p50": 1.1403000007703668,
+              "p95": 1.477385000362119
+            },
+            "decode_ms": {
+              "mean": 3.553959132472774,
+              "p50": 3.4965000004376634,
+              "p95": 3.9436000008208794
+            }
+          },
+          "input_sha256": "6802fe1a267b8a7587904ac6c10860def9999890566cf90882b67a1ba9e877e3",
+          "counts": {
+            "approach": {
+              "total": 438,
+              "untracked": 178,
+              "detector_queried": 438,
+              "detected": 241,
+              "uncertain": 124,
+              "observed_by_detector": 260,
+              "reason_history": 41,
+              "reason_growth_unresolved": 26,
+              "reason_overlap": 18,
+              "reason_confirm_warning": 6,
+              "reason_aspect": 33,
+              "threat": 136,
+              "reason_bearing_growth": 136
+            }
+          }
+        }
+      ]
+    },
+    {
+      "method": "adaptive",
+      "counts": {
+        "approach": {
+          "total": 1997,
+          "untracked": 376,
+          "detector_queried": 1997,
+          "detected": 1591,
+          "uncertain": 1066,
+          "observed_by_detector": 1621,
+          "reason_history": 100,
+          "reason_aspect": 295,
+          "reason_association": 284,
+          "reason_confirm_warning": 27,
+          "threat": 555,
+          "reason_bearing_growth": 555,
+          "reason_growth_unresolved": 208,
+          "reason_overlap": 149,
+          "reason_clipped": 1,
+          "reason_shrink_ambiguous": 2
+        },
+        "other": {
+          "total": 1872,
+          "untracked": 374,
+          "detector_queried": 1872,
+          "detected": 1435,
+          "uncertain": 1360,
+          "observed_by_detector": 1498,
+          "reason_history": 102,
+          "reason_growth_unresolved": 708,
+          "reason_overlap": 95,
+          "reason_shrink_ambiguous": 13,
+          "reason_confirm_non_threat": 158,
+          "nonthreat": 138,
+          "reason_crossing": 138,
+          "reason_clipped": 10,
+          "reason_association": 252,
+          "reason_aspect": 22
+        }
+      },
+      "events": [
+        {
+          "sequence": "M1",
+          "id": "approach_M1_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 24.32,
+          "max_warning_duration_s": 10.160000000000009,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            2,
+            22,
+            26,
+            34,
+            41
+          ],
+          "fragments": 5,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M1",
+          "id": "other_M1_labels",
+          "kind": "other",
+          "sampled_frames": 438,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            21,
+            24,
+            55,
+            65,
+            68
+          ],
+          "fragments": 5,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M2",
+          "id": "approach_M2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 18.0,
+          "max_warning_duration_s": 11.12000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            1,
+            148
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M2",
+          "id": "other_M2_labels",
+          "kind": "other",
+          "sampled_frames": 199,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": true,
+          "associated_track_ids": [
+            2,
+            142
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M4",
+          "id": "other_M4_2_labels",
+          "kind": "other",
+          "sampled_frames": 640,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": true,
+          "associated_track_ids": [
+            1,
+            25,
+            61,
+            90
+          ],
+          "fragments": 4,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M4",
+          "id": "approach_M4_labels",
+          "kind": "approach",
+          "sampled_frames": 683,
+          "sustained_warning": true,
+          "first_warning_time_s": 66.56000000000002,
+          "max_warning_duration_s": 8.87999999999981,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            81,
+            84,
+            112,
+            115
+          ],
+          "fragments": 4,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M4",
+          "id": "other_M4_3_labels",
+          "kind": "other",
+          "sampled_frames": 595,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            80
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "S2",
+          "id": "approach_S2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 23.119999999999997,
+          "max_warning_duration_s": 10.88000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            5,
+            24
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": true
+        }
+      ],
+      "runs": [
+        {
+          "sequence": "M1",
+          "data_root": "data/qut",
+          "frames": 438,
+          "processing_fps": 39.136951935907085,
+          "stages": {
+            "detector_ms": {
+              "mean": 15.836710274024092,
+              "p50": 16.481699999530974,
+              "p95": 23.109429999021813
+            },
+            "network_calls": {
+              "mean": 4.739726027397261,
+              "p50": 5.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 4.94636963465789,
+              "p50": 4.982249999557098,
+              "p95": 5.471790000683541
+            },
+            "tracker_ms": {
+              "mean": 0.1308938356126182,
+              "p50": 0.12405000052240212,
+              "p95": 0.2033149999078887
+            },
+            "threat_ms": {
+              "mean": 0.9260894977704242,
+              "p50": 1.1783000009017996,
+              "p95": 2.2632050005995548
+            },
+            "decode_ms": {
+              "mean": 3.515965296817524,
+              "p50": 3.4703499995885068,
+              "p95": 3.8286799993329614
+            }
+          },
+          "input_sha256": "2c0d9a82a2f80419382ee23bafc8e34ef94a032831160b56d642964b2da5163a",
+          "counts": {
+            "approach": {
+              "total": 438,
+              "untracked": 9,
+              "detector_queried": 438,
+              "detected": 431,
+              "uncertain": 302,
+              "observed_by_detector": 429,
+              "reason_history": 23,
+              "reason_aspect": 124,
+              "reason_association": 152,
+              "reason_confirm_warning": 3,
+              "threat": 127,
+              "reason_bearing_growth": 127
+            },
+            "other": {
+              "total": 438,
+              "untracked": 347,
+              "detector_queried": 438,
+              "detected": 61,
+              "uncertain": 91,
+              "observed_by_detector": 91,
+              "reason_history": 42,
+              "reason_growth_unresolved": 43,
+              "reason_overlap": 6
+            }
+          }
+        },
+        {
+          "sequence": "M2",
+          "data_root": "data/qut",
+          "frames": 438,
+          "processing_fps": 36.28257876324839,
+          "stages": {
+            "detector_ms": {
+              "mean": 16.389344063901515,
+              "p50": 16.646299999592884,
+              "p95": 23.243505000209552
+            },
+            "network_calls": {
+              "mean": 4.883561643835616,
+              "p50": 5.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 5.325414611886769,
+              "p50": 5.3377999993244885,
+              "p95": 6.172414999946341
+            },
+            "tracker_ms": {
+              "mean": 0.24519748856278575,
+              "p50": 0.19444999998086132,
+              "p95": 0.5983650001326168
+            },
+            "threat_ms": {
+              "mean": 1.7282897260344172,
+              "p50": 1.336299999820767,
+              "p95": 3.574954999112376
+            },
+            "decode_ms": {
+              "mean": 3.6509287670616777,
+              "p50": 3.5337500003151945,
+              "p95": 4.095800000050075
+            }
+          },
+          "input_sha256": "9c44cecd3d818089f3d2b22c3f71bd139e5e720eae1935c664cc65a891ae0bb7",
+          "counts": {
+            "approach": {
+              "total": 438,
+              "untracked": 11,
+              "detector_queried": 438,
+              "detected": 431,
+              "uncertain": 268,
+              "observed_by_detector": 427,
+              "reason_history": 23,
+              "reason_growth_unresolved": 89,
+              "reason_overlap": 117,
+              "reason_confirm_warning": 12,
+              "threat": 159,
+              "reason_bearing_growth": 159,
+              "reason_association": 26,
+              "reason_clipped": 1
+            },
+            "other": {
+              "total": 199,
+              "untracked": 2,
+              "detector_queried": 199,
+              "detected": 196,
+              "uncertain": 116,
+              "observed_by_detector": 197,
+              "reason_history": 23,
+              "reason_growth_unresolved": 47,
+              "reason_shrink_ambiguous": 10,
+              "reason_confirm_non_threat": 31,
+              "nonthreat": 81,
+              "reason_crossing": 81,
+              "reason_clipped": 5
+            }
+          }
+        },
+        {
+          "sequence": "M4",
+          "data_root": "data/qut_full",
+          "frames": 1115,
+          "processing_fps": 37.66175618728207,
+          "stages": {
+            "detector_ms": {
+              "mean": 15.813704035844903,
+              "p50": 16.13560000077996,
+              "p95": 22.940749999725085
+            },
+            "network_calls": {
+              "mean": 4.7461883408071746,
+              "p50": 5.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 5.268686726430797,
+              "p50": 5.225000000791624,
+              "p95": 5.954119999296381
+            },
+            "tracker_ms": {
+              "mean": 0.14429336323917294,
+              "p50": 0.13169999874662608,
+              "p95": 0.26262000083079307
+            },
+            "threat_ms": {
+              "mean": 1.5460025112005265,
+              "p50": 1.341099999990547,
+              "p95": 2.564459999484825
+            },
+            "decode_ms": {
+              "mean": 3.591072017896564,
+              "p50": 3.528100000039558,
+              "p95": 3.957740000441845
+            }
+          },
+          "input_sha256": "d434c5283f6e4e5c1f806fa3253bfc72dd9177fb58b1eaeae86dd5774ac1c93e",
+          "counts": {
+            "other": {
+              "total": 1235,
+              "untracked": 25,
+              "detector_queried": 1235,
+              "detected": 1178,
+              "uncertain": 1153,
+              "observed_by_detector": 1210,
+              "reason_history": 37,
+              "reason_association": 252,
+              "reason_growth_unresolved": 618,
+              "reason_overlap": 89,
+              "reason_confirm_non_threat": 127,
+              "reason_aspect": 22,
+              "reason_shrink_ambiguous": 3,
+              "nonthreat": 57,
+              "reason_crossing": 57,
+              "reason_clipped": 5
+            },
+            "approach": {
+              "total": 683,
+              "untracked": 168,
+              "detector_queried": 683,
+              "detected": 493,
+              "uncertain": 382,
+              "observed_by_detector": 515,
+              "reason_history": 22,
+              "reason_growth_unresolved": 98,
+              "reason_shrink_ambiguous": 2,
+              "reason_aspect": 138,
+              "reason_overlap": 10,
+              "reason_association": 106,
+              "reason_confirm_warning": 6,
+              "threat": 133,
+              "reason_bearing_growth": 133
+            }
+          }
+        },
+        {
+          "sequence": "S2",
+          "data_root": "data/qut",
+          "frames": 438,
+          "processing_fps": 44.36984862132618,
+          "stages": {
+            "detector_ms": {
+              "mean": 13.0957287670986,
+              "p50": 10.802550000335032,
+              "p95": 22.898410000743752
+            },
+            "network_calls": {
+              "mean": 3.910958904109589,
+              "p50": 3.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 4.961290182694789,
+              "p50": 4.923499999677006,
+              "p95": 5.316694998964522
+            },
+            "tracker_ms": {
+              "mean": 0.06790662102096132,
+              "p50": 0.08025000079214806,
+              "p95": 0.1360300005217141
+            },
+            "threat_ms": {
+              "mean": 0.6638385844514926,
+              "p50": 1.1295500007690862,
+              "p95": 1.385140000729734
+            },
+            "decode_ms": {
+              "mean": 3.5755442921188525,
+              "p50": 3.5204499999963446,
+              "p95": 3.917579997505527
+            }
+          },
+          "input_sha256": "6802fe1a267b8a7587904ac6c10860def9999890566cf90882b67a1ba9e877e3",
+          "counts": {
+            "approach": {
+              "total": 438,
+              "untracked": 188,
+              "detector_queried": 438,
+              "detected": 236,
+              "uncertain": 114,
+              "observed_by_detector": 250,
+              "reason_history": 32,
+              "reason_growth_unresolved": 21,
+              "reason_overlap": 22,
+              "reason_confirm_warning": 6,
+              "reason_aspect": 33,
+              "threat": 136,
+              "reason_bearing_growth": 136
+            }
+          }
+        }
+      ]
+    },
+    {
+      "method": "appearance",
+      "counts": {
+        "approach": {
+          "total": 1997,
+          "untracked": 345,
+          "detector_queried": 666,
+          "detected": 538,
+          "uncertain": 1083,
+          "observed_by_detector": 594,
+          "reason_history": 81,
+          "observed_by_sot": 1058,
+          "reason_aspect": 459,
+          "reason_association": 99,
+          "reason_confirm_warning": 27,
+          "reason_overlap": 185,
+          "threat": 569,
+          "reason_bearing_growth": 569,
+          "reason_growth_unresolved": 229,
+          "reason_shrink_ambiguous": 1,
+          "reason_clipped": 2
+        },
+        "other": {
+          "total": 1872,
+          "untracked": 229,
+          "detector_queried": 625,
+          "detected": 489,
+          "uncertain": 1468,
+          "observed_by_detector": 536,
+          "reason_history": 90,
+          "observed_by_sot": 1107,
+          "reason_growth_unresolved": 884,
+          "reason_overlap": 4,
+          "reason_association": 117,
+          "reason_confirm_non_threat": 83,
+          "nonthreat": 175,
+          "reason_crossing": 175,
+          "reason_clipped": 11,
+          "reason_aspect": 279
+        }
+      },
+      "events": [
+        {
+          "sequence": "M1",
+          "id": "approach_M1_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 22.64,
+          "max_warning_duration_s": 11.84000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            2,
+            46
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M1",
+          "id": "other_M1_labels",
+          "kind": "other",
+          "sampled_frames": 438,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            18,
+            35,
+            36,
+            64
+          ],
+          "fragments": 4,
+          "growth_only_baseline_sustained_warning": false
+        },
+        {
+          "sequence": "M2",
+          "id": "approach_M2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 15.839999999999998,
+          "max_warning_duration_s": 12.00000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            1
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M2",
+          "id": "other_M2_labels",
+          "kind": "other",
+          "sampled_frames": 199,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": true,
+          "associated_track_ids": [
+            2
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M4",
+          "id": "other_M4_2_labels",
+          "kind": "other",
+          "sampled_frames": 640,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": true,
+          "associated_track_ids": [
+            1,
+            6,
+            63
+          ],
+          "fragments": 3,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M4",
+          "id": "approach_M4_labels",
+          "kind": "approach",
+          "sampled_frames": 683,
+          "sustained_warning": true,
+          "first_warning_time_s": 66.64000000000001,
+          "max_warning_duration_s": 6.479999999999862,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            70,
+            72,
+            97,
+            98
+          ],
+          "fragments": 4,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M4",
+          "id": "other_M4_3_labels",
+          "kind": "other",
+          "sampled_frames": 595,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": true,
+          "associated_track_ids": [
+            67
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "S2",
+          "id": "approach_S2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 26.159999999999997,
+          "max_warning_duration_s": 7.840000000000007,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            3
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        }
+      ],
+      "runs": [
+        {
+          "sequence": "M1",
+          "data_root": "data/qut",
+          "frames": 438,
+          "processing_fps": 44.24561797158085,
+          "stages": {
+            "appearance_predict_ms": {
+              "mean": 4.663623515999424,
+              "p50": 5.889600000045903,
+              "p95": 6.5148100004080325
+            },
+            "appearance_network_calls": {
+              "mean": 1.4908675799086757,
+              "p50": 2.0,
+              "p95": 2.0
+            },
+            "detector_ms": {
+              "mean": 7.509115753390643,
+              "p50": 0.015699999494245276,
+              "p95": 22.87130499998966
+            },
+            "network_calls": {
+              "mean": 2.3333333333333335,
+              "p50": 0.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 4.97185045658617,
+              "p50": 5.061149999164627,
+              "p95": 5.581709999296436
+            },
+            "tracker_ms": {
+              "mean": 0.12061552509182286,
+              "p50": 0.12125000012019882,
+              "p95": 0.18280000040249433
+            },
+            "appearance_correct_ms": {
+              "mean": 0.08130844742390349,
+              "p50": 0.007099999493220821,
+              "p95": 0.01320000046689529
+            },
+            "threat_ms": {
+              "mean": 1.5245321918048096,
+              "p50": 1.3794500000585685,
+              "p95": 2.46526500031905
+            },
+            "decode_ms": {
+              "mean": 3.5297924658185846,
+              "p50": 3.472700000202167,
+              "p95": 3.877425000428047
+            }
+          },
+          "input_sha256": "2c0d9a82a2f80419382ee23bafc8e34ef94a032831160b56d642964b2da5163a",
+          "counts": {
+            "approach": {
+              "total": 438,
+              "untracked": 13,
+              "detector_queried": 146,
+              "detected": 144,
+              "uncertain": 277,
+              "observed_by_detector": 173,
+              "reason_history": 21,
+              "observed_by_sot": 252,
+              "reason_aspect": 199,
+              "reason_association": 46,
+              "reason_confirm_warning": 6,
+              "reason_overlap": 5,
+              "threat": 148,
+              "reason_bearing_growth": 148
+            },
+            "other": {
+              "total": 438,
+              "untracked": 194,
+              "detector_queried": 146,
+              "detected": 25,
+              "uncertain": 244,
+              "observed_by_detector": 20,
+              "reason_history": 33,
+              "observed_by_sot": 224,
+              "reason_growth_unresolved": 201,
+              "reason_overlap": 1,
+              "reason_association": 9
+            }
+          }
+        },
+        {
+          "sequence": "M2",
+          "data_root": "data/qut",
+          "frames": 438,
+          "processing_fps": 44.71685653975386,
+          "stages": {
+            "appearance_predict_ms": {
+              "mean": 4.553498173510024,
+              "p50": 3.6257499996281695,
+              "p95": 6.522150000819238
+            },
+            "appearance_network_calls": {
+              "mean": 1.4223744292237444,
+              "p50": 1.0,
+              "p95": 2.0
+            },
+            "detector_ms": {
+              "mean": 7.491086301367793,
+              "p50": 0.015800000255694613,
+              "p95": 22.81765999923664
+            },
+            "network_calls": {
+              "mean": 2.3333333333333335,
+              "p50": 0.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 4.718199543363781,
+              "p50": 4.9917000005734735,
+              "p95": 6.073735000791203
+            },
+            "tracker_ms": {
+              "mean": 0.17486803658585942,
+              "p50": 0.1390999996147002,
+              "p95": 0.40284999895447954
+            },
+            "appearance_correct_ms": {
+              "mean": 0.06005639265012714,
+              "p50": 0.007800000275892671,
+              "p95": 0.016514999970240748
+            },
+            "threat_ms": {
+              "mean": 1.6197031963613022,
+              "p50": 1.3591500010079471,
+              "p95": 2.4686749993634294
+            },
+            "decode_ms": {
+              "mean": 3.542165525134527,
+              "p50": 3.505050000057963,
+              "p95": 3.9139999993494707
+            }
+          },
+          "input_sha256": "9c44cecd3d818089f3d2b22c3f71bd139e5e720eae1935c664cc65a891ae0bb7",
+          "counts": {
+            "approach": {
+              "total": 438,
+              "untracked": 15,
+              "detector_queried": 146,
+              "detected": 144,
+              "uncertain": 206,
+              "observed_by_detector": 141,
+              "reason_history": 19,
+              "observed_by_sot": 282,
+              "reason_growth_unresolved": 74,
+              "reason_overlap": 82,
+              "reason_aspect": 25,
+              "reason_confirm_warning": 6,
+              "threat": 217,
+              "reason_bearing_growth": 217
+            },
+            "other": {
+              "total": 199,
+              "untracked": 6,
+              "detector_queried": 67,
+              "detected": 67,
+              "uncertain": 91,
+              "observed_by_detector": 65,
+              "reason_history": 19,
+              "observed_by_sot": 128,
+              "reason_growth_unresolved": 34,
+              "reason_confirm_non_threat": 32,
+              "nonthreat": 102,
+              "reason_crossing": 102,
+              "reason_clipped": 6
+            }
+          }
+        },
+        {
+          "sequence": "M4",
+          "data_root": "data/qut_full",
+          "frames": 1115,
+          "processing_fps": 41.12365477655863,
+          "stages": {
+            "appearance_predict_ms": {
+              "mean": 5.78774421526009,
+              "p50": 5.983699998978409,
+              "p95": 8.840190000046277
+            },
+            "appearance_network_calls": {
+              "mean": 1.8816143497757847,
+              "p50": 2.0,
+              "p95": 3.0
+            },
+            "detector_ms": {
+              "mean": 7.5058834080709245,
+              "p50": 0.016199999663513154,
+              "p95": 22.835049999957846
+            },
+            "network_calls": {
+              "mean": 2.33542600896861,
+              "p50": 0.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 5.122831390121056,
+              "p50": 5.110400001285598,
+              "p95": 5.825699999695644
+            },
+            "tracker_ms": {
+              "mean": 0.13313049330055554,
+              "p50": 0.12659999993047677,
+              "p95": 0.219989999277459
+            },
+            "appearance_correct_ms": {
+              "mean": 0.048628968643202056,
+              "p50": 0.0070000005507608876,
+              "p95": 0.01359999987471383
+            },
+            "threat_ms": {
+              "mean": 2.0002559641459143,
+              "p50": 2.2242000013648067,
+              "p95": 3.26236999953835
+            },
+            "decode_ms": {
+              "mean": 3.5246413453076726,
+              "p50": 3.479400000287569,
+              "p95": 3.909640000165382
+            }
+          },
+          "input_sha256": "d434c5283f6e4e5c1f806fa3253bfc72dd9177fb58b1eaeae86dd5774ac1c93e",
+          "counts": {
+            "other": {
+              "total": 1235,
+              "untracked": 29,
+              "detector_queried": 412,
+              "detected": 397,
+              "uncertain": 1133,
+              "observed_by_detector": 451,
+              "reason_history": 38,
+              "observed_by_sot": 755,
+              "reason_association": 108,
+              "reason_aspect": 279,
+              "reason_growth_unresolved": 649,
+              "reason_confirm_non_threat": 51,
+              "reason_overlap": 3,
+              "nonthreat": 73,
+              "reason_crossing": 73,
+              "reason_clipped": 5
+            },
+            "approach": {
+              "total": 683,
+              "untracked": 196,
+              "detector_queried": 228,
+              "detected": 168,
+              "uncertain": 386,
+              "observed_by_detector": 200,
+              "reason_history": 25,
+              "observed_by_sot": 287,
+              "reason_growth_unresolved": 115,
+              "reason_overlap": 56,
+              "reason_association": 53,
+              "reason_confirm_warning": 8,
+              "threat": 101,
+              "reason_bearing_growth": 101,
+              "reason_shrink_ambiguous": 1,
+              "reason_aspect": 126,
+              "reason_clipped": 2
+            }
+          }
+        },
+        {
+          "sequence": "S2",
+          "data_root": "data/qut",
+          "frames": 438,
+          "processing_fps": 46.20726691559204,
+          "stages": {
+            "appearance_predict_ms": {
+              "mean": 4.292150228342274,
+              "p50": 5.923999999140506,
+              "p95": 6.620304999523796
+            },
+            "appearance_network_calls": {
+              "mean": 1.3767123287671232,
+              "p50": 2.0,
+              "p95": 2.0
+            },
+            "detector_ms": {
+              "mean": 7.460306849260462,
+              "p50": 0.015999999959603883,
+              "p95": 22.727820000363863
+            },
+            "network_calls": {
+              "mean": 2.3333333333333335,
+              "p50": 0.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 4.9898079908595125,
+              "p50": 4.9358500000380445,
+              "p95": 5.310335000103805
+            },
+            "tracker_ms": {
+              "mean": 0.0974187214814842,
+              "p50": 0.11984999946434982,
+              "p95": 0.16280500012726404
+            },
+            "appearance_correct_ms": {
+              "mean": 0.0681769406790691,
+              "p50": 0.006600001142942347,
+              "p95": 0.012214998423587529
+            },
+            "threat_ms": {
+              "mean": 1.003503196393654,
+              "p50": 1.2193000011393451,
+              "p95": 2.2166149997246976
+            },
+            "decode_ms": {
+              "mean": 3.5385890411015426,
+              "p50": 3.4838500014302554,
+              "p95": 3.9203350014759053
+            }
+          },
+          "input_sha256": "6802fe1a267b8a7587904ac6c10860def9999890566cf90882b67a1ba9e877e3",
+          "counts": {
+            "approach": {
+              "total": 438,
+              "untracked": 121,
+              "detector_queried": 146,
+              "detected": 82,
+              "uncertain": 214,
+              "observed_by_detector": 80,
+              "reason_history": 16,
+              "observed_by_sot": 237,
+              "reason_growth_unresolved": 40,
+              "reason_overlap": 42,
+              "reason_confirm_warning": 7,
+              "reason_aspect": 109,
+              "threat": 103,
+              "reason_bearing_growth": 103
+            }
+          }
+        }
+      ]
+    },
+    {
+      "method": "appearance_independent",
+      "counts": {
+        "approach": {
+          "total": 1997,
+          "untracked": 345,
+          "detector_queried": 666,
+          "detected": 538,
+          "uncertain": 1093,
+          "observed_by_detector": 594,
+          "reason_history": 81,
+          "observed_by_sot": 1058,
+          "reason_scale_history": 110,
+          "reason_aspect": 387,
+          "reason_association": 99,
+          "reason_confirm_warning": 29,
+          "threat": 559,
+          "reason_bearing_growth": 559,
+          "reason_growth_unresolved": 227,
+          "reason_overlap": 158,
+          "reason_clipped": 2
+        },
+        "other": {
+          "total": 1872,
+          "untracked": 229,
+          "detector_queried": 625,
+          "detected": 489,
+          "uncertain": 1595,
+          "observed_by_detector": 536,
+          "reason_history": 90,
+          "observed_by_sot": 1107,
+          "reason_scale_history": 293,
+          "reason_association": 117,
+          "reason_growth_unresolved": 790,
+          "reason_scale_stale": 16,
+          "reason_confirm_non_threat": 61,
+          "nonthreat": 48,
+          "reason_crossing": 48,
+          "reason_clipped": 11,
+          "reason_aspect": 147,
+          "reason_overlap": 63,
+          "reason_tiny": 7
+        }
+      },
+      "events": [
+        {
+          "sequence": "M1",
+          "id": "approach_M1_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 24.240000000000002,
+          "max_warning_duration_s": 10.240000000000009,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            2,
+            46
+          ],
+          "fragments": 2,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M1",
+          "id": "other_M1_labels",
+          "kind": "other",
+          "sampled_frames": 438,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            18,
+            35,
+            36,
+            64
+          ],
+          "fragments": 4,
+          "growth_only_baseline_sustained_warning": false
+        },
+        {
+          "sequence": "M2",
+          "id": "approach_M2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 18.0,
+          "max_warning_duration_s": 10.240000000000009,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            1
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M2",
+          "id": "other_M2_labels",
+          "kind": "other",
+          "sampled_frames": 199,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": true,
+          "associated_track_ids": [
+            2
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M4",
+          "id": "other_M4_2_labels",
+          "kind": "other",
+          "sampled_frames": 640,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            1,
+            6,
+            63
+          ],
+          "fragments": 3,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M4",
+          "id": "approach_M4_labels",
+          "kind": "approach",
+          "sampled_frames": 683,
+          "sustained_warning": true,
+          "first_warning_time_s": 66.64000000000001,
+          "max_warning_duration_s": 7.679999999999836,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            70,
+            72,
+            97,
+            98
+          ],
+          "fragments": 4,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "M4",
+          "id": "other_M4_3_labels",
+          "kind": "other",
+          "sampled_frames": 595,
+          "sustained_warning": false,
+          "first_warning_time_s": null,
+          "max_warning_duration_s": 0,
+          "any_apparently_non_threat": true,
+          "associated_track_ids": [
+            67
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        },
+        {
+          "sequence": "S2",
+          "id": "approach_S2_labels",
+          "kind": "approach",
+          "sampled_frames": 438,
+          "sustained_warning": true,
+          "first_warning_time_s": 23.04,
+          "max_warning_duration_s": 10.96000000000001,
+          "any_apparently_non_threat": false,
+          "associated_track_ids": [
+            3
+          ],
+          "fragments": 1,
+          "growth_only_baseline_sustained_warning": true
+        }
+      ],
+      "runs": [
+        {
+          "sequence": "M1",
+          "data_root": "data/qut",
+          "frames": 438,
+          "processing_fps": 44.99711586979205,
+          "stages": {
+            "appearance_predict_ms": {
+              "mean": 4.654908447484567,
+              "p50": 5.907800000386487,
+              "p95": 6.566929999098647
+            },
+            "appearance_network_calls": {
+              "mean": 1.4908675799086757,
+              "p50": 2.0,
+              "p95": 2.0
+            },
+            "detector_ms": {
+              "mean": 7.502439954328007,
+              "p50": 0.015699999494245276,
+              "p95": 22.855429999526677
+            },
+            "network_calls": {
+              "mean": 2.3333333333333335,
+              "p50": 0.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 4.978906164426639,
+              "p50": 5.075349999970058,
+              "p95": 5.5979900009333505
+            },
+            "tracker_ms": {
+              "mean": 0.1197956620439338,
+              "p50": 0.12059999971825164,
+              "p95": 0.17630999873290418
+            },
+            "appearance_correct_ms": {
+              "mean": 0.08063949767908014,
+              "p50": 0.0068999997893115506,
+              "p95": 0.013114999546814941
+            },
+            "threat_ms": {
+              "mean": 1.1397682648923164,
+              "p50": 1.2266999992789351,
+              "p95": 2.2231700000702403
+            },
+            "decode_ms": {
+              "mean": 3.5516824200468657,
+              "p50": 3.5100999994028825,
+              "p95": 3.913359999842214
+            }
+          },
+          "input_sha256": "2c0d9a82a2f80419382ee23bafc8e34ef94a032831160b56d642964b2da5163a",
+          "counts": {
+            "approach": {
+              "total": 438,
+              "untracked": 13,
+              "detector_queried": 146,
+              "detected": 144,
+              "uncertain": 297,
+              "observed_by_detector": 173,
+              "reason_history": 21,
+              "observed_by_sot": 252,
+              "reason_scale_history": 2,
+              "reason_aspect": 225,
+              "reason_association": 46,
+              "reason_confirm_warning": 3,
+              "threat": 128,
+              "reason_bearing_growth": 128
+            },
+            "other": {
+              "total": 438,
+              "untracked": 194,
+              "detector_queried": 146,
+              "detected": 25,
+              "uncertain": 244,
+              "observed_by_detector": 20,
+              "reason_history": 33,
+              "observed_by_sot": 224,
+              "reason_scale_history": 160,
+              "reason_association": 9,
+              "reason_growth_unresolved": 38,
+              "reason_scale_stale": 4
+            }
+          }
+        },
+        {
+          "sequence": "M2",
+          "data_root": "data/qut",
+          "frames": 438,
+          "processing_fps": 44.262388815253004,
+          "stages": {
+            "appearance_predict_ms": {
+              "mean": 4.580678767105212,
+              "p50": 3.6767000010513584,
+              "p95": 6.553425000311108
+            },
+            "appearance_network_calls": {
+              "mean": 1.4223744292237444,
+              "p50": 1.0,
+              "p95": 2.0
+            },
+            "detector_ms": {
+              "mean": 7.5756210045716985,
+              "p50": 0.01610000072105322,
+              "p95": 22.995034999803465
+            },
+            "network_calls": {
+              "mean": 2.3333333333333335,
+              "p50": 0.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 4.738234246560003,
+              "p50": 5.010599998968246,
+              "p95": 6.137320000379987
+            },
+            "tracker_ms": {
+              "mean": 0.1773152968394554,
+              "p50": 0.13799999942420982,
+              "p95": 0.405159999809257
+            },
+            "appearance_correct_ms": {
+              "mean": 0.061785616471503116,
+              "p50": 0.007700000423938036,
+              "p95": 0.01671499967415002
+            },
+            "threat_ms": {
+              "mean": 1.641815525121498,
+              "p50": 1.3661000002684887,
+              "p95": 2.513650000946654
+            },
+            "decode_ms": {
+              "mean": 3.6136671233387743,
+              "p50": 3.522049999446608,
+              "p95": 4.055160000370961
+            }
+          },
+          "input_sha256": "9c44cecd3d818089f3d2b22c3f71bd139e5e720eae1935c664cc65a891ae0bb7",
+          "counts": {
+            "approach": {
+              "total": 438,
+              "untracked": 15,
+              "detector_queried": 146,
+              "detected": 144,
+              "uncertain": 256,
+              "observed_by_detector": 141,
+              "reason_history": 19,
+              "observed_by_sot": 282,
+              "reason_scale_history": 2,
+              "reason_growth_unresolved": 111,
+              "reason_overlap": 113,
+              "reason_confirm_warning": 11,
+              "threat": 167,
+              "reason_bearing_growth": 167
+            },
+            "other": {
+              "total": 199,
+              "untracked": 6,
+              "detector_queried": 67,
+              "detected": 67,
+              "uncertain": 147,
+              "observed_by_detector": 65,
+              "reason_history": 19,
+              "observed_by_sot": 128,
+              "reason_scale_history": 2,
+              "reason_growth_unresolved": 75,
+              "reason_confirm_non_threat": 45,
+              "nonthreat": 46,
+              "reason_crossing": 46,
+              "reason_clipped": 6
+            }
+          }
+        },
+        {
+          "sequence": "M4",
+          "data_root": "data/qut_full",
+          "frames": 1115,
+          "processing_fps": 41.974563422094654,
+          "stages": {
+            "appearance_predict_ms": {
+              "mean": 5.782009058306268,
+              "p50": 5.98329999957059,
+              "p95": 8.865220000188856
+            },
+            "appearance_network_calls": {
+              "mean": 1.8816143497757847,
+              "p50": 2.0,
+              "p95": 3.0
+            },
+            "detector_ms": {
+              "mean": 7.49578807172663,
+              "p50": 0.015699999494245276,
+              "p95": 22.774619999654533
+            },
+            "network_calls": {
+              "mean": 2.33542600896861,
+              "p50": 0.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 5.119795246627793,
+              "p50": 5.115399999340298,
+              "p95": 5.80123999989155
+            },
+            "tracker_ms": {
+              "mean": 0.133537668158259,
+              "p50": 0.1277999999729218,
+              "p95": 0.22098999961599475
+            },
+            "appearance_correct_ms": {
+              "mean": 0.048109506696829105,
+              "p50": 0.007200000254670158,
+              "p95": 0.013799999578623101
+            },
+            "threat_ms": {
+              "mean": 1.5148006277708306,
+              "p50": 1.3395000005402835,
+              "p95": 2.5291700003435835
+            },
+            "decode_ms": {
+              "mean": 3.538445829605486,
+              "p50": 3.494100001262268,
+              "p95": 3.85664000059478
+            }
+          },
+          "input_sha256": "d434c5283f6e4e5c1f806fa3253bfc72dd9177fb58b1eaeae86dd5774ac1c93e",
+          "counts": {
+            "other": {
+              "total": 1235,
+              "untracked": 29,
+              "detector_queried": 412,
+              "detected": 397,
+              "uncertain": 1204,
+              "observed_by_detector": 451,
+              "reason_history": 38,
+              "observed_by_sot": 755,
+              "reason_association": 108,
+              "reason_aspect": 147,
+              "reason_growth_unresolved": 677,
+              "reason_overlap": 63,
+              "reason_scale_stale": 12,
+              "reason_scale_history": 131,
+              "reason_confirm_non_threat": 16,
+              "reason_clipped": 5,
+              "reason_tiny": 7,
+              "nonthreat": 2,
+              "reason_crossing": 2
+            },
+            "approach": {
+              "total": 683,
+              "untracked": 196,
+              "detector_queried": 228,
+              "detected": 168,
+              "uncertain": 366,
+              "observed_by_detector": 200,
+              "reason_history": 25,
+              "observed_by_sot": 287,
+              "reason_scale_history": 14,
+              "reason_growth_unresolved": 95,
+              "reason_aspect": 135,
+              "reason_overlap": 33,
+              "reason_association": 53,
+              "reason_confirm_warning": 9,
+              "threat": 121,
+              "reason_bearing_growth": 121,
+              "reason_clipped": 2
+            }
+          }
+        },
+        {
+          "sequence": "S2",
+          "data_root": "data/qut",
+          "frames": 438,
+          "processing_fps": 46.91197782429599,
+          "stages": {
+            "appearance_predict_ms": {
+              "mean": 4.296492922362195,
+              "p50": 5.939250000665197,
+              "p95": 6.567219999033113
+            },
+            "appearance_network_calls": {
+              "mean": 1.3767123287671232,
+              "p50": 2.0,
+              "p95": 2.0
+            },
+            "detector_ms": {
+              "mean": 7.514634703229147,
+              "p50": 0.015450000319106039,
+              "p95": 22.965794999163336
+            },
+            "network_calls": {
+              "mean": 2.3333333333333335,
+              "p50": 0.0,
+              "p95": 7.0
+            },
+            "camera_ms": {
+              "mean": 4.947506392708,
+              "p50": 4.899250000562461,
+              "p95": 5.251450000105251
+            },
+            "tracker_ms": {
+              "mean": 0.09712694068039293,
+              "p50": 0.11954999990848592,
+              "p95": 0.15924500085020554
+            },
+            "appearance_correct_ms": {
+              "mean": 0.06842260275637575,
+              "p50": 0.006599999323952943,
+              "p95": 0.011699999959091656
+            },
+            "threat_ms": {
+              "mean": 0.6550321917463353,
+              "p50": 0.08009999964997405,
+              "p95": 1.4262649998272536
+            },
+            "decode_ms": {
+              "mean": 3.547103424751509,
+              "p50": 3.505649999169691,
+              "p95": 3.8851450004585777
+            }
+          },
+          "input_sha256": "6802fe1a267b8a7587904ac6c10860def9999890566cf90882b67a1ba9e877e3",
+          "counts": {
+            "approach": {
+              "total": 438,
+              "untracked": 121,
+              "detector_queried": 146,
+              "detected": 82,
+              "uncertain": 174,
+              "observed_by_detector": 80,
+              "reason_history": 16,
+              "observed_by_sot": 237,
+              "reason_scale_history": 92,
+              "reason_overlap": 12,
+              "reason_growth_unresolved": 21,
+              "reason_confirm_warning": 6,
+              "threat": 143,
+              "reason_bearing_growth": 143,
+              "reason_aspect": 27
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Studied/development sources, not untouched validation",
+    "M4 full source and other last35s selections are explicit",
+    "Detector match counts include only queried frames; appearance methods query every3processedframes",
+    "No rendering in this comparison; processing FPS is not final annotated-video throughput",
+    "No true collision/CPA labels; nominal category scores only"
+  ]
+}

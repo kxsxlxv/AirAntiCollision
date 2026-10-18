@@ -1,0 +1,22 @@
+artifacts/confidence_full/assessment/0.03 {'0.24': Counter({'approach_events': 15, 'approach_warned': 15, 'other_events': 13, 'other_warned': 0}), '0.5': Counter({'approach_events': 15, 'approach_warned': 15, 'other_events': 13, 'other_warned': 0}), '0.8': Counter({'approach_events': 15, 'approach_warned': 15, 'other_events': 13, 'other_warned': 0}), '1.2': Counter({'approach_events': 15, 'approach_warned': 15, 'other_events': 13, 'other_warned': 0}), '2.0': Counter({'approach_events': 15, 'approach_warned': 15, 'other_events': 13, 'other_warned': 0}), '4.0': Counter({'approach_events': 15, 'approach_warned': 14, 'other_events': 13, 'other_warned': 0})}
+M1 onset 80.8 to_label_end 10.0 range 464.0 warning_fraction 0.2076271186440678
+M2 onset 139.2 to_label_end 16.400000000000006 range 478.0 warning_fraction 0.24199288256227758
+M3 onset 87.2 to_label_end 11.599999999999994 range 4571.0 warning_fraction 0.12383177570093458
+M4 onset 66.8 to_label_end 22.200000000000003 range 1081.0 warning_fraction 0.2490842490842491
+M5 onset 208.4 to_label_end 10.599999999999994 range 123.0 warning_fraction 0.24056603773584906
+M6 onset 119.2 to_label_end 10.399999999999991 range 472.0 warning_fraction 0.21973094170403587
+M7 onset 214.4 to_label_end 16.19999999999999 range 735.0 warning_fraction 0.29955947136563876
+M8 onset 42.0 to_label_end 11.0 range 489.0 warning_fraction 0.2056451612903226
+S1 onset 173.4 to_label_end 3.4000000000000057 range 128.0 warning_fraction 0.08530805687203792
+S2 onset 297.8 to_label_end 11.399999999999977 range 428.20000000000005 warning_fraction 0.1358974358974359
+S3 onset 229.8 to_label_end 14.399999999999977 range 556.0 warning_fraction 0.18699186991869918
+S4 onset 36.0 to_label_end 11.799999999999997 range 521.0 warning_fraction 0.22268907563025211
+S5 onset 55.2 to_label_end 11.799999999999997 range 580.0 warning_fraction 0.25663716814159293
+S6 onset 72.0 to_label_end 10.0 range 478.0 warning_fraction 0.21266968325791855
+S7 onset 216.2 to_label_end 10.0 range 481.0 warning_fraction 0.18951612903225806
+artifacts/cadence_fullrate {'0.24': Counter({'approach_events': 5, 'approach_warned': 5, 'other_events': 5, 'other_warned': 1}), '0.5': Counter({'approach_events': 5, 'approach_warned': 5, 'other_events': 5, 'other_warned': 1}), '0.8': Counter({'approach_events': 5, 'approach_warned': 5, 'other_events': 5, 'other_warned': 1}), '1.2': Counter({'approach_events': 5, 'approach_warned': 5, 'other_events': 5, 'other_warned': 0}), '2.0': Counter({'approach_events': 5, 'approach_warned': 5, 'other_events': 5, 'other_warned': 0}), '4.0': Counter({'approach_events': 5, 'approach_warned': 5, 'other_events': 5, 'other_warned': 0})}
+M1 onset 79.44 to_label_end 11.480000000000004 range 525.0 warning_fraction 0.2347457627118644
+M2 onset 119.4 to_label_end 36.19999999999999 range 1299.0 warning_fraction 0.2473271560940841
+M4 onset 66.52 to_label_end 22.64 range 1093.0 warning_fraction 0.19546120058565153
+M6 onset 116.4 to_label_end 13.23999999999998 range 597.0 warning_fraction 0.2722371967654987
+S2 onset 292.76 to_label_end 16.519999999999982 range 625.1 warning_fraction 0.1504106776180698

@@ -1,0 +1,9 @@
+M2 1 19.392 FPS {'detections.jsonl': True, 'decisions.jsonl': True}
+S2_zoom 1 14.41 FPS {'detections.jsonl': True, 'decisions.jsonl': True}
+formation 1 10.937 FPS {'detections.jsonl': True, 'decisions.jsonl': True}
+M2 2 19.885 FPS {'detections.jsonl': True, 'decisions.jsonl': True}
+S2_zoom 2 14.432 FPS {'detections.jsonl': True, 'decisions.jsonl': True}
+formation 2 10.917 FPS {'detections.jsonl': True, 'decisions.jsonl': True}
+M2 3 20.389 FPS {'detections.jsonl': True, 'decisions.jsonl': True}
+S2_zoom 3 14.604 FPS {'detections.jsonl': True, 'decisions.jsonl': True}
+formation 3 10.918 FPS {'detections.jsonl': True, 'decisions.jsonl': True}

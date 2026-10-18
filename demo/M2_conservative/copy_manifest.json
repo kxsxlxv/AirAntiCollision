@@ -1,0 +1,11 @@
+{
+  "kind": "Gallery copy of an actual TensorRT run; no inference or annotation was invented for copying",
+  "source_run": "artifacts\\async_trial\\async",
+  "files": {
+    "annotated.mp4": "1531e9b74a46a6c1988def60b072693548844f83ae39e88fb5876ce796eb0aca",
+    "benchmark.json": "8906eaec03b8841fc9dd9b1b3d0db2b593be05314f751602406a27e768bf68b0",
+    "decisions.jsonl": "4124a07563b0d5602e4b115b9b26c921ae0e704a840a1916d19e623f04479809",
+    "detections.jsonl": "98797a25a5a818dae1b84490f812d847ba63bead8f601d50c27a60818331404e",
+    "run_status.json": "4b88835125bd186d20d89bb7aa992d952952c323cf48a6bc0b0d25ef0a5a3274"
+  }
+}

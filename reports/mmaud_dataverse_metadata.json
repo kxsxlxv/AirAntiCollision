@@ -1,0 +1,925 @@
+{
+  "status": "OK",
+  "data": {
+    "id": 58900,
+    "identifier": "N9/X39LEK",
+    "persistentUrl": "https://doi.org/10.21979/N9/X39LEK",
+    "protocol": "doi",
+    "authority": "10.21979",
+    "publisher": "DR-NTU (Data)",
+    "publicationDate": "2021-03-01",
+    "storageIdentifier": "file://10.21979/N9/X39LEK",
+    "datasetType": "dataset",
+    "latestVersion": {
+      "id": 6185,
+      "datasetId": 58900,
+      "datasetPersistentId": "doi:10.21979/N9/X39LEK",
+      "storageIdentifier": "file://10.21979/N9/X39LEK",
+      "versionNumber": 5,
+      "versionMinorNumber": 0,
+      "versionState": "RELEASED",
+      "latestVersionPublishingState": "RELEASED",
+      "lastUpdateTime": "2024-07-05T06:02:58Z",
+      "releaseTime": "2022-09-26T09:42:40Z",
+      "createTime": "2022-09-25T19:46:24Z",
+      "publicationDate": "2021-03-01",
+      "citationDate": "2021-03-01",
+      "license": {
+        "name": "CC BY-NC 4.0",
+        "uri": "http://creativecommons.org/licenses/by-nc/4.0",
+        "iconUri": "https://licensebuttons.net/l/by-nc/4.0/88x31.png"
+      },
+      "fileAccessRequest": false,
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "name": "citation",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "NTU VIRAL DATASET"
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nguyen, Thien-Minh"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nanyang Technological University"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0003-1315-0967"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Yuan, Shenghai"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nanyang Technological University"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Cao, Muqing"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nanyang Technological University"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Lyu, Yang"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nanyang Technological University"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nguyen, Hoang Thien"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nanyang Technological University"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Xie, Lihua"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nanyang Technological University"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0002-7137-4136"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nguyen, Thien-Minh"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "KTH Sweden"
+                  }
+                },
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Yuan, Shenghai"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nanyang Technological University"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "<p>This dataset contains rosbag files featuring an extensive set of sensors: 1 IMU, 2 Lidars, 2 cameras, 4 UWB nodes, mounted on a DJI Matrice 600 Hexacopter. The data were collected at different locations in NTU, Singapore.\n</p>\n\n<p>\nPlease visit the project's website at <a href=\"https://ntu-aris.github.io/ntu_viral_dataset/\">https://ntu-aris.github.io/ntu_viral_dataset/</a> for more information.\n</p>"
+                  },
+                  "dsDescriptionDate": {
+                    "typeName": "dsDescriptionDate",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "2021"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Computer and Information Science",
+                "Engineering"
+              ]
+            },
+            {
+              "typeName": "keyword",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "UAV"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Dataset"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "SLAM"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "publication",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "publicationCitation": {
+                    "typeName": "publicationCitation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Thien-Minh Nguyen, Shenghai Yuan, Muqing Cao, Yang Lyu, Thien H Nguyen, & Lihua Xie (2021). NTU VIRAL: A visual-inertial-ranging-lidar dataset, from an aerial vehicle viewpoint. The International Journal of Robotics Research, 027836492110523."
+                  },
+                  "publicationIDType": {
+                    "typeName": "publicationIDType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "doi"
+                  },
+                  "publicationIDNumber": {
+                    "typeName": "publicationIDNumber",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "10.48550/arXiv.2202.00379"
+                  },
+                  "publicationURL": {
+                    "typeName": "publicationURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://arxiv.org/abs/2202.00379"
+                  }
+                },
+                {
+                  "publicationCitation": {
+                    "typeName": "publicationCitation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nguyen, T. M., Yuan, S., Cao, M., Lyu, Y., Nguyen, T. H., & Xie, L. (2021). NTU VIRAL: A visual-inertial-ranging-lidar dataset, from an aerial vehicle viewpoint. The International Journal of Robotics Research, 02783649211052312."
+                  },
+                  "publicationIDType": {
+                    "typeName": "publicationIDType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "doi"
+                  },
+                  "publicationIDNumber": {
+                    "typeName": "publicationIDNumber",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "10.1177/02783649211052312"
+                  },
+                  "publicationURL": {
+                    "typeName": "publicationURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://journals.sagepub.com/doi/abs/10.1177/02783649211052312"
+                  }
+                },
+                {
+                  "publicationCitation": {
+                    "typeName": "publicationCitation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Nguyen, T., Yuan, S., Cao, M., Lyu, Y., Nguyen, T. H. & Xie, L. (2021). NTU VIRAL: a visual-inertial-ranging-lidar dataset, from an aerial vehicle viewpoint. International Journal of Robotics Research, 41(3), 270-280."
+                  },
+                  "publicationIDType": {
+                    "typeName": "publicationIDType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "handle"
+                  },
+                  "publicationIDNumber": {
+                    "typeName": "publicationIDNumber",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "10356/161953"
+                  },
+                  "publicationURL": {
+                    "typeName": "publicationURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://hdl.handle.net/10356/161953"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "notesText",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Data from each test comprises of one bag file and with multiple .yaml files containing the  instrinsics and extrinsics parameters of the sensors from calibration. All files are compressed together in an .zip file"
+            },
+            {
+              "typeName": "grantNumber",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "grantNumberAgency": {
+                    "typeName": "grantNumberAgency",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Knut and Alice Wallenberg Foundation"
+                  },
+                  "grantNumberValue": {
+                    "typeName": "grantNumberValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Grant Call 10013 - Wallenberg-NTU Presidential Postdoctoral Fellowship 2020"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "depositor",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Nguyen, Thien-Minh"
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2021-01-29"
+            },
+            {
+              "typeName": "kindOfData",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": [
+                "rosbag files, zipped"
+              ]
+            },
+            {
+              "typeName": "software",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "softwareName": {
+                    "typeName": "softwareName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "rosbag play"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "relatedDatasets",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": [
+                "<a href=\"https://ntu-aris.github.io/ntu_viral_dataset/\">https://ntu-aris.github.io/ntu_viral_dataset/</a>"
+              ]
+            }
+          ]
+        }
+      },
+      "files": [
+        {
+          "label": "calib_stereo_imu.bag",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 58978,
+            "persistentId": "",
+            "filename": "calib_stereo_imu.bag",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1005659191,
+            "storageIdentifier": "file://1776b6dec39-06faf5519e37",
+            "rootDataFileId": -1,
+            "md5": "241ad54c4d79d848b7710247e292157a",
+            "checksum": {
+              "type": "MD5",
+              "value": "241ad54c4d79d848b7710247e292157a"
+            },
+            "tabularData": false,
+            "creationDate": "2021-02-04",
+            "publicationDate": "2021-03-01",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "calib_stereo.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 58998,
+            "persistentId": "",
+            "filename": "calib_stereo.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 51118082,
+            "storageIdentifier": "file://177714b2e80-2c0bdd6b8c1f",
+            "rootDataFileId": -1,
+            "md5": "8a56cda9ca4654e91f76d868b906d9a1",
+            "checksum": {
+              "type": "MD5",
+              "value": "8a56cda9ca4654e91f76d868b906d9a1"
+            },
+            "tabularData": false,
+            "creationDate": "2021-02-05",
+            "publicationDate": "2021-03-01",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "eee_01.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 68133,
+            "persistentId": "",
+            "filename": "eee_01.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 4533480279,
+            "storageIdentifier": "file://179e220c89d-a96e5547885c",
+            "rootDataFileId": 58962,
+            "previousDataFileId": 58962,
+            "md5": "5def8677063a4fbbf3e6c116bb8e685c",
+            "checksum": {
+              "type": "MD5",
+              "value": "5def8677063a4fbbf3e6c116bb8e685c"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-07",
+            "publicationDate": "2021-06-07",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "eee_02.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 68131,
+            "persistentId": "",
+            "filename": "eee_02.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 3737067770,
+            "storageIdentifier": "file://179e201398e-1cc779393f59",
+            "rootDataFileId": 58964,
+            "previousDataFileId": 58964,
+            "md5": "c237d2bfcb9b7b42ee497df566ec9f3d",
+            "checksum": {
+              "type": "MD5",
+              "value": "c237d2bfcb9b7b42ee497df566ec9f3d"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-06",
+            "publicationDate": "2021-06-07",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "eee_03.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 68132,
+            "persistentId": "",
+            "filename": "eee_03.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1995367404,
+            "storageIdentifier": "file://179e20e4b0d-42225a3ce21a",
+            "rootDataFileId": 58963,
+            "previousDataFileId": 58963,
+            "md5": "9bf10b5455ee6d2962324ef557f86433",
+            "checksum": {
+              "type": "MD5",
+              "value": "9bf10b5455ee6d2962324ef557f86433"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-07",
+            "publicationDate": "2021-06-07",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "nya_01.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 68144,
+            "persistentId": "",
+            "filename": "nya_01.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 4286607203,
+            "storageIdentifier": "file://179e6b45ab3-a8f20fd9a8bf",
+            "rootDataFileId": -1,
+            "md5": "11ae1a0695c4af4d14398b28203159ce",
+            "checksum": {
+              "type": "MD5",
+              "value": "11ae1a0695c4af4d14398b28203159ce"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-07",
+            "publicationDate": "2021-06-07",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "nya_02.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 68138,
+            "persistentId": "",
+            "filename": "nya_02.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 4681541004,
+            "storageIdentifier": "file://179e55c574a-1d2a5f355016",
+            "rootDataFileId": 58970,
+            "previousDataFileId": 58970,
+            "md5": "ee7bedc6646677f0a6e3e13f2d55d3bd",
+            "checksum": {
+              "type": "MD5",
+              "value": "ee7bedc6646677f0a6e3e13f2d55d3bd"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-07",
+            "publicationDate": "2021-06-07",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "nya_03.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 68142,
+            "persistentId": "",
+            "filename": "nya_03.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 4406003298,
+            "storageIdentifier": "file://179e626e446-67c509d8ea37",
+            "rootDataFileId": 58968,
+            "previousDataFileId": 58968,
+            "md5": "8a4a7a98013fa7462512b06e31e40c64",
+            "checksum": {
+              "type": "MD5",
+              "value": "8a4a7a98013fa7462512b06e31e40c64"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-07",
+            "publicationDate": "2021-06-07",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "rtp_01.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 98194,
+            "persistentId": "",
+            "filename": "rtp_01.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 5317633190,
+            "storageIdentifier": "file://18375e7c5cd-2f718f7ed145",
+            "rootDataFileId": -1,
+            "md5": "7b2c995f57f9524e0840d809653e1134",
+            "checksum": {
+              "type": "MD5",
+              "value": "7b2c995f57f9524e0840d809653e1134"
+            },
+            "tabularData": false,
+            "creationDate": "2022-09-26",
+            "publicationDate": "2022-09-26",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "rtp_02.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 98191,
+            "persistentId": "",
+            "filename": "rtp_02.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 5600590974,
+            "storageIdentifier": "file://18375f115cf-ef00420e8b83",
+            "rootDataFileId": -1,
+            "md5": "1c98f0ee6b2cfaf27d2b8db75166d5d1",
+            "checksum": {
+              "type": "MD5",
+              "value": "1c98f0ee6b2cfaf27d2b8db75166d5d1"
+            },
+            "tabularData": false,
+            "creationDate": "2022-09-26",
+            "publicationDate": "2022-09-26",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "rtp_03.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 98193,
+            "persistentId": "",
+            "filename": "rtp_03.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 4266920279,
+            "storageIdentifier": "file://18375f90598-90543cfbbdba",
+            "rootDataFileId": -1,
+            "md5": "68e899abafd8b410d8ae52793e99b387",
+            "checksum": {
+              "type": "MD5",
+              "value": "68e899abafd8b410d8ae52793e99b387"
+            },
+            "tabularData": false,
+            "creationDate": "2022-09-26",
+            "publicationDate": "2022-09-26",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "sbs_01.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 68139,
+            "persistentId": "",
+            "filename": "sbs_01.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 3775725925,
+            "storageIdentifier": "file://179e5b0b066-b7d145d77b3c",
+            "rootDataFileId": 58965,
+            "previousDataFileId": 58965,
+            "md5": "c2217033da281ebf26dc2143a6606159",
+            "checksum": {
+              "type": "MD5",
+              "value": "c2217033da281ebf26dc2143a6606159"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-07",
+            "publicationDate": "2021-06-07",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "sbs_02.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 68140,
+            "persistentId": "",
+            "filename": "sbs_02.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 3763188626,
+            "storageIdentifier": "file://179e5d0cf8b-9a6cd30786c8",
+            "rootDataFileId": 58966,
+            "previousDataFileId": 58966,
+            "md5": "d9755a45eb6567724acc8ff29f76669c",
+            "checksum": {
+              "type": "MD5",
+              "value": "d9755a45eb6567724acc8ff29f76669c"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-07",
+            "publicationDate": "2021-06-07",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "sbs_03.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 68143,
+            "persistentId": "",
+            "filename": "sbs_03.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 4002686287,
+            "storageIdentifier": "file://179e6473734-6739d819a642",
+            "rootDataFileId": 62639,
+            "previousDataFileId": 62639,
+            "md5": "fd436b30cf595d2cd47df88e7f21ccff",
+            "checksum": {
+              "type": "MD5",
+              "value": "fd436b30cf595d2cd47df88e7f21ccff"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-07",
+            "publicationDate": "2021-06-07",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "spms_01.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 98192,
+            "persistentId": "",
+            "filename": "spms_01.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 5856439436,
+            "storageIdentifier": "file://1837602d1dc-d16061ef6196",
+            "rootDataFileId": -1,
+            "md5": "06d2cc4ee9503ed0a725b2354fdf7e0b",
+            "checksum": {
+              "type": "MD5",
+              "value": "06d2cc4ee9503ed0a725b2354fdf7e0b"
+            },
+            "tabularData": false,
+            "creationDate": "2022-09-26",
+            "publicationDate": "2022-09-26",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "spms_02.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 98190,
+            "persistentId": "",
+            "filename": "spms_02.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 4312000892,
+            "storageIdentifier": "file://183760a78ce-19fe2db9eca9",
+            "rootDataFileId": -1,
+            "md5": "787b4b8cee340226469edc079af7f156",
+            "checksum": {
+              "type": "MD5",
+              "value": "787b4b8cee340226469edc079af7f156"
+            },
+            "tabularData": false,
+            "creationDate": "2022-09-26",
+            "publicationDate": "2022-09-26",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "spms_03.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 98188,
+            "persistentId": "",
+            "filename": "spms_03.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 5385740441,
+            "storageIdentifier": "file://18376128d7f-befa757f02da",
+            "rootDataFileId": -1,
+            "md5": "7425f4253166af8b649b6a904bc0e8da",
+            "checksum": {
+              "type": "MD5",
+              "value": "7425f4253166af8b649b6a904bc0e8da"
+            },
+            "tabularData": false,
+            "creationDate": "2022-09-26",
+            "publicationDate": "2022-09-26",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "tnp_01.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 98195,
+            "persistentId": "",
+            "filename": "tnp_01.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 8736253605,
+            "storageIdentifier": "file://18375c9b18f-281ae20e0fd8",
+            "rootDataFileId": -1,
+            "md5": "82588ea4f29e311447f3d716865a022b",
+            "checksum": {
+              "type": "MD5",
+              "value": "82588ea4f29e311447f3d716865a022b"
+            },
+            "tabularData": false,
+            "creationDate": "2022-09-26",
+            "publicationDate": "2022-09-26",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "tnp_02.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 98196,
+            "persistentId": "",
+            "filename": "tnp_02.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 6661876134,
+            "storageIdentifier": "file://18375d4e355-9382a4eb7ba6",
+            "rootDataFileId": -1,
+            "md5": "d247dab93fba8060ff105cd2d85084ad",
+            "checksum": {
+              "type": "MD5",
+              "value": "d247dab93fba8060ff105cd2d85084ad"
+            },
+            "tabularData": false,
+            "creationDate": "2022-09-26",
+            "publicationDate": "2022-09-26",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "tnp_03.zip",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 6185,
+          "dataFile": {
+            "id": 98189,
+            "persistentId": "",
+            "filename": "tnp_03.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 5884321753,
+            "storageIdentifier": "file://18375deacd8-b491ebb4aa91",
+            "rootDataFileId": -1,
+            "md5": "13d6ae6af57e1c64a1a1b29386751f8f",
+            "checksum": {
+              "type": "MD5",
+              "value": "13d6ae6af57e1c64a1a1b29386751f8f"
+            },
+            "tabularData": false,
+            "creationDate": "2022-09-26",
+            "publicationDate": "2022-09-26",
+            "fileAccessRequest": false
+          }
+        }
+      ]
+    }
+  }
+}

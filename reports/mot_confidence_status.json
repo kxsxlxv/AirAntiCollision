@@ -1,0 +1,41 @@
+{
+  "complete": true,
+  "runs": [
+    {
+      "method": "tracktrack",
+      "exit_code": 0,
+      "external_seconds": 60.45141930000682,
+      "metrics_exit_code": 0
+    },
+    {
+      "method": "botsort",
+      "exit_code": 0,
+      "external_seconds": 56.000893199998245,
+      "metrics_exit_code": 0
+    },
+    {
+      "method": "ocsort",
+      "exit_code": 0,
+      "external_seconds": 9.02901379999821,
+      "metrics_exit_code": 0
+    },
+    {
+      "method": "diffmot",
+      "exit_code": 0,
+      "external_seconds": 48.91283560000011,
+      "metrics_exit_code": 0
+    },
+    {
+      "method": "putr",
+      "exit_code": 0,
+      "external_seconds": 48.96138690000225,
+      "metrics_exit_code": 0
+    },
+    {
+      "method": "trackssm",
+      "exit_code": 0,
+      "external_seconds": 62.01188939999702,
+      "metrics_exit_code": 0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "kind": "paired renderer-stage measurement, same actual RGB and model trace",
+  "frames": 190,
+  "results": {
+    "uncached": {
+      "mean_ms": 36.269746842093525,
+      "p95_ms": 48.53009000007659
+    },
+    "cached": {
+      "mean_ms": 22.70814578947274,
+      "p95_ms": 39.093589999674805
+    }
+  },
+  "cache_limit_entries": 512,
+  "caveat": "not neural/application FPS; history reconstructed from trace for visualization only"
+}

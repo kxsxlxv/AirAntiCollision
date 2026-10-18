@@ -1,0 +1,10 @@
+Actual neural low-threshold run finished: M1
+Actual neural low-threshold run finished: M2
+Actual neural low-threshold run finished: S2
+Threshold 0.03 {'approach': {'total': 1314, 'untracked': 198, 'detected': 1103, 'uncertain': 694, 'threat': 422}, 'other': {'total': 637, 'untracked': 345, 'detected': 263, 'uncertain': 211, 'nonthreat': 81}}
+Threshold 0.08 {'approach': {'total': 1314, 'untracked': 250, 'detected': 1031, 'uncertain': 644, 'threat': 420}, 'other': {'total': 637, 'untracked': 370, 'detected': 237, 'uncertain': 186, 'nonthreat': 81}}
+Threshold 0.12 {'approach': {'total': 1314, 'untracked': 284, 'detected': 997, 'uncertain': 587, 'threat': 443}, 'other': {'total': 637, 'untracked': 391, 'detected': 219, 'uncertain': 165, 'nonthreat': 81}}
+Threshold 0.18 {'approach': {'total': 1314, 'untracked': 320, 'detected': 958, 'uncertain': 549, 'threat': 445}, 'other': {'total': 637, 'untracked': 433, 'detected': 167, 'uncertain': 131, 'nonthreat': 73}}
+Threshold 0.25 {'approach': {'total': 1314, 'untracked': 345, 'detected': 933, 'uncertain': 520, 'threat': 449}, 'other': {'total': 637, 'untracked': 464, 'detected': 117, 'uncertain': 133, 'nonthreat': 40}}
+Threshold 0.4 {'approach': {'total': 1314, 'untracked': 416, 'detected': 868, 'uncertain': 458, 'threat': 440}, 'other': {'total': 637, 'untracked': 592, 'detected': 43, 'uncertain': 45}}
+Threshold 0.6 {'approach': {'total': 1314, 'untracked': 611, 'detected': 669, 'uncertain': 271, 'threat': 432}, 'other': {'total': 637, 'untracked': 614, 'detected': 22, 'uncertain': 23}}

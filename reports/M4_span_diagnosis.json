@@ -1,0 +1,179 @@
+[
+  {
+    "time": 13.0,
+    "proposals": [
+      {
+        "view": "full",
+        "width": 17.272705078125,
+        "height": 7.27276611328125,
+        "confidence": 0.54296875,
+        "center_error_gt": 3.5501163005828857
+      },
+      {
+        "view": "tile_288_304",
+        "width": 20.5,
+        "height": 7.75,
+        "confidence": 0.71533203125,
+        "center_error_gt": 2.741464138031006
+      },
+      {
+        "view": "tile_576_304",
+        "width": 20.25,
+        "height": 7.5,
+        "confidence": 0.740234375,
+        "center_error_gt": 2.5647854804992676
+      }
+    ]
+  },
+  {
+    "time": 14.0,
+    "proposals": [
+      {
+        "view": "full",
+        "width": 12.27276611328125,
+        "height": 7.272705078125,
+        "confidence": 0.453369140625,
+        "center_error_gt": 2.954561710357666
+      },
+      {
+        "view": "tile_288_304",
+        "width": 13.5,
+        "height": 8.0,
+        "confidence": 0.63330078125,
+        "center_error_gt": 2.5124688148498535
+      },
+      {
+        "view": "tile_576_304",
+        "width": 13.25,
+        "height": 7.75,
+        "confidence": 0.69287109375,
+        "center_error_gt": 2.3881216049194336
+      }
+    ]
+  },
+  {
+    "time": 15.0,
+    "proposals": [
+      {
+        "view": "full",
+        "width": 10.90911865234375,
+        "height": 7.727294921875,
+        "confidence": 0.375732421875,
+        "center_error_gt": 3.552757978439331
+      },
+      {
+        "view": "tile_288_304",
+        "width": 15.75,
+        "height": 10.0,
+        "confidence": 0.6875,
+        "center_error_gt": 3.5200319290161133
+      },
+      {
+        "view": "tile_576_304",
+        "width": 15.625,
+        "height": 10.0,
+        "confidence": 0.74609375,
+        "center_error_gt": 3.5272376537323
+      }
+    ]
+  },
+  {
+    "time": 15.52,
+    "proposals": [
+      {
+        "view": "full",
+        "width": 11.81817626953125,
+        "height": 7.272705078125,
+        "confidence": 0.291015625,
+        "center_error_gt": 2.7288107872009277
+      },
+      {
+        "view": "tile_288_304",
+        "width": 14.0,
+        "height": 9.0,
+        "confidence": 0.57763671875,
+        "center_error_gt": 2.610076665878296
+      },
+      {
+        "view": "tile_576_304",
+        "width": 14.0,
+        "height": 8.75,
+        "confidence": 0.65478515625,
+        "center_error_gt": 2.490607261657715
+      }
+    ]
+  },
+  {
+    "time": 16.0,
+    "proposals": [
+      {
+        "view": "full",
+        "width": 11.81817626953125,
+        "height": 6.81817626953125,
+        "confidence": 0.3173828125,
+        "center_error_gt": 1.5434504747390747
+      },
+      {
+        "view": "full",
+        "width": 13.1817626953125,
+        "height": 6.81817626953125,
+        "confidence": 0.265869140625,
+        "center_error_gt": 2.4637742042541504
+      },
+      {
+        "view": "tile_288_304",
+        "width": 13.75,
+        "height": 6.75,
+        "confidence": 0.282958984375,
+        "center_error_gt": 1.9764235019683838
+      },
+      {
+        "view": "tile_288_304",
+        "width": 14.25,
+        "height": 7.0,
+        "confidence": 0.236572265625,
+        "center_error_gt": 2.125
+      },
+      {
+        "view": "tile_576_304",
+        "width": 13.5,
+        "height": 6.75,
+        "confidence": 0.33984375,
+        "center_error_gt": 1.875
+      },
+      {
+        "view": "tile_576_304",
+        "width": 14.0,
+        "height": 6.5,
+        "confidence": 0.32421875,
+        "center_error_gt": 2.125
+      }
+    ]
+  },
+  {
+    "time": 17.0,
+    "proposals": [
+      {
+        "view": "full",
+        "width": 15.45452880859375,
+        "height": 7.27276611328125,
+        "confidence": 0.449462890625,
+        "center_error_gt": 3.3427088260650635
+      },
+      {
+        "view": "tile_288_304",
+        "width": 15.5,
+        "height": 7.75,
+        "confidence": 0.521484375,
+        "center_error_gt": 2.095381736755371
+      },
+      {
+        "view": "tile_576_304",
+        "width": 15.375,
+        "height": 7.25,
+        "confidence": 0.60205078125,
+        "center_error_gt": 2.1551175117492676
+      }
+    ]
+  }
+]

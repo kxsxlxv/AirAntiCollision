@@ -1,0 +1,675 @@
+{
+  "kind": "paired detector-stage measurement, not full application FPS",
+  "caveat": "CPU/CUDA resize can round differently; tiny detections may change",
+  "results": [
+    {
+      "tiled": false,
+      "frames": 18,
+      "cpu_detections": 14,
+      "gpu_detections": 14,
+      "matched": 14,
+      "median_center_error_px": 0.6428331745633225,
+      "max_confidence_error": 0.12451171875,
+      "cpu_preprocess_detector_mean_ms": 7.630649999909009,
+      "gpu_preprocess_detector_mean_ms": 3.798716666652682,
+      "details": [
+        {
+          "sequence": "M1",
+          "frame": 0,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.3704073657458216,
+              "max_coordinate_error_px": 0.340911865234375,
+              "confidence_error": 0.017822265625
+            }
+          ],
+          "latency_ms": {
+            "cpu": 11.85910000003787,
+            "gpu": 3.693800000291958
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 100,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.8194134627801614,
+              "max_coordinate_error_px": 0.9090576171875,
+              "confidence_error": 0.02978515625
+            }
+          ],
+          "latency_ms": {
+            "gpu": 3.701300000102492,
+            "cpu": 7.081699999616831
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 200,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.7187021002409386,
+              "max_coordinate_error_px": 0.90911865234375,
+              "confidence_error": 0.01611328125
+            }
+          ],
+          "latency_ms": {
+            "cpu": 6.6389000003255205,
+            "gpu": 3.7812999999005115
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 300,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.909088134765625,
+              "max_coordinate_error_px": 0.90911865234375,
+              "confidence_error": 0.030029296875
+            }
+          ],
+          "latency_ms": {
+            "gpu": 3.6909000000378,
+            "cpu": 7.327199999963341
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 400,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.642822385151204,
+              "max_coordinate_error_px": 0.9090576171875,
+              "confidence_error": 0.012939453125
+            }
+          ],
+          "latency_ms": {
+            "cpu": 6.76850000036211,
+            "gpu": 3.7523000000874163
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 500,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.5082059528087431,
+              "max_coordinate_error_px": 0.90911865234375,
+              "confidence_error": 0.00537109375
+            }
+          ],
+          "latency_ms": {
+            "gpu": 3.691899999466841,
+            "cpu": 6.79279999985738
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 600,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.5081786568738078,
+              "max_coordinate_error_px": 0.9090576171875,
+              "confidence_error": 0.12451171875
+            }
+          ],
+          "latency_ms": {
+            "cpu": 6.635599999754049,
+            "gpu": 4.190399999970396
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 700,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.8194388551148746,
+              "max_coordinate_error_px": 0.90911865234375,
+              "confidence_error": 0.05078125
+            }
+          ],
+          "latency_ms": {
+            "gpu": 3.795499999796448,
+            "cpu": 6.95610000002489
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 800,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.642843963975441,
+              "max_coordinate_error_px": 0.90911865234375,
+              "confidence_error": 0.00048828125
+            }
+          ],
+          "latency_ms": {
+            "cpu": 6.615199999941979,
+            "gpu": 3.758899999411369
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 0,
+          "cpu_detections": 0,
+          "gpu_detections": 0,
+          "matches": [],
+          "latency_ms": {
+            "gpu": 3.6559999998644344,
+            "cpu": 7.251700000779238
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 100,
+          "cpu_detections": 0,
+          "gpu_detections": 0,
+          "matches": [],
+          "latency_ms": {
+            "cpu": 7.019699999545992,
+            "gpu": 3.58200000027864
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 200,
+          "cpu_detections": 0,
+          "gpu_detections": 0,
+          "matches": [],
+          "latency_ms": {
+            "gpu": 3.5674000000653905,
+            "cpu": 6.841499999609368
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 300,
+          "cpu_detections": 0,
+          "gpu_detections": 0,
+          "matches": [],
+          "latency_ms": {
+            "cpu": 6.780900000194379,
+            "gpu": 4.702000000179396
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 400,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.7187021002409386,
+              "max_coordinate_error_px": 0.90911865234375,
+              "confidence_error": 0.00732421875
+            }
+          ],
+          "latency_ms": {
+            "gpu": 3.8879000003362307,
+            "cpu": 7.095599999956903
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 500,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.3214219827120974,
+              "max_coordinate_error_px": 0.45458984375,
+              "confidence_error": 0.00830078125
+            }
+          ],
+          "latency_ms": {
+            "cpu": 6.918399999449321,
+            "gpu": 3.7271000001055654
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 600,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.5082059528087431,
+              "max_coordinate_error_px": 0.90911865234375,
+              "confidence_error": 0.00537109375
+            }
+          ],
+          "latency_ms": {
+            "gpu": 3.7212999995972496,
+            "cpu": 10.216099999524886
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 700,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.7187021002409386,
+              "max_coordinate_error_px": 0.90911865234375,
+              "confidence_error": 0.00244140625
+            }
+          ],
+          "latency_ms": {
+            "cpu": 9.234600000127102,
+            "gpu": 3.7778000005346257
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 800,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.5081923054826943,
+              "max_coordinate_error_px": 0.45458984375,
+              "confidence_error": 0.00048828125
+            }
+          ],
+          "latency_ms": {
+            "gpu": 3.6990999997215113,
+            "cpu": 9.318099999291007
+          }
+        }
+      ]
+    },
+    {
+      "tiled": true,
+      "frames": 18,
+      "cpu_detections": 29,
+      "gpu_detections": 29,
+      "matched": 29,
+      "median_center_error_px": 0.0,
+      "max_confidence_error": 0.00537109375,
+      "cpu_preprocess_detector_mean_ms": 42.78976111097816,
+      "gpu_preprocess_detector_mean_ms": 22.28886666666262,
+      "details": [
+        {
+          "sequence": "M1",
+          "frame": 0,
+          "cpu_detections": 2,
+          "gpu_detections": 2,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            },
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "cpu": 41.48079999959009,
+            "gpu": 21.822099999553757
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 100,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "gpu": 22.249999999985448,
+            "cpu": 41.905099999894446
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 200,
+          "cpu_detections": 2,
+          "gpu_detections": 2,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            },
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "cpu": 44.52760000003764,
+            "gpu": 23.3858000001419
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 300,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "gpu": 22.09870000024239,
+            "cpu": 43.39709999931074
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 400,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "cpu": 42.75740000048245,
+            "gpu": 22.308300000076997
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 500,
+          "cpu_detections": 2,
+          "gpu_detections": 2,
+          "matches": [
+            {
+              "center_error_px": 0.5082059528087431,
+              "max_coordinate_error_px": 0.90911865234375,
+              "confidence_error": 0.00537109375
+            },
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "gpu": 22.35149999978603,
+            "cpu": 42.413699999997334
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 600,
+          "cpu_detections": 2,
+          "gpu_detections": 2,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            },
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "cpu": 42.057800000293355,
+            "gpu": 22.52150000003894
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 700,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "gpu": 22.284799999397364,
+            "cpu": 42.34249999990425
+          }
+        },
+        {
+          "sequence": "M1",
+          "frame": 800,
+          "cpu_detections": 2,
+          "gpu_detections": 2,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            },
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "cpu": 41.90589999961958,
+            "gpu": 22.728599999936705
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 0,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "gpu": 22.114600000350038,
+            "cpu": 42.505500000515894
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 100,
+          "cpu_detections": 3,
+          "gpu_detections": 3,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            },
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            },
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "cpu": 42.53160000007483,
+            "gpu": 22.598000000471075
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 200,
+          "cpu_detections": 2,
+          "gpu_detections": 2,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            },
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "gpu": 21.77780000056373,
+            "cpu": 44.104699999479635
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 300,
+          "cpu_detections": 2,
+          "gpu_detections": 2,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            },
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "cpu": 43.516999999155814,
+            "gpu": 22.272199999861186
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 400,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "gpu": 21.86230000006617,
+            "cpu": 42.21369999959279
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 500,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "cpu": 42.113799999242474,
+            "gpu": 22.304000000076485
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 600,
+          "cpu_detections": 3,
+          "gpu_detections": 3,
+          "matches": [
+            {
+              "center_error_px": 0.5082059528087431,
+              "max_coordinate_error_px": 0.90911865234375,
+              "confidence_error": 0.00537109375
+            },
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            },
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "gpu": 22.030699999959324,
+            "cpu": 43.53620000074443
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 700,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "cpu": 43.76510000020062,
+            "gpu": 22.25689999977476
+          }
+        },
+        {
+          "sequence": "M2",
+          "frame": 800,
+          "cpu_detections": 1,
+          "gpu_detections": 1,
+          "matches": [
+            {
+              "center_error_px": 0.0,
+              "max_coordinate_error_px": 0.0,
+              "confidence_error": 0.0
+            }
+          ],
+          "latency_ms": {
+            "gpu": 22.231799999644863,
+            "cpu": 43.1401999994705
+          }
+        }
+      ]
+    }
+  ]
+}

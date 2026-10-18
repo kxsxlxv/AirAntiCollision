@@ -1,0 +1,12 @@
+{
+  "name": "M2_repeat2",
+  "output": "artifacts\\final_benchmark\\M2_repeat2",
+  "frames": 438,
+  "processing_fps": 22.698188376742465,
+  "whole_run_fps": 20.056811881280776,
+  "states": {
+    "uncertain": 992,
+    "nonthreat": 81,
+    "threat": 165
+  }
+}

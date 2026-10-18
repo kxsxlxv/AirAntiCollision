@@ -1,0 +1,57 @@
+{
+  "method": "hold",
+  "scope": "Offline identity-oracle, historical detector boxes only, next approximate GT centre; no association or end-to-end FPS claim",
+  "data_sequences": [
+    "M1",
+    "M2",
+    "M6",
+    "M7",
+    "S1",
+    "S2"
+  ],
+  "per_sequence": {
+    "M1": {
+      "samples": 183,
+      "median_px": 1.4750529651507434,
+      "p90_px": 2.7518410799285635,
+      "mean_px": 1.9807505990375434
+    },
+    "M2": {
+      "samples": 247,
+      "median_px": 2.0662844068520676,
+      "p90_px": 7.777166613190353,
+      "mean_px": 2.9897122492444974
+    },
+    "M6": {
+      "samples": 244,
+      "median_px": 1.7286645857424163,
+      "p90_px": 8.66109276027847,
+      "mean_px": 3.1725658555569214
+    },
+    "M7": {
+      "samples": 253,
+      "median_px": 1.845602882529175,
+      "p90_px": 3.402297049359458,
+      "mean_px": 2.1960772840424307
+    },
+    "S1": {
+      "samples": 68,
+      "median_px": 2.979757538151543,
+      "p90_px": 4.432665278511439,
+      "mean_px": 3.323178292596826
+    },
+    "S2": {
+      "samples": 85,
+      "median_px": 2.3644630769064428,
+      "p90_px": 6.8768297030313414,
+      "mean_px": 3.7763736974647495
+    }
+  },
+  "combined": {
+    "samples": 1080,
+    "median_px": 1.876238594202532,
+    "p90_px": 5.1252367251029485,
+    "mean_px": 2.757053513876827
+  },
+  "seconds": 0.009669600003689993
+}

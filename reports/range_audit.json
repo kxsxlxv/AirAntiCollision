@@ -1,0 +1,137 @@
+[
+  {
+    "sequence": "M1_labels",
+    "n": 1180,
+    "first_range": 2138.0,
+    "last_range": 10.0,
+    "positive_range_steps": 0,
+    "range_slope_per_s": -45.24560446163756,
+    "last_range_timescale_s": 0.22101594439916722
+  },
+  {
+    "sequence": "M2_labels",
+    "n": 1403,
+    "first_range": 2179.0,
+    "last_range": 257.0,
+    "positive_range_steps": 135,
+    "range_slope_per_s": -40.23693541151796,
+    "last_range_timescale_s": 6.387166352794176
+  },
+  {
+    "sequence": "M3_labels",
+    "n": 2141,
+    "first_range": 3562.0,
+    "last_range": 4203.0,
+    "positive_range_steps": 1071,
+    "range_slope_per_s": 12.06322906399148,
+    "last_range_timescale_s": null
+  },
+  {
+    "sequence": "M4_labels",
+    "n": 1366,
+    "first_range": 2580.0,
+    "last_range": 23.0,
+    "positive_range_steps": 0,
+    "range_slope_per_s": -46.62979678095977,
+    "last_range_timescale_s": 0.4932468418861206
+  },
+  {
+    "sequence": "M5_labels",
+    "n": 1059,
+    "first_range": 1626.0,
+    "last_range": 408.0,
+    "positive_range_steps": 200,
+    "range_slope_per_s": -38.19991207490789,
+    "last_range_timescale_s": 10.680652855952516
+  },
+  {
+    "sequence": "M6_labels",
+    "n": 1113,
+    "first_range": 2018.0,
+    "last_range": 8.0,
+    "positive_range_steps": 0,
+    "range_slope_per_s": -45.078117218488174,
+    "last_range_timescale_s": 0.17746970134588738
+  },
+  {
+    "sequence": "M7_labels",
+    "n": 1136,
+    "first_range": 2032.0,
+    "last_range": 9.0,
+    "positive_range_steps": 0,
+    "range_slope_per_s": -45.13151234303642,
+    "last_range_timescale_s": 0.19941720391713524
+  },
+  {
+    "sequence": "M8_labels",
+    "n": 1237,
+    "first_range": 2194.0,
+    "last_range": 6.0,
+    "positive_range_steps": 0,
+    "range_slope_per_s": -44.59197730839619,
+    "last_range_timescale_s": 0.13455335157049125
+  },
+  {
+    "sequence": "S1_labels",
+    "n": 1057,
+    "first_range": 1626.0,
+    "last_range": 5.0,
+    "positive_range_steps": 0,
+    "range_slope_per_s": -38.81762246973223,
+    "last_range_timescale_s": 0.12880747665312875
+  },
+  {
+    "sequence": "S2_labels",
+    "n": 1948,
+    "first_range": 3042.95,
+    "last_range": 15.3,
+    "positive_range_steps": 0,
+    "range_slope_per_s": -39.031820705478154,
+    "last_range_timescale_s": 0.3919878633243627
+  },
+  {
+    "sequence": "S3_labels",
+    "n": 1849,
+    "first_range": 2829.0,
+    "last_range": 28.0,
+    "positive_range_steps": 0,
+    "range_slope_per_s": -37.681352712450575,
+    "last_range_timescale_s": 0.7430731113521918
+  },
+  {
+    "sequence": "S4_labels",
+    "n": 1188,
+    "first_range": 2056.0,
+    "last_range": 10.0,
+    "positive_range_steps": 0,
+    "range_slope_per_s": -42.9115362731695,
+    "last_range_timescale_s": 0.23303756678253706
+  },
+  {
+    "sequence": "S5_labels",
+    "n": 1130,
+    "first_range": 2167.0,
+    "last_range": 27.0,
+    "positive_range_steps": 0,
+    "range_slope_per_s": -47.48518526149779,
+    "last_range_timescale_s": 0.5685983923472716
+  },
+  {
+    "sequence": "S6_labels",
+    "n": 1108,
+    "first_range": 2109.0,
+    "last_range": 15.0,
+    "positive_range_steps": 0,
+    "range_slope_per_s": -47.62887107675934,
+    "last_range_timescale_s": 0.31493503122981426
+  },
+  {
+    "sequence": "S7_labels",
+    "n": 1240,
+    "first_range": 2257.0,
+    "last_range": 4.0,
+    "positive_range_steps": 0,
+    "range_slope_per_s": -45.507574240852975,
+    "last_range_timescale_s": 0.08789745590106905
+  }
+]

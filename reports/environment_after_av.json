@@ -1,0 +1,8 @@
+{
+  "av": "18.1.0",
+  "cv2": "5.0.0",
+  "cv2_path": "C:\\Data\\DEV\\Libs\\opencv_cuda_5\\install\\python\\cv2\\__init__.py",
+  "cuda_devices": 1,
+  "torch": "2.12.0+cu130",
+  "opencv_matches_initial": true
+}

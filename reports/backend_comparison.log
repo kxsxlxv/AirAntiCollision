@@ -1,0 +1,11 @@
+{
+  "frames": 18,
+  "fp32_onnx_detections": 14,
+  "trt_detections": 14,
+  "matched": 14,
+  "median_center_error_px": 0.14010417000899053,
+  "max_coordinate_error_px": 0.2324218749998863,
+  "max_confidence_error": 0.0019510388374328613,
+  "precision": "TRT built from supplied FP16 ONNX; engine I/O FP32; ONNX CPU from supplied FP32 model",
+  "caveat": "small development conversion spot check, not full accuracy equivalence or fair latency benchmark; other GPU workload may run"
+}

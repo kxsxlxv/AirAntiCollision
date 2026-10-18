@@ -1,0 +1,1432 @@
+[
+  {
+    "frame": 2404,
+    "time": 96.16,
+    "object": {
+      "id": 359,
+      "box": [
+        422.7272644042969,
+        640.0,
+        443.18182373046875,
+        648.1818237304688
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.57958984375,
+      "last_seen": 96.16,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.1672400723056511,
+        "growth_se": 0.02250776159375813,
+        "drift": 2.924056203126923,
+        "miss_spans": 0.836266476922047,
+        "miss_low": 0.34345082111967884,
+        "miss_high": 1.8288618248841422,
+        "tau": 5.979428173006175,
+        "velocity": [
+          -2.3164250653880516,
+          1.7844549855591763
+        ],
+        "position_sigma": 1.729606055875842,
+        "scale_residual": 0.1284851240077371,
+        "span": 20.90743145029881,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.23999999999999488,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2404,
+      "source_frame": 42624,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 430.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2405,
+    "time": 96.2,
+    "object": {
+      "id": 359,
+      "box": [
+        423.75,
+        639.75,
+        448.0,
+        647.75
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.55078125,
+      "last_seen": 96.2,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.17154267793915828,
+        "growth_se": 0.022521584960223558,
+        "drift": 2.947114200955367,
+        "miss_spans": 0.8091453648334064,
+        "miss_low": 0.3492468874756268,
+        "miss_high": 1.7184432728634835,
+        "tau": 5.829453125097382,
+        "velocity": [
+          -2.364507787841319,
+          1.7591432672498686
+        ],
+        "position_sigma": 1.676288563489271,
+        "scale_residual": 0.128332482225283,
+        "span": 21.232358035339317,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.28000000000000114,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2405,
+      "source_frame": 42625,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 430.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2406,
+    "time": 96.24,
+    "object": {
+      "id": 359,
+      "box": [
+        422.5,
+        640.0,
+        444.31817626953125,
+        648.1818237304688
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.60400390625,
+      "last_seen": 96.24,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.1728254511419843,
+        "growth_se": 0.022878555661959638,
+        "drift": 3.004632207454613,
+        "miss_spans": 0.81158810112854,
+        "miss_low": 0.36279820946203695,
+        "miss_high": 1.7043695093120466,
+        "tau": 5.786184808963424,
+        "velocity": [
+          -2.449329142942103,
+          1.7402877496575337
+        ],
+        "position_sigma": 1.636264821624414,
+        "scale_residual": 0.12820876918880675,
+        "span": 21.421404787873566,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.3199999999999932,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2406,
+      "source_frame": 42626,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 429.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2407,
+    "time": 96.28,
+    "object": {
+      "id": 359,
+      "box": [
+        422.272705078125,
+        640.4545288085938,
+        442.7272644042969,
+        648.1818237304688
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.56201171875,
+      "last_seen": 96.28,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.1727877901674426,
+        "growth_se": 0.022564327496951968,
+        "drift": 3.0871671716193094,
+        "miss_spans": 0.8290913024960679,
+        "miss_low": 0.3869789847127177,
+        "miss_high": 1.6998093404121046,
+        "tau": 5.787445970753692,
+        "velocity": [
+          -2.5644475776667464,
+          1.7187814773621233
+        ],
+        "position_sigma": 1.6173054635228241,
+        "scale_residual": 0.12813755435903978,
+        "span": 21.54987412681968,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.35999999999999943,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2407,
+      "source_frame": 42627,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 429.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2408,
+    "time": 96.32,
+    "object": {
+      "id": 359,
+      "box": [
+        419.5454406738281,
+        639.0908813476562,
+        446.1363525390625,
+        649.0908813476562
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.64794921875,
+      "last_seen": 96.32,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.17574781125349012,
+        "growth_se": 0.02395243327356691,
+        "drift": 3.1471007565452944,
+        "miss_spans": 0.8187190295169913,
+        "miss_low": 0.3891336761398055,
+        "miss_high": 1.69233239177565,
+        "tau": 5.689971288220759,
+        "velocity": [
+          -2.6466947457404357,
+          1.702718442584661
+        ],
+        "position_sigma": 1.5807653982374763,
+        "scale_residual": 0.12953815258632626,
+        "span": 21.87186604963226,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.3999999999999915,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2408,
+      "source_frame": 42628,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 429.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2409,
+    "time": 96.36,
+    "object": {
+      "id": 359,
+      "box": [
+        422.7272644042969,
+        640.0,
+        443.6363525390625,
+        648.1818237304688
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.52734375,
+      "last_seen": 96.36,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.17676121224596855,
+        "growth_se": 0.02368281021860414,
+        "drift": 3.1958699411128197,
+        "miss_spans": 0.8206878823174066,
+        "miss_low": 0.40171181366334124,
+        "miss_high": 1.6617046710284815,
+        "tau": 5.657349750512402,
+        "velocity": [
+          -2.715853578188064,
+          1.6845545471582528
+        ],
+        "position_sigma": 1.5473624450999315,
+        "scale_residual": 0.12922014831544365,
+        "span": 22.03048735527945,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.4399999999999977,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2409,
+      "source_frame": 42629,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 429.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2410,
+    "time": 96.4,
+    "object": {
+      "id": 359,
+      "box": [
+        423.8636169433594,
+        640.4545288085938,
+        443.18182373046875,
+        648.1818237304688
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.49609375,
+      "last_seen": 96.4,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.17626230511981794,
+        "growth_se": 0.02361070574241697,
+        "drift": 3.2465295015010067,
+        "miss_spans": 0.833261454951701,
+        "miss_low": 0.4200776244153711,
+        "miss_high": 1.6625120250092398,
+        "tau": 5.673362772149322,
+        "velocity": [
+          -2.78328448692351,
+          1.6713112423984071
+        ],
+        "position_sigma": 1.4984672416080071,
+        "scale_residual": 0.12974280957016762,
+        "span": 22.10439412869269,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.480000000000004,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2410,
+      "source_frame": 42630,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 429.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2411,
+    "time": 96.44,
+    "object": {
+      "id": 359,
+      "box": [
+        421.5,
+        639.75,
+        442.0,
+        647.75
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.55078125,
+      "last_seen": 96.44,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.1774388524299902,
+        "growth_se": 0.023211922304205716,
+        "drift": 3.3073021979720543,
+        "miss_spans": 0.8375710348032047,
+        "miss_low": 0.4334206694667878,
+        "miss_high": 1.6345353091800376,
+        "tau": 5.635744293344985,
+        "velocity": [
+          -2.8687009855979735,
+          1.6458440035252422
+        ],
+        "position_sigma": 1.4719441696425466,
+        "scale_residual": 0.1293108748042614,
+        "span": 22.25376560803319,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.519999999999996,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2411,
+      "source_frame": 42631,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 428.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2412,
+    "time": 96.48,
+    "object": {
+      "id": 359,
+      "box": [
+        421.3636169433594,
+        640.0,
+        442.95452880859375,
+        648.1818237304688
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.57177734375,
+      "last_seen": 96.48,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.17997187076833382,
+        "growth_se": 0.022069142784297332,
+        "drift": 3.3694190343275667,
+        "miss_spans": 0.8332332285893641,
+        "miss_low": 0.4471048731182515,
+        "miss_high": 1.5607714057396767,
+        "tau": 5.5564238774137955,
+        "velocity": [
+          -2.949495787916836,
+          1.628944205904473
+        ],
+        "position_sigma": 1.44931172947676,
+        "scale_residual": 0.12793068358331697,
+        "span": 22.469003555038018,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.5600000000000023,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2412,
+      "source_frame": 42632,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 428.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2413,
+    "time": 96.52,
+    "object": {
+      "id": 359,
+      "box": [
+        422.95452880859375,
+        640.4545288085938,
+        440.45452880859375,
+        648.1818237304688
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.46875,
+      "last_seen": 96.52,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.17886065962805495,
+        "growth_se": 0.021553849644085778,
+        "drift": 3.4292445244205063,
+        "miss_spans": 0.8521451081673612,
+        "miss_low": 0.46699520649430465,
+        "miss_high": 1.569417205775751,
+        "tau": 5.590944381394568,
+        "velocity": [
+          -3.025998309916497,
+          1.6133977304590856
+        ],
+        "position_sigma": 1.4305224390449212,
+        "scale_residual": 0.1298085971155138,
+        "span": 22.49935512446948,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.5999999999999943,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2413,
+      "source_frame": 42633,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 428.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2414,
+    "time": 96.56,
+    "object": {
+      "id": 359,
+      "box": [
+        419.5,
+        640.0,
+        439.75,
+        648.0
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.505859375,
+      "last_seen": 96.56,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.18017852814382915,
+        "growth_se": 0.0206069017817119,
+        "drift": 3.5255791684834503,
+        "miss_spans": 0.8640260656832767,
+        "miss_low": 0.4900329841081294,
+        "miss_high": 1.5375202511280657,
+        "tau": 5.550050887316279,
+        "velocity": [
+          -3.1451375820780734,
+          1.5930530634742044
+        ],
+        "position_sigma": 1.437532147392719,
+        "scale_residual": 0.12899724370007035,
+        "span": 22.64647395431474,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.6400000000000006,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2414,
+      "source_frame": 42634,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 428.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2415,
+    "time": 96.6,
+    "object": {
+      "id": 359,
+      "box": [
+        420.45452880859375,
+        640.0,
+        440.2272644042969,
+        648.6363525390625
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.443603515625,
+      "last_seen": 96.6,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.17704141510832427,
+        "growth_se": 0.021911976624427676,
+        "drift": 3.610180802414059,
+        "miss_spans": 0.9006203476177587,
+        "miss_low": 0.5128901381442058,
+        "miss_high": 1.6357999636815725,
+        "tau": 5.648395881766657,
+        "velocity": [
+          -3.2482869476192278,
+          1.5754482955798894
+        ],
+        "position_sigma": 1.4165038585855894,
+        "scale_residual": 0.12967007832506902,
+        "span": 22.641871717341296,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.6799999999999926,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2415,
+      "source_frame": 42635,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 428.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2416,
+    "time": 96.64,
+    "object": {
+      "id": 359,
+      "box": [
+        420.0,
+        640.4545288085938,
+        440.0,
+        649.0908813476562
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.544921875,
+      "last_seen": 96.64,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.1785020591830962,
+        "growth_se": 0.020901740877448026,
+        "drift": 3.69754654279053,
+        "miss_spans": 0.9092431190697899,
+        "miss_low": 0.5360025760679636,
+        "miss_high": 1.5914547040340845,
+        "tau": 5.602176269430387,
+        "velocity": [
+          -3.3503304529792155,
+          1.5643325387980287
+        ],
+        "position_sigma": 1.4133924916125076,
+        "scale_residual": 0.1276974617554792,
+        "span": 22.78192384708663,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.7199999999999989,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2416,
+      "source_frame": 42636,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 427.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2417,
+    "time": 96.68,
+    "object": {
+      "id": 359,
+      "box": [
+        419.772705078125,
+        640.0,
+        440.45452880859375,
+        649.0908813476562
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.56201171875,
+      "last_seen": 96.68,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.179641459803384,
+        "growth_se": 0.020321518874565313,
+        "drift": 3.766570510202327,
+        "miss_spans": 0.9144233038806047,
+        "miss_low": 0.547674184982249,
+        "miss_high": 1.5704084656618675,
+        "tau": 5.566643697365247,
+        "velocity": [
+          -3.4338443707328503,
+          1.5478262970734575
+        ],
+        "position_sigma": 1.3973688867776706,
+        "scale_residual": 0.1269990464442992,
+        "span": 22.929376255307297,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.7600000000000051,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2417,
+      "source_frame": 42637,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 427.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2418,
+    "time": 96.72,
+    "object": {
+      "id": 359,
+      "box": [
+        419.772705078125,
+        640.4545288085938,
+        439.5454406738281,
+        648.6363525390625
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.5390625,
+      "last_seen": 96.72,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.1793103010556846,
+        "growth_se": 0.02025523474804648,
+        "drift": 3.8400845977444615,
+        "miss_spans": 0.9307257165495337,
+        "miss_low": 0.5649166649306393,
+        "miss_high": 1.5844581656322756,
+        "tau": 5.5769244383202015,
+        "velocity": [
+          -3.5216182411326864,
+          1.5311612199751434
+        ],
+        "position_sigma": 1.3767823026978856,
+        "scale_residual": 0.12731360848043047,
+        "span": 23.00985269620873,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.7999999999999972,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2418,
+      "source_frame": 42638,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 427.0,
+      "v": 642.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2419,
+    "time": 96.76,
+    "object": {
+      "id": 359,
+      "box": [
+        418.8636169433594,
+        640.4545288085938,
+        439.772705078125,
+        648.6363525390625
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.541015625,
+      "last_seen": 96.76,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.17952990158624585,
+        "growth_se": 0.01994371052274702,
+        "drift": 3.911461451208599,
+        "miss_spans": 0.9419876702700269,
+        "miss_low": 0.5789089207219461,
+        "miss_high": 1.5842791352016687,
+        "tau": 5.570102758172581,
+        "velocity": [
+          -3.606411368132857,
+          1.514373708201834
+        ],
+        "position_sigma": 1.3677368051381311,
+        "scale_residual": 0.12714748553154878,
+        "span": 23.129009970605335,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.8400000000000034,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2419,
+      "source_frame": 42639,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 427.0,
+      "v": 643.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2420,
+    "time": 96.8,
+    "object": {
+      "id": 359,
+      "box": [
+        418.6363525390625,
+        640.0,
+        438.8636169433594,
+        648.6363525390625
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.5830078125,
+      "last_seen": 96.8,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.1802522591391453,
+        "growth_se": 0.019800139839614008,
+        "drift": 3.981389003234981,
+        "miss_spans": 0.9500748037408362,
+        "miss_low": 0.5870103453627296,
+        "miss_high": 1.5880387672950018,
+        "tau": 5.5477806756810315,
+        "velocity": [
+          -3.6896205873814245,
+          1.496047564835954
+        ],
+        "position_sigma": 1.371249134484408,
+        "scale_residual": 0.1267251879533989,
+        "span": 23.24856199485233,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.8799999999999955,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2420,
+      "source_frame": 42640,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 427.0,
+      "v": 643.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2421,
+    "time": 96.84,
+    "object": {
+      "id": 359,
+      "box": [
+        419.0909118652344,
+        640.0,
+        438.4090881347656,
+        648.1818237304688
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.48828125,
+      "last_seen": 96.84,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.17971927062249163,
+        "growth_se": 0.020240937737125448,
+        "drift": 4.0415228761141275,
+        "miss_spans": 0.9649971642799768,
+        "miss_low": 0.5932451728022612,
+        "miss_high": 1.6281365489509714,
+        "tau": 5.564233576824072,
+        "velocity": [
+          -3.7629588265369684,
+          1.4744653362969686
+        ],
+        "position_sigma": 1.3390318206113967,
+        "scale_residual": 0.127259223045192,
+        "span": 23.303671887529337,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.9200000000000017,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2421,
+      "source_frame": 42641,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 426.0,
+      "v": 643.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2422,
+    "time": 96.88,
+    "object": {
+      "id": 359,
+      "box": [
+        417.0,
+        639.5,
+        440.0,
+        648.0
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.533203125,
+      "last_seen": 96.88,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.18257512747810106,
+        "growth_se": 0.019369282545454822,
+        "drift": 4.097204214787204,
+        "miss_spans": 0.9528419702637779,
+        "miss_low": 0.59238991543379,
+        "miss_high": 1.573510115780038,
+        "tau": 5.477197325905988,
+        "velocity": [
+          -3.834175375274777,
+          1.444361993859763
+        ],
+        "position_sigma": 1.343279250388697,
+        "scale_residual": 0.12340208639835594,
+        "span": 23.55185504970017,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 0.9599999999999937,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2422,
+      "source_frame": 42642,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 426.0,
+      "v": 643.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2423,
+    "time": 96.92,
+    "object": {
+      "id": 359,
+      "box": [
+        417.5,
+        640.0,
+        437.5,
+        648.6363525390625
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.54296875,
+      "last_seen": 96.92,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.18276519164548902,
+        "growth_se": 0.019929959732569964,
+        "drift": 4.166053234363421,
+        "miss_spans": 0.9641091781355798,
+        "miss_low": 0.5988928473354687,
+        "miss_high": 1.6030855044879626,
+        "tau": 5.471501389278257,
+        "velocity": [
+          -3.9121967985240036,
+          1.4320320391557073
+        ],
+        "position_sigma": 1.322846644886863,
+        "scale_residual": 0.12314022789200517,
+        "span": 23.64313770324993,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 1.0,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2423,
+      "source_frame": 42643,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 426.0,
+      "v": 643.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2424,
+    "time": 96.96,
+    "object": {
+      "id": 359,
+      "box": [
+        417.0454406738281,
+        640.0,
+        437.272705078125,
+        648.1818237304688
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.5849609375,
+      "last_seen": 96.96,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.18256062736151543,
+        "growth_se": 0.020723110023812788,
+        "drift": 4.234470748513066,
+        "miss_spans": 0.9775676926988872,
+        "miss_low": 0.6066173536616623,
+        "miss_high": 1.6424789111318747,
+        "tau": 5.477632359466816,
+        "velocity": [
+          -3.9911227661124964,
+          1.414807967828618
+        ],
+        "position_sigma": 1.2929861205286477,
+        "scale_residual": 0.12334679316558195,
+        "span": 23.727128229078435,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 1.039999999999992,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2424,
+      "source_frame": 42644,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 426.0,
+      "v": 643.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2425,
+    "time": 97.0,
+    "object": {
+      "id": 359,
+      "box": [
+        415.68182373046875,
+        639.5454711914062,
+        436.81817626953125,
+        648.1818237304688
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.56982421875,
+      "last_seen": 97.0,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.18320826239364965,
+        "growth_se": 0.021326671179104452,
+        "drift": 4.292267204729987,
+        "miss_spans": 0.9822252479918007,
+        "miss_low": 0.6055356498821167,
+        "miss_high": 1.6681548646040274,
+        "tau": 5.458269113711445,
+        "velocity": [
+          -4.060659585391807,
+          1.3908995248996987
+        ],
+        "position_sigma": 1.2747790076794459,
+        "scale_residual": 0.12263455861070509,
+        "span": 23.85231855857346,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 1.0799999999999983,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2425,
+      "source_frame": 42645,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 426.0,
+      "v": 643.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2426,
+    "time": 97.04,
+    "object": {
+      "id": 359,
+      "box": [
+        415.9090881347656,
+        639.5454711914062,
+        436.3636169433594,
+        648.1818237304688
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.5849609375,
+      "last_seen": 97.04,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.18163711142296562,
+        "growth_se": 0.02223835278714861,
+        "drift": 4.352622006706387,
+        "miss_spans": 1.00258488238231,
+        "miss_low": 0.6114623066441975,
+        "miss_high": 1.7387501818341455,
+        "tau": 5.505482839745067,
+        "velocity": [
+          -4.132269274044045,
+          1.3673583948827162
+        ],
+        "position_sigma": 1.2870259877237027,
+        "scale_residual": 0.123660126180929,
+        "span": 23.90150319130881,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 1.1200000000000045,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2426,
+      "source_frame": 42646,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 425.0,
+      "v": 643.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2427,
+    "time": 97.08,
+    "object": {
+      "id": 359,
+      "box": [
+        413.18182373046875,
+        640.0,
+        436.3636169433594,
+        648.1818237304688
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.59814453125,
+      "last_seen": 97.08,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.1816865122401879,
+        "growth_se": 0.022187176460986117,
+        "drift": 4.413172444357848,
+        "miss_spans": 1.0100223147148812,
+        "miss_low": 0.6165259372384398,
+        "miss_high": 1.7493700787420705,
+        "tau": 5.503985891247718,
+        "velocity": [
+          -4.203005311707911,
+          1.3456735760928444
+        ],
+        "position_sigma": 1.336130335650022,
+        "scale_residual": 0.12361920286781226,
+        "span": 24.049012101525324,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 1.1599999999999966,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2427,
+      "source_frame": 42647,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 425.0,
+      "v": 643.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2428,
+    "time": 97.12,
+    "object": {
+      "id": 359,
+      "box": [
+        415.0,
+        640.0,
+        435.75,
+        647.75
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.60400390625,
+      "last_seen": 97.12,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.17723711168333567,
+        "growth_se": 0.022468835799096188,
+        "drift": 4.471212730073995,
+        "miss_spans": 1.050721658477095,
+        "miss_low": 0.6373054343154603,
+        "miss_high": 1.847773927537393,
+        "tau": 5.642159198501669,
+        "velocity": [
+          -4.270409276864729,
+          1.3248954244178668
+        ],
+        "position_sigma": 1.349045628876517,
+        "scale_residual": 0.12363508008013405,
+        "span": 24.009492742358542,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 1.2000000000000028,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2428,
+      "source_frame": 42648,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 425.0,
+      "v": 643.0,
+      "range_offline_only": null
+    }
+  },
+  {
+    "frame": 2429,
+    "time": 97.16,
+    "object": {
+      "id": 359,
+      "box": [
+        415.68182373046875,
+        639.5454711914062,
+        435.68182373046875,
+        647.7272338867188
+      ],
+      "class_id": 0,
+      "class": "airplane",
+      "source": "detector",
+      "confidence": 0.58154296875,
+      "last_seen": 97.16,
+      "assessment": {
+        "state": "threat",
+        "reason": "bearing_growth",
+        "samples": 101,
+        "camera_valid": true,
+        "growth": 0.17630063474940044,
+        "growth_se": 0.023677752405856737,
+        "drift": 4.523751635328896,
+        "miss_spans": 1.0668552934086768,
+        "miss_low": 0.6340093313807107,
+        "miss_high": 1.9372876008245774,
+        "tau": 5.672129322854867,
+        "velocity": [
+          -4.333702837430491,
+          1.2974392374935215
+        ],
+        "position_sigma": 1.3691026900859093,
+        "scale_residual": 0.12445986840707028,
+        "span": 24.051344599958288,
+        "span_samples": 101,
+        "clipped_observation": false,
+        "camera_motion_assumption": "declared_fixed_setup",
+        "image_rule_candidate_state": "threat",
+        "candidate_state": "threat",
+        "candidate_reason": "bearing_growth",
+        "confirmation_elapsed_s": 1.2399999999999949,
+        "confirmation_required_s": 0.24
+      }
+    },
+    "offline_label": {
+      "frame": 2429,
+      "source_frame": 42649,
+      "id": "other_M6_labels",
+      "kind": "other",
+      "u": 425.0,
+      "v": 643.0,
+      "range_offline_only": null
+    }
+  }
+]

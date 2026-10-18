@@ -1,0 +1,22 @@
+Actual neural low-threshold run finished: M1
+Actual neural low-threshold run finished: M2
+Actual neural low-threshold run finished: M3
+Actual neural low-threshold run finished: M4
+Actual neural low-threshold run finished: M5
+Actual neural low-threshold run finished: M6
+Actual neural low-threshold run finished: M7
+Actual neural low-threshold run finished: M8
+Actual neural low-threshold run finished: S1
+Actual neural low-threshold run finished: S2
+Actual neural low-threshold run finished: S3
+Actual neural low-threshold run finished: S4
+Actual neural low-threshold run finished: S5
+Actual neural low-threshold run finished: S6
+Actual neural low-threshold run finished: S7
+Threshold 0.03 {'approach': {'total': 4031, 'uncertain': 2300, 'detected': 3097, 'threat': 802, 'untracked': 929}, 'other': {'total': 3273, 'untracked': 772, 'detected': 2497, 'uncertain': 2345, 'nonthreat': 156}}
+Threshold 0.08 {'approach': {'total': 4031, 'uncertain': 2194, 'detected': 2993, 'untracked': 1032, 'threat': 805}, 'other': {'total': 3273, 'untracked': 970, 'detected': 2313, 'uncertain': 2140, 'nonthreat': 163}}
+Threshold 0.12 {'approach': {'total': 4031, 'uncertain': 2126, 'detected': 2938, 'untracked': 1106, 'threat': 799}, 'other': {'total': 3273, 'untracked': 1076, 'detected': 2201, 'uncertain': 2045, 'nonthreat': 152}}
+Threshold 0.18 {'approach': {'total': 4031, 'uncertain': 2064, 'detected': 2864, 'untracked': 1166, 'threat': 801}, 'other': {'total': 3273, 'untracked': 1256, 'detected': 2025, 'uncertain': 1866, 'nonthreat': 151}}
+Threshold 0.25 {'approach': {'total': 4031, 'untracked': 1264, 'detected': 2737, 'uncertain': 1971, 'threat': 796}, 'other': {'total': 3273, 'untracked': 1490, 'detected': 1785, 'uncertain': 1662, 'nonthreat': 121}}
+Threshold 0.4 {'approach': {'total': 4031, 'untracked': 1706, 'detected': 2300, 'uncertain': 1534, 'threat': 791}, 'other': {'total': 3273, 'untracked': 2005, 'detected': 1271, 'uncertain': 1176, 'nonthreat': 92}}
+Threshold 0.6 {'approach': {'total': 4031, 'untracked': 2488, 'detected': 1574, 'uncertain': 783, 'threat': 760}, 'other': {'total': 3273, 'untracked': 2583, 'detected': 658, 'uncertain': 625, 'nonthreat': 65}}

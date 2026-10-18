@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "runs": [
+    {
+      "method": "custom",
+      "exit_code": 0,
+      "external_seconds": 15.071525699997437,
+      "report": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\mot\\campaign\\custom\\report.json"
+    },
+    {
+      "method": "ocsort",
+      "exit_code": 0,
+      "external_seconds": 17.42148499999894,
+      "report": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\mot\\campaign\\ocsort\\report.json"
+    },
+    {
+      "method": "tracktrack",
+      "exit_code": 0,
+      "external_seconds": 139.457198600001,
+      "report": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\mot\\campaign\\tracktrack\\report.json"
+    },
+    {
+      "method": "botsort",
+      "exit_code": 0,
+      "external_seconds": 149.22262140000385,
+      "report": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\mot\\campaign\\botsort\\report.json"
+    },
+    {
+      "method": "diffmot",
+      "exit_code": 0,
+      "external_seconds": 128.31453709999914,
+      "report": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\mot\\campaign\\diffmot\\report.json"
+    },
+    {
+      "method": "putr",
+      "exit_code": 0,
+      "external_seconds": 119.98872880000272,
+      "report": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\mot\\campaign\\putr\\report.json"
+    },
+    {
+      "method": "trackssm",
+      "exit_code": 0,
+      "external_seconds": 175.45396440000331,
+      "report": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\mot\\campaign\\trackssm\\report.json"
+    }
+  ]
+}

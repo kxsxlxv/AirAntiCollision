@@ -1,0 +1,475 @@
+[
+  {
+    "window": 4.0,
+    "sequence": "M1",
+    "counts": {
+      "approach": {
+        "total": 438,
+        "untracked": 9,
+        "detected": 431,
+        "uncertain": 311,
+        "reason_history": 23,
+        "reason_aspect": 275,
+        "reason_confirm_warning": 3,
+        "threat": 118,
+        "reason_bearing_growth": 118,
+        "reason_association": 10
+      },
+      "other": {
+        "total": 438,
+        "untracked": 403,
+        "detected": 30,
+        "uncertain": 35,
+        "reason_history": 25,
+        "reason_growth_unresolved": 10
+      }
+    },
+    "events": [
+      {
+        "id": "approach_M1_labels",
+        "kind": "approach",
+        "sampled_frames": 438,
+        "sustained_warning": true,
+        "first_warning_time_s": 24.240000000000002,
+        "max_warning_duration_s": 9.440000000000008,
+        "any_apparently_non_threat": false,
+        "associated_track_ids": [
+          2
+        ],
+        "fragments": 1
+      },
+      {
+        "id": "other_M1_labels",
+        "kind": "other",
+        "sampled_frames": 438,
+        "sustained_warning": false,
+        "first_warning_time_s": null,
+        "max_warning_duration_s": 0,
+        "any_apparently_non_threat": false,
+        "associated_track_ids": [
+          35,
+          41
+        ],
+        "fragments": 2
+      }
+    ]
+  },
+  {
+    "window": 4.0,
+    "sequence": "M2",
+    "counts": {
+      "approach": {
+        "total": 438,
+        "untracked": 61,
+        "detected": 358,
+        "uncertain": 167,
+        "reason_history": 51,
+        "reason_growth_unresolved": 60,
+        "reason_overlap": 43,
+        "reason_confirm_warning": 9,
+        "threat": 210,
+        "reason_bearing_growth": 210,
+        "reason_association": 4
+      },
+      "other": {
+        "total": 199,
+        "untracked": 30,
+        "detected": 137,
+        "uncertain": 89,
+        "reason_history": 24,
+        "reason_overlap": 6,
+        "reason_confirm_non_threat": 30,
+        "nonthreat": 80,
+        "reason_crossing": 80,
+        "reason_growth_unresolved": 29
+      }
+    },
+    "events": [
+      {
+        "id": "approach_M2_labels",
+        "kind": "approach",
+        "sampled_frames": 438,
+        "sustained_warning": true,
+        "first_warning_time_s": 17.92,
+        "max_warning_duration_s": 16.080000000000013,
+        "any_apparently_non_threat": false,
+        "associated_track_ids": [
+          1,
+          40,
+          46,
+          113
+        ],
+        "fragments": 4
+      },
+      {
+        "id": "other_M2_labels",
+        "kind": "other",
+        "sampled_frames": 199,
+        "sustained_warning": false,
+        "first_warning_time_s": null,
+        "max_warning_duration_s": 0,
+        "any_apparently_non_threat": true,
+        "associated_track_ids": [
+          5,
+          34
+        ],
+        "fragments": 2
+      }
+    ]
+  },
+  {
+    "window": 6.0,
+    "sequence": "M1",
+    "counts": {
+      "approach": {
+        "total": 438,
+        "untracked": 9,
+        "detected": 431,
+        "uncertain": 316,
+        "reason_history": 23,
+        "reason_aspect": 280,
+        "reason_confirm_warning": 3,
+        "threat": 113,
+        "reason_bearing_growth": 113,
+        "reason_association": 10
+      },
+      "other": {
+        "total": 438,
+        "untracked": 403,
+        "detected": 30,
+        "uncertain": 35,
+        "reason_history": 25,
+        "reason_growth_unresolved": 10
+      }
+    },
+    "events": [
+      {
+        "id": "approach_M1_labels",
+        "kind": "approach",
+        "sampled_frames": 438,
+        "sustained_warning": true,
+        "first_warning_time_s": 24.64,
+        "max_warning_duration_s": 9.040000000000008,
+        "any_apparently_non_threat": false,
+        "associated_track_ids": [
+          2
+        ],
+        "fragments": 1
+      },
+      {
+        "id": "other_M1_labels",
+        "kind": "other",
+        "sampled_frames": 438,
+        "sustained_warning": false,
+        "first_warning_time_s": null,
+        "max_warning_duration_s": 0,
+        "any_apparently_non_threat": false,
+        "associated_track_ids": [
+          35,
+          41
+        ],
+        "fragments": 2
+      }
+    ]
+  },
+  {
+    "window": 6.0,
+    "sequence": "M2",
+    "counts": {
+      "approach": {
+        "total": 438,
+        "untracked": 61,
+        "detected": 358,
+        "uncertain": 160,
+        "reason_history": 51,
+        "reason_growth_unresolved": 54,
+        "reason_overlap": 48,
+        "reason_confirm_warning": 3,
+        "threat": 217,
+        "reason_bearing_growth": 217,
+        "reason_association": 4
+      },
+      "other": {
+        "total": 199,
+        "untracked": 30,
+        "detected": 137,
+        "uncertain": 74,
+        "reason_history": 24,
+        "reason_overlap": 6,
+        "reason_confirm_non_threat": 33,
+        "nonthreat": 95,
+        "reason_crossing": 95,
+        "reason_growth_unresolved": 11
+      }
+    },
+    "events": [
+      {
+        "id": "approach_M2_labels",
+        "kind": "approach",
+        "sampled_frames": 438,
+        "sustained_warning": true,
+        "first_warning_time_s": 16.64,
+        "max_warning_duration_s": 17.359999999999985,
+        "any_apparently_non_threat": false,
+        "associated_track_ids": [
+          1,
+          40,
+          46,
+          113
+        ],
+        "fragments": 4
+      },
+      {
+        "id": "other_M2_labels",
+        "kind": "other",
+        "sampled_frames": 199,
+        "sustained_warning": false,
+        "first_warning_time_s": null,
+        "max_warning_duration_s": 0,
+        "any_apparently_non_threat": true,
+        "associated_track_ids": [
+          5,
+          34
+        ],
+        "fragments": 2
+      }
+    ]
+  },
+  {
+    "window": 8.0,
+    "sequence": "M1",
+    "counts": {
+      "approach": {
+        "total": 438,
+        "untracked": 9,
+        "detected": 431,
+        "uncertain": 333,
+        "reason_history": 23,
+        "reason_aspect": 297,
+        "reason_confirm_warning": 3,
+        "threat": 96,
+        "reason_bearing_growth": 96,
+        "reason_association": 10
+      },
+      "other": {
+        "total": 438,
+        "untracked": 403,
+        "detected": 30,
+        "uncertain": 35,
+        "reason_history": 25,
+        "reason_growth_unresolved": 10
+      }
+    },
+    "events": [
+      {
+        "id": "approach_M1_labels",
+        "kind": "approach",
+        "sampled_frames": 438,
+        "sustained_warning": true,
+        "first_warning_time_s": 26.0,
+        "max_warning_duration_s": 7.680000000000007,
+        "any_apparently_non_threat": false,
+        "associated_track_ids": [
+          2
+        ],
+        "fragments": 1
+      },
+      {
+        "id": "other_M1_labels",
+        "kind": "other",
+        "sampled_frames": 438,
+        "sustained_warning": false,
+        "first_warning_time_s": null,
+        "max_warning_duration_s": 0,
+        "any_apparently_non_threat": false,
+        "associated_track_ids": [
+          35,
+          41
+        ],
+        "fragments": 2
+      }
+    ]
+  },
+  {
+    "window": 8.0,
+    "sequence": "M2",
+    "counts": {
+      "approach": {
+        "total": 438,
+        "untracked": 61,
+        "detected": 358,
+        "uncertain": 159,
+        "reason_history": 51,
+        "reason_growth_unresolved": 54,
+        "reason_overlap": 47,
+        "reason_confirm_warning": 3,
+        "threat": 218,
+        "reason_bearing_growth": 218,
+        "reason_association": 4
+      },
+      "other": {
+        "total": 199,
+        "untracked": 30,
+        "detected": 137,
+        "uncertain": 74,
+        "reason_history": 24,
+        "reason_overlap": 6,
+        "reason_confirm_non_threat": 33,
+        "nonthreat": 95,
+        "reason_crossing": 95,
+        "reason_growth_unresolved": 11
+      }
+    },
+    "events": [
+      {
+        "id": "approach_M2_labels",
+        "kind": "approach",
+        "sampled_frames": 438,
+        "sustained_warning": true,
+        "first_warning_time_s": 16.560000000000002,
+        "max_warning_duration_s": 17.439999999999984,
+        "any_apparently_non_threat": false,
+        "associated_track_ids": [
+          1,
+          40,
+          46,
+          113
+        ],
+        "fragments": 4
+      },
+      {
+        "id": "other_M2_labels",
+        "kind": "other",
+        "sampled_frames": 199,
+        "sustained_warning": false,
+        "first_warning_time_s": null,
+        "max_warning_duration_s": 0,
+        "any_apparently_non_threat": true,
+        "associated_track_ids": [
+          5,
+          34
+        ],
+        "fragments": 2
+      }
+    ]
+  },
+  {
+    "window": 12.0,
+    "sequence": "M1",
+    "counts": {
+      "approach": {
+        "total": 438,
+        "untracked": 9,
+        "detected": 431,
+        "uncertain": 366,
+        "reason_history": 23,
+        "reason_aspect": 330,
+        "reason_confirm_warning": 3,
+        "threat": 63,
+        "reason_bearing_growth": 63,
+        "reason_association": 10
+      },
+      "other": {
+        "total": 438,
+        "untracked": 403,
+        "detected": 30,
+        "uncertain": 35,
+        "reason_history": 25,
+        "reason_growth_unresolved": 10
+      }
+    },
+    "events": [
+      {
+        "id": "approach_M1_labels",
+        "kind": "approach",
+        "sampled_frames": 438,
+        "sustained_warning": true,
+        "first_warning_time_s": 28.64,
+        "max_warning_duration_s": 5.0400000000000045,
+        "any_apparently_non_threat": false,
+        "associated_track_ids": [
+          2
+        ],
+        "fragments": 1
+      },
+      {
+        "id": "other_M1_labels",
+        "kind": "other",
+        "sampled_frames": 438,
+        "sustained_warning": false,
+        "first_warning_time_s": null,
+        "max_warning_duration_s": 0,
+        "any_apparently_non_threat": false,
+        "associated_track_ids": [
+          35,
+          41
+        ],
+        "fragments": 2
+      }
+    ]
+  },
+  {
+    "window": 12.0,
+    "sequence": "M2",
+    "counts": {
+      "approach": {
+        "total": 438,
+        "untracked": 61,
+        "detected": 358,
+        "uncertain": 160,
+        "reason_history": 51,
+        "reason_growth_unresolved": 54,
+        "reason_overlap": 47,
+        "reason_confirm_warning": 3,
+        "threat": 217,
+        "reason_bearing_growth": 217,
+        "reason_aspect": 1,
+        "reason_association": 4
+      },
+      "other": {
+        "total": 199,
+        "untracked": 30,
+        "detected": 137,
+        "uncertain": 74,
+        "reason_history": 24,
+        "reason_overlap": 6,
+        "reason_confirm_non_threat": 33,
+        "nonthreat": 95,
+        "reason_crossing": 95,
+        "reason_growth_unresolved": 11
+      }
+    },
+    "events": [
+      {
+        "id": "approach_M2_labels",
+        "kind": "approach",
+        "sampled_frames": 438,
+        "sustained_warning": true,
+        "first_warning_time_s": 16.560000000000002,
+        "max_warning_duration_s": 17.359999999999985,
+        "any_apparently_non_threat": false,
+        "associated_track_ids": [
+          1,
+          40,
+          46,
+          113
+        ],
+        "fragments": 4
+      },
+      {
+        "id": "other_M2_labels",
+        "kind": "other",
+        "sampled_frames": 199,
+        "sustained_warning": false,
+        "first_warning_time_s": null,
+        "max_warning_duration_s": 0,
+        "any_apparently_non_threat": true,
+        "associated_track_ids": [
+          5,
+          34
+        ],
+        "fragments": 2
+      }
+    ]
+  }
+]

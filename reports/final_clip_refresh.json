@@ -1,0 +1,79 @@
+[
+  {
+    "case": "M1",
+    "timestamp_utc": "2026-10-18T02:17:04.256407+00:00",
+    "external_wall_s": 21.51952170000004,
+    "external_fps": 20.353612227357225,
+    "processing_fps": 24.379883470170487,
+    "frames": 438,
+    "states_track_frames": {
+      "uncertain": 809,
+      "threat": 130
+    },
+    "output": "demo\\M1_final"
+  },
+  {
+    "case": "M2",
+    "timestamp_utc": "2026-10-18T02:17:25.777400+00:00",
+    "external_wall_s": 21.812846900000295,
+    "external_fps": 20.079909880997427,
+    "processing_fps": 23.813808897055523,
+    "frames": 438,
+    "states_track_frames": {
+      "uncertain": 992,
+      "nonthreat": 81,
+      "threat": 165
+    },
+    "output": "demo\\M2_final"
+  },
+  {
+    "case": "S2",
+    "timestamp_utc": "2026-10-18T02:17:47.590376+00:00",
+    "external_wall_s": 20.498652400001447,
+    "external_fps": 21.36725826913232,
+    "processing_fps": 25.734667470196538,
+    "frames": 438,
+    "states_track_frames": {
+      "uncertain": 292,
+      "threat": 140
+    },
+    "output": "demo\\S2_final"
+  },
+  {
+    "case": "formation",
+    "timestamp_utc": "2026-10-18T02:18:08.090473+00:00",
+    "external_wall_s": 28.131144300001324,
+    "external_fps": 10.664336892971178,
+    "processing_fps": 12.257497966664545,
+    "frames": 300,
+    "states_track_frames": {
+      "uncertain": 1309
+    },
+    "output": "demo\\formation_final"
+  },
+  {
+    "case": "helicopter",
+    "timestamp_utc": "2026-10-18T02:18:36.222291+00:00",
+    "external_wall_s": 10.994695500001399,
+    "external_fps": 19.10011968953331,
+    "processing_fps": 27.512056077749783,
+    "frames": 210,
+    "states_track_frames": {
+      "uncertain": 293
+    },
+    "output": "demo\\helicopter_final"
+  },
+  {
+    "case": "S2_zoom",
+    "timestamp_utc": "2026-10-18T02:18:47.217862+00:00",
+    "external_wall_s": 29.96381299999848,
+    "external_fps": 14.617632275305622,
+    "processing_fps": 16.549017072076467,
+    "frames": 438,
+    "states_track_frames": {
+      "uncertain": 422,
+      "threat": 151
+    },
+    "output": "demo\\S2_zoom_final"
+  }
+]

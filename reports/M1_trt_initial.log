@@ -1,0 +1,89 @@
+100 frames, 18.86 FPS, {'uncertain': 101}
+200 frames, 16.64 FPS, {'uncertain': 201}
+{
+  "timestamp_utc": "2026-10-17T22:16:56.878069+00:00",
+  "args": {
+    "video": "data/qut/M1.mp4",
+    "weights": "artifacts/yolo26m_local.engine",
+    "output": "demo/M1_trt_initial",
+    "conf": 0.18,
+    "stride": 2,
+    "max_frames": 240,
+    "camera": "fixed",
+    "tiled": false,
+    "no_render": false,
+    "detections": null,
+    "title": "RGB \u2022 \u0430\u043d\u0430\u043b\u0438\u0437 \u0441\u0431\u043b\u0438\u0436\u0435\u043d\u0438\u044f"
+  },
+  "config": {
+    "window": 4.0,
+    "min_span": 6.0,
+    "min_history": 2.0,
+    "min_samples": 10,
+    "threat_miss": 2.0,
+    "nonthreat_miss": 5.0,
+    "horizon": 60.0,
+    "max_log_residual": 0.16,
+    "growth_floor": 0.008
+  },
+  "frames": 240,
+  "elapsed_s": 15.02553620000026,
+  "processing_fps": 15.972807679235823,
+  "source_fps": 25.0,
+  "output_fps": 12.5,
+  "startup_and_warmup_s": 2.24478020000015,
+  "states_track_frames": {
+    "uncertain": 241
+  },
+  "stages": {
+    "detector_ms": {
+      "mean": 16.465467083336687,
+      "p50": 12.389099999836617,
+      "p95": 30.062390000261985
+    },
+    "camera_ms": {
+      "mean": 6.802234166671421,
+      "p50": 6.575750000138214,
+      "p95": 9.13722999971469
+    },
+    "tracker_ms": {
+      "mean": 0.10606249998280266,
+      "p50": 0.10290000022905588,
+      "p95": 0.1623299999891969
+    },
+    "threat_ms": {
+      "mean": 1.106377083338354,
+      "p50": 1.3306499999998778,
+      "p95": 1.8802200000891387
+    },
+    "render_ms": {
+      "mean": 27.805919583327448,
+      "p50": 27.33775000001515,
+      "p95": 31.970909999654396
+    },
+    "encode_write_ms": {
+      "mean": 3.2075474999999187,
+      "p50": 3.036950000023353,
+      "p95": 4.487244999882023
+    },
+    "decode_ms": {
+      "mean": 2.812328750009859,
+      "p50": 2.630100000033053,
+      "p95": 3.882519999910982
+    }
+  },
+  "providers": [
+    "TensorRT 11.4.0.106"
+  ],
+  "hardware": "NVIDIA GeForce RTX 4060",
+  "cv2": "5.0.0",
+  "cv2_path": "C:\\Data\\DEV\\Libs\\opencv_cuda_5\\install\\python\\cv2\\__init__.py",
+  "cuda_devices": 1,
+  "resolution": [
+    1280,
+    720
+  ],
+  "batch": 1,
+  "weights_sha256": "89e5d441f97a1cc3731340460cfa584a1f401c2d08fad01f17b5aacff1c258d9",
+  "caveat": "offline throughput incl decode, stages, trace and encode flush; not certified streaming latency"
+}

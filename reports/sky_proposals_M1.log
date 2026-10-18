@@ -1,0 +1,22 @@
+{
+  "kind": "extra actual neural RGB crop experiment; baseline and DINO masks precomputed",
+  "sequence": "M1",
+  "frames": 438,
+  "counts": {
+    "proposal_frames": 88,
+    "proposals": 162,
+    "zoom_detections_before_suppression": 11
+  },
+  "added_proposal_frame_mean_s": 0.07809295113640308,
+  "total_added_experiment_s": 6.912030600000435,
+  "settings": {
+    "sequence": "M1",
+    "mask": "artifacts/sky/M1_sky_mask.mkv",
+    "base": "demo/M1_tiled_initial/detections.jsonl",
+    "output": "artifacts/sky_proposals/M1",
+    "topk": 12,
+    "crop_size": 96
+  },
+  "no_gt_used": true,
+  "original_pixel_sizes_preserved": true
+}

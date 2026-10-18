@@ -1,0 +1,20 @@
+Finished dense M1
+Finished dense M2
+Finished dense M4
+Finished dense S2
+Completed dense {'approach': {'total': 1997, 'untracked': 352, 'uncertain': 1090, 'threat': 555}, 'other': {'total': 1872, 'untracked': 367, 'uncertain': 1367, 'nonthreat': 138}}
+Finished adaptive M1
+Finished adaptive M2
+Finished adaptive M4
+Finished adaptive S2
+Completed adaptive {'approach': {'total': 1997, 'untracked': 376, 'uncertain': 1066, 'threat': 555}, 'other': {'total': 1872, 'untracked': 374, 'uncertain': 1360, 'nonthreat': 138}}
+Finished appearance M1
+Finished appearance M2
+Finished appearance M4
+Finished appearance S2
+Completed appearance {'approach': {'total': 1997, 'untracked': 345, 'uncertain': 1083, 'threat': 569}, 'other': {'total': 1872, 'untracked': 229, 'uncertain': 1468, 'nonthreat': 175}}
+Finished appearance_independent M1
+Finished appearance_independent M2
+Finished appearance_independent M4
+Finished appearance_independent S2
+Completed appearance_independent {'approach': {'total': 1997, 'untracked': 345, 'uncertain': 1093, 'threat': 559}, 'other': {'total': 1872, 'untracked': 229, 'uncertain': 1595, 'nonthreat': 48}}

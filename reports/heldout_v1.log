@@ -1,0 +1,6 @@
+Running M3
+M3 {'approach': Counter({'total': 438, 'detected': 403, 'uncertain': 247, 'threat': 187, 'reason_bearing_growth': 187, 'reason_overlap': 131, 'reason_growth_unresolved': 61, 'reason_association': 32, 'reason_history': 23, 'untracked': 4}), 'other': Counter({'total': 308, 'untracked': 297, 'detected': 16, 'uncertain': 11, 'reason_history': 11})}
+Running M4
+M4 {'approach': Counter({'total': 438, 'detected': 422, 'uncertain': 259, 'threat': 156, 'reason_bearing_growth': 156, 'reason_aspect': 121, 'reason_growth_unresolved': 84, 'reason_overlap': 22, 'untracked': 18, 'reason_history': 17, 'reason_association': 15, 'nonthreat': 5, 'reason_receding': 5}), 'other': Counter({'total': 438, 'detected': 262, 'uncertain': 246, 'reason_growth_unresolved': 178, 'untracked': 138, 'nonthreat': 54, 'reason_crossing': 54, 'reason_history': 50, 'reason_overlap': 18})}
+Running M5
+M5 {'approach': Counter({'total': 438, 'detected': 429, 'uncertain': 322, 'reason_aspect': 217, 'threat': 108, 'reason_bearing_growth': 108, 'reason_association': 78, 'reason_history': 23, 'untracked': 8, 'reason_overlap': 4}), 'other': Counter({'total': 318, 'detected': 169, 'untracked': 152, 'uncertain': 110, 'nonthreat': 56, 'reason_crossing': 56, 'reason_overlap': 46, 'reason_history': 33, 'reason_growth_unresolved': 29, 'reason_aspect': 2})}

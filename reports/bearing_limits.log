@@ -1,0 +1,245 @@
+{
+  "kind": "analytical 2D pinhole counterexample; no images or flight simulation",
+  "counts": {
+    "log_0deg": {
+      "close_threat": 5,
+      "borderline_uncertain": 3,
+      "far_uncertain": 3,
+      "far_nonthreat": 6,
+      "close_uncertain": 1
+    },
+    "projective_0deg": {
+      "close_threat": 6,
+      "borderline_uncertain": 3,
+      "far_nonthreat": 7,
+      "far_uncertain": 2
+    },
+    "log_30deg": {
+      "close_threat": 5,
+      "borderline_uncertain": 3,
+      "far_uncertain": 3,
+      "far_nonthreat": 6,
+      "close_uncertain": 1
+    },
+    "projective_30deg": {
+      "close_threat": 6,
+      "borderline_uncertain": 3,
+      "far_nonthreat": 7,
+      "far_uncertain": 2
+    },
+    "log_60deg": {
+      "close_threat": 5,
+      "borderline_uncertain": 6,
+      "far_nonthreat": 4,
+      "borderline_nonthreat": 2,
+      "close_uncertain": 1
+    },
+    "projective_60deg": {
+      "close_threat": 6,
+      "borderline_uncertain": 5,
+      "borderline_nonthreat": 3,
+      "far_nonthreat": 4
+    },
+    "log_75deg": {
+      "close_threat": 5,
+      "close_uncertain": 4,
+      "borderline_uncertain": 3,
+      "borderline_nonthreat": 5,
+      "far_nonthreat": 1
+    },
+    "projective_75deg": {
+      "close_threat": 6,
+      "close_uncertain": 3,
+      "borderline_nonthreat": 6,
+      "far_nonthreat": 1,
+      "borderline_uncertain": 2
+    },
+    "log_80deg": {
+      "close_threat": 5,
+      "close_uncertain": 7,
+      "borderline_nonthreat": 4,
+      "close_nonthreat": 2
+    },
+    "projective_80deg": {
+      "close_threat": 6,
+      "close_uncertain": 5,
+      "close_nonthreat": 3,
+      "borderline_nonthreat": 4
+    },
+    "log_85deg": {
+      "close_threat": 5,
+      "close_uncertain": 7,
+      "close_nonthreat": 5,
+      "borderline_nonthreat": 1
+    },
+    "projective_85deg": {
+      "close_threat": 6,
+      "close_uncertain": 5,
+      "close_nonthreat": 6,
+      "borderline_nonthreat": 1
+    }
+  },
+  "false_safe_examples": [
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 1.1182978290142191,
+      "true_2d_cpa_time_s": 16.098702085335233,
+      "state": "nonthreat",
+      "estimated_plane_miss": 5.999999999999986
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.4695304961818567,
+      "true_2d_cpa_time_s": 26.44452493358893,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.3399002394954325
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.4695304961818567,
+      "true_2d_cpa_time_s": 26.44452493358893,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.999999999999985
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.4383529057133941,
+      "true_2d_cpa_time_s": 41.414913884909176,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.594757456863366
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 80,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 1.4383529057133941,
+      "true_2d_cpa_time_s": 41.414913884909176,
+      "state": "nonthreat",
+      "estimated_plane_miss": 8.000000000000165
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 6.0,
+      "true_2d_cpa_spans": 0.5417465251376741,
+      "true_2d_cpa_time_s": 15.539533716951976,
+      "state": "nonthreat",
+      "estimated_plane_miss": 5.999999999999978
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7310938133040071,
+      "true_2d_cpa_time_s": 15.728034535145492,
+      "state": "nonthreat",
+      "estimated_plane_miss": 6.873741247434076
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 15.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7310938133040071,
+      "true_2d_cpa_time_s": 15.728034535145492,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.999999999999999
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7171693878707875,
+      "true_2d_cpa_time_s": 25.714281831658457,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.339900239495384
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7171693878707875,
+      "true_2d_cpa_time_s": 25.714281831658457,
+      "state": "nonthreat",
+      "estimated_plane_miss": 8.000000000000028
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.4765198004184692,
+      "true_2d_cpa_time_s": 26.470219294106293,
+      "state": "nonthreat",
+      "estimated_plane_miss": 14.679800478992474
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 25.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.4765198004184692,
+      "true_2d_cpa_time_s": 26.470219294106293,
+      "state": "nonthreat",
+      "estimated_plane_miss": 16.00000000000001
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7095666034175293,
+      "true_2d_cpa_time_s": 40.70677003013269,
+      "state": "nonthreat",
+      "estimated_plane_miss": 7.594757456862809
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 8.0,
+      "true_2d_cpa_spans": 0.7095666034175293,
+      "true_2d_cpa_time_s": 40.70677003013269,
+      "state": "nonthreat",
+      "estimated_plane_miss": 8.00000000000039
+    },
+    {
+      "method": "log",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.4446574003671357,
+      "true_2d_cpa_time_s": 41.4387565785386,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.189514913730989
+    },
+    {
+      "method": "projective",
+      "initial_bearing_deg": 85,
+      "z0_in_spans": 40.0,
+      "plane_intercept_spans": 16.0,
+      "true_2d_cpa_spans": 1.4446574003671357,
+      "true_2d_cpa_time_s": 41.4387565785386,
+      "state": "nonthreat",
+      "estimated_plane_miss": 15.999999999999641
+    }
+  ],
+  "conclusion": "Depth-plane intercept can overestimate true closest approach at wide bearings / large lateral velocity. Unknown intrinsics prevent conversion to guaranteed CPA. Green remains conditional image-model evidence."
+}

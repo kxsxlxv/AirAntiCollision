@@ -1,0 +1,80 @@
+{
+  "definition": "QUT encounter-category proxy, not physical collision ground truth",
+  "trace": "artifacts/bridge_dev/M1/decisions.jsonl",
+  "gt": "data/qut/M1.gt.json",
+  "centroid_tolerance_px": 20,
+  "warning_persistence_s": 0.8,
+  "frames": 438,
+  "counts": {
+    "approach": {
+      "total": 438,
+      "untracked": 12,
+      "detected": 144,
+      "uncertain": 318,
+      "reason_history": 19,
+      "reason_aspect": 296,
+      "reason_confirm_warning": 3,
+      "threat": 108,
+      "reason_bearing_growth": 108
+    },
+    "other": {
+      "total": 438,
+      "untracked": 303,
+      "detected": 12,
+      "uncertain": 135,
+      "reason_history": 19,
+      "reason_growth_unresolved": 116
+    }
+  },
+  "growth_only_baseline": {
+    "approach": {
+      "growth_only_untracked": 12,
+      "growth_only_uncertain": 318,
+      "growth_only_threat": 108
+    },
+    "other": {
+      "growth_only_untracked": 303,
+      "growth_only_uncertain": 135
+    }
+  },
+  "events": [
+    {
+      "id": "approach_M1_labels",
+      "kind": "approach",
+      "sampled_frames": 438,
+      "sustained_warning": true,
+      "first_warning_time_s": 25.92,
+      "max_warning_duration_s": 8.640000000000008,
+      "any_apparently_non_threat": false,
+      "associated_track_ids": [
+        2
+      ],
+      "fragments": 1,
+      "growth_only_baseline_sustained_warning": true
+    },
+    {
+      "id": "other_M1_labels",
+      "kind": "other",
+      "sampled_frames": 438,
+      "sustained_warning": false,
+      "first_warning_time_s": null,
+      "max_warning_duration_s": 0,
+      "any_apparently_non_threat": false,
+      "associated_track_ids": [
+        38
+      ],
+      "fragments": 1,
+      "growth_only_baseline_sustained_warning": false
+    }
+  ],
+  "unmatched_track_frames": {
+    "threat": 6
+  },
+  "limitations": [
+    "centroids approximate/interpolated",
+    "no GT boxes or CPA",
+    "other objects not necessarily exhaustively labeled",
+    "unmatched warnings are not verified false alerts",
+    "missed warning and false-safe on approach are distinct"
+  ]
+}

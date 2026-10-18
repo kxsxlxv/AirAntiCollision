@@ -1,0 +1,12 @@
+{
+  "name": "M2",
+  "output": "demo\\M2_final",
+  "frames": 438,
+  "processing_fps": 21.805145545387354,
+  "whole_run_fps": 19.32940375969521,
+  "states": {
+    "uncertain": 992,
+    "nonthreat": 81,
+    "threat": 165
+  }
+}

@@ -1,0 +1,15 @@
+Completed dense M6
+Completed dense S1
+Completed dense S3
+Completed dense S5
+Finished dense {'other': {'total': 495, 'threat': 12, 'nonthreat': 12, 'uncertain': 441, 'untracked': 30}, 'approach': {'total': 2574, 'threat': 514, 'nonthreat': 0, 'uncertain': 1136, 'untracked': 924}}
+Completed appearance M6
+Completed appearance S1
+Completed appearance S3
+Completed appearance S5
+Finished appearance {'other': {'total': 495, 'threat': 13, 'nonthreat': 0, 'uncertain': 446, 'untracked': 36}, 'approach': {'total': 2574, 'threat': 442, 'nonthreat': 0, 'uncertain': 1142, 'untracked': 990}}
+Completed appearance_independent M6
+Completed appearance_independent S1
+Completed appearance_independent S3
+Completed appearance_independent S5
+Finished appearance_independent {'other': {'total': 495, 'threat': 0, 'nonthreat': 5, 'uncertain': 454, 'untracked': 36}, 'approach': {'total': 2574, 'threat': 450, 'nonthreat': 0, 'uncertain': 1134, 'untracked': 990}}

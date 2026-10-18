@@ -1,0 +1,90 @@
+Running M1
+M1 {'approach': Counter({'total': 236, 'detector_queried': 236, 'observed_by_detector': 230, 'detected': 222, 'uncertain': 186, 'reason_aspect': 154, 'threat': 44, 'reason_bearing_growth': 44, 'reason_growth_unresolved': 16, 'reason_history': 10, 'untracked': 6, 'reason_association': 4, 'reason_confirm_warning': 2}), 'other': Counter({'total': 225, 'detector_queried': 225, 'untracked': 213, 'detected': 14, 'uncertain': 12, 'observed_by_detector': 12, 'reason_history': 8, 'reason_growth_unresolved': 4})}
+Finished M1 edge 0 runs 1
+Running M1
+M1 {'approach': Counter({'total': 236, 'detector_queried': 236, 'observed_by_detector': 231, 'detected': 223, 'uncertain': 182, 'reason_aspect': 154, 'threat': 49, 'reason_bearing_growth': 49, 'reason_growth_unresolved': 16, 'reason_history': 10, 'untracked': 5, 'reason_confirm_warning': 2}), 'other': Counter({'total': 225, 'detector_queried': 225, 'untracked': 213, 'detected': 14, 'uncertain': 12, 'observed_by_detector': 12, 'reason_history': 8, 'reason_growth_unresolved': 4})}
+Finished M1 edge 2 runs 1
+Running M2
+M2 {'other': Counter({'total': 303, 'detector_queried': 303, 'observed_by_detector': 277, 'detected': 266, 'uncertain': 246, 'reason_growth_unresolved': 132, 'nonthreat': 31, 'reason_confirm_non_threat': 30, 'reason_aspect': 28, 'reason_crossing': 27, 'untracked': 26, 'reason_association': 20, 'reason_history': 19, 'reason_overlap': 15, 'reason_crossing_no_growth': 4, 'reason_shrink_ambiguous': 2}), 'approach': Counter({'total': 281, 'detector_queried': 281, 'detected': 174, 'observed_by_detector': 172, 'untracked': 109, 'uncertain': 104, 'threat': 68, 'reason_bearing_growth': 68, 'reason_overlap': 27, 'reason_growth_unresolved': 26, 'reason_history': 21, 'reason_aspect': 20, 'reason_confirm_warning': 9, 'reason_association': 1})}
+Finished M2 edge 0 runs 2
+Running M2
+M2 {'other': Counter({'total': 303, 'detector_queried': 303, 'observed_by_detector': 277, 'detected': 266, 'uncertain': 246, 'reason_growth_unresolved': 132, 'nonthreat': 31, 'reason_confirm_non_threat': 30, 'reason_aspect': 28, 'reason_crossing': 27, 'untracked': 26, 'reason_association': 20, 'reason_history': 19, 'reason_overlap': 15, 'reason_crossing_no_growth': 4, 'reason_shrink_ambiguous': 2}), 'approach': Counter({'total': 281, 'detector_queried': 281, 'detected': 175, 'observed_by_detector': 173, 'untracked': 108, 'uncertain': 103, 'threat': 70, 'reason_bearing_growth': 70, 'reason_overlap': 27, 'reason_growth_unresolved': 26, 'reason_history': 21, 'reason_aspect': 20, 'reason_confirm_warning': 9})}
+Finished M2 edge 2 runs 2
+Running M3
+M3 {'other': Counter({'total': 339, 'detector_queried': 339, 'detected': 218, 'observed_by_detector': 216, 'uncertain': 200, 'reason_growth_unresolved': 146, 'untracked': 123, 'reason_overlap': 27, 'nonthreat': 16, 'reason_crossing': 16, 'reason_history': 11, 'reason_association': 10, 'reason_confirm_non_threat': 6}), 'approach': Counter({'total': 428, 'detector_queried': 428, 'observed_by_detector': 327, 'detected': 319, 'uncertain': 280, 'reason_growth_unresolved': 158, 'untracked': 101, 'reason_overlap': 58, 'threat': 47, 'reason_bearing_growth': 47, 'reason_association': 30, 'reason_history': 25, 'reason_confirm_warning': 7, 'reason_tiny': 2})}
+Finished M3 edge 0 runs 3
+Running M3
+M3 {'other': Counter({'total': 339, 'detector_queried': 339, 'detected': 218, 'observed_by_detector': 216, 'uncertain': 200, 'reason_growth_unresolved': 146, 'untracked': 123, 'reason_overlap': 27, 'nonthreat': 16, 'reason_crossing': 16, 'reason_history': 11, 'reason_association': 10, 'reason_confirm_non_threat': 6}), 'approach': Counter({'total': 428, 'detector_queried': 428, 'observed_by_detector': 327, 'detected': 319, 'uncertain': 269, 'reason_growth_unresolved': 158, 'untracked': 101, 'reason_overlap': 58, 'threat': 58, 'reason_bearing_growth': 58, 'reason_history': 25, 'reason_association': 19, 'reason_confirm_warning': 7, 'reason_tiny': 2})}
+Finished M3 edge 2 runs 3
+Running M4
+M4 {'other': Counter({'total': 494, 'detector_queried': 494, 'detected': 350, 'observed_by_detector': 341, 'uncertain': 322, 'reason_growth_unresolved': 209, 'untracked': 153, 'reason_history': 49, 'reason_overlap': 34, 'reason_confirm_non_threat': 26, 'nonthreat': 19, 'reason_crossing': 19, 'reason_shrink_ambiguous': 2, 'reason_aspect': 2}), 'approach': Counter({'total': 273, 'detector_queried': 273, 'detected': 184, 'observed_by_detector': 180, 'uncertain': 118, 'untracked': 93, 'threat': 62, 'reason_bearing_growth': 62, 'reason_growth_unresolved': 49, 'reason_aspect': 31, 'reason_history': 22, 'reason_association': 7, 'reason_confirm_warning': 6, 'reason_overlap': 2, 'reason_shrink_ambiguous': 1})}
+Finished M4 edge 0 runs 4
+Running M4
+M4 {'other': Counter({'total': 494, 'detector_queried': 494, 'detected': 350, 'observed_by_detector': 341, 'uncertain': 322, 'reason_growth_unresolved': 209, 'untracked': 153, 'reason_history': 49, 'reason_overlap': 34, 'reason_confirm_non_threat': 26, 'nonthreat': 19, 'reason_crossing': 19, 'reason_shrink_ambiguous': 2, 'reason_aspect': 2}), 'approach': Counter({'total': 273, 'detector_queried': 273, 'detected': 184, 'observed_by_detector': 180, 'uncertain': 111, 'untracked': 93, 'threat': 69, 'reason_bearing_growth': 69, 'reason_growth_unresolved': 49, 'reason_aspect': 31, 'reason_history': 22, 'reason_confirm_warning': 6, 'reason_overlap': 2, 'reason_shrink_ambiguous': 1})}
+Finished M4 edge 2 runs 4
+Running M5
+M5 {'other': Counter({'total': 1018, 'detector_queried': 1018, 'detected': 629, 'observed_by_detector': 626, 'uncertain': 609, 'untracked': 392, 'reason_growth_unresolved': 257, 'reason_history': 117, 'reason_aspect': 67, 'reason_overlap': 51, 'reason_confirm_non_threat': 50, 'reason_association': 50, 'reason_shrink_ambiguous': 17, 'nonthreat': 17, 'reason_crossing': 17}), 'approach': Counter({'total': 212, 'detector_queried': 212, 'detected': 200, 'observed_by_detector': 198, 'uncertain': 164, 'reason_aspect': 105, 'threat': 34, 'reason_bearing_growth': 34, 'reason_history': 25, 'untracked': 14, 'reason_association': 11, 'reason_overlap': 11, 'reason_growth_unresolved': 9, 'reason_confirm_warning': 3})}
+Finished M5 edge 0 runs 5
+Running M5
+M5 {'other': Counter({'total': 1018, 'detector_queried': 1018, 'detected': 629, 'observed_by_detector': 626, 'uncertain': 609, 'untracked': 392, 'reason_growth_unresolved': 262, 'reason_history': 117, 'reason_aspect': 69, 'reason_overlap': 60, 'reason_confirm_non_threat': 50, 'reason_association': 40, 'nonthreat': 17, 'reason_crossing': 17, 'reason_shrink_ambiguous': 11}), 'approach': Counter({'total': 212, 'detector_queried': 212, 'detected': 200, 'observed_by_detector': 198, 'uncertain': 147, 'reason_aspect': 105, 'threat': 51, 'reason_bearing_growth': 51, 'reason_history': 25, 'untracked': 14, 'reason_growth_unresolved': 12, 'reason_confirm_warning': 3, 'reason_overlap': 2})}
+Finished M5 edge 2 runs 5
+Running M6
+M6 {'other': Counter({'total': 198, 'detector_queried': 198, 'detected': 155, 'observed_by_detector': 152, 'uncertain': 141, 'reason_growth_unresolved': 79, 'untracked': 46, 'reason_overlap': 29, 'reason_confirm_non_threat': 16, 'reason_history': 11, 'threat': 7, 'reason_bearing_growth': 7, 'nonthreat': 4, 'reason_crossing_no_growth': 4, 'reason_aspect': 4, 'reason_confirm_warning': 2}), 'approach': Counter({'total': 223, 'detector_queried': 223, 'detected': 208, 'observed_by_detector': 208, 'uncertain': 159, 'reason_growth_unresolved': 72, 'threat': 49, 'reason_bearing_growth': 49, 'reason_aspect': 46, 'reason_history': 16, 'untracked': 15, 'reason_overlap': 12, 'reason_association': 10, 'reason_confirm_warning': 3})}
+Finished M6 edge 0 runs 6
+Running M6
+M6 {'other': Counter({'total': 198, 'detector_queried': 198, 'detected': 155, 'observed_by_detector': 152, 'uncertain': 141, 'reason_growth_unresolved': 79, 'untracked': 46, 'reason_overlap': 29, 'reason_confirm_non_threat': 16, 'reason_history': 11, 'threat': 7, 'reason_bearing_growth': 7, 'nonthreat': 4, 'reason_crossing_no_growth': 4, 'reason_aspect': 4, 'reason_confirm_warning': 2}), 'approach': Counter({'total': 223, 'detector_queried': 223, 'detected': 208, 'observed_by_detector': 208, 'uncertain': 159, 'reason_growth_unresolved': 72, 'threat': 49, 'reason_bearing_growth': 49, 'reason_aspect': 46, 'reason_history': 16, 'untracked': 15, 'reason_overlap': 12, 'reason_association': 10, 'reason_confirm_warning': 3})}
+Finished M6 edge 2 runs 6
+Running M7
+M7 {'other': Counter({'total': 661, 'detector_queried': 661, 'observed_by_detector': 360, 'detected': 358, 'untracked': 301, 'uncertain': 283, 'reason_growth_unresolved': 118, 'nonthreat': 77, 'reason_crossing': 77, 'reason_history': 44, 'reason_overlap': 41, 'reason_confirm_non_threat': 37, 'reason_aspect': 30, 'reason_association': 12, 'reason_shrink_ambiguous': 1}), 'approach': Counter({'total': 227, 'detector_queried': 227, 'detected': 214, 'observed_by_detector': 213, 'uncertain': 138, 'reason_aspect': 100, 'threat': 75, 'reason_bearing_growth': 75, 'untracked': 14, 'reason_growth_unresolved': 14, 'reason_history': 13, 'reason_overlap': 7, 'reason_confirm_warning': 4})}
+Finished M7 edge 0 runs 7
+Running M7
+M7 {'other': Counter({'total': 661, 'detector_queried': 661, 'observed_by_detector': 360, 'detected': 358, 'untracked': 301, 'uncertain': 283, 'reason_growth_unresolved': 118, 'nonthreat': 77, 'reason_crossing': 77, 'reason_history': 44, 'reason_overlap': 41, 'reason_confirm_non_threat': 37, 'reason_aspect': 30, 'reason_association': 12, 'reason_shrink_ambiguous': 1}), 'approach': Counter({'total': 227, 'detector_queried': 227, 'detected': 214, 'observed_by_detector': 213, 'uncertain': 138, 'reason_aspect': 100, 'threat': 75, 'reason_bearing_growth': 75, 'untracked': 14, 'reason_growth_unresolved': 14, 'reason_history': 13, 'reason_overlap': 7, 'reason_confirm_warning': 4})}
+Finished M7 edge 2 runs 7
+Running M8
+M8 {'other': Counter({'total': 35, 'detector_queried': 35, 'detected': 35, 'observed_by_detector': 33, 'uncertain': 27, 'reason_overlap': 12, 'reason_history': 8, 'reason_confirm_non_threat': 6, 'nonthreat': 6, 'reason_crossing': 6, 'untracked': 2, 'reason_growth_unresolved': 1}), 'approach': Counter({'total': 248, 'detector_queried': 248, 'observed_by_detector': 232, 'detected': 230, 'uncertain': 181, 'reason_aspect': 113, 'reason_growth_unresolved': 53, 'threat': 51, 'reason_bearing_growth': 51, 'untracked': 16, 'reason_history': 11, 'reason_confirm_warning': 2, 'reason_overlap': 1, 'reason_association': 1})}
+Finished M8 edge 0 runs 8
+Running M8
+M8 {'other': Counter({'total': 35, 'detector_queried': 35, 'detected': 35, 'observed_by_detector': 33, 'uncertain': 27, 'reason_overlap': 12, 'reason_history': 8, 'reason_confirm_non_threat': 6, 'nonthreat': 6, 'reason_crossing': 6, 'untracked': 2, 'reason_growth_unresolved': 1}), 'approach': Counter({'total': 248, 'detector_queried': 248, 'observed_by_detector': 232, 'detected': 230, 'uncertain': 180, 'reason_aspect': 113, 'reason_growth_unresolved': 53, 'threat': 52, 'reason_bearing_growth': 52, 'untracked': 16, 'reason_history': 11, 'reason_confirm_warning': 2, 'reason_overlap': 1})}
+Finished M8 edge 2 runs 8
+Running S1
+S1 {'approach': Counter({'total': 211, 'detector_queried': 211, 'untracked': 145, 'detected': 68, 'observed_by_detector': 66, 'threat': 40, 'reason_bearing_growth': 40, 'uncertain': 26, 'reason_growth_unresolved': 9, 'reason_history': 7, 'reason_overlap': 6, 'reason_confirm_warning': 2, 'reason_association': 2})}
+Finished S1 edge 0 runs 9
+Running S1
+S1 {'approach': Counter({'total': 211, 'detector_queried': 211, 'untracked': 145, 'detected': 68, 'observed_by_detector': 66, 'threat': 42, 'reason_bearing_growth': 42, 'uncertain': 24, 'reason_growth_unresolved': 9, 'reason_history': 7, 'reason_overlap': 6, 'reason_confirm_warning': 2})}
+Finished S1 edge 2 runs 9
+Running S2
+S2 {'approach': Counter({'total': 390, 'detector_queried': 390, 'untracked': 323, 'detected': 69, 'observed_by_detector': 67, 'threat': 47, 'reason_bearing_growth': 47, 'uncertain': 20, 'reason_history': 10, 'reason_overlap': 4, 'reason_confirm_warning': 4, 'reason_association': 2})}
+Finished S2 edge 0 runs 10
+Running S2
+S2 {'approach': Counter({'total': 390, 'detector_queried': 390, 'untracked': 322, 'detected': 69, 'observed_by_detector': 68, 'threat': 50, 'reason_bearing_growth': 50, 'uncertain': 18, 'reason_history': 10, 'reason_overlap': 4, 'reason_confirm_warning': 4})}
+Finished S2 edge 2 runs 10
+Running S3
+S3 {'approach': Counter({'total': 369, 'detector_queried': 369, 'untracked': 259, 'detected': 114, 'observed_by_detector': 110, 'threat': 68, 'reason_bearing_growth': 68, 'uncertain': 42, 'reason_overlap': 29, 'reason_history': 10, 'reason_confirm_warning': 2, 'reason_association': 1})}
+Finished S3 edge 0 runs 11
+Running S3
+S3 {'approach': Counter({'total': 369, 'detector_queried': 369, 'untracked': 259, 'detected': 114, 'observed_by_detector': 110, 'threat': 69, 'reason_bearing_growth': 69, 'uncertain': 41, 'reason_overlap': 29, 'reason_history': 10, 'reason_confirm_warning': 2})}
+Finished S3 edge 2 runs 11
+Running S4
+S4 {'approach': Counter({'total': 238, 'detector_queried': 238, 'observed_by_detector': 221, 'detected': 220, 'uncertain': 168, 'reason_aspect': 104, 'threat': 53, 'reason_bearing_growth': 53, 'reason_growth_unresolved': 41, 'reason_history': 18, 'untracked': 17, 'reason_shrink_ambiguous': 3, 'reason_confirm_warning': 2})}
+Finished S4 edge 0 runs 12
+Running S4
+S4 {'approach': Counter({'total': 238, 'detector_queried': 238, 'observed_by_detector': 221, 'detected': 220, 'uncertain': 168, 'reason_aspect': 104, 'threat': 53, 'reason_bearing_growth': 53, 'reason_growth_unresolved': 41, 'reason_history': 18, 'untracked': 17, 'reason_shrink_ambiguous': 3, 'reason_confirm_warning': 2})}
+Finished S4 edge 2 runs 12
+Running S5
+S5 {'approach': Counter({'total': 226, 'detector_queried': 226, 'detected': 209, 'observed_by_detector': 205, 'uncertain': 149, 'reason_aspect': 75, 'threat': 56, 'reason_bearing_growth': 56, 'reason_growth_unresolved': 29, 'reason_association': 27, 'untracked': 21, 'reason_overlap': 14, 'reason_history': 2, 'reason_confirm_warning': 2})}
+Finished S5 edge 0 runs 13
+Running S5
+S5 {'approach': Counter({'total': 226, 'detector_queried': 226, 'detected': 209, 'observed_by_detector': 205, 'uncertain': 149, 'reason_aspect': 75, 'threat': 56, 'reason_bearing_growth': 56, 'reason_growth_unresolved': 29, 'reason_association': 27, 'untracked': 21, 'reason_overlap': 14, 'reason_history': 2, 'reason_confirm_warning': 2})}
+Finished S5 edge 2 runs 13
+Running S6
+S6 {'approach': Counter({'total': 221, 'detector_queried': 221, 'detected': 206, 'observed_by_detector': 204, 'uncertain': 156, 'reason_aspect': 71, 'reason_association': 57, 'threat': 48, 'reason_bearing_growth': 48, 'untracked': 17, 'reason_overlap': 12, 'reason_growth_unresolved': 9, 'reason_confirm_warning': 5, 'reason_history': 2})}
+Finished S6 edge 0 runs 14
+Running S6
+S6 {'approach': Counter({'total': 221, 'detector_queried': 221, 'detected': 206, 'observed_by_detector': 204, 'uncertain': 156, 'reason_aspect': 99, 'threat': 48, 'reason_bearing_growth': 48, 'reason_association': 31, 'untracked': 17, 'reason_overlap': 12, 'reason_growth_unresolved': 9, 'reason_confirm_warning': 5})}
+Finished S6 edge 2 runs 14
+Running S7
+S7 {'approach': Counter({'total': 248, 'detector_queried': 248, 'observed_by_detector': 229, 'detected': 225, 'uncertain': 182, 'reason_aspect': 103, 'threat': 47, 'reason_bearing_growth': 47, 'reason_association': 32, 'untracked': 19, 'reason_history': 17, 'reason_growth_unresolved': 14, 'reason_overlap': 11, 'reason_confirm_warning': 5})}
+Finished S7 edge 0 runs 15
+Running S7
+S7 {'approach': Counter({'total': 248, 'detector_queried': 248, 'observed_by_detector': 229, 'detected': 225, 'uncertain': 182, 'reason_aspect': 120, 'threat': 47, 'reason_bearing_growth': 47, 'untracked': 19, 'reason_history': 17, 'reason_association': 15, 'reason_growth_unresolved': 14, 'reason_overlap': 11, 'reason_confirm_warning': 5})}
+Finished S7 edge 2 runs 15

@@ -1,0 +1,20 @@
+{
+  "input_sha256": "6802fe1a267b8a7587904ac6c10860def9999890566cf90882b67a1ba9e877e3",
+  "mask_sha256": "f33930f23d2d353e6bad89ddcb12df030ece0f2de69720772501347d6522bdd7",
+  "frames": 875,
+  "fps": 25.0,
+  "checkpoint_sha256": "86bc739f7b6d700cc1ad7ef00bf1d27c22ec3644ce05f5e6764aa357f914a85d",
+  "segmentation_command": [
+    "C:\\Users\\kisel\\PycharmProjects\\SkySegDINO\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\kisel\\PycharmProjects\\SkySegDINO\\segdino_v2\\infer_video.py",
+    "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\data\\qut\\S2.mp4",
+    "--output",
+    "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\S2_sky_final\\sky_overlay.mp4",
+    "--batch-size",
+    "4",
+    "--keep-mask",
+    "--output-width",
+    "1280"
+  ],
+  "alignment": "CFR frame index, source PTS checked before segmentation"
+}

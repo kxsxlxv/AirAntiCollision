@@ -1,0 +1,7 @@
+{
+  "frames": 438,
+  "exact_parsed_trace_mismatch_frames": [],
+  "source": "Actual previous neural observations, current risk code",
+  "reference": "Fresh actual current neural M2 inference",
+  "detector_observation_hash_equal": true
+}

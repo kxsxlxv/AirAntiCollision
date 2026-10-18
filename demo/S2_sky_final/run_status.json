@@ -1,0 +1,15 @@
+{
+  "args": {
+    "video": "data/qut/S2.mp4",
+    "output": "demo\\S2_sky_final",
+    "camera": "fixed",
+    "stride": 2,
+    "sky_project": "../SkySegDINO",
+    "encoder": "h264_nvenc",
+    "render_process": true
+  },
+  "state": "complete",
+  "started_utc": "2026-10-18T01:31:48.627451+00:00",
+  "updated_utc": "2026-10-18T01:32:37.416241+00:00",
+  "cleanup_errors": []
+}

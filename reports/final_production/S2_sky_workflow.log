@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-10-18T01:31:48.627451+00:00",
+  "kind": "complete offline two-pass workflow, no GT",
+  "video": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\data\\qut\\S2.mp4",
+  "input_sha256": "6802fe1a267b8a7587904ac6c10860def9999890566cf90882b67a1ba9e877e3",
+  "output": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\S2_sky_final\\assessment\\annotated.mp4",
+  "frames": 438,
+  "total_wall_s": 48.788636499999484,
+  "processed_frames_per_total_wall_s": 8.97750032428155,
+  "segmentation_load_infer_and_export_s": 15.492298400000436,
+  "assessment_load_infer_render_and_export_s": 31.0242204999995,
+  "assessment_processing_fps": 15.949221640113212,
+  "sky_checkpoint_sha256": "86bc739f7b6d700cc1ad7ef00bf1d27c22ec3644ce05f5e6764aa357f914a85d",
+  "caveat": "includes CFR preflight, hashing, both process startups and model/render/export work; batch4 offline, no streaming-latency claim"
+}

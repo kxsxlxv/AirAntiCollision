@@ -1,0 +1,14 @@
+Replay provenance: No run benchmark beside cache; only frame/time consistency checked
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\kisel\PycharmProjects\AirAntiCollision\airavoid\__main__.py", line 2, in <module>
+    main()
+  File "C:\Users\kisel\PycharmProjects\AirAntiCollision\airavoid\cli.py", line 240, in main
+    with RunSession(a.output,{'args':vars(a)}) as session:execute(a,session)
+                                                          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kisel\PycharmProjects\AirAntiCollision\airavoid\cli.py", line 154, in execute
+    validate_cache_entry(entry,idx,t)
+  File "C:\Users\kisel\PycharmProjects\AirAntiCollision\airavoid\provenance.py", line 32, in validate_cache_entry
+    raise ValueError(f'Detection cache source timestamp differs at frame {index}')
+ValueError: Detection cache source timestamp differs at frame 2

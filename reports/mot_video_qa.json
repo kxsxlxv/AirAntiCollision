@@ -1,0 +1,55 @@
+{
+  "complete": true,
+  "runs": [
+    {
+      "sequence": "sw02",
+      "frames": 156,
+      "codec": "h264",
+      "width": 1920,
+      "height": 808,
+      "expected_duration": 5.2,
+      "container_duration": 5.2,
+      "max_pts_error": 0.0
+    },
+    {
+      "sequence": "sw06",
+      "frames": 76,
+      "codec": "h264",
+      "width": 1920,
+      "height": 808,
+      "expected_duration": 2.533333333333333,
+      "container_duration": 2.533333,
+      "max_pts_error": 0.0
+    },
+    {
+      "sequence": "sw28",
+      "frames": 131,
+      "codec": "h264",
+      "width": 1920,
+      "height": 808,
+      "expected_duration": 4.366666666666666,
+      "container_duration": 4.366667,
+      "max_pts_error": 0.0
+    },
+    {
+      "sequence": "M2",
+      "frames": 875,
+      "codec": "h264",
+      "width": 1920,
+      "height": 808,
+      "expected_duration": 34.999999999999986,
+      "container_duration": 35.0,
+      "max_pts_error": 1.4210854715202004e-14
+    },
+    {
+      "sequence": "formation",
+      "frames": 300,
+      "codec": "h264",
+      "width": 1920,
+      "height": 808,
+      "expected_duration": 20.020000000000003,
+      "container_duration": 20.02,
+      "max_pts_error": 3.552713678800501e-15
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+[
+  {
+    "name": "M1",
+    "output": "demo\\M1_final",
+    "frames": 438,
+    "processing_fps": 24.24087660986965,
+    "whole_run_fps": 20.989837209626373,
+    "states": {
+      "uncertain": 809,
+      "threat": 130
+    }
+  },
+  {
+    "name": "M2",
+    "output": "demo\\M2_final",
+    "frames": 438,
+    "processing_fps": 21.805145545387354,
+    "whole_run_fps": 19.32940375969521,
+    "states": {
+      "uncertain": 992,
+      "nonthreat": 81,
+      "threat": 165
+    }
+  },
+  {
+    "name": "S2",
+    "output": "demo\\S2_final",
+    "frames": 438,
+    "processing_fps": 25.20079756727017,
+    "whole_run_fps": 21.98588544303727,
+    "states": {
+      "uncertain": 292,
+      "threat": 140
+    }
+  },
+  {
+    "name": "formation",
+    "output": "demo\\formation_final",
+    "frames": 300,
+    "processing_fps": 11.993595180301215,
+    "whole_run_fps": 10.793075473616447,
+    "states": {
+      "uncertain": 1309
+    }
+  },
+  {
+    "name": "helicopter",
+    "output": "demo\\helicopter_final",
+    "frames": 210,
+    "processing_fps": 27.7049237230016,
+    "whole_run_fps": 20.768958011188314,
+    "states": {
+      "uncertain": 293
+    }
+  },
+  {
+    "name": "M2_repeat2",
+    "output": "artifacts\\final_benchmark\\M2_repeat2",
+    "frames": 438,
+    "processing_fps": 22.698188376742465,
+    "whole_run_fps": 20.056811881280776,
+    "states": {
+      "uncertain": 992,
+      "nonthreat": 81,
+      "threat": 165
+    }
+  },
+  {
+    "name": "M2_repeat3",
+    "output": "artifacts\\final_benchmark\\M2_repeat3",
+    "frames": 438,
+    "processing_fps": 23.433064795937405,
+    "whole_run_fps": 20.462624432495318,
+    "states": {
+      "uncertain": 992,
+      "nonthreat": 81,
+      "threat": 165
+    }
+  },
+  {
+    "name": "S2_all_region",
+    "output": "artifacts\\sky_control\\S2_all_region",
+    "frames": 438,
+    "processing_fps": 18.544674648353077,
+    "whole_run_fps": 16.97412589423165,
+    "states": {
+      "uncertain": 455,
+      "threat": 151
+    }
+  }
+]

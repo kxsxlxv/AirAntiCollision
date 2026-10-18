@@ -1,0 +1,66 @@
+{
+  "kind": "Geometry-only fixed-camera reassessment of cached observations, not neural/decode/render throughput",
+  "source_run": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\pre_clip_history\\M2_final",
+  "source_benchmark_sha256": "c23bf4c24da2d3a6f18d7ef662eb6fa3f9feeb6f3b99dd2cf4676bb6e84af053",
+  "geometry": "log",
+  "source_observation_sha256": "98797a25a5a818dae1b84490f812d847ba63bead8f601d50c27a60818331404e",
+  "input_sha256": "9c44cecd3d818089f3d2b22c3f71bd139e5e720eae1935c664cc65a891ae0bb7",
+  "source_fps": 25.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "frames": 438,
+  "config": {
+    "window": 4.0,
+    "min_span": 6.0,
+    "min_history": 2.0,
+    "min_samples": 10,
+    "threat_miss": 2.0,
+    "nonthreat_miss": 5.0,
+    "horizon": 60.0,
+    "max_log_residual": 0.16,
+    "growth_floor": 0.008,
+    "allow_recession_clearance": false,
+    "correlation_seconds": 1.0,
+    "bounded_pixel_error": 2.0,
+    "bounded_span_fraction": 0.1
+  },
+  "image_edge_margin": 1.0,
+  "policy_parameters": {
+    "warning_seconds": 0.24,
+    "nonthreat_seconds": 1.2
+  },
+  "states_track_frames": {
+    "uncertain": 992,
+    "nonthreat": 81,
+    "threat": 165
+  },
+  "reassessment_s": 0.6294244000018807,
+  "source_decision_verification_requested": false,
+  "source_decision_mismatch_frames": 0,
+  "source_max_numeric_difference": 0.0,
+  "first_mismatches": [],
+  "no_gt_used": true,
+  "source_hashes": {
+    "appearance.py": "7536007347fc20a6a6d8baf38dff430a23f2c1eb981899a0893d2e61830dc096",
+    "bounded.py": "65320f1874b2a533b18e929c812c18164ae482d8efcdafb235447ef1c424d9be",
+    "calibrated.py": "fa0ea19e1e28b67aa12fea8e269b601d156885b01059fff0a6505916a2599286",
+    "cli.py": "85aeaf92bfd2f59cae2cb0bbfb5195d336064ed1390a7d2bc0af8d075363f917",
+    "detector.py": "4d21919cb6837c980f453e8c01335a7a2f169b2607dcba4bde0a2e1c9b395e55",
+    "export.py": "600f509303df5a800b28d820389ea2e172febd83ffe23ead597744eb318b841b",
+    "geometry.py": "2778777bedf6987f3ec7bd6ed81e8a062cbef37d1cade49d19e3e78d4ad8a8ff",
+    "gpu.py": "59dad3aeaeecee710f13ae9189bdf0e08576b108975d4ba2907fab909cd82482",
+    "lifecycle.py": "c0a533f11a0be6cbacded2a00de4e8433f4037b586a15987566ee7ddca57484d",
+    "media.py": "93be5a3f417378a72901c744a59db9aecd14fdb54e23c52ef5228c3e8736beea",
+    "policy.py": "c57bc3ff5b7e0077fbb9b1a1060140666749c099c1d68f326988cbf794583d60",
+    "process_export.py": "601cc7ea262e39cf8e176ba7ca23052ad901e64262bf1970ab99751c3319d1e0",
+    "projective.py": "35366a5eaa4ed55089724c6c84e0f394558c93aa7b62ee491ec5e2790290343d",
+    "proposals.py": "b927b558c6fc1757c5fddbac86d768095b075ecfbbd79c347941ffdf1639c3cc",
+    "provenance.py": "922f2495bd399ede8c9cb005b07541581993bed29126689c44486e3ba1b0f529",
+    "render.py": "d20e0ff522da82901a29453f64472d654128a8ae29c3cf744074fe2def220f36",
+    "tracking.py": "10772b04432c0a8202ed66155b0744d4476ba13d9adce54a188b636042d362ad",
+    "__init__.py": "4c2fe2d65d95a24fa3f28ace4a87f32fe8717d7eba6b67e9a97636e1270d8a50",
+    "__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3"
+  }
+}

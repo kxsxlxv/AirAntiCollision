@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-10-18T02:23:16.553966+00:00",
+  "python": "3.12.13",
+  "cv2": "5.0.0",
+  "cv2_path": "C:\\Data\\DEV\\Libs\\opencv_cuda_5\\install\\python\\cv2\\__init__.py",
+  "cuda_devices": 1,
+  "build_sha256": "dd6e1b85555ec33abd19e4423533298e34821d3491648d89fc1941c45aafc643",
+  "torch": "2.12.0+cu130",
+  "tensorrt": "11.4.0.106",
+  "av": "18.1.0",
+  "gpu": "NVIDIA GeForce RTX 4060",
+  "cuda_opencv_upload_download_exact": true,
+  "same_initial_cv2_version": true,
+  "same_initial_import_path": true,
+  "same_initial_build": true,
+  "same_initial_cuda_count": true
+}

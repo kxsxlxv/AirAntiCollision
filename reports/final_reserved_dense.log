@@ -1,0 +1,4 @@
+Running S6
+S6 {'approach': Counter({'total': 438, 'detector_queried': 438, 'detected': 431, 'observed_by_detector': 430, 'uncertain': 314, 'reason_association': 161, 'threat': 116, 'reason_bearing_growth': 116, 'reason_aspect': 97, 'reason_history': 23, 'reason_overlap': 18, 'reason_confirm_warning': 9, 'untracked': 8, 'reason_growth_unresolved': 6})}
+Running S7
+S7 {'approach': Counter({'total': 438, 'detector_queried': 438, 'detected': 421, 'observed_by_detector': 419, 'uncertain': 291, 'reason_aspect': 199, 'threat': 128, 'reason_bearing_growth': 128, 'reason_association': 41, 'reason_history': 23, 'reason_overlap': 21, 'untracked': 19, 'reason_confirm_warning': 7})}
