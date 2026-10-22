@@ -1,0 +1,13 @@
+{
+  "mission": "Stage 2 collision-threat research",
+  "authorized_on": "2026-10-22",
+  "meter": "codex.primary.usedPercent",
+  "window_minutes": 10080,
+  "baseline_used_percent": 45,
+  "stop_at_used_percent": 75,
+  "maximum_increase_percentage_points": 30,
+  "baseline_resets_at_unix": 1793083556,
+  "scope": "account-wide; concurrent usage cannot be attributed to this agent",
+  "checkpoints": [{"name": "mission_start", "used_percent": 45}],
+  "status": "in_progress"
+}

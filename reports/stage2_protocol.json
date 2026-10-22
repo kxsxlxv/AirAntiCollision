@@ -1,0 +1,63 @@
+{
+  "schema": "stage2-protocol-v1",
+  "frozen_before_inference": true,
+  "created_utc": "2026-10-22T14:25:25.908383+00:00",
+  "development": [
+    "Clip_001",
+    "Clip_008",
+    "Clip_032"
+  ],
+  "evaluation": [
+    "Clip_020",
+    "Clip_034",
+    "Clip_043"
+  ],
+  "annotation_revision": "nps-user-verified-train-v2",
+  "audit_sha256": "e86af684e7fbcd07e43caa03d30e1c968d2c0d1c9e6c96061a1753223280d26f",
+  "detector_A_conf": 0.03,
+  "detector_B_conf": 0.03,
+  "detector_B_conf_is_not_calibrated_to_A": true,
+  "threshold_selection": "A frozen prior baseline; B predeclared .03 with dev-only sensitivity before evaluation",
+  "NPS_strides": [
+    1,
+    2,
+    5
+  ],
+  "QUT_strides": [
+    1,
+    2,
+    5
+  ],
+  "IoU_thresholds": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "trackers": [
+    "custom",
+    "tracktrack",
+    "putr"
+  ],
+  "methods": [
+    "bauer_disc",
+    "lai_lin",
+    "airtrack_cues",
+    "wcv_taumod",
+    "log",
+    "projective",
+    "bounded",
+    "calibrated",
+    "growth"
+  ],
+  "GT_normal_inference_access": false,
+  "P2_input": [
+    1,
+    3,
+    800,
+    1440
+  ],
+  "P2_taxonomy": [
+    "fixed-wing UAV (user supplied semantics; exported label item)"
+  ],
+  "real_physical_collision_truth": false
+}
