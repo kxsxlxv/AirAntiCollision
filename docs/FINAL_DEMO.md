@@ -1,5 +1,35 @@
 # Final live showcase
 
+## NPS approximate-range preset (user-confirmed camera and size)
+
+The user subsequently confirmed **GoPro HERO3 Ultra Wide** and an aircraft size
+of **1.5 m** for the NPS clips, and authorized a rough demonstration estimate.
+The opt-in `--nps-range-demo` treats 1.5 m as transverse wingspan and uses a
+deliberately approximate **120° horizontal FOV**, not a quoted diagonal angle or
+verified calibration. An equidistant fisheye ray mapping accounts approximately
+for position in the frame; range is `1.5 / (2*tan(angular_extent/2))`. The longer
+measured bbox axis is the projected-span proxy. A causal 0.4 s median reduces
+jitter. The UI rounds to 5 m above 20 m and explicitly displays **≈ / оценка**.
+Foreshortening, aircraft aspect, bbox errors and lens mismatch can substantially
+bias the estimate; no error bound or physical collision state is inferred.
+
+```powershell
+.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_32.mov" --demo-showcase --nps-range-demo --detector-variant B --camera auto --encoder h264_nvenc --async-render --output demo/nps_range_showcase
+.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_43.mov" --demo-showcase --nps-range-demo --detector-variant B --camera auto --encoder h264_nvenc --async-render --output demo/nps_range_contrast
+```
+
+This flag explicitly declares NPS footage. It is not used for the QUT example or
+enabled by default. The camera model and 1.5 m size are user inputs; 120° is a
+rounded visualization assumption. Overrides are `--nps-target-span-m` and
+`--nps-hfov-deg`. Range is computed only from fresh, unclipped, unambiguous
+detector extents and is retained in JSON as `range_approx_m`, `range_display_m`,
+and the `range_preset` contract. It never enters tracking, encounter assessment,
+the separation direction, or the research calibration API. The earlier no-range
+exports and their evidence below remain historical results.
+
+Updated local exports: [NPS primary with approximate range](C:/Users/kisel/PycharmProjects/AirAntiCollision/demo/nps_range_showcase/annotated.mp4)
+and [NPS contrast with approximate range](C:/Users/kisel/PycharmProjects/AirAntiCollision/demo/nps_range_contrast/annotated.mp4).
+
 The final showcase is a whole recorded NPS moving-camera clip processed by the supplied fixed-wing YOLO26m-P2 detector, the existing predicted-ID tracker, and an opt-in image-plane encounter cue. It is an offline RGB demonstration. Its cue and arrow do not establish physical collision probability, metric CPA, or a safe aircraft maneuver.
 
 Core implementation commit: [`5b4cbd7387a9e981a4dfaa1b0f9ee54925058056`](https://github.com/kxsxlxv/AirAntiCollision/commit/5b4cbd7387a9e981a4dfaa1b0f9ee54925058056). Review: [PR #3](https://github.com/kxsxlxv/AirAntiCollision/pull/3).

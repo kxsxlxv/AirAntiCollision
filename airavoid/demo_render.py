@@ -176,6 +176,7 @@ class DemoRenderer:
                 for yy,dy in [(bounds[1],1),(bounds[3],-1)]:
                     draw.line(((xx,yy+dy*corner),(xx,yy),(xx+dx*corner,yy)),fill=color,width=stroke)
             label=f"ЦЕЛЬ #{target['id']}" if chosen else f"#{target['id']}"
+            if target.get('range_display_m') is not None:label+=f" · ≈{target['range_display_m']:.0f} м"
             font=self.fonts[(17,True)];tw=draw.textlength(label,font=font)+22
             xx=max(vx+3,min(bounds[0],vx+vw-tw-3));yy=max(vy+3,bounds[1]-34)
             if any(abs(xx-a0)<tw and abs(yy-b0)<30 for a0,b0 in labels):yy=min(vy+vh-30,bounds[3]+8)
@@ -235,6 +236,9 @@ class DemoRenderer:
         rows=[('Видимый размер',self._number(growth,1,True,' %/с')),
               ('Дрейф / размер',self._number(values.get('drift_normalized_per_s'),2,False,' /с')),
               ('Окно измерений',self._number(values.get('window_s'),1,False,' с'))]
+        if demo.get('range_preset'):
+            range_m=values.get('range_display_m')
+            rows[-1]=('Дальность, оценка','—' if range_m is None else f'≈ {range_m:.0f} м')
         for index,(label,value) in enumerate(rows):
             y=546+index*42;self._text(canvas,1542,y,label,16,MUTED)
             font=self.fonts[(20,True)];self._text(canvas,1874-draw.textlength(value,font=font),y-3,value,20,WHITE,True)
@@ -251,7 +255,9 @@ class DemoRenderer:
         self._text(canvas,86,992,'измеренная траектория',15,MUTED)
         for x in [379,394,409]:draw.line((x,1004,x+7,1004),fill=WHITE,width=2)
         self._text(canvas,432,992,'локальная проекция на 0,5 с',15,MUTED)
-        self._text(canvas,1380,992,'RGB · ДАЛЬНОСТЬ НЕИЗВЕСТНА',13,MUTED)
+        preset=demo.get('range_preset')
+        range_caption=(f"NPS · размах {preset['aircraft_span_m']:g} м · FOV ≈{preset['horizontal_fov_deg_assumed']:g}°" if preset else 'RGB · ДАЛЬНОСТЬ НЕИЗВЕСТНА')
+        self._text(canvas,1380,992,range_caption,13,MUTED)
         draw.rectangle((0,1022,1920,1080),fill=(13,29,39))
         self._text(canvas,26,1035,'Иллюстрация разделения в кадре — не руководство полётом',21,WHITE,True)
         self._text(canvas,1504,1039,'НАБЛЮДЕНИЕ  /  RGB',14,CYAN,True)

@@ -34,6 +34,9 @@ def parse_args(argv=None):
     p.add_argument('--detector-variant',choices=['A','B'],default='A',help='A: supplied five-class 416x704 detector (default); B: supplied fixed-wing-only P2 800x1440 export')
     p.add_argument('--assessment',choices=METHODS,help='Explicit Stage 2 research comparator; default preserves the existing --geometry backend')
     p.add_argument('--demo-showcase',action='store_true',help='Opt-in early image-space encounter cues and 1920x1080 concept presentation; not flight guidance')
+    p.add_argument('--nps-range-demo',action='store_true',help='Declare NPS footage and show approximate size/FOV-based range, for demonstration only')
+    p.add_argument('--nps-target-span-m',type=float,default=1.5,help='Assumed transverse aircraft span for the NPS range illustration')
+    p.add_argument('--nps-hfov-deg',type=float,default=120.,help='Approximate horizontal Ultra Wide FOV for equidistant projection; not calibration')
     p.add_argument('--output',default='demo/run')
     p.add_argument('--profile',choices=['conservative','reference'],default='conservative',help='Measured conservative defaults, or the earlier reference settings')
     p.add_argument('--conf',type=float,help='Raw detector threshold (conservative .03, reference .18); not a probability')
@@ -85,6 +88,10 @@ def parse_args(argv=None):
     if a.assessment and a.geometry!='log':p.error('--assessment and nondefault --geometry are separate backends; choose one')
     if a.demo_showcase and (a.assessment or a.geometry!='log' or a.render_process):
         p.error('--demo-showcase is a separate presentation mode; use default geometry and serial/--async-render export')
+    if a.nps_range_demo:
+        if not a.demo_showcase:p.error('--nps-range-demo requires --demo-showcase and user-declared NPS footage')
+        if not np.isfinite(a.nps_target_span_m) or a.nps_target_span_m<=0 or not np.isfinite(a.nps_hfov_deg) or not 1<a.nps_hfov_deg<179:
+            p.error('NPS range requires positive span and horizontal FOV between 1 and 179 degrees')
     conservative=a.profile=='conservative'
     for key,value in {'conf':.03 if conservative else .18,'tiled':conservative,
                       'tile_edge_margin':2. if conservative else 0.,'image_edge_margin':1. if conservative else 0.,
@@ -183,11 +190,14 @@ def execute(a,session):
     elif a.geometry=='calibrated':
         estimator=CalibratedCPAEstimator(calibration,config)
     else:estimator={'log':ThreatEstimator,'projective':ProjectiveEstimator,'bounded':BoundedProjectiveEstimator}[a.geometry](config)
-    demo_cue=None
+    demo_cue=None;demo_range=None
     renderer_type=Renderer
     if a.demo_showcase:
         from .demo_cue import DemoEncounterCue
         demo_cue=DemoEncounterCue()
+        if a.nps_range_demo:
+            from .demo_range import NPSRangeDemo
+            demo_range=NPSRangeDemo(a.nps_target_span_m,a.nps_hfov_deg)
         if not a.no_render:
             from .demo_render import DemoRenderer
             renderer_type=DemoRenderer
@@ -299,6 +309,7 @@ def execute(a,session):
             advice=advisory(objects,image_width=frame.shape[1])
             if demo_cue:
                 advice['demo']=demo_cue.update(objects,t,cam,(frame.shape[1],frame.shape[0]))
+                if demo_range:demo_range.update(advice['demo'],objects,t,(frame.shape[1],frame.shape[0]))
                 demo_counts.update(target['state'] for target in advice['demo']['targets'])
             stages['threat_ms'].append((time.perf_counter()-tick)*1000)
             if exporter:exporter.submit(frame,objects,t,cam,advice,preview=processed==0 or processed==min(150,source_frames//2))
@@ -333,6 +344,7 @@ def execute(a,session):
             'presentation_states_track_frames':dict(demo_counts),'configuration':getattr(demo_cue,'contract',None),
             'image_coordinate_contract':'original source pixels and normalized image coordinates; no calibrated FOV, range or physical flight guidance',
             'GT_available_to_normal_inference':False,'output_presentation_resolution':[1920,1080]}
+        if demo_range:report['demo_showcase']['approximate_NPS_range']=demo_range.contract
     report['assessment_scope']='Stage 2 explicit research comparator, raw measured detector extents; no verified camera de-rotation' if assessment_runtime else 'Original production geometry baseline'
     report['sample_latency_scope']='Sequential decode since prior sample through assessment, trace and render submission; asynchronous encoder drain excluded from percentiles, included in elapsed_s'
     report['cold_start']={'model_load_and_provenance_s':model_load_s,'warmup_update_ms':warmup_update_ms,
