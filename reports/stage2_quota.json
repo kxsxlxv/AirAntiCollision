@@ -8,6 +8,15 @@
   "maximum_increase_percentage_points": 30,
   "baseline_resets_at_unix": 1793083556,
   "scope": "account-wide; concurrent usage cannot be attributed to this agent",
-  "checkpoints": [{"name": "mission_start", "used_percent": 45}],
+  "checkpoints": [
+    {
+      "name": "mission_start",
+      "used_percent": 45
+    },
+    {
+      "name": "equations_falsification_and_frozen_NPS_inference",
+      "used_percent": 49
+    }
+  ],
   "status": "in_progress"
 }

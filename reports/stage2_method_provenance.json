@@ -1,0 +1,193 @@
+{
+  "source_papers_local_digests": {
+    "bauer2016.pdf": {
+      "sha256": "2f59ab8222b03b75374057807ba40033f1f5f9be251588dd9a368e4452581116",
+      "bytes": 552149
+    },
+    "bauer2019.pdf": {
+      "sha256": "575db41d48d4d7466e0234c28e55a41e2b8a57ac6e4a30c94137ef5c1c3a942b",
+      "bytes": 7019235
+    },
+    "bauer3d.pdf": {
+      "sha256": "a1a27f22d3831b69d6560a886a537479ad2370683246fd23582feff6871764c0",
+      "bytes": 648411
+    },
+    "lai2024.pdf": {
+      "sha256": "9e38331dc084214a5c208c975d44839470844452c733a910fd96feb00585c73b",
+      "bytes": 1334436
+    }
+  },
+  "methods": {
+    "bauer_disc": {
+      "source": [
+        "https://eprints.sztaki.hu/8949/1/Bauer_1168_3096377_ny.pdf",
+        "https://real.mtak.hu/100246/1/Hindawi_2019.pdf"
+      ],
+      "implementation": "Independent horizontal disc-corrected LS, 2016 Eq.8 and 2019 Eq.4/7",
+      "deviations": [
+        "Vertical extension pending inspection of JIRS derivation",
+        "Common 2/5 diameter, 60-second research thresholds, not flight threshold transfer"
+      ],
+      "prerequisites": [
+        "verified focal length and camera axes",
+        "disc-like constant horizontal dimensions",
+        "trajectory-frame compensation"
+      ]
+    },
+    "lai_lin": {
+      "source": [
+        "https://doi.org/10.3390/rs16050756"
+      ],
+      "implementation": "Independent Eq.2\u20136; paper weights .5/.333/.167 and >.5 warning",
+      "deviations": [
+        "detector rectangle area replaces Mask R-CNN silhouette",
+        "undefined zero-motion cosine propagated as interval, not guessed",
+        "shared temporal policy reported separately from published index"
+      ],
+      "prerequisites": [
+        "first measured area anchor",
+        "measured image positions",
+        "no physical CPA semantics"
+      ]
+    },
+    "airtrack_cues": {
+      "source": [
+        "https://arxiv.org/html/2209.12849v3"
+      ],
+      "implementation": "III-E exact pairwise area formula at later sample; 4-second endpoint pair",
+      "deviations": [
+        "no author Kalman acceleration state",
+        "no angular degrees/pixel without calibration",
+        "no collision classifier invented"
+      ],
+      "prerequisites": [
+        "constant projected target shape for depth-plane time interpretation"
+      ]
+    },
+    "wcv_taumod": {
+      "source": [
+        "https://github.com/nasa/daidalus/tree/1c7b58e5525d5cca91cbbf4a8b7337a488243769"
+      ],
+      "implementation": "Independent NASA modified-tau/DCPA and vertical TCOA predicates, exact future event partition",
+      "deviations": [
+        "not full alerting levels or maneuver bands",
+        "analytical test uses explicit 1.5m/35s thresholds, source SI defaults retained in API"
+      ],
+      "prerequisites": [
+        "verified relative metric state",
+        "explicit axes/units",
+        "constant-velocity horizon"
+      ],
+      "normal_NPS_QUT_status": "missing state, uncertain; analytical oracle-state comparator only"
+    },
+    "rv_c3bf": {
+      "source": [
+        "https://arxiv.org/html/2610.21374v1"
+      ],
+      "implementation": "Independent Eq.2/5 calibrated feature-flow regression and Eq.7 nominal horizontal cone",
+      "deviations": [
+        "single-block observer diagnostic, no complete FIFO observer",
+        "no kinematic/statistical certification bound",
+        "point observer, no verified footprint inflation",
+        "no QP/control outputs"
+      ],
+      "prerequisites": [
+        "calibrated de-rotated actual target feature flow",
+        "adequate rank/excitation"
+      ],
+      "normal_NPS_QUT_status": "missing calibration/proprioception/target flow; uncertain; not a full RV-C3BF reproduction"
+    }
+  },
+  "upstream_MOT": {
+    "TrackTrack": {
+      "commit": "ee7f1c5fcbdcac48ed8bfab38d52c0006bf304da",
+      "origin": "https://github.com/kamkyu94/TrackTrack.git",
+      "diff": "",
+      "license": {
+        "id": "MIT",
+        "sha256": "187a2cf58be1a293914903c87381d0521f8f2e5397b699c801c6cb17262a7f18"
+      }
+    },
+    "PuTR": {
+      "commit": "a54cd4b9a0ce500539c798f53b1ff65e3c826d3d",
+      "origin": "https://github.com/chongweiliu/PuTR.git",
+      "diff": "",
+      "license": {
+        "id": "MIT",
+        "sha256": "969219f3d2d35ce11780ab681113288cc2ba7cf9bc2e06da610929588aeaced2"
+      }
+    },
+    "weights": {
+      "dance_sbs_S50.pth": "004beb12f0dd9dcf355bc57f5b8cc66b6904fc6d5599fb41ee9403c4c659ab29",
+      "DiffMOT_DanceTrack.pt": "2eb5f1a61705796f03ee05aaefab13d25ffbb84e7d7e7da0133c133bdbd209f6",
+      "putr_dancetrack.pth": "303a35c12cb4e5d4e89bf4dc8e997f3448220e1768f87874b79c44822714e6c8",
+      "TrackSSM_DanceTrack.pt": "d7889f6b78f02497db7e0f97f4bbcdf3927135eb769af57b398ccd1e1705623d"
+    },
+    "isolated_dependencies": {
+      "beautifulsoup4": "4.15.0",
+      "certifi": "2022.12.7",
+      "charset-normalizer": "2.1.1",
+      "cloudpickle": "3.1.2",
+      "contourpy": "1.4.0",
+      "cycler": "0.12.1",
+      "cython_bbox": "0.1.5",
+      "einops": "0.8.2",
+      "filelock": "3.32.3",
+      "filterpy": "1.4.5",
+      "fonttools": "4.67.0",
+      "fvcore": "0.1.5.post20221221",
+      "gdown": "6.4.2",
+      "idna": "3.4",
+      "iopath": "0.1.9",
+      "kiwisolver": "1.5.1",
+      "lap": "0.5.13",
+      "loguru": "0.7.3",
+      "matplotlib": "3.11.2",
+      "packaging": "24.1",
+      "pillow": "12.3.0",
+      "pyparsing": "3.3.3",
+      "python-dateutil": "2.9.0.post0",
+      "PyYAML": "6.0.3",
+      "requests": "2.28.1",
+      "scipy": "1.18.1",
+      "six": "1.17.0",
+      "soupsieve": "3.0.3",
+      "tabulate": "0.10.0",
+      "termcolor": "3.3.0",
+      "tqdm": "4.66.5",
+      "typing_extensions": "4.16.0",
+      "urllib3": "1.26.13",
+      "yacs": "0.1.8"
+    }
+  },
+  "detectors": {
+    "A_engine": {
+      "path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\yolo26m_local.engine",
+      "sha256": "89e5d441f97a1cc3731340460cfa584a1f401c2d08fad01f17b5aacff1c258d9",
+      "bytes": 166405980
+    },
+    "B_onnx": {
+      "path": "X:\\MODELS\\yolo26m-p2-1440\\best.onnx",
+      "sha256": "263076af9eaebaf17d38a1a604fa46e2ec6cf9754b6c6d92ff1771eb48ace5c5",
+      "bytes": 83395960
+    },
+    "B_local_fp32_engine": {
+      "path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\yolo26m_p2_local_fp32.engine",
+      "sha256": "5ff35d35607de793a5d5173d5892068ddba3503bbdb637de7b12000c04edaa31",
+      "bytes": 530616820
+    }
+  },
+  "detector_B_rebuild": "Provided TensorRT serialization 244 vs runtime 245 incompatible; local FP32 engine built from exact user ONNX in 127.27 seconds. No retraining or model substitution.",
+  "licenses": {
+    "NASA": "NOSA 1.3 reviewed from pinned LICENSES/DAIDALUS-NOSA.pdf; no upstream code vendored",
+    "Lai_paper": "CC BY",
+    "Bauer_2019_paper": "CC BY",
+    "Bauer_2016_manuscript": "IEEE author version; independent equations, no code copying",
+    "YOLO_export_metadata": "AGPL-3.0; model binaries excluded from Git",
+    "ColANet": "No top-level license or inference weights found in pinned recursive tree; reference only"
+  },
+  "no_AOT_data_used": true,
+  "no_simulator_run": true,
+  "no_environment_package_changes": true,
+  "implementation_sha256": "4211570b41bc9929e09c51c48bf0980281787c44ba8f2293858d658e85576a03"
+}

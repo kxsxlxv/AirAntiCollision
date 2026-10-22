@@ -20,3 +20,8 @@ Initial hypotheses, before experiments:
 
 First checkpoint: verify primary equations and annotation/model contracts, freeze
 video-level splits and an executable plan, then commit before estimator redesign.
+
+Equation check: the initial gate note mistakenly described the reference time of
+AirTrack's pairwise formula. An independent Z=20−t unit test gives 16 seconds at
+t=4, proving the published expression is already referenced to the later sample.
+Corrected before any comparative method results; retain this negative check.
