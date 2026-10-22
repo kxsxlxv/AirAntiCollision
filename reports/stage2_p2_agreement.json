@@ -1,0 +1,346 @@
+{
+  "scope": "Numerical functional agreement only; concurrent CPU research tasks; no FPS claim",
+  "onnx_sha256": "263076af9eaebaf17d38a1a604fa46e2ec6cf9754b6c6d92ff1771eb48ace5c5",
+  "engine_sha256": "5ff35d35607de793a5d5173d5892068ddba3503bbdb637de7b12000c04edaa31",
+  "reference_provider": [
+    "CPUExecutionProvider"
+  ],
+  "runtime_provider": [
+    "TensorRT 11.4.0.106"
+  ],
+  "contract": {
+    "variant": "B",
+    "input_shape": [
+      1,
+      3,
+      800,
+      1440
+    ],
+    "output_shape": [
+      1,
+      300,
+      6
+    ],
+    "export_label": "item",
+    "semantic_taxonomy": [
+      "fixed-wing UAV"
+    ],
+    "letterbox": "RGB NCHW /255, linear resize, centred 114 pad, round dimensions",
+    "preprocess": "CPU OpenCV; detector inference on declared backend",
+    "conf": 0.03,
+    "cross_box_nms_iou": 0.45,
+    "tiled": false,
+    "weights_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\yolo26m_p2_local_fp32.engine",
+    "weights_sha256": "5ff35d35607de793a5d5173d5892068ddba3503bbdb637de7b12000c04edaa31",
+    "registered_supplied_export": true,
+    "provenance_manifest_sha256": "65724aee702b7053283abb459ae8589d62c8dee81f6e4010d118e47e2c0327f8",
+    "matching_assets": [
+      "B_local_fp32_engine"
+    ]
+  },
+  "samples": [
+    {
+      "clip": "Clip_032",
+      "frame": 0,
+      "source_pts_s": 0.0,
+      "resolution": [
+        1280,
+        960
+      ],
+      "letterbox_ratio": 0.8333333333333334,
+      "left_pad": 186,
+      "top_pad": 0,
+      "reference_accepted_boxes": 2,
+      "trt_accepted_boxes": 2,
+      "pairs": [
+        {
+          "max_coordinate_error_px": 0.0013427734375,
+          "score_error": 8.650124073028564e-05,
+          "class_equal": true
+        },
+        {
+          "max_coordinate_error_px": 0.00048828125,
+          "score_error": 0.0008156150579452515,
+          "class_equal": true
+        }
+      ],
+      "accepted_counts_equal": true,
+      "top_score_onnx": 0.14664286375045776,
+      "top_score_trt": 0.14655636250972748,
+      "all_accepted_classes_equal": true
+    },
+    {
+      "clip": "Clip_032",
+      "frame": 30,
+      "source_pts_s": 1.0344827586206897,
+      "resolution": [
+        1280,
+        960
+      ],
+      "letterbox_ratio": 0.8333333333333334,
+      "left_pad": 186,
+      "top_pad": 0,
+      "reference_accepted_boxes": 3,
+      "trt_accepted_boxes": 3,
+      "pairs": [
+        {
+          "max_coordinate_error_px": 0.000732421875,
+          "score_error": 0.00020413845777511597,
+          "class_equal": true
+        },
+        {
+          "max_coordinate_error_px": 0.00103759765625,
+          "score_error": 7.160007953643799e-06,
+          "class_equal": true
+        },
+        {
+          "max_coordinate_error_px": 0.000732421875,
+          "score_error": 3.176182508468628e-05,
+          "class_equal": true
+        }
+      ],
+      "accepted_counts_equal": true,
+      "top_score_onnx": 0.1235896646976471,
+      "top_score_trt": 0.12338552623987198,
+      "all_accepted_classes_equal": true
+    },
+    {
+      "clip": "Clip_032",
+      "frame": 60,
+      "source_pts_s": 2.0689655172413794,
+      "resolution": [
+        1280,
+        960
+      ],
+      "letterbox_ratio": 0.8333333333333334,
+      "left_pad": 186,
+      "top_pad": 0,
+      "reference_accepted_boxes": 3,
+      "trt_accepted_boxes": 3,
+      "pairs": [
+        {
+          "max_coordinate_error_px": 0.00054931640625,
+          "score_error": 0.00022834539413452148,
+          "class_equal": true
+        },
+        {
+          "max_coordinate_error_px": 0.000701904296875,
+          "score_error": 0.0006052255630493164,
+          "class_equal": true
+        },
+        {
+          "max_coordinate_error_px": 0.0008544921875,
+          "score_error": 0.0005322694778442383,
+          "class_equal": true
+        }
+      ],
+      "accepted_counts_equal": true,
+      "top_score_onnx": 0.5750311017036438,
+      "top_score_trt": 0.5748027563095093,
+      "all_accepted_classes_equal": true
+    },
+    {
+      "clip": "Clip_032",
+      "frame": 90,
+      "source_pts_s": 3.103448275862069,
+      "resolution": [
+        1280,
+        960
+      ],
+      "letterbox_ratio": 0.8333333333333334,
+      "left_pad": 186,
+      "top_pad": 0,
+      "reference_accepted_boxes": 2,
+      "trt_accepted_boxes": 2,
+      "pairs": [
+        {
+          "max_coordinate_error_px": 0.00048828125,
+          "score_error": 0.00038236379623413086,
+          "class_equal": true
+        },
+        {
+          "max_coordinate_error_px": 0.0003662109375,
+          "score_error": 0.0003288388252258301,
+          "class_equal": true
+        }
+      ],
+      "accepted_counts_equal": true,
+      "top_score_onnx": 0.6679734587669373,
+      "top_score_trt": 0.6683558225631714,
+      "all_accepted_classes_equal": true
+    },
+    {
+      "clip": "Clip_032",
+      "frame": 120,
+      "source_pts_s": 4.137931034482759,
+      "resolution": [
+        1280,
+        960
+      ],
+      "letterbox_ratio": 0.8333333333333334,
+      "left_pad": 186,
+      "top_pad": 0,
+      "reference_accepted_boxes": 2,
+      "trt_accepted_boxes": 2,
+      "pairs": [
+        {
+          "max_coordinate_error_px": 0.00042724609375,
+          "score_error": 7.039308547973633e-05,
+          "class_equal": true
+        },
+        {
+          "max_coordinate_error_px": 0.00042724609375,
+          "score_error": 0.00033736228942871094,
+          "class_equal": true
+        }
+      ],
+      "accepted_counts_equal": true,
+      "top_score_onnx": 0.6539897918701172,
+      "top_score_trt": 0.6540601849555969,
+      "all_accepted_classes_equal": true
+    },
+    {
+      "clip": "Clip_032",
+      "frame": 149,
+      "source_pts_s": 5.137931034482759,
+      "resolution": [
+        1280,
+        960
+      ],
+      "letterbox_ratio": 0.8333333333333334,
+      "left_pad": 186,
+      "top_pad": 0,
+      "reference_accepted_boxes": 2,
+      "trt_accepted_boxes": 2,
+      "pairs": [
+        {
+          "max_coordinate_error_px": 0.00042724609375,
+          "score_error": 0.0001481175422668457,
+          "class_equal": true
+        },
+        {
+          "max_coordinate_error_px": 0.00048828125,
+          "score_error": 5.692243576049805e-05,
+          "class_equal": true
+        }
+      ],
+      "accepted_counts_equal": true,
+      "top_score_onnx": 0.6989330053329468,
+      "top_score_trt": 0.6990811228752136,
+      "all_accepted_classes_equal": true
+    },
+    {
+      "clip": "Clip_001",
+      "frame": 0,
+      "source_pts_s": 0.0,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "letterbox_ratio": 0.7407407407407407,
+      "left_pad": 9,
+      "top_pad": 0,
+      "reference_accepted_boxes": 0,
+      "trt_accepted_boxes": 0,
+      "pairs": [],
+      "accepted_counts_equal": true,
+      "top_score_onnx": 0.0022833943367004395,
+      "top_score_trt": 0.002281216671690345,
+      "all_accepted_classes_equal": true
+    },
+    {
+      "clip": "Clip_001",
+      "frame": 60,
+      "source_pts_s": 2.002002002002002,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "letterbox_ratio": 0.7407407407407407,
+      "left_pad": 9,
+      "top_pad": 0,
+      "reference_accepted_boxes": 1,
+      "trt_accepted_boxes": 1,
+      "pairs": [
+        {
+          "max_coordinate_error_px": 0.0002288818359375,
+          "score_error": 0.00041472911834716797,
+          "class_equal": true
+        }
+      ],
+      "accepted_counts_equal": true,
+      "top_score_onnx": 0.3952983021736145,
+      "top_score_trt": 0.39571303129196167,
+      "all_accepted_classes_equal": true
+    },
+    {
+      "clip": "Clip_001",
+      "frame": 120,
+      "source_pts_s": 4.004004004004004,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "letterbox_ratio": 0.7407407407407407,
+      "left_pad": 9,
+      "top_pad": 0,
+      "reference_accepted_boxes": 2,
+      "trt_accepted_boxes": 2,
+      "pairs": [
+        {
+          "max_coordinate_error_px": 0.000762939453125,
+          "score_error": 0.0002269744873046875,
+          "class_equal": true
+        },
+        {
+          "max_coordinate_error_px": 0.0009765625,
+          "score_error": 4.2729079723358154e-05,
+          "class_equal": true
+        }
+      ],
+      "accepted_counts_equal": true,
+      "top_score_onnx": 0.3351578712463379,
+      "top_score_trt": 0.3353848457336426,
+      "all_accepted_classes_equal": true
+    },
+    {
+      "clip": "Clip_001",
+      "frame": 149,
+      "source_pts_s": 4.971638304971639,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "letterbox_ratio": 0.7407407407407407,
+      "left_pad": 9,
+      "top_pad": 0,
+      "reference_accepted_boxes": 2,
+      "trt_accepted_boxes": 2,
+      "pairs": [
+        {
+          "max_coordinate_error_px": 0.00054931640625,
+          "score_error": 0.00013056397438049316,
+          "class_equal": true
+        },
+        {
+          "max_coordinate_error_px": 0.00091552734375,
+          "score_error": 9.022653102874756e-06,
+          "class_equal": true
+        }
+      ],
+      "accepted_counts_equal": true,
+      "top_score_onnx": 0.43918776512145996,
+      "top_score_trt": 0.43931832909584045,
+      "all_accepted_classes_equal": true
+    }
+  ],
+  "summary": {
+    "development_frames": 10,
+    "all_accepted_counts_equal": true,
+    "all_accepted_classes_equal": true,
+    "matched_boxes": 19,
+    "max_coordinate_error_px": 0.0013427734375,
+    "max_score_error": 0.0008156150579452515,
+    "limitation": "Ten development frames do not establish equivalence on all inputs; low-score threshold crossings are reported if observed"
+  }
+}

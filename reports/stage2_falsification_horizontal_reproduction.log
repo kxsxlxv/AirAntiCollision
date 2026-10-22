@@ -1,0 +1,68 @@
+{
+  "kind": "analytical closed-form projections; not recorded flight evidence; no simulator",
+  "cases": 1368,
+  "methods": [
+    "bauer_disc",
+    "lai_lin",
+    "airtrack_cues",
+    "wcv_taumod",
+    "rv_c3bf",
+    "log",
+    "projective",
+    "bounded",
+    "calibrated",
+    "growth"
+  ],
+  "critical_false_safe_count": 1441,
+  "critical_false_safe_by_method": {
+    "bauer_disc": 226,
+    "lai_lin": 564,
+    "log": 147,
+    "projective": 166,
+    "calibrated": 22,
+    "rv_c3bf": 309,
+    "bounded": 7
+  },
+  "error_diagnostics": {
+    "bauer_disc/disc_horizontal_cpa": {
+      "n": 114,
+      "median": 0.0007942563886836895,
+      "max": 0.07328639443399965
+    },
+    "bauer_disc/disc_horizontal_tcpa": {
+      "n": 114,
+      "median": 0.013663167089461581,
+      "max": 0.07337238406279667
+    }
+  },
+  "full_cases": "artifacts/stage2/falsification_horizontal_reproduction/cases.jsonl",
+  "interpretation": "Raw candidates retained; failures are not silently removed by scope. Sensor/state/shape assumptions differ. WCV oracle-state and nominal point-observer cone are separate comparators, not equal-input RGB rankings."
+}
+{
+  "pinned_revision": "e4c56133d714d7513bbca969306892a99ca69d8b",
+  "source_sha256": {
+    "airavoid/assessment.py": "4211570b41bc9929e09c51c48bf0980281787c44ba8f2293858d658e85576a03",
+    "scripts/stage2_falsify.py": "0949f65a440310630390ceadd7b6356d669a3fddbba5608405a41c7ec55ac09d"
+  },
+  "shared_baseline_source_sha256": {
+    "geometry.py": "2778777bedf6987f3ec7bd6ed81e8a062cbef37d1cade49d19e3e78d4ad8a8ff",
+    "projective.py": "35366a5eaa4ed55089724c6c84e0f394558c93aa7b62ee491ec5e2790290343d",
+    "bounded.py": "65320f1874b2a533b18e929c812c18164ae482d8efcdafb235447ef1c424d9be",
+    "calibrated.py": "fa0ea19e1e28b67aa12fea8e269b601d156885b01059fff0a6505916a2599286"
+  },
+  "shared_baselines_verified_equal_to_pinned_sources": true,
+  "original_summary_at_revision": "reports/stage2_falsification.json",
+  "original_summary_sha256": "a129c36b86240533a985749fe66eaa64a0b38fda68a8f98e293db6038bf81736",
+  "preserved_summary_snapshot": "artifacts/stage2/falsification_horizontal_reproduction/original_summary.json",
+  "archived_trace": "artifacts/stage2/falsification_horizontal_reproduction/cases.jsonl",
+  "archived_trace_sha256": "2c3d5e7d5c5a3218eba16e4acd8ff2e9cd86218fd2da67cf3d58633681e1766a",
+  "archived_trace_lines": 1368,
+  "reproduced_summary": "reports/stage2_falsification_horizontal_reproduction.json",
+  "reproduced_summary_sha256": "cfe444339a4bbf53872e395fe2396b240223d49dc369682324b0a0c12f9f0094",
+  "all_checkpoint_metrics_exactly_reproduced": true,
+  "differing_metric_fields": [],
+  "earlier_initial_summary": "reports/stage2_falsification_initial.json",
+  "earlier_initial_summary_scope": "Earlier instantaneous NASA WCV comparator had 210 critical false-safe; its source was not separately committed, so this archive does not claim to reproduce that unpinned implementation.",
+  "reproduce_command": ".venv/Scripts/python.exe scripts/stage2_archive_initial.py",
+  "execution_scope": "Pinned sources evaluated in memory; live assessor and current 3D falsification artifacts untouched; no GPU/network."
+}

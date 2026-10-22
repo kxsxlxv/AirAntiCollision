@@ -121,6 +121,12 @@ def write():
         'supplied_model_assets': provenance['detectors'],
         'source_video_and_annotation_assets': 'reports/stage2_dataset_audit.json, reports/stage2_protocol.json',
         'upstream_sources_and_licenses': 'reports/stage2_method_provenance.json',
+        'historical_report_scope': {
+            'reports/stage2_threat_pilot.json': 'Early pipeline smoke test; superseded by the corrected full matrix, not final comparison evidence',
+            'reports/stage2_runtime_initial.json': 'Archived initial renderer timing; final runtime report uses the corrected renderer',
+            'reports/stage2_falsification_initial.json': 'Earlier instantaneous-WCV summary; source not separately committed; not reproduced as final evidence',
+            'reports/stage2_falsification_horizontal_reproduction.json': 'Exact reproduction of committed e4c5613 horizontal checkpoint; superseded by full-3D final sweep',
+        },
         'excluded_asset_policy': 'Source videos, models, external repositories and bulk traces are local prerequisites, not GitHub-hosted downloads.',
     }
     manifest_path.write_text(json.dumps(manifest, indent=2) + '\n')

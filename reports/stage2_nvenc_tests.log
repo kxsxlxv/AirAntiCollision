@@ -1,0 +1,11 @@
+test_h264_preserves_variable_pts_and_final_duration (test_media.MediaTests.test_h264_preserves_variable_pts_and_final_duration) ... ok
+test_missing_pts_fallback_is_explicit (test_media.MediaTests.test_missing_pts_fallback_is_explicit) ... ok
+test_nonmonotonic_timestamp_rejected (test_media.MediaTests.test_nonmonotonic_timestamp_rejected) ... ok
+test_nonzero_stream_start_normalizes_duration_and_decoded_clock (test_media.MediaTests.test_nonzero_stream_start_normalizes_duration_and_decoded_clock) ... ok
+test_nvenc_preserves_variable_pts_and_duration (test_media.MediaTests.test_nvenc_preserves_variable_pts_and_duration) ... ok
+test_variable_source_intervals_are_not_flattened (test_media.MediaTests.test_variable_source_intervals_are_not_flattened) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.003s
+
+OK

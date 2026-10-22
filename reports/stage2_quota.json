@@ -4,8 +4,8 @@
   "meter": "codex.primary.usedPercent",
   "window_minutes": 10080,
   "baseline_used_percent": 45,
-  "stop_at_used_percent": 75,
-  "maximum_increase_percentage_points": 30,
+  "stop_at_used_percent": null,
+  "maximum_increase_percentage_points": null,
   "baseline_resets_at_unix": 1793083556,
   "scope": "account-wide; concurrent usage cannot be attributed to this agent",
   "checkpoints": [
@@ -16,7 +16,26 @@
     {
       "name": "equations_falsification_and_frozen_NPS_inference",
       "used_percent": 49
+    },
+    {
+      "name": "user_override_deadline_start",
+      "used_percent": 50
+    },
+    {
+      "name": "final_comparisons_and_regressions",
+      "used_percent": 73
     }
   ],
-  "status": "in_progress"
+  "status": "original_cap_revoked_by_user; final_delivery_checkpoint_recorded",
+  "ending_used_percent_observed": 73,
+  "account_wide_delta_from_mission_start_percentage_points": 28,
+  "account_wide_delta_from_one_hour_override_percentage_points": 23,
+  "ending_reading_scope": "Verified before final Git delivery on 2026-10-22; account-wide and not attributable solely to this agent",
+  "user_override": {
+    "at_utc": "2026-10-22T15:30:00Z",
+    "used_percent": 50,
+    "instruction": "Authorize subagents, use remaining allowance, one-hour deadline",
+    "deadline_utc": "2026-10-22T16:30:00Z",
+    "deadline_europe_istanbul": "2026-10-22 19:30"
+  }
 }

@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-22T16:05:25.467950+00:00",
+  "checks": {
+    "runtime_complete_14_conditions": true,
+    "runtime_actual_update_and_decoded_frame_counts": true,
+    "measured_runtime_matches_current_code": true,
+    "render_and_thread_outputs_identical": true,
+    "all_encoded_frames_decoded_and_original_pts_preserved": true,
+    "P2_replay_decisions_identical": true,
+    "pre_Stage2_default_decisions_preserved": true,
+    "original_environment_preserved": true,
+    "116_regression_tests_no_failure": true,
+    "optional_actual_NVENC_test_passed_separately": true,
+    "all_88_NPS_replays_completed": true,
+    "NPS_trace_and_implementation_hashes_match": true,
+    "QUT_complete_18_conditions": true,
+    "QUT_trace_and_implementation_hashes_match": true,
+    "method_provenance_matches_current_implementation": true,
+    "P2_ONNX_TensorRT_functional_agreement": true,
+    "ORB_control_retains_current_replay_and_scoring": true
+  },
+  "all_checks_pass": true,
+  "scope": "Execution/source consistency, not scientific acceptance or flight safety",
+  "scientific_acceptance": "Partial; see docs/STAGE2_RESULTS.md"
+}
