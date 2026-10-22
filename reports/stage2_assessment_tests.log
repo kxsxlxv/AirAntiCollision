@@ -1,0 +1,19 @@
+test_airtrack_pair_time_is_at_current_later_sample (tests.test_stage2_assessment.Stage2AssessmentTests.test_airtrack_pair_time_is_at_current_later_sample) ... ok
+test_bauer_constant_vertical_separation_does_not_divide_by_vertical_speed (tests.test_stage2_assessment.Stage2AssessmentTests.test_bauer_constant_vertical_separation_does_not_divide_by_vertical_speed) ... ok
+test_bauer_unphysical_virtual_disc_horizon_is_not_safe (tests.test_stage2_assessment.Stage2AssessmentTests.test_bauer_unphysical_virtual_disc_horizon_is_not_safe) ... ok
+test_bauer_vertical_velocity_changes_time_and_distance_of_minimum (tests.test_stage2_assessment.Stage2AssessmentTests.test_bauer_vertical_velocity_changes_time_and_distance_of_minimum) ... ok
+test_bauer_virtual_disc_reconstruction_uses_three_axes_without_known_height (tests.test_stage2_assessment.Stage2AssessmentTests.test_bauer_virtual_disc_reconstruction_uses_three_axes_without_known_height) ... ok
+test_calibration_and_metric_state_cannot_be_guessed (tests.test_stage2_assessment.Stage2AssessmentTests.test_calibration_and_metric_state_cannot_be_guessed) ... ok
+test_flow_observer_recovers_direction_and_rejects_single_point (tests.test_stage2_assessment.Stage2AssessmentTests.test_flow_observer_recovers_direction_and_rejects_single_point) ... ok
+test_future_prediction_is_not_an_expansion_measurement (tests.test_stage2_assessment.Stage2AssessmentTests.test_future_prediction_is_not_an_expansion_measurement) ... ok
+test_future_well_clear_is_distinct_from_current_predicate (tests.test_stage2_assessment.Stage2AssessmentTests.test_future_well_clear_is_distinct_from_current_predicate) ... ok
+test_lai_lin_factors_and_zero_motion_interval (tests.test_stage2_assessment.Stage2AssessmentTests.test_lai_lin_factors_and_zero_motion_interval) ... ok
+test_missing_measurement_is_never_safe (tests.test_stage2_assessment.Stage2AssessmentTests.test_missing_measurement_is_never_safe) ... ok
+test_nasa_predicate_distinguishes_crossing_and_vertical_separation (tests.test_stage2_assessment.Stage2AssessmentTests.test_nasa_predicate_distinguishes_crossing_and_vertical_separation) ... ok
+test_p2_letterbox_geometry_and_taxonomy (tests.test_stage2_assessment.Stage2AssessmentTests.test_p2_letterbox_geometry_and_taxonomy) ... ok
+test_scope_keeps_rejected_candidate_for_falsification (tests.test_stage2_assessment.Stage2AssessmentTests.test_scope_keeps_rejected_candidate_for_falsification) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.235s
+
+OK

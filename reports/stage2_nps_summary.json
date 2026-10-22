@@ -1,0 +1,119 @@
+{
+  "detectors": {
+    "A": {
+      "0.25": {
+        "tp": 3365,
+        "gt": 3534,
+        "pred": 17285,
+        "fp": 13920,
+        "fn": 169,
+        "recall": 0.9521788341822298,
+        "precision_wrt_supplied_labels": 0.1946774660109922
+      },
+      "0.5": {
+        "tp": 3167,
+        "gt": 3534,
+        "pred": 17285,
+        "fp": 14118,
+        "fn": 367,
+        "recall": 0.8961516694963214,
+        "precision_wrt_supplied_labels": 0.18322244720856234
+      },
+      "0.75": {
+        "tp": 971,
+        "gt": 3534,
+        "pred": 17285,
+        "fp": 16314,
+        "fn": 2563,
+        "recall": 0.2747594793435201,
+        "precision_wrt_supplied_labels": 0.05617587503615852
+      }
+    },
+    "B": {
+      "0.25": {
+        "tp": 2991,
+        "gt": 3534,
+        "pred": 3418,
+        "fp": 427,
+        "fn": 543,
+        "recall": 0.8463497453310697,
+        "precision_wrt_supplied_labels": 0.8750731421884143
+      },
+      "0.5": {
+        "tp": 2928,
+        "gt": 3534,
+        "pred": 3418,
+        "fp": 490,
+        "fn": 606,
+        "recall": 0.8285229202037352,
+        "precision_wrt_supplied_labels": 0.8566413107080164
+      },
+      "0.75": {
+        "tp": 754,
+        "gt": 3534,
+        "pred": 3418,
+        "fp": 2664,
+        "fn": 2780,
+        "recall": 0.21335597057159025,
+        "precision_wrt_supplied_labels": 0.2205968402574605
+      }
+    }
+  },
+  "MOT": {
+    "A/custom/s1": {
+      "IDF1": 0.25899418800134494,
+      "HOTA": 0.2449727619824685,
+      "AssA": 0.46351977197417193,
+      "IDSW": 77,
+      "Frag": 130,
+      "fresh_box_coverage": 0.8961516694963214,
+      "dominant_ID_coverage": 0.756649688737974
+    },
+    "A/tracktrack/s1": {
+      "IDF1": 0.3700247049135328,
+      "HOTA": 0.3065986922185322,
+      "AssA": 0.4998060311835136,
+      "IDSW": 33,
+      "Frag": 124,
+      "fresh_box_coverage": 0.8471986417657046,
+      "dominant_ID_coverage": 0.7597623089983022
+    },
+    "A/putr/s1": {
+      "IDF1": 0.1937519722309877,
+      "HOTA": 0.15416798904520024,
+      "AssA": 0.1287464130374362,
+      "IDSW": 124,
+      "Frag": 111,
+      "fresh_box_coverage": 0.3638936049801924,
+      "dominant_ID_coverage": 0.17374080362195812
+    },
+    "B/custom/s1": {
+      "IDF1": 0.8259493670886076,
+      "HOTA": 0.5472143752933557,
+      "AssA": 0.5975129132477869,
+      "IDSW": 5,
+      "Frag": 110,
+      "fresh_box_coverage": 0.8285229202037352,
+      "dominant_ID_coverage": 0.8180531975099038
+    },
+    "B/tracktrack/s1": {
+      "IDF1": 0.7760479041916167,
+      "HOTA": 0.5031356566596511,
+      "AssA": 0.517363014074543,
+      "IDSW": 14,
+      "Frag": 82,
+      "fresh_box_coverage": 0.7897566496887379,
+      "dominant_ID_coverage": 0.7461799660441426
+    },
+    "B/putr/s1": {
+      "IDF1": 0.34596006717671207,
+      "HOTA": 0.257133474749118,
+      "AssA": 0.2119020940902456,
+      "IDSW": 106,
+      "Frag": 68,
+      "fresh_box_coverage": 0.47283531409168084,
+      "dominant_ID_coverage": 0.2623089983022071
+    }
+  },
+  "oracle_scope": "matched predicted measurements only for identity oracle; all visible GT boxes for box+ID oracle"
+}

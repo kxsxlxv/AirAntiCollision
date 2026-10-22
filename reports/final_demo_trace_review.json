@@ -1,0 +1,208 @@
+{
+  "source_run": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\final_showcase",
+  "frames": 1023,
+  "frame_states": {
+    "INSUFFICIENT EVIDENCE": 403,
+    "MONITORING": 620
+  },
+  "resolved_direction_episodes": [
+    {
+      "key": [
+        2,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 4.9655172413793105,
+      "end_s": 6.724137931034483,
+      "frames": 52
+    },
+    {
+      "key": [
+        2,
+        [
+          -0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 6.931034482758621,
+      "end_s": 13.931034482758621,
+      "frames": 204
+    },
+    {
+      "key": [
+        2,
+        [
+          -1.0,
+          -0.0
+        ]
+      ],
+      "start_s": 14.137931034482758,
+      "end_s": 14.344827586206897,
+      "frames": 7
+    },
+    {
+      "key": [
+        2,
+        [
+          -0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 14.551724137931034,
+      "end_s": 14.655172413793103,
+      "frames": 4
+    },
+    {
+      "key": [
+        2,
+        [
+          -1.0,
+          -0.0
+        ]
+      ],
+      "start_s": 14.862068965517242,
+      "end_s": 15.482758620689655,
+      "frames": 19
+    },
+    {
+      "key": [
+        7,
+        [
+          -0.70711,
+          0.70711
+        ]
+      ],
+      "start_s": 23.413793103448278,
+      "end_s": 23.75862068965517,
+      "frames": 11
+    },
+    {
+      "key": [
+        7,
+        [
+          -0.70711,
+          0.70711
+        ]
+      ],
+      "start_s": 24.310344827586206,
+      "end_s": 24.482758620689655,
+      "frames": 6
+    },
+    {
+      "key": [
+        7,
+        [
+          -1.0,
+          0.0
+        ]
+      ],
+      "start_s": 25.24137931034483,
+      "end_s": 25.689655172413794,
+      "frames": 14
+    },
+    {
+      "key": [
+        7,
+        [
+          -1.0,
+          -0.0
+        ]
+      ],
+      "start_s": 26.655172413793103,
+      "end_s": 27.482758620689655,
+      "frames": 25
+    },
+    {
+      "key": [
+        7,
+        [
+          -0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 27.689655172413794,
+      "end_s": 28.310344827586206,
+      "frames": 19
+    },
+    {
+      "key": [
+        7,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 28.517241379310345,
+      "end_s": 28.93103448275862,
+      "frames": 13
+    },
+    {
+      "key": [
+        7,
+        [
+          -0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 29.137931034482758,
+      "end_s": 32.724137931034484,
+      "frames": 105
+    },
+    {
+      "key": [
+        7,
+        [
+          -1.0,
+          -0.0
+        ]
+      ],
+      "start_s": 32.93103448275862,
+      "end_s": 33.06896551724138,
+      "frames": 5
+    },
+    {
+      "key": [
+        7,
+        [
+          -0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 33.275862068965516,
+      "end_s": 33.51724137931034,
+      "frames": 8
+    },
+    {
+      "key": [
+        7,
+        [
+          -1.0,
+          -0.0
+        ]
+      ],
+      "start_s": 33.724137931034484,
+      "end_s": 34.10344827586207,
+      "frames": 12
+    },
+    {
+      "key": [
+        7,
+        [
+          -1.0,
+          -0.0
+        ]
+      ],
+      "start_s": 34.172413793103445,
+      "end_s": 35.241379310344826,
+      "frames": 32
+    }
+  ],
+  "resolved_arrow_frames": 536,
+  "priority_changes": 11,
+  "direction_geometry_violations": [],
+  "contact_sheet": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\final_demo_qa\\final_showcase_contact.jpg",
+  "criterion": "For each resolved arrow, moving a normalized image reference along the arrow increases squared distance from the linearly projected target to first order: -2*p dot v > 0.",
+  "scope": "Image-coordinate illustration only; not physical aircraft displacement or flight guidance"
+}

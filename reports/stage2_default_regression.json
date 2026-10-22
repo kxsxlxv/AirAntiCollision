@@ -1,0 +1,29 @@
+{
+  "historical_commit": "6f7a0766f218686011447a07362d71f552e11245",
+  "frames": 150,
+  "same_default_decisions_after_optional_schema_extension": true,
+  "different_frame_indices": [],
+  "ignored_schema_extension": "objects[].class_display=null in Detector A",
+  "current_live_run": "artifacts\\stage2\\live_runtime_final\\Clip_032_A_legacy_log_no_render",
+  "historical_replay_run": "artifacts\\stage2\\default_regression",
+  "command": [
+    "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+    "-m",
+    "airavoid",
+    "X:\\DATASETS\\UAV\\TRACKING\\RGB\\NPS-Drones\\Videos\\Clip_32.mov",
+    "--weights",
+    "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\yolo26m_local.engine",
+    "--detections",
+    "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\live_runtime_final\\Clip_032_A_legacy_log_no_render\\detections.jsonl",
+    "--output",
+    "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\default_regression",
+    "--camera",
+    "auto",
+    "--stride",
+    "1",
+    "--max-frames",
+    "150",
+    "--no-render"
+  ],
+  "scope": "Same genuine A detector cache, original RGB, causal original tracker, all decision fields; replay correctness, not neural FPS"
+}

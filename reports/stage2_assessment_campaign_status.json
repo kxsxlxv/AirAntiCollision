@@ -1,0 +1,569 @@
+{
+  "state": "complete",
+  "started_utc": "2026-10-22T15:54:25.864804+00:00",
+  "planned_replays": 88,
+  "complete": [
+    {
+      "condition": "A/custom/similarity",
+      "sequence": "Clip_001",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\custom\\similarity\\Clip_001.jsonl.score.json"
+    },
+    {
+      "condition": "A/custom/raw",
+      "sequence": "Clip_001",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\custom\\raw\\Clip_001.jsonl.score.json"
+    },
+    {
+      "condition": "A/custom/similarity",
+      "sequence": "Clip_008",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\custom\\similarity\\Clip_008.jsonl.score.json"
+    },
+    {
+      "condition": "A/custom/raw",
+      "sequence": "Clip_008",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\custom\\raw\\Clip_008.jsonl.score.json"
+    },
+    {
+      "condition": "A/custom/similarity",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\custom\\similarity\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "A/custom/raw",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\custom\\raw\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "A/custom/similarity",
+      "sequence": "Clip_020",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\custom\\similarity\\Clip_020.jsonl.score.json"
+    },
+    {
+      "condition": "A/custom/raw",
+      "sequence": "Clip_020",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\custom\\raw\\Clip_020.jsonl.score.json"
+    },
+    {
+      "condition": "A/custom/similarity",
+      "sequence": "Clip_034",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\custom\\similarity\\Clip_034.jsonl.score.json"
+    },
+    {
+      "condition": "A/custom/raw",
+      "sequence": "Clip_034",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\custom\\raw\\Clip_034.jsonl.score.json"
+    },
+    {
+      "condition": "A/custom/raw",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\custom\\raw\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "A/custom/similarity",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\custom\\similarity\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "A/oracle_identity_only/similarity",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\oracle_identity_only\\similarity\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "A/oracle_identity_only/raw",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\oracle_identity_only\\raw\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "A/oracle_box_and_identity/raw",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\oracle_box_and_identity\\raw\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "A/oracle_box_and_identity/similarity",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\oracle_box_and_identity\\similarity\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "A/oracle_identity_only/similarity",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\oracle_identity_only\\similarity\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "A/oracle_identity_only/raw",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\oracle_identity_only\\raw\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "A/oracle_box_and_identity/similarity",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\oracle_box_and_identity\\similarity\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "A/tracktrack/raw",
+      "sequence": "Clip_001",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\tracktrack\\raw\\Clip_001.jsonl.score.json"
+    },
+    {
+      "condition": "A/oracle_box_and_identity/raw",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\oracle_box_and_identity\\raw\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "A/tracktrack/similarity",
+      "sequence": "Clip_001",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\tracktrack\\similarity\\Clip_001.jsonl.score.json"
+    },
+    {
+      "condition": "A/tracktrack/similarity",
+      "sequence": "Clip_008",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\tracktrack\\similarity\\Clip_008.jsonl.score.json"
+    },
+    {
+      "condition": "A/tracktrack/raw",
+      "sequence": "Clip_008",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\tracktrack\\raw\\Clip_008.jsonl.score.json"
+    },
+    {
+      "condition": "A/tracktrack/raw",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\tracktrack\\raw\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "A/tracktrack/similarity",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\tracktrack\\similarity\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "A/tracktrack/similarity",
+      "sequence": "Clip_020",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\tracktrack\\similarity\\Clip_020.jsonl.score.json"
+    },
+    {
+      "condition": "A/tracktrack/raw",
+      "sequence": "Clip_020",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\tracktrack\\raw\\Clip_020.jsonl.score.json"
+    },
+    {
+      "condition": "A/tracktrack/similarity",
+      "sequence": "Clip_034",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\tracktrack\\similarity\\Clip_034.jsonl.score.json"
+    },
+    {
+      "condition": "A/tracktrack/raw",
+      "sequence": "Clip_034",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\tracktrack\\raw\\Clip_034.jsonl.score.json"
+    },
+    {
+      "condition": "A/tracktrack/similarity",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\tracktrack\\similarity\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "A/putr/raw",
+      "sequence": "Clip_001",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\putr\\raw\\Clip_001.jsonl.score.json"
+    },
+    {
+      "condition": "A/putr/similarity",
+      "sequence": "Clip_001",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\putr\\similarity\\Clip_001.jsonl.score.json"
+    },
+    {
+      "condition": "A/tracktrack/raw",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\tracktrack\\raw\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "A/putr/similarity",
+      "sequence": "Clip_008",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\putr\\similarity\\Clip_008.jsonl.score.json"
+    },
+    {
+      "condition": "A/putr/raw",
+      "sequence": "Clip_008",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\putr\\raw\\Clip_008.jsonl.score.json"
+    },
+    {
+      "condition": "A/putr/raw",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\putr\\raw\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "A/putr/similarity",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\putr\\similarity\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "A/putr/raw",
+      "sequence": "Clip_020",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\putr\\raw\\Clip_020.jsonl.score.json"
+    },
+    {
+      "condition": "A/putr/similarity",
+      "sequence": "Clip_020",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\putr\\similarity\\Clip_020.jsonl.score.json"
+    },
+    {
+      "condition": "A/putr/similarity",
+      "sequence": "Clip_034",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\putr\\similarity\\Clip_034.jsonl.score.json"
+    },
+    {
+      "condition": "A/putr/raw",
+      "sequence": "Clip_034",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\putr\\raw\\Clip_034.jsonl.score.json"
+    },
+    {
+      "condition": "A/putr/raw",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\putr\\raw\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "A/putr/similarity",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\A\\putr\\similarity\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "B/custom/similarity",
+      "sequence": "Clip_001",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\custom\\similarity\\Clip_001.jsonl.score.json"
+    },
+    {
+      "condition": "B/custom/raw",
+      "sequence": "Clip_001",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\custom\\raw\\Clip_001.jsonl.score.json"
+    },
+    {
+      "condition": "B/custom/similarity",
+      "sequence": "Clip_008",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\custom\\similarity\\Clip_008.jsonl.score.json"
+    },
+    {
+      "condition": "B/custom/raw",
+      "sequence": "Clip_008",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\custom\\raw\\Clip_008.jsonl.score.json"
+    },
+    {
+      "condition": "B/custom/raw",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\custom\\raw\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "B/custom/similarity",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\custom\\similarity\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "B/custom/raw",
+      "sequence": "Clip_020",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\custom\\raw\\Clip_020.jsonl.score.json"
+    },
+    {
+      "condition": "B/custom/similarity",
+      "sequence": "Clip_020",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\custom\\similarity\\Clip_020.jsonl.score.json"
+    },
+    {
+      "condition": "B/custom/raw",
+      "sequence": "Clip_034",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\custom\\raw\\Clip_034.jsonl.score.json"
+    },
+    {
+      "condition": "B/custom/similarity",
+      "sequence": "Clip_034",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\custom\\similarity\\Clip_034.jsonl.score.json"
+    },
+    {
+      "condition": "B/custom/similarity",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\custom\\similarity\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "B/custom/raw",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\custom\\raw\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "B/oracle_identity_only/similarity",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\oracle_identity_only\\similarity\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "B/oracle_identity_only/raw",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\oracle_identity_only\\raw\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "B/oracle_box_and_identity/similarity",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\oracle_box_and_identity\\similarity\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "B/oracle_box_and_identity/raw",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\oracle_box_and_identity\\raw\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "B/oracle_identity_only/similarity",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\oracle_identity_only\\similarity\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "B/oracle_identity_only/raw",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\oracle_identity_only\\raw\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "B/oracle_box_and_identity/similarity",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\oracle_box_and_identity\\similarity\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "B/tracktrack/raw",
+      "sequence": "Clip_001",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\tracktrack\\raw\\Clip_001.jsonl.score.json"
+    },
+    {
+      "condition": "B/tracktrack/similarity",
+      "sequence": "Clip_001",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\tracktrack\\similarity\\Clip_001.jsonl.score.json"
+    },
+    {
+      "condition": "B/oracle_box_and_identity/raw",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\oracle_box_and_identity\\raw\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "B/tracktrack/similarity",
+      "sequence": "Clip_008",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\tracktrack\\similarity\\Clip_008.jsonl.score.json"
+    },
+    {
+      "condition": "B/tracktrack/raw",
+      "sequence": "Clip_008",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\tracktrack\\raw\\Clip_008.jsonl.score.json"
+    },
+    {
+      "condition": "B/tracktrack/raw",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\tracktrack\\raw\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "B/tracktrack/similarity",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\tracktrack\\similarity\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "B/tracktrack/raw",
+      "sequence": "Clip_020",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\tracktrack\\raw\\Clip_020.jsonl.score.json"
+    },
+    {
+      "condition": "B/tracktrack/similarity",
+      "sequence": "Clip_020",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\tracktrack\\similarity\\Clip_020.jsonl.score.json"
+    },
+    {
+      "condition": "B/tracktrack/similarity",
+      "sequence": "Clip_034",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\tracktrack\\similarity\\Clip_034.jsonl.score.json"
+    },
+    {
+      "condition": "B/tracktrack/raw",
+      "sequence": "Clip_034",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\tracktrack\\raw\\Clip_034.jsonl.score.json"
+    },
+    {
+      "condition": "B/tracktrack/raw",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\tracktrack\\raw\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "B/tracktrack/similarity",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\tracktrack\\similarity\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "B/putr/raw",
+      "sequence": "Clip_001",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\putr\\raw\\Clip_001.jsonl.score.json"
+    },
+    {
+      "condition": "B/putr/similarity",
+      "sequence": "Clip_001",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\putr\\similarity\\Clip_001.jsonl.score.json"
+    },
+    {
+      "condition": "B/putr/similarity",
+      "sequence": "Clip_008",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\putr\\similarity\\Clip_008.jsonl.score.json"
+    },
+    {
+      "condition": "B/putr/raw",
+      "sequence": "Clip_008",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\putr\\raw\\Clip_008.jsonl.score.json"
+    },
+    {
+      "condition": "B/putr/raw",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\putr\\raw\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "B/putr/similarity",
+      "sequence": "Clip_032",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\putr\\similarity\\Clip_032.jsonl.score.json"
+    },
+    {
+      "condition": "B/putr/raw",
+      "sequence": "Clip_020",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\putr\\raw\\Clip_020.jsonl.score.json"
+    },
+    {
+      "condition": "B/putr/similarity",
+      "sequence": "Clip_020",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\putr\\similarity\\Clip_020.jsonl.score.json"
+    },
+    {
+      "condition": "B/putr/raw",
+      "sequence": "Clip_034",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\putr\\raw\\Clip_034.jsonl.score.json"
+    },
+    {
+      "condition": "B/putr/similarity",
+      "sequence": "Clip_034",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\putr\\similarity\\Clip_034.jsonl.score.json"
+    },
+    {
+      "condition": "B/putr/raw",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\putr\\raw\\Clip_043.jsonl.score.json"
+    },
+    {
+      "condition": "B/putr/similarity",
+      "sequence": "Clip_043",
+      "score_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\assessments\\B\\putr\\similarity\\Clip_043.jsonl.score.json"
+    }
+  ],
+  "methods": [
+    "bauer_disc",
+    "lai_lin",
+    "airtrack_cues",
+    "wcv_taumod",
+    "rv_c3bf",
+    "log",
+    "projective",
+    "bounded",
+    "calibrated",
+    "growth"
+  ],
+  "assessment_source_sha256": "3e8d933b15ea504bac7edff7ceab8b400bc62135aa71cc1ddde872c839fa865f",
+  "oracle_builds": [
+    {
+      "condition": "oracle_identity_only",
+      "clip": "Clip_032",
+      "frames": 1023,
+      "source_sha256": "488daa14ca88edebe7c19d45739d8e999e340c7ddd3f54800fd0846fc667634c",
+      "oracle_implementation_sha256": "bc2364973843aec93db5cd0059e2e983af9cdd21c7ff76731f2110d8e508093e",
+      "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+      "output_sha256": "bc34999eb9ca7186f9f832684a56ecac30af1d2087d3c5c92bfac4145d25d442",
+      "camera_source": "unchanged normal predicted trace",
+      "identity_only_scope": "same emitted measured boxes/confidences, no recovery of misses/births; offline IoU oracle",
+      "offline_gt_access": true,
+      "production_use": false
+    },
+    {
+      "condition": "oracle_box_and_identity",
+      "clip": "Clip_032",
+      "frames": 1023,
+      "source_sha256": "488daa14ca88edebe7c19d45739d8e999e340c7ddd3f54800fd0846fc667634c",
+      "oracle_implementation_sha256": "bc2364973843aec93db5cd0059e2e983af9cdd21c7ff76731f2110d8e508093e",
+      "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+      "output_sha256": "f0c26ee8973838074e9656d2ea77ecdf934e0279866db46d955bda887c19e029",
+      "camera_source": "unchanged normal predicted trace",
+      "identity_only_scope": "same emitted measured boxes/confidences, no recovery of misses/births; offline IoU oracle",
+      "offline_gt_access": true,
+      "production_use": false
+    },
+    {
+      "condition": "oracle_identity_only",
+      "clip": "Clip_043",
+      "frames": 803,
+      "source_sha256": "c888cc8987ad83f211355ea9c6b6944af7411fc96b7a453ed2423785b35863ae",
+      "oracle_implementation_sha256": "bc2364973843aec93db5cd0059e2e983af9cdd21c7ff76731f2110d8e508093e",
+      "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+      "output_sha256": "2f8507dff200ae17475f947b4317c0e1d0df73a82b3cdd227e8d1dddbe89990f",
+      "camera_source": "unchanged normal predicted trace",
+      "identity_only_scope": "same emitted measured boxes/confidences, no recovery of misses/births; offline IoU oracle",
+      "offline_gt_access": true,
+      "production_use": false
+    },
+    {
+      "condition": "oracle_box_and_identity",
+      "clip": "Clip_043",
+      "frames": 803,
+      "source_sha256": "c888cc8987ad83f211355ea9c6b6944af7411fc96b7a453ed2423785b35863ae",
+      "oracle_implementation_sha256": "bc2364973843aec93db5cd0059e2e983af9cdd21c7ff76731f2110d8e508093e",
+      "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+      "output_sha256": "567e5c8f1d607d91f9b3eb541e77022bb12e4cd9c9a2d3cc4730a5c3b7f7c9c9",
+      "camera_source": "unchanged normal predicted trace",
+      "identity_only_scope": "same emitted measured boxes/confidences, no recovery of misses/births; offline IoU oracle",
+      "offline_gt_access": true,
+      "production_use": false
+    },
+    {
+      "condition": "oracle_identity_only",
+      "clip": "Clip_032",
+      "frames": 1023,
+      "source_sha256": "04a5433b8b61740c8e0ea57e5b71062254cf499a52369e86f706208b74a9000c",
+      "oracle_implementation_sha256": "bc2364973843aec93db5cd0059e2e983af9cdd21c7ff76731f2110d8e508093e",
+      "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+      "output_sha256": "48147c787b10b774bbf48e789f0f024a781dfdf45b472756036acdca35263e81",
+      "camera_source": "unchanged normal predicted trace",
+      "identity_only_scope": "same emitted measured boxes/confidences, no recovery of misses/births; offline IoU oracle",
+      "offline_gt_access": true,
+      "production_use": false
+    },
+    {
+      "condition": "oracle_box_and_identity",
+      "clip": "Clip_032",
+      "frames": 1023,
+      "source_sha256": "04a5433b8b61740c8e0ea57e5b71062254cf499a52369e86f706208b74a9000c",
+      "oracle_implementation_sha256": "bc2364973843aec93db5cd0059e2e983af9cdd21c7ff76731f2110d8e508093e",
+      "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+      "output_sha256": "e6670bdbd77d1ea6be3a676cc25350d6a7255744411c13330cc9eefd587320d4",
+      "camera_source": "unchanged normal predicted trace",
+      "identity_only_scope": "same emitted measured boxes/confidences, no recovery of misses/births; offline IoU oracle",
+      "offline_gt_access": true,
+      "production_use": false
+    },
+    {
+      "condition": "oracle_identity_only",
+      "clip": "Clip_043",
+      "frames": 803,
+      "source_sha256": "0d61e2ed9bc57d86345e1c66cd40ef404c546ffc4f2b37f362aa2af937a2b046",
+      "oracle_implementation_sha256": "bc2364973843aec93db5cd0059e2e983af9cdd21c7ff76731f2110d8e508093e",
+      "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+      "output_sha256": "9da97ab43153634d1ecfd62f94d9cd9963c6efd130a566736e204fac8733905a",
+      "camera_source": "unchanged normal predicted trace",
+      "identity_only_scope": "same emitted measured boxes/confidences, no recovery of misses/births; offline IoU oracle",
+      "offline_gt_access": true,
+      "production_use": false
+    },
+    {
+      "condition": "oracle_box_and_identity",
+      "clip": "Clip_043",
+      "frames": 803,
+      "source_sha256": "0d61e2ed9bc57d86345e1c66cd40ef404c546ffc4f2b37f362aa2af937a2b046",
+      "oracle_implementation_sha256": "bc2364973843aec93db5cd0059e2e983af9cdd21c7ff76731f2110d8e508093e",
+      "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+      "output_sha256": "27429c446b8426ca19c88cf8c49a5682dc5e74c256ea71fab32a9ffeccd6e233",
+      "camera_source": "unchanged normal predicted trace",
+      "identity_only_scope": "same emitted measured boxes/confidences, no recovery of misses/births; offline IoU oracle",
+      "offline_gt_access": true,
+      "production_use": false
+    }
+  ],
+  "runtime_scope": "CPU cached observations only; no detector or neural tracking FPS",
+  "elapsed_s": 232.88170990004437,
+  "finished_utc": "2026-10-22T15:58:18.755060+00:00"
+}

@@ -1,0 +1,1013 @@
+{
+  "revision": "nps-user-verified-train-v2",
+  "data_root": "X:\\DATASETS\\UAV\\TRACKING\\PreparedTracking_NPS_verified_OK_v1_jpeg95",
+  "source_root": "X:\\DATASETS\\UAV\\TRACKING\\RGB\\NPS-Drones",
+  "revision_manifest_sha256": "985dad39f4790a61de9eca616bc1c0769d43e64744e6bcefb4ddecfe4f09155d",
+  "gt_isolation": "annotation adapter used by offline scoring/oracle only",
+  "coverage_limit": "User-verified labels; complete visibility cannot be proven by schema checks alone",
+  "detector_training_independence": {
+    "A": "user confirmed",
+    "B": "user confirmed 2026-10-22"
+  },
+  "clips": {
+    "Clip_001": {
+      "frames": 309,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 243,
+      "ids": 1,
+      "csv_sha256": "d5be8547f80aaf2981bae8029d205ab2b35c2516d9eef34491dc2c159d6cd32d",
+      "source_annotation_sha256": "dedef77281d11d6b5b4d822db896bfc28b859768f8be6eda3f85b13a3cce57a4",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 2,
+      "identity_gaps": 0,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "development",
+      "video_path": "X:\\DATASETS\\UAV\\TRACKING\\RGB\\NPS-Drones\\Videos\\Clip_1.mov",
+      "video_sha256": "1f11d50ec100bad42e6b41f78161ce07c1794c21914f39b72c1e0863e44e0002",
+      "time_base": "1/11988",
+      "jpeg_source_pixel_mae_checks": {
+        "0": 0.2959127443415638,
+        "154": 0.5018322402263374,
+        "308": 0.6151049704218107
+      },
+      "pts_start_s": 0.0,
+      "source_dt_s_range": [
+        0.033366700033365504,
+        0.03336670003336728
+      ],
+      "effective_fps_from_pts": 29.970000000000002,
+      "timestamps_file": "data/stage2/Clip_001_pts.json",
+      "timestamps_sha256": "5d7a5ba9069ed6d12da52a48c9e35d8770d1c463f41c8f7e94ed9c7d74a00f80"
+    },
+    "Clip_002": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 832,
+      "ids": 1,
+      "csv_sha256": "a1508b0b24d43496e882262813c9c1c7f9159733390603f1debbce62f534e187",
+      "source_annotation_sha256": "adfd0b7b2df32e5472dde80c2e3f9f0d6f4b8470c26b909514875aa1f0eb3cb5",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 12,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_003": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1339,
+      "ids": 1,
+      "csv_sha256": "a9e19c604814af5ea8163318e1c78acd7f7d6b7e5f8bb568c598d7ed75897ed6",
+      "source_annotation_sha256": "694a8a96bacccdcc02a4926eac0170f389240b118864a4e0904ea95456312f6c",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 10,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_004": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1446,
+      "ids": 1,
+      "csv_sha256": "388667ec174f6c77af7a50514471241dc1acaad518ccaff1f1f93e8ee0df6f6f",
+      "source_annotation_sha256": "efc07b4f89f15a9e2df0b789bddbef7ee719dc195f074998931ec6836dfb821a",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 44,
+      "identity_gaps": 17,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_005": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1410,
+      "ids": 1,
+      "csv_sha256": "1b245e5a9d6574f8158f1bd1c421247c62ffb06c15f1d44830382e40f3cc9cb9",
+      "source_annotation_sha256": "830d6193da0c8c231a9d7b48b614fd695a185fea14c7650f68316d0e7e285703",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 1,
+      "identity_gaps": 17,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_006": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1349,
+      "ids": 1,
+      "csv_sha256": "e9848196aba327b1599930766ad0436275ad03c0fb7a1c27e64a9b94273e64de",
+      "source_annotation_sha256": "b24ea691ebd6ae2ab1a6d72fce1c17d6ccfaee5348b0975ffe7bb41eaae9ada5",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 14,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_007": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1345,
+      "ids": 1,
+      "csv_sha256": "cadbfdf0e2643dbf730fe02d6f4b3d3847769c5df28ec116328aa24daa227d75",
+      "source_annotation_sha256": "e5b5310d4bd0abf3d8e3a0cb0906724f4b802f3203153ec0a0ffa4a5a065c367",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 18,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_008": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1836,
+      "ids": 29,
+      "csv_sha256": "7e2c2dafe359e07a11c8a008659ccfc53b01d5ad842637b62f596a0f413b4a69",
+      "source_annotation_sha256": "d3a1f0df77133c3994e4d1116926072b60c28f92a01355090a5e89fbe2c644d3",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 8,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "development",
+      "video_path": "X:\\DATASETS\\UAV\\TRACKING\\RGB\\NPS-Drones\\Videos\\Clip_8.mov",
+      "video_sha256": "1be75cf301c8102f40635d2c2649144eb4aa7cfaf80552aa4ac02faa7b29d02e",
+      "time_base": "1/11988",
+      "jpeg_source_pixel_mae_checks": {
+        "0": 0.39704636059670784,
+        "900": 0.49590181327160493,
+        "1799": 0.752875675154321
+      },
+      "pts_start_s": 0.0,
+      "source_dt_s_range": [
+        0.03336670003336195,
+        0.03336670003336906
+      ],
+      "effective_fps_from_pts": 29.970000000000002,
+      "timestamps_file": "data/stage2/Clip_008_pts.json",
+      "timestamps_sha256": "f66c98171cbfbf9b79d0c06b03f4862f272f57363a7b2400bae4090baac60ca1"
+    },
+    "Clip_009": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 560,
+      "ids": 1,
+      "csv_sha256": "90eb8d9faac2bbf8e01834c94deb0206eb4e0a5b4df4c0c03a9858552eba085a",
+      "source_annotation_sha256": "59eef23a9e03532f13151a684c673b29397ade597d42dfc640f8346a7ad495c3",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 9,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_010": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1691,
+      "ids": 1,
+      "csv_sha256": "edc3752429fd30d6bf7c96c9d9bb04e8119fe6daf77b13c41ab6556453fde7e1",
+      "source_annotation_sha256": "c16957dcbd0c2e8047fc63709af749cd51a627641fbccfd6a67dc803694cdac5",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [
+        823
+      ],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 6,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_011": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 564,
+      "ids": 1,
+      "csv_sha256": "44188f3de9f922c7a468b913be35452993e6de4a0baeb229eac07cc324170264",
+      "source_annotation_sha256": "7f3a6b76823e9c6e9e9c11c40b6368bea5a120d80746dd545f4503e6b4955c98",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 10,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_012": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1754,
+      "ids": 1,
+      "csv_sha256": "5576d16cc90332cbff86dde92a51aa8647de85206de5a169423c3bc018ffa6fd",
+      "source_annotation_sha256": "4b6d41cdd0cfbf31aeee0314a0e540bfed31a983e6b187a53c1a37e1da6844b0",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 3,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_013": {
+      "frames": 1517,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1420,
+      "ids": 1,
+      "csv_sha256": "af93f28ecff777784ac9c508f3b95dbbec4a16f16d3bfd521f9c876e9e757b4e",
+      "source_annotation_sha256": "98dca3ec4d4bafa2ed6bc92ed43400dab6869f63958a6b11c22625f7589006ea",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 1,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_014": {
+      "frames": 1800,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 630,
+      "ids": 3,
+      "csv_sha256": "a5f2f9568ebb2ce4ecc8966ea4876887eca916c6932605965302b4fffbd9b082",
+      "source_annotation_sha256": "81c1aa9cf2dfe6ae1144d95e9c9286c4fa3c7a6b495cb28cc99e6a6a48584f69",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 1,
+      "identity_gaps": 1,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_015": {
+      "frames": 1800,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 1004,
+      "ids": 5,
+      "csv_sha256": "488b3d03e5c55a0dc4cbb6b5fc20063bb91879afeb7d5d5b281efca3a84006fe",
+      "source_annotation_sha256": "9f8b0f28b022c7a08f2737c2c88e89c60a5a983fc012d7761a4ec3251f14300a",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 6,
+      "identity_gaps": 2,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_016": {
+      "frames": 1703,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 894,
+      "ids": 9,
+      "csv_sha256": "2a10c5f9180739f4cc5d3a8c287b0ea4ba2c60867ecb1101b2ff6acc37cb73b3",
+      "source_annotation_sha256": "e89354e3f075092eefa73d1f5c8866dc5d6e49d22fcf27720117f4db7ab179d8",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 10,
+      "identity_gaps": 1,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_017": {
+      "frames": 674,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 300,
+      "ids": 7,
+      "csv_sha256": "6c6840b9f2fb775c6bfa9c4e095b80b5f108c3d2a13585a7c91ef4d4f1bea81c",
+      "source_annotation_sha256": "c7c552ccec84a457716884ae7fc522d968a5410a6e1bbb68f6999f44a4054107",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 3,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_018": {
+      "frames": 446,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 293,
+      "ids": 4,
+      "csv_sha256": "9fdd7e6abc1d598123bf5e58dc3c3fbf85c1946aa9b441286600f5af4da73315",
+      "source_annotation_sha256": "4e7b7bedd12f28ed6e7cbb94dfa410617a7c77d5afadfcf9f0b3068f65f53edb",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 7,
+      "identity_gaps": 10,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_019": {
+      "frames": 1470,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 760,
+      "ids": 1,
+      "csv_sha256": "607b202cea6ad42b90089caa4118bdb545b0638c80f022a0a26c4a356200cd28",
+      "source_annotation_sha256": "96f7c24895203924ec6bf80387a7fa67e6ca6d10e9fbba4236a59789f45b5057",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 4,
+      "identity_gaps": 5,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_020": {
+      "frames": 1800,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 1100,
+      "ids": 13,
+      "csv_sha256": "69da4907c112f69dbb78d2bc5bff0933d584574b276a014c09f4630b53762b1a",
+      "source_annotation_sha256": "453b95664d3ab052cf88ade92e286452df3635faef01ffd5859b3d8ae9895e7f",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 2,
+      "identity_gaps": 1,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "evaluation",
+      "video_path": "X:\\DATASETS\\UAV\\TRACKING\\RGB\\NPS-Drones\\Videos\\Clip_20.mov",
+      "video_sha256": "329c816c752c92b7208fe9d312df6c4b125c931eaf1145df60a03ca4f8728e63",
+      "time_base": "1/29687",
+      "jpeg_source_pixel_mae_checks": {
+        "0": 0.36785400390625,
+        "900": 0.43281060112847225,
+        "1799": 0.5630308702256944
+      },
+      "pts_start_s": 0.0,
+      "source_dt_s_range": [
+        0.03368477784888313,
+        0.033684777848890235
+      ],
+      "effective_fps_from_pts": 29.687,
+      "timestamps_file": "data/stage2/Clip_020_pts.json",
+      "timestamps_sha256": "1392a6de59acb01bfa7d64e0451d62111b36a88c11aad373d502f845b12f78fa"
+    },
+    "Clip_021": {
+      "frames": 1076,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 502,
+      "ids": 1,
+      "csv_sha256": "f8fbae1519d693f2851c84e55f9290230249cf6fed584945526998b7c77ca9ce",
+      "source_annotation_sha256": "1476ba7098ab38658d0babd47e3d37fe2dc7a5612dff4551e73feced5a3dc253",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 15,
+      "identity_gaps": 3,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_022": {
+      "frames": 1043,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 470,
+      "ids": 8,
+      "csv_sha256": "e7c87e51462519bbdd1b7405739cfd8cc4564b0dc4f8982142dfa94968019cf7",
+      "source_annotation_sha256": "a8596210e09e9c6ca2d2e7b67c7d25da0555170f33b9fa44d9606280295ceed2",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 2,
+      "identity_gaps": 1,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_023": {
+      "frames": 133,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 120,
+      "ids": 1,
+      "csv_sha256": "9b174dd6e86326d9d93d6c7e42b12016a711695b96e50cf1b37fbf874bd096ca",
+      "source_annotation_sha256": "bdb8541e6849f874e4829224dfa8d55d07f26e202aa71e4774b7442cf7d12c1d",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 0,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_024": {
+      "frames": 1507,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 809,
+      "ids": 17,
+      "csv_sha256": "2e89c9cfee8d94e8b940077027c376b921b56967415a3703fa1eb67d93204438",
+      "source_annotation_sha256": "3d1b4d44660bfa147805a731dc3a5614e7f82f3260c29e5a6836387cf4e47ad6",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 0,
+      "identity_gaps": 20,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_025": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 752,
+      "ids": 1,
+      "csv_sha256": "d258d0776a07caf84d08c4eed9e63fee65ca79ab722b4e6b5b0dc18c007a24ea",
+      "source_annotation_sha256": "3cdf78a37dd2e67bba3436aa6aa015e183f9ba0154dd3e8745ac8cf1227152f5",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 12,
+      "identity_gaps": 5,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_026": {
+      "frames": 1800,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 1535,
+      "ids": 1,
+      "csv_sha256": "0028cc03658e90874032a4c00a28c93e1a47684514ec34d86e06f7352dfc2926",
+      "source_annotation_sha256": "cbfa9d20b28704aca337160972a3fc72fb0976782d37891dfae672aac3dbe8ba",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 53,
+      "identity_gaps": 19,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_027": {
+      "frames": 1286,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 445,
+      "ids": 1,
+      "csv_sha256": "54fea590f4e4bbc98b7a7b554fa8c1335e58ae215ffd9c0c65bdff1d73aca65f",
+      "source_annotation_sha256": "c414539c1accffec6f6eb9fd4ebaa66bd129d2306088b32ab9f1a42e663011b7",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 2,
+      "identity_gaps": 7,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_028": {
+      "frames": 1685,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 2403,
+      "ids": 18,
+      "csv_sha256": "6bf9be9590652d71d61d9f98b8c6594524747950e34d1b9d02e679ae64170766",
+      "source_annotation_sha256": "0f59fa72712c042f9c75278b093d834f0a17d01c2372bbfb434daf78b7ad4e89",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 9,
+      "identity_gaps": 13,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_029": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 742,
+      "ids": 7,
+      "csv_sha256": "b7b7f0db75be4a2c153412c46c355bc53f5ddefb36c1a76f507e648f3ed140a3",
+      "source_annotation_sha256": "8767a50e1ee27b4a32f4bcd9780e7862426f40b3b664649dbbe6d7101bb27622",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 23,
+      "identity_gaps": 2,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_030": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1777,
+      "ids": 18,
+      "csv_sha256": "a52057ddf577b5dcaca8ee9c80c0a46317891e097d4611fa3895181cceb223b5",
+      "source_annotation_sha256": "a3b244329771cc3498335d5c9d184ad220d1d845ec43d6dd8956c33f7c4f0f72",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 6,
+      "identity_gaps": 3,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_031": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 2853,
+      "ids": 13,
+      "csv_sha256": "6f99ecc9dabbbb025cff492ad5ac37dab00529de5c4ef8eddb39e24e39124968",
+      "source_annotation_sha256": "1cbfc87bf6f33449574c8dd1c00d332cb4f54f579662958f55774c9fb6adb781",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 47,
+      "identity_gaps": 14,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_032": {
+      "frames": 1023,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 1465,
+      "ids": 5,
+      "csv_sha256": "6f933de3f3c2bd1d3dca56151ddd937d3c4a4e6847fbfa7f9ee47915f53d9ada",
+      "source_annotation_sha256": "5f0527e5ed21e028c68e3f4ef7043962890af136f73176e7891fb09dd8673607",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 3,
+      "identity_gaps": 0,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "development",
+      "video_path": "X:\\DATASETS\\UAV\\TRACKING\\RGB\\NPS-Drones\\Videos\\Clip_32.mov",
+      "video_sha256": "12682055927dee85db715a36eb25bedd8e4df1ea04d65f3f56d37f3dee007365",
+      "time_base": "1/14848",
+      "jpeg_source_pixel_mae_checks": {
+        "0": 0.4728868272569444,
+        "511": 0.5526676432291666,
+        "1022": 0.5356149631076389
+      },
+      "pts_start_s": 0.0,
+      "source_dt_s_range": [
+        0.034482758620683285,
+        0.03448275862069039
+      ],
+      "effective_fps_from_pts": 29.0,
+      "timestamps_file": "data/stage2/Clip_032_pts.json",
+      "timestamps_sha256": "29c5cc9139fc123a9024dcc8b5f463f289ad5876398a3789e84a64c3c59fc4fd"
+    },
+    "Clip_033": {
+      "frames": 1562,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 1691,
+      "ids": 10,
+      "csv_sha256": "f55f16833315a0aba33b64260ad36fab5dd48b36b0428b7ed39eb6dabf76089f",
+      "source_annotation_sha256": "690a514b7f1bd1935bed988fde31918f0c6be7612c4e72b3de67009061920023",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 11,
+      "identity_gaps": 4,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_034": {
+      "frames": 909,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 1165,
+      "ids": 21,
+      "csv_sha256": "693c3d98826b5da2cac3261d0fd92f29dc874273bf96216d481a366070cf9450",
+      "source_annotation_sha256": "3137e1b5ffce9322909ac4d3656d9bc36b07992083cf1216c10a5f035065eec8",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 23,
+      "identity_gaps": 5,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "evaluation",
+      "video_path": "X:\\DATASETS\\UAV\\TRACKING\\RGB\\NPS-Drones\\Videos\\Clip_34.mov",
+      "video_sha256": "764cc59ea20170464a09a03fad62ed51127583237c8815c55821350c910a7743",
+      "time_base": "1/11988",
+      "jpeg_source_pixel_mae_checks": {
+        "0": 0.41723225911458334,
+        "454": 0.6497260199652778,
+        "908": 0.55056396484375
+      },
+      "pts_start_s": 0.0,
+      "source_dt_s_range": [
+        0.033366700033365504,
+        0.03336670003336906
+      ],
+      "effective_fps_from_pts": 29.97,
+      "timestamps_file": "data/stage2/Clip_034_pts.json",
+      "timestamps_sha256": "06e6bd60a9878543e29f7151cb12960d1c4cba7df31aba52daef487cadb10dbf"
+    },
+    "Clip_035": {
+      "frames": 576,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 340,
+      "ids": 3,
+      "csv_sha256": "d99b54ec4ebac86d2bea25a8bf8c76c855755f265fd9d1544ce13f769774ae25",
+      "source_annotation_sha256": "743e9aa9f7abd54d5eb2898fa3b68eb44a8945dd30d42417ada8b6f837a7974f",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 10,
+      "identity_gaps": 0,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_036": {
+      "frames": 832,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 330,
+      "ids": 4,
+      "csv_sha256": "a323fe59e5155b49881eb5d983ad20c9761c56fd7817f21f5cc3b3936fc0a7ef",
+      "source_annotation_sha256": "3c11f17937be4abaf90f85d2acacef3828a4fce970aa1b5bbdcc6876565d3265",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 2,
+      "identity_gaps": 5,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_037": {
+      "frames": 1532,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 1260,
+      "ids": 14,
+      "csv_sha256": "bef81f0a250a0ec956d6b02f1a3e3cf8933ee246538a8176a5bf05bbe9ace10c",
+      "source_annotation_sha256": "b65806f66e0c0db8c6f76e08b2e4ca5c4cf8b8f60d8ed117dcbbb67db10209a9",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 25,
+      "identity_gaps": 6,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_038": {
+      "frames": 1800,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 2097,
+      "ids": 16,
+      "csv_sha256": "7fe767bdacbaa10144cbcd43ce28c04ee7776a945067662c84aeab8e90c4f286",
+      "source_annotation_sha256": "2ff686eeb8beaeaf160a631001cefe5fdcf246974243057e5e1eac448b607e96",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 14,
+      "identity_gaps": 12,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_039": {
+      "frames": 1079,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 682,
+      "ids": 6,
+      "csv_sha256": "6397ee097ddad5a2f7c1ded9508823ef7886fa70ad6970cc9e827e5e68dfbf11",
+      "source_annotation_sha256": "37ce348a7c04ef7b240f476de757de6f916cc1a618ec0e4b7c72f3d67d323449",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 3,
+      "identity_gaps": 28,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_040": {
+      "frames": 1533,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 618,
+      "ids": 7,
+      "csv_sha256": "8106650a66e33009fef0b7b30090e9a3ea09048419c557cc3d7eab4ec6220ab9",
+      "source_annotation_sha256": "ac502f213c0d2eb74ce391e54e8bf86a2ff546349e5e0fe6efbc41c364828005",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 3,
+      "identity_gaps": 22,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_041": {
+      "frames": 1529,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1652,
+      "ids": 3,
+      "csv_sha256": "f21f1bb8372aa76adc4e81e13c7c4015552cb23cdad7dd5b91cefe8195d2ac3a",
+      "source_annotation_sha256": "5a693a1f2bbce01c31e6045cf609e60d2d9bea7fee10a3e3799757f5942f01cb",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 1,
+      "identity_gaps": 4,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_042": {
+      "frames": 1660,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1966,
+      "ids": 12,
+      "csv_sha256": "cfe93c77f0867814a0eda5561ab24829c365098ab56a3448e2a3a1bae34c8c83",
+      "source_annotation_sha256": "5d9643ed5879b8b24a458605bf60c60351bde0a802de3d5b11795a385142d21d",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 23,
+      "identity_gaps": 0,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_043": {
+      "frames": 803,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 1269,
+      "ids": 7,
+      "csv_sha256": "cc183ca81b4126c54f8e2a80711158af50b3df7bb11cfc8390d15143859a6f7c",
+      "source_annotation_sha256": "df8293b9854c654cbf719f36fdce1800e516f098abeeaa8f459cfa8fb0a848e6",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 3,
+      "identity_gaps": 3,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "evaluation",
+      "video_path": "X:\\DATASETS\\UAV\\TRACKING\\RGB\\NPS-Drones\\Videos\\Clip_43.mov",
+      "video_sha256": "8d12d8807a48687303ab4aea0a350c3f74b535e2e5bb1a1b7df02d650c96c422",
+      "time_base": "1/11556",
+      "jpeg_source_pixel_mae_checks": {
+        "0": 0.38558485243055557,
+        "401": 0.6232438151041667,
+        "802": 0.606708984375
+      },
+      "pts_start_s": 0.0,
+      "source_dt_s_range": [
+        0.034614053305642045,
+        0.0346140533056456
+      ],
+      "effective_fps_from_pts": 28.89,
+      "timestamps_file": "data/stage2/Clip_043_pts.json",
+      "timestamps_sha256": "248762544107e4ac95b213c6d6c253ed97cb0f8ae4b326d5c19d9692f2df046b"
+    },
+    "Clip_044": {
+      "frames": 859,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 1556,
+      "ids": 8,
+      "csv_sha256": "8d0dfe5d5338fe97bcda1c0693fb0470845d7ca230b84709bf6ae8788052baa8",
+      "source_annotation_sha256": "e3fa7f79fa1536258cd3bc07355b8c0d2d1a31d31c749ffb7652d340ba37850b",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 14,
+      "identity_gaps": 5,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_045": {
+      "frames": 936,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 1167,
+      "ids": 9,
+      "csv_sha256": "a4e535013c9cb7632473c571d60496a99bfd7f66d080d56a6825d415a6a13276",
+      "source_annotation_sha256": "5c5497cb557c2a5ff1470272eff1e9ef522bc61ff015f14d75246c33ec45f841",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 12,
+      "identity_gaps": 6,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_046": {
+      "frames": 1131,
+      "resolution": [
+        1280,
+        960
+      ],
+      "annotations": 1184,
+      "ids": 6,
+      "csv_sha256": "8b87bce8fad15e615b536a135b9f7513fc1963c1257ea7df065a168984f3beed",
+      "source_annotation_sha256": "e3f45beca300e20192e08cd35aadd86cb639f82e4d69257b0a6cef6bbc3d9f42",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 7,
+      "identity_gaps": 10,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_047": {
+      "frames": 936,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 744,
+      "ids": 7,
+      "csv_sha256": "6001ba8d113e448c8c5a8ba7d212d1142d36db30d3f65dd00b980fbe44e842d7",
+      "source_annotation_sha256": "7512398450979133318e4f8a1dbef03d00d5a1f620693e12e5b7ee02c2b4f4db",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 8,
+      "identity_gaps": 4,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_048": {
+      "frames": 902,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 468,
+      "ids": 4,
+      "csv_sha256": "af67e15b54495312d3537084c91a33d09331ee48dc763dd5ae03fc277f3614c0",
+      "source_annotation_sha256": "cf15ae0be6593c50e24fb6f48bf743a0a26eb7ef49feef9720ca73f77ec27339",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 5,
+      "identity_gaps": 0,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_049": {
+      "frames": 1800,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 1806,
+      "ids": 9,
+      "csv_sha256": "2ca8ba3de4321319aba4e49ddd5c3119ad0879baf641b5e18338fe05a7eb8b60",
+      "source_annotation_sha256": "53549dbeaf6b0d9a67b87a8551261e90b841c623b5c9b08dfb88a088718ff190",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 44,
+      "identity_gaps": 3,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    },
+    "Clip_050": {
+      "frames": 1799,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "annotations": 4562,
+      "ids": 11,
+      "csv_sha256": "7bea015630359dc08e0186aebaa49beb70a763c68a6144aa4fd8051a7d954f8f",
+      "source_annotation_sha256": "396065c29ff01628e58dc61c2c6caf04ad0332f520159f7cf8504858d329c4d0",
+      "source_annotation_matches_meta_hash": true,
+      "geometry_mismatch_frames_vs_source_annotation": [],
+      "crossing_image_border_rows": 32,
+      "identity_gaps": 11,
+      "id_scope": "within clip only",
+      "base_identity_metadata": "provisional, superseded by verified revision",
+      "split": "unused"
+    }
+  },
+  "errors": []
+}

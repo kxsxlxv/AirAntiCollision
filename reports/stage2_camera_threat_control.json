@@ -1,0 +1,4593 @@
+{
+  "condition": "A/custom/independent_ORB_homography",
+  "clips": {
+    "Clip_032": {
+      "identical_predicted_observation_frames": 1023,
+      "camera_trace_sha256": "65708bf570117b674f0abe96bc9f5a4cc2e406c98393c6142b883a29aa264c2e",
+      "normal_trace_sha256": "488daa14ca88edebe7c19d45739d8e999e340c7ddd3f54800fd0846fc667634c",
+      "replay": {
+        "source_trace_sha256": "65708bf570117b674f0abe96bc9f5a4cc2e406c98393c6142b883a29aa264c2e",
+        "source_trace": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\camera_orb\\Clip_032.jsonl",
+        "output_trace_sha256": "391e84600f7aeeaf63579891254e29c9964109c858d7365f8040250e5e3510b4",
+        "assessment_source_sha256": "3e8d933b15ea504bac7edff7ceab8b400bc62135aa71cc1ddde872c839fa865f",
+        "replay_source_sha256": "574d3f6b6fc8afc4d057b70333bc437e31c3c1bbda605afd87d82594caa411fb",
+        "methods": [
+          "bauer_disc",
+          "lai_lin",
+          "airtrack_cues",
+          "wcv_taumod",
+          "rv_c3bf",
+          "log",
+          "projective",
+          "bounded",
+          "calibrated",
+          "growth"
+        ],
+        "frames": 1023,
+        "camera_model": "homography",
+        "camera_correction_scope": "background image plane only; no 3D rotation/translation disambiguation",
+        "extent_correction": "raw=1; similarity=sqrt(abs(det(A))); homography=sqrt(abs(det(local point Jacobian))) area-equivalent span adaptation",
+        "counts_predicted_track_samples": {
+          "bauer_disc": {
+            "uncertain": 16501,
+            "unobserved": 15490
+          },
+          "lai_lin": {
+            "uncertain": 16462,
+            "unobserved": 15490,
+            "potential_conflict": 39
+          },
+          "airtrack_cues": {
+            "uncertain": 16501,
+            "unobserved": 15490
+          },
+          "wcv_taumod": {
+            "uncertain": 16501,
+            "unobserved": 15490
+          },
+          "rv_c3bf": {
+            "uncertain": 16501,
+            "unobserved": 15490
+          },
+          "log": {
+            "uncertain": 16501,
+            "unobserved": 15490
+          },
+          "projective": {
+            "uncertain": 16501,
+            "unobserved": 15490
+          },
+          "bounded": {
+            "uncertain": 16501,
+            "unobserved": 15490
+          },
+          "calibrated": {
+            "uncertain": 16501,
+            "unobserved": 15490
+          },
+          "growth": {
+            "uncertain": 16500,
+            "unobserved": 15490,
+            "potential_conflict": 1
+          }
+        },
+        "elapsed_replay_s": 14.1153049999848,
+        "runtime_scope": "cached observations only; not neural-inference FPS",
+        "policy": {
+          "warning_seconds": 0.24,
+          "nonconflict_seconds": 1.2,
+          "lost_or_uncertain_resets": true
+        },
+        "method_assessment_ms": {
+          "bauer_disc": {
+            "p50": 0.0018999562598764896,
+            "p95": 0.06620003841817379,
+            "p99": 0.12960999738425003
+          },
+          "lai_lin": {
+            "p50": 0.001700012944638729,
+            "p95": 0.03490003291517496,
+            "p99": 0.056010013213381026
+          },
+          "airtrack_cues": {
+            "p50": 0.001600012183189392,
+            "p95": 0.0777999812271446,
+            "p99": 0.14632000820711227
+          },
+          "wcv_taumod": {
+            "p50": 0.0016999547369778156,
+            "p95": 0.012199976481497288,
+            "p99": 0.025810021907090995
+          },
+          "rv_c3bf": {
+            "p50": 0.001600012183189392,
+            "p95": 0.010899966582655907,
+            "p99": 0.022099993657320738
+          },
+          "log": {
+            "p50": 0.001600012183189392,
+            "p95": 0.8924499852582812,
+            "p99": 1.2742899882141487
+          },
+          "projective": {
+            "p50": 0.001600012183189392,
+            "p95": 1.3453499996103346,
+            "p99": 1.8114199978299421
+          },
+          "bounded": {
+            "p50": 0.001600012183189392,
+            "p95": 0.9933500259649009,
+            "p99": 1.3802599802147575
+          },
+          "calibrated": {
+            "p50": 0.0015999539755284786,
+            "p95": 0.06839999696239829,
+            "p99": 0.12532001710496815
+          },
+          "growth": {
+            "p50": 0.001600012183189392,
+            "p95": 0.10810000821948051,
+            "p99": 0.16329996869899333
+          }
+        },
+        "raw_published_candidates_retained": true,
+        "confidence_calibration": null,
+        "ignored_predicted_observations": 0
+      },
+      "ORB_homography": {
+        "sequence": "Clip_032",
+        "source_trace_sha256": "391e84600f7aeeaf63579891254e29c9964109c858d7365f8040250e5e3510b4",
+        "frames": 1023,
+        "camera_duration_s": 35.275862068965516,
+        "scorer_source_sha256": "634402b49e1e73b265dfb80f497da3022684cf4f803c72eb456ff64984f23c61",
+        "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+        "input_truth_condition": "predicted_detections_and_IDs",
+        "camera_status_frames": {
+          "ORB_unresolved": 1,
+          "ORB_background_plane": 1022
+        },
+        "bearing_angle_strata": "unavailable: no verified intrinsics; normalized pixel offset reported instead",
+        "cadence_sample_dt_s": 0.03448275862069039,
+        "methods": {
+          "bauer_disc": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16501,
+              "unobserved": 15490
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "missing_verified_intrinsics": 539,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/ORB_unresolved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1449,
+                "untracked": 15
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "lai_lin": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1431,
+              "untracked": 15,
+              "potential_conflict": 19
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16462,
+              "unobserved": 15490,
+              "potential_conflict": 39
+            },
+            "decisive_coverage": 0.012969283276450512,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 502,
+              "untracked": 15,
+              "apparent_nonconflict": 856,
+              "potential_conflict": 92
+            },
+            "reason_codes": {
+              "history": 12,
+              "association_ambiguous": 485,
+              "published_risk_index_bbox_area_adaptation": 948,
+              "unresolved_camera_rotation_translation": 856,
+              "confirm_warning": 73,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/ORB_unresolved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1029,
+                "untracked": 11,
+                "potential_conflict": 19
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1430,
+                "untracked": 15,
+                "potential_conflict": 19
+              },
+              "confidence/>=.3": {
+                "uncertain": 1418,
+                "potential_conflict": 19
+              },
+              "pixel_span/16-31": {
+                "uncertain": 839,
+                "untracked": 4,
+                "potential_conflict": 19
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 18,
+            "all_predicted_warning_episodes_per_camera_hour": 1836.950146627566,
+            "warning_reference_events": [
+              {
+                "gt_id": 1,
+                "first_warning_s": 11.551724137931034,
+                "after_first_label_s": 11.551724137931034,
+                "before_last_label_s": 4.0,
+                "warning_samples": 11,
+                "warning_duration_s": 0.3793103448275943,
+                "longest_contiguous_warning_s": 0.2068965517241388,
+                "reference": "first/last visible annotation, not impact"
+              },
+              {
+                "gt_id": 2,
+                "first_warning_s": 12.03448275862069,
+                "after_first_label_s": 11.482758620689657,
+                "before_last_label_s": 1.8275862068965516,
+                "warning_samples": 8,
+                "warning_duration_s": 0.2758620689655231,
+                "longest_contiguous_warning_s": 0.2068965517241388,
+                "reference": "first/last visible annotation, not impact"
+              }
+            ]
+          },
+          "airtrack_cues": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16501,
+              "unobserved": 15490
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "cue_only_no_published_collision_classifier": 539,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/ORB_unresolved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1449,
+                "untracked": 15
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "wcv_taumod": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16501,
+              "unobserved": 15490
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "missing_verified_metric_relative_state": 960,
+              "association_ambiguous": 485,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/ORB_unresolved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1449,
+                "untracked": 15
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "rv_c3bf": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16501,
+              "unobserved": 15490
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "missing_calibrated_derotated_target_feature_flow": 960,
+              "association_ambiguous": 485,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/ORB_unresolved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1449,
+                "untracked": 15
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "log": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16501,
+              "unobserved": 15490
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1101,
+              "untracked": 15,
+              "apparent_nonconflict": 349
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "crossing": 349,
+              "unresolved_camera_rotation_translation": 349,
+              "aspect": 190,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/ORB_unresolved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1449,
+                "untracked": 15
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "projective": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16501,
+              "unobserved": 15490
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1088,
+              "untracked": 15,
+              "apparent_nonconflict": 362
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "crossing": 362,
+              "unresolved_camera_rotation_translation": 362,
+              "aspect": 177,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/ORB_unresolved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1449,
+                "untracked": 15
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "bounded": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16501,
+              "unobserved": 15490
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "bounded_infeasible": 539,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/ORB_unresolved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1449,
+                "untracked": 15
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "calibrated": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16501,
+              "unobserved": 15490
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "missing_verified_intrinsics": 539,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/ORB_unresolved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1449,
+                "untracked": 15
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "growth": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1449,
+              "untracked": 15,
+              "potential_conflict": 1
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16500,
+              "unobserved": 15490,
+              "potential_conflict": 1
+            },
+            "decisive_coverage": 0.0006825938566552901,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1437,
+              "untracked": 15,
+              "potential_conflict": 13
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "trivial_constant_bearing_growth": 539,
+              "confirm_warning": 12,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/ORB_unresolved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1047,
+                "untracked": 11,
+                "potential_conflict": 1
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1448,
+                "untracked": 15,
+                "potential_conflict": 1
+              },
+              "confidence/>=.3": {
+                "uncertain": 1436,
+                "potential_conflict": 1
+              },
+              "pixel_span/16-31": {
+                "uncertain": 857,
+                "untracked": 4,
+                "potential_conflict": 1
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 1,
+            "all_predicted_warning_episodes_per_camera_hour": 102.05278592375367,
+            "warning_reference_events": [
+              {
+                "gt_id": 2,
+                "first_warning_s": 11.827586206896552,
+                "after_first_label_s": 11.275862068965518,
+                "before_last_label_s": 2.0344827586206904,
+                "warning_samples": 1,
+                "warning_duration_s": 0.03448275862069039,
+                "longest_contiguous_warning_s": 0.03448275862069039,
+                "reference": "first/last visible annotation, not impact"
+              }
+            ]
+          }
+        },
+        "paired_bbox_log_scale_increment_error_rms": 0.08873845060014952,
+        "scale_increment_pairs": 1441,
+        "scale_increment_scope": "consecutive matched GT object, same predicted ID, delta <= .2 s; no cadence normalization",
+        "truth_tier": "B: recorded 2D geometry and per-clip identity, no physical collision/CPA truth",
+        "GT_join": "offline only, fresh measured boxes, cardinality-first Hungarian IoU>=.5",
+        "warning_precision_or_collision_recall": null
+      },
+      "raw": {
+        "sequence": "Clip_032",
+        "source_trace_sha256": "55b34fb2bd9b7f9a261c7073443fa7abec26fe596df230f5feb81bab55b80623",
+        "frames": 1023,
+        "camera_duration_s": 35.275862068965516,
+        "scorer_source_sha256": "634402b49e1e73b265dfb80f497da3022684cf4f803c72eb456ff64984f23c61",
+        "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+        "input_truth_condition": "predicted_detections_and_IDs",
+        "camera_status_frames": {
+          "unobserved": 1,
+          "unreliable": 15,
+          "background_similarity": 1007
+        },
+        "bearing_angle_strata": "unavailable: no verified intrinsics; normalized pixel offset reported instead",
+        "cadence_sample_dt_s": 0.03448275862069039,
+        "methods": {
+          "bauer_disc": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16529,
+              "unobserved": 15554
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "missing_verified_intrinsics": 539,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "lai_lin": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16462,
+              "unobserved": 15554,
+              "potential_conflict": 67
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 501,
+              "apparent_nonconflict": 948,
+              "untracked": 15,
+              "potential_conflict": 1
+            },
+            "reason_codes": {
+              "history": 11,
+              "published_risk_index_bbox_area_adaptation": 949,
+              "unresolved_camera_rotation_translation": 948,
+              "association_ambiguous": 485,
+              "confirm_warning": 1,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 17,
+            "all_predicted_warning_episodes_per_camera_hour": 1734.8973607038124,
+            "warning_reference_events": []
+          },
+          "airtrack_cues": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16529,
+              "unobserved": 15554
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "cue_only_no_published_collision_classifier": 539,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "wcv_taumod": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16529,
+              "unobserved": 15554
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "missing_verified_metric_relative_state": 960,
+              "association_ambiguous": 485,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "rv_c3bf": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16529,
+              "unobserved": 15554
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "missing_calibrated_derotated_target_feature_flow": 960,
+              "association_ambiguous": 485,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "log": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16529,
+              "unobserved": 15554
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1154,
+              "untracked": 15,
+              "apparent_nonconflict": 296
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "camera": 46,
+              "crossing": 156,
+              "unresolved_camera_rotation_translation": 296,
+              "overlap": 15,
+              "growth_unresolved": 146,
+              "crossing_no_growth": 140,
+              "clipped_measurement": 5,
+              "shrink_ambiguous": 36
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "projective": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16529,
+              "unobserved": 15554
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1279,
+              "untracked": 15,
+              "apparent_nonconflict": 171
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "camera": 46,
+              "crossing": 171,
+              "unresolved_camera_rotation_translation": 171,
+              "growth_unresolved": 282,
+              "clipped_measurement": 5,
+              "shrink_ambiguous": 40
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "bounded": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16529,
+              "unobserved": 15554
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "camera": 46,
+              "bounded_infeasible": 493,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "calibrated": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16529,
+              "unobserved": 15554
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "missing_verified_intrinsics": 539,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "growth": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16529,
+              "unobserved": 15554
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 421,
+              "association_ambiguous": 485,
+              "trivial_constant_bearing_growth": 539,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          }
+        },
+        "paired_bbox_log_scale_increment_error_rms": 0.08873845060014952,
+        "scale_increment_pairs": 1441,
+        "scale_increment_scope": "consecutive matched GT object, same predicted ID, delta <= .2 s; no cadence normalization",
+        "truth_tier": "B: recorded 2D geometry and per-clip identity, no physical collision/CPA truth",
+        "GT_join": "offline only, fresh measured boxes, cardinality-first Hungarian IoU>=.5",
+        "warning_precision_or_collision_recall": null
+      },
+      "KLT_similarity": {
+        "sequence": "Clip_032",
+        "source_trace_sha256": "ce271d267f732ae9f6aa94466251f9478432205a63527833fe9d01f5870660cf",
+        "frames": 1023,
+        "camera_duration_s": 35.275862068965516,
+        "scorer_source_sha256": "634402b49e1e73b265dfb80f497da3022684cf4f803c72eb456ff64984f23c61",
+        "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+        "input_truth_condition": "predicted_detections_and_IDs",
+        "camera_status_frames": {
+          "unobserved": 1,
+          "unreliable": 15,
+          "background_similarity": 1007
+        },
+        "bearing_angle_strata": "unavailable: no verified intrinsics; normalized pixel offset reported instead",
+        "cadence_sample_dt_s": 0.03448275862069039,
+        "methods": {
+          "bauer_disc": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16155,
+              "unobserved": 13411
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 564,
+              "association_ambiguous": 485,
+              "missing_verified_intrinsics": 396,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "lai_lin": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16150,
+              "unobserved": 13411,
+              "potential_conflict": 5
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 509,
+              "apparent_nonconflict": 941,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 19,
+              "published_risk_index_bbox_area_adaptation": 941,
+              "unresolved_camera_rotation_translation": 941,
+              "association_ambiguous": 485,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 3,
+            "all_predicted_warning_episodes_per_camera_hour": 306.158357771261,
+            "warning_reference_events": []
+          },
+          "airtrack_cues": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16155,
+              "unobserved": 13411
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 564,
+              "association_ambiguous": 485,
+              "cue_only_no_published_collision_classifier": 396,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "wcv_taumod": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16155,
+              "unobserved": 13411
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "missing_verified_metric_relative_state": 960,
+              "association_ambiguous": 485,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "rv_c3bf": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16155,
+              "unobserved": 13411
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "missing_calibrated_derotated_target_feature_flow": 960,
+              "association_ambiguous": 485,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "log": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16155,
+              "unobserved": 13411
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1155,
+              "untracked": 15,
+              "apparent_nonconflict": 295
+            },
+            "reason_codes": {
+              "history": 564,
+              "association_ambiguous": 485,
+              "camera": 2,
+              "crossing": 86,
+              "unresolved_camera_rotation_translation": 295,
+              "growth_unresolved": 38,
+              "crossing_no_growth": 209,
+              "shrink_ambiguous": 61,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "projective": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16155,
+              "unobserved": 13411
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1377,
+              "untracked": 15,
+              "apparent_nonconflict": 73
+            },
+            "reason_codes": {
+              "history": 564,
+              "association_ambiguous": 485,
+              "camera": 2,
+              "crossing": 73,
+              "unresolved_camera_rotation_translation": 73,
+              "growth_unresolved": 268,
+              "shrink_ambiguous": 53,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "bounded": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16155,
+              "unobserved": 13411
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 564,
+              "association_ambiguous": 485,
+              "camera": 2,
+              "bounded_infeasible": 340,
+              "growth_unresolved": 54,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "calibrated": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16155,
+              "unobserved": 13411
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 564,
+              "association_ambiguous": 485,
+              "missing_verified_intrinsics": 396,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "growth": {
+            "target_frame_opportunities": 1465,
+            "states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 16155,
+              "unobserved": 13411
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.010238907849829351,
+            "raw_candidate_states": {
+              "uncertain": 1450,
+              "untracked": 15
+            },
+            "reason_codes": {
+              "history": 564,
+              "association_ambiguous": 485,
+              "trivial_constant_bearing_growth": 396,
+              "clipped_measurement": 5
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 592,
+                "untracked": 11
+              },
+              "camera/unobserved": {
+                "uncertain": 1
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 1048,
+                "untracked": 11
+              },
+              "confidence/.1-.299": {
+                "uncertain": 9
+              },
+              "camera/unreliable": {
+                "uncertain": 18
+              },
+              "confidence/>=.3": {
+                "uncertain": 1437
+              },
+              "camera/background_similarity": {
+                "uncertain": 1431,
+                "untracked": 15
+              },
+              "pixel_span/16-31": {
+                "uncertain": 858,
+                "untracked": 4
+              },
+              "confidence/missing": {
+                "untracked": 15
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "uncertain": 402,
+                "untracked": 4
+              },
+              "confidence/<.1": {
+                "uncertain": 4
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          }
+        },
+        "paired_bbox_log_scale_increment_error_rms": 0.08873845060014952,
+        "scale_increment_pairs": 1441,
+        "scale_increment_scope": "consecutive matched GT object, same predicted ID, delta <= .2 s; no cadence normalization",
+        "truth_tier": "B: recorded 2D geometry and per-clip identity, no physical collision/CPA truth",
+        "GT_join": "offline only, fresh measured boxes, cardinality-first Hungarian IoU>=.5",
+        "warning_precision_or_collision_recall": null
+      }
+    },
+    "Clip_043": {
+      "identical_predicted_observation_frames": 803,
+      "camera_trace_sha256": "d79047eab235b4513f4b0df5c9005743e30cd4e75c4cfe4ffece335a1d46438e",
+      "normal_trace_sha256": "c888cc8987ad83f211355ea9c6b6944af7411fc96b7a453ed2423785b35863ae",
+      "replay": {
+        "source_trace_sha256": "d79047eab235b4513f4b0df5c9005743e30cd4e75c4cfe4ffece335a1d46438e",
+        "source_trace": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\camera_orb\\Clip_043.jsonl",
+        "output_trace_sha256": "0a8849ffbbdff2a81bdc301c8262b385c2a71332fdf69c2e9faa0ea4c4f9ffd4",
+        "assessment_source_sha256": "3e8d933b15ea504bac7edff7ceab8b400bc62135aa71cc1ddde872c839fa865f",
+        "replay_source_sha256": "574d3f6b6fc8afc4d057b70333bc437e31c3c1bbda605afd87d82594caa411fb",
+        "methods": [
+          "bauer_disc",
+          "lai_lin",
+          "airtrack_cues",
+          "wcv_taumod",
+          "rv_c3bf",
+          "log",
+          "projective",
+          "bounded",
+          "calibrated",
+          "growth"
+        ],
+        "frames": 803,
+        "camera_model": "homography",
+        "camera_correction_scope": "background image plane only; no 3D rotation/translation disambiguation",
+        "extent_correction": "raw=1; similarity=sqrt(abs(det(A))); homography=sqrt(abs(det(local point Jacobian))) area-equivalent span adaptation",
+        "counts_predicted_track_samples": {
+          "bauer_disc": {
+            "uncertain": 10643,
+            "unobserved": 11987
+          },
+          "lai_lin": {
+            "uncertain": 10614,
+            "unobserved": 11987,
+            "potential_conflict": 29
+          },
+          "airtrack_cues": {
+            "uncertain": 10643,
+            "unobserved": 11987
+          },
+          "wcv_taumod": {
+            "uncertain": 10643,
+            "unobserved": 11987
+          },
+          "rv_c3bf": {
+            "uncertain": 10643,
+            "unobserved": 11987
+          },
+          "log": {
+            "uncertain": 10643,
+            "unobserved": 11987
+          },
+          "projective": {
+            "uncertain": 10643,
+            "unobserved": 11987
+          },
+          "bounded": {
+            "uncertain": 10643,
+            "unobserved": 11987
+          },
+          "calibrated": {
+            "uncertain": 10643,
+            "unobserved": 11987
+          },
+          "growth": {
+            "uncertain": 10641,
+            "unobserved": 11987,
+            "potential_conflict": 2
+          }
+        },
+        "elapsed_replay_s": 5.080584899988025,
+        "runtime_scope": "cached observations only; not neural-inference FPS",
+        "policy": {
+          "warning_seconds": 0.24,
+          "nonconflict_seconds": 1.2,
+          "lost_or_uncertain_resets": true
+        },
+        "method_assessment_ms": {
+          "bauer_disc": {
+            "p50": 0.0016999547369778156,
+            "p95": 0.009600014891475439,
+            "p99": 0.08669996168464422
+          },
+          "lai_lin": {
+            "p50": 0.001500011421740055,
+            "p95": 0.026500027161091566,
+            "p99": 0.044199987314641476
+          },
+          "airtrack_cues": {
+            "p50": 0.0014999532140791416,
+            "p95": 0.005800044164061546,
+            "p99": 0.12600002810359
+          },
+          "wcv_taumod": {
+            "p50": 0.001500011421740055,
+            "p95": 0.00500003807246685,
+            "p99": 0.021370988106354984
+          },
+          "rv_c3bf": {
+            "p50": 0.001500011421740055,
+            "p95": 0.004755004192702399,
+            "p99": 0.018900027498602867
+          },
+          "log": {
+            "p50": 0.001500011421740055,
+            "p95": 0.00505500647705041,
+            "p99": 1.051770992926322
+          },
+          "projective": {
+            "p50": 0.0014999532140791416,
+            "p95": 0.00500003807246685,
+            "p99": 1.4844840113073583
+          },
+          "bounded": {
+            "p50": 0.001500011421740055,
+            "p95": 0.005100038833916187,
+            "p99": 1.1683999910019338
+          },
+          "calibrated": {
+            "p50": 0.001400010660290718,
+            "p95": 0.005200039595365524,
+            "p99": 0.11301298742182526
+          },
+          "growth": {
+            "p50": 0.001500011421740055,
+            "p95": 0.006399990525096655,
+            "p99": 0.14409999130293727
+          }
+        },
+        "raw_published_candidates_retained": true,
+        "confidence_calibration": null,
+        "ignored_predicted_observations": 0
+      },
+      "ORB_homography": {
+        "sequence": "Clip_043",
+        "source_trace_sha256": "0a8849ffbbdff2a81bdc301c8262b385c2a71332fdf69c2e9faa0ea4c4f9ffd4",
+        "frames": 803,
+        "camera_duration_s": 27.795084804430598,
+        "scorer_source_sha256": "634402b49e1e73b265dfb80f497da3022684cf4f803c72eb456ff64984f23c61",
+        "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+        "input_truth_condition": "predicted_detections_and_IDs",
+        "camera_status_frames": {
+          "ORB_unresolved": 1,
+          "ORB_background_plane": 802
+        },
+        "bearing_angle_strata": "unavailable: no verified intrinsics; normalized pixel offset reported instead",
+        "cadence_sample_dt_s": 0.034614053305642045,
+        "methods": {
+          "bauer_disc": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10643,
+              "unobserved": 11987
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "missing_verified_intrinsics": 144,
+              "clipped_measurement": 1,
+              "tiny_measurements": 29
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1031,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "lai_lin": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1008,
+              "untracked": 238,
+              "potential_conflict": 23
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10614,
+              "unobserved": 11987,
+              "potential_conflict": 29
+            },
+            "decisive_coverage": 0.018124507486209612,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "apparent_nonconflict": 408,
+              "uncertain": 589,
+              "untracked": 238,
+              "potential_conflict": 34
+            },
+            "reason_codes": {
+              "published_risk_index_bbox_area_adaptation": 442,
+              "unresolved_camera_rotation_translation": 408,
+              "association_ambiguous": 579,
+              "history": 9,
+              "confirm_warning": 11,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1008,
+                "untracked": 238,
+                "potential_conflict": 23
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 466,
+                "untracked": 57,
+                "potential_conflict": 23
+              },
+              "confidence/.1-.299": {
+                "uncertain": 82,
+                "potential_conflict": 6
+              },
+              "confidence/>=.3": {
+                "uncertain": 877,
+                "potential_conflict": 17
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 18,
+                "potential_conflict": 23
+              }
+            },
+            "all_predicted_warning_episodes": 6,
+            "all_predicted_warning_episodes_per_camera_hour": 777.1158156911582,
+            "warning_reference_events": [
+              {
+                "gt_id": 7,
+                "first_warning_s": 25.891311872620285,
+                "after_first_label_s": 0.24229837313949787,
+                "before_last_label_s": 0.796123226029767,
+                "warning_samples": 23,
+                "warning_duration_s": 0.796123226029767,
+                "longest_contiguous_warning_s": 0.796123226029767,
+                "reference": "first/last visible annotation, not impact"
+              }
+            ]
+          },
+          "airtrack_cues": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10643,
+              "unobserved": 11987
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "cue_only_no_published_collision_classifier": 144,
+              "clipped_measurement": 1,
+              "tiny_measurements": 29
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1031,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "wcv_taumod": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10643,
+              "unobserved": 11987
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "missing_verified_metric_relative_state": 451,
+              "association_ambiguous": 579,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1031,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "rv_c3bf": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10643,
+              "unobserved": 11987
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "missing_calibrated_derotated_target_feature_flow": 451,
+              "association_ambiguous": 579,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1031,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "log": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10643,
+              "unobserved": 11987
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 945,
+              "untracked": 238,
+              "apparent_nonconflict": 86
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "growth_unresolved": 57,
+              "clipped_measurement": 1,
+              "tiny_measurements": 29,
+              "crossing": 86,
+              "unresolved_camera_rotation_translation": 86,
+              "shrink_ambiguous": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1031,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "projective": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10643,
+              "unobserved": 11987
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 942,
+              "untracked": 238,
+              "apparent_nonconflict": 89
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "growth_unresolved": 53,
+              "clipped_measurement": 1,
+              "tiny_measurements": 29,
+              "crossing": 89,
+              "unresolved_camera_rotation_translation": 89,
+              "shrink_ambiguous": 2
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1031,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "bounded": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10643,
+              "unobserved": 11987
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "bounded_infeasible": 144,
+              "clipped_measurement": 1,
+              "tiny_measurements": 29
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1031,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "calibrated": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10643,
+              "unobserved": 11987
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "missing_verified_intrinsics": 144,
+              "clipped_measurement": 1,
+              "tiny_measurements": 29
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1031,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "growth": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10641,
+              "unobserved": 11987,
+              "potential_conflict": 2
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "trivial_constant_bearing_growth": 144,
+              "clipped_measurement": 1,
+              "tiny_measurements": 29
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/ORB_background_plane": {
+                "uncertain": 1031,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              }
+            },
+            "all_predicted_warning_episodes": 1,
+            "all_predicted_warning_episodes_per_camera_hour": 129.51930261519303,
+            "warning_reference_events": []
+          }
+        },
+        "paired_bbox_log_scale_increment_error_rms": 0.09960887746071925,
+        "scale_increment_pairs": 997,
+        "scale_increment_scope": "consecutive matched GT object, same predicted ID, delta <= .2 s; no cadence normalization",
+        "truth_tier": "B: recorded 2D geometry and per-clip identity, no physical collision/CPA truth",
+        "GT_join": "offline only, fresh measured boxes, cardinality-first Hungarian IoU>=.5",
+        "warning_precision_or_collision_recall": null
+      },
+      "raw": {
+        "sequence": "Clip_043",
+        "source_trace_sha256": "2ee116449dcf292c18c3e6f854c796822aa150a5076a4100d583aedda9dfcd57",
+        "frames": 803,
+        "camera_duration_s": 27.795084804430598,
+        "scorer_source_sha256": "634402b49e1e73b265dfb80f497da3022684cf4f803c72eb456ff64984f23c61",
+        "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+        "input_truth_condition": "predicted_detections_and_IDs",
+        "camera_status_frames": {
+          "unobserved": 1,
+          "background_similarity": 783,
+          "unreliable": 19
+        },
+        "bearing_angle_strata": "unavailable: no verified intrinsics; normalized pixel offset reported instead",
+        "cadence_sample_dt_s": 0.034614053305642045,
+        "methods": {
+          "bauer_disc": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10665,
+              "unobserved": 12019
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "missing_verified_intrinsics": 173,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "lai_lin": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 932,
+              "untracked": 238,
+              "potential_conflict": 99
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10509,
+              "unobserved": 12019,
+              "potential_conflict": 156
+            },
+            "decisive_coverage": 0.07801418439716312,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "apparent_nonconflict": 307,
+              "uncertain": 589,
+              "untracked": 238,
+              "potential_conflict": 135
+            },
+            "reason_codes": {
+              "published_risk_index_bbox_area_adaptation": 442,
+              "unresolved_camera_rotation_translation": 307,
+              "association_ambiguous": 579,
+              "history": 9,
+              "clipped_measurement": 1,
+              "confirm_warning": 36
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 894,
+                "untracked": 233,
+                "potential_conflict": 96
+              },
+              "camera/background_similarity": {
+                "uncertain": 924,
+                "untracked": 238,
+                "potential_conflict": 99
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 486,
+                "untracked": 57,
+                "potential_conflict": 3
+              },
+              "confidence/.1-.299": {
+                "uncertain": 75,
+                "potential_conflict": 13
+              },
+              "confidence/>=.3": {
+                "uncertain": 814,
+                "potential_conflict": 80
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 360,
+                "potential_conflict": 21
+              },
+              "confidence/<.1": {
+                "uncertain": 43,
+                "potential_conflict": 6
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 86,
+                "potential_conflict": 75
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 38,
+                "potential_conflict": 3
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 21,
+            "all_predicted_warning_episodes_per_camera_hour": 2719.9053549190535,
+            "warning_reference_events": [
+              {
+                "gt_id": 4,
+                "first_warning_s": 18.137763932156457,
+                "after_first_label_s": 3.2191069574247155,
+                "before_last_label_s": 4.638283142956038,
+                "warning_samples": 96,
+                "warning_duration_s": 3.3229491173416363,
+                "longest_contiguous_warning_s": 2.8383523710626513,
+                "reference": "first/last visible annotation, not impact"
+              },
+              {
+                "gt_id": 7,
+                "first_warning_s": 25.925925925925927,
+                "after_first_label_s": 0.2769124264451399,
+                "before_last_label_s": 0.761509172724125,
+                "warning_samples": 3,
+                "warning_duration_s": 0.10384215991692614,
+                "longest_contiguous_warning_s": 0.10384215991692614,
+                "reference": "first/last visible annotation, not impact"
+              }
+            ]
+          },
+          "airtrack_cues": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10665,
+              "unobserved": 12019
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "cue_only_no_published_collision_classifier": 173,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "wcv_taumod": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10665,
+              "unobserved": 12019
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "missing_verified_metric_relative_state": 451,
+              "association_ambiguous": 579,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "rv_c3bf": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10665,
+              "unobserved": 12019
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "missing_calibrated_derotated_target_feature_flow": 451,
+              "association_ambiguous": 579,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "log": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10665,
+              "unobserved": 12019
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 944,
+              "untracked": 238,
+              "apparent_nonconflict": 87
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "growth_unresolved": 86,
+              "clipped_measurement": 1,
+              "crossing": 87,
+              "unresolved_camera_rotation_translation": 87
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "projective": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10665,
+              "unobserved": 12019
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 946,
+              "untracked": 238,
+              "apparent_nonconflict": 85
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "growth_unresolved": 88,
+              "clipped_measurement": 1,
+              "crossing": 85,
+              "unresolved_camera_rotation_translation": 85
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "bounded": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10665,
+              "unobserved": 12019
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "bounded_infeasible": 173,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "calibrated": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10665,
+              "unobserved": 12019
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "missing_verified_intrinsics": 173,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "growth": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10665,
+              "unobserved": 12019
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 278,
+              "association_ambiguous": 579,
+              "trivial_constant_bearing_growth": 173,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          }
+        },
+        "paired_bbox_log_scale_increment_error_rms": 0.09960887746071925,
+        "scale_increment_pairs": 997,
+        "scale_increment_scope": "consecutive matched GT object, same predicted ID, delta <= .2 s; no cadence normalization",
+        "truth_tier": "B: recorded 2D geometry and per-clip identity, no physical collision/CPA truth",
+        "GT_join": "offline only, fresh measured boxes, cardinality-first Hungarian IoU>=.5",
+        "warning_precision_or_collision_recall": null
+      },
+      "KLT_similarity": {
+        "sequence": "Clip_043",
+        "source_trace_sha256": "bd3b561646ee948a887ccebd92ce1cdc7fa171159de23fc4acca9670df4032a0",
+        "frames": 803,
+        "camera_duration_s": 27.795084804430598,
+        "scorer_source_sha256": "634402b49e1e73b265dfb80f497da3022684cf4f803c72eb456ff64984f23c61",
+        "offline_matcher_source_sha256": "89d683b8832530bb8b6da9ac4a4113088d20cc0a43e0f47cadddb4e2b59d6b91",
+        "input_truth_condition": "predicted_detections_and_IDs",
+        "camera_status_frames": {
+          "unobserved": 1,
+          "background_similarity": 783,
+          "unreliable": 19
+        },
+        "bearing_angle_strata": "unavailable: no verified intrinsics; normalized pixel offset reported instead",
+        "cadence_sample_dt_s": 0.034614053305642045,
+        "methods": {
+          "bauer_disc": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10495,
+              "unobserved": 10764
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 354,
+              "association_ambiguous": 579,
+              "missing_verified_intrinsics": 97,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "lai_lin": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1024,
+              "untracked": 238,
+              "potential_conflict": 7
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10465,
+              "unobserved": 10764,
+              "potential_conflict": 30
+            },
+            "decisive_coverage": 0.005516154452324665,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "apparent_nonconflict": 358,
+              "uncertain": 592,
+              "untracked": 238,
+              "potential_conflict": 81
+            },
+            "reason_codes": {
+              "published_risk_index_bbox_area_adaptation": 439,
+              "unresolved_camera_rotation_translation": 358,
+              "association_ambiguous": 579,
+              "history": 12,
+              "confirm_warning": 74,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 983,
+                "untracked": 233,
+                "potential_conflict": 7
+              },
+              "camera/background_similarity": {
+                "uncertain": 1016,
+                "untracked": 238,
+                "potential_conflict": 7
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 887,
+                "potential_conflict": 7
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 154,
+                "potential_conflict": 7
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 17,
+            "all_predicted_warning_episodes_per_camera_hour": 2201.8281444582817,
+            "warning_reference_events": [
+              {
+                "gt_id": 4,
+                "first_warning_s": 19.106957424714434,
+                "after_first_label_s": 4.188300449982693,
+                "before_last_label_s": 3.6690896503980603,
+                "warning_samples": 7,
+                "warning_duration_s": 0.24229837313949432,
+                "longest_contiguous_warning_s": 0.24229837313949432,
+                "reference": "first/last visible annotation, not impact"
+              }
+            ]
+          },
+          "airtrack_cues": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10495,
+              "unobserved": 10764
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 354,
+              "association_ambiguous": 579,
+              "cue_only_no_published_collision_classifier": 97,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "wcv_taumod": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10495,
+              "unobserved": 10764
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "missing_verified_metric_relative_state": 451,
+              "association_ambiguous": 579,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "rv_c3bf": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10495,
+              "unobserved": 10764
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "missing_calibrated_derotated_target_feature_flow": 451,
+              "association_ambiguous": 579,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "log": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10495,
+              "unobserved": 10764
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 968,
+              "untracked": 238,
+              "apparent_nonconflict": 63
+            },
+            "reason_codes": {
+              "history": 354,
+              "association_ambiguous": 579,
+              "growth_unresolved": 34,
+              "clipped_measurement": 1,
+              "crossing": 63,
+              "unresolved_camera_rotation_translation": 63
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "projective": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10495,
+              "unobserved": 10764
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 966,
+              "untracked": 238,
+              "apparent_nonconflict": 65
+            },
+            "reason_codes": {
+              "history": 354,
+              "association_ambiguous": 579,
+              "growth_unresolved": 32,
+              "clipped_measurement": 1,
+              "crossing": 65,
+              "unresolved_camera_rotation_translation": 65
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "bounded": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10495,
+              "unobserved": 10764
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 354,
+              "association_ambiguous": 579,
+              "bounded_infeasible": 97,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "calibrated": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10495,
+              "unobserved": 10764
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 354,
+              "association_ambiguous": 579,
+              "missing_verified_intrinsics": 97,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 0,
+            "all_predicted_warning_episodes_per_camera_hour": 0.0,
+            "warning_reference_events": []
+          },
+          "growth": {
+            "target_frame_opportunities": 1269,
+            "states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "states_denominator": "visible GT target-frame opportunities; untracked means no fresh measured IoU>=.5 match, not necessarily absence of a stale hypothesis",
+            "all_predicted_track_sample_states": {
+              "uncertain": 10494,
+              "unobserved": 10764,
+              "potential_conflict": 1
+            },
+            "decisive_coverage": 0.0,
+            "untracked_fraction": 0.1875492513790386,
+            "raw_candidate_states": {
+              "uncertain": 1031,
+              "untracked": 238
+            },
+            "reason_codes": {
+              "history": 354,
+              "association_ambiguous": 579,
+              "trivial_constant_bearing_growth": 97,
+              "clipped_measurement": 1
+            },
+            "strata": {
+              "pixel_span/<16": {
+                "uncertain": 990,
+                "untracked": 233
+              },
+              "camera/background_similarity": {
+                "uncertain": 1023,
+                "untracked": 238
+              },
+              "normalized_pixel_offset/>=.7": {
+                "uncertain": 489,
+                "untracked": 57
+              },
+              "confidence/.1-.299": {
+                "uncertain": 88
+              },
+              "confidence/>=.3": {
+                "uncertain": 894
+              },
+              "confidence/missing": {
+                "untracked": 238
+              },
+              "normalized_pixel_offset/.3-.699": {
+                "untracked": 139,
+                "uncertain": 381
+              },
+              "confidence/<.1": {
+                "uncertain": 49
+              },
+              "normalized_pixel_offset/<.3": {
+                "untracked": 42,
+                "uncertain": 161
+              },
+              "pixel_span/16-31": {
+                "untracked": 5,
+                "uncertain": 41
+              },
+              "camera/unreliable": {
+                "uncertain": 8
+              }
+            },
+            "all_predicted_warning_episodes": 1,
+            "all_predicted_warning_episodes_per_camera_hour": 129.51930261519303,
+            "warning_reference_events": []
+          }
+        },
+        "paired_bbox_log_scale_increment_error_rms": 0.09960887746071925,
+        "scale_increment_pairs": 997,
+        "scale_increment_scope": "consecutive matched GT object, same predicted ID, delta <= .2 s; no cadence normalization",
+        "truth_tier": "B: recorded 2D geometry and per-clip identity, no physical collision/CPA truth",
+        "GT_join": "offline only, fresh measured boxes, cardinality-first Hungarian IoU>=.5",
+        "warning_precision_or_collision_recall": null
+      }
+    }
+  },
+  "claim_scope": "background-plane camera hypothesis only; no recovered camera rotation or target depth",
+  "truth": "NPS 2D identity/boxes only; no physical collision accuracy"
+}

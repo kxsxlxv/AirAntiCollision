@@ -1,0 +1,35 @@
+{
+  "algorithm": "ORB1000/BF-Hamming ratio .75/RANSAC2px; >=20inliers, >=.5fraction, >.08coverage; 640pxwide",
+  "source": "independent implementation using OpenCV primitives; not Purdue author-code reproduction",
+  "scope": "plane consistency diagnostic only; no rotation/translation separation",
+  "clips": {
+    "Clip_032": {
+      "frames": 1023,
+      "camera_status": {
+        "ORB_unresolved": 1,
+        "ORB_background_plane": 1022
+      },
+      "source_track_sha256": "488daa14ca88edebe7c19d45739d8e999e340c7ddd3f54800fd0846fc667634c",
+      "detector_mask_sha256": "3921c9c59efa72f99804ba886181db1154fba9992af322f2e1b970a68ce7361b",
+      "output_trace_sha256": "65708bf570117b674f0abe96bc9f5a4cc2e406c98393c6142b883a29aa264c2e",
+      "median_background_inlier_residual_px_at640": 0.6168217769787985,
+      "elapsed_replay_s": 14.156728000030853,
+      "GT_used_by_motion_estimator": false,
+      "target_true_bearing_error": "unmeasured without calibration/attitude truth"
+    },
+    "Clip_043": {
+      "frames": 803,
+      "camera_status": {
+        "ORB_unresolved": 1,
+        "ORB_background_plane": 802
+      },
+      "source_track_sha256": "c888cc8987ad83f211355ea9c6b6944af7411fc96b7a453ed2423785b35863ae",
+      "detector_mask_sha256": "fa1c156c42ba0c6500cc46db3166980999bfedcef8759fe978da775792c1dee7",
+      "output_trace_sha256": "d79047eab235b4513f4b0df5c9005743e30cd4e75c4cfe4ffece335a1d46438e",
+      "median_background_inlier_residual_px_at640": 0.6183138183726518,
+      "elapsed_replay_s": 14.514379200001713,
+      "GT_used_by_motion_estimator": false,
+      "target_true_bearing_error": "unmeasured without calibration/attitude truth"
+    }
+  }
+}

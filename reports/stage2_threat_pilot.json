@@ -1,0 +1,512 @@
+{
+  "sequence": "Clip_001",
+  "source_trace_sha256": "64b5d694238c987739f00c81eac7eea7a6c8e92e440ce807e59ad8b391d869b6",
+  "frames": 309,
+  "camera_duration_s": 10.31031031031031,
+  "camera_status_frames": {
+    "unobserved": 1,
+    "background_similarity": 277,
+    "unreliable": 31
+  },
+  "bearing_angle_strata": "unavailable: no verified intrinsics",
+  "cadence_sample_dt_s": 0.033366700033366725,
+  "methods": {
+    "bauer_disc": {
+      "target_frame_opportunities": 243,
+      "states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "raw_candidate_states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "reason_codes": {
+        "association_ambiguous": 203,
+        "history": 33,
+        "clipped_measurement": 1
+      },
+      "strata": {
+        "pixel_span/<16": {
+          "uncertain": 195,
+          "untracked": 5
+        },
+        "camera/background_similarity": {
+          "uncertain": 210,
+          "untracked": 4
+        },
+        "confidence/>=.3": {
+          "uncertain": 233
+        },
+        "camera/unreliable": {
+          "untracked": 2,
+          "uncertain": 27
+        },
+        "confidence/missing": {
+          "untracked": 6
+        },
+        "confidence/.1-.299": {
+          "uncertain": 3
+        },
+        "pixel_span/16-31": {
+          "uncertain": 42,
+          "untracked": 1
+        },
+        "confidence/<.1": {
+          "uncertain": 1
+        }
+      },
+      "all_predicted_warning_episodes": 0,
+      "all_predicted_warning_episodes_per_camera_hour": 0.0,
+      "warning_reference_events": []
+    },
+    "lai_lin": {
+      "target_frame_opportunities": 243,
+      "states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "raw_candidate_states": {
+        "uncertain": 206,
+        "untracked": 6,
+        "apparent_nonconflict": 31
+      },
+      "reason_codes": {
+        "association_ambiguous": 203,
+        "history": 2,
+        "published_risk_index_bbox_area_adaptation": 31,
+        "unresolved_camera_rotation_translation": 31,
+        "clipped_measurement": 1
+      },
+      "strata": {
+        "pixel_span/<16": {
+          "uncertain": 195,
+          "untracked": 5
+        },
+        "camera/background_similarity": {
+          "uncertain": 210,
+          "untracked": 4
+        },
+        "confidence/>=.3": {
+          "uncertain": 233
+        },
+        "camera/unreliable": {
+          "untracked": 2,
+          "uncertain": 27
+        },
+        "confidence/missing": {
+          "untracked": 6
+        },
+        "confidence/.1-.299": {
+          "uncertain": 3
+        },
+        "pixel_span/16-31": {
+          "uncertain": 42,
+          "untracked": 1
+        },
+        "confidence/<.1": {
+          "uncertain": 1
+        }
+      },
+      "all_predicted_warning_episodes": 1,
+      "all_predicted_warning_episodes_per_camera_hour": 349.16504854368935,
+      "warning_reference_events": []
+    },
+    "airtrack_cues": {
+      "target_frame_opportunities": 243,
+      "states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "raw_candidate_states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "reason_codes": {
+        "association_ambiguous": 203,
+        "history": 33,
+        "clipped_measurement": 1
+      },
+      "strata": {
+        "pixel_span/<16": {
+          "uncertain": 195,
+          "untracked": 5
+        },
+        "camera/background_similarity": {
+          "uncertain": 210,
+          "untracked": 4
+        },
+        "confidence/>=.3": {
+          "uncertain": 233
+        },
+        "camera/unreliable": {
+          "untracked": 2,
+          "uncertain": 27
+        },
+        "confidence/missing": {
+          "untracked": 6
+        },
+        "confidence/.1-.299": {
+          "uncertain": 3
+        },
+        "pixel_span/16-31": {
+          "uncertain": 42,
+          "untracked": 1
+        },
+        "confidence/<.1": {
+          "uncertain": 1
+        }
+      },
+      "all_predicted_warning_episodes": 0,
+      "all_predicted_warning_episodes_per_camera_hour": 0.0,
+      "warning_reference_events": []
+    },
+    "wcv_taumod": {
+      "target_frame_opportunities": 243,
+      "states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "raw_candidate_states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "reason_codes": {
+        "association_ambiguous": 203,
+        "missing_verified_metric_relative_state": 33,
+        "clipped_measurement": 1
+      },
+      "strata": {
+        "pixel_span/<16": {
+          "uncertain": 195,
+          "untracked": 5
+        },
+        "camera/background_similarity": {
+          "uncertain": 210,
+          "untracked": 4
+        },
+        "confidence/>=.3": {
+          "uncertain": 233
+        },
+        "camera/unreliable": {
+          "untracked": 2,
+          "uncertain": 27
+        },
+        "confidence/missing": {
+          "untracked": 6
+        },
+        "confidence/.1-.299": {
+          "uncertain": 3
+        },
+        "pixel_span/16-31": {
+          "uncertain": 42,
+          "untracked": 1
+        },
+        "confidence/<.1": {
+          "uncertain": 1
+        }
+      },
+      "all_predicted_warning_episodes": 0,
+      "all_predicted_warning_episodes_per_camera_hour": 0.0,
+      "warning_reference_events": []
+    },
+    "rv_c3bf": {
+      "target_frame_opportunities": 243,
+      "states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "raw_candidate_states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "reason_codes": {
+        "association_ambiguous": 203,
+        "missing_calibrated_derotated_target_feature_flow": 33,
+        "clipped_measurement": 1
+      },
+      "strata": {
+        "pixel_span/<16": {
+          "uncertain": 195,
+          "untracked": 5
+        },
+        "camera/background_similarity": {
+          "uncertain": 210,
+          "untracked": 4
+        },
+        "confidence/>=.3": {
+          "uncertain": 233
+        },
+        "camera/unreliable": {
+          "untracked": 2,
+          "uncertain": 27
+        },
+        "confidence/missing": {
+          "untracked": 6
+        },
+        "confidence/.1-.299": {
+          "uncertain": 3
+        },
+        "pixel_span/16-31": {
+          "uncertain": 42,
+          "untracked": 1
+        },
+        "confidence/<.1": {
+          "uncertain": 1
+        }
+      },
+      "all_predicted_warning_episodes": 0,
+      "all_predicted_warning_episodes_per_camera_hour": 0.0,
+      "warning_reference_events": []
+    },
+    "log": {
+      "target_frame_opportunities": 243,
+      "states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "raw_candidate_states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "reason_codes": {
+        "association_ambiguous": 203,
+        "history": 33,
+        "clipped_measurement": 1
+      },
+      "strata": {
+        "pixel_span/<16": {
+          "uncertain": 195,
+          "untracked": 5
+        },
+        "camera/background_similarity": {
+          "uncertain": 210,
+          "untracked": 4
+        },
+        "confidence/>=.3": {
+          "uncertain": 233
+        },
+        "camera/unreliable": {
+          "untracked": 2,
+          "uncertain": 27
+        },
+        "confidence/missing": {
+          "untracked": 6
+        },
+        "confidence/.1-.299": {
+          "uncertain": 3
+        },
+        "pixel_span/16-31": {
+          "uncertain": 42,
+          "untracked": 1
+        },
+        "confidence/<.1": {
+          "uncertain": 1
+        }
+      },
+      "all_predicted_warning_episodes": 0,
+      "all_predicted_warning_episodes_per_camera_hour": 0.0,
+      "warning_reference_events": []
+    },
+    "projective": {
+      "target_frame_opportunities": 243,
+      "states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "raw_candidate_states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "reason_codes": {
+        "association_ambiguous": 203,
+        "history": 33,
+        "clipped_measurement": 1
+      },
+      "strata": {
+        "pixel_span/<16": {
+          "uncertain": 195,
+          "untracked": 5
+        },
+        "camera/background_similarity": {
+          "uncertain": 210,
+          "untracked": 4
+        },
+        "confidence/>=.3": {
+          "uncertain": 233
+        },
+        "camera/unreliable": {
+          "untracked": 2,
+          "uncertain": 27
+        },
+        "confidence/missing": {
+          "untracked": 6
+        },
+        "confidence/.1-.299": {
+          "uncertain": 3
+        },
+        "pixel_span/16-31": {
+          "uncertain": 42,
+          "untracked": 1
+        },
+        "confidence/<.1": {
+          "uncertain": 1
+        }
+      },
+      "all_predicted_warning_episodes": 0,
+      "all_predicted_warning_episodes_per_camera_hour": 0.0,
+      "warning_reference_events": []
+    },
+    "bounded": {
+      "target_frame_opportunities": 243,
+      "states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "raw_candidate_states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "reason_codes": {
+        "association_ambiguous": 203,
+        "history": 33,
+        "clipped_measurement": 1
+      },
+      "strata": {
+        "pixel_span/<16": {
+          "uncertain": 195,
+          "untracked": 5
+        },
+        "camera/background_similarity": {
+          "uncertain": 210,
+          "untracked": 4
+        },
+        "confidence/>=.3": {
+          "uncertain": 233
+        },
+        "camera/unreliable": {
+          "untracked": 2,
+          "uncertain": 27
+        },
+        "confidence/missing": {
+          "untracked": 6
+        },
+        "confidence/.1-.299": {
+          "uncertain": 3
+        },
+        "pixel_span/16-31": {
+          "uncertain": 42,
+          "untracked": 1
+        },
+        "confidence/<.1": {
+          "uncertain": 1
+        }
+      },
+      "all_predicted_warning_episodes": 0,
+      "all_predicted_warning_episodes_per_camera_hour": 0.0,
+      "warning_reference_events": []
+    },
+    "calibrated": {
+      "target_frame_opportunities": 243,
+      "states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "raw_candidate_states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "reason_codes": {
+        "association_ambiguous": 203,
+        "history": 33,
+        "clipped_measurement": 1
+      },
+      "strata": {
+        "pixel_span/<16": {
+          "uncertain": 195,
+          "untracked": 5
+        },
+        "camera/background_similarity": {
+          "uncertain": 210,
+          "untracked": 4
+        },
+        "confidence/>=.3": {
+          "uncertain": 233
+        },
+        "camera/unreliable": {
+          "untracked": 2,
+          "uncertain": 27
+        },
+        "confidence/missing": {
+          "untracked": 6
+        },
+        "confidence/.1-.299": {
+          "uncertain": 3
+        },
+        "pixel_span/16-31": {
+          "uncertain": 42,
+          "untracked": 1
+        },
+        "confidence/<.1": {
+          "uncertain": 1
+        }
+      },
+      "all_predicted_warning_episodes": 0,
+      "all_predicted_warning_episodes_per_camera_hour": 0.0,
+      "warning_reference_events": []
+    },
+    "growth": {
+      "target_frame_opportunities": 243,
+      "states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "raw_candidate_states": {
+        "uncertain": 237,
+        "untracked": 6
+      },
+      "reason_codes": {
+        "association_ambiguous": 203,
+        "history": 33,
+        "clipped_measurement": 1
+      },
+      "strata": {
+        "pixel_span/<16": {
+          "uncertain": 195,
+          "untracked": 5
+        },
+        "camera/background_similarity": {
+          "uncertain": 210,
+          "untracked": 4
+        },
+        "confidence/>=.3": {
+          "uncertain": 233
+        },
+        "camera/unreliable": {
+          "untracked": 2,
+          "uncertain": 27
+        },
+        "confidence/missing": {
+          "untracked": 6
+        },
+        "confidence/.1-.299": {
+          "uncertain": 3
+        },
+        "pixel_span/16-31": {
+          "uncertain": 42,
+          "untracked": 1
+        },
+        "confidence/<.1": {
+          "uncertain": 1
+        }
+      },
+      "all_predicted_warning_episodes": 0,
+      "all_predicted_warning_episodes_per_camera_hour": 0.0,
+      "warning_reference_events": []
+    }
+  },
+  "paired_bbox_log_scale_increment_error_rms": 0.1008494287397954,
+  "scale_increment_pairs": 202,
+  "truth_tier": "B: recorded 2D geometry and per-clip identity, no physical collision/CPA truth",
+  "GT_join": "offline only, fresh measured boxes, cardinality-first Hungarian IoU>=.5"
+}

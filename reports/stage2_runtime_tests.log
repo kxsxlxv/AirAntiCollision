@@ -1,0 +1,18 @@
+test_clipped_measurement_cannot_seed_new_area_anchor (test_stage2_runtime.RuntimeTests.test_clipped_measurement_cannot_seed_new_area_anchor) ... ok
+test_five_class_default_and_optin_p2_are_distinct (test_stage2_runtime.RuntimeTests.test_five_class_default_and_optin_p2_are_distinct) ... ok
+test_lai_initial_area_anchor_survives_bounded_recent_history (test_stage2_runtime.RuntimeTests.test_lai_initial_area_anchor_survives_bounded_recent_history) ... ok
+test_low_lai_index_is_not_physical_clearance_even_with_fixed_camera (test_stage2_runtime.RuntimeTests.test_low_lai_index_is_not_physical_clearance_even_with_fixed_camera) ... ok
+test_nominal_point_observer_clearance_needs_aircraft_footprint (test_stage2_runtime.RuntimeTests.test_nominal_point_observer_clearance_needs_aircraft_footprint) ... ok
+test_p2_letterbox_preserves_center_and_pad_for_portraitish_video (test_stage2_runtime.RuntimeTests.test_p2_letterbox_preserves_center_and_pad_for_portraitish_video) ... ok
+test_p2_parser_cannot_silently_accept_five_class_export (test_stage2_runtime.RuntimeTests.test_p2_parser_cannot_silently_accept_five_class_export) ... ok
+test_p2_rejects_incompatible_preprocessing_and_augmentations (test_stage2_runtime.RuntimeTests.test_p2_rejects_incompatible_preprocessing_and_augmentations) ... ok
+test_published_method_requires_explicit_selection_and_no_log_hac (test_stage2_runtime.RuntimeTests.test_published_method_requires_explicit_selection_and_no_log_hac) ... ok
+test_research_nonconflict_is_scoped_on_moving_camera (test_stage2_runtime.RuntimeTests.test_research_nonconflict_is_scoped_on_moving_camera) ... ok
+test_runtime_validates_actual_tensor_shape (test_stage2_runtime.RuntimeTests.test_runtime_validates_actual_tensor_shape) ... ok
+test_sot_prediction_is_not_independent_expansion (test_stage2_runtime.RuntimeTests.test_sot_prediction_is_not_independent_expansion) ... ok
+test_taxonomy_validation_rejects_wrong_or_fractional_classes (test_stage2_runtime.RuntimeTests.test_taxonomy_validation_rejects_wrong_or_fractional_classes) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.108s
+
+OK

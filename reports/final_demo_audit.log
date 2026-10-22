@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-10-22T16:55:24.723622+00:00",
+  "implementation_commit": "5b4cbd7387a9e981a4dfaa1b0f9ee54925058056",
+  "pull_request": "https://github.com/kxsxlxv/AirAntiCollision/pull/3",
+  "runs": [
+    {
+      "run": "demo/final_showcase",
+      "frames": 1023,
+      "fresh_detector_target_samples": 1437,
+      "resolved_arrow_frames": 536,
+      "possible_convergence_target_samples": 0,
+      "duration_s": 35.27585555555556,
+      "detector": "B",
+      "source_sha256": "12682055927dee85db715a36eb25bedd8e4df1ea04d65f3f56d37f3dee007365",
+      "output_video_sha256": "a290de1d67857343675a619ce9c5fdb32e7a089b3670a32c1d9ec1e7f4995eba"
+    },
+    {
+      "run": "demo/final_showcase_contrast",
+      "frames": 803,
+      "fresh_detector_target_samples": 1123,
+      "resolved_arrow_frames": 338,
+      "possible_convergence_target_samples": 0,
+      "duration_s": 27.795077777777777,
+      "detector": "B",
+      "source_sha256": "8d12d8807a48687303ab4aea0a350c3f74b535e2e5bb1a1b7df02d650c96c422",
+      "output_video_sha256": "d0839741e0af4f1ac8f7be94964f41ca7a6410c076ebe6c11809e67e8d841419"
+    },
+    {
+      "run": "demo/final_showcase_approach",
+      "frames": 875,
+      "fresh_detector_target_samples": 2141,
+      "resolved_arrow_frames": 644,
+      "possible_convergence_target_samples": 276,
+      "duration_s": 35.0,
+      "detector": "A",
+      "source_sha256": "9c44cecd3d818089f3d2b22c3f71bd139e5e720eae1935c664cc65a891ae0bb7",
+      "output_video_sha256": "6e7ef678108c980c99fa627d048b9327dbd814cd25d624a6aa6e5f65837fda14"
+    }
+  ],
+  "total_real_neural_updates": 2701,
+  "causality_or_measured_support_errors": [],
+  "default_150_A_frames_exactly_preserved": true,
+  "focused_tests_passed": 34,
+  "scope": "Completed selected concept demonstrations; no physical collision accuracy or safe maneuver claim",
+  "media_policy": "MP4 files are completed local exports excluded from Git. Relative paths refer to this workspace; screenshots, traces and reports are committed."
+}

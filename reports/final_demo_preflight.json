@@ -1,0 +1,29 @@
+{
+  "scope": "Cached actual B/original-tracker observations for selected-demo preflight only; final video requires fresh live neural inference",
+  "clips": {
+    "032": {
+      "target_sample_states": {
+        "INSUFFICIENT EVIDENCE": 330,
+        "MONITORING": 1107
+      },
+      "resolved_direction_frames": 536,
+      "first_resolved_direction_s": 4.9655172413793105
+    },
+    "043": {
+      "target_sample_states": {
+        "INSUFFICIENT EVIDENCE": 327,
+        "MONITORING": 796
+      },
+      "resolved_direction_frames": 338,
+      "first_resolved_direction_s": 3.392177223952925
+    },
+    "008": {
+      "target_sample_states": {
+        "INSUFFICIENT EVIDENCE": 674,
+        "MONITORING": 1486
+      },
+      "resolved_direction_frames": 1058,
+      "first_resolved_direction_s": 0.5338672005338672
+    }
+  }
+}

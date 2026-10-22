@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AirAntiCollision — реальные наблюдения</title>
+<style>
+:root{color-scheme:dark;--bg:#091019;--panel:#101b27;--ink:#eaf2f9;--muted:#97adbf;--cyan:#5ad2dc;--amber:#ffb854}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Segoe UI",system-ui,sans-serif}
+main{max-width:1520px;margin:auto;padding:40px 32px 28px}header{display:flex;justify-content:space-between;gap:20px;align-items:center;color:var(--muted);font-size:14px;letter-spacing:.1em}
+.brand{color:var(--cyan);font-weight:700}h1{font-size:clamp(32px,4vw,56px);line-height:1.12;letter-spacing:-.03em;margin:40px 0 20px;max-width:1100px}p{margin:12px 0}.intro{font-size:20px;color:var(--muted);max-width:1000px;margin-bottom:28px}
+.pills{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 34px}.pill{border:1px solid #2a4052;border-radius:30px;padding:8px 15px;font-size:14px}.cyan{color:var(--cyan)}.amber{color:var(--amber)}
+article{background:var(--panel);border:1px solid #233747;border-radius:17px;overflow:hidden;margin:24px 0}video{display:block;width:100%;aspect-ratio:16/9;background:#03080d}section.copy{padding:24px 28px 28px}h2{font-size:25px;margin:0 0 8px;line-height:1.25}.eyebrow{color:var(--cyan);font-size:13px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}.copy p{color:var(--muted);max-width:1100px}.links{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:18px}a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.grid article{margin:0}.grid section.copy{padding:22px}.grid h2{font-size:22px}
+.explanation{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:42px 0}.explanation p{color:var(--muted);font-size:16px}.explanation strong{font-size:18px}.number{display:block;color:var(--cyan);font-size:13px;letter-spacing:.1em;margin-bottom:10px}
+footer{border-top:1px solid #233747;padding:24px 0 0;color:var(--muted);font-size:14px}.note{font-size:14px;color:var(--muted)}
+@media(max-width:850px){main{padding:24px 15px}.grid,.explanation{grid-template-columns:1fr}header{align-items:flex-start;flex-direction:column}h1{margin-top:28px}.intro{font-size:18px}section.copy{padding:20px}}
+</style>
+</head>
+<body><main>
+<header><span class="brand">AIRANTICOLLISION / CONCEPT</span><span>РЕАЛЬНОЕ RGB · РЕАЛЬНЫЙ ДЕТЕКТОР · 22 ОКТЯБРЯ 2026</span></header>
+<h1>Наблюдать воздушную цель.<br>Понимать, что меняется в кадре.</h1>
+<p class="intro">Детектор находит самолёт, трекер связывает наблюдения, короткая история раскрывает изменение размера и дрейф. Иллюстрация показывает сторону увеличения разделения на изображении.</p>
+<div class="pills"><span class="pill cyan">● Наблюдение</span><span class="pill amber">● Возможное сближение</span><span class="pill">● Недостаточно данных</span></div>
+
+<article>
+<video controls playsinline preload="metadata" poster="nps_range_showcase/stable_tracking.png"><source src="nps_range_showcase/annotated.mp4" type="video/mp4">Откройте MP4 по ссылке ниже.</video>
+<section class="copy"><div class="eyebrow">01 / Основная архитектура · P2 + исходный трекер</div><h2>35 секунд бортовой съёмки с примерной дальностью</h2>
+<p>NPS Clip 032: повороты камеры, несколько самолётных БПЛА, действительные ID трекера и увеличенный фрагмент исходного RGB. Дальность показана приблизительно: размах 1,5 м, Ultra Wide с допущением горизонтального FOV 120°. Голубая стрелка здесь — иллюстрация разделения при наблюдении, а не предупреждение о столкновении.</p>
+<div class="links"><a href="nps_range_showcase/annotated.mp4">Открыть видео</a><a href="nps_range_showcase/stable_tracking.png">Кадр наблюдения · 1920×1080</a><a href="nps_range_showcase/encounter_cue.png">Кадр иллюстрации · 1920×1080</a></div></section>
+</article>
+
+<div class="grid">
+<article><video controls playsinline preload="metadata" poster="final_showcase_approach/encounter_cue.png"><source src="final_showcase_approach/annotated.mp4" type="video/mp4"></video><section class="copy"><div class="eyebrow">02 / Дополнительный пример · детектор A</div><h2>Когда появляется визуальный признак сближения</h2><p>QUT M2, неподвижная наземная камера. Устойчивый измеренный рост и малый относительный дрейф включают жёлтое состояние. Это признак изображения; физическое столкновение не установлено.</p><div class="links"><a href="final_showcase_approach/annotated.mp4">Открыть видео</a><a href="final_showcase_approach/encounter_cue.png">Настоящий кадр с признаком</a></div></section></article>
+<article><video controls playsinline preload="metadata" poster="nps_range_contrast/stable_tracking.png"><source src="nps_range_contrast/annotated.mp4" type="video/mp4"></video><section class="copy"><div class="eyebrow">03 / Контрастная бортовая запись · P2</div><h2>Когда направление остаётся неопределённым</h2><p>NPS Clip 043: 28 секунд и несколько наблюдаемых целей. При неоднозначных направлениях стрелка скрывается; затем появляется снова при достаточной геометрии изображения.</p><div class="links"><a href="nps_range_contrast/annotated.mp4">Открыть видео</a><a href="nps_range_contrast/stable_tracking.png">Несколько целей, без стрелки</a></div></section></article>
+</div>
+
+<div class="explanation"><div><span class="number">01 / ИЗМЕРЯЕТ</span><strong>Реальные кадры и рамки</strong><p>Каждый кадр заново прошёл через TensorRT. Идентичности из разметки не передаются алгоритму.</p></div><div><span class="number">02 / ОБЪЯСНЯЕТ</span><strong>Короткая причинная история</strong><p>Рост, дрейф и устойчивость оцениваются по свежим измерениям. Пунктир — короткая экстраполяция, сплошная линия — измеренный след.</p></div><div><span class="number">03 / ИЛЛЮСТРИРУЕТ</span><strong>Разделение в координатах кадра</strong><p>Стрелка вычисляется геометрически и скрывается при недостаточных или противоречивых данных. Она не задаёт манёвр самолёта.</p></div></div>
+<p class="note">Локальная галерея готовых экспортов. В клоне GitHub без видео запустите команды воспроизведения из сопроводительного документа: крупные MP4 не включены в Git.</p>
+<footer>Исследовательский концепт — не руководство полётом. Дальность, физический CPA и вероятность столкновения не оцениваются. <a href="../docs/FINAL_DEMO.md">Архитектура, команды, проверки и ограничения</a> · <a href="index.html">Архив исследований</a></footer>
+</main></body></html>

@@ -1,0 +1,616 @@
+{
+  "state": "complete",
+  "validated_utc": "2026-10-22T16:44:14.165960+00:00",
+  "acceptance": "final_live_demo",
+  "run": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\final_showcase",
+  "checks": {
+    "run_completed": true,
+    "showcase_enabled": true,
+    "detector_B": true,
+    "actual_TensorRT_provider": true,
+    "no_detection_replay": true,
+    "registered_supplied_P2": true,
+    "encoded_NVENC": true,
+    "async_export": true,
+    "source_hash": true,
+    "weights_hash": true,
+    "trace_frame_count": true,
+    "one_live_inference_per_frame": true,
+    "original_cadence": true,
+    "measured_full_pipeline_FPS": true,
+    "source_code_appearance.py": true,
+    "source_code_assessment.py": true,
+    "source_code_assessment_runtime.py": true,
+    "source_code_bounded.py": true,
+    "source_code_calibrated.py": true,
+    "source_code_cli.py": true,
+    "source_code_demo_cue.py": true,
+    "source_code_demo_render.py": true,
+    "source_code_detector.py": true,
+    "source_code_detector_p2.py": true,
+    "source_code_export.py": true,
+    "source_code_geometry.py": true,
+    "source_code_gpu.py": true,
+    "source_code_lifecycle.py": true,
+    "source_code_media.py": true,
+    "source_code_policy.py": true,
+    "source_code_process_export.py": true,
+    "source_code_projective.py": true,
+    "source_code_proposals.py": true,
+    "source_code_provenance.py": true,
+    "source_code_render.py": true,
+    "source_code_tracking.py": true,
+    "source_code___init__.py": true,
+    "source_code___main__.py": true,
+    "source_PTS_monotonic": true,
+    "all_source_frames_processed": true,
+    "source_frame_indices": true,
+    "trace_original_PTS": true,
+    "trace_acquisition_PTS": true,
+    "output_1920x1080_or_larger": true,
+    "output_H264": true,
+    "every_output_frame_decoded": true,
+    "output_PTS_monotonic": true,
+    "output_original_PTS": true,
+    "output_duration": true,
+    "final_20_to_45_seconds": true,
+    "two_distinct_screenshots": true
+  },
+  "source": {
+    "path": "X:\\DATASETS\\UAV\\TRACKING\\RGB\\NPS-Drones\\Videos\\Clip_32.mov",
+    "sha256": "12682055927dee85db715a36eb25bedd8e4df1ea04d65f3f56d37f3dee007365",
+    "codec": "mpeg4",
+    "resolution": [
+      1280,
+      960
+    ],
+    "decoded_frames": 1023
+  },
+  "encoded_video": {
+    "path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\final_showcase\\annotated.mp4",
+    "sha256": "a290de1d67857343675a619ce9c5fdb32e7a089b3670a32c1d9ec1e7f4995eba",
+    "codec": "h264",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "duration_s": 35.27585555555556,
+    "all_frames_decoded": true,
+    "frames": 1023
+  },
+  "max_source_trace_pts_error_s": 0.0,
+  "max_encoded_pts_error_s": 5.3639846768760435e-06,
+  "processing_fps": 12.396492498850643,
+  "whole_run_fps": 11.821524502618662,
+  "runtime": {
+    "hardware": "NVIDIA GeForce RTX 4060",
+    "providers": [
+      "TensorRT 11.4.0.106"
+    ],
+    "cv2": "5.0.0",
+    "cv2_path": "C:\\Data\\DEV\\Libs\\opencv_cuda_5\\install\\python\\cv2\\__init__.py",
+    "cuda_devices": 1,
+    "cold_start": {
+      "model_load_and_provenance_s": 2.7359515000134706,
+      "warmup_update_ms": [
+        154.5756999985315,
+        56.86000001151115,
+        49.78000000119209,
+        46.45620001247153,
+        47.02630004612729
+      ],
+      "first_inference_ms": 154.5756999985315,
+      "warmup_updates": 5
+    },
+    "sample_latency_scope": "Sequential decode since prior sample through assessment, trace and render submission; asynchronous encoder drain excluded from percentiles, included in elapsed_s",
+    "end_to_end_sample_ms": {
+      "mean": 80.60397507327191,
+      "p50": 78.88409995939583,
+      "p95": 90.55716000730172,
+      "p99": 133.2625520112922
+    }
+  },
+  "actual_detector_contract": {
+    "variant": "B",
+    "input_shape": [
+      1,
+      3,
+      800,
+      1440
+    ],
+    "output_shape": [
+      1,
+      300,
+      6
+    ],
+    "export_label": "item",
+    "semantic_taxonomy": [
+      "fixed-wing UAV"
+    ],
+    "letterbox": "RGB NCHW /255, linear resize, centred 114 pad, round dimensions",
+    "preprocess": "CPU OpenCV; detector inference on declared backend",
+    "conf": 0.03,
+    "cross_box_nms_iou": 0.45,
+    "tiled": false,
+    "weights_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\yolo26m_p2_local_fp32.engine",
+    "weights_sha256": "5ff35d35607de793a5d5173d5892068ddba3503bbdb637de7b12000c04edaa31",
+    "registered_supplied_export": true,
+    "provenance_manifest_sha256": "65724aee702b7053283abb459ae8589d62c8dee81f6e4010d118e47e2c0327f8",
+    "matching_assets": [
+      "B_local_fp32_engine"
+    ],
+    "input_dtype": "float32"
+  },
+  "benchmark_sha256": "e0870447b54583216861b3b2fa4d4a1a86eb0ed7037dd3375eee66bea4c968cc",
+  "decisions_sha256": "51c71cd12b177d41e2a5f63ae39ece0894bed11bde6535bfc49b9de96e6d859e",
+  "detections_sha256": "628d96b045fa86fdaf87778ef10b18e95ef49aba5a9c66112eef80b8a6d97315",
+  "runtime_source_hashes": {
+    "appearance.py": "7536007347fc20a6a6d8baf38dff430a23f2c1eb981899a0893d2e61830dc096",
+    "assessment.py": "3e8d933b15ea504bac7edff7ceab8b400bc62135aa71cc1ddde872c839fa865f",
+    "assessment_runtime.py": "c3ea1418c773164a57e6760ca44877408b7fe905c2499e82b54a7f11291be755",
+    "bounded.py": "65320f1874b2a533b18e929c812c18164ae482d8efcdafb235447ef1c424d9be",
+    "calibrated.py": "fa0ea19e1e28b67aa12fea8e269b601d156885b01059fff0a6505916a2599286",
+    "cli.py": "98abee7053d9dff3ad1c2374c21db81599e28d92b881ac19299b849ec6d488d6",
+    "demo_cue.py": "b1b5fdf4c91034edee0ea5f4ce51bb2d44641fd57fcfb1e2f05473906ea0b51c",
+    "demo_render.py": "14e924136c2027e7d58b129edeb8ae9380142c15b68529bb0b598701335b4046",
+    "detector.py": "4d21919cb6837c980f453e8c01335a7a2f169b2607dcba4bde0a2e1c9b395e55",
+    "detector_p2.py": "64d9fbde77a5dfd7235116f616d286c29ecc534c33fc00dc6ad21fb074fed47c",
+    "export.py": "600f509303df5a800b28d820389ea2e172febd83ffe23ead597744eb318b841b",
+    "geometry.py": "2778777bedf6987f3ec7bd6ed81e8a062cbef37d1cade49d19e3e78d4ad8a8ff",
+    "gpu.py": "59dad3aeaeecee710f13ae9189bdf0e08576b108975d4ba2907fab909cd82482",
+    "lifecycle.py": "c0a533f11a0be6cbacded2a00de4e8433f4037b586a15987566ee7ddca57484d",
+    "media.py": "93be5a3f417378a72901c744a59db9aecd14fdb54e23c52ef5228c3e8736beea",
+    "policy.py": "c57bc3ff5b7e0077fbb9b1a1060140666749c099c1d68f326988cbf794583d60",
+    "process_export.py": "601cc7ea262e39cf8e176ba7ca23052ad901e64262bf1970ab99751c3319d1e0",
+    "projective.py": "35366a5eaa4ed55089724c6c84e0f394558c93aa7b62ee491ec5e2790290343d",
+    "proposals.py": "b927b558c6fc1757c5fddbac86d768095b075ecfbbd79c347941ffdf1639c3cc",
+    "provenance.py": "922f2495bd399ede8c9cb005b07541581993bed29126689c44486e3ba1b0f529",
+    "render.py": "3a73f7af264938891650fe78c93b3e2677dc7d03f6d7637c96ff5902d9966792",
+    "tracking.py": "10772b04432c0a8202ed66155b0744d4476ba13d9adce54a188b636042d362ad",
+    "__init__.py": "4c2fe2d65d95a24fa3f28ace4a87f32fe8717d7eba6b67e9a97636e1270d8a50",
+    "__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3"
+  },
+  "demo_target_sample_states": {
+    "INSUFFICIENT EVIDENCE": 435,
+    "MONITORING": 1107
+  },
+  "encounter_screenshot_evidence": {
+    "observed_possible_convergence_with_resolved_arrow": false,
+    "observed_resolved_illustrative_arrow": true,
+    "target_id": 7,
+    "selection": "trace-supported illustrative image separation during monitoring, without a warning",
+    "caption": "Illustrative direction during MONITORING; no convergence warning observed."
+  },
+  "screenshots": {
+    "stable_tracking.png": {
+      "frame": 307,
+      "time_s": 10.586206896551724,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\final_showcase\\stable_tracking.png",
+      "sha256": "91169a3aac7094fa0ee8565ac0846bdecf2f20ade1efdffcbbfaf829cc4dd89e",
+      "source": "unmodified full-resolution decoded annotated H.264 frame",
+      "demo_trace": {
+        "state": "MONITORING",
+        "state_id": "monitoring",
+        "targets": [
+          {
+            "id": 2,
+            "box": [
+              983.0345458984375,
+              732.085205078125,
+              1007.5498657226562,
+              747.8983154296875
+            ],
+            "state": "MONITORING",
+            "reason": "stable_measured_motion_no_convergence_cue",
+            "growth_per_s": 0.002015173374963051,
+            "drift_normalized_per_s": 2.418541252004903,
+            "velocity_px_s": [
+              40.50118463689639,
+              -43.707160362830464
+            ],
+            "window_s": 0.5862068965517242,
+            "samples": 18,
+            "evidence_age_s": 0.0,
+            "measured_trail": [
+              [
+                10.0,
+                965.9008178710938,
+                765.2457885742188
+              ],
+              [
+                10.03448275862069,
+                966.8040161132812,
+                764.1835021972656
+              ],
+              [
+                10.068965517241379,
+                967.0001525878906,
+                762.0473022460938
+              ],
+              [
+                10.10344827586207,
+                967.7829895019531,
+                759.388916015625
+              ],
+              [
+                10.137931034482758,
+                968.3639526367188,
+                757.1422119140625
+              ],
+              [
+                10.172413793103448,
+                969.0206909179688,
+                755.5418395996094
+              ],
+              [
+                10.206896551724139,
+                969.9244995117188,
+                754.1121215820312
+              ],
+              [
+                10.241379310344827,
+                970.7897033691406,
+                753.0077819824219
+              ],
+              [
+                10.275862068965518,
+                972.0212097167969,
+                751.5364685058594
+              ],
+              [
+                10.310344827586206,
+                973.4388732910156,
+                749.9861145019531
+              ],
+              [
+                10.344827586206897,
+                974.5560302734375,
+                747.9440612792969
+              ],
+              [
+                10.379310344827585,
+                976.3258666992188,
+                746.2723083496094
+              ],
+              [
+                10.413793103448276,
+                978.6263122558594,
+                744.6647338867188
+              ],
+              [
+                10.448275862068966,
+                980.5194396972656,
+                744.8424072265625
+              ],
+              [
+                10.482758620689655,
+                983.1455078125,
+                743.9255981445312
+              ],
+              [
+                10.517241379310345,
+                986.8539733886719,
+                742.4544372558594
+              ],
+              [
+                10.551724137931034,
+                991.093994140625,
+                741.2039489746094
+              ],
+              [
+                10.586206896551724,
+                995.2922058105469,
+                739.9917602539062
+              ]
+            ],
+            "camera_scope": "image_relative_only_no_verified_rotation",
+            "confidence": null,
+            "calibrated_probability": false,
+            "priority_score": 0.2146505459971812,
+            "detector_confidence": 0.6273944973945618,
+            "scale_residual_log_mad": 0.0059496591682888815,
+            "aspect_log_range": 0.0368947350859985,
+            "state_id": "monitoring",
+            "reason_text": "Наблюдаем цель; устойчивое сближение по изображению не выделено"
+          },
+          {
+            "id": 3,
+            "box": [
+              1086.433349609375,
+              843.5318603515625,
+              1106.3052978515625,
+              859.3302612304688
+            ],
+            "state": "MONITORING",
+            "reason": "stable_measured_motion_no_convergence_cue",
+            "growth_per_s": -0.01822141063637296,
+            "drift_normalized_per_s": 2.924912919348225,
+            "velocity_px_s": [
+              38.20469156901026,
+              -43.35004001193583
+            ],
+            "window_s": 0.5862068965517242,
+            "samples": 18,
+            "evidence_age_s": 0.0,
+            "measured_trail": [
+              [
+                10.0,
+                1065.83349609375,
+                878.2555541992188
+              ],
+              [
+                10.03448275862069,
+                1066.4221801757812,
+                876.8273315429688
+              ],
+              [
+                10.068965517241379,
+                1066.5733032226562,
+                874.9471130371094
+              ],
+              [
+                10.10344827586207,
+                1066.4696044921875,
+                872.6387329101562
+              ],
+              [
+                10.137931034482758,
+                1066.6216430664062,
+                870.6436462402344
+              ],
+              [
+                10.172413793103448,
+                1067.4259643554688,
+                868.9571228027344
+              ],
+              [
+                10.206896551724139,
+                1068.0721435546875,
+                867.8594665527344
+              ],
+              [
+                10.241379310344827,
+                1069.248046875,
+                867.0829467773438
+              ],
+              [
+                10.275862068965518,
+                1070.2205810546875,
+                865.6498718261719
+              ],
+              [
+                10.310344827586206,
+                1071.5143432617188,
+                864.0186767578125
+              ],
+              [
+                10.344827586206897,
+                1072.4674072265625,
+                862.2982788085938
+              ],
+              [
+                10.379310344827585,
+                1074.4927368164062,
+                860.3835754394531
+              ],
+              [
+                10.413793103448276,
+                1076.564697265625,
+                858.9593505859375
+              ],
+              [
+                10.448275862068966,
+                1078.478271484375,
+                858.9310607910156
+              ],
+              [
+                10.482758620689655,
+                1081.4336547851562,
+                858.0178527832031
+              ],
+              [
+                10.517241379310345,
+                1085.6715087890625,
+                855.6769714355469
+              ],
+              [
+                10.551724137931034,
+                1091.212890625,
+                853.6294860839844
+              ],
+              [
+                10.586206896551724,
+                1096.3693237304688,
+                851.4310607910156
+              ]
+            ],
+            "camera_scope": "image_relative_only_no_verified_rotation",
+            "confidence": null,
+            "calibrated_probability": false,
+            "priority_score": 0.2108361348338511,
+            "detector_confidence": 0.6468219757080078,
+            "scale_residual_log_mad": 0.00839916061322765,
+            "aspect_log_range": 0.04848126217675283,
+            "state_id": "monitoring",
+            "reason_text": "Наблюдаем цель; устойчивое сближение по изображению не выделено"
+          }
+        ],
+        "priority_id": 2,
+        "direction": {
+          "status": "resolved",
+          "vector": [
+            -0.7071067811865475,
+            -0.7071067811865476
+          ],
+          "reason": "stable_measured_target_image_separation_illustration",
+          "priority_id": 2,
+          "warning_evidence": false,
+          "meaning": "illustrative_image_plane_cue_not_safe_maneuver",
+          "reason_text": "Наблюдаем цель; иллюстрация увеличения разделения по изображению, не предупреждение и не безопасный манёвр"
+        },
+        "time": 10.586206896551724,
+        "meaning": "short_history_image_presentation_cue_not_physical_collision_assessment",
+        "research_assessment_changed": false
+      }
+    },
+    "encounter_cue.png": {
+      "frame": 1019,
+      "time_s": 35.13793103448276,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\final_showcase\\encounter_cue.png",
+      "sha256": "cfc51060e5173036783d006324942b97dda1e002bdf1b8d1e68229798e1ad063",
+      "source": "unmodified full-resolution decoded annotated H.264 frame",
+      "demo_trace": {
+        "state": "MONITORING",
+        "state_id": "monitoring",
+        "targets": [
+          {
+            "id": 7,
+            "box": [
+              1203.2974853515625,
+              608.5831909179688,
+              1223.208740234375,
+              624.2239379882812
+            ],
+            "state": "MONITORING",
+            "reason": "stable_measured_motion_no_convergence_cue",
+            "growth_per_s": -0.024190767542880375,
+            "drift_normalized_per_s": 6.8806581195319865,
+            "velocity_px_s": [
+              136.70242074819637,
+              17.560227614182597
+            ],
+            "window_s": 0.5862068965517295,
+            "samples": 18,
+            "evidence_age_s": 0.0,
+            "measured_trail": [
+              [
+                34.55172413793103,
+                1143.8231811523438,
+                611.5398864746094
+              ],
+              [
+                34.58620689655172,
+                1146.863525390625,
+                607.7326965332031
+              ],
+              [
+                34.62068965517241,
+                1150.9986572265625,
+                603.9890747070312
+              ],
+              [
+                34.6551724137931,
+                1155.6052856445312,
+                600.9333190917969
+              ],
+              [
+                34.689655172413794,
+                1160.4194946289062,
+                598.4679260253906
+              ],
+              [
+                34.724137931034484,
+                1165.7383422851562,
+                595.7543029785156
+              ],
+              [
+                34.758620689655174,
+                1171.1947021484375,
+                592.71728515625
+              ],
+              [
+                34.793103448275865,
+                1176.8736572265625,
+                590.5542297363281
+              ],
+              [
+                34.827586206896555,
+                1182.618896484375,
+                589.4052429199219
+              ],
+              [
+                34.86206896551724,
+                1188.02978515625,
+                590.3406372070312
+              ],
+              [
+                34.89655172413793,
+                1193.3533325195312,
+                592.87744140625
+              ],
+              [
+                34.93103448275862,
+                1198.1303100585938,
+                596.0603942871094
+              ],
+              [
+                34.96551724137931,
+                1202.26171875,
+                599.8298645019531
+              ],
+              [
+                35.0,
+                1205.6094970703125,
+                604.3362121582031
+              ],
+              [
+                35.03448275862069,
+                1208.1439208984375,
+                608.3712463378906
+              ],
+              [
+                35.06896551724138,
+                1209.7061157226562,
+                611.8609008789062
+              ],
+              [
+                35.10344827586207,
+                1211.2178344726562,
+                614.5142822265625
+              ],
+              [
+                35.13793103448276,
+                1213.2531127929688,
+                616.403564453125
+              ]
+            ],
+            "camera_scope": "image_relative_only_no_verified_rotation",
+            "confidence": null,
+            "calibrated_probability": false,
+            "priority_score": 0.2110514268107816,
+            "detector_confidence": 0.6468262672424316,
+            "scale_residual_log_mad": 0.00796033982237866,
+            "aspect_log_range": 0.04062251268934938,
+            "state_id": "monitoring",
+            "reason_text": "Наблюдаем цель; устойчивое сближение по изображению не выделено"
+          }
+        ],
+        "priority_id": 7,
+        "direction": {
+          "status": "resolved",
+          "vector": [
+            -1.0,
+            -1.2246467991473532e-16
+          ],
+          "reason": "stable_measured_target_image_separation_illustration",
+          "priority_id": 7,
+          "warning_evidence": false,
+          "meaning": "illustrative_image_plane_cue_not_safe_maneuver",
+          "reason_text": "Наблюдаем цель; иллюстрация увеличения разделения по изображению, не предупреждение и не безопасный манёвр"
+        },
+        "time": 35.13793103448276,
+        "meaning": "short_history_image_presentation_cue_not_physical_collision_assessment",
+        "research_assessment_changed": false
+      }
+    }
+  },
+  "claim_scope": "Observed tracking and conditional image-plane cue only; no GT supplied to inference, no physical CPA/avoidance guarantee."
+}

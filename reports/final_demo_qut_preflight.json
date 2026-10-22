@@ -1,0 +1,1511 @@
+{
+  "scope": "Cached genuine full-rate Detector A online outputs, real stationary-camera QUT RGB; no GT or event labels read; not neural FPS or physical collision validation",
+  "cue_source_sha256": "b1b5fdf4c91034edee0ea5f4ce51bb2d44641fd57fcfb1e2f05473906ea0b51c",
+  "clips": {
+    "M1": {
+      "source_video": "data/qut_full/M1.mp4",
+      "decisions_sha256": "d07dd63c79a4436935e8e6835225187b5daedbdc44e757e19fa8483955d13ebc",
+      "frames": 2274,
+      "duration_s": 90.96000000000001,
+      "target_sample_states": {
+        "INSUFFICIENT EVIDENCE": 4813,
+        "MONITORING": 175,
+        "POSSIBLE CONVERGENCE": 207
+      },
+      "warning_frames": 207,
+      "resolved_direction_frames": 258,
+      "confirmed_warning_with_resolved_direction_frames": 191,
+      "warning_episodes": [
+        {
+          "start_s": 86.12,
+          "start_frame": 2153,
+          "end_s": 90.64,
+          "end_frame": 2266,
+          "warning_frames": 114,
+          "warning_arrow_frames": 98,
+          "ids": [
+            393
+          ],
+          "max_measured_span_px": 904.5454406738281,
+          "peak_growth_per_s": 1.1824927429823315
+        },
+        {
+          "start_s": 83.64,
+          "start_frame": 2091,
+          "end_s": 84.52,
+          "end_frame": 2113,
+          "warning_frames": 23,
+          "warning_arrow_frames": 23,
+          "ids": [
+            393
+          ],
+          "max_measured_span_px": 76.0,
+          "peak_growth_per_s": 0.24102073984487787
+        },
+        {
+          "start_s": 82.48,
+          "start_frame": 2062,
+          "end_s": 83.2,
+          "end_frame": 2080,
+          "warning_frames": 19,
+          "warning_arrow_frames": 19,
+          "ids": [
+            393
+          ],
+          "max_measured_span_px": 66.3636474609375,
+          "peak_growth_per_s": 0.29673248501383614
+        },
+        {
+          "start_s": 84.84,
+          "start_frame": 2121,
+          "end_s": 85.56,
+          "end_frame": 2139,
+          "warning_frames": 19,
+          "warning_arrow_frames": 19,
+          "ids": [
+            393
+          ],
+          "max_measured_span_px": 93.875,
+          "peak_growth_per_s": 0.3021040075568879
+        },
+        {
+          "start_s": 80.04,
+          "start_frame": 2001,
+          "end_s": 80.52,
+          "end_frame": 2013,
+          "warning_frames": 13,
+          "warning_arrow_frames": 13,
+          "ids": [
+            393
+          ],
+          "max_measured_span_px": 50.5625,
+          "peak_growth_per_s": 0.25214346126239096
+        },
+        {
+          "start_s": 81.2,
+          "start_frame": 2030,
+          "end_s": 81.6,
+          "end_frame": 2040,
+          "warning_frames": 11,
+          "warning_arrow_frames": 11,
+          "ids": [
+            393
+          ],
+          "max_measured_span_px": 59.09088134765625,
+          "peak_growth_per_s": 0.18969020629367261
+        },
+        {
+          "start_s": 78.6,
+          "start_frame": 1965,
+          "end_s": 78.84,
+          "end_frame": 1971,
+          "warning_frames": 7,
+          "warning_arrow_frames": 7,
+          "ids": [
+            393
+          ],
+          "max_measured_span_px": 41.25,
+          "peak_growth_per_s": 0.14294045628051405
+        },
+        {
+          "start_s": 85.8,
+          "start_frame": 2145,
+          "end_s": 85.8,
+          "end_frame": 2145,
+          "warning_frames": 1,
+          "warning_arrow_frames": 1,
+          "ids": [
+            393
+          ],
+          "max_measured_span_px": 93.25,
+          "peak_growth_per_s": 0.12136430608696633
+        }
+      ],
+      "suggested_windows": [
+        {
+          "start_s": 60.96000000000001,
+          "end_s": 90.96000000000001,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            86.12,
+            90.64
+          ],
+          "cue_frames": [
+            2153,
+            2266
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 59.519999999999996,
+          "end_s": 89.52,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            83.64,
+            84.52
+          ],
+          "cue_frames": [
+            2091,
+            2113
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 58.2,
+          "end_s": 88.2,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            82.48,
+            83.2
+          ],
+          "cue_frames": [
+            2062,
+            2080
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 60.56,
+          "end_s": 90.56,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            84.84,
+            85.56
+          ],
+          "cue_frames": [
+            2121,
+            2139
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 55.519999999999996,
+          "end_s": 85.52,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            80.04,
+            80.52
+          ],
+          "cue_frames": [
+            2001,
+            2013
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        }
+      ]
+    },
+    "M2": {
+      "source_video": "data/qut_full/M2.mp4",
+      "decisions_sha256": "0452f7cf732a054a01a9eacc7cce4603e7baba0ef2017113186ceefe18e98f96",
+      "frames": 3891,
+      "duration_s": 155.64,
+      "target_sample_states": {
+        "INSUFFICIENT EVIDENCE": 5210,
+        "MONITORING": 970,
+        "POSSIBLE CONVERGENCE": 252
+      },
+      "warning_frames": 252,
+      "resolved_direction_frames": 919,
+      "confirmed_warning_with_resolved_direction_frames": 230,
+      "warning_episodes": [
+        {
+          "start_s": 150.52,
+          "start_frame": 3763,
+          "end_s": 155.32,
+          "end_frame": 3883,
+          "warning_frames": 121,
+          "warning_arrow_frames": 105,
+          "ids": [
+            630
+          ],
+          "max_measured_span_px": 782.2726440429688,
+          "peak_growth_per_s": 1.0259661356965468
+        },
+        {
+          "start_s": 149.36,
+          "start_frame": 3734,
+          "end_s": 150.24,
+          "end_frame": 3756,
+          "warning_frames": 23,
+          "warning_arrow_frames": 23,
+          "ids": [
+            630
+          ],
+          "max_measured_span_px": 89.75,
+          "peak_growth_per_s": 0.2846695603931525
+        },
+        {
+          "start_s": 143.04,
+          "start_frame": 3576,
+          "end_s": 143.8,
+          "end_frame": 3595,
+          "warning_frames": 20,
+          "warning_arrow_frames": 20,
+          "ids": [
+            630
+          ],
+          "max_measured_span_px": 45.75,
+          "peak_growth_per_s": 0.17892776467978028
+        },
+        {
+          "start_s": 145.52,
+          "start_frame": 3638,
+          "end_s": 146.16,
+          "end_frame": 3654,
+          "warning_frames": 17,
+          "warning_arrow_frames": 17,
+          "ids": [
+            630
+          ],
+          "max_measured_span_px": 58.0,
+          "peak_growth_per_s": 0.2573606558970948
+        },
+        {
+          "start_s": 148.04,
+          "start_frame": 3701,
+          "end_s": 148.64,
+          "end_frame": 3716,
+          "warning_frames": 16,
+          "warning_arrow_frames": 16,
+          "ids": [
+            630
+          ],
+          "max_measured_span_px": 75.0,
+          "peak_growth_per_s": 0.27403151637659273
+        },
+        {
+          "start_s": 146.88,
+          "start_frame": 3672,
+          "end_s": 147.44,
+          "end_frame": 3686,
+          "warning_frames": 15,
+          "warning_arrow_frames": 15,
+          "ids": [
+            630
+          ],
+          "max_measured_span_px": 64.75,
+          "peak_growth_per_s": 0.2708181236451107
+        },
+        {
+          "start_s": 144.6,
+          "start_frame": 3615,
+          "end_s": 144.92,
+          "end_frame": 3623,
+          "warning_frames": 9,
+          "warning_arrow_frames": 9,
+          "ids": [
+            630
+          ],
+          "max_measured_span_px": 51.3636474609375,
+          "peak_growth_per_s": 0.31774765699453433
+        },
+        {
+          "start_s": 108.04,
+          "start_frame": 2701,
+          "end_s": 108.28,
+          "end_frame": 2707,
+          "warning_frames": 7,
+          "warning_arrow_frames": 7,
+          "ids": [
+            437
+          ],
+          "max_measured_span_px": 9.75,
+          "peak_growth_per_s": 0.6245433341842512
+        },
+        {
+          "start_s": 137.16,
+          "start_frame": 3429,
+          "end_s": 137.28,
+          "end_frame": 3432,
+          "warning_frames": 4,
+          "warning_arrow_frames": 4,
+          "ids": [
+            480
+          ],
+          "max_measured_span_px": 29.25,
+          "peak_growth_per_s": 0.28150632353495264
+        },
+        {
+          "start_s": 137.92,
+          "start_frame": 3448,
+          "end_s": 138.04,
+          "end_frame": 3451,
+          "warning_frames": 4,
+          "warning_arrow_frames": 4,
+          "ids": [
+            480
+          ],
+          "max_measured_span_px": 30.0,
+          "peak_growth_per_s": 0.08400543977801217
+        },
+        {
+          "start_s": 134.4,
+          "start_frame": 3360,
+          "end_s": 134.48,
+          "end_frame": 3362,
+          "warning_frames": 3,
+          "warning_arrow_frames": 3,
+          "ids": [
+            480
+          ],
+          "max_measured_span_px": 29.0,
+          "peak_growth_per_s": 0.16706776948822638
+        },
+        {
+          "start_s": 139.2,
+          "start_frame": 3480,
+          "end_s": 139.28,
+          "end_frame": 3482,
+          "warning_frames": 3,
+          "warning_arrow_frames": 3,
+          "ids": [
+            480
+          ],
+          "max_measured_span_px": 32.5,
+          "peak_growth_per_s": 0.15438833768150015
+        },
+        {
+          "start_s": 136.52,
+          "start_frame": 3413,
+          "end_s": 136.56,
+          "end_frame": 3414,
+          "warning_frames": 2,
+          "warning_arrow_frames": 2,
+          "ids": [
+            480
+          ],
+          "max_measured_span_px": 26.25,
+          "peak_growth_per_s": 0.2015320426310778
+        },
+        {
+          "start_s": 111.48,
+          "start_frame": 2787,
+          "end_s": 111.48,
+          "end_frame": 2787,
+          "warning_frames": 1,
+          "warning_arrow_frames": 1,
+          "ids": [
+            437
+          ],
+          "max_measured_span_px": 10.375,
+          "peak_growth_per_s": 0.23250088223905943
+        },
+        {
+          "start_s": 138.56,
+          "start_frame": 3464,
+          "end_s": 138.56,
+          "end_frame": 3464,
+          "warning_frames": 1,
+          "warning_arrow_frames": 1,
+          "ids": [
+            480
+          ],
+          "max_measured_span_px": 29.375,
+          "peak_growth_per_s": 0.12950893243523443
+        },
+        {
+          "start_s": 127.4,
+          "start_frame": 3185,
+          "end_s": 127.48,
+          "end_frame": 3187,
+          "warning_frames": 3,
+          "warning_arrow_frames": 0,
+          "ids": [
+            480
+          ],
+          "max_measured_span_px": 15.90911865234375,
+          "peak_growth_per_s": 0.1890122775682133
+        },
+        {
+          "start_s": 130.44,
+          "start_frame": 3261,
+          "end_s": 130.52,
+          "end_frame": 3263,
+          "warning_frames": 3,
+          "warning_arrow_frames": 0,
+          "ids": [
+            480
+          ],
+          "max_measured_span_px": 18.625,
+          "peak_growth_per_s": 0.2555896896215703
+        }
+      ],
+      "suggested_windows": [
+        {
+          "start_s": 125.63999999999999,
+          "end_s": 155.64,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            150.52,
+            155.32
+          ],
+          "cue_frames": [
+            3763,
+            3883
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 125.24000000000001,
+          "end_s": 155.24,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            149.36,
+            150.24
+          ],
+          "cue_frames": [
+            3734,
+            3756
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 118.80000000000001,
+          "end_s": 148.8,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            143.04,
+            143.8
+          ],
+          "cue_frames": [
+            3576,
+            3595
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 121.16,
+          "end_s": 151.16,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            145.52,
+            146.16
+          ],
+          "cue_frames": [
+            3638,
+            3654
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 123.63999999999999,
+          "end_s": 153.64,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            148.04,
+            148.64
+          ],
+          "cue_frames": [
+            3701,
+            3716
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        }
+      ]
+    },
+    "M6": {
+      "source_video": "data/qut_full/M6.mp4",
+      "decisions_sha256": "70af04ed11a62e15fb42d438d164a0ff6d542aaca99b5f557fd6f4c5da798dbc",
+      "frames": 3242,
+      "duration_s": 129.67999999999998,
+      "target_sample_states": {
+        "INSUFFICIENT EVIDENCE": 4050,
+        "MONITORING": 404,
+        "POSSIBLE CONVERGENCE": 212
+      },
+      "warning_frames": 212,
+      "resolved_direction_frames": 368,
+      "confirmed_warning_with_resolved_direction_frames": 204,
+      "warning_episodes": [
+        {
+          "start_s": 124.36,
+          "start_frame": 3109,
+          "end_s": 129.4,
+          "end_frame": 3235,
+          "warning_frames": 127,
+          "warning_arrow_frames": 119,
+          "ids": [
+            401
+          ],
+          "max_measured_span_px": 1011.3636703491211,
+          "peak_growth_per_s": 1.2453315626537054
+        },
+        {
+          "start_s": 123.0,
+          "start_frame": 3075,
+          "end_s": 124.04,
+          "end_frame": 3101,
+          "warning_frames": 27,
+          "warning_arrow_frames": 27,
+          "ids": [
+            401
+          ],
+          "max_measured_span_px": 88.375,
+          "peak_growth_per_s": 0.3077196528701377
+        },
+        {
+          "start_s": 121.88,
+          "start_frame": 3047,
+          "end_s": 122.72,
+          "end_frame": 3068,
+          "warning_frames": 22,
+          "warning_arrow_frames": 22,
+          "ids": [
+            401
+          ],
+          "max_measured_span_px": 72.9375,
+          "peak_growth_per_s": 0.20766234209598733
+        },
+        {
+          "start_s": 120.68,
+          "start_frame": 3017,
+          "end_s": 121.08,
+          "end_frame": 3027,
+          "warning_frames": 11,
+          "warning_arrow_frames": 11,
+          "ids": [
+            401
+          ],
+          "max_measured_span_px": 63.18182373046875,
+          "peak_growth_per_s": 0.15690843029369816
+        },
+        {
+          "start_s": 119.44,
+          "start_frame": 2986,
+          "end_s": 119.8,
+          "end_frame": 2995,
+          "warning_frames": 10,
+          "warning_arrow_frames": 10,
+          "ids": [
+            401
+          ],
+          "max_measured_span_px": 55.0,
+          "peak_growth_per_s": 0.1076735865034108
+        },
+        {
+          "start_s": 86.76,
+          "start_frame": 2169,
+          "end_s": 86.96,
+          "end_frame": 2174,
+          "warning_frames": 6,
+          "warning_arrow_frames": 6,
+          "ids": [
+            401
+          ],
+          "max_measured_span_px": 9.125,
+          "peak_growth_per_s": 0.44424759530244956
+        },
+        {
+          "start_s": 118.32,
+          "start_frame": 2958,
+          "end_s": 118.44,
+          "end_frame": 2961,
+          "warning_frames": 4,
+          "warning_arrow_frames": 4,
+          "ids": [
+            401
+          ],
+          "max_measured_span_px": 47.0,
+          "peak_growth_per_s": 0.31495418294545463
+        },
+        {
+          "start_s": 114.36,
+          "start_frame": 2859,
+          "end_s": 114.44,
+          "end_frame": 2861,
+          "warning_frames": 3,
+          "warning_arrow_frames": 3,
+          "ids": [
+            401
+          ],
+          "max_measured_span_px": 27.0,
+          "peak_growth_per_s": 0.1584094608526232
+        },
+        {
+          "start_s": 111.92,
+          "start_frame": 2798,
+          "end_s": 111.96,
+          "end_frame": 2799,
+          "warning_frames": 2,
+          "warning_arrow_frames": 2,
+          "ids": [
+            401
+          ],
+          "max_measured_span_px": 22.625,
+          "peak_growth_per_s": 0.10110973366272262
+        }
+      ],
+      "suggested_windows": [
+        {
+          "start_s": 99.67999999999998,
+          "end_s": 129.67999999999998,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            124.36,
+            129.4
+          ],
+          "cue_frames": [
+            3109,
+            3235
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 99.04000000000002,
+          "end_s": 129.04000000000002,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            123.0,
+            124.04
+          ],
+          "cue_frames": [
+            3075,
+            3101
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 97.72,
+          "end_s": 127.72,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            121.88,
+            122.72
+          ],
+          "cue_frames": [
+            3047,
+            3068
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 96.08,
+          "end_s": 126.08,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            120.68,
+            121.08
+          ],
+          "cue_frames": [
+            3017,
+            3027
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 94.8,
+          "end_s": 124.8,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            119.44,
+            119.8
+          ],
+          "cue_frames": [
+            2986,
+            2995
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        }
+      ]
+    },
+    "M7": {
+      "source_video": "data/qut_full/M7.mp4",
+      "decisions_sha256": "0e0a452f3cf681d5244607f3df3eb34e3425ce4f053b6e3ba9db2af80c481439",
+      "frames": 5770,
+      "duration_s": 230.79999999999998,
+      "target_sample_states": {
+        "INSUFFICIENT EVIDENCE": 15962,
+        "MONITORING": 1078,
+        "POSSIBLE CONVERGENCE": 277
+      },
+      "warning_frames": 277,
+      "resolved_direction_frames": 982,
+      "confirmed_warning_with_resolved_direction_frames": 261,
+      "warning_episodes": [
+        {
+          "start_s": 224.72,
+          "start_frame": 5618,
+          "end_s": 230.44,
+          "end_frame": 5761,
+          "warning_frames": 144,
+          "warning_arrow_frames": 128,
+          "ids": [
+            1172
+          ],
+          "max_measured_span_px": 952.7272644042969,
+          "peak_growth_per_s": 1.1731647913956622
+        },
+        {
+          "start_s": 223.24,
+          "start_frame": 5581,
+          "end_s": 224.4,
+          "end_frame": 5610,
+          "warning_frames": 30,
+          "warning_arrow_frames": 30,
+          "ids": [
+            1172
+          ],
+          "max_measured_span_px": 80.5,
+          "peak_growth_per_s": 0.23041448555698296
+        },
+        {
+          "start_s": 219.56,
+          "start_frame": 5489,
+          "end_s": 220.2,
+          "end_frame": 5505,
+          "warning_frames": 17,
+          "warning_arrow_frames": 17,
+          "ids": [
+            1172
+          ],
+          "max_measured_span_px": 51.125,
+          "peak_growth_per_s": 0.21344583474989398
+        },
+        {
+          "start_s": 222.04,
+          "start_frame": 5551,
+          "end_s": 222.64,
+          "end_frame": 5566,
+          "warning_frames": 16,
+          "warning_arrow_frames": 16,
+          "ids": [
+            1172
+          ],
+          "max_measured_span_px": 67.272705078125,
+          "peak_growth_per_s": 0.22547779718236433
+        },
+        {
+          "start_s": 218.32,
+          "start_frame": 5458,
+          "end_s": 218.88,
+          "end_frame": 5472,
+          "warning_frames": 15,
+          "warning_arrow_frames": 15,
+          "ids": [
+            1172
+          ],
+          "max_measured_span_px": 46.75,
+          "peak_growth_per_s": 0.29174645006841793
+        },
+        {
+          "start_s": 220.84,
+          "start_frame": 5521,
+          "end_s": 221.4,
+          "end_frame": 5535,
+          "warning_frames": 15,
+          "warning_arrow_frames": 15,
+          "ids": [
+            1172
+          ],
+          "max_measured_span_px": 59.0909423828125,
+          "peak_growth_per_s": 0.25272358930969263
+        },
+        {
+          "start_s": 215.76,
+          "start_frame": 5394,
+          "end_s": 216.28,
+          "end_frame": 5407,
+          "warning_frames": 14,
+          "warning_arrow_frames": 14,
+          "ids": [
+            1172
+          ],
+          "max_measured_span_px": 43.18182373046875,
+          "peak_growth_per_s": 0.2565606815561118
+        },
+        {
+          "start_s": 214.68,
+          "start_frame": 5367,
+          "end_s": 215.04,
+          "end_frame": 5376,
+          "warning_frames": 10,
+          "warning_arrow_frames": 10,
+          "ids": [
+            1172
+          ],
+          "max_measured_span_px": 36.0,
+          "peak_growth_per_s": 0.21975674647146584
+        },
+        {
+          "start_s": 217.16,
+          "start_frame": 5429,
+          "end_s": 217.52,
+          "end_frame": 5438,
+          "warning_frames": 10,
+          "warning_arrow_frames": 10,
+          "ids": [
+            1172
+          ],
+          "max_measured_span_px": 42.125,
+          "peak_growth_per_s": 0.24972549970659802
+        },
+        {
+          "start_s": 213.64,
+          "start_frame": 5341,
+          "end_s": 213.72,
+          "end_frame": 5343,
+          "warning_frames": 3,
+          "warning_arrow_frames": 3,
+          "ids": [
+            1172
+          ],
+          "max_measured_span_px": 31.875,
+          "peak_growth_per_s": 0.35934245142522403
+        },
+        {
+          "start_s": 62.76,
+          "start_frame": 1569,
+          "end_s": 62.8,
+          "end_frame": 1570,
+          "warning_frames": 2,
+          "warning_arrow_frames": 2,
+          "ids": [
+            326
+          ],
+          "max_measured_span_px": 12.25,
+          "peak_growth_per_s": 0.2166146683415025
+        },
+        {
+          "start_s": 63.04,
+          "start_frame": 1576,
+          "end_s": 63.04,
+          "end_frame": 1576,
+          "warning_frames": 1,
+          "warning_arrow_frames": 1,
+          "ids": [
+            326
+          ],
+          "max_measured_span_px": 12.25,
+          "peak_growth_per_s": 0.12788759415865839
+        }
+      ],
+      "suggested_windows": [
+        {
+          "start_s": 200.79999999999998,
+          "end_s": 230.79999999999998,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            224.72,
+            230.44
+          ],
+          "cue_frames": [
+            5618,
+            5761
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 199.4,
+          "end_s": 229.4,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            223.24,
+            224.4
+          ],
+          "cue_frames": [
+            5581,
+            5610
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 195.2,
+          "end_s": 225.2,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            219.56,
+            220.2
+          ],
+          "cue_frames": [
+            5489,
+            5505
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 197.64,
+          "end_s": 227.64,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            222.04,
+            222.64
+          ],
+          "cue_frames": [
+            5551,
+            5566
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 193.88,
+          "end_s": 223.88,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            218.32,
+            218.88
+          ],
+          "cue_frames": [
+            5458,
+            5472
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        }
+      ]
+    },
+    "S1": {
+      "source_video": "data/qut_full/S1.mp4",
+      "decisions_sha256": "14fb1dae890edfbd77dc8ce0d7bf92caa862d33ae59fe0db5bd687be4fcd28fb",
+      "frames": 4423,
+      "duration_s": 176.92,
+      "target_sample_states": {
+        "INSUFFICIENT EVIDENCE": 4536,
+        "MONITORING": 736,
+        "POSSIBLE CONVERGENCE": 212
+      },
+      "warning_frames": 210,
+      "resolved_direction_frames": 342,
+      "confirmed_warning_with_resolved_direction_frames": 132,
+      "warning_episodes": [
+        {
+          "start_s": 171.68,
+          "start_frame": 4292,
+          "end_s": 176.24,
+          "end_frame": 4406,
+          "warning_frames": 115,
+          "warning_arrow_frames": 54,
+          "ids": [
+            408
+          ],
+          "max_measured_span_px": 772.2727355957031,
+          "peak_growth_per_s": 0.9094241383065292
+        },
+        {
+          "start_s": 103.8,
+          "start_frame": 2595,
+          "end_s": 104.4,
+          "end_frame": 2610,
+          "warning_frames": 16,
+          "warning_arrow_frames": 16,
+          "ids": [
+            244,
+            260
+          ],
+          "max_measured_span_px": 66.5,
+          "peak_growth_per_s": 0.2900893282873691
+        },
+        {
+          "start_s": 166.8,
+          "start_frame": 4170,
+          "end_s": 167.16,
+          "end_frame": 4179,
+          "warning_frames": 10,
+          "warning_arrow_frames": 10,
+          "ids": [
+            408
+          ],
+          "max_measured_span_px": 69.0,
+          "peak_growth_per_s": 0.24770961984636192
+        },
+        {
+          "start_s": 101.0,
+          "start_frame": 2525,
+          "end_s": 101.32,
+          "end_frame": 2533,
+          "warning_frames": 9,
+          "warning_arrow_frames": 9,
+          "ids": [
+            244
+          ],
+          "max_measured_span_px": 67.5,
+          "peak_growth_per_s": 0.17436320006359196
+        },
+        {
+          "start_s": 114.16,
+          "start_frame": 2854,
+          "end_s": 114.48,
+          "end_frame": 2862,
+          "warning_frames": 9,
+          "warning_arrow_frames": 9,
+          "ids": [
+            276
+          ],
+          "max_measured_span_px": 32.625,
+          "peak_growth_per_s": 0.252611208288831
+        },
+        {
+          "start_s": 83.84,
+          "start_frame": 2096,
+          "end_s": 84.12,
+          "end_frame": 2103,
+          "warning_frames": 8,
+          "warning_arrow_frames": 4,
+          "ids": [
+            211
+          ],
+          "max_measured_span_px": 25.0,
+          "peak_growth_per_s": 0.18263160344350787
+        },
+        {
+          "start_s": 87.88,
+          "start_frame": 2197,
+          "end_s": 88.0,
+          "end_frame": 2200,
+          "warning_frames": 4,
+          "warning_arrow_frames": 4,
+          "ids": [
+            218
+          ],
+          "max_measured_span_px": 30.0,
+          "peak_growth_per_s": 0.25719317190341606
+        },
+        {
+          "start_s": 128.6,
+          "start_frame": 3215,
+          "end_s": 128.72,
+          "end_frame": 3218,
+          "warning_frames": 4,
+          "warning_arrow_frames": 4,
+          "ids": [
+            312
+          ],
+          "max_measured_span_px": 37.0,
+          "peak_growth_per_s": 0.1972192219605724
+        },
+        {
+          "start_s": 50.6,
+          "start_frame": 1265,
+          "end_s": 50.68,
+          "end_frame": 1267,
+          "warning_frames": 3,
+          "warning_arrow_frames": 3,
+          "ids": [
+            127
+          ],
+          "max_measured_span_px": 29.5,
+          "peak_growth_per_s": 0.22376841340303616
+        },
+        {
+          "start_s": 111.52,
+          "start_frame": 2788,
+          "end_s": 111.6,
+          "end_frame": 2790,
+          "warning_frames": 3,
+          "warning_arrow_frames": 3,
+          "ids": [
+            276
+          ],
+          "max_measured_span_px": 24.5,
+          "peak_growth_per_s": 0.2981771398620525
+        },
+        {
+          "start_s": 116.0,
+          "start_frame": 2900,
+          "end_s": 116.08,
+          "end_frame": 2902,
+          "warning_frames": 3,
+          "warning_arrow_frames": 3,
+          "ids": [
+            276
+          ],
+          "max_measured_span_px": 23.25,
+          "peak_growth_per_s": 0.2120472798123784
+        },
+        {
+          "start_s": 154.96,
+          "start_frame": 3874,
+          "end_s": 155.04,
+          "end_frame": 3876,
+          "warning_frames": 3,
+          "warning_arrow_frames": 3,
+          "ids": [
+            340
+          ],
+          "max_measured_span_px": 38.5,
+          "peak_growth_per_s": 0.0728414852166371
+        },
+        {
+          "start_s": 169.76,
+          "start_frame": 4244,
+          "end_s": 169.84,
+          "end_frame": 4246,
+          "warning_frames": 3,
+          "warning_arrow_frames": 3,
+          "ids": [
+            420
+          ],
+          "max_measured_span_px": 27.25,
+          "peak_growth_per_s": 0.1692937103378167
+        },
+        {
+          "start_s": 109.52,
+          "start_frame": 2738,
+          "end_s": 109.56,
+          "end_frame": 2739,
+          "warning_frames": 2,
+          "warning_arrow_frames": 2,
+          "ids": [
+            274
+          ],
+          "max_measured_span_px": 57.25,
+          "peak_growth_per_s": 0.23137352392253352
+        },
+        {
+          "start_s": 163.44,
+          "start_frame": 4086,
+          "end_s": 163.48,
+          "end_frame": 4087,
+          "warning_frames": 2,
+          "warning_arrow_frames": 2,
+          "ids": [
+            408
+          ],
+          "max_measured_span_px": 49.0,
+          "peak_growth_per_s": 0.6301450665772437
+        },
+        {
+          "start_s": 55.56,
+          "start_frame": 1389,
+          "end_s": 55.56,
+          "end_frame": 1389,
+          "warning_frames": 1,
+          "warning_arrow_frames": 1,
+          "ids": [
+            127
+          ],
+          "max_measured_span_px": 27.75,
+          "peak_growth_per_s": 0.3893863235230835
+        },
+        {
+          "start_s": 101.64,
+          "start_frame": 2541,
+          "end_s": 101.64,
+          "end_frame": 2541,
+          "warning_frames": 1,
+          "warning_arrow_frames": 1,
+          "ids": [
+            253
+          ],
+          "max_measured_span_px": 21.5,
+          "peak_growth_per_s": 0.17731165372736774
+        },
+        {
+          "start_s": 116.84,
+          "start_frame": 2921,
+          "end_s": 116.84,
+          "end_frame": 2921,
+          "warning_frames": 1,
+          "warning_arrow_frames": 1,
+          "ids": [
+            276
+          ],
+          "max_measured_span_px": 22.25,
+          "peak_growth_per_s": 0.07835121636942621
+        },
+        {
+          "start_s": 168.12,
+          "start_frame": 4203,
+          "end_s": 168.56,
+          "end_frame": 4214,
+          "warning_frames": 12,
+          "warning_arrow_frames": 0,
+          "ids": [
+            408
+          ],
+          "max_measured_span_px": 80.0,
+          "peak_growth_per_s": 0.2569061263692669
+        },
+        {
+          "start_s": 99.0,
+          "start_frame": 2475,
+          "end_s": 99.0,
+          "end_frame": 2475,
+          "warning_frames": 1,
+          "warning_arrow_frames": 0,
+          "ids": [
+            244
+          ],
+          "max_measured_span_px": 49.75,
+          "peak_growth_per_s": 0.06116911444327103
+        }
+      ],
+      "suggested_windows": [
+        {
+          "start_s": 146.92,
+          "end_s": 176.92,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            171.68,
+            176.24
+          ],
+          "cue_frames": [
+            4292,
+            4406
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 79.4,
+          "end_s": 109.4,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            103.8,
+            104.4
+          ],
+          "cue_frames": [
+            2595,
+            2610
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 142.16,
+          "end_s": 172.16,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            166.8,
+            167.16
+          ],
+          "cue_frames": [
+            4170,
+            4179
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 76.32,
+          "end_s": 106.32,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            101.0,
+            101.32
+          ],
+          "cue_frames": [
+            2525,
+            2533
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 89.48,
+          "end_s": 119.48,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            114.16,
+            114.48
+          ],
+          "cue_frames": [
+            2854,
+            2862
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        }
+      ]
+    },
+    "S2": {
+      "source_video": "data/qut_full/S2.mp4",
+      "decisions_sha256": "fcd66ad745ac3ee124b0da9648bae23f68fc5110c08a50625ec0274c56f29da4",
+      "frames": 7733,
+      "duration_s": 309.32,
+      "target_sample_states": {
+        "INSUFFICIENT EVIDENCE": 5597,
+        "MONITORING": 1344,
+        "POSSIBLE CONVERGENCE": 216
+      },
+      "warning_frames": 212,
+      "resolved_direction_frames": 665,
+      "confirmed_warning_with_resolved_direction_frames": 129,
+      "warning_episodes": [
+        {
+          "start_s": 302.92,
+          "start_frame": 7573,
+          "end_s": 308.6,
+          "end_frame": 7715,
+          "warning_frames": 143,
+          "warning_arrow_frames": 63,
+          "ids": [
+            597,
+            626
+          ],
+          "max_measured_span_px": 640.25,
+          "peak_growth_per_s": 0.7513442427429837
+        },
+        {
+          "start_s": 301.76,
+          "start_frame": 7544,
+          "end_s": 302.56,
+          "end_frame": 7564,
+          "warning_frames": 21,
+          "warning_arrow_frames": 21,
+          "ids": [
+            597
+          ],
+          "max_measured_span_px": 96.5,
+          "peak_growth_per_s": 0.2818648145578395
+        },
+        {
+          "start_s": 299.08,
+          "start_frame": 7477,
+          "end_s": 299.84,
+          "end_frame": 7496,
+          "warning_frames": 20,
+          "warning_arrow_frames": 20,
+          "ids": [
+            597
+          ],
+          "max_measured_span_px": 71.0,
+          "peak_growth_per_s": 0.19239442889428265
+        },
+        {
+          "start_s": 213.92,
+          "start_frame": 5348,
+          "end_s": 214.2,
+          "end_frame": 5355,
+          "warning_frames": 8,
+          "warning_arrow_frames": 8,
+          "ids": [
+            369
+          ],
+          "max_measured_span_px": 80.5,
+          "peak_growth_per_s": 0.15208884851918297
+        },
+        {
+          "start_s": 300.88,
+          "start_frame": 7522,
+          "end_s": 301.16,
+          "end_frame": 7529,
+          "warning_frames": 8,
+          "warning_arrow_frames": 8,
+          "ids": [
+            597
+          ],
+          "max_measured_span_px": 81.81817626953125,
+          "peak_growth_per_s": 0.28354719238694753
+        },
+        {
+          "start_s": 217.64,
+          "start_frame": 5441,
+          "end_s": 217.8,
+          "end_frame": 5445,
+          "warning_frames": 5,
+          "warning_arrow_frames": 5,
+          "ids": [
+            369
+          ],
+          "max_measured_span_px": 80.5,
+          "peak_growth_per_s": 0.10753284981614741
+        },
+        {
+          "start_s": 205.24,
+          "start_frame": 5131,
+          "end_s": 205.36,
+          "end_frame": 5134,
+          "warning_frames": 4,
+          "warning_arrow_frames": 3,
+          "ids": [
+            369
+          ],
+          "max_measured_span_px": 79.25,
+          "peak_growth_per_s": 0.07955659370710069
+        },
+        {
+          "start_s": 218.76,
+          "start_frame": 5469,
+          "end_s": 218.76,
+          "end_frame": 5469,
+          "warning_frames": 1,
+          "warning_arrow_frames": 1,
+          "ids": [
+            369
+          ],
+          "max_measured_span_px": 79.75,
+          "peak_growth_per_s": 0.041294418296233676
+        },
+        {
+          "start_s": 212.92,
+          "start_frame": 5323,
+          "end_s": 212.96,
+          "end_frame": 5324,
+          "warning_frames": 2,
+          "warning_arrow_frames": 0,
+          "ids": [
+            369
+          ],
+          "max_measured_span_px": 75.5,
+          "peak_growth_per_s": 0.08554430598255094
+        }
+      ],
+      "suggested_windows": [
+        {
+          "start_s": 279.32,
+          "end_s": 309.32,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            302.92,
+            308.6
+          ],
+          "cue_frames": [
+            7573,
+            7715
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 277.56,
+          "end_s": 307.56,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            301.76,
+            302.56
+          ],
+          "cue_frames": [
+            7544,
+            7564
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 274.84,
+          "end_s": 304.84,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            299.08,
+            299.84
+          ],
+          "cue_frames": [
+            7477,
+            7496
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 189.2,
+          "end_s": 219.2,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            213.92,
+            214.2
+          ],
+          "cue_frames": [
+            5348,
+            5355
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        },
+        {
+          "start_s": 276.16,
+          "end_s": 306.16,
+          "duration_s": 30.0,
+          "cue_interval_s": [
+            300.88,
+            301.16
+          ],
+          "cue_frames": [
+            7522,
+            7529
+          ],
+          "reason": "Optional presentation window around naturally produced cue, never an inference input"
+        }
+      ]
+    }
+  }
+}
