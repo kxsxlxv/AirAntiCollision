@@ -33,6 +33,7 @@ def parse_args(argv=None):
     p.add_argument('--weights',help='Explicit matching weights; defaults depend on --detector-variant')
     p.add_argument('--detector-variant',choices=['A','B'],default='A',help='A: supplied five-class 416x704 detector (default); B: supplied fixed-wing-only P2 800x1440 export')
     p.add_argument('--assessment',choices=METHODS,help='Explicit Stage 2 research comparator; default preserves the existing --geometry backend')
+    p.add_argument('--demo-showcase',action='store_true',help='Opt-in early image-space encounter cues and 1920x1080 concept presentation; not flight guidance')
     p.add_argument('--output',default='demo/run')
     p.add_argument('--profile',choices=['conservative','reference'],default='conservative',help='Measured conservative defaults, or the earlier reference settings')
     p.add_argument('--conf',type=float,help='Raw detector threshold (conservative .03, reference .18); not a probability')
@@ -82,6 +83,8 @@ def parse_args(argv=None):
             p.error('P2 variant B supports independent full-frame CPU letterboxing only; tiled/GPU-preprocess/sky/zoom/appearance flags are unsupported')
         a.tiled=False;a.gpu_preprocess=False
     if a.assessment and a.geometry!='log':p.error('--assessment and nondefault --geometry are separate backends; choose one')
+    if a.demo_showcase and (a.assessment or a.geometry!='log' or a.render_process):
+        p.error('--demo-showcase is a separate presentation mode; use default geometry and serial/--async-render export')
     conservative=a.profile=='conservative'
     for key,value in {'conf':.03 if conservative else .18,'tiled':conservative,
                       'tile_edge_margin':2. if conservative else 0.,'image_edge_margin':1. if conservative else 0.,
@@ -180,7 +183,15 @@ def execute(a,session):
     elif a.geometry=='calibrated':
         estimator=CalibratedCPAEstimator(calibration,config)
     else:estimator={'log':ThreatEstimator,'projective':ProjectiveEstimator,'bounded':BoundedProjectiveEstimator}[a.geometry](config)
-    renderer=Renderer(a.title,calibration=calibration) if not a.no_render and not a.render_process else None;policy=TemporalPolicy()
+    demo_cue=None
+    renderer_type=Renderer
+    if a.demo_showcase:
+        from .demo_cue import DemoEncounterCue
+        demo_cue=DemoEncounterCue()
+        if not a.no_render:
+            from .demo_render import DemoRenderer
+            renderer_type=DemoRenderer
+    renderer=renderer_type(a.title,calibration=calibration) if not a.no_render and not a.render_process else None;policy=TemporalPolicy()
     proc=None;timestamp_writer=None
     if not a.no_render and not a.render_process:
         if a.video_timing=='pts':
@@ -194,7 +205,7 @@ def execute(a,session):
     if a.render_process:exporter=ProcessFrameExporter(out,fps/a.stride,a.title,calibration,a.encoder)
     else:exporter=FrameExporter(renderer,out,writer=timestamp_writer,process=proc,asynchronous=a.async_render) if not a.no_render else None
     if exporter:session.register(exporter.abort)
-    stages=defaultdict(list);counts=Counter();frame_idx=0;processed=0;decode_accum_ms=0.;start=time.perf_counter()
+    stages=defaultdict(list);counts=Counter();demo_counts=Counter();frame_idx=0;processed=0;decode_accum_ms=0.;start=time.perf_counter()
     sample_wall_tick=start
     with (out/'decisions.jsonl').open('w',encoding='utf-8') as trace, (out/'detections.jsonl').open('w',encoding='utf-8') as dettrace:
         while True:
@@ -282,7 +293,13 @@ def execute(a,session):
                 counts[estimate['state']]+=1
                 objects.append({'id':tr.id,'box':tr.box,'class_id':tr.class_id,'class':model_contract['semantic_taxonomy'][tr.class_id],'class_display':'БПЛА самолётного типа' if a.detector_variant=='B' else None,'source':tr.source,
                                 'confidence':tr.confidence,'last_seen':tr.last,'assessment':estimate,'raw_history':list(tr.raw_history)})
+                if demo_cue:
+                    objects[-1]['demo_observation']={'ambiguous':bool(t<tr.ambiguous_until),'clipped':bool(tr.clipped),
+                        'hits':tr.hits,'measured':bool(tr.last==t and tr.source in ('detector','zoom'))}
             advice=advisory(objects,image_width=frame.shape[1])
+            if demo_cue:
+                advice['demo']=demo_cue.update(objects,t,cam,(frame.shape[1],frame.shape[0]))
+                demo_counts.update(target['state'] for target in advice['demo']['targets'])
             stages['threat_ms'].append((time.perf_counter()-tick)*1000)
             if exporter:exporter.submit(frame,objects,t,cam,advice,preview=processed==0 or processed==min(150,source_frames//2))
             for o in objects:o.pop('raw_history')
@@ -311,6 +328,11 @@ def execute(a,session):
     report['replay_provenance']=replay_provenance
     report['detector_contract']=model_contract
     report['assessment_backend']=a.assessment or a.geometry
+    if demo_cue:
+        report['demo_showcase']={'enabled':True,'architecture':'YOLO detector -> original custom tracker -> causal short-history image-space cue -> illustrative separation -> showcase renderer',
+            'presentation_states_track_frames':dict(demo_counts),'configuration':getattr(demo_cue,'contract',None),
+            'image_coordinate_contract':'original source pixels and normalized image coordinates; no calibrated FOV, range or physical flight guidance',
+            'GT_available_to_normal_inference':False,'output_presentation_resolution':[1920,1080]}
     report['assessment_scope']='Stage 2 explicit research comparator, raw measured detector extents; no verified camera de-rotation' if assessment_runtime else 'Original production geometry baseline'
     report['sample_latency_scope']='Sequential decode since prior sample through assessment, trace and render submission; asynchronous encoder drain excluded from percentiles, included in elapsed_s'
     report['cold_start']={'model_load_and_provenance_s':model_load_s,'warmup_update_ms':warmup_update_ms,
