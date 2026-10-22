@@ -75,6 +75,45 @@ def line(t,y):
     return np.linalg.lstsq(np.c_[np.ones(len(t)),t-t[-1]],y,rcond=None)[0]
 
 
+def bauer_disc_coordinates(history,calibration):
+    """Bauer JIRS 2018 Eqs. 1, 9--14, in horizontal diameter R units.
+
+    Horizontal disc correction and the published *approximate* virtual vertical
+    disc extension do not require the real target height/width ratio. The latter
+    is only needed to express the vertical CPA in height H units. As in Eq. 11,
+    the measured vertical image midpoint is corrected with the virtual size;
+    its view angle is atan(y/f). This retains the paper's symmetric ellipse/disc
+    approximation, not an exact reconstruction of arbitrary aircraft geometry.
+
+    Returns [X/R,Y/R,Z/R] image-derived samples and the original horizontal-only
+    samples. Direct vector minimization of their LS fit is equivalent to the
+    paper's horizontal/vertical special-point interpolation (Eqs. 26--29), and
+    also handles zero vertical velocity without division by its line slope.
+    """
+    k=calibration;f=k.focal_px
+    edges=np.array([[h.box[0]-k.cx,h.box[2]-k.cx] for h in history],float)
+    y=np.array([(h.box[1]+h.box[3])/2-k.cy for h in history],float)
+    angles=np.arctan(edges/f)
+    beta=angles.mean(axis=1);gamma_x=np.diff(angles,axis=1)[:,0]/2
+    sx=np.diff(edges,axis=1)[:,0]*np.cos(angles).sum(axis=1)
+    xbar=edges.mean(axis=1)*(1-sx*sx/(16*f*f))
+    alpha=np.arctan(y/f)
+    gamma_y=np.arctan(np.hypot(1,np.tan(beta))/np.hypot(1,np.tan(alpha))*np.tan(gamma_x))
+    virtual_angles=np.c_[alpha-gamma_y,alpha+gamma_y]
+    if np.any(np.abs(virtual_angles)>=np.pi/2):
+        raise ValueError('Virtual disc crosses the pinhole image-plane horizon')
+    virtual_edges=f*np.tan(virtual_angles)
+    sy=np.diff(virtual_edges,axis=1)[:,0]*np.cos(virtual_angles).sum(axis=1)
+    if not np.isfinite([sx,sy]).all() or min(sx.min(),sy.min())<=0:
+        raise ValueError('Invalid corrected virtual-disc extent')
+    ybar=y*(1-sy*sy/(16*f*f))
+    horizontal=np.c_[2*xbar/sx,2*f/sx]
+    coordinates=np.c_[2*xbar/sx,2*ybar/sy,f*(1/sx+1/sy)]
+    return coordinates,horizontal,{'vertical_view_angle_convention':'atan(measured_bbox_midpoint_y/f)',
+                                  'vertical_extension':'JIRS2018_Eq9_14_approximate_virtual_disc',
+                                  'minimum_reconstructed_depth_diameters':float(coordinates[:,2].min())}
+
+
 def wcv_taumod(position,velocity,dthr=1222.32,zthr=137.16,tthr=35.,tcoa=0.):
     """NASA instantaneous WCV_TAUMOD + WCV_TCOA equations; SI state only.
 
@@ -238,29 +277,34 @@ class Assessor:
                        area_pair_times_s=[first.time,last.time])
             return out
         if m=='bauer_disc':
-            out['physical_meaning']='horizontal_model_CPA_in_intruder_horizontal_diameter_units'
+            out['physical_meaning']='3D_disc_model_CPA_in_intruder_horizontal_diameter_units'
             if not c.calibration:
                 out['reason_codes']=['missing_verified_intrinsics'];return out
             k=c.calibration;k.validate_resolution(c.width,c.height)
-            edges=np.array([[h.box[0]-k.cx,h.box[2]-k.cx] for h in recent])
-            widths=edges[:,1]-edges[:,0];centers=edges.mean(axis=1)
-            cosines=k.focal_px/np.sqrt(k.focal_px**2+edges**2)
-            corrected_size=widths*cosines.sum(axis=1)
-            corrected_x=centers*(1-corrected_size**2/(16*k.focal_px**2))
-            # Bauer 2016 Eq.8, and 2019 Eq.4/7 horizontal minimum. Reconstructing
-            # the fitted horizontal vector is algebraically equivalent to rotation
-            # to its minimum. Vertical ellipse-to-disc extension is NOT fabricated.
-            r,v=line(t,np.c_[2*corrected_x/corrected_size,2*k.focal_px/corrected_size])
+            try:
+                coordinates,horizontal,details=bauer_disc_coordinates(recent,k)
+            except ValueError:
+                out['reason_codes']=['invalid_virtual_disc_projection'];return out
+            r,v=line(t,coordinates)
+            rh,vh=line(t,horizontal);vhh=float(vh@vh)
+            th=float(-rh@vh/vhh) if vhh>1e-12 else None
+            mh=float(np.linalg.norm(rh+max(0.,th)*vh)) if th is not None else None
             vv=float(v@v)
             if vv<1e-12:
                 out['reason_codes']=['relative_motion_unresolved'];return out
             tau=float(-r@v/vv);miss=float(np.linalg.norm(r+max(0,tau)*v))
             decision=('potential_conflict' if 0<tau<self.config.horizon and miss<self.config.threat_miss
                       else 'apparent_nonconflict' if tau>0 and miss>self.config.nonthreat_miss else 'uncertain')
-            out.update(decision=decision,reason_codes=['disc_horizontal_reconstruction_no_vertical_extension'],
-                       tau_s=tau,miss_distance=miss,miss_units='horizontal_intruder_diameters',
-                       relative_horizontal_position=r.tolist(),relative_horizontal_velocity=v.tolist(),
-                       true_3d_CPA_available=False,
+            out.update(details,decision=decision,reason_codes=['published_virtual_disc_3d_reconstruction'],
+                       tau_s=tau,miss_distance=miss,miss_units='intruder_horizontal_diameters',
+                       relative_position_diameters=r.tolist(),relative_velocity_diameters_s=v.tolist(),
+                       horizontal_tau_s=th,horizontal_miss_distance=mh,
+                       relative_horizontal_position=rh.tolist(),relative_horizontal_velocity=vh.tolist(),
+                       model_3d_CPA_available=True,true_3d_CPA_available=False,
+                       vertical_CPA_in_height_units_available=False,
+                       approximation_assumptions=['disc_like_horizontal_shape','symmetric_vertical_ellipse_projection',
+                                                  'depth_much_larger_than_radius','constant_relative_velocity',
+                                                  'trajectory_frame_compensation'],
                        published_flight_thresholds_applied=False)
             return out
         if m=='growth':

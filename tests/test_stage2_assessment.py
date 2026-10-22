@@ -1,12 +1,70 @@
 import unittest
 import numpy as np
 from airavoid.assessment import (Assessor,Measurement,Context,relative_motion_observer,
-                                 wcv_taumod,wcv_future,scope_result)
+                                 wcv_taumod,wcv_future,scope_result,bauer_disc_coordinates)
 from airavoid.calibrated import CameraCalibration
 from airavoid.detector_p2 import letterbox,DetectorP2
 
 
 class Stage2AssessmentTests(unittest.TestCase):
+    @staticmethod
+    def disc_ellipse_history(position,velocity):
+        # Independent tangency of a horizontal circle (R=1) and a vertical
+        # ellipse (depth diameter=1, height=.25), not assessor equations.
+        history=[];f=1500.;center=20000.
+        for time in np.arange(0,4.0001,.1):
+            x,y,z=np.asarray(position)+time*np.asarray(velocity)
+            horizontal=np.sort((x*z+np.array([-1,1])*.5*np.sqrt(x*x+z*z-.25))/(z*z-.25))
+            ry=.125;rz=.5
+            vertical=np.sort((y*z+np.array([-1,1])*np.sqrt(ry*ry*z*z+rz*rz*y*y-ry*ry*rz*rz))/(z*z-rz*rz))
+            box=(center+f*horizontal[0],center+f*vertical[0],center+f*horizontal[1],center+f*vertical[1])
+            history.append(Measurement(float(time),box))
+        calibration=CameraCalibration(40000,40000,f,center,center,True,'independent analytic ellipse fixture')
+        return history,Context(4,40000,40000,'fixed',True,calibration,True,constant_shape_verified=True)
+
+    def test_bauer_virtual_disc_reconstruction_uses_three_axes_without_known_height(self):
+        h,c=self.disc_ellipse_history([5,10,25],[-.2,-.4,-1])
+        positions,horizontal,diagnostic=bauer_disc_coordinates(h,c.calibration)
+        # Physical R is one metre in this fixture only; API receives no target R/H.
+        expected=np.array([5,10,25])+np.array([-.2,-.4,-1])*4
+        np.testing.assert_allclose(positions[-1],expected,atol=.012)
+        self.assertEqual(horizontal.shape,(41,2))
+        e=Assessor('bauer_disc').assess(h,c)
+        self.assertAlmostEqual(e['tau_s'],21.,delta=.02)
+        self.assertLess(e['miss_distance'],.02)
+        self.assertTrue(e['model_3d_CPA_available'])
+        self.assertFalse(e['true_3d_CPA_available'])
+        self.assertFalse(e['vertical_CPA_in_height_units_available'])
+
+    def test_bauer_vertical_velocity_changes_time_and_distance_of_minimum(self):
+        h,c=self.disc_ellipse_history([0,10,25],[0,-.8,-1])
+        e=Assessor('bauer_disc').assess(h,c)
+        # Independently, squared range is (10-.8*t)^2+(25-t)^2,
+        # derivative vanishes at absolute t=33/1.64, not at horizontal t=25.
+        absolute_minimum=33/1.64
+        expected_distance=np.hypot(10-.8*absolute_minimum,25-absolute_minimum)
+        self.assertAlmostEqual(e['tau_s'],absolute_minimum-4,delta=.03)
+        self.assertAlmostEqual(e['miss_distance'],expected_distance,delta=.03)
+        self.assertAlmostEqual(e['horizontal_tau_s'],21.,delta=.01)
+        self.assertLess(e['horizontal_miss_distance'],.01)
+        self.assertEqual(e['decision'],'apparent_nonconflict')
+
+    def test_bauer_constant_vertical_separation_does_not_divide_by_vertical_speed(self):
+        h,c=self.disc_ellipse_history([0,12,25],[0,0,-1])
+        e=Assessor('bauer_disc').assess(h,c)
+        self.assertAlmostEqual(e['tau_s'],21.,delta=.03)
+        self.assertAlmostEqual(e['miss_distance'],12.,delta=.03)
+        self.assertEqual(e['decision'],'apparent_nonconflict')
+
+    def test_bauer_unphysical_virtual_disc_horizon_is_not_safe(self):
+        # A very close, very high target creates a virtual disc outside the
+        # calibrated pinhole domain. It must return an explicit invalid result.
+        k=CameraCalibration(100,100,10,50,50,True,'deliberate singular fixture')
+        h=[Measurement(float(t),(30,190,70,210)) for t in np.arange(0,4.001,.1)]
+        e=Assessor('bauer_disc').assess(h,Context(4,100,100,'fixed',True,k))
+        self.assertEqual(e['decision'],'uncertain')
+        self.assertEqual(e['reason_codes'],['invalid_virtual_disc_projection'])
+
     def test_airtrack_pair_time_is_at_current_later_sample(self):
         # Independent fronto-parallel projection: Z=20-t, half width=1.
         h=[]

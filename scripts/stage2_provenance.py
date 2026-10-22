@@ -11,10 +11,19 @@ from airavoid.provenance import file_sha256
 def write():
     methods={
       'bauer_disc':{'source':['https://eprints.sztaki.hu/8949/1/Bauer_1168_3096377_ny.pdf',
-                              'https://real.mtak.hu/100246/1/Hindawi_2019.pdf'],
-                    'implementation':'Independent horizontal disc-corrected LS, 2016 Eq.8 and 2019 Eq.4/7',
-                    'deviations':['Vertical extension pending inspection of JIRS derivation','Common 2/5 diameter, 60-second research thresholds, not flight threshold transfer'],
-                    'prerequisites':['verified focal length and camera axes','disc-like constant horizontal dimensions','trajectory-frame compensation']},
+                              'https://real.mtak.hu/100246/1/Hindawi_2019.pdf',
+                              'https://eprints.sztaki.hu/9817/1/Bauer_261_3349048_ny.pdf'],
+                    'implementation':'Independent 2016 disc correction plus JIRS 2018 Eq1,9-14 approximate virtual vertical disc, inverse-size averaging and 3D LS vector minimum; algebraically equivalent to JIRS Eq26-29 / 2019 Eq4-13 special-point interpolation',
+                    'source_verification':'JIRS author manuscript pages 10-11 equations and derivation visually inspected against PDF, including gamma_y transfer and vertical inverse-size averaging; page17 establishes normalization by R before optional H/R conversion',
+                    'deviations':['Common 2/5 horizontal-diameter, 60-second research thresholds, not flight threshold transfer',
+                                  'Direct minimum of fitted normalized 3D line avoids divisions by zero vertical speed in the equivalent special-point construction',
+                                  'Vertical view angle is atan(measured bbox midpoint_y/f); source symmetric ellipse/disc approximation retained, no unknown true geometric centre supplied',
+                                  'No H/R estimate or vertical CPA in height units; 3D miss remains in horizontal diameter units',
+                                  'Raw measured bbox coordinates used; no independently verified ownship attitude is invented'],
+                    'prerequisites':['verified rectified focal length and camera axes','disc-like constant horizontal dimensions',
+                                     'approximately symmetric ellipse-to-disc extension','depth/R at least about 3 for published approximation','constant relative velocity','trajectory-frame compensation'],
+                    'not_claimed':['exact arbitrary-aircraft 3D reconstruction','metric distance without physical target size','certified physical safety'],
+                    'preserved_horizontal_diagnostics':['horizontal_tau_s','horizontal_miss_distance','relative_horizontal_position','relative_horizontal_velocity']},
       'lai_lin':{'source':['https://doi.org/10.3390/rs16050756'],'implementation':'Independent Eq.2–6; paper weights .5/.333/.167 and >.5 warning',
                  'deviations':['detector rectangle area replaces Mask R-CNN silhouette','undefined zero-motion cosine propagated as interval, not guessed','shared temporal policy reported separately from published index'],
                  'prerequisites':['first measured area anchor','measured image positions','no physical CPA semantics']},
@@ -49,7 +58,10 @@ def write():
                         'YOLO_export_metadata':'AGPL-3.0; model binaries excluded from Git',
                         'ColANet':'No top-level license or inference weights found in pinned recursive tree; reference only'},
             'no_AOT_data_used':True,'no_simulator_run':True,'no_environment_package_changes':True,
-            'implementation_sha256':file_sha256(ROOT/'airavoid/assessment.py')}
+            'implementation_sha256':file_sha256(ROOT/'airavoid/assessment.py'),
+            'reproduction_tests_sha256':file_sha256(ROOT/'tests/test_stage2_assessment.py'),
+            'falsification_script_sha256':file_sha256(ROOT/'scripts/stage2_falsify.py'),
+            'recorded_RGB_input_limits':'No measured metric relative state, calibrated/derotated target feature flow or independent target shape/rotation verification was supplied for NPS/QUT. Those prerequisites must remain explicit rather than be inferred from identity labels.'}
     (ROOT/'reports/stage2_method_provenance.json').write_text(json.dumps(report,indent=2))
 
 

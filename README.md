@@ -3,6 +3,13 @@
 Start with the [Russian video gallery](demo/index.html),
 [visual guide](demo/README.md) and [measured results](RESULTS.md).
 
+The [Stage 2 research results](docs/STAGE2_RESULTS.md) add controlled NPS
+detector/identity comparisons, independent collision-method reproductions,
+analytical failures and opt-in P2/assessment backends. The
+[runtime guide](docs/stage2_runtime.md) contains actual RTX 4060 measurements and
+reproducible export commands. Physical collision accuracy on moving-camera RGB
+remains unproven; the acceptance gaps are explicit in that report.
+
 Uses one RGB file, the supplied five-class YOLO26m detector, optional overlapping
 crops, conservative motion-gated tracking, temporal image drift/expansion analysis,
 camera-motion validity checks and explainable Russian video annotations.

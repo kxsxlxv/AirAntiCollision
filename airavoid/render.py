@@ -32,6 +32,16 @@ CLASSES=['самолёт','вертолёт','птица','аэростат','п
 CAMERA_STATUS={'background_similarity':'оценка движения по фону','unreliable':'ненадёжная оценка',
                'unobserved':'нет опорных наблюдений','unknown_camera':'движение не определено',
                'fixed_setup_assumption':'допущение: неподвижна','motion_violates_fixed_setup':'нарушено допущение неподвижности'}
+RESEARCH_REASONS={
+ 'no_fresh_measurement':'Нет свежего независимого измерения цели',
+ 'clipped_measurement':'Граница кадра обрезает измеренный размер',
+ 'association_ambiguous':'Неоднозначное сопоставление цели',
+ 'low_index_is_not_clearance_evidence':'Малый индекс риска не доказывает физический проход мимо',
+ 'point_cone_without_finite_aircraft_footprint_is_not_clearance':'Точечная модель не учитывает габариты своего аппарата',
+ 'unresolved_camera_rotation_translation':'Поворот и перенос камеры не разделены',
+ 'missing_verified_intrinsics':'Нужна подтверждённая калибровка камеры',
+ 'cue_only_no_published_collision_classifier':'Измерены признаки изображения; правила столкновения нет',
+ 'published_risk_index_bbox_area_adaptation':'Индекс по площади рамки — условный признак риска'}
 
 
 class Renderer:
@@ -127,16 +137,26 @@ class Renderer:
         for i,o in enumerate(ordered[:3]):
             y=123+i*203;e=o['assessment'];color=COLORS[e['state']]
             score_label={'sot':'SOT','zoom':'фрагм.','pixel':'пикс.'}.get(o.get('source'),'det')
-            text(1302,y,f"#{o['id']}  {CLASSES[o['class_id']]} • {score_label} {o['confidence']:.2f}",20,color)
+            display_class=o.get('class_display') or CLASSES[o['class_id']]
+            text(1302,y,f"#{o['id']}  {display_class} • {score_label} {o['confidence']:.2f}",20,color)
             text(1302,y+30,STATES[e['state']],18,color)
-            why=REASONS[e['reason']]
+            why=e.get('reason_text') or REASONS.get(e['reason'],e['reason'])
+            if e.get('research'):
+                codes=e['research']['reason_codes']
+                if e['reason'] in ('confirm_warning','confirm_non_threat'):why=REASONS[e['reason']]
+                else:
+                    why=next((message for code,message in RESEARCH_REASONS.items() if code in codes),why)
             # Manually break by measured text width rather than clipping.
             lines=['']
             for word in why.split():
                 candidate=(lines[-1]+' '+word).strip()
                 if d.textlength(candidate,font=self.fonts[18])>465:lines.append(word)
                 else:lines[-1]=candidate
-            for j,line in enumerate(lines):text(1302,y+60+j*24,line,18)
+            # Two explanation lines leave a fixed region for numeric diagnostics.
+            if len(lines)>2:lines=lines[:2];lines[-1]+='…'
+            for j,line in enumerate(lines):
+                while line and d.textlength(line,font=self.fonts[18])>465:line=line[:-2]+'…'
+                text(1302,y+60+j*24,line,18)
             if e['growth'] is not None:
                 text(1302,y+112,f"Оценка: рост {100*e['growth']:+.1f}%/с; дрейф {e['drift']:.1f} пикс/с",16)
                 if e['miss_spans'] is not None:
@@ -148,6 +168,10 @@ class Renderer:
             else:
                 span_label='нет оценки' if e['span'] is None else f"{e['span']:.1f} пикс"
                 text(1302,y+112,f"История: {e['samples']} наблюдений • размер: {span_label}",16)
+                if e.get('research'):
+                    r=e['research']
+                    text(1302,y+138,f"Метод: {r['method_id']} • результат: {r['decision']}",14)
+                    text(1302,y+161,'Физический смысл и условия — в JSON',14)
             d.line((1302,y+182,1775,y+182),fill=(49,63,80),width=1)
         if not objects:text(1302,135,'Цели не обнаружены. Это не признак безопасности.',16)
         text(1302,738,'Камера: '+CAMERA_STATUS.get(camera['status'],camera['status']),16)
