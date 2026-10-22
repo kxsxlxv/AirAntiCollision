@@ -1,0 +1,269 @@
+{
+  "source_run": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\final_showcase_approach",
+  "frames": 875,
+  "frame_states": {
+    "INSUFFICIENT EVIDENCE": 127,
+    "MONITORING": 472,
+    "POSSIBLE CONVERGENCE": 276
+  },
+  "resolved_direction_episodes": [
+    {
+      "key": [
+        2,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 0.56,
+      "end_s": 1.48,
+      "frames": 24
+    },
+    {
+      "key": [
+        2,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 1.8,
+      "end_s": 1.8,
+      "frames": 1
+    },
+    {
+      "key": [
+        2,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 2.16,
+      "end_s": 4.32,
+      "frames": 55
+    },
+    {
+      "key": [
+        2,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 4.4,
+      "end_s": 6.72,
+      "frames": 59
+    },
+    {
+      "key": [
+        1,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 6.92,
+      "end_s": 7.32,
+      "frames": 11
+    },
+    {
+      "key": [
+        2,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 7.52,
+      "end_s": 8.68,
+      "frames": 30
+    },
+    {
+      "key": [
+        2,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 8.8,
+      "end_s": 13.36,
+      "frames": 115
+    },
+    {
+      "key": [
+        1,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 13.76,
+      "end_s": 13.8,
+      "frames": 2
+    },
+    {
+      "key": [
+        1,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 15.28,
+      "end_s": 16.6,
+      "frames": 34
+    },
+    {
+      "key": [
+        1,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 17.12,
+      "end_s": 18.12,
+      "frames": 26
+    },
+    {
+      "key": [
+        1,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 18.36,
+      "end_s": 19.04,
+      "frames": 18
+    },
+    {
+      "key": [
+        115,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 21.68,
+      "end_s": 21.72,
+      "frames": 2
+    },
+    {
+      "key": [
+        115,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 22.36,
+      "end_s": 25.68,
+      "frames": 84
+    },
+    {
+      "key": [
+        115,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 25.92,
+      "end_s": 26.8,
+      "frames": 23
+    },
+    {
+      "key": [
+        115,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 27.04,
+      "end_s": 28.04,
+      "frames": 26
+    },
+    {
+      "key": [
+        115,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 28.48,
+      "end_s": 29.32,
+      "frames": 22
+    },
+    {
+      "key": [
+        115,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 29.6,
+      "end_s": 32.68,
+      "frames": 78
+    },
+    {
+      "key": [
+        115,
+        [
+          -0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 32.88,
+      "end_s": 33.84,
+      "frames": 25
+    },
+    {
+      "key": [
+        115,
+        [
+          -1.0,
+          0.0
+        ]
+      ],
+      "start_s": 34.04,
+      "end_s": 34.08,
+      "frames": 2
+    },
+    {
+      "key": [
+        115,
+        [
+          -0.70711,
+          0.70711
+        ]
+      ],
+      "start_s": 34.28,
+      "end_s": 34.48,
+      "frames": 6
+    },
+    {
+      "key": [
+        115,
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "start_s": 34.68,
+      "end_s": 34.68,
+      "frames": 1
+    }
+  ],
+  "resolved_arrow_frames": 644,
+  "priority_changes": 45,
+  "direction_geometry_violations": [],
+  "contact_sheet": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\final_demo_qa\\final_showcase_approach_contact.jpg",
+  "criterion": "For each resolved arrow, moving a normalized image reference along the arrow increases squared distance from the linearly projected target to first order: -2*p dot v > 0.",
+  "scope": "Image-coordinate illustration only; not physical aircraft displacement or flight guidance"
+}

@@ -1,0 +1,20 @@
+{
+  "mission": "Final MVP presentation sprint",
+  "started_utc": "2026-10-22T16:36:04Z",
+  "deadline_utc": "2026-10-22T17:06:04Z",
+  "deadline_europe_istanbul": "2026-10-22 20:06:04",
+  "validated_delivery_checkpoint_utc": "2026-10-22T16:54:32Z",
+  "user_reported_start_used_percent": 73,
+  "verified_delivery_checkpoint_used_percent": 95,
+  "usage_scope": "Account-wide weekly meter; concurrent usage cannot be attributed solely to this sprint",
+  "completed_live_videos": 3,
+  "real_neural_source_frames": 2701,
+  "full_resolution_screenshots": 6,
+  "new_models_or_training": false,
+  "environment_package_changes": false,
+  "GT_supplied_to_inference": false,
+  "core_implementation_commit": "5b4cbd7387a9e981a4dfaa1b0f9ee54925058056",
+  "pull_request": "https://github.com/kxsxlxv/AirAntiCollision/pull/3",
+  "concept_delivery": "Complete selected real-video MVP, with explicit image-cue and illustrative-direction semantics",
+  "scientific_scope": "Does not change Stage 2 acceptance gaps or establish physical collision accuracy/flight guidance"
+}

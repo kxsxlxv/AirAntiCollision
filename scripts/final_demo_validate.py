@@ -35,14 +35,21 @@ def demo_for(row):
 def possible(target):return target.get('state')=='POSSIBLE CONVERGENCE' or target.get('state_id')=='possible_convergence'
 
 
-def choose_frames(rows):
+def choose_frames(rows,prefer_aircraft=False):
     """Select from actual measured trace evidence, never a preselected timestamp."""
     stable=[];contrast=[];segments={};completed=[];illustrations=[];warnings=[]
     for index,row in enumerate(rows):
         demo=demo_for(row);targets=demo.get('targets',[]);direction=demo.get('direction',{})
         monitoring=[t for t in targets if t.get('state')=='MONITORING' or t.get('state_id')=='monitoring']
         support=sum(min(int(t.get('samples',0)),100)+min(len(t.get('measured_trail',[])),100) for t in targets)
-        stable.append((1000*len(monitoring)+support-abs(index-len(rows)*.3)*.01,index))
+        stable_score=1000*len(monitoring)+support-abs(index-len(rows)*.3)*.01
+        if prefer_aircraft:
+            normal={int(o['id']):o for o in row.get('objects',[])}
+            aircraft=[t for t in monitoring if normal.get(int(t['id']),{}).get('class_id')==0]
+            if aircraft:
+                prominence=max(max(t['box'][2]-t['box'][0],t['box'][3]-t['box'][1])*min(1.,float(t.get('detector_confidence') or 0.)/.5) for t in aircraft)
+                stable_score=1000000+100*prominence+support
+        stable.append((stable_score,index))
         valid_vector=direction.get('status')=='resolved' and isinstance(direction.get('vector'),list) and len(direction['vector'])==2 and all(math.isfinite(float(v)) for v in direction['vector']) and math.hypot(*direction['vector'])>1e-9
         if direction.get('status')=='resolved':
             if not valid_vector or direction.get('meaning')!='illustrative_image_plane_cue_not_safe_maneuver':
@@ -146,7 +153,7 @@ def validate(args):
     require('trace_original_PTS',max(source_errors,default=math.inf)<=1e-6,'trace does not preserve original source PTS')
     source_ms_errors=[abs(row['source_pts_ms']/1000-source_pts[row['frame']]) for row in rows]
     require('trace_acquisition_PTS',max(source_ms_errors,default=math.inf)<=1e-6,'raw acquisition timestamps changed')
-    stable_index,cue_index,cue=choose_frames(rows);selected={stable_index:'stable_tracking.png',cue_index:'encounter_cue.png'}
+    stable_index,cue_index,cue=choose_frames(rows,prefer_aircraft=variant=='A');selected={stable_index:'stable_tracking.png',cue_index:'encounter_cue.png'}
     output_pts=[];screenshots={}
     with av.open(str(video)) as container:
         vs=container.streams.video[0];out_size=[vs.width,vs.height];out_codec=vs.codec_context.name

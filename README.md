@@ -1,5 +1,9 @@
 # RGB airborne encounter research demonstrator
 
+The [final MVP gallery](demo/FINAL_DEMO.html) presents three completed real-video
+exports with live neural inference. See [FINAL_DEMO.md](docs/FINAL_DEMO.md) for
+the opt-in `--demo-showcase` command, actual videos/screenshots and verification.
+
 Start with the [Russian video gallery](demo/index.html),
 [visual guide](demo/README.md) and [measured results](RESULTS.md).
 
