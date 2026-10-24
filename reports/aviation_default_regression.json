@@ -1,0 +1,7 @@
+{
+  "frames": 150,
+  "baseline_sha256": "976dd726a8d387366dfdacc1facb2d58709d1278e9891124eb5f8c0769310978",
+  "current_sha256": "976dd726a8d387366dfdacc1facb2d58709d1278e9891124eb5f8c0769310978",
+  "decisions_exactly_equal": true,
+  "scope": "Original A cached observations on original RGB, default CLI without demo; no neural-FPS claim"
+}

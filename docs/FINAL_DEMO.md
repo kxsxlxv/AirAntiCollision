@@ -1,5 +1,9 @@
 # Final live showcase
 
+This page preserves the earlier classic showcase. The current customer-facing
+[aviation indicator](AVIATION_UI.md) uses 3840×1080, adaptive ROI tiles and
+grouped attention areas. Commands below explicitly select `--demo-layout classic`.
+
 ## NPS approximate-range preset (user-confirmed camera and size)
 
 The user subsequently confirmed **GoPro HERO3 Ultra Wide** and an aircraft size
@@ -14,8 +18,8 @@ Foreshortening, aircraft aspect, bbox errors and lens mismatch can substantially
 bias the estimate; no error bound or physical collision state is inferred.
 
 ```powershell
-.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_32.mov" --demo-showcase --nps-range-demo --detector-variant B --camera auto --encoder h264_nvenc --async-render --output demo/nps_range_showcase
-.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_43.mov" --demo-showcase --nps-range-demo --detector-variant B --camera auto --encoder h264_nvenc --async-render --output demo/nps_range_contrast
+.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_32.mov" --demo-showcase --demo-layout classic --nps-range-demo --detector-variant B --camera auto --encoder h264_nvenc --async-render --output demo/nps_range_showcase
+.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_43.mov" --demo-showcase --demo-layout classic --nps-range-demo --detector-variant B --camera auto --encoder h264_nvenc --async-render --output demo/nps_range_contrast
 ```
 
 This flag explicitly declares NPS footage. It is not used for the QUT example or
@@ -49,14 +53,14 @@ The [official HERO3 Black manual](https://gopro.com/content/dam/help/hero3-black
 Use the existing custom CUDA OpenCV environment and the registered local P2 TensorRT engine. Do not install an OpenCV wheel or run an environment resynchronization.
 
 ```powershell
-.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_32.mov" --demo-showcase --detector-variant B --camera auto --encoder h264_nvenc --async-render --output demo/final_showcase
+.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_32.mov" --demo-showcase --demo-layout classic --detector-variant B --camera auto --encoder h264_nvenc --async-render --output demo/final_showcase
 .venv/Scripts/python.exe scripts/final_demo_validate.py --run demo/final_showcase
 ```
 
 For a short functional pilot, use a separate output; it does not satisfy the final duration requirement:
 
 ```powershell
-.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_32.mov" --demo-showcase --detector-variant B --camera auto --encoder h264_nvenc --async-render --max-frames 150 --output demo/final_showcase_pilot
+.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_32.mov" --demo-showcase --demo-layout classic --detector-variant B --camera auto --encoder h264_nvenc --async-render --max-frames 150 --output demo/final_showcase_pilot
 .venv/Scripts/python.exe scripts/final_demo_validate.py --run demo/final_showcase_pilot --pilot --output reports/final_demo_pilot_validation.json
 ```
 
@@ -110,7 +114,7 @@ Both PNGs are unmodified 1920×1080 decoded frames from the final video and were
 The same frozen mode was also run live on the complete `Clip_43.mov`, with no method tuning: **803 frames, 27.7950778 s, 1920×1080 H.264**, 12.75 processing FPS and 11.98 FPS including initialization. Every source/output frame decoded successfully; the maximum encoded PTS error was 5.539 μs. The trace contains 796 `MONITORING`, 580 `INSUFFICIENT EVIDENCE` and zero `POSSIBLE CONVERGENCE` target-frame samples. Its arrows are also illustrations without convergence warnings.
 
 ```powershell
-.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_43.mov" --demo-showcase --detector-variant B --camera auto --encoder h264_nvenc --async-render --output demo/final_showcase_contrast
+.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_43.mov" --demo-showcase --demo-layout classic --detector-variant B --camera auto --encoder h264_nvenc --async-render --output demo/final_showcase_contrast
 .venv/Scripts/python.exe scripts/final_demo_validate.py --run demo/final_showcase_contrast --output reports/final_demo_contrast_validation.json
 ```
 
@@ -121,7 +125,7 @@ The additional [tracking frame](../demo/final_showcase_contrast/stable_tracking.
 The unchanged cue was also run live on the existing **QUT M2 35 s selected recording**, using the original five-class detector A and the declared **stationary ground-camera** setup. This is a separate previously used encounter-category example, not a moving-camera NPS test or an independently held-out collision trial. Its category describes an approaching aircraft and does not supply physical CPA/collision truth. Selection provenance is in `data/qut/M2.manifest.json`: source frames 8916–9790, 875 frames at 25 fps, starting 120.64 s into the available full M2 sequence. Source SHA-256 is `9c44cecd3d818089f3d2b22c3f71bd139e5e720eae1935c664cc65a891ae0bb7`.
 
 ```powershell
-.venv/Scripts/python.exe -m airavoid data/qut/M2.mp4 --demo-showcase --detector-variant A --camera fixed --encoder h264_nvenc --async-render --output demo/final_showcase_approach
+.venv/Scripts/python.exe -m airavoid data/qut/M2.mp4 --demo-showcase --demo-layout classic --detector-variant A --camera fixed --encoder h264_nvenc --async-render --output demo/final_showcase_approach
 .venv/Scripts/python.exe scripts/final_demo_validate.py --run demo/final_showcase_approach --detector-variant A --output reports/final_demo_approach_validation.json
 ```
 

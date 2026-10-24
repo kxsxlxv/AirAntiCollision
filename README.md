@@ -1,5 +1,9 @@
 # RGB airborne encounter research demonstrator
 
+The current [aviation-style indicator](demo/AVIATION_UI.html) uses a 3840×1080
+canvas, adaptive per-object ROI tiles and grouped image-attention envelopes.
+[AVIATION_UI.md](docs/AVIATION_UI.md) documents the controls and completed exports.
+
 The [final MVP gallery](demo/FINAL_DEMO.html) presents three completed real-video
 exports with live neural inference. See [FINAL_DEMO.md](docs/FINAL_DEMO.md) for
 the opt-in `--demo-showcase` command, actual videos/screenshots and verification.
