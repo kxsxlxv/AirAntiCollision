@@ -33,7 +33,8 @@ def parse_args(argv=None):
     p.add_argument('--weights',help='Explicit matching weights; defaults depend on --detector-variant')
     p.add_argument('--detector-variant',choices=['A','B'],default='A',help='A: supplied five-class 416x704 detector (default); B: supplied fixed-wing-only P2 800x1440 export')
     p.add_argument('--assessment',choices=METHODS,help='Explicit Stage 2 research comparator; default preserves the existing --geometry backend')
-    p.add_argument('--demo-showcase',action='store_true',help='Opt-in early image-space encounter cues and 1920x1080 concept presentation; not flight guidance')
+    p.add_argument('--demo-showcase',action='store_true',help='Opt-in early image-space encounter cues and concept presentation; not flight guidance')
+    p.add_argument('--demo-layout',choices=['aviation','classic'],default='aviation',help='Showcase display: aviation 3840x1080 with ROI tiles, or original classic 1920x1080')
     p.add_argument('--nps-range-demo',action='store_true',help='Declare NPS footage and show approximate size/FOV-based range, for demonstration only')
     p.add_argument('--nps-target-span-m',type=float,default=1.5,help='Assumed transverse aircraft span for the NPS range illustration')
     p.add_argument('--nps-hfov-deg',type=float,default=120.,help='Approximate horizontal Ultra Wide FOV for equidistant projection; not calibration')
@@ -190,7 +191,7 @@ def execute(a,session):
     elif a.geometry=='calibrated':
         estimator=CalibratedCPAEstimator(calibration,config)
     else:estimator={'log':ThreatEstimator,'projective':ProjectiveEstimator,'bounded':BoundedProjectiveEstimator}[a.geometry](config)
-    demo_cue=None;demo_range=None
+    demo_cue=None;demo_range=None;attention_regions=None
     renderer_type=Renderer
     if a.demo_showcase:
         from .demo_cue import DemoEncounterCue
@@ -199,8 +200,15 @@ def execute(a,session):
             from .demo_range import NPSRangeDemo
             demo_range=NPSRangeDemo(a.nps_target_span_m,a.nps_hfov_deg)
         if not a.no_render:
-            from .demo_render import DemoRenderer
-            renderer_type=DemoRenderer
+            if a.demo_layout=='aviation':
+                from .aviation_render import AviationRenderer
+                renderer_type=AviationRenderer
+            else:
+                from .demo_render import DemoRenderer
+                renderer_type=DemoRenderer
+        if a.demo_layout=='aviation':
+            from .aviation_regions import compute_attention_regions
+            attention_regions=compute_attention_regions
     renderer=renderer_type(a.title,calibration=calibration) if not a.no_render and not a.render_process else None;policy=TemporalPolicy()
     proc=None;timestamp_writer=None
     if not a.no_render and not a.render_process:
@@ -310,6 +318,8 @@ def execute(a,session):
             if demo_cue:
                 advice['demo']=demo_cue.update(objects,t,cam,(frame.shape[1],frame.shape[0]))
                 if demo_range:demo_range.update(advice['demo'],objects,t,(frame.shape[1],frame.shape[0]))
+                if attention_regions:
+                    advice['demo']['attention_regions']=attention_regions(advice['demo']['targets'],frame.shape[1],frame.shape[0])
                 demo_counts.update(target['state'] for target in advice['demo']['targets'])
             stages['threat_ms'].append((time.perf_counter()-tick)*1000)
             if exporter:exporter.submit(frame,objects,t,cam,advice,preview=processed==0 or processed==min(150,source_frames//2))
@@ -342,8 +352,13 @@ def execute(a,session):
     if demo_cue:
         report['demo_showcase']={'enabled':True,'architecture':'YOLO detector -> original custom tracker -> causal short-history image-space cue -> illustrative separation -> showcase renderer',
             'presentation_states_track_frames':dict(demo_counts),'configuration':getattr(demo_cue,'contract',None),
-            'image_coordinate_contract':'original source pixels and normalized image coordinates; no calibrated FOV, range or physical flight guidance',
-            'GT_available_to_normal_inference':False,'output_presentation_resolution':[1920,1080]}
+            'image_coordinate_contract':'original source pixels and normalized image coordinates; no calibrated range/angles or physical flight guidance; optional NPS distance is explicitly approximate',
+            'GT_available_to_normal_inference':False,'output_presentation_resolution':[3840,1080] if a.demo_layout=='aviation' else [1920,1080],
+            'layout':a.demo_layout}
+        if attention_regions:
+            report['demo_showcase']['attention_region_contract']={'algorithm':'connected components of overlapping projected image envelopes',
+                'prediction_horizon_s':.5,'meaning':'image attention/convergence visualization, not semantic segmentation or physical free-space proof',
+                'complement':'unassessed; not verified safe','changes_inference_or_warning':False}
         if demo_range:report['demo_showcase']['approximate_NPS_range']=demo_range.contract
     report['assessment_scope']='Stage 2 explicit research comparator, raw measured detector extents; no verified camera de-rotation' if assessment_runtime else 'Original production geometry baseline'
     report['sample_latency_scope']='Sequential decode since prior sample through assessment, trace and render submission; asynchronous encoder drain excluded from percentiles, included in elapsed_s'
