@@ -1,5 +1,30 @@
 # Aviation indicator UI
 
+## Directions on the central image field
+
+The main arrow now starts at the centre of the middle image field. Its image-axis
+vector is converted through that field's aspect ratio, so its angle agrees with
+the plotted positions. It is cyan for monitoring and amber for a confirmed visual
+convergence cue. No `ИЛЛЮСТРАЦИЯ` caption or separate video-side disk is drawn.
+Unresolved or unsupported directions remain suppressed.
+
+Thin dashed 0.5-second measured-motion projections now have arrowheads when the
+displayed displacement is at least 10 px. Tiny or unknown motion is not enlarged
+to invent a readable direction. These small arrows show object image motion;
+the prominent centre arrow shows the existing separation cue.
+
+Existing connected groups of overlapping swept object envelopes have stronger
+fill and outlines on the central field. Convergence groups are amber; monitoring
+groups are cyan. Group membership, predictions and cue decisions are unchanged.
+Unobserved space is still not classified as safe.
+
+Current gallery exports are `demo/aviation_nps_field`,
+`demo/aviation_contrast_field` and `demo/aviation_approach_field`. They replay
+the original neural observations for presentation only. Full recorded decision
+and detection bytes remain identical; decoded-video/PTS checks are recorded in
+`reports/aviation_field_validation.json`. To reproduce, use the commands below
+with new output folders ending in `_field`.
+
 ## Label cleanup, 24 October 2026
 
 The current renderer removes the on-frame illustration disclaimer and the
@@ -9,7 +34,7 @@ Underlying detector taxonomy, approximate-range calculation and cue decisions
 are unchanged. Camera/range assumptions and scientific limitations remain
 documented below.
 
-The gallery now opens `demo/aviation_nps_clean`, `demo/aviation_contrast_clean`
+The label-cleanup exports are `demo/aviation_nps_clean`, `demo/aviation_contrast_clean`
 and `demo/aviation_approach_clean`. These are presentation replays from the
 original recorded neural observations, not new neural inference or timing
 measurements. Full trace/decoded-video checks are recorded in

@@ -68,6 +68,7 @@ class AviationRenderTests(unittest.TestCase):
     def test_full_size_output_preserves_source_and_input_payload(self):
         frame=np.full((480,640,3),(25,65,105),np.uint8)
         objects,advice=self.fixture();original=frame.copy()
+        advice['demo']['direction']['vector']=np.array([1.,-1.])
         vector=advice['demo']['direction']['vector'].copy();boxes=copy.deepcopy(objects)
         result=self.renderer.draw(frame,objects,1.,{},advice)
         self.assertEqual(result.shape,(1080,3840,3));self.assertEqual(result.dtype,np.uint8)
@@ -77,6 +78,13 @@ class AviationRenderTests(unittest.TestCase):
         np.testing.assert_array_equal(result[600,500],frame[0,0])
         self.assertEqual(self.renderer.last_layout['object_ids'],[1,2])
         self.assertTrue(self.renderer.last_layout['direction_drawn'])
+        self.assertEqual(self.renderer.last_layout['direction_panel'],'image_field')
+        fx,fy,fw,fh=self.renderer.last_layout['field_rect']
+        for x,y in [self.renderer.last_layout['direction_origin_px'],self.renderer.last_layout['direction_tip_px']]:
+            self.assertTrue(fx<x<fx+fw and fy<y<fy+fh)
+        delta=(np.array(self.renderer.last_layout['direction_tip_px'])-
+               self.renderer.last_layout['direction_origin_px'])/np.array([fw,fh])
+        self.assertAlmostEqual(delta[0],-delta[1])
 
     def test_stale_roi_never_crops_the_current_frame_or_keeps_arrow(self):
         frame=np.full((480,640,3),(0,0,255),np.uint8)

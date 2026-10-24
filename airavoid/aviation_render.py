@@ -138,6 +138,17 @@ class AviationRenderer(DemoRenderer):
             a=p+delta*(i/n);b=p+delta*((i+.48)/n)
             draw.line((tuple(a),tuple(b)),fill=color,width=width)
 
+    def _motion_arrow(self,draw,clip,start,end,color):
+        """Keep the measured 0.5 s displacement; never inflate tiny motion."""
+        start=np.asarray(start,float);end=np.asarray(end,float)
+        self._line(draw,clip,start,end,color,2,True)
+        delta=end-start;length=float(np.linalg.norm(delta))
+        if not np.isfinite(length) or length<10:return
+        v=delta/length;n=np.array([-v[1],v[0]])
+        head=min(10.,length*.35)
+        for corner in (end-v*head+n*head*.5,end-v*head-n*head*.5):
+            self._line(draw,clip,end,corner,color,2)
+
     def _groups(self,demo,width,height,fresh_ids):
         groups=demo.get('attention_regions')
         if groups is None:
@@ -172,7 +183,9 @@ class AviationRenderer(DemoRenderer):
             for offset in range(-h,w,28):hd.line((offset,0,offset+h,h),fill=(*UNKNOWN,35),width=1)
             overlay.paste(hatch,(0,0),mask)
         for polygon,color in polygons:
-            draw.polygon(polygon,fill=(*color,26 if unknown else 13),outline=(*color,170 if unknown else 110),width=2)
+            strong=color==AMBER
+            draw.polygon(polygon,fill=(*color,(62 if strong else 38) if unknown else 13),
+                         outline=(*color,(235 if strong else 190) if unknown else 110),width=3 if unknown else 2)
         base=canvas.crop((x,y,x+w,y+h)).convert('RGBA')
         canvas.paste(Image.alpha_composite(base,overlay).convert('RGB'),(x,y))
 
@@ -284,7 +297,7 @@ class AviationRenderer(DemoRenderer):
                 velocity=cue.get('velocity_px_s')
                 if velocity is not None and np.asarray(velocity).shape==(2,) and np.isfinite(velocity).all():
                     end=np.array(center)+np.asarray(velocity)*np.array([fw/source_w,fh/source_h])*.5
-                    self._line(draw,field,center,end,c,2,True)
+                    self._motion_arrow(draw,field,center,end,c)
             self._symbol(draw,center,c,item['id']==self.focus_id,not item['fresh'],
                          normalized_state(cue.get('state'))=='POSSIBLE CONVERGENCE')
             if item['id'] not in clustered_ids or item['id']==self.focus_id:
@@ -326,17 +339,21 @@ class AviationRenderer(DemoRenderer):
         direction=demo.get('direction') or {};vector=direction.get('vector')
         vector=np.asarray(vector,float) if vector is not None else np.zeros(2)
         resolved=cue_priority and direction.get('status')=='resolved' and vector.shape==(2,) and np.isfinite(vector).all() and np.linalg.norm(vector)>1e-8
+        direction_anchor=None;direction_tip=None
         if resolved:
-            v=vector/np.linalg.norm(vector)
-            left_space=vx-self.video_area[0]
-            if left_space>=185:anchor=np.array([20+left_space/2,840.])
-            else:anchor=np.array([2560.,900.])
-            ax,ay=anchor
-            draw.ellipse((ax-75,ay-75,ax+75,ay+75),fill=(10,30,43),outline=(57,108,128),width=2)
-            start=anchor-v*43;end=anchor+v*50;normal=np.array([-v[1],v[0]])
-            draw.line((tuple(start),tuple(end-v*20)),fill=CYAN,width=17)
-            draw.polygon([tuple(end),tuple(end-v*33+normal*26),tuple(end-v*33-normal*26)],fill=CYAN)
-            self._text(canvas,ax-75,ay+88,'ИЛЛЮСТРАЦИЯ',14,CYAN,True)
+            # Cue vector uses normalized image axes. Convert through the field's
+            # aspect ratio so the arrow agrees with the plotted target offsets.
+            v=vector*np.array([fw,fh]);v=v/np.linalg.norm(v)
+            anchor=np.array([ox,oy]);length=min(125.,min(fw,fh)*.22)
+            start=anchor+v*22;end=anchor+v*length;normal=np.array([-v[1],v[0]])
+            arrow_color=AMBER if normalized_state(primary['cue'].get('state'))=='POSSIBLE CONVERGENCE' else CYAN
+            # A dark keyline keeps the main separation arrow distinct from the
+            # thin dashed motion predictions and does not hide a disk of video.
+            draw.line((tuple(start),tuple(end-v*21)),fill=BG,width=22)
+            draw.line((tuple(start),tuple(end-v*21)),fill=arrow_color,width=13)
+            head=[tuple(end),tuple(end-v*36+normal*23),tuple(end-v*36-normal*23)]
+            draw.polygon(head,fill=arrow_color,outline=BG,width=2)
+            direction_anchor=anchor.tolist();direction_tip=end.tolist()
 
         # All tracked objects receive a tile. Stale positions never select a new
         # crop from the current frame; their card stays visibly unobserved.
@@ -394,6 +411,8 @@ class AviationRenderer(DemoRenderer):
         self.last_layout={'source_rect':video,'field_rect':field,'roi_rects':cells,
             'object_ids':[i['id'] for i in items],'fresh_ids':sorted(fresh_ids),'focus_id':self.focus_id,
             'direction_drawn':bool(resolved),'region_count':len(groups),'state':state,
+            'direction_panel':'image_field' if resolved else None,
+            'direction_origin_px':direction_anchor,'direction_tip_px':direction_tip,
             'field_label_ids':field_label_ids,'group_badges':group_badges}
         return cv2.cvtColor(np.asarray(canvas),cv2.COLOR_RGB2BGR)
 
