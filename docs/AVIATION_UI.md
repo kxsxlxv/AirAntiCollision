@@ -1,5 +1,26 @@
 # Aviation indicator UI
 
+## Label cleanup, 24 October 2026
+
+The current renderer removes the on-frame illustration disclaimer and the
+span/FOV caption. Fixed-wing labels display `самолёт`; object labels and ROI
+titles display the number without `ОБЪЕКТ`. Class names remain visible.
+Underlying detector taxonomy, approximate-range calculation and cue decisions
+are unchanged. Camera/range assumptions and scientific limitations remain
+documented below.
+
+The gallery now opens `demo/aviation_nps_clean`, `demo/aviation_contrast_clean`
+and `demo/aviation_approach_clean`. These are presentation replays from the
+original recorded neural observations, not new neural inference or timing
+measurements. Full trace/decoded-video checks are recorded in
+`reports/aviation_clean_validation.json`.
+
+```powershell
+.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_32.mov" --demo-showcase --nps-range-demo --detector-variant B --camera auto --encoder h264_nvenc --async-render --detections demo/aviation_nps/detections.jsonl --output demo/aviation_nps_clean
+.venv/Scripts/python.exe -m airavoid "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_43.mov" --demo-showcase --nps-range-demo --detector-variant B --camera auto --encoder h264_nvenc --async-render --detections demo/aviation_contrast/detections.jsonl --output demo/aviation_contrast_clean
+.venv/Scripts/python.exe -m airavoid data/qut/M2.mp4 --demo-showcase --detector-variant A --camera fixed --encoder h264_nvenc --async-render --detections demo/aviation_approach/detections.jsonl --output demo/aviation_approach_clean
+```
+
 The opt-in showcase uses a **3840×1080 aviation-style indicator** with fewer words, per-object identifiers/classes, automatically sized crops for every displayed object, and grouped image-attention regions. The original scientific assessment, tracker, detector variants and cue rules remain separate from this presentation change.
 
 Core implementation: `97ce7a4236c5dc7ea1edb07fe1e779f28f184f58`.

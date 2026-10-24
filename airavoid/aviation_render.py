@@ -71,7 +71,7 @@ def range_text(target):
 def source_class(obj):
     label=str(obj.get('class_display') or obj.get('class') or '')
     lowered=label.lower()
-    if 'fixed-wing' in lowered or 'самолётного' in lowered or 'самолетного' in lowered:return 'БПЛА самолётный'
+    if 'fixed-wing' in lowered or 'самолётного' in lowered or 'самолетного' in lowered:return 'самолёт'
     names=['самолёт','вертолёт','птица','аэростат','парашют']
     mapping={'airplane':'самолёт','helicopter':'вертолёт','bird':'птица','balloon':'аэростат','parachute':'парашют'}
     if lowered in mapping:return mapping[lowered]
@@ -248,7 +248,7 @@ class AviationRenderer(DemoRenderer):
             for x,dx in [(bounds[0],1),(bounds[2],-1)]:
                 for y,dy in [(bounds[1],1),(bounds[3],-1)]:
                     draw.line(((x,y+dy*corner),(x,y),(x+dx*corner,y)),fill=c,width=3 if chosen else 2)
-            label=f"ОБЪЕКТ {item['id']:02d}" if chosen else f"{item['id']:02d}"
+            label=f"{item['id']:02d}"
             fw=self.fonts[(17,True)];width=draw.textlength(label,font=fw)+20
             x=max(vx+3,min(bounds[0],vx+vw-width-3));y=max(vy+3,bounds[1]-31)
             if any(abs(x-p)<width and abs(y-q)<30 for p,q in labels):y=min(vy+vh-31,bounds[3]+6)
@@ -321,8 +321,8 @@ class AviationRenderer(DemoRenderer):
 
         self._text(canvas,1862,954,'ОСИ ИЗОБРАЖЕНИЯ',14,MUTED,True)
         if primary:
-            self._short(canvas,1862,984,f"ОБЪЕКТ {primary['id']:02d}  ·  {source_class(primary['object'])}",560,20,WHITE,True)
-        else:self._text(canvas,1862,984,'ОБЪЕКТ —',20,MUTED)
+            self._short(canvas,1862,984,f"{primary['id']:02d}  ·  {source_class(primary['object'])}",560,20,WHITE,True)
+        else:self._text(canvas,1862,984,'—',20,MUTED)
         direction=demo.get('direction') or {};vector=direction.get('vector')
         vector=np.asarray(vector,float) if vector is not None else np.zeros(2)
         resolved=cue_priority and direction.get('status')=='resolved' and vector.shape==(2,) and np.isfinite(vector).all() and np.linalg.norm(vector)>1e-8
@@ -351,7 +351,7 @@ class AviationRenderer(DemoRenderer):
             class_size=18 if large else 15 if normal else 13
             header=84 if large else 72 if normal else 50
             footer=32 if h>=250 else 28 if h>=180 else 22
-            self._short(canvas,x+10,y+6,f"ОБЪЕКТ {item['id']:02d}",w-43,title_size,c,True)
+            self._short(canvas,x+10,y+6,f"{item['id']:02d}",w-43,title_size,c,True)
             self._symbol(draw,(x+w-20,y+title_size/2+9),c,False,not item['fresh'],
                          normalized_state(item['cue'].get('state'))=='POSSIBLE CONVERGENCE',6)
             self._wrapped(canvas,x+10,y+title_size+12,item['class'],w-20,class_size,WHITE if item['fresh'] else MUTED,
@@ -391,8 +391,6 @@ class AviationRenderer(DemoRenderer):
         draw.rectangle((520,1047,552,1068),outline=UNKNOWN)
         for xx in [522,532,542]:draw.line((xx,1067,xx+9,1048),fill=UNKNOWN,width=1)
         self._text(canvas,568,1044,'не оценено',16,MUTED)
-        self._text(canvas,1250,1045,'Иллюстрация в осях кадра · не руководство полётом',17,WHITE)
-        if demo.get('range_preset'):self._text(canvas,3050,1046,'≈ по заданным размаху / FOV',15,MUTED)
         self.last_layout={'source_rect':video,'field_rect':field,'roi_rects':cells,
             'object_ids':[i['id'] for i in items],'fresh_ids':sorted(fresh_ids),'focus_id':self.focus_id,
             'direction_drawn':bool(resolved),'region_count':len(groups),'state':state,

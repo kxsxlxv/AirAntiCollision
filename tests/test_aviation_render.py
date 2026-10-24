@@ -61,7 +61,7 @@ class AviationRenderTests(unittest.TestCase):
         for value in [None,0,-1,np.nan,np.inf]:
             self.assertEqual(range_text({'range_approx_m':value}),'D —')
         self.assertEqual(range_text({'range_display_m':45,'range_approx_m':45.4}),'≈ 45 м')
-        self.assertEqual(source_class({'class':'fixed-wing UAV'}),'БПЛА самолётный')
+        self.assertEqual(source_class({'class':'fixed-wing UAV'}),'самолёт')
         self.assertEqual(source_class({'class_id':2}),'птица')
         self.assertEqual(source_class({}),'класс —')
 

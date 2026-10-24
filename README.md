@@ -18,11 +18,6 @@ analytical failures and opt-in P2/assessment backends. The
 reproducible export commands. Physical collision accuracy on moving-camera RGB
 remains unproven; the acceptance gaps are explicit in that report.
 
-The [TartanAviation trajectory experiment](docs/TARTAN_TRAJECTORY_EXPERIMENT.md)
-compares genuine inference with recorded ADS-B on one stationary-camera episode.
-It preserves noisy classifications/IDs and unmatched warnings, and separates
-reference graphics from neural predictions in the [review gallery](demo/TARTAN_EXPERIMENT.html).
-
 Uses one RGB file, the supplied five-class YOLO26m detector, optional overlapping
 crops, conservative motion-gated tracking, temporal image drift/expansion analysis,
 camera-motion validity checks and explainable Russian video annotations.
