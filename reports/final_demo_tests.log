@@ -1,0 +1,26 @@
+test_alias_and_short_history_confirmation_are_causal (test_demo_cue.DemoCueTests.test_alias_and_short_history_confirmation_are_causal) ... ok
+test_aspect_instability_is_not_growth_evidence (test_demo_cue.DemoCueTests.test_aspect_instability_is_not_growth_evidence) ... ok
+test_camera_reset_requires_new_history (test_demo_cue.DemoCueTests.test_camera_reset_requires_new_history) ... ok
+test_central_and_conflicting_monitoring_targets_still_have_no_arrow (test_demo_cue.DemoCueTests.test_central_and_conflicting_monitoring_targets_still_have_no_arrow) ... ok
+test_contract_declares_real_operating_rules_without_physical_claim (test_demo_cue.DemoCueTests.test_contract_declares_real_operating_rules_without_physical_claim) ... ok
+test_invalid_camera_and_explicit_ambiguity_remove_cue (test_demo_cue.DemoCueTests.test_invalid_camera_and_explicit_ambiguity_remove_cue) ... ok
+test_json_finite_original_research_unchanged_and_monotonic_time (test_demo_cue.DemoCueTests.test_json_finite_original_research_unchanged_and_monotonic_time) ... ok
+test_measured_growing_side_target_resolves_illustrative_direction (test_demo_cue.DemoCueTests.test_measured_growing_side_target_resolves_illustrative_direction) ... ok
+test_missing_observation_cannot_keep_a_warning_or_arrow (test_demo_cue.DemoCueTests.test_missing_observation_cannot_keep_a_warning_or_arrow) ... ok
+test_opposite_converging_targets_suppress_conflicting_arrow (test_demo_cue.DemoCueTests.test_opposite_converging_targets_suppress_conflicting_arrow) ... ok
+test_recession_and_high_relative_drift_do_not_warn (test_demo_cue.DemoCueTests.test_recession_and_high_relative_drift_do_not_warn) ... ok
+test_sot_and_explicit_unmeasured_boxes_never_seed_growth (test_demo_cue.DemoCueTests.test_sot_and_explicit_unmeasured_boxes_never_seed_growth) ... ok
+test_stable_monitoring_priority_and_arrow_do_not_create_a_warning (test_demo_cue.DemoCueTests.test_stable_monitoring_priority_and_arrow_do_not_create_a_warning) ... ok
+test_symmetric_central_target_has_no_invented_direction (test_demo_cue.DemoCueTests.test_symmetric_central_target_has_no_invented_direction) ... ok
+test_direction_words_follow_screen_axes_without_flight_axes (test_demo_render.DemoRendererTests.test_direction_words_follow_screen_axes_without_flight_axes) ... ok
+test_display_focus_stays_stable_without_inventing_geometric_priority (test_demo_render.DemoRendererTests.test_display_focus_stays_stable_without_inventing_geometric_priority) ... ok
+test_four_three_and_widescreen_sources_keep_uniform_scale (test_demo_render.DemoRendererTests.test_four_three_and_widescreen_sources_keep_uniform_scale) ... ok
+test_projected_path_stays_inside_actual_source_image (test_demo_render.DemoRendererTests.test_projected_path_stays_inside_actual_source_image) ... ok
+test_renderer_shape_and_inputs_are_unchanged (test_demo_render.DemoRendererTests.test_renderer_shape_and_inputs_are_unchanged) ... ok
+test_stale_target_cannot_support_current_highlight_or_direction (test_demo_render.DemoRendererTests.test_stale_target_cannot_support_current_highlight_or_direction) ... ok
+test_unresolved_direction_cannot_draw_arrow_even_with_vector (test_demo_render.DemoRendererTests.test_unresolved_direction_cannot_draw_arrow_even_with_vector) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.684s
+
+OK

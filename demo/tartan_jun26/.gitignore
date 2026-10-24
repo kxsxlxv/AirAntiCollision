@@ -1,0 +1,3 @@
+# Full live traces are local reproducible outputs; digests are in reports.
+decisions.jsonl
+detections.jsonl

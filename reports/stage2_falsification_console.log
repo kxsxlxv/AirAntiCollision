@@ -1,0 +1,106 @@
+{
+  "kind": "analytical closed-form projections; not recorded flight evidence; no simulator",
+  "cases": 1599,
+  "base_trajectories": 123,
+  "variants": [
+    "parallel_ideal",
+    "disc_ideal",
+    "disc_ellipse_3d",
+    "cadence_25",
+    "cadence_5",
+    "unequal_spacing",
+    "detector_noise",
+    "aspect_change",
+    "missing",
+    "clipping",
+    "tiny_pixels",
+    "camera_rotation",
+    "camera_parallax"
+  ],
+  "methods": [
+    "bauer_disc",
+    "lai_lin",
+    "airtrack_cues",
+    "wcv_taumod",
+    "rv_c3bf",
+    "log",
+    "projective",
+    "bounded",
+    "calibrated",
+    "growth"
+  ],
+  "critical_false_safe_count": 1359,
+  "critical_false_safe_by_method": {
+    "bauer_disc": 231,
+    "log": 153,
+    "projective": 173,
+    "calibrated": 28,
+    "lai_lin": 430,
+    "rv_c3bf": 337,
+    "bounded": 7
+  },
+  "scoped_false_safe_count": 928,
+  "scoped_false_safe_by_method": {
+    "lai_lin": 346,
+    "rv_c3bf": 337,
+    "bauer_disc": 118,
+    "log": 52,
+    "projective": 69,
+    "bounded": 6
+  },
+  "error_diagnostics": {
+    "bauer_disc/disc_ideal_3d_cpa": {
+      "n": 123,
+      "median": 0.010121297971640963,
+      "max": 0.09242817120968994
+    },
+    "bauer_disc/disc_ideal_3d_tcpa": {
+      "n": 123,
+      "median": 0.01267142489003703,
+      "max": 0.06853677035456229
+    },
+    "bauer_disc/disc_ideal_horizontal_cpa": {
+      "n": 123,
+      "median": 0.0006334355591262053,
+      "max": 0.07328639443399965
+    },
+    "bauer_disc/disc_ideal_horizontal_tcpa": {
+      "n": 123,
+      "median": 0.013326181917079793,
+      "max": 0.07337238406276825
+    },
+    "bauer_disc/disc_ellipse_3d_3d_cpa": {
+      "n": 123,
+      "median": 0.010004819441935597,
+      "max": 0.09242817120968994
+    },
+    "bauer_disc/disc_ellipse_3d_3d_tcpa": {
+      "n": 123,
+      "median": 0.01267142489003703,
+      "max": 0.06853677035456229
+    },
+    "bauer_disc/disc_ellipse_3d_horizontal_cpa": {
+      "n": 123,
+      "median": 0.0006334355591262053,
+      "max": 0.07328639443399965
+    },
+    "bauer_disc/disc_ellipse_3d_horizontal_tcpa": {
+      "n": 123,
+      "median": 0.013326181917079793,
+      "max": 0.07337238406276825
+    }
+  },
+  "full_cases": "artifacts/stage2/falsification/cases.jsonl",
+  "all_false_safe_cases": "artifacts/stage2/falsification/false_safe_cases.jsonl",
+  "fixture_units": "R=1 metre is analytical truth only; vision receives no physical size. CPA error numbers in this fixture coincide with horizontal-diameter units.",
+  "implementation_sha256": "3e8d933b15ea504bac7edff7ceab8b400bc62135aa71cc1ddde872c839fa865f",
+  "falsification_script_sha256": "85ac94e79f540ece47711a3b95311a0951e1f1d3e238ff2188c70fe609373233",
+  "corrections_since_initial": [
+    "Full Bauer virtual-disc 3D reconstruction replaces horizontal-only output; horizontal diagnostics retained",
+    "Added exact independent vertical ellipse projection and nine vertical-trajectory sweeps",
+    "Enlarged analytic image canvas vertically to contain targets; no synthetic clipping mislabeled as measured",
+    "Rotation/parallax variants now carry moving-camera metadata; raw results remain retained",
+    "Horizontal errors compared with independently minimized horizontal range, rather than 3D range"
+  ],
+  "interpretation": "Raw candidates retained; failures are not silently removed by scope. Sensor/state/shape assumptions differ. WCV oracle-state and nominal point-observer cone are separate comparators, not equal-input RGB rankings."
+}

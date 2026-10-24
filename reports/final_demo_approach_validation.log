@@ -1,0 +1,119 @@
+{
+  "state": "complete",
+  "validated_utc": "2026-10-22T16:51:34.601274+00:00",
+  "acceptance": "final_live_demo",
+  "run": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\final_showcase_approach",
+  "source": {
+    "path": "data\\qut\\M2.mp4",
+    "sha256": "9c44cecd3d818089f3d2b22c3f71bd139e5e720eae1935c664cc65a891ae0bb7",
+    "codec": "h264",
+    "resolution": [
+      1280,
+      720
+    ],
+    "decoded_frames": 875
+  },
+  "encoded_video": {
+    "path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\final_showcase_approach\\annotated.mp4",
+    "sha256": "6e7ef678108c980c99fa627d048b9327dbd814cd25d624a6aa6e5f65837fda14",
+    "codec": "h264",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "duration_s": 35.0,
+    "all_frames_decoded": true,
+    "frames": 875
+  },
+  "max_source_trace_pts_error_s": 0.0,
+  "max_encoded_pts_error_s": 0.0,
+  "processing_fps": 18.134963540692564,
+  "whole_run_fps": 17.146114081531977,
+  "runtime": {
+    "hardware": "NVIDIA GeForce RTX 4060",
+    "providers": [
+      "TensorRT 11.4.0.106"
+    ],
+    "cv2": "5.0.0",
+    "cv2_path": "C:\\Data\\DEV\\Libs\\opencv_cuda_5\\install\\python\\cv2\\__init__.py",
+    "cuda_devices": 1,
+    "cold_start": {
+      "model_load_and_provenance_s": 2.1145365000120364,
+      "warmup_update_ms": [
+        123.74690000433475,
+        25.411800015717745,
+        25.317999999970198,
+        25.300699984654784,
+        25.084599968977273
+      ],
+      "first_inference_ms": 123.74690000433475,
+      "warmup_updates": 5
+    },
+    "sample_latency_scope": "Sequential decode since prior sample through assessment, trace and render submission; asynchronous encoder drain excluded from percentiles, included in elapsed_s",
+    "end_to_end_sample_ms": {
+      "mean": 55.087428571390255,
+      "p50": 54.31259999750182,
+      "p95": 63.387570006307214,
+      "p99": 78.50203802227041
+    }
+  },
+  "actual_detector_contract": {
+    "variant": "A",
+    "input_shape": [
+      1,
+      3,
+      416,
+      704
+    ],
+    "output_shape": [
+      1,
+      300,
+      6
+    ],
+    "semantic_taxonomy": [
+      "airplane",
+      "helicopter",
+      "bird",
+      "balloon",
+      "parachute"
+    ],
+    "letterbox": "RGB NCHW /255, linear resize, centred 114 pad, round dimensions",
+    "preprocess": "CUDA OpenCV",
+    "tiled": true,
+    "adaptive_tiles": false,
+    "tile_shape": [
+      416,
+      704
+    ],
+    "tile_edge_margin_px": 2.0,
+    "cross_box_nms_iou": 0.45,
+    "conf": 0.03,
+    "weights_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\yolo26m_local.engine",
+    "weights_sha256": "89e5d441f97a1cc3731340460cfa584a1f401c2d08fad01f17b5aacff1c258d9",
+    "registered_supplied_export": true,
+    "provenance_manifest_sha256": "65724aee702b7053283abb459ae8589d62c8dee81f6e4010d118e47e2c0327f8",
+    "matching_assets": [
+      "A_engine"
+    ],
+    "input_dtype": "float32"
+  },
+  "benchmark_sha256": "3721e6589e3a2dc235b5ececa5e7c340742558016845495998d4c1eac91b25b4",
+  "decisions_sha256": "6efd9de9175b66ffb5987a20b8b65df567bba676c798269b0ded60e7e88bab55",
+  "detections_sha256": "5c358c4b82ebb06673985b173019bc2dac148820e0d994ed86c73455d16ef894",
+  "demo_target_sample_states": {
+    "INSUFFICIENT EVIDENCE": 2629,
+    "MONITORING": 601,
+    "POSSIBLE CONVERGENCE": 276
+  },
+  "encounter_screenshot_evidence": {
+    "observed_possible_convergence_with_resolved_arrow": true,
+    "observed_resolved_illustrative_arrow": true,
+    "target_id": 115,
+    "sustained_trace_interval_s": [
+      29.92,
+      32.68
+    ],
+    "selection": "strongest sample within longest consecutive actual convergence/arrow interval"
+  },
+  "claim_scope": "Observed tracking and conditional image-plane cue only; no GT supplied to inference, no physical CPA/avoidance guarantee."
+}

@@ -1,0 +1,14 @@
+test_box_oracle_removes_false_positive_and_marks_source (test_stage2_scoring.Stage2OfflineContracts.test_box_oracle_removes_false_positive_and_marks_source) ... ok
+test_camera_validity_loss_resets_same_epoch_compensated_history (test_stage2_scoring.Stage2OfflineContracts.test_camera_validity_loss_resets_same_epoch_compensated_history) ... ok
+test_compressed_assessment_has_same_schema_and_unobserved_distinct (test_stage2_scoring.Stage2OfflineContracts.test_compressed_assessment_has_same_schema_and_unobserved_distinct) ... ok
+test_continuity_keeps_missing_opportunity_separate (test_stage2_scoring.Stage2OfflineContracts.test_continuity_keeps_missing_opportunity_separate) ... ok
+test_gt_adapter_and_trackeval_exact_frames (test_stage2_scoring.Stage2OfflineContracts.test_gt_adapter_and_trackeval_exact_frames) ... ok
+test_homography_divides_coordinates_and_uses_local_jacobian (test_stage2_scoring.Stage2OfflineContracts.test_homography_divides_coordinates_and_uses_local_jacobian) ... ok
+test_identity_oracle_changes_ids_only_and_resolves_known_identity (test_stage2_scoring.Stage2OfflineContracts.test_identity_oracle_changes_ids_only_and_resolves_known_identity) ... ok
+test_matcher_really_prioritizes_cardinality_over_overlap_sum (test_stage2_scoring.Stage2OfflineContracts.test_matcher_really_prioritizes_cardinality_over_overlap_sum) ... ok
+test_replay_rejects_noncausal_timestamps_and_ignores_predictions (test_stage2_scoring.Stage2OfflineContracts.test_replay_rejects_noncausal_timestamps_and_ignores_predictions) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.062s
+
+OK

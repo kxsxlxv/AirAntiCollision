@@ -1,0 +1,3203 @@
+{
+  "kind": "analytical closed-form projections; not recorded flight evidence; no simulator",
+  "cases": 1599,
+  "base_trajectories": 123,
+  "variants": [
+    "parallel_ideal",
+    "disc_ideal",
+    "disc_ellipse_3d",
+    "cadence_25",
+    "cadence_5",
+    "unequal_spacing",
+    "detector_noise",
+    "aspect_change",
+    "missing",
+    "clipping",
+    "tiny_pixels",
+    "camera_rotation",
+    "camera_parallax"
+  ],
+  "methods": [
+    "bauer_disc",
+    "lai_lin",
+    "airtrack_cues",
+    "wcv_taumod",
+    "rv_c3bf",
+    "log",
+    "projective",
+    "bounded",
+    "calibrated",
+    "growth"
+  ],
+  "counts": {
+    "bauer_disc/parallel_ideal": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/uncertain": 10,
+      "other/apparent_nonconflict": 20,
+      "near_future/uncertain": 9,
+      "near_future/apparent_nonconflict": 13
+    },
+    "lai_lin/parallel_ideal": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/apparent_nonconflict": 36,
+      "far/apparent_nonconflict": 10,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 6,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/parallel_ideal": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/parallel_ideal": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/parallel_ideal": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 40,
+      "other/apparent_nonconflict": 27
+    },
+    "log/parallel_ideal": {
+      "near_future/potential_conflict": 36,
+      "far/apparent_nonconflict": 21,
+      "far/uncertain": 8,
+      "other/uncertain": 18,
+      "near_future/uncertain": 21,
+      "other/apparent_nonconflict": 12,
+      "near_future/apparent_nonconflict": 7
+    },
+    "projective/parallel_ideal": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 23,
+      "far/uncertain": 6,
+      "other/uncertain": 16,
+      "other/apparent_nonconflict": 14,
+      "near_future/uncertain": 13,
+      "near_future/apparent_nonconflict": 9
+    },
+    "bounded/parallel_ideal": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 25,
+      "other/uncertain": 28,
+      "near_future/potential_conflict": 6,
+      "far/apparent_nonconflict": 4,
+      "other/apparent_nonconflict": 2
+    },
+    "calibrated/parallel_ideal": {
+      "near_future/potential_conflict": 13,
+      "far/apparent_nonconflict": 18,
+      "near_future/uncertain": 51,
+      "far/uncertain": 11,
+      "other/uncertain": 30
+    },
+    "growth/parallel_ideal": {
+      "near_future/potential_conflict": 42,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/uncertain": 22
+    },
+    "bauer_disc/disc_ideal": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "far/uncertain": 1,
+      "other/uncertain": 25,
+      "other/potential_conflict": 5
+    },
+    "lai_lin/disc_ideal": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 20,
+      "near_future/apparent_nonconflict": 41,
+      "far/apparent_nonconflict": 9,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 1,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/disc_ideal": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/disc_ideal": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/disc_ideal": {
+      "near_future/potential_conflict": 36,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 28,
+      "other/apparent_nonconflict": 27
+    },
+    "log/disc_ideal": {
+      "near_future/potential_conflict": 63,
+      "far/apparent_nonconflict": 13,
+      "far/uncertain": 16,
+      "other/uncertain": 24,
+      "near_future/uncertain": 1,
+      "other/potential_conflict": 6
+    },
+    "projective/disc_ideal": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 17,
+      "far/uncertain": 12,
+      "other/uncertain": 25,
+      "other/potential_conflict": 5
+    },
+    "bounded/disc_ideal": {
+      "near_future/uncertain": 52,
+      "far/uncertain": 28,
+      "other/uncertain": 30,
+      "near_future/potential_conflict": 12,
+      "far/apparent_nonconflict": 1
+    },
+    "calibrated/disc_ideal": {
+      "near_future/potential_conflict": 44,
+      "far/apparent_nonconflict": 15,
+      "near_future/uncertain": 20,
+      "far/uncertain": 13,
+      "other/uncertain": 23,
+      "other/potential_conflict": 7,
+      "far/potential_conflict": 1
+    },
+    "growth/disc_ideal": {
+      "near_future/potential_conflict": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 18,
+      "other/potential_conflict": 12
+    },
+    "bauer_disc/disc_ellipse_3d": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "far/uncertain": 1,
+      "other/uncertain": 25,
+      "other/potential_conflict": 5
+    },
+    "lai_lin/disc_ellipse_3d": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 20,
+      "near_future/apparent_nonconflict": 41,
+      "far/apparent_nonconflict": 9,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 1,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/disc_ellipse_3d": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/disc_ellipse_3d": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/disc_ellipse_3d": {
+      "near_future/potential_conflict": 36,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 28,
+      "other/apparent_nonconflict": 27
+    },
+    "log/disc_ellipse_3d": {
+      "near_future/potential_conflict": 63,
+      "far/apparent_nonconflict": 13,
+      "far/uncertain": 16,
+      "other/uncertain": 24,
+      "near_future/uncertain": 1,
+      "other/potential_conflict": 6
+    },
+    "projective/disc_ellipse_3d": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 17,
+      "far/uncertain": 12,
+      "other/uncertain": 25,
+      "other/potential_conflict": 5
+    },
+    "bounded/disc_ellipse_3d": {
+      "near_future/uncertain": 52,
+      "far/uncertain": 28,
+      "other/uncertain": 30,
+      "near_future/potential_conflict": 12,
+      "far/apparent_nonconflict": 1
+    },
+    "calibrated/disc_ellipse_3d": {
+      "near_future/potential_conflict": 44,
+      "far/apparent_nonconflict": 15,
+      "near_future/uncertain": 20,
+      "far/uncertain": 13,
+      "other/uncertain": 23,
+      "other/potential_conflict": 7,
+      "far/potential_conflict": 1
+    },
+    "growth/disc_ellipse_3d": {
+      "near_future/potential_conflict": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 18,
+      "other/potential_conflict": 12
+    },
+    "bauer_disc/cadence_25": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/uncertain": 10,
+      "other/apparent_nonconflict": 20,
+      "near_future/uncertain": 9,
+      "near_future/apparent_nonconflict": 13
+    },
+    "lai_lin/cadence_25": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/apparent_nonconflict": 34,
+      "far/apparent_nonconflict": 10,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 8,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/cadence_25": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/cadence_25": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/cadence_25": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 40,
+      "other/apparent_nonconflict": 27
+    },
+    "log/cadence_25": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 21,
+      "far/uncertain": 8,
+      "other/uncertain": 18,
+      "other/apparent_nonconflict": 12,
+      "near_future/uncertain": 15,
+      "near_future/apparent_nonconflict": 7
+    },
+    "projective/cadence_25": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 25,
+      "far/uncertain": 4,
+      "other/uncertain": 14,
+      "other/apparent_nonconflict": 16,
+      "near_future/uncertain": 11,
+      "near_future/apparent_nonconflict": 11
+    },
+    "bounded/cadence_25": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 25,
+      "other/uncertain": 28,
+      "near_future/potential_conflict": 6,
+      "far/apparent_nonconflict": 4,
+      "other/apparent_nonconflict": 2
+    },
+    "calibrated/cadence_25": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 22,
+      "far/uncertain": 7,
+      "other/uncertain": 30,
+      "near_future/uncertain": 40
+    },
+    "growth/cadence_25": {
+      "near_future/potential_conflict": 42,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/uncertain": 22
+    },
+    "bauer_disc/cadence_5": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/uncertain": 10,
+      "other/apparent_nonconflict": 20,
+      "near_future/uncertain": 9,
+      "near_future/apparent_nonconflict": 13
+    },
+    "lai_lin/cadence_5": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/apparent_nonconflict": 35,
+      "far/apparent_nonconflict": 10,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 7,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/cadence_5": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/cadence_5": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/cadence_5": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 40,
+      "other/apparent_nonconflict": 27
+    },
+    "log/cadence_5": {
+      "near_future/potential_conflict": 36,
+      "far/apparent_nonconflict": 19,
+      "far/uncertain": 10,
+      "other/uncertain": 20,
+      "near_future/uncertain": 23,
+      "other/apparent_nonconflict": 10,
+      "near_future/apparent_nonconflict": 5
+    },
+    "projective/cadence_5": {
+      "near_future/potential_conflict": 41,
+      "far/apparent_nonconflict": 23,
+      "far/uncertain": 6,
+      "other/uncertain": 16,
+      "other/apparent_nonconflict": 14,
+      "near_future/uncertain": 14,
+      "near_future/apparent_nonconflict": 9
+    },
+    "bounded/cadence_5": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 25,
+      "other/uncertain": 28,
+      "near_future/potential_conflict": 6,
+      "far/apparent_nonconflict": 4,
+      "other/apparent_nonconflict": 2
+    },
+    "calibrated/cadence_5": {
+      "near_future/potential_conflict": 8,
+      "far/apparent_nonconflict": 15,
+      "near_future/uncertain": 56,
+      "far/uncertain": 14,
+      "other/uncertain": 30
+    },
+    "growth/cadence_5": {
+      "near_future/potential_conflict": 42,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/uncertain": 22
+    },
+    "bauer_disc/unequal_spacing": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/uncertain": 10,
+      "other/apparent_nonconflict": 20,
+      "near_future/uncertain": 9,
+      "near_future/apparent_nonconflict": 13
+    },
+    "lai_lin/unequal_spacing": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/apparent_nonconflict": 34,
+      "far/apparent_nonconflict": 10,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 8,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/unequal_spacing": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/unequal_spacing": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/unequal_spacing": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 40,
+      "other/apparent_nonconflict": 27
+    },
+    "log/unequal_spacing": {
+      "near_future/potential_conflict": 40,
+      "far/apparent_nonconflict": 21,
+      "far/uncertain": 8,
+      "other/uncertain": 18,
+      "other/apparent_nonconflict": 12,
+      "near_future/uncertain": 17,
+      "near_future/apparent_nonconflict": 7
+    },
+    "projective/unequal_spacing": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 25,
+      "far/uncertain": 4,
+      "other/uncertain": 14,
+      "other/apparent_nonconflict": 16,
+      "near_future/uncertain": 11,
+      "near_future/apparent_nonconflict": 11
+    },
+    "bounded/unequal_spacing": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 25,
+      "other/uncertain": 28,
+      "near_future/potential_conflict": 6,
+      "far/apparent_nonconflict": 4,
+      "other/apparent_nonconflict": 2
+    },
+    "calibrated/unequal_spacing": {
+      "near_future/potential_conflict": 16,
+      "far/apparent_nonconflict": 21,
+      "near_future/uncertain": 48,
+      "far/uncertain": 8,
+      "other/uncertain": 30
+    },
+    "growth/unequal_spacing": {
+      "near_future/potential_conflict": 42,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/uncertain": 22
+    },
+    "bauer_disc/detector_noise": {
+      "near_future/potential_conflict": 41,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/uncertain": 10,
+      "other/apparent_nonconflict": 20,
+      "near_future/uncertain": 10,
+      "near_future/apparent_nonconflict": 13
+    },
+    "lai_lin/detector_noise": {
+      "near_future/potential_conflict": 27,
+      "far/potential_conflict": 21,
+      "near_future/apparent_nonconflict": 37,
+      "far/apparent_nonconflict": 8,
+      "other/potential_conflict": 17,
+      "other/apparent_nonconflict": 13
+    },
+    "airtrack_cues/detector_noise": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/detector_noise": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/detector_noise": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 40,
+      "other/apparent_nonconflict": 27
+    },
+    "log/detector_noise": {
+      "near_future/potential_conflict": 37,
+      "far/apparent_nonconflict": 21,
+      "far/uncertain": 8,
+      "other/uncertain": 19,
+      "near_future/uncertain": 21,
+      "other/apparent_nonconflict": 11,
+      "near_future/apparent_nonconflict": 6
+    },
+    "projective/detector_noise": {
+      "near_future/potential_conflict": 38,
+      "far/apparent_nonconflict": 23,
+      "far/uncertain": 6,
+      "other/uncertain": 17,
+      "near_future/uncertain": 17,
+      "other/apparent_nonconflict": 13,
+      "near_future/apparent_nonconflict": 9
+    },
+    "bounded/detector_noise": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "calibrated/detector_noise": {
+      "near_future/potential_conflict": 11,
+      "far/apparent_nonconflict": 17,
+      "near_future/uncertain": 53,
+      "far/uncertain": 12,
+      "other/uncertain": 30
+    },
+    "growth/detector_noise": {
+      "near_future/potential_conflict": 42,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/uncertain": 22
+    },
+    "bauer_disc/aspect_change": {
+      "near_future/uncertain": 42,
+      "far/uncertain": 22,
+      "other/apparent_nonconflict": 13,
+      "far/apparent_nonconflict": 7,
+      "near_future/potential_conflict": 6,
+      "near_future/apparent_nonconflict": 16,
+      "other/uncertain": 17
+    },
+    "lai_lin/aspect_change": {
+      "near_future/uncertain": 11,
+      "far/apparent_nonconflict": 28,
+      "near_future/apparent_nonconflict": 52,
+      "other/potential_conflict": 1,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 29,
+      "near_future/potential_conflict": 1
+    },
+    "airtrack_cues/aspect_change": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/aspect_change": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/aspect_change": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 40,
+      "other/apparent_nonconflict": 27
+    },
+    "log/aspect_change": {
+      "near_future/uncertain": 52,
+      "far/apparent_nonconflict": 10,
+      "far/uncertain": 19,
+      "other/uncertain": 21,
+      "near_future/potential_conflict": 6,
+      "other/apparent_nonconflict": 9,
+      "near_future/apparent_nonconflict": 6
+    },
+    "projective/aspect_change": {
+      "near_future/uncertain": 52,
+      "far/uncertain": 20,
+      "other/uncertain": 21,
+      "near_future/potential_conflict": 6,
+      "other/apparent_nonconflict": 9,
+      "far/apparent_nonconflict": 9,
+      "near_future/apparent_nonconflict": 6
+    },
+    "bounded/aspect_change": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "calibrated/aspect_change": {
+      "near_future/uncertain": 63,
+      "far/uncertain": 22,
+      "other/uncertain": 28,
+      "far/apparent_nonconflict": 7,
+      "near_future/potential_conflict": 1,
+      "other/apparent_nonconflict": 2
+    },
+    "growth/aspect_change": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/potential_conflict": 6
+    },
+    "bauer_disc/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "lai_lin/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "airtrack_cues/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "wcv_taumod/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "rv_c3bf/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "log/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "projective/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "bounded/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "calibrated/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "growth/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "bauer_disc/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "lai_lin/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "airtrack_cues/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "rv_c3bf/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "log/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "projective/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "bounded/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "calibrated/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "growth/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "bauer_disc/tiny_pixels": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/apparent_nonconflict": 30,
+      "near_future/uncertain": 3,
+      "near_future/apparent_nonconflict": 37
+    },
+    "lai_lin/tiny_pixels": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/apparent_nonconflict": 36,
+      "far/apparent_nonconflict": 10,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 6,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/tiny_pixels": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/tiny_pixels": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/tiny_pixels": {
+      "near_future/potential_conflict": 23,
+      "far/apparent_nonconflict": 26,
+      "near_future/apparent_nonconflict": 41,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "other/apparent_nonconflict": 27
+    },
+    "log/tiny_pixels": {
+      "near_future/potential_conflict": 17,
+      "far/apparent_nonconflict": 20,
+      "near_future/uncertain": 33,
+      "far/uncertain": 9,
+      "other/apparent_nonconflict": 21,
+      "other/uncertain": 9,
+      "near_future/apparent_nonconflict": 14
+    },
+    "projective/tiny_pixels": {
+      "near_future/potential_conflict": 17,
+      "far/apparent_nonconflict": 20,
+      "near_future/uncertain": 33,
+      "far/uncertain": 9,
+      "other/apparent_nonconflict": 21,
+      "other/uncertain": 9,
+      "near_future/apparent_nonconflict": 14
+    },
+    "bounded/tiny_pixels": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 20,
+      "other/uncertain": 21,
+      "other/apparent_nonconflict": 9,
+      "far/apparent_nonconflict": 9,
+      "near_future/apparent_nonconflict": 6
+    },
+    "calibrated/tiny_pixels": {
+      "near_future/potential_conflict": 4,
+      "far/apparent_nonconflict": 17,
+      "near_future/uncertain": 60,
+      "far/uncertain": 12,
+      "other/uncertain": 26,
+      "other/apparent_nonconflict": 4
+    },
+    "growth/tiny_pixels": {
+      "near_future/potential_conflict": 24,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/uncertain": 40
+    },
+    "bauer_disc/camera_rotation": {
+      "near_future/apparent_nonconflict": 61,
+      "far/apparent_nonconflict": 19,
+      "far/uncertain": 10,
+      "other/apparent_nonconflict": 30,
+      "near_future/uncertain": 3
+    },
+    "lai_lin/camera_rotation": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/apparent_nonconflict": 42,
+      "far/apparent_nonconflict": 10,
+      "other/potential_conflict": 13,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/camera_rotation": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/camera_rotation": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/camera_rotation": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "log/camera_rotation": {
+      "near_future/apparent_nonconflict": 52,
+      "far/apparent_nonconflict": 27,
+      "far/uncertain": 2,
+      "other/apparent_nonconflict": 30,
+      "near_future/uncertain": 12
+    },
+    "projective/camera_rotation": {
+      "near_future/apparent_nonconflict": 52,
+      "far/apparent_nonconflict": 27,
+      "far/uncertain": 2,
+      "other/apparent_nonconflict": 30,
+      "near_future/uncertain": 12
+    },
+    "bounded/camera_rotation": {
+      "near_future/uncertain": 63,
+      "far/uncertain": 22,
+      "other/uncertain": 26,
+      "far/apparent_nonconflict": 7,
+      "other/apparent_nonconflict": 4,
+      "near_future/apparent_nonconflict": 1
+    },
+    "calibrated/camera_rotation": {
+      "near_future/apparent_nonconflict": 16,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/apparent_nonconflict": 15,
+      "near_future/uncertain": 48,
+      "other/uncertain": 15
+    },
+    "growth/camera_rotation": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "bauer_disc/camera_parallax": {
+      "near_future/apparent_nonconflict": 52,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/apparent_nonconflict": 30,
+      "near_future/uncertain": 12
+    },
+    "lai_lin/camera_parallax": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/apparent_nonconflict": 42,
+      "far/apparent_nonconflict": 10,
+      "other/potential_conflict": 13,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/camera_parallax": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/camera_parallax": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/camera_parallax": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "log/camera_parallax": {
+      "near_future/apparent_nonconflict": 49,
+      "far/apparent_nonconflict": 27,
+      "far/uncertain": 2,
+      "other/apparent_nonconflict": 27,
+      "near_future/uncertain": 15,
+      "other/uncertain": 3
+    },
+    "projective/camera_parallax": {
+      "near_future/apparent_nonconflict": 52,
+      "far/apparent_nonconflict": 27,
+      "far/uncertain": 2,
+      "other/apparent_nonconflict": 30,
+      "near_future/uncertain": 12
+    },
+    "bounded/camera_parallax": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 25,
+      "other/uncertain": 28,
+      "far/apparent_nonconflict": 4,
+      "other/apparent_nonconflict": 2
+    },
+    "calibrated/camera_parallax": {
+      "near_future/apparent_nonconflict": 12,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/apparent_nonconflict": 9,
+      "near_future/uncertain": 52,
+      "other/uncertain": 21
+    },
+    "growth/camera_parallax": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/potential_conflict": 6
+    }
+  },
+  "scoped_counts": {
+    "bauer_disc/parallel_ideal": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/uncertain": 10,
+      "other/apparent_nonconflict": 20,
+      "near_future/uncertain": 9,
+      "near_future/apparent_nonconflict": 13
+    },
+    "lai_lin/parallel_ideal": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/apparent_nonconflict": 36,
+      "far/apparent_nonconflict": 10,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 6,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/parallel_ideal": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/parallel_ideal": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/parallel_ideal": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 40,
+      "other/apparent_nonconflict": 27
+    },
+    "log/parallel_ideal": {
+      "near_future/potential_conflict": 36,
+      "far/apparent_nonconflict": 21,
+      "far/uncertain": 8,
+      "other/uncertain": 18,
+      "near_future/uncertain": 21,
+      "other/apparent_nonconflict": 12,
+      "near_future/apparent_nonconflict": 7
+    },
+    "projective/parallel_ideal": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 23,
+      "far/uncertain": 6,
+      "other/uncertain": 16,
+      "other/apparent_nonconflict": 14,
+      "near_future/uncertain": 13,
+      "near_future/apparent_nonconflict": 9
+    },
+    "bounded/parallel_ideal": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 25,
+      "other/uncertain": 28,
+      "near_future/potential_conflict": 6,
+      "far/apparent_nonconflict": 4,
+      "other/apparent_nonconflict": 2
+    },
+    "calibrated/parallel_ideal": {
+      "near_future/potential_conflict": 13,
+      "far/apparent_nonconflict": 18,
+      "near_future/uncertain": 51,
+      "far/uncertain": 11,
+      "other/uncertain": 30
+    },
+    "growth/parallel_ideal": {
+      "near_future/potential_conflict": 42,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/uncertain": 22
+    },
+    "bauer_disc/disc_ideal": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "far/uncertain": 1,
+      "other/uncertain": 25,
+      "other/potential_conflict": 5
+    },
+    "lai_lin/disc_ideal": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 20,
+      "near_future/apparent_nonconflict": 41,
+      "far/apparent_nonconflict": 9,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 1,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/disc_ideal": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/disc_ideal": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/disc_ideal": {
+      "near_future/potential_conflict": 36,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 28,
+      "other/apparent_nonconflict": 27
+    },
+    "log/disc_ideal": {
+      "near_future/potential_conflict": 63,
+      "far/apparent_nonconflict": 13,
+      "far/uncertain": 16,
+      "other/uncertain": 24,
+      "near_future/uncertain": 1,
+      "other/potential_conflict": 6
+    },
+    "projective/disc_ideal": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 17,
+      "far/uncertain": 12,
+      "other/uncertain": 25,
+      "other/potential_conflict": 5
+    },
+    "bounded/disc_ideal": {
+      "near_future/uncertain": 52,
+      "far/uncertain": 28,
+      "other/uncertain": 30,
+      "near_future/potential_conflict": 12,
+      "far/apparent_nonconflict": 1
+    },
+    "calibrated/disc_ideal": {
+      "near_future/potential_conflict": 44,
+      "far/apparent_nonconflict": 15,
+      "near_future/uncertain": 20,
+      "far/uncertain": 13,
+      "other/uncertain": 23,
+      "other/potential_conflict": 7,
+      "far/potential_conflict": 1
+    },
+    "growth/disc_ideal": {
+      "near_future/potential_conflict": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 18,
+      "other/potential_conflict": 12
+    },
+    "bauer_disc/disc_ellipse_3d": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "far/uncertain": 1,
+      "other/uncertain": 25,
+      "other/potential_conflict": 5
+    },
+    "lai_lin/disc_ellipse_3d": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 20,
+      "near_future/apparent_nonconflict": 41,
+      "far/apparent_nonconflict": 9,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 1,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/disc_ellipse_3d": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/disc_ellipse_3d": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/disc_ellipse_3d": {
+      "near_future/potential_conflict": 36,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 28,
+      "other/apparent_nonconflict": 27
+    },
+    "log/disc_ellipse_3d": {
+      "near_future/potential_conflict": 63,
+      "far/apparent_nonconflict": 13,
+      "far/uncertain": 16,
+      "other/uncertain": 24,
+      "near_future/uncertain": 1,
+      "other/potential_conflict": 6
+    },
+    "projective/disc_ellipse_3d": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 17,
+      "far/uncertain": 12,
+      "other/uncertain": 25,
+      "other/potential_conflict": 5
+    },
+    "bounded/disc_ellipse_3d": {
+      "near_future/uncertain": 52,
+      "far/uncertain": 28,
+      "other/uncertain": 30,
+      "near_future/potential_conflict": 12,
+      "far/apparent_nonconflict": 1
+    },
+    "calibrated/disc_ellipse_3d": {
+      "near_future/potential_conflict": 44,
+      "far/apparent_nonconflict": 15,
+      "near_future/uncertain": 20,
+      "far/uncertain": 13,
+      "other/uncertain": 23,
+      "other/potential_conflict": 7,
+      "far/potential_conflict": 1
+    },
+    "growth/disc_ellipse_3d": {
+      "near_future/potential_conflict": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 18,
+      "other/potential_conflict": 12
+    },
+    "bauer_disc/cadence_25": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/uncertain": 10,
+      "other/apparent_nonconflict": 20,
+      "near_future/uncertain": 9,
+      "near_future/apparent_nonconflict": 13
+    },
+    "lai_lin/cadence_25": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/apparent_nonconflict": 34,
+      "far/apparent_nonconflict": 10,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 8,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/cadence_25": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/cadence_25": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/cadence_25": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 40,
+      "other/apparent_nonconflict": 27
+    },
+    "log/cadence_25": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 21,
+      "far/uncertain": 8,
+      "other/uncertain": 18,
+      "other/apparent_nonconflict": 12,
+      "near_future/uncertain": 15,
+      "near_future/apparent_nonconflict": 7
+    },
+    "projective/cadence_25": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 25,
+      "far/uncertain": 4,
+      "other/uncertain": 14,
+      "other/apparent_nonconflict": 16,
+      "near_future/uncertain": 11,
+      "near_future/apparent_nonconflict": 11
+    },
+    "bounded/cadence_25": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 25,
+      "other/uncertain": 28,
+      "near_future/potential_conflict": 6,
+      "far/apparent_nonconflict": 4,
+      "other/apparent_nonconflict": 2
+    },
+    "calibrated/cadence_25": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 22,
+      "far/uncertain": 7,
+      "other/uncertain": 30,
+      "near_future/uncertain": 40
+    },
+    "growth/cadence_25": {
+      "near_future/potential_conflict": 42,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/uncertain": 22
+    },
+    "bauer_disc/cadence_5": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/uncertain": 10,
+      "other/apparent_nonconflict": 20,
+      "near_future/uncertain": 9,
+      "near_future/apparent_nonconflict": 13
+    },
+    "lai_lin/cadence_5": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/apparent_nonconflict": 35,
+      "far/apparent_nonconflict": 10,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 7,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/cadence_5": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/cadence_5": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/cadence_5": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 40,
+      "other/apparent_nonconflict": 27
+    },
+    "log/cadence_5": {
+      "near_future/potential_conflict": 36,
+      "far/apparent_nonconflict": 19,
+      "far/uncertain": 10,
+      "other/uncertain": 20,
+      "near_future/uncertain": 23,
+      "other/apparent_nonconflict": 10,
+      "near_future/apparent_nonconflict": 5
+    },
+    "projective/cadence_5": {
+      "near_future/potential_conflict": 41,
+      "far/apparent_nonconflict": 23,
+      "far/uncertain": 6,
+      "other/uncertain": 16,
+      "other/apparent_nonconflict": 14,
+      "near_future/uncertain": 14,
+      "near_future/apparent_nonconflict": 9
+    },
+    "bounded/cadence_5": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 25,
+      "other/uncertain": 28,
+      "near_future/potential_conflict": 6,
+      "far/apparent_nonconflict": 4,
+      "other/apparent_nonconflict": 2
+    },
+    "calibrated/cadence_5": {
+      "near_future/potential_conflict": 8,
+      "far/apparent_nonconflict": 15,
+      "near_future/uncertain": 56,
+      "far/uncertain": 14,
+      "other/uncertain": 30
+    },
+    "growth/cadence_5": {
+      "near_future/potential_conflict": 42,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/uncertain": 22
+    },
+    "bauer_disc/unequal_spacing": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/uncertain": 10,
+      "other/apparent_nonconflict": 20,
+      "near_future/uncertain": 9,
+      "near_future/apparent_nonconflict": 13
+    },
+    "lai_lin/unequal_spacing": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/apparent_nonconflict": 34,
+      "far/apparent_nonconflict": 10,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 8,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/unequal_spacing": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/unequal_spacing": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/unequal_spacing": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 40,
+      "other/apparent_nonconflict": 27
+    },
+    "log/unequal_spacing": {
+      "near_future/potential_conflict": 40,
+      "far/apparent_nonconflict": 21,
+      "far/uncertain": 8,
+      "other/uncertain": 18,
+      "other/apparent_nonconflict": 12,
+      "near_future/uncertain": 17,
+      "near_future/apparent_nonconflict": 7
+    },
+    "projective/unequal_spacing": {
+      "near_future/potential_conflict": 42,
+      "far/apparent_nonconflict": 25,
+      "far/uncertain": 4,
+      "other/uncertain": 14,
+      "other/apparent_nonconflict": 16,
+      "near_future/uncertain": 11,
+      "near_future/apparent_nonconflict": 11
+    },
+    "bounded/unequal_spacing": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 25,
+      "other/uncertain": 28,
+      "near_future/potential_conflict": 6,
+      "far/apparent_nonconflict": 4,
+      "other/apparent_nonconflict": 2
+    },
+    "calibrated/unequal_spacing": {
+      "near_future/potential_conflict": 16,
+      "far/apparent_nonconflict": 21,
+      "near_future/uncertain": 48,
+      "far/uncertain": 8,
+      "other/uncertain": 30
+    },
+    "growth/unequal_spacing": {
+      "near_future/potential_conflict": 42,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/uncertain": 22
+    },
+    "bauer_disc/detector_noise": {
+      "near_future/potential_conflict": 41,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/uncertain": 10,
+      "other/apparent_nonconflict": 20,
+      "near_future/uncertain": 10,
+      "near_future/apparent_nonconflict": 13
+    },
+    "lai_lin/detector_noise": {
+      "near_future/potential_conflict": 27,
+      "far/potential_conflict": 21,
+      "near_future/apparent_nonconflict": 37,
+      "far/apparent_nonconflict": 8,
+      "other/potential_conflict": 17,
+      "other/apparent_nonconflict": 13
+    },
+    "airtrack_cues/detector_noise": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/detector_noise": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/detector_noise": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 40,
+      "other/apparent_nonconflict": 27
+    },
+    "log/detector_noise": {
+      "near_future/potential_conflict": 37,
+      "far/apparent_nonconflict": 21,
+      "far/uncertain": 8,
+      "other/uncertain": 19,
+      "near_future/uncertain": 21,
+      "other/apparent_nonconflict": 11,
+      "near_future/apparent_nonconflict": 6
+    },
+    "projective/detector_noise": {
+      "near_future/potential_conflict": 38,
+      "far/apparent_nonconflict": 23,
+      "far/uncertain": 6,
+      "other/uncertain": 17,
+      "near_future/uncertain": 17,
+      "other/apparent_nonconflict": 13,
+      "near_future/apparent_nonconflict": 9
+    },
+    "bounded/detector_noise": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "calibrated/detector_noise": {
+      "near_future/potential_conflict": 11,
+      "far/apparent_nonconflict": 17,
+      "near_future/uncertain": 53,
+      "far/uncertain": 12,
+      "other/uncertain": 30
+    },
+    "growth/detector_noise": {
+      "near_future/potential_conflict": 42,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/uncertain": 22
+    },
+    "bauer_disc/aspect_change": {
+      "near_future/uncertain": 42,
+      "far/uncertain": 22,
+      "other/apparent_nonconflict": 13,
+      "far/apparent_nonconflict": 7,
+      "near_future/potential_conflict": 6,
+      "near_future/apparent_nonconflict": 16,
+      "other/uncertain": 17
+    },
+    "lai_lin/aspect_change": {
+      "near_future/uncertain": 11,
+      "far/apparent_nonconflict": 28,
+      "near_future/apparent_nonconflict": 52,
+      "other/potential_conflict": 1,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 29,
+      "near_future/potential_conflict": 1
+    },
+    "airtrack_cues/aspect_change": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/aspect_change": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/aspect_change": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "near_future/apparent_nonconflict": 40,
+      "other/apparent_nonconflict": 27
+    },
+    "log/aspect_change": {
+      "near_future/uncertain": 52,
+      "far/apparent_nonconflict": 10,
+      "far/uncertain": 19,
+      "other/uncertain": 21,
+      "near_future/potential_conflict": 6,
+      "other/apparent_nonconflict": 9,
+      "near_future/apparent_nonconflict": 6
+    },
+    "projective/aspect_change": {
+      "near_future/uncertain": 52,
+      "far/uncertain": 20,
+      "other/uncertain": 21,
+      "near_future/potential_conflict": 6,
+      "other/apparent_nonconflict": 9,
+      "far/apparent_nonconflict": 9,
+      "near_future/apparent_nonconflict": 6
+    },
+    "bounded/aspect_change": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "calibrated/aspect_change": {
+      "near_future/uncertain": 63,
+      "far/uncertain": 22,
+      "other/uncertain": 28,
+      "far/apparent_nonconflict": 7,
+      "near_future/potential_conflict": 1,
+      "other/apparent_nonconflict": 2
+    },
+    "growth/aspect_change": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/potential_conflict": 6
+    },
+    "bauer_disc/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "lai_lin/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "airtrack_cues/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "wcv_taumod/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "rv_c3bf/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "log/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "projective/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "bounded/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "calibrated/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "growth/missing": {
+      "near_future/unobserved": 64,
+      "far/unobserved": 29,
+      "other/unobserved": 30
+    },
+    "bauer_disc/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "lai_lin/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "airtrack_cues/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "rv_c3bf/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "log/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "projective/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "bounded/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "calibrated/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "growth/clipping": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "bauer_disc/tiny_pixels": {
+      "near_future/potential_conflict": 24,
+      "far/apparent_nonconflict": 26,
+      "far/uncertain": 3,
+      "other/apparent_nonconflict": 30,
+      "near_future/uncertain": 3,
+      "near_future/apparent_nonconflict": 37
+    },
+    "lai_lin/tiny_pixels": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/apparent_nonconflict": 36,
+      "far/apparent_nonconflict": 10,
+      "other/potential_conflict": 13,
+      "near_future/uncertain": 6,
+      "other/apparent_nonconflict": 17
+    },
+    "airtrack_cues/tiny_pixels": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/tiny_pixels": {
+      "near_future/potential_conflict": 64,
+      "far/apparent_nonconflict": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/apparent_nonconflict": 27
+    },
+    "rv_c3bf/tiny_pixels": {
+      "near_future/potential_conflict": 23,
+      "far/apparent_nonconflict": 26,
+      "near_future/apparent_nonconflict": 41,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 3,
+      "other/apparent_nonconflict": 27
+    },
+    "log/tiny_pixels": {
+      "near_future/potential_conflict": 17,
+      "far/apparent_nonconflict": 20,
+      "near_future/uncertain": 33,
+      "far/uncertain": 9,
+      "other/apparent_nonconflict": 21,
+      "other/uncertain": 9,
+      "near_future/apparent_nonconflict": 14
+    },
+    "projective/tiny_pixels": {
+      "near_future/potential_conflict": 17,
+      "far/apparent_nonconflict": 20,
+      "near_future/uncertain": 33,
+      "far/uncertain": 9,
+      "other/apparent_nonconflict": 21,
+      "other/uncertain": 9,
+      "near_future/apparent_nonconflict": 14
+    },
+    "bounded/tiny_pixels": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 20,
+      "other/uncertain": 21,
+      "other/apparent_nonconflict": 9,
+      "far/apparent_nonconflict": 9,
+      "near_future/apparent_nonconflict": 6
+    },
+    "calibrated/tiny_pixels": {
+      "near_future/potential_conflict": 4,
+      "far/apparent_nonconflict": 17,
+      "near_future/uncertain": 60,
+      "far/uncertain": 12,
+      "other/uncertain": 26,
+      "other/apparent_nonconflict": 4
+    },
+    "growth/tiny_pixels": {
+      "near_future/potential_conflict": 24,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/uncertain": 40
+    },
+    "bauer_disc/camera_rotation": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "lai_lin/camera_rotation": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/uncertain": 42,
+      "far/uncertain": 10,
+      "other/potential_conflict": 13,
+      "other/uncertain": 17
+    },
+    "airtrack_cues/camera_rotation": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/camera_rotation": {
+      "near_future/potential_conflict": 64,
+      "far/uncertain": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/uncertain": 27
+    },
+    "rv_c3bf/camera_rotation": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "log/camera_rotation": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "projective/camera_rotation": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "bounded/camera_rotation": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "calibrated/camera_rotation": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "growth/camera_rotation": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "bauer_disc/camera_parallax": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "lai_lin/camera_parallax": {
+      "near_future/potential_conflict": 22,
+      "far/potential_conflict": 19,
+      "near_future/uncertain": 42,
+      "far/uncertain": 10,
+      "other/potential_conflict": 13,
+      "other/uncertain": 17
+    },
+    "airtrack_cues/camera_parallax": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "wcv_taumod/camera_parallax": {
+      "near_future/potential_conflict": 64,
+      "far/uncertain": 28,
+      "other/potential_conflict": 3,
+      "far/potential_conflict": 1,
+      "other/uncertain": 27
+    },
+    "rv_c3bf/camera_parallax": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "log/camera_parallax": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "projective/camera_parallax": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "bounded/camera_parallax": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "calibrated/camera_parallax": {
+      "near_future/uncertain": 64,
+      "far/uncertain": 29,
+      "other/uncertain": 30
+    },
+    "growth/camera_parallax": {
+      "near_future/uncertain": 58,
+      "far/uncertain": 29,
+      "other/uncertain": 30,
+      "near_future/potential_conflict": 6
+    }
+  },
+  "critical_false_safe_count": 1359,
+  "critical_false_safe_by_method": {
+    "bauer_disc": 231,
+    "log": 153,
+    "projective": 173,
+    "calibrated": 28,
+    "lai_lin": 430,
+    "rv_c3bf": 337,
+    "bounded": 7
+  },
+  "scoped_false_safe_count": 928,
+  "scoped_false_safe_by_method": {
+    "lai_lin": 346,
+    "rv_c3bf": 337,
+    "bauer_disc": 118,
+    "log": 52,
+    "projective": 69,
+    "bounded": 6
+  },
+  "critical_false_safe_examples": [
+    {
+      "case": "head_on",
+      "variant": "camera_rotation",
+      "method": "bauer_disc",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "head_on",
+      "variant": "camera_rotation",
+      "method": "log",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "head_on",
+      "variant": "camera_rotation",
+      "method": "projective",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "head_on",
+      "variant": "camera_rotation",
+      "method": "calibrated",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "head_on",
+      "variant": "camera_parallax",
+      "method": "bauer_disc",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "head_on",
+      "variant": "camera_parallax",
+      "method": "log",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "head_on",
+      "variant": "camera_parallax",
+      "method": "projective",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "head_on",
+      "variant": "camera_parallax",
+      "method": "calibrated",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "parallel_ideal",
+      "method": "lai_lin",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "disc_ideal",
+      "method": "lai_lin",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "disc_ellipse_3d",
+      "method": "lai_lin",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "cadence_25",
+      "method": "lai_lin",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "cadence_5",
+      "method": "lai_lin",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "unequal_spacing",
+      "method": "lai_lin",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "detector_noise",
+      "method": "lai_lin",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [
+        "detector_noise"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "aspect_change",
+      "method": "lai_lin",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [
+        "aspect_change"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "tiny_pixels",
+      "method": "lai_lin",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [
+        "tiny_pixels"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "tiny_pixels",
+      "method": "rv_c3bf",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "nominal_cone_only_no_footprint_or_certified_bound"
+      ],
+      "assumption_violations": [
+        "point_observer_vs_finite_nearmiss_volume",
+        "tiny_pixels"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "camera_rotation",
+      "method": "bauer_disc",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "camera_rotation",
+      "method": "lai_lin",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "camera_rotation",
+      "method": "log",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "camera_rotation",
+      "method": "projective",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "camera_rotation",
+      "method": "calibrated",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "camera_parallax",
+      "method": "bauer_disc",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "camera_parallax",
+      "method": "lai_lin",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "camera_parallax",
+      "method": "log",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "camera_parallax",
+      "method": "projective",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "overtaking",
+      "variant": "camera_parallax",
+      "method": "calibrated",
+      "true_cpa_m": 0.1,
+      "true_tcpa_s": 46.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_crossing",
+      "variant": "camera_rotation",
+      "method": "bauer_disc",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_crossing",
+      "variant": "camera_rotation",
+      "method": "log",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_crossing",
+      "variant": "camera_rotation",
+      "method": "projective",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_crossing",
+      "variant": "camera_rotation",
+      "method": "calibrated",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_crossing",
+      "variant": "camera_parallax",
+      "method": "bauer_disc",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_crossing",
+      "variant": "camera_parallax",
+      "method": "log",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_crossing",
+      "variant": "camera_parallax",
+      "method": "projective",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_crossing",
+      "variant": "camera_parallax",
+      "method": "calibrated",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y-10.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "bauer_disc",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y-10.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "log",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y-10.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "projective",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y-10.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "calibrated",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y-10.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "bauer_disc",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y-10.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "log",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y-10.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "projective",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y-10.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "calibrated",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y0.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "bauer_disc",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y0.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "log",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y0.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "projective",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y0.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "calibrated",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y0.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "bauer_disc",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y0.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "log",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y0.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "projective",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y0.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "calibrated",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y10.0_intercept0.0",
+      "variant": "detector_noise",
+      "method": "lai_lin",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [
+        "detector_noise"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y10.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "bauer_disc",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y10.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "log",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y10.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "projective",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y10.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "calibrated",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y10.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "bauer_disc",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y10.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "log",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y10.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "projective",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "vertical_y10.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "calibrated",
+      "true_cpa_m": 3.972054645195637e-15,
+      "true_tcpa_s": 20.999999999999996,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z15.0_intercept1.0",
+      "variant": "parallel_ideal",
+      "method": "rv_c3bf",
+      "true_cpa_m": 0.997785157856609,
+      "true_tcpa_s": 10.933628318584072,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "nominal_cone_only_no_footprint_or_certified_bound"
+      ],
+      "assumption_violations": [
+        "point_observer_vs_finite_nearmiss_volume"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z15.0_intercept1.0",
+      "variant": "disc_ideal",
+      "method": "rv_c3bf",
+      "true_cpa_m": 0.997785157856609,
+      "true_tcpa_s": 10.933628318584072,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "nominal_cone_only_no_footprint_or_certified_bound"
+      ],
+      "assumption_violations": [
+        "point_observer_vs_finite_nearmiss_volume"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z15.0_intercept1.0",
+      "variant": "disc_ellipse_3d",
+      "method": "rv_c3bf",
+      "true_cpa_m": 0.997785157856609,
+      "true_tcpa_s": 10.933628318584072,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "nominal_cone_only_no_footprint_or_certified_bound"
+      ],
+      "assumption_violations": [
+        "point_observer_vs_finite_nearmiss_volume"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z15.0_intercept1.0",
+      "variant": "cadence_25",
+      "method": "rv_c3bf",
+      "true_cpa_m": 0.997785157856609,
+      "true_tcpa_s": 10.933628318584072,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "nominal_cone_only_no_footprint_or_certified_bound"
+      ],
+      "assumption_violations": [
+        "point_observer_vs_finite_nearmiss_volume"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z15.0_intercept1.0",
+      "variant": "cadence_5",
+      "method": "rv_c3bf",
+      "true_cpa_m": 0.997785157856609,
+      "true_tcpa_s": 10.933628318584072,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "nominal_cone_only_no_footprint_or_certified_bound"
+      ],
+      "assumption_violations": [
+        "point_observer_vs_finite_nearmiss_volume"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z15.0_intercept1.0",
+      "variant": "unequal_spacing",
+      "method": "rv_c3bf",
+      "true_cpa_m": 0.997785157856609,
+      "true_tcpa_s": 10.933628318584072,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "nominal_cone_only_no_footprint_or_certified_bound"
+      ],
+      "assumption_violations": [
+        "point_observer_vs_finite_nearmiss_volume"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z15.0_intercept1.0",
+      "variant": "detector_noise",
+      "method": "rv_c3bf",
+      "true_cpa_m": 0.997785157856609,
+      "true_tcpa_s": 10.933628318584072,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "nominal_cone_only_no_footprint_or_certified_bound"
+      ],
+      "assumption_violations": [
+        "point_observer_vs_finite_nearmiss_volume",
+        "detector_noise"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z15.0_intercept1.0",
+      "variant": "aspect_change",
+      "method": "lai_lin",
+      "true_cpa_m": 0.997785157856609,
+      "true_tcpa_s": 10.933628318584072,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "published_risk_index_bbox_area_adaptation"
+      ],
+      "assumption_violations": [
+        "aspect_change"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z15.0_intercept1.0",
+      "variant": "aspect_change",
+      "method": "rv_c3bf",
+      "true_cpa_m": 0.997785157856609,
+      "true_tcpa_s": 10.933628318584072,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "nominal_cone_only_no_footprint_or_certified_bound"
+      ],
+      "assumption_violations": [
+        "point_observer_vs_finite_nearmiss_volume",
+        "aspect_change"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z15.0_intercept1.0",
+      "variant": "tiny_pixels",
+      "method": "rv_c3bf",
+      "true_cpa_m": 0.997785157856609,
+      "true_tcpa_s": 10.933628318584072,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "apparent_nonconflict",
+      "reason_codes": [
+        "nominal_cone_only_no_footprint_or_certified_bound"
+      ],
+      "assumption_violations": [
+        "point_observer_vs_finite_nearmiss_volume",
+        "tiny_pixels"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z15.0_intercept1.0",
+      "variant": "camera_rotation",
+      "method": "bauer_disc",
+      "true_cpa_m": 0.997785157856609,
+      "true_tcpa_s": 10.933628318584072,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z25.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "bauer_disc",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z25.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "log",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z25.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "projective",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z25.0_intercept0.0",
+      "variant": "camera_rotation",
+      "method": "calibrated",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_rotation"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z25.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "bauer_disc",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "published_virtual_disc_3d_reconstruction"
+      ],
+      "assumption_violations": [
+        "disc_target_shape",
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z25.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "log",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z25.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "projective",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "crossing"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    },
+    {
+      "case": "bearing_0_z25.0_intercept0.0",
+      "variant": "camera_parallax",
+      "method": "calibrated",
+      "true_cpa_m": 0.0,
+      "true_tcpa_s": 21.0,
+      "raw_decision": "apparent_nonconflict",
+      "scoped_decision": "uncertain",
+      "reason_codes": [
+        "cpa_far"
+      ],
+      "assumption_violations": [
+        "camera_parallax"
+      ],
+      "metric_state_privilege": false
+    }
+  ],
+  "error_diagnostics": {
+    "bauer_disc/disc_ideal_3d_cpa": {
+      "n": 123,
+      "median": 0.010121297971640963,
+      "max": 0.09242817120968994
+    },
+    "bauer_disc/disc_ideal_3d_tcpa": {
+      "n": 123,
+      "median": 0.01267142489003703,
+      "max": 0.06853677035456229
+    },
+    "bauer_disc/disc_ideal_horizontal_cpa": {
+      "n": 123,
+      "median": 0.0006334355591262053,
+      "max": 0.07328639443399965
+    },
+    "bauer_disc/disc_ideal_horizontal_tcpa": {
+      "n": 123,
+      "median": 0.013326181917079793,
+      "max": 0.07337238406276825
+    },
+    "bauer_disc/disc_ellipse_3d_3d_cpa": {
+      "n": 123,
+      "median": 0.010004819441935597,
+      "max": 0.09242817120968994
+    },
+    "bauer_disc/disc_ellipse_3d_3d_tcpa": {
+      "n": 123,
+      "median": 0.01267142489003703,
+      "max": 0.06853677035456229
+    },
+    "bauer_disc/disc_ellipse_3d_horizontal_cpa": {
+      "n": 123,
+      "median": 0.0006334355591262053,
+      "max": 0.07328639443399965
+    },
+    "bauer_disc/disc_ellipse_3d_horizontal_tcpa": {
+      "n": 123,
+      "median": 0.013326181917079793,
+      "max": 0.07337238406276825
+    }
+  },
+  "full_cases": "artifacts/stage2/falsification/cases.jsonl",
+  "all_false_safe_cases": "artifacts/stage2/falsification/false_safe_cases.jsonl",
+  "fixture_units": "R=1 metre is analytical truth only; vision receives no physical size. CPA error numbers in this fixture coincide with horizontal-diameter units.",
+  "implementation_sha256": "3e8d933b15ea504bac7edff7ceab8b400bc62135aa71cc1ddde872c839fa865f",
+  "falsification_script_sha256": "85ac94e79f540ece47711a3b95311a0951e1f1d3e238ff2188c70fe609373233",
+  "corrections_since_initial": [
+    "Full Bauer virtual-disc 3D reconstruction replaces horizontal-only output; horizontal diagnostics retained",
+    "Added exact independent vertical ellipse projection and nine vertical-trajectory sweeps",
+    "Enlarged analytic image canvas vertically to contain targets; no synthetic clipping mislabeled as measured",
+    "Rotation/parallax variants now carry moving-camera metadata; raw results remain retained",
+    "Horizontal errors compared with independently minimized horizontal range, rather than 3D range"
+  ],
+  "interpretation": "Raw candidates retained; failures are not silently removed by scope. Sensor/state/shape assumptions differ. WCV oracle-state and nominal point-observer cone are separate comparators, not equal-input RGB rankings."
+}

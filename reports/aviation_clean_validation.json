@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "tests_passed": 12,
+  "renderer_sha256": "8fce41ce4392557ae39167a91d8bbb8428fe97e0cac4bcceb3091f35277a572d",
+  "runs": [
+    {
+      "run": "demo\\aviation_nps_clean",
+      "kind": "presentation_replay",
+      "fully_decoded_frames": 1023,
+      "decisions_byte_identical": true,
+      "detections_byte_identical": true,
+      "max_pts_error_s": 5.3639846768760435e-06,
+      "video_sha256": "4dcaa976ab9d3521af94a8c093e6595bd3db1fffc03deddde8aad329e4e00736",
+      "screenshot_frames": {
+        "307": "stable_tracking.png",
+        "1019": "encounter_cue.png"
+      }
+    },
+    {
+      "run": "demo\\aviation_contrast_clean",
+      "kind": "presentation_replay",
+      "fully_decoded_frames": 803,
+      "decisions_byte_identical": true,
+      "detections_byte_identical": true,
+      "max_pts_error_s": 5.5382485300015105e-06,
+      "video_sha256": "5ad8da89fd5f7e51c4fc2596d551e9c936ed12c71bf3448bdf173c06aad71c98",
+      "screenshot_frames": {
+        "522": "stable_tracking.png",
+        "758": "encounter_cue.png"
+      }
+    },
+    {
+      "run": "demo\\aviation_approach_clean",
+      "kind": "presentation_replay",
+      "fully_decoded_frames": 875,
+      "decisions_byte_identical": true,
+      "detections_byte_identical": true,
+      "max_pts_error_s": 0.0,
+      "video_sha256": "7f5aa66800258ae3b2b386159be7374f75f4105ec865377c1e1ccbf497d8d4d1",
+      "screenshot_frames": {
+        "747": "stable_tracking.png",
+        "817": "encounter_cue.png"
+      }
+    }
+  ]
+}

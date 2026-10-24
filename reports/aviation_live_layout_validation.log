@@ -1,0 +1,289 @@
+{
+  "state": "complete",
+  "validated_utc": "2026-10-24T17:02:35.368158+00:00",
+  "renderer_source_sha256": "9d8301b1e239241f285aa0ddbbeb313a01b048391351d1c0b1c8d8d8b95d2ad6",
+  "frames": 2701,
+  "scope": "Pure grid math for every actually observed object count; selected encoded PNGs visually inspected separately; not per-frame pixel coverage proof",
+  "runs": [
+    {
+      "run": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\aviation_nps",
+      "decisions_sha256": "3a23adf49d2a17ab5d201d101133d898ad842ded0865f2e6c6fe894a55b7bfa3",
+      "frames": 1023,
+      "maximum_simultaneous_display_objects": 3,
+      "maximum_simultaneous_fresh_objects": 3,
+      "frames_with_stale_placeholders": 104,
+      "object_count_histogram": {
+        "0": 191,
+        "1": 156,
+        "2": 642,
+        "3": 34
+      },
+      "fresh_count_histogram": {
+        "0": 217,
+        "1": 178,
+        "2": 625,
+        "3": 3
+      },
+      "actual_count_cases": [
+        {
+          "objects": 0,
+          "frames": 191,
+          "ROI_cells": 0,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            0,
+            0
+          ]
+        },
+        {
+          "objects": 1,
+          "frames": 156,
+          "ROI_cells": 1,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            1094,
+            888
+          ]
+        },
+        {
+          "objects": 2,
+          "frames": 642,
+          "ROI_cells": 2,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            1094,
+            438
+          ]
+        },
+        {
+          "objects": 3,
+          "frames": 34,
+          "ROI_cells": 3,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            541,
+            438
+          ]
+        }
+      ],
+      "grid_math_for_every_actual_count_passed": true,
+      "ROI_pixels_inspected_on_every_encoded_frame": false
+    },
+    {
+      "run": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\aviation_contrast",
+      "decisions_sha256": "b24bdcb698d0925d591b680b4356a8d1050ee800c182dbc076769fa43936f86e",
+      "frames": 803,
+      "maximum_simultaneous_display_objects": 3,
+      "maximum_simultaneous_fresh_objects": 3,
+      "frames_with_stale_placeholders": 201,
+      "object_count_histogram": {
+        "0": 92,
+        "1": 270,
+        "2": 217,
+        "3": 224
+      },
+      "fresh_count_histogram": {
+        "0": 149,
+        "1": 313,
+        "2": 213,
+        "3": 128
+      },
+      "actual_count_cases": [
+        {
+          "objects": 0,
+          "frames": 92,
+          "ROI_cells": 0,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            0,
+            0
+          ]
+        },
+        {
+          "objects": 1,
+          "frames": 270,
+          "ROI_cells": 1,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            1094,
+            888
+          ]
+        },
+        {
+          "objects": 2,
+          "frames": 217,
+          "ROI_cells": 2,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            1094,
+            438
+          ]
+        },
+        {
+          "objects": 3,
+          "frames": 224,
+          "ROI_cells": 3,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            541,
+            438
+          ]
+        }
+      ],
+      "grid_math_for_every_actual_count_passed": true,
+      "ROI_pixels_inspected_on_every_encoded_frame": false
+    },
+    {
+      "run": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\aviation_approach",
+      "decisions_sha256": "a9b547fea11079e977cb76da1b9a60a4da1208992a0de27e7c0b862a343205d4",
+      "frames": 875,
+      "maximum_simultaneous_display_objects": 9,
+      "maximum_simultaneous_fresh_objects": 7,
+      "frames_with_stale_placeholders": 609,
+      "object_count_histogram": {
+        "0": 2,
+        "1": 115,
+        "2": 180,
+        "3": 140,
+        "4": 96,
+        "5": 95,
+        "6": 73,
+        "7": 86,
+        "8": 80,
+        "9": 8
+      },
+      "fresh_count_histogram": {
+        "0": 5,
+        "1": 289,
+        "2": 218,
+        "3": 172,
+        "4": 94,
+        "5": 62,
+        "6": 31,
+        "7": 4
+      },
+      "actual_count_cases": [
+        {
+          "objects": 0,
+          "frames": 2,
+          "ROI_cells": 0,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            0,
+            0
+          ]
+        },
+        {
+          "objects": 1,
+          "frames": 115,
+          "ROI_cells": 1,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            1094,
+            888
+          ]
+        },
+        {
+          "objects": 2,
+          "frames": 180,
+          "ROI_cells": 2,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            1094,
+            438
+          ]
+        },
+        {
+          "objects": 3,
+          "frames": 140,
+          "ROI_cells": 3,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            541,
+            438
+          ]
+        },
+        {
+          "objects": 4,
+          "frames": 96,
+          "ROI_cells": 4,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            541,
+            438
+          ]
+        },
+        {
+          "objects": 5,
+          "frames": 95,
+          "ROI_cells": 5,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            541,
+            288
+          ]
+        },
+        {
+          "objects": 6,
+          "frames": 73,
+          "ROI_cells": 6,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            541,
+            288
+          ]
+        },
+        {
+          "objects": 7,
+          "frames": 86,
+          "ROI_cells": 7,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            356,
+            288
+          ]
+        },
+        {
+          "objects": 8,
+          "frames": 80,
+          "ROI_cells": 8,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            356,
+            288
+          ]
+        },
+        {
+          "objects": 9,
+          "frames": 8,
+          "ROI_cells": 9,
+          "all_inside_canvas": true,
+          "overlap_count": 0,
+          "minimum_cell_size": [
+            356,
+            288
+          ]
+        }
+      ],
+      "grid_math_for_every_actual_count_passed": true,
+      "ROI_pixels_inspected_on_every_encoded_frame": false
+    }
+  ]
+}

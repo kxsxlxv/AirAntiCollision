@@ -1,0 +1,15 @@
+{
+  "args": {
+    "video": "artifacts/tartan_jun26/1_2022-06-26-08-32-07.mp4",
+    "clock": "artifacts/tartan_jun26/1_2022-06-26-08-32-07_subtitle.srt",
+    "output": "demo/tartan_jun26",
+    "weights": "artifacts/yolo26m_local.engine",
+    "stride": 2,
+    "max_frames": null,
+    "no_render": false
+  },
+  "state": "complete",
+  "started_utc": "2026-10-24T17:36:05.532566+00:00",
+  "updated_utc": "2026-10-24T17:39:04.506418+00:00",
+  "cleanup_errors": []
+}

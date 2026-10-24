@@ -1,0 +1,8 @@
+{
+  "same_default_decisions": true,
+  "baseline_commit": "d6e146a",
+  "frames": 150,
+  "baseline_sha256": "976dd726a8d387366dfdacc1facb2d58709d1278e9891124eb5f8c0769310978",
+  "new_sha256": "976dd726a8d387366dfdacc1facb2d58709d1278e9891124eb5f8c0769310978",
+  "scope": "same actual A cache, original RGB, default CLI replay; not neural FPS"
+}

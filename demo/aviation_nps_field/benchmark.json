@@ -1,0 +1,382 @@
+{
+  "timestamp_utc": "2026-10-24T18:02:05.310676+00:00",
+  "args": {
+    "video": "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_32.mov",
+    "weights": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\yolo26m_p2_local_fp32.engine",
+    "detector_variant": "B",
+    "assessment": null,
+    "demo_showcase": true,
+    "demo_layout": "aviation",
+    "nps_range_demo": true,
+    "nps_target_span_m": 1.5,
+    "nps_hfov_deg": 120.0,
+    "output": "demo/aviation_nps_field",
+    "profile": "conservative",
+    "conf": 0.03,
+    "stride": 1,
+    "max_frames": null,
+    "camera": "auto",
+    "allow_similarity_pass": false,
+    "policy": "confirmed",
+    "geometry": "log",
+    "calibration": null,
+    "bounded_pixel_error": 2.0,
+    "bounded_span_fraction": 0.1,
+    "allow_recession_clearance": false,
+    "correlation_seconds": 1.0,
+    "tiled": false,
+    "tile_edge_margin": 2.0,
+    "image_edge_margin": 1.0,
+    "adaptive_tiles": false,
+    "gpu_preprocess": false,
+    "sky_mask": null,
+    "sky_all_control": false,
+    "zoom_proposals": false,
+    "video_timing": "pts",
+    "encoder": "h264_nvenc",
+    "async_render": true,
+    "render_process": false,
+    "appearance_bridge": false,
+    "detector_scale_only": false,
+    "detect_every": 1,
+    "no_render": false,
+    "detections": "demo/aviation_nps/detections.jsonl",
+    "title": "RGB \u2022 \u0430\u043d\u0430\u043b\u0438\u0437 \u0441\u0431\u043b\u0438\u0436\u0435\u043d\u0438\u044f"
+  },
+  "config": {
+    "window": 4.0,
+    "min_span": 6.0,
+    "min_history": 2.0,
+    "min_samples": 10,
+    "threat_miss": 2.0,
+    "nonthreat_miss": 5.0,
+    "horizon": 60.0,
+    "max_log_residual": 0.16,
+    "growth_floor": 0.008,
+    "allow_recession_clearance": false,
+    "correlation_seconds": 1.0,
+    "bounded_pixel_error": 2.0,
+    "bounded_span_fraction": 0.1
+  },
+  "policy_parameters": {
+    "warning_seconds": 0.24,
+    "nonthreat_seconds": 1.2
+  },
+  "source_hashes": {
+    "appearance.py": "7536007347fc20a6a6d8baf38dff430a23f2c1eb981899a0893d2e61830dc096",
+    "assessment.py": "3e8d933b15ea504bac7edff7ceab8b400bc62135aa71cc1ddde872c839fa865f",
+    "assessment_runtime.py": "c3ea1418c773164a57e6760ca44877408b7fe905c2499e82b54a7f11291be755",
+    "aviation_regions.py": "caf9aec380800d84bf56fcfecaa352e8d18cd38b0e7aca1b8efc78504a5c3cd8",
+    "aviation_render.py": "f58775e765bd539ae633fd587942b49813f1bf20f2cd3c483c0d20d50ef532e2",
+    "bounded.py": "65320f1874b2a533b18e929c812c18164ae482d8efcdafb235447ef1c424d9be",
+    "calibrated.py": "fa0ea19e1e28b67aa12fea8e269b601d156885b01059fff0a6505916a2599286",
+    "cli.py": "defd526e0b91854ed02354da0f0129c04750142731a62969aba192cfeb2dbd60",
+    "demo_cue.py": "b1b5fdf4c91034edee0ea5f4ce51bb2d44641fd57fcfb1e2f05473906ea0b51c",
+    "demo_range.py": "d3bfb58c688e617eb0cef4ab877e350858f625750ba0a68db7c8d9d5783d7a69",
+    "demo_render.py": "2c8e6e024451966c3b01f028880b6962b18737c9091ca077785294624676f51e",
+    "detector.py": "4d21919cb6837c980f453e8c01335a7a2f169b2607dcba4bde0a2e1c9b395e55",
+    "detector_p2.py": "64d9fbde77a5dfd7235116f616d286c29ecc534c33fc00dc6ad21fb074fed47c",
+    "export.py": "600f509303df5a800b28d820389ea2e172febd83ffe23ead597744eb318b841b",
+    "geometry.py": "2778777bedf6987f3ec7bd6ed81e8a062cbef37d1cade49d19e3e78d4ad8a8ff",
+    "gpu.py": "59dad3aeaeecee710f13ae9189bdf0e08576b108975d4ba2907fab909cd82482",
+    "lifecycle.py": "c0a533f11a0be6cbacded2a00de4e8433f4037b586a15987566ee7ddca57484d",
+    "media.py": "93be5a3f417378a72901c744a59db9aecd14fdb54e23c52ef5228c3e8736beea",
+    "policy.py": "c57bc3ff5b7e0077fbb9b1a1060140666749c099c1d68f326988cbf794583d60",
+    "process_export.py": "601cc7ea262e39cf8e176ba7ca23052ad901e64262bf1970ab99751c3319d1e0",
+    "projective.py": "35366a5eaa4ed55089724c6c84e0f394558c93aa7b62ee491ec5e2790290343d",
+    "proposals.py": "b927b558c6fc1757c5fddbac86d768095b075ecfbbd79c347941ffdf1639c3cc",
+    "provenance.py": "922f2495bd399ede8c9cb005b07541581993bed29126689c44486e3ba1b0f529",
+    "render.py": "3a73f7af264938891650fe78c93b3e2677dc7d03f6d7637c96ff5902d9966792",
+    "tartan_reference.py": "44c8b5b772c7e5599cbb4010eb85a769a16f33caf28d15aa01f0b8b93f0ce7e6",
+    "tracking.py": "10772b04432c0a8202ed66155b0744d4476ba13d9adce54a188b636042d362ad",
+    "__init__.py": "4c2fe2d65d95a24fa3f28ace4a87f32fe8717d7eba6b67e9a97636e1270d8a50",
+    "__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3"
+  },
+  "frames": 1023,
+  "elapsed_s": 119.87258610000026,
+  "processing_fps": 8.534061316960257,
+  "source_fps": 29.0,
+  "output_fps": 29.0,
+  "startup_and_warmup_s": 0.00992839999980788,
+  "states_track_frames": {
+    "uncertain": 1542
+  },
+  "stages": {
+    "detector_ms": {
+      "mean": 0.06760293257051679,
+      "p50": 0.06589999975403771,
+      "p95": 0.12216999994052455,
+      "p99": 0.21607200036669377
+    },
+    "camera_ms": {
+      "mean": 22.11370107526315,
+      "p50": 17.069500000616245,
+      "p95": 47.455380000155806,
+      "p99": 107.07815200021275
+    },
+    "tracker_ms": {
+      "mean": 0.20151505377690135,
+      "p50": 0.1762000001690467,
+      "p95": 0.39511999975729833,
+      "p99": 1.1397399995075785
+    },
+    "threat_ms": {
+      "mean": 4.6498561094833075,
+      "p50": 2.5766999997358653,
+      "p95": 13.738190000276518,
+      "p99": 18.825115999898106
+    },
+    "end_to_end_sample_ms": {
+      "mean": 116.96875298142787,
+      "p50": 112.08090000036464,
+      "p95": 144.3893200002094,
+      "p99": 295.4523439997862
+    },
+    "decode_ms": {
+      "mean": 4.905363343125509,
+      "p50": 4.800000000614091,
+      "p95": 6.73118000067916,
+      "p99": 8.551202000016927
+    },
+    "render_queue_wait_ms": {
+      "mean": 84.40547409581114,
+      "p50": 81.32500000010623,
+      "p95": 110.88361999991321,
+      "p99": 266.744934000198
+    },
+    "render_ms": {
+      "mean": 74.82219472137774,
+      "p50": 73.85359999989305,
+      "p95": 92.46654999969904,
+      "p99": 109.40035400022676
+    },
+    "encode_write_ms": {
+      "mean": 41.98247702835324,
+      "p50": 36.185699999805365,
+      "p95": 62.51497000021117,
+      "p99": 182.89036799973184
+    }
+  },
+  "providers": [
+    "Replayed observations (no neural inference)"
+  ],
+  "hardware": "NVIDIA GeForce RTX 4060",
+  "cv2": "5.0.0",
+  "cv2_path": "C:\\Data\\DEV\\Libs\\opencv_cuda_5\\install\\python\\cv2\\__init__.py",
+  "cuda_devices": 1,
+  "resolution": [
+    1280,
+    960
+  ],
+  "batch": 1,
+  "weights_sha256": null,
+  "caveat": "offline throughput incl decode, stages, trace and encode flush; not certified streaming latency",
+  "input_sha256": "12682055927dee85db715a36eb25bedd8e4df1ea04d65f3f56d37f3dee007365",
+  "input_hash_s": 0.011992599999757658,
+  "replay_identity": {
+    "status": "sha256_verified",
+    "input_sha256": "12682055927dee85db715a36eb25bedd8e4df1ea04d65f3f56d37f3dee007365"
+  },
+  "cache_missing_sample_frames": 0,
+  "decode_stage_meaning": "all decoded frames since previous processed sample, including stride-skipped frames",
+  "replay_provenance": {
+    "cache_sha256": "628d96b045fa86fdaf87778ef10b18e95ef49aba5a9c66112eef80b8a6d97315",
+    "upstream_benchmark_sha256": "46699d253a0ef7c8320e3c82966f0676f2ef88f0f00ccf7c597f6f0dbc37f01c",
+    "upstream_summary": {
+      "args": {
+        "video": "X:/DATASETS/UAV/TRACKING/RGB/NPS-Drones/Videos/Clip_32.mov",
+        "weights": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\yolo26m_p2_local_fp32.engine",
+        "detector_variant": "B",
+        "assessment": null,
+        "demo_showcase": true,
+        "demo_layout": "aviation",
+        "nps_range_demo": true,
+        "nps_target_span_m": 1.5,
+        "nps_hfov_deg": 120.0,
+        "output": "demo/aviation_nps",
+        "profile": "conservative",
+        "conf": 0.03,
+        "stride": 1,
+        "max_frames": null,
+        "camera": "auto",
+        "allow_similarity_pass": false,
+        "policy": "confirmed",
+        "geometry": "log",
+        "calibration": null,
+        "bounded_pixel_error": 2.0,
+        "bounded_span_fraction": 0.1,
+        "allow_recession_clearance": false,
+        "correlation_seconds": 1.0,
+        "tiled": false,
+        "tile_edge_margin": 2.0,
+        "image_edge_margin": 1.0,
+        "adaptive_tiles": false,
+        "gpu_preprocess": false,
+        "sky_mask": null,
+        "sky_all_control": false,
+        "zoom_proposals": false,
+        "video_timing": "pts",
+        "encoder": "h264_nvenc",
+        "async_render": true,
+        "render_process": false,
+        "appearance_bridge": false,
+        "detector_scale_only": false,
+        "detect_every": 1,
+        "no_render": false,
+        "detections": null,
+        "title": "RGB \u2022 \u0430\u043d\u0430\u043b\u0438\u0437 \u0441\u0431\u043b\u0438\u0436\u0435\u043d\u0438\u044f"
+      },
+      "config": {
+        "window": 4.0,
+        "min_span": 6.0,
+        "min_history": 2.0,
+        "min_samples": 10,
+        "threat_miss": 2.0,
+        "nonthreat_miss": 5.0,
+        "horizon": 60.0,
+        "max_log_residual": 0.16,
+        "growth_floor": 0.008,
+        "allow_recession_clearance": false,
+        "correlation_seconds": 1.0,
+        "bounded_pixel_error": 2.0,
+        "bounded_span_fraction": 0.1
+      },
+      "providers": [
+        "TensorRT 11.4.0.106"
+      ],
+      "weights_sha256": "5ff35d35607de793a5d5173d5892068ddba3503bbdb637de7b12000c04edaa31"
+    }
+  },
+  "detector_contract": {
+    "variant": "B",
+    "input_shape": [
+      1,
+      3,
+      800,
+      1440
+    ],
+    "output_shape": [
+      1,
+      300,
+      6
+    ],
+    "export_label": "item",
+    "semantic_taxonomy": [
+      "fixed-wing UAV"
+    ],
+    "letterbox": "RGB NCHW /255, linear resize, centred 114 pad, round dimensions",
+    "preprocess": "CPU OpenCV; detector inference on declared backend",
+    "conf": 0.03,
+    "cross_box_nms_iou": 0.45,
+    "tiled": false,
+    "weights_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\yolo26m_p2_local_fp32.engine",
+    "weights_sha256": "5ff35d35607de793a5d5173d5892068ddba3503bbdb637de7b12000c04edaa31",
+    "registered_supplied_export": true,
+    "provenance_manifest_sha256": "65724aee702b7053283abb459ae8589d62c8dee81f6e4010d118e47e2c0327f8",
+    "matching_assets": [
+      "B_local_fp32_engine"
+    ],
+    "input_dtype": "float32"
+  },
+  "assessment_backend": "log",
+  "demo_showcase": {
+    "enabled": true,
+    "architecture": "YOLO detector -> original custom tracker -> causal short-history image-space cue -> illustrative separation -> showcase renderer",
+    "presentation_states_track_frames": {
+      "INSUFFICIENT EVIDENCE": 435,
+      "MONITORING": 1107
+    },
+    "configuration": {
+      "kind": "independent_demo_image_cue_not_research_classifier",
+      "window_s": 0.6,
+      "min_window_s": 0.3,
+      "confirmation_s": 0.16,
+      "min_samples": 5,
+      "min_growth_per_s": 0.035,
+      "min_span_px": 6.0,
+      "direction_confirmation_s": 0.16,
+      "fit": "median all pairwise slopes and median-intercept residual MAD; at most32 uniformly selected measured samples",
+      "measurement": "fresh detector/zoom XYXY only, explicit measured guard; max(width,height) scale; raw image centres",
+      "quality": {
+        "max_scale_log_mad": "max(.025,1/median_span_px)",
+        "max_aspect_log_p90_minus_p10": 0.25,
+        "minimum_fitted_log_growth": "max(.015,.5/median_span_px,2*scale_log_mad)",
+        "max_measurement_gap_s": 0.25,
+        "max_normalized_center_jump": 2.5,
+        "max_single_log_span_jump": 0.45,
+        "reset_update_gap_s": 0.3
+      },
+      "drift": "norm(robust velocity_px_s)/median_span_px <= max(.08,2*growth_per_s) for a convergence candidate",
+      "warning": "stable sufficient measured history AND growth >= minimum AND positive growth signal AND low relative drift, sustained confirmation",
+      "priority": "stable MONITORING or POSSIBLE CONVERGENCE; span/persistence salience or confirmed-growth salience, 30% challenger advantage sustained .25s",
+      "direction": "nonwarning image-separation illustration also allowed for stable MONITORING; away from .5s linear image projection, quantized45deg, independent confirmation; unresolved under symmetry/occupancy/conflicts",
+      "direction_quality": {
+        "minimum_normalized_image_offset": 0.04,
+        "other_target_relative_salience": 0.6,
+        "minimum_compatible_direction_dot": 0.1,
+        "occupied_center_radius": 0.65,
+        "occupied_direction_dot": 0.85
+      },
+      "camera": "valid declared setup/background fit required; evidence resets clear history; background fit never verifies physical rotation",
+      "calibrated_probability": false,
+      "physical_collision_or_safe_maneuver": false,
+      "threshold_selection": "fixed generic presentation rules, no held-out collision-label tuning"
+    },
+    "image_coordinate_contract": "original source pixels and normalized image coordinates; no calibrated range/angles or physical flight guidance; optional NPS distance is explicitly approximate",
+    "GT_available_to_normal_inference": false,
+    "output_presentation_resolution": [
+      3840,
+      1080
+    ],
+    "layout": "aviation",
+    "attention_region_contract": {
+      "algorithm": "connected components of overlapping projected image envelopes",
+      "prediction_horizon_s": 0.5,
+      "meaning": "image attention/convergence visualization, not semantic segmentation or physical free-space proof",
+      "complement": "unassessed; not verified safe",
+      "changes_inference_or_warning": false
+    },
+    "approximate_NPS_range": {
+      "dataset": "NPS, explicitly declared by the user flag",
+      "camera": "GoPro HERO3 Ultra Wide, user confirmed",
+      "aircraft_span_m": 1.5,
+      "size_source": "User supplied 1.5 m aircraft span; transverse full-span approximation",
+      "horizontal_fov_deg_assumed": 120.0,
+      "projection": "approximate equidistant fisheye, square angular pixel scale",
+      "calibrated": false,
+      "range_meaning": "approximate line-of-sight distance under transverse target-size assumption",
+      "formula": "D = span_m / (2*tan(angular_extent/2)); median of fresh last 0.4 s",
+      "limitations": "Unknown aspect/foreshortening, bbox extent and lens errors; no certified bounds",
+      "used_for_collision_or_direction": false
+    }
+  },
+  "assessment_scope": "Original production geometry baseline",
+  "sample_latency_scope": "Sequential decode since prior sample through assessment, trace and render submission; asynchronous encoder drain excluded from percentiles, included in elapsed_s",
+  "cold_start": null,
+  "network_calls_total": 0,
+  "sampled_source_fps": 29.0,
+  "sky_mask_provenance": null,
+  "live_detector_threshold": null,
+  "timestamp_mode": "presentation_timestamps",
+  "source_timestamp_origin_ms": 0.0,
+  "source_timestamp_origin_s": 0.0,
+  "source_media_metadata": {
+    "r_frame_rate": "29/1",
+    "avg_frame_rate": "29/1",
+    "time_base": "1/14848",
+    "start_time": "0.000000",
+    "duration": "35.275862",
+    "nb_frames": "1023",
+    "format_duration": "35.275862"
+  },
+  "source_duration_method": "tail_packet_end_relative_first_decoded_frame",
+  "output_end_time_s": 35.275862068965516,
+  "output_timestamp_quantization_s": 1.1111111111111112e-05,
+  "output_rate_meaning": "Nominal encoder rate; actual presentation intervals are preserved in PTS mode",
+  "stage_overlap": true,
+  "render_backend": "thread",
+  "render_worker_metadata": null,
+  "max_render_export_pending_frames": 2,
+  "whole_run_wall_s": 121.5140438999997,
+  "processed_frames_per_whole_run_s": 8.418779979389711
+}

@@ -1,0 +1,14 @@
+{
+  "live_decisions_sha256": "c66a971568c1086de9e1beeddd6978e0d7e52bd16c6c69aad1e71dd3a0c62416",
+  "replay_decisions_sha256": "c66a971568c1086de9e1beeddd6978e0d7e52bd16c6c69aad1e71dd3a0c62416",
+  "decisions_exactly_equal": true,
+  "cache_identity": {
+    "status": "sha256_verified",
+    "input_sha256": "12682055927dee85db715a36eb25bedd8e4df1ea04d65f3f56d37f3dee007365"
+  },
+  "cache_missing_sample_frames": 0,
+  "providers": [
+    "Replayed observations (no neural inference)"
+  ],
+  "scope": "Replay correctness only; replay throughput is not neural inference FPS"
+}

@@ -1,0 +1,8 @@
+{
+  "kind": "offline_reference_review_not_inference",
+  "frames": 967,
+  "upstream_benchmark_sha256": "e3cab93f3949e06945f13e1c629515049f96e6e202b98316de069a0a6d9ac446",
+  "output_sha256": "a0473369f71bbf9ab8ec63f4f8a9d57e1044bfb2a0b49b966b7415e4bf0ee3f5",
+  "GT_is_drawn_only_here": true,
+  "runtime_decisions_changed": false
+}

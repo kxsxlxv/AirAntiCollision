@@ -1,0 +1,73 @@
+{
+  "kind": "strict UI-only completed LIVE-run regression",
+  "timestamp_utc": "2026-10-24T16:59:45.232239+00:00",
+  "state": "passed",
+  "all_runs_equivalent_except_attention_regions": true,
+  "scope": "No model execution, GT access, tolerances, rounded metrics or ignored decision fields beyond the single declared new field",
+  "script_sha256": "eafd9408799409cbc9a31c9e4b50cb964d9b9c35632dadfb097d97633ec2088c",
+  "pairs": [
+    {
+      "baseline": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\nps_range_showcase",
+      "run": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\aviation_nps",
+      "status": "passed",
+      "equivalent_except_attention_regions": true,
+      "allowed_new_field": "$.advisory.demo.attention_regions",
+      "ignored_benchmark_fields": "performance timings, arguments/title/layout; no decision fields ignored",
+      "run_states": {
+        "baseline": "complete",
+        "run": "complete"
+      },
+      "benchmark_checks": {
+        "input_sha256": {
+          "baseline": "12682055927dee85db715a36eb25bedd8e4df1ea04d65f3f56d37f3dee007365",
+          "run": "12682055927dee85db715a36eb25bedd8e4df1ea04d65f3f56d37f3dee007365",
+          "valid_values": true,
+          "equal_and_present": true
+        },
+        "weights_sha256": {
+          "baseline": "5ff35d35607de793a5d5173d5892068ddba3503bbdb637de7b12000c04edaa31",
+          "run": "5ff35d35607de793a5d5173d5892068ddba3503bbdb637de7b12000c04edaa31",
+          "valid_values": true,
+          "equal_and_present": true
+        },
+        "frames": {
+          "baseline": 1023,
+          "run": 1023,
+          "valid_values": true,
+          "equal_and_present": true
+        }
+      },
+      "detections": {
+        "baseline_sha256": "628d96b045fa86fdaf87778ef10b18e95ef49aba5a9c66112eef80b8a6d97315",
+        "run_sha256": "628d96b045fa86fdaf87778ef10b18e95ef49aba5a9c66112eef80b8a6d97315",
+        "byte_identical": true
+      },
+      "benchmark_sha256": {
+        "baseline": "e32c767b7e146d8904d1e2793fab396d94bada9a4f48476d256bc9dada27b410",
+        "run": "46699d253a0ef7c8320e3c82966f0676f2ef88f0f00ccf7c597f6f0dbc37f01c"
+      },
+      "decision_file_sha256": {
+        "baseline": "547f71872cd6113832585e4d2a5223a692fe468455ec2c2d4869b56394ffbd32",
+        "run": "3a23adf49d2a17ab5d201d101133d898ad842ded0865f2e6c6fe894a55b7bfa3"
+      },
+      "decisions": {
+        "baseline_frames": 1023,
+        "run_frames": 1023,
+        "mismatch_count": 0,
+        "mismatch_frame_ids": [],
+        "first_mismatch_details": [],
+        "baseline_canonical_sha256": "b236030d9c49e5bb302d2be5fd0cbf9f01e8611b4db260d8e510dad62bf59409",
+        "run_after_only_allowed_removal_canonical_sha256": "b236030d9c49e5bb302d2be5fd0cbf9f01e8611b4db260d8e510dad62bf59409",
+        "new_attention_region_field_frames": 1023,
+        "new_nonempty_attention_region_frames": 620,
+        "all_other_fields_exact": true
+      },
+      "source_clock": {
+        "all_frame_time_source_PTS_exact": true,
+        "mismatch_count": 0,
+        "mismatch_frame_ids": []
+      },
+      "frame_counts_match_completed_benchmarks": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "sisl/VisionBasedAircraftDAA": {
+    "commit": "caef5fc84f9b17768d1cbf36946f945317a5d775",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "default_branch": "main"
+  },
+  "nasa/daidalus": {
+    "commit": "1c7b58e5525d5cca91cbbf4a8b7337a488243769",
+    "license": null,
+    "default_branch": "master"
+  },
+  "dario-pedro/uav-collision-avoidance": {
+    "commit": "a86e9355971e58440166a95269c6aadde09b1b5d",
+    "license": null,
+    "default_branch": "master"
+  },
+  "jingliinpurdue/Fast-and-Robust-UAV-to-UAV-Detection-and-Tracking": {
+    "commit": "317e85a03f5c374ef8ec53b543208ec36655fa07",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "default_branch": "master"
+  },
+  "castacks/visafe": {
+    "commit": "9d01594663660df0eaf3b4432eb80d8f7514d489",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "default_branch": "main"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "inputs": [
+    "name: \"images\"\ntype {\n  tensor_type {\n    elem_type: 1\n    shape {\n      dim {\n        dim_value: 1\n      }\n      dim {\n        dim_value: 3\n      }\n      dim {\n        dim_value: 800\n      }\n      dim {\n        dim_value: 1440\n      }\n    }\n  }\n}\n"
+  ],
+  "outputs": [
+    "name: \"output0\"\ntype {\n  tensor_type {\n    elem_type: 1\n    shape {\n      dim {\n        dim_value: 1\n      }\n      dim {\n        dim_value: 300\n      }\n      dim {\n        dim_value: 6\n      }\n    }\n  }\n}\n"
+  ],
+  "metadata": {
+    "description": "Ultralytics YOLO26m-p2 model trained on data_merged.yaml",
+    "author": "Ultralytics",
+    "date": "2026-10-05T13:06:27.386847+03:00",
+    "version": "8.4.171",
+    "license": "AGPL-3.0 License (https://ultralytics.com/license)",
+    "docs": "https://docs.ultralytics.com",
+    "stride": "32",
+    "task": "detect",
+    "head": "Detect",
+    "batch": "1",
+    "imgsz": "[800, 1440]",
+    "names": "{0: 'item'}",
+    "args": "{'data': None, 'batch': 1, 'fraction': 1.0, 'quantize': None, 'nms': False, 'dynamic': False, 'simplify': True, 'opset': None, 'workspace': None}",
+    "channels": "3",
+    "end2end": "True"
+  }
+}

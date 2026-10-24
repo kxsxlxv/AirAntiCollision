@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "demo\\tartan_jun26\\annotated.mp4",
+      "bytes": 104030230,
+      "sha256": "f5cad15e506ffd59db69decd3b176081ed8ec37a55ff68d30fd1d07b1a58aca5"
+    },
+    {
+      "path": "demo\\tartan_jun26\\detections.jsonl",
+      "bytes": 1373061,
+      "sha256": "373bf33a48df329bec30ef730552490f5201a3010ab7e40e071f64f53f43feb5"
+    },
+    {
+      "path": "demo\\tartan_jun26\\decisions.jsonl",
+      "bytes": 17100967,
+      "sha256": "2a2c4d38a9e86bec060efa0f209a7f52883f20444c2823abef3614ed70d47fea"
+    },
+    {
+      "path": "demo\\tartan_trajectory_review\\evaluation_reference.mp4",
+      "bytes": 58568619,
+      "sha256": "a0473369f71bbf9ab8ec63f4f8a9d57e1044bfb2a0b49b966b7415e4bf0ee3f5"
+    }
+  ]
+}

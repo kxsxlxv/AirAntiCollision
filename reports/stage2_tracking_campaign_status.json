@@ -1,0 +1,104 @@
+{
+  "started_utc": "2026-10-22T15:16:10.640171+00:00",
+  "state": "complete",
+  "runs": [
+    {
+      "condition": "tracking_campaign_A_custom_s1",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\scripts\\stage2_tracking.py",
+        "--detector",
+        "A",
+        "--method",
+        "custom",
+        "--stride",
+        "1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 106.30871610000031,
+      "log": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\campaign_logs\\tracking_campaign_A_custom_s1.log"
+    },
+    {
+      "condition": "tracking_campaign_A_tracktrack_s1",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\scripts\\stage2_tracking.py",
+        "--detector",
+        "A",
+        "--method",
+        "tracktrack",
+        "--stride",
+        "1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 260.8458111999789,
+      "log": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\campaign_logs\\tracking_campaign_A_tracktrack_s1.log"
+    },
+    {
+      "condition": "tracking_campaign_A_putr_s1",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\scripts\\stage2_tracking.py",
+        "--detector",
+        "A",
+        "--method",
+        "putr",
+        "--stride",
+        "1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 306.28574369999114,
+      "log": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\campaign_logs\\tracking_campaign_A_putr_s1.log"
+    },
+    {
+      "condition": "tracking_campaign_B_custom_s1",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\scripts\\stage2_tracking.py",
+        "--detector",
+        "B",
+        "--method",
+        "custom",
+        "--stride",
+        "1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 99.22645820002072,
+      "log": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\campaign_logs\\tracking_campaign_B_custom_s1.log"
+    },
+    {
+      "condition": "tracking_campaign_B_tracktrack_s1",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\scripts\\stage2_tracking.py",
+        "--detector",
+        "B",
+        "--method",
+        "tracktrack",
+        "--stride",
+        "1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 205.93068629998015,
+      "log": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\campaign_logs\\tracking_campaign_B_tracktrack_s1.log"
+    },
+    {
+      "condition": "tracking_campaign_B_putr_s1",
+      "command": [
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\scripts\\stage2_tracking.py",
+        "--detector",
+        "B",
+        "--method",
+        "putr",
+        "--stride",
+        "1"
+      ],
+      "exit_code": 0,
+      "elapsed_s": 270.65170459996443,
+      "log": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\stage2\\campaign_logs\\tracking_campaign_B_putr_s1.log"
+    }
+  ],
+  "active": null,
+  "finished_utc": "2026-10-22T15:36:59.935142+00:00"
+}

@@ -1,0 +1,360 @@
+{
+  "created_utc": "2026-10-24T17:06:35.648589+00:00",
+  "implementation_commit": "97ce7a4236c5dc7ea1edb07fe1e779f28f184f58",
+  "pull_request": "https://github.com/kxsxlxv/AirAntiCollision/pull/3",
+  "runs": [
+    {
+      "name": "aviation_nps",
+      "frames": 1023,
+      "duration_s": 35.27585555555556,
+      "video_sha256": "819772b80ccd43a02488c2321821f4c7b6009d419cebee9aacc0d5ff0148f75e",
+      "source_sha256": "12682055927dee85db715a36eb25bedd8e4df1ea04d65f3f56d37f3dee007365",
+      "actual_canvas": [
+        3840,
+        1080
+      ]
+    },
+    {
+      "name": "aviation_contrast",
+      "frames": 803,
+      "duration_s": 27.795077777777777,
+      "video_sha256": "b4c18a31642c9ba9d89e0570c556e391f0761abe45220be4e659029f68a18a5b",
+      "source_sha256": "8d12d8807a48687303ab4aea0a350c3f74b535e2e5bb1a1b7df02d650c96c422",
+      "actual_canvas": [
+        3840,
+        1080
+      ]
+    },
+    {
+      "name": "aviation_approach",
+      "frames": 875,
+      "duration_s": 35.0,
+      "video_sha256": "7db0f256cae64c957b696be446d9c9a5e9dd1bc87dfda42d67ac4b490b814b46",
+      "source_sha256": "9c44cecd3d818089f3d2b22c3f71bd139e5e720eae1935c664cc65a891ae0bb7",
+      "actual_canvas": [
+        3840,
+        1080
+      ]
+    }
+  ],
+  "total_actual_neural_frames": 2701,
+  "inference_and_cues_exactly_preserved": true,
+  "default_150_frames_exactly_preserved": true,
+  "focused_tests_passed": 70,
+  "all_current_runtime_code_hashes_match": true,
+  "assets": {
+    "demo/aviation_nps/annotated.mp4": {
+      "sha256": "819772b80ccd43a02488c2321821f4c7b6009d419cebee9aacc0d5ff0148f75e",
+      "bytes": 17976573,
+      "local_video_excluded_from_Git": true
+    },
+    "demo/aviation_nps/benchmark.json": {
+      "sha256": "46699d253a0ef7c8320e3c82966f0676f2ef88f0f00ccf7c597f6f0dbc37f01c",
+      "bytes": 13708,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_nps/decisions.jsonl": {
+      "sha256": "3a23adf49d2a17ab5d201d101133d898ad842ded0865f2e6c6fe894a55b7bfa3",
+      "bytes": 7326260,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_nps/detections.jsonl": {
+      "sha256": "628d96b045fa86fdaf87778ef10b18e95ef49aba5a9c66112eef80b8a6d97315",
+      "bytes": 428150,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_nps/encounter_cue.png": {
+      "sha256": "ce5e41c63f928cd4695efd42bce80ddf37180b8c626902b553ce14b8e33e85ff",
+      "bytes": 818508,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_nps/preview.png": {
+      "sha256": "f4aa4909a12e2322f4714a5a3ac6b178a29186250a542b3a5ceb89e66987ea95",
+      "bytes": 1405146,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_nps/run_status.json": {
+      "sha256": "29af9256861195bd0045371caebcb89e546e824d26a27e7b6976293f8ee8622a",
+      "bytes": 1590,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_nps/stable_tracking.png": {
+      "sha256": "8457ea146507c48d3845142dc1b7c077db89cc378e614f2165832710edb40f2c",
+      "bytes": 873137,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_contrast/annotated.mp4": {
+      "sha256": "b4c18a31642c9ba9d89e0570c556e391f0761abe45220be4e659029f68a18a5b",
+      "bytes": 15378688,
+      "local_video_excluded_from_Git": true
+    },
+    "demo/aviation_contrast/benchmark.json": {
+      "sha256": "49d12a92603c4eaccf154e385275640049410c05287c078eebf0b087bcabb527",
+      "bytes": 13723,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_contrast/decisions.jsonl": {
+      "sha256": "b24bdcb698d0925d591b680b4356a8d1050ee800c182dbc076769fa43936f86e",
+      "bytes": 5925586,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_contrast/detections.jsonl": {
+      "sha256": "500d6068faa4d6a9a134df4e1a8e930cb2a5e465cfba71ff075464c721a24373",
+      "bytes": 340306,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_contrast/encounter_cue.png": {
+      "sha256": "1e034d6c57fc5e1513a9156806e98a88aabb28c74764fecfd2f192928830e8a1",
+      "bytes": 1247401,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_contrast/preview.png": {
+      "sha256": "1dd1cfca4b4c874e803e807baad134d6ce85073c870dbf9155567b2b26466478",
+      "bytes": 1234241,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_contrast/run_status.json": {
+      "sha256": "5cb1068b348eac4c1c1a1205117905a7e0469cfd8013225cad5a80e8c3b0b4d1",
+      "bytes": 1595,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_contrast/stable_tracking.png": {
+      "sha256": "ef024eef4ba0693328ade8f376eb5f2714f030529182e78c333c612f172bbb1f",
+      "bytes": 997701,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_approach/annotated.mp4": {
+      "sha256": "7db0f256cae64c957b696be446d9c9a5e9dd1bc87dfda42d67ac4b490b814b46",
+      "bytes": 8119019,
+      "local_video_excluded_from_Git": true
+    },
+    "demo/aviation_approach/benchmark.json": {
+      "sha256": "c02c4c4ec43bf46f4bc34c39f3bd41004f53448a0226502c9ff5a9a978a89cf5",
+      "bytes": 13020,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_approach/decisions.jsonl": {
+      "sha256": "a9b547fea11079e977cb76da1b9a60a4da1208992a0de27e7c0b862a343205d4",
+      "bytes": 8000358,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_approach/detections.jsonl": {
+      "sha256": "5c358c4b82ebb06673985b173019bc2dac148820e0d994ed86c73455d16ef894",
+      "bytes": 382348,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_approach/encounter_cue.png": {
+      "sha256": "a68cca4c111ee3b811617aedbfc00f4edf752b99883f6438eac388855bc49ccd",
+      "bytes": 395375,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_approach/preview.png": {
+      "sha256": "3c143c2bc119c30205dac48862f22f4c380562831c12b67fb03fbac492b025d7",
+      "bytes": 1355288,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_approach/run_status.json": {
+      "sha256": "0932de32f8d6d01b2388ba006ce68ada6658d4c8d1174e5f6c9f61aa02e3fea6",
+      "bytes": 1536,
+      "local_video_excluded_from_Git": false
+    },
+    "demo/aviation_approach/stable_tracking.png": {
+      "sha256": "4297e546ff543e727385b72425654d128a4b47779a47cb9e33244529168192c0",
+      "bytes": 417118,
+      "local_video_excluded_from_Git": false
+    },
+    "airavoid/appearance.py": {
+      "sha256": "7536007347fc20a6a6d8baf38dff430a23f2c1eb981899a0893d2e61830dc096",
+      "bytes": 4523
+    },
+    "airavoid/assessment.py": {
+      "sha256": "3e8d933b15ea504bac7edff7ceab8b400bc62135aa71cc1ddde872c839fa865f",
+      "bytes": 18995
+    },
+    "airavoid/assessment_runtime.py": {
+      "sha256": "c3ea1418c773164a57e6760ca44877408b7fe905c2499e82b54a7f11291be755",
+      "bytes": 6878
+    },
+    "airavoid/aviation_regions.py": {
+      "sha256": "caf9aec380800d84bf56fcfecaa352e8d18cd38b0e7aca1b8efc78504a5c3cd8",
+      "bytes": 8031
+    },
+    "airavoid/aviation_render.py": {
+      "sha256": "9d8301b1e239241f285aa0ddbbeb313a01b048391351d1c0b1c8d8d8b95d2ad6",
+      "bytes": 24237
+    },
+    "airavoid/bounded.py": {
+      "sha256": "65320f1874b2a533b18e929c812c18164ae482d8efcdafb235447ef1c424d9be",
+      "bytes": 4152
+    },
+    "airavoid/calibrated.py": {
+      "sha256": "fa0ea19e1e28b67aa12fea8e269b601d156885b01059fff0a6505916a2599286",
+      "bytes": 4881
+    },
+    "airavoid/cli.py": {
+      "sha256": "defd526e0b91854ed02354da0f0129c04750142731a62969aba192cfeb2dbd60",
+      "bytes": 32354
+    },
+    "airavoid/demo_cue.py": {
+      "sha256": "b1b5fdf4c91034edee0ea5f4ce51bb2d44641fd57fcfb1e2f05473906ea0b51c",
+      "bytes": 18730
+    },
+    "airavoid/demo_range.py": {
+      "sha256": "d3bfb58c688e617eb0cef4ab877e350858f625750ba0a68db7c8d9d5783d7a69",
+      "bytes": 3391
+    },
+    "airavoid/demo_render.py": {
+      "sha256": "2c8e6e024451966c3b01f028880b6962b18737c9091ca077785294624676f51e",
+      "bytes": 16486
+    },
+    "airavoid/detector.py": {
+      "sha256": "4d21919cb6837c980f453e8c01335a7a2f169b2607dcba4bde0a2e1c9b395e55",
+      "bytes": 8536
+    },
+    "airavoid/detector_p2.py": {
+      "sha256": "64d9fbde77a5dfd7235116f616d286c29ecc534c33fc00dc6ad21fb074fed47c",
+      "bytes": 3449
+    },
+    "airavoid/export.py": {
+      "sha256": "600f509303df5a800b28d820389ea2e172febd83ffe23ead597744eb318b841b",
+      "bytes": 2540
+    },
+    "airavoid/geometry.py": {
+      "sha256": "2778777bedf6987f3ec7bd6ed81e8a062cbef37d1cade49d19e3e78d4ad8a8ff",
+      "bytes": 7486
+    },
+    "airavoid/gpu.py": {
+      "sha256": "59dad3aeaeecee710f13ae9189bdf0e08576b108975d4ba2907fab909cd82482",
+      "bytes": 2115
+    },
+    "airavoid/lifecycle.py": {
+      "sha256": "c0a533f11a0be6cbacded2a00de4e8433f4037b586a15987566ee7ddca57484d",
+      "bytes": 2056
+    },
+    "airavoid/media.py": {
+      "sha256": "93be5a3f417378a72901c744a59db9aecd14fdb54e23c52ef5228c3e8736beea",
+      "bytes": 6052
+    },
+    "airavoid/policy.py": {
+      "sha256": "c57bc3ff5b7e0077fbb9b1a1060140666749c099c1d68f326988cbf794583d60",
+      "bytes": 1098
+    },
+    "airavoid/process_export.py": {
+      "sha256": "601cc7ea262e39cf8e176ba7ca23052ad901e64262bf1970ab99751c3319d1e0",
+      "bytes": 5245
+    },
+    "airavoid/projective.py": {
+      "sha256": "35366a5eaa4ed55089724c6c84e0f394558c93aa7b62ee491ec5e2790290343d",
+      "bytes": 4261
+    },
+    "airavoid/proposals.py": {
+      "sha256": "b927b558c6fc1757c5fddbac86d768095b075ecfbbd79c347941ffdf1639c3cc",
+      "bytes": 4883
+    },
+    "airavoid/provenance.py": {
+      "sha256": "922f2495bd399ede8c9cb005b07541581993bed29126689c44486e3ba1b0f529",
+      "bytes": 2202
+    },
+    "airavoid/render.py": {
+      "sha256": "3a73f7af264938891650fe78c93b3e2677dc7d03f6d7637c96ff5902d9966792",
+      "bytes": 18203
+    },
+    "airavoid/tracking.py": {
+      "sha256": "10772b04432c0a8202ed66155b0744d4476ba13d9adce54a188b636042d362ad",
+      "bytes": 7510
+    },
+    "airavoid/__init__.py": {
+      "sha256": "4c2fe2d65d95a24fa3f28ace4a87f32fe8717d7eba6b67e9a97636e1270d8a50",
+      "bytes": 60
+    },
+    "airavoid/__main__.py": {
+      "sha256": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+      "bytes": 29
+    },
+    "scripts/aviation_ui_compare.py": {
+      "sha256": "eafd9408799409cbc9a31c9e4b50cb964d9b9c35632dadfb097d97633ec2088c",
+      "bytes": 11645
+    },
+    "scripts/aviation_ui_live_layout_check.py": {
+      "sha256": "c98c1ba43cc6de05fa6e387ce586a47f7b5f347e0385a1ef0353a4cb71b81e67",
+      "bytes": 3153
+    },
+    "scripts/aviation_ui_live_validate.py": {
+      "sha256": "d674a1c07e6ecbe685ecf6140c6fb885435ae13abeb1c32f07571dcc53f46955",
+      "bytes": 3084
+    },
+    "scripts/aviation_ui_preview.py": {
+      "sha256": "ffabcfacf4d5d3619e773326b957d038cf54a71fd6577d3eb2b467b01b860fda",
+      "bytes": 10579
+    },
+    "scripts/aviation_ui_preview_validate.py": {
+      "sha256": "8395694acc717af0f3a9e460a29ead8559e1415f6268ab1abf01d52300c694b6",
+      "bytes": 4647
+    },
+    "tests/test_aviation_cli.py": {
+      "sha256": "c434e8e269c635f295d1d15d1155ca1c2f13c2a3d52d550cce0e9662acba0b3a",
+      "bytes": 1263
+    },
+    "tests/test_aviation_regions.py": {
+      "sha256": "75eada12486d1fd4b807df204a4ff7e5edec241e0d8c6b32064f7469a1bbad34",
+      "bytes": 6855
+    },
+    "tests/test_aviation_render.py": {
+      "sha256": "fe53abc206d375b793216c0b301a99f3b7c13e09886cce3850141a6efc91f506",
+      "bytes": 8179
+    },
+    "reports/aviation_approach_validation.json": {
+      "sha256": "83f6d2213f1e9ef32c5802976550ee54d3540bd30bad11237a2ba351bc8df081",
+      "bytes": 23302
+    },
+    "reports/aviation_contrast_validation.json": {
+      "sha256": "8c9fa3e32fad0363c4b895706342d380e0d9096bad773236f5b2709d88448944",
+      "bytes": 39373
+    },
+    "reports/aviation_default_regression.json": {
+      "sha256": "ae3a4b023b2f00135f252648664b6afa1b558bbee986e39e1121954837a0d4f8",
+      "bytes": 345
+    },
+    "reports/aviation_live_layout_validation.json": {
+      "sha256": "7aa6d46620382587b41cd4ed2af359c654dff474d67525d589865af9860c72cf",
+      "bytes": 7357
+    },
+    "reports/aviation_nps_validation.json": {
+      "sha256": "d7120cc85229a77b6fabc8362fec5542b71e46f05f3ee892d6068e1e11d82cf8",
+      "bytes": 29305
+    },
+    "reports/aviation_ui_preview_validation.json": {
+      "sha256": "480d0a749dc5a088e5a374ac637507ad5f85ae88ad139a08b8f5de1b25a79438",
+      "bytes": 4862
+    },
+    "reports/aviation_ui_regression.json": {
+      "sha256": "8399999878281861617d1f3261ab996f62d2647290bb6ca7867f809df38cd8f1",
+      "bytes": 8789
+    },
+    "reports/aviation_ui_regression_nps.json": {
+      "sha256": "b79ab90c361697abc54d048d3f6b1497e71820a58ec9cc47ea27031f3c87961c",
+      "bytes": 3224
+    },
+    "README.md": {
+      "sha256": "148f99f41ec09a94e05cfc47b827511072b4d65d8ae57b77a92fd8e34183a755",
+      "bytes": 11861
+    },
+    "docs/AVIATION_UI.md": {
+      "sha256": "fa8822418f4f6f55f9df2453e467f85a3bc8831fb96bfba05cc27ec3ceea91f4",
+      "bytes": 12953
+    },
+    "docs/FINAL_DEMO.md": {
+      "sha256": "e90c4b3be158bb4480cb453f3baf4ef489d10cf389a91023b6aa6736d8f42368",
+      "bytes": 19072
+    },
+    "demo/AVIATION_UI.html": {
+      "sha256": "c03933c51650577c4ee677fa89dfbd1cab5b6c0bc230d916bcb7820b75e9c82c",
+      "bytes": 4386
+    },
+    "demo/FINAL_DEMO.html": {
+      "sha256": "f75bf198630ed9bebeb35b5524a4fea5261b99ea70678b4ea4d33049bb8e164a",
+      "bytes": 8492
+    }
+  },
+  "scope": "Aviation presentation of original measured image data; grouped attention is not physical safe/unsafe airspace segmentation"
+}

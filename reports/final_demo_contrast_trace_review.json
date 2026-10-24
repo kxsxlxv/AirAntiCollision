@@ -1,0 +1,220 @@
+{
+  "source_run": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\demo\\final_showcase_contrast",
+  "frames": 803,
+  "frame_states": {
+    "INSUFFICIENT EVIDENCE": 371,
+    "MONITORING": 432
+  },
+  "resolved_direction_episodes": [
+    {
+      "key": [
+        5,
+        [
+          -0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 3.392177223952925,
+      "end_s": 3.426791277258567,
+      "frames": 2
+    },
+    {
+      "key": [
+        5,
+        [
+          -0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 3.7037037037037037,
+      "end_s": 3.7037037037037037,
+      "frames": 1
+    },
+    {
+      "key": [
+        5,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 6.6112841813776395,
+      "end_s": 7.684319833852544,
+      "frames": 32
+    },
+    {
+      "key": [
+        5,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 7.892004153686397,
+      "end_s": 8.030460366908965,
+      "frames": 5
+    },
+    {
+      "key": [
+        5,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 8.238144686742817,
+      "end_s": 8.515057113187954,
+      "frames": 9
+    },
+    {
+      "key": [
+        5,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 8.722741433021806,
+      "end_s": 10.868812737971616,
+      "frames": 63
+    },
+    {
+      "key": [
+        11,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 10.903426791277258,
+      "end_s": 11.526479750778815,
+      "frames": 19
+    },
+    {
+      "key": [
+        5,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 11.561093804084457,
+      "end_s": 11.5957078573901,
+      "frames": 2
+    },
+    {
+      "key": [
+        14,
+        [
+          1.0,
+          -0.0
+        ]
+      ],
+      "start_s": 17.23779854620976,
+      "end_s": 17.514710972654896,
+      "frames": 9
+    },
+    {
+      "key": [
+        14,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 17.72239529248875,
+      "end_s": 17.930079612322604,
+      "frames": 7
+    },
+    {
+      "key": [
+        14,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 18.137763932156457,
+      "end_s": 18.72620283835237,
+      "frames": 18
+    },
+    {
+      "key": [
+        14,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 18.933887158186224,
+      "end_s": 19.003115264797508,
+      "frames": 3
+    },
+    {
+      "key": [
+        14,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 19.937694704049843,
+      "end_s": 20.941502249913466,
+      "frames": 30
+    },
+    {
+      "key": [
+        13,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 20.976116303219108,
+      "end_s": 23.1914157147802,
+      "frames": 65
+    },
+    {
+      "key": [
+        16,
+        [
+          0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 23.399100034614055,
+      "end_s": 24.783662166839736,
+      "frames": 41
+    },
+    {
+      "key": [
+        16,
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "start_s": 24.99134648667359,
+      "end_s": 25.822083766008998,
+      "frames": 25
+    },
+    {
+      "key": [
+        16,
+        [
+          -0.70711,
+          -0.70711
+        ]
+      ],
+      "start_s": 26.02976808584285,
+      "end_s": 26.237452405676706,
+      "frames": 7
+    }
+  ],
+  "resolved_arrow_frames": 338,
+  "priority_changes": 14,
+  "direction_geometry_violations": [],
+  "contact_sheet": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\final_demo_qa\\final_showcase_contrast_contact.jpg",
+  "criterion": "For each resolved arrow, moving a normalized image reference along the arrow increases squared distance from the linearly projected target to first order: -2*p dot v > 0.",
+  "scope": "Image-coordinate illustration only; not physical aircraft displacement or flight guidance"
+}
