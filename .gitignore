@@ -19,6 +19,7 @@ __pycache__/
 # in reports/mot_provenance.json; see MOT_RESULTS.md for reproduction details.
 /external/
 /artifacts/
+/handoff/
 *.pt
 *.pth
 *.onnx

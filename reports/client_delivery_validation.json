@@ -1,0 +1,18 @@
+{
+  "folder": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\handoff\\AirAntiCollision_Customer",
+  "archive": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\handoff\\AirAntiCollision_Customer.zip",
+  "files": 51,
+  "archive_bytes": 276902136,
+  "archive_sha256": "207dbca79d8fdd74371c3bff95ee0fad6e7d46324568162ef1e4971e2802b2e5",
+  "pdf_pages": 7,
+  "native_google_equations": 19,
+  "pdf_sha256": "a47f8f603d885101fbcfa2bbc7e8d3134f794d5e36b63b53905944a15ae50c98",
+  "zip_crc_all_members_passed": true,
+  "no_git_tests_or_discussion": true,
+  "model_A_smoke_frames": 30,
+  "model_B_smoke_frames": 30,
+  "fresh_machine_installation_tested": false,
+  "final_folder_live_smoke_frames_per_model": 10,
+  "all_delivered_file_digests_checked": true,
+  "code_references_use_delivered_filenames": true
+}
