@@ -1,0 +1,138 @@
+{
+  "dataset": "TartanAviation",
+  "source": "https://github.com/castacks/TartanAviation/",
+  "sample": "1_2022-06-26-08-32-07",
+  "reference_points": 68,
+  "icao_ids": [
+    11166922
+  ],
+  "annotated_frames": 1258,
+  "acquisition_rt_records": 1934,
+  "acquisition_span_s": 78.87038779258728,
+  "paired_reference_gap_s": {
+    "count": 67,
+    "median": 1.0153887271881104,
+    "p95": 1.9956196784973144,
+    "max": 3.013540029525757
+  },
+  "nearest_sampled_horizontal_reference": {
+    "icao": 11166922,
+    "ordinal": 807,
+    "utc_s": 1656246764.0097172,
+    "latitude_deg": 40.377823,
+    "longitude_deg": -79.86792,
+    "altitude_reference_m": 1501.14,
+    "camera_latitude_deg": 40.35142,
+    "camera_longitude_deg": -79.92391,
+    "north_m": 2933.3371017758604,
+    "east_m": 4754.746373628273,
+    "vertical_proxy_m": 1119.64,
+    "horizontal_range_m": 5586.777213222846,
+    "slant_proxy_m": 5697.865684603843
+  },
+  "annotation_horizontal_distance_vs_paired_reference_abs_error_m": {
+    "count": 44,
+    "median": 2.882990019123554,
+    "p95": 6.057083882577309,
+    "max": 7.706230929920821
+  },
+  "raw_unique_reports_in_clip_window": 9,
+  "raw_rejected_records": 0,
+  "paired_points_with_exact_raw_coordinate_match": 1,
+  "raw_minus_paired_timestamp_s": {
+    "count": 1,
+    "median": 2.0192551612854004,
+    "p95": 2.0192551612854004,
+    "max": 2.0192551612854004
+  },
+  "raw_gnss_altitude_reports": 0,
+  "limitations": [
+    "Stationary ground camera, not moving ownship.",
+    "Paired ADS-B and raw CSV are the same receiver source, not independent ground truths.",
+    "No verified intrinsics/extrinsics or synchronized ownship motion.",
+    "Frame alignment follows official 24fps extraction numbered from 2; clock/exposure delay not calibrated.",
+    "Label distance is horizontal km; vector norm is a slant proxy with uncertain vertical datum.",
+    "No physical collision labels, safety accuracy, maneuver validation or calibrated collision probabilities."
+  ],
+  "provenance": {
+    "1_2022-06-26-08-32-07.mp4": "8c8b6f772f21f9c48ea44a7716eacf73d7d21094e974d71ec4ed3387e8d2610a",
+    "1_2022-06-26-08-32-07_acft_sink.pkl": "acb78c22c78de048cf8762289c21317fd7e92fbd512579944e1e153e7b15c9ba",
+    "1_2022-06-26-08-32-07_labels.zip": "eab29edd6ba229527d9dcfe19cc8bfae0d12f0a381513ec5d192d3cd91b5c46c",
+    "1_2022-06-26-08-32-07_sink_adsb.pkl": "2740b870ae372e304a1e6f60bff1f13fa4a418b655a7bfb84febf36bb844e31f",
+    "1_2022-06-26-08-32-07_subtitle.srt": "b9e827e24d65bc7a496a9bb3650c4a8ecead9a65a8648640b864e4d7e74945c8"
+  },
+  "raw_csv_sha256": "bb2f2e217a5b0affb744bfe671baf03ab33c51d678a4a844abfaed115fc543c7",
+  "inference": {
+    "run": "demo\\tartan_jun26",
+    "benchmark_sha256": "e3cab93f3949e06945f13e1c629515049f96e6e202b98316de069a0a6d9ac446",
+    "weights_sha256": "89e5d441f97a1cc3731340460cfa584a1f401c2d08fad01f17b5aacff1c258d9",
+    "detector_contract": {
+      "variant": "A",
+      "input_shape": [
+        1,
+        3,
+        416,
+        704
+      ],
+      "output_shape": [
+        1,
+        300,
+        6
+      ],
+      "semantic_taxonomy": [
+        "airplane",
+        "helicopter",
+        "bird",
+        "balloon",
+        "parachute"
+      ],
+      "letterbox": "RGB NCHW /255, linear resize, centred 114 pad, round dimensions",
+      "preprocess": "CUDA OpenCV",
+      "tiled": true,
+      "adaptive_tiles": false,
+      "tile_shape": [
+        416,
+        704
+      ],
+      "tile_edge_margin_px": 2.0,
+      "cross_box_nms_iou": 0.45,
+      "conf": 0.03,
+      "weights_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\yolo26m_local.engine",
+      "weights_sha256": "89e5d441f97a1cc3731340460cfa584a1f401c2d08fad01f17b5aacff1c258d9",
+      "registered_supplied_export": true,
+      "provenance_manifest_sha256": "65724aee702b7053283abb459ae8589d62c8dee81f6e4010d118e47e2c0327f8",
+      "matching_assets": [
+        "A_engine"
+      ],
+      "input_dtype": "float32"
+    },
+    "processed_frames": 967,
+    "gt_objects_in_sampled_frames": 629,
+    "raw_detector_iou03_matches_all_classes": 524,
+    "raw_detector_iou03_matches_airplane_class": 213,
+    "fresh_confirmed_track_matches": 518,
+    "matched_cue_states": {
+      "INSUFFICIENT EVIDENCE": 320,
+      "MONITORING": 198
+    },
+    "all_predicted_cue_states_including_unmatched": {
+      "INSUFFICIENT EVIDENCE": 7100,
+      "MONITORING": 4402,
+      "POSSIBLE CONVERGENCE": 152
+    },
+    "short_gap_matched_track_id_changes": 61,
+    "alignment_sensitivity_matches_ordinal_offsets": {
+      "-2": 520,
+      "-1": 520,
+      "0": 518,
+      "1": 518,
+      "2": 510
+    },
+    "growth_sign_comparison_count": 211,
+    "growth_sign_agreement_fraction": 0.4976303317535545,
+    "scope": "selected episode, overlap threshold 0.3, no overall MOT or collision accuracy claim",
+    "matched_approaching_frames": 111,
+    "matched_receding_frames": 210,
+    "positive_visual_growth_frames": 70
+  }
+}

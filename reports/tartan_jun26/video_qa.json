@@ -1,0 +1,13 @@
+{
+  "path": "demo\\tartan_jun26\\annotated.mp4",
+  "fully_decoded_frames": 967,
+  "expected_frames": 967,
+  "resolutions": [
+    [
+      3840,
+      1080
+    ]
+  ],
+  "strictly_increasing_pts": true,
+  "max_pts_error_vs_acquisition_s": 5.5506812230987634e-06
+}

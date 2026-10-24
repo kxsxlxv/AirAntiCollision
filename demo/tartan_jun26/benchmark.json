@@ -1,0 +1,86 @@
+{
+  "kind": "live_neural_inference",
+  "args": {
+    "video": "artifacts/tartan_jun26/1_2022-06-26-08-32-07.mp4",
+    "clock": "artifacts/tartan_jun26/1_2022-06-26-08-32-07_subtitle.srt",
+    "output": "demo/tartan_jun26",
+    "weights": "artifacts/yolo26m_local.engine",
+    "stride": 2,
+    "max_frames": null,
+    "no_render": false
+  },
+  "input_sha256": "8c8b6f772f21f9c48ea44a7716eacf73d7d21094e974d71ec4ed3387e8d2610a",
+  "clock_sha256": "b9e827e24d65bc7a496a9bb3650c4a8ecead9a65a8648640b864e4d7e74945c8",
+  "weights_sha256": "89e5d441f97a1cc3731340460cfa584a1f401c2d08fad01f17b5aacff1c258d9",
+  "detector_contract": {
+    "variant": "A",
+    "input_shape": [
+      1,
+      3,
+      416,
+      704
+    ],
+    "output_shape": [
+      1,
+      300,
+      6
+    ],
+    "semantic_taxonomy": [
+      "airplane",
+      "helicopter",
+      "bird",
+      "balloon",
+      "parachute"
+    ],
+    "letterbox": "RGB NCHW /255, linear resize, centred 114 pad, round dimensions",
+    "preprocess": "CUDA OpenCV",
+    "tiled": true,
+    "adaptive_tiles": false,
+    "tile_shape": [
+      416,
+      704
+    ],
+    "tile_edge_margin_px": 2.0,
+    "cross_box_nms_iou": 0.45,
+    "conf": 0.03,
+    "weights_path": "C:\\Users\\kisel\\PycharmProjects\\AirAntiCollision\\artifacts\\yolo26m_local.engine",
+    "weights_sha256": "89e5d441f97a1cc3731340460cfa584a1f401c2d08fad01f17b5aacff1c258d9",
+    "registered_supplied_export": true,
+    "provenance_manifest_sha256": "65724aee702b7053283abb459ae8589d62c8dee81f6e4010d118e47e2c0327f8",
+    "matching_assets": [
+      "A_engine"
+    ],
+    "input_dtype": "float32"
+  },
+  "resolution": [
+    2448,
+    2048
+  ],
+  "frames": 967,
+  "decoded_frames": 1933,
+  "network_calls_total": 34812,
+  "elapsed_s": 178.83159989999967,
+  "processing_fps_including_startup_and_encoder": 5.407321751529002,
+  "cue_states_track_frames": {
+    "INSUFFICIENT EVIDENCE": 7100,
+    "MONITORING": 4402,
+    "POSSIBLE CONVERGENCE": 152
+  },
+  "acquisition_duration_s": 78.87377965450287,
+  "source_clock": {
+    "mapping": "video frame index i -> SRT RT ordinal i+2; official extraction starts at 2",
+    "video_frames": 1933,
+    "srt_records": 1934,
+    "timestamps": "causal RT wall-clock observations, normalized to ordinal 2",
+    "annotation_or_adsb_inputs": false,
+    "limitation": "frame mapping checked by counts and annotation alignment; exposure/RT delay not independently calibrated"
+  },
+  "physical_collision_classification": false,
+  "camera_calibration": null,
+  "metric_ranges_used_by_runtime": false,
+  "runtime_reference_input": false,
+  "cv2": "5.0.0",
+  "providers": [
+    "TensorRT 11.4.0.106"
+  ]
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TartanAviation — проверка по траектории</title>
+<style>
+body{margin:0;background:#09131f;color:#dceaf7;font:17px/1.55 system-ui,sans-serif}main{max-width:1440px;margin:auto;padding:36px 28px}h1{font-size:34px;margin:0}h2{font-size:24px;margin-top:36px}p{max-width:1080px;color:#afc2d4}a{color:#59d8ea}video{width:100%;border:1px solid #324758;background:#000;border-radius:10px}aside{border-left:3px solid #ffbc60;padding:12px 20px;background:#142333;margin:24px 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.grid img{width:100%;border-radius:6px}.grid a{font-size:15px}figure{margin:0}small{color:#afc2d4}.metric{display:flex;gap:40px;flex-wrap:wrap;padding:18px 0}.metric strong{display:block;font-size:32px;color:#59d8ea}footer{border-top:1px solid #324758;margin-top:36px;padding:20px 0;color:#afc2d4}
+</style>
+<main>
+<h1>TartanAviation · проверка по записанной траектории</h1>
+<p>Airbus A319, неподвижная наземная камера. Реальный RGB, исходный YOLO26m и трекер. Эталонные рамки и ADS-B доступны только после инференса, для оценки.</p>
+<div class="metric"><div><strong>68</strong>пространственных ADS-B точек</div><div><strong>5,59 км</strong>ближайшая записанная горизонтальная дальность</div><div><strong>967</strong>обработанных кадров</div></div>
+<aside>Это диагностический эксперимент. На сопоставленных наблюдениях A319: 198 «КОНТРОЛЬ», 320 «НЕДОСТАТОЧНО ДАННЫХ», предупреждений нет. В остальных предсказаниях есть 152 предупреждающих отсчёта, включая наблюдаемые ошибки на фоне. Физическая точность определения столкновения не установлена.</aside>
+<h2>Сравнение с эталоном · 1920×1080</h2>
+<p>Белая отметка A319 и метрическая траектория — офлайн-эталон. Цветные рамки, классы и ID — реальные предсказания. Ошибки оставлены видимыми.</p>
+<video controls preload="metadata" poster="tartan_trajectory_review/nearest_pass.png"><source src="tartan_trajectory_review/evaluation_reference.mp4" type="video/mp4"></video>
+<h2>Исходный результат системы · 3840×1080</h2>
+<p>Только предсказания по RGB и время камеры. ADS-B, расстояния и эталонные рамки в этот конвейер не поступали.</p>
+<video controls preload="metadata" poster="tartan_jun26/preview.png"><source src="tartan_jun26/annotated.mp4" type="video/mp4"></video>
+<h2>Контрольные моменты</h2>
+<div class="grid"><figure><a href="tartan_trajectory_review/approach.png"><img src="tartan_trajectory_review/approach.png" alt="Сближение с большим боковым смещением">Сближение</a></figure><figure><a href="tartan_trajectory_review/nearest_pass.png"><img src="tartan_trajectory_review/nearest_pass.png" alt="Ближайшая точка в записи">Ближайшая точка</a></figure><figure><a href="tartan_trajectory_review/receding.png"><img src="tartan_trajectory_review/receding.png" alt="Удаление самолёта">Удаление</a></figure></div>
+<p><a href="../docs/TARTAN_TRAJECTORY_EXPERIMENT.md">Методика, измерения и команды воспроизведения</a> · <a href="../reports/tartan_jun26/audit.json">JSON-отчёт</a> · <a href="../reports/tartan_jun26/trajectory_reference.png">Записанная траектория</a></p>
+<footer>Исследовательский прототип. Не руководство полётом. Данные: Patrikar et al., TartanAviation (2025), CC BY 4.0. Видео — локальные воспроизводимые файлы; GitHub не хранит исходные MP4.</footer>
+</main>
+</html>

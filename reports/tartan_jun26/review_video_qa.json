@@ -1,0 +1,14 @@
+{
+  "path": "demo\\tartan_trajectory_review\\evaluation_reference.mp4",
+  "fully_decoded_frames": 967,
+  "expected_frames": 967,
+  "resolutions": [
+    [
+      1920,
+      1080
+    ]
+  ],
+  "strictly_increasing_pts": true,
+  "max_pts_error_vs_acquisition_s": 5.5506812230987634e-06,
+  "sha256": "a0473369f71bbf9ab8ec63f4f8a9d57e1044bfb2a0b49b966b7415e4bf0ee3f5"
+}
